@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>DEC对字符型变量操作命令[!]</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+<style type="text/css">
+<!--
+.style9 {color: #FF0000}
+-->
+</style>
+</head>
+
+<BODY>
+<P><FONT face=宋体>DEC对字符型变量操作命令。<br>
+MOV命令做了一些改进。</FONT>
+</P>
+<p><FONT face=宋体>[@Main]<br>
+  #ACT<br>
+  MOV S1 996引擎M2<br>
+  MOV S2 996引擎M2<br>
+  DEC S1 996引擎 ;删除S1中的“996引擎”字符串<br>
+DEC S2 
+1 3 ;删除S2中的第1至第3个字符串 这个要注意，一个汉字是2个字节长度，不要删除半个汉字的情况，否则会乱码。</FONT>
+         </p>
+<p>结果 S1=M2<br>
+  S2=引擎M2</p>
+<p><strong>
+  </strong>&nbsp;</p>
+<P><FONT face=Fixedsys><BR>
+  </FONT></P></FONT>
+</BODY>
+</html>

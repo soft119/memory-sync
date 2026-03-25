@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>进度条LoadingBar</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT color=#0000ff size=4 face=宋体><STRONG>自定义进度条百分比显示<BR><BR></STRONG><FONT color=#ff0000>;勾选M2-客户端控制-启用新NPC面板写法生效,不可跟老面板写法混用,仅兼容老写法的文字排版</FONT></FONT><BR><BR><FONT color=#000000 size=3 face=宋体>进度条&nbsp;&nbsp; 
+&lt;LoadingBar&gt;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+wil&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;图片所在文件名<BR> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+size&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;文本字体大小&nbsp;&nbsp;&nbsp; <BR> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+color&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;文本字体颜色<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+outline、outlinecolor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+描边宽度 描边颜色<BR> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+direction&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;方向&nbsp; 0从左到右 1从右到左<BR> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+pcloadingbg&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;进度条底图<BR> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+pcloadingbar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;进度条滚动图&nbsp; <BR> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+startper&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;进度条起始进度<BR> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+interval&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;进度条滚动间隔 默认0.05<BR> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+loadvalue&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;每个时间间隔滚动的进度值 默认10 (即0.5s滚动到百分百) <BR> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+offset 
+X、offsetY&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;进度条bar中心点相对于进度条底图的偏移坐标<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+link&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;跳转(<FONT color=#ff0000><STRONG>点击触发必须放最后</STRONG></FONT> 
+ 
+)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+endper&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;进度条结束进度(不填默认为100)<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+maxper&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;进度条最大值 
+默认为100<BR><BR> 
+ 
+ </FONT></P>
+<P><FONT size=3 face=宋体><FONT color=#000000>;例子<BR>[@main]<BR>&lt;<A 
+href="mailto:LoadingBar|id=8|a=4|percentx=55|percenty=73||outline=1|outlinecolor=1|direction=0|wil=xx|pcloadingbg=102|pcloadingbar=103|startper=10|interval=0.1|loadvalue=1|endper=50|maxper=150|link=@11">LoadingBar|id=8|a=4|percentx=55|percenty=73||outline=1|outlinecolor=1|direction=0|wil=xx|pcloadingbg=102|pcloadingbar=103|startper=10|interval=0.1|loadvalue=1|endper=50|maxper=150|link=@11</A>&gt;</FONT></FONT></P>
+<P><FONT size=3 face=宋体>[@11]<BR>#IF<BR>#ACT<BR>SENDMSG 6 
+进度条读取完毕</FONT></P></body>
+</html>

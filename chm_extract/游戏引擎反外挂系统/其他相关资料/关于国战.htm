@@ -1,0 +1,150 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>关于国战</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+</head>
+
+<BODY>
+<P><FONT face=Arial size=2><FONT face=Fixedsys>Envir\Nations\Nations.ini中的NationalNames1 -- 
+NationalNames100是国家的名字,只有定义了国家名字之后加入国家才有效! </FONT></FONT></P>
+<P>Nations.ini<BR></P>
+<P>[Names]<br>
+  NationalNames1=<br>
+  NationalNames2=<br>
+  NationalNames3=<br>
+  NationalNames4=<br>
+  NationalNames5=<br>
+  NationalNames6=<br>
+  NationalNames7=<br>
+  NationalNames8=<br>
+  NationalNames9=<br>
+  NationalNames10=<br>
+  NationalNames11=<br>
+  NationalNames12=<br>
+  NationalNames13=<br>
+  NationalNames14=<br>
+  NationalNames15=<br>
+  NationalNames16=<br>
+  NationalNames17=<br>
+  NationalNames18=<br>
+  NationalNames19=<br>
+  NationalNames20=<br>
+  NationalNames21=<br>
+  NationalNames22=<br>
+  NationalNames23=<br>
+  NationalNames24=<br>
+  NationalNames25=<br>
+  NationalNames26=<br>
+  NationalNames27=<br>
+  NationalNames28=<br>
+  NationalNames29=<br>
+  NationalNames30=<br>
+  NationalNames31=<br>
+  NationalNames32=<br>
+  NationalNames33=<br>
+  NationalNames34=<br>
+  NationalNames35=<br>
+  NationalNames36=<br>
+  NationalNames37=<br>
+  NationalNames38=<br>
+  NationalNames39=<br>
+  NationalNames40=<br>
+  NationalNames41=<br>
+  NationalNames42=<br>
+  NationalNames43=<br>
+  NationalNames44=<br>
+  NationalNames45=<br>
+  NationalNames46=<br>
+  NationalNames47=<br>
+  NationalNames48=<br>
+  NationalNames49=<br>
+  NationalNames50=<br>
+  NationalNames51=<br>
+  NationalNames52=<br>
+  NationalNames53=<br>
+  NationalNames54=<br>
+  NationalNames55=<br>
+  NationalNames56=<br>
+  NationalNames57=<br>
+  NationalNames58=<br>
+  NationalNames59=<br>
+  NationalNames60=<br>
+  NationalNames61=<br>
+  NationalNames62=<br>
+  NationalNames63=<br>
+  NationalNames64=<br>
+  NationalNames65=<br>
+  NationalNames66=<br>
+  NationalNames67=<br>
+  NationalNames68=<br>
+  NationalNames69=<br>
+  NationalNames70=<br>
+  NationalNames71=<br>
+  NationalNames72=<br>
+  NationalNames73=<br>
+  NationalNames74=<br>
+  NationalNames75=<br>
+  NationalNames76=<br>
+  NationalNames77=<br>
+  NationalNames78=<br>
+  NationalNames79=<br>
+  NationalNames80=<br>
+  NationalNames81=<br>
+  NationalNames82=<br>
+  NationalNames83=<br>
+  NationalNames84=<br>
+  NationalNames85=<br>
+  NationalNames86=<br>
+  NationalNames87=<br>
+  NationalNames88=<br>
+  NationalNames89=<br>
+  NationalNames90=<br>
+  NationalNames91=<br>
+  NationalNames92=<br>
+  NationalNames93=<br>
+  NationalNames94=<br>
+  NationalNames95=<br>
+  NationalNames96=<br>
+  NationalNames97=<br>
+  NationalNames98=<br>
+  NationalNames99=<br>
+  NationalNames100=<BR>
+</P>
+<P>
+<HR>
+
+<P></P><FONT size=2 face=Fixedsys>
+<P><FONT color=#ff0000>加入国家</FONT></P>
+<P><FONT size=2><STRONG><FONT color=#0000ff>格式：</FONT>JoinNational (<FONT style="BACKGROUND-COLOR: #0078d7" color=#ffffff>国</FONT>家编号 0~100 0表示从当前<FONT style="BACKGROUND-COLOR: #0078d7" color=#ffffff>国</FONT>家中删除，也就是退出该<FONT style="BACKGROUND-COLOR: #0078d7" color=#ffffff>国</FONT>家) 
+</STRONG><BR><BR>;==========================================<BR></FONT>[@main]<BR>#IF<BR>CheckNational 
+0 <BR>#ACT<BR>JoinNational 1<BR>SENDMSG 6 你成功加入&lt;$NATIONNAME&gt;，当前<FONT style="BACKGROUND-COLOR: #0078d7" color=#ffffff>国</FONT>家总人数:&lt;$NATIONPEOPLE&gt;<BR>#ELASEACT<BR>MESSAGEBOX 
+你已经加入了&lt;$NATIONNAME&gt;，是否要注销<FONT style="BACKGROUND-COLOR: #0078d7" color=#ffffff>国</FONT>籍？ @yes</P>
+<P>[@yes]<BR>#ACT<BR>JoinNational 0<BR>SENDMSG 6 你成功注销<FONT style="BACKGROUND-COLOR: #0078d7" color=#ffffff>国</FONT>籍</P>
+<HR>
+
+<P><FONT color=#ff0000>检测加入国家</FONT></P>
+<P>格式: CheckNational (<FONT style="BACKGROUND-COLOR: #0078d7" color=#ffffff>国</FONT>家编号 0~100) <BR>[@main] <BR>#IF<BR>CheckNational 0 
+<BR>#SAY<BR>你还没有加入<FONT style="BACKGROUND-COLOR: #0078d7" color=#ffffff>国</FONT>家<BR>BREAK</P>
+<P>#IF<BR>CheckNational 1 <BR>#SAY<BR>你已经加入<FONT style="BACKGROUND-COLOR: #0078d7" color=#ffffff>国</FONT>家，<FONT style="BACKGROUND-COLOR: #0078d7" color=#ffffff>国</FONT>家编号1<BR>BREAK</P></FONT><FONT size=2 face=Fixedsys>
+<P>
+<HR>
+
+<P></P>
+<P><FONT color=#ff0000>检查国家人物总数</FONT> </FONT>
+</P>
+<P><FONT size=2 face=Fixedsys>格式: CheckNationHumCount 操作符(&lt; = &gt;) 
+人数</FONT></P>
+<P><FONT size=2><FONT face=Fixedsys>#IF<BR>CheckNationHumCount &gt; 
+100<BR>#SAY<BR>当前<FONT style="BACKGROUND-COLOR: #0078d7" color=#ffffff>国</FONT>家大于100人.</FONT> </FONT>
+
+  <br></P>
+<P></P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P><FONT face=Arial size=2><FONT face=Fixedsys><BR>
+</FONT> </FONT></P>
+</BODY>
+</html>

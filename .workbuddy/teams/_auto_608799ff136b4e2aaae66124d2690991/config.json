@@ -1,0 +1,23 @@
+{
+  "name": "_auto_608799ff136b4e2aaae66124d2690991",
+  "leadAgentId": "608799ff136b4e2aaae66124d2690991",
+  "workspacePath": "d:\\MirServer",
+  "createdAt": "2026-03-24T05:43:10.226Z",
+  "options": {
+    "workspacePath": "d:\\MirServer",
+    "isAutoTeam": true
+  },
+  "members": [
+    {
+      "memberId": "team-lead@_auto_608799ff136b4e2aaae66124d2690991",
+      "name": "team-lead",
+      "role": "Team Lead - coordinates the team and interacts with the user"
+    },
+    {
+      "memberId": "reader-others@_auto_608799ff136b4e2aaae66124d2690991",
+      "name": "reader-others",
+      "role": "阅读其他辅助目录"
+    }
+  ],
+  "isAutoTeam": true
+}

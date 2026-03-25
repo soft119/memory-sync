@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>内挂自动挂机[!]</title></HEAD>
+<BODY>
+<p>内挂自动挂机使用说明：<br>
+  使用快捷键CTRL+ALT+X或点击挂机按钮会触发QF里的[@StartAutoPlayGame]<br>
+停止挂机触发QF里的[@StopAutoPlayGame]</p>
+<p>格式:<br>
+  StartAutoPlayGame 参数1 参数2 参数3</p>
+<p>参数1:挂机范围(挂机点以人物当前坐标生成范围)<br>
+  参数2:2个挂机点之间的距离(登录器会根据该参数自动生成挂机点,该值可以控制挂机点的密度)<br>
+  参数3:模式(0=需要用户设置挂机点，否则无法挂机，1=如果用户没有设置挂机点，会自动生成挂机点, 2=不管有没有用户有没有设置挂机点都会清空所有挂机点，然后自动生成挂机点)<br>
+</p>
+<p>[@StartAutoPlayGame]<br>
+  #IF<br>
+  CHECKMAPNAME 0<br>
+  #ACT<br>
+  SENDMSG 6 当前地图禁止挂机<br>
+  break</p>
+<p>#IF<br>
+  #ACT<br>
+  StartAutoPlayGame 100 60 1<br>
+  SENDMSG 6 开始挂机，使用快捷键“CTRL+ALT+X”停止挂机</p>
+<p>[@StopAutoPlayGame]<br>
+  #ACT<br>
+  SENDMSG 6 挂机结束，使用快捷键“CTRL+ALT+X”开始挂机</p>
+<p>—————————————————————————————————————————脚本命令停止挂机—————————</p>
+<p>[@main]<br>
+  #IF<br>
+#ACT<br>
+StopAutoPlayGame<br>
+SENDMSG 6 命令停止挂机，使用快捷键“CTRL+ALT+X”开始挂机</p>
+<p>;防外挂调用挂机触发<BR>;前端调用了挂机，引擎没执行过挂机会走这个触发，并累加&lt;$AUTOPLAYGAMEERR&gt;常量次数，GM可以通过这个次数来做出处罚.<BR>;引擎默认也会有处罚。<BR>[@AutoPlayGameErr]<BR>#IF<BR>LARGE 
+&lt;$AUTOPLAYGAMEERR&gt; 
+4<BR>#ACT<BR>;清理挂机异常常量次数，挂机异常常量的次数只有小退和执行这个命令才可以清除。<BR>;启用惩罚并清零<BR>;CLEARAUTOPLAYGAMEERR<BR>SENDMSG 7 挂机常量大于5，执行处罚。<BR><BR>;不惩罚<BR>;CLEARAUTOPLAYGAMEERR 1 <BR> 
+ </p>
+<p> </p>
+</BODY>
+</HTML>
+
+ 

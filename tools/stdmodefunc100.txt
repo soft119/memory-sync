@@ -1,0 +1,10 @@
+[@StdModeFunc100]
+#IF
+#ACT
+INC A500 604800
+SENDMSG 6 点卡使用成功！已增加7天游戏时间！
+#IF
+CHECKMAPNAME 600
+#ACT
+MAPMOVE 3 330 330
+SENDMSG 6 已自动传送回安全区！

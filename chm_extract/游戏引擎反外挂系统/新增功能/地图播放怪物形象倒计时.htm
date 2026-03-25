@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>地图播放怪物形象倒计时</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body><FONT face=宋体><FONT color=#0000ff><STRONG>地图播放怪物形象倒计时<FONT color=#ff0000>(支持自定义特效)</FONT></STRONG></FONT><BR><BR>参数1：地图名字<BR>参数2：X坐标<BR>参数3：Y坐标<BR>参数4：播放类型(0=怪物形象，1=特效)<BR>参数5：<BR>参数4=0时，参数5为播放怪物怪物名字|形象颜色(7种)|方向(0~7)<BR>参数4=1时，参数5为播放特效 WIL序号|开始图片|播放数量|播放速度|绘制模式<BR> 
+参数6：倒计时颜色<BR>参数7：倒计时时间<FONT color=#ff0000>(不能为负数)</FONT><BR>参数8：倒计时结束QF触发字段(可空)<BR>参数9：倒计时文字偏移X|偏移Y(可空，默认位置为怪物形象血条处上方)<BR>参数10：形象ID组(可空)<BR>参数11：备注文字&nbsp; 
+{白野猪\下次刷新|254}\{倒计时|250}<BR><BR>[@main]<BR>#IF<BR>#ACT<BR>MAPEFFECTFUNCALL&nbsp;3&nbsp;336&nbsp;337&nbsp;0&nbsp;白野猪|7|4&nbsp;253&nbsp;1800&nbsp;@测试代码&nbsp;3|3&nbsp;1 
+{白野猪\下次刷新|254}\{倒计时|250}<BR>SENDMSG 
+7 地图3白野猪已被击杀，倒计时30分钟后刷新。<BR><BR><BR><FONT color=#ff0000>;QF触发</FONT><BR>[@测试代码]<BR>#IF<BR>#ACT<BR>MonGenEx 3 336 337 白野猪 1 
+1 0 253<BR> SENDMSG&nbsp;0 
+白野猪已在地图3复活。<BR><BR><BR><FONT color=#0000ff>脚本清除形象倒计时</FONT><BR>[@main]<BR>#IF<BR>#ACT<BR>DELMAPEFFECT 
+1<BR>SENDMSG 6 清除ID为1的形象ID组</FONT></body>
+</html>

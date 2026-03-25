@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>获取当前地图怪物状态命令</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT face=宋体><FONT color=#0000ff>获取当前地图怪物状态命令</FONT> <BR><FONT color=#ff0000>mapBossinfo</FONT> 参数1 参数2 参数3 参数4 参数5<BR>参数1： 
+地图编号<BR>参数2： 怪物名称<BR> 参数3：怪物名字格式，0=默认名称带数字，1=显示名称去掉名字末尾的数字<BR>参数4： 
+结果存入的变量名（字符串变量）<BR>参数5： 
+填空或者0表示刷怪文本里的怪，填1刷怪文本里的怪和脚本命令刷的</FONT> </P>
+<P><FONT face=宋体>结果存入:<BR>字符串格式，多个怪物用&amp;符号分隔<BR>怪物名称#剩余HP百分比#剩余刷新时间（单位秒，存在的怪物刷新时间为0）#当前X坐标#当前Y坐标#归属玩家名字(如果没有归属则获取为“无”)<BR>例如: 
+白野猪#90#0#玩家1&amp;黑野猪#0#300#<BR>表示白野猪剩余90%血,已刷新, 
+归属啊玩家1<BR>黑野猪,0血,300秒后刷新，归属无,<BR><BR></FONT> 
+ <BR><FONT face=宋体>脚本命令刷的怪&nbsp; 剩余刷新时间都为0，多只相同名字的怪死亡后 
+只能获取到一只的信息<BR><BR><FONT color=#ff0000>注意事项:</FONT><BR><FONT color=#000000>cfg_monster.xls表里的X列是否BOSS填 1 <BR></FONT></FONT> 
+ <FONT face=宋体><FONT color=#000000>如果是MonGen.txt刷怪的话必须配置死亡刷新，案例如下：<BR>3 330 330 白野猪 5 1 3 0#1 255 
+  
+ 
+    <BR></FONT><BR></FONT><FONT face=宋体>范例:<BR>[@获取当前地图怪物状态]<BR>#if<BR>#act<BR>MapBossinfo 3 白野猪 0 s2 1<BR>sendmsg 6 
+获取的是[&lt;$STR(s2)&gt;]<BR></FONT></P></body>
+</html>

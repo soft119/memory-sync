@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>脚本中使用图标功能[!]</title>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<STYLE type=text/css>
+<!--
+.STYLE2 {color: #FF0000}
+-->
+</STYLE>
+
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<p><strong><font size="5">脚本中使用图标功能[!]</font></strong> </p>
+<font size="2"><span class="STYLE2"><strong>功能：</strong>脚本中使用图标功能[!]</span><br >
+<strong>格式：</strong>无<br >
+<strong>说明：</strong>无<br >
+<strong>例：</strong></font>
+<p>格式: &lt;Img:N:F:X:Y/@Label&gt;<br >
+  N表示显示文件中的第几个图片,F表示WIL文件序号,X是横向坐标,Y是纵向坐标.<br >
+  F=WIL文件序号(详见引擎：查看-列表信息(二)-WIL资源)<br >
+  X和Y这两个坐标可以使图片显示的坐标更加精准. <br >
+@Label是点击图片时需要触发的脚本标签.</p>
+<p class="STYLE2">2015-09-01新增加 格式: &lt;ImgEx:F:U:H:D:X:Y/@Label&gt; <br >
+  F=WIL文件序号(详见引擎：查看-列表信息(二)-WIL资源)<br >
+  U=默认显示的图片序号<br >
+  H=鼠标放上去时显示的图片序号<br >
+  D=鼠标点下去时显示的图片序号<br >
+  X和Y这两个坐标可以使图片显示的坐标更加精准. <br >
+@Label是点击图片时需要触发的脚本标签.</p>
+<p>NPC对话框里，播放动态图片<br >
+  格式: &lt;PlayImg:F:N:C:T:X:Y:M:L:R/@Label&gt;<br >
+  F表示WIL文件序号<br >
+  N表示播放开始图片<br >
+  C表示播放张数<br >
+  T表示播放速度(毫秒)<br >
+  X,Y表示微调坐标<br >
+  M是绘制模式0普通绘制 1特效绘制<br >
+L表示播放次数，如果为空或为0时，表示无限次数。设置大于0时，表示播放的次数，次数到了就会自动消失<BR>R:表示是否使用修复模式,（0或者空为普通模式，1为修复模式）<BR>普通模式适用于图片大小一样坐标为0,0的特效素材，<BR>修复模式适用于图片大小不一样，坐标有偏移的特效素材。<BR><BR>
+</p>
+<p><br >
+  @Label是点击图片时需要触发的脚本标签. <br >
+  例：</p>
+<p>;显示图标<br >
+  [@main]<br >
+  显示图标&lt;Img:10&gt;<br >
+  ;设置坐标显示更加精确<br >
+  [@main]<br >
+  显示图标&lt;Img:1185:1:1:-10&gt;</p>
+<p>;可执行脚本的图片<br >
+  [@main]<br >
+  显示图标&lt;Img:1185:1:1:-10/@Hint&gt;<br >
+  [@Hint]<br >
+  测试通过<br >
+  ;通过空格控制图片显示的位置.<br >
+  ;注意前面的空格,以及和X Y坐标的区别.<br >
+  [@main]<br >
+  &lt;Img:1185:1:1:-10&gt;显示图标</p>
+<p>[@main]<br >
+  播放图片&lt;PlayImg:1:610:19:100/@播放图片&gt;\<br >
+  播放图片&lt;PlayImg:1:130:7:300:-100:-100&gt;\<BR><BR>文本悬浮TIPS功能及格式<BR><BR>&lt;查看赞助称号功能|250#赠送:王者靴子,全属性2-2、暴击+1%，{2倍金币,经验,声望回收，|253}{七彩变色名字，|249}{可开启自动回收|254}^#250# 
+^#251#&lt;纯净1.76独家复古小极品/FCOLOR=250&gt; &lt;回归经典 
+稍加创新/FCOLOR=253&gt;&gt;<BR><BR><BR><BR><BR><BR>
+  </p></BODY></HTML>

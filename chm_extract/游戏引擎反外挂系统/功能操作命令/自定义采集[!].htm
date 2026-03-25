@@ -1,0 +1,54 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>自定义采集[!]</title>
+</HEAD>
+<BODY>
+<P><FONT face=宋体><FONT color=#0000ff>采集功能格式:<br></FONT>
+SHOWPROGRESSBARDLG 时间(秒) 触发字段 提示信息 有动作是否中断(0不中断,1中断) 
+中断触发字段 </FONT>
+     </P>
+<p><FONT face=宋体>使用示例：<br>
+  [@Main]<br>
+  #ACT<br>
+  SHOWPROGRESSBARDLG 5 @采集完成 正在采集,进度%d%...  1 @采集中断<br>
+  Break </FONT>
+  </p>
+<p><FONT face=宋体>QF触发<br>
+  [@采集完成]<br>
+  #ACT<br>
+  Give 回城卷 1<br>
+  SendMsg 5 你采集一个回城卷<br>
+  Break </FONT>
+  </p>
+<p><FONT face=宋体>[@采集中断]<br>
+  #ACT<br>
+  SendMsg 5 采集被中断<br>
+  Break 
+<BR><BR><BR><BR><BR><BR><FONT color=#0000ff>采集类怪物<BR><BR></FONT>格式：Race=250(怪物不移动,不攻击;人物和宝宝不能攻击此类怪 
+)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 怪物能否回血 
+自行配置Monster.xls表RehealthCd字段<BR>说明：玩家点击怪物将会触发QF的[@CollectMonX]其中X代表Monster.xls怪物ID，视野范围ViewRange字段作为可以触发脚本的范围，为0代表不检测，如果超过范围触发QF的[@CollectMonFailX]</FONT>
+  </p>
+<p><IMG alt="" src="../新增功能/cjg.png"><BR><FONT face=宋体>例：<BR>;点击任意采集怪触发<BR>[@CollectMonEX]<BR>#IF<BR>#ACT<BR>;&lt;$Param1&gt;=怪物ID<BR>;&lt;$Param2&gt;=怪物名称<BR>;&lt;$Param3&gt;=怪物唯一ID<BR>mov 
+S10 &lt;$Param3&gt;<BR>SENDMSG 7 
+点击采集怪&lt;$Param1&gt;-&lt;$Param2&gt;-&lt;$Param3&gt;<BR>SHOWPROGRESSBARDLG 5 
+@采集完成 正在采集,进度%d%... 1 @采集中断<BR>stop<BR>     </FONT>
+  </p>
+<p><FONT face=宋体>[@采集完成]<BR>#IF<BR>#ACT<BR>;根据怪物唯一ID触发QF<BR>CAIJIBYPARAM 
+&lt;$Str(S10)&gt;<BR><BR> 
+<BR>  </FONT><FONT face=宋体>[@CollectMon1451]<BR>#IF<BR>CheckLevel &gt; 
+0<BR>#ACT<BR>Give 金条<BR>M.HUMANHP - 10000000<BR>SendMsg 5 你探索到了一个金条!</FONT>
+  </p>
+<p><FONT face=宋体>[@采集中断]<BR>#IF<BR>#ACT<BR>SENDMSG 7 
+你的采集被打断</FONT>
+  </p>
+<p><FONT face=宋体>;超过范围触发脚本如下:<BR>[@CollectMonFail1451]<BR>#act<BR>sendmsg 9 
+你离着太远了，靠近一点再采集！</FONT>
+  </p>
+<p><FONT face=宋体></FONT>
+  </p>
+</BODY>
+</HTML>
+

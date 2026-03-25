@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>BUFF</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+</head>
+
+<BODY>
+<P><FONT face=宋体><FONT size=2 >功能: 
+在<FONT color=#ff0000>屏幕右上角</FONT> 显示图标，在图标下面显示倒计时，时间到了，触发脚本，图标自动消失 </FONT><br>
+  <strong> </strong></FONT><FONT size=2 ><BR>
+</FONT><FONT face=宋体>SetClientBuff WIL文件序号 序号(1~99) 图片序号 
+倒计时间(-1时按钮，大于0是倒计时(单位：秒)) 文字备注 微调坐标X 微调坐标Y 附加特性(如果不使用附加特效，可以为空)</FONT>              </P>
+<P><FONT face=宋体>//倒时在QF脚本里触发[@CloseClientBuffX]X是序号。按钮模式点击在QF脚本里触发[@文字备注]</FONT></P>
+<P><FONT face=宋体>最后一个参数附加特效，如果为空，表示没有附加特效，共六个参数，每个参数之间使用“|”隔开。特效WIL序号|特效开始图片|播放张数|播放速度(毫秒)|播放模式(0特效绘制,1普通绘制)|微调X|微调Y</FONT></P>
+<P><FONT face=宋体>[@显示BUFF]<br>
+  #ACT<br>
+SetClientBuff 9 1 275 60 文字备注 0 0 
+9|840|10|200|0|0|40</FONT>
+        </P>
+<P><FONT face=宋体><FONT size=2 >功能:</FONT>关闭<br>
+  CloseClientBuff 
+序号(1~99) </FONT>
+    </P>
+<p><FONT face=宋体></FONT>&nbsp;</p>
+</BODY>
+</html>

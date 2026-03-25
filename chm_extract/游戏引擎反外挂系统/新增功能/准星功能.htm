@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>准星功能</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT color=#0000ff size=3><STRONG><FONT face=宋体><FONT color=#0000ff>准星功能<BR></FONT><BR><BR></FONT></STRONG><FONT color=#ff0000 face=宋体>数据库物品设置:<BR></FONT><FONT color=#000000><FONT size=3><FONT face=宋体>StdMode=47 新增扩展物品&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 可叠<FONT color=#000000>加<BR>Shape=50， 物品使用一次后消失 , 准星对准物品点击了，即消失<BR>Shape=51， 物品可以一直使用，直到手动删除<BR>Shape=52， 
+右键使用准星物品可以一直使用，每选择一次物品触发一次[@StdmodeShowX]，直到右键取消后结束准星功能。<BR></FONT>Anicount，&nbsp;&nbsp;&nbsp;&nbsp; 触发<FONT color=#000000>QF中的&nbsp; [@StdmodeShowX]&nbsp; X=数字</FONT> 
+<BR><BR><BR></FONT><FONT face=宋体><FONT color=#ff0000><FONT color=#0000ff>脚本开启准星:</FONT><BR></FONT>格式:Collimator 
+触发ID 是否可以一直使用(0或空：只能使用一次,1：一直使用直到右键结束)<BR><BR><BR></FONT></FONT></P>
+<P><FONT size=3 face=宋体>PC端右键使<FONT color=#000000>用后 
+鼠标增加准星模式<BR>移动端使用后，准星物品上会有准星图标，可以拖动到需要准星的物品上</FONT><BR></FONT></P>
+<P><FONT face=宋体><FONT color=#ff0000>增加常量：<BR></FONT>当前使用物品名</FONT><FONT color=#000000 face=宋体>：&lt;$UseItemName&gt;&nbsp; <BR></FONT><FONT color=#000000><FONT face=宋体>当前使用物品唯一ID<FONT color=#000000>：&lt;$UseItemMakeIndex&gt;&nbsp;&nbsp; 
+<BR>当前使用物品IDX：&lt;$UseItemMakeidx&gt;<BR><BR>准星选择的物品名称：&lt;$BagItemName&gt; 
+<BR>准星选择的物品唯一ID：&lt;$BagItemMakeIndex&gt;&nbsp; 
+<BR>准星选择的物品IDX：&lt;$BagItemstidx&gt;<BR><BR><BR></FONT></FONT></P></FONT>
+<P><FONT color=#000000><BR><FONT face=宋体><FONT color=#000000>[@StdModeShow1]<BR>#if<BR>#act<BR>SendMsg 6 
+人物当前使用的物品名:&lt;$UseItemName&gt;，唯一ID:&lt;$UseItemMakeIndex&gt;，当前使用物品IDX：&lt;$UseItemMakeidx&gt;,准星物品改名名字&lt;$G_UseItemName&gt;<BR>SendMsg 6 
+使用物品目标名字:&lt;$BagItemName&gt;，唯一ID:&lt;$BagItemMakeIndex&gt;，准星选择的物品IDX：&lt;$BagItemstidx&gt;，准星选中物品的改名名字&lt;$G_BagItemName&gt; 
+<BR>;关联准星物品<BR>LINKITEMBYMAKEINDEX 
+&lt;$BagItemMakeIndex&gt;<BR>ChangeItemNameColor -1 253<BR>UpDateBoxItem 
+-1</FONT><BR>SENDMSG 0 你的物品颜色变成了253</FONT> 
+</P></FONT></FONT></FONT></body>
+</html>

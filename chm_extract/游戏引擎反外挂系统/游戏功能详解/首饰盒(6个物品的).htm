@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>首饰盒(6个物品的)</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+</head>
+
+<BODY>
+<p>在“引擎-选项-功能设置-其他控制(3)” 里面开启</p>
+<p>必备补丁“NewopUI.pak”236 237 238 是打开首饰盒的按钮图片，如果要更换这三个图片，只能替换 必备补丁“NewopUI.pak”里面的图片，不能使用UI编辑器修改</p>
+<p>人物开启首饰盒：<br>
+  QFunction-0.txt 加入如下脚本<br>
+  [@OpenSndaItemBox2]<br>
+  #act<br>
+  ;如果那个首饰盒按钮是灰色的，点击那个按钮就会触发这个，然后使用命令SetSndaItemBox开启后，按钮就会变彩色，然后点击按钮就可以打开首饰盒子<br>
+  SetSndaItemBox 1 1<br>
+  SENDMSG 6 人物首饰盒开启成功
+</p>
+<p>英雄开启首饰盒：<br>
+  [@HeroOpenSndaItemBox2]<br>
+  #act<br>
+  ;如果那个首饰盒按钮是灰色的，点击那个按钮就会触发这个，然后使用命令SetSndaItemBox开启后，按钮就会变彩色，然后点击按钮就可以打开首饰盒子<br>
+  H.SetSndaItemBox 1 1<br>
+  H.SENDMSG 6 英雄首饰盒开启成功</p>
+<p>DB设置<br>
+  头盔：stdmode段为15<br>
+  项链：stdmode段为19、20、21<br>
+  手镯：stdmode段为24、26<br>
+  戒指：stdmode段为22、23<br>
+  ;----------------------------------------------------------------------------------</p>
+<p>放入条件<br>
+  物品允许装备的位置（只限于可以装备的物品）数据库字段：Overlap<br>
+  0,1 只允许穿身上<br>
+  2： 只允许首饰盒 <br>
+  3: 可以穿身上+首饰盒<br>
+  4： 只允许神佑<br>
+  5： 可以穿身上+神佑盒<br>
+  6： 首饰盒+神佑盒<br>
+  7： 身上+首饰盒+神佑盒<br>
+  ;----------------------------------------------------------------------------------<br>
+  首饰盒放入位置设置： Expand1: 1-6 对应6个位置；Expand1=0不能放入 Expand1=13所有位置可放<br>
+神佑盒放入位置设置： Expand1: 1-12 对应12个位置；Expand1=0不能放入 Expand1=13所有位置可放</p>
+<p>需要自己在数据库里添加一个字段“Expand1” 创建字段的时候要选择数字型类型的 INTEGER 类型的 </p>
+<p>首饰盒装备位置：42-47<br>
+  ;----------------------------------------------------------------------------------<br>
+  变量：</p>
+<p>&lt;$JEWELRYITEM1&gt; ---- &lt;$JEWELRYITEM6&gt; 人物首饰盒<br>
+&lt;$H.JEWELRYITEM1&gt; ---- &lt;$H.JEWELRYITEM6&gt; 英雄首饰盒</p>
+<p>&lt;$G_JEWELRYITEM1&gt; ---- &lt;$G_JEWELRYITEM6&gt; 人物首饰盒改名名称，如果没有改名还是显示DB里的名称<br>&lt;$H.G_JEWELRYITEM1&gt; ---- 
+&lt;$H.G_JEWELRYITEM6&gt; 
+英雄首饰盒改名名称，如果没有改名还是显示DB里的名称<BR><BR>&lt;$JEWELRYITEM1ID&gt; ---- 
+&lt;$JEWELRYITEM6ID&gt; 人物首饰盒唯一ID<BR>&lt;$H.JEWELRYITEM1ID&gt; ---- 
+&lt;$H.JEWELRYITEM6UD&gt; 英雄首饰盒唯一ID<BR>
+   <br>
+</p>
+</BODY>
+</html>

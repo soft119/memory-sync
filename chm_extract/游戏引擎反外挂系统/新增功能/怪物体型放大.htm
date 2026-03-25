@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>怪物体型放大</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT color=#0000ff face=宋体><STRONG>怪物体型放大、缩小功能</STRONG><BR><BR><BR></FONT><FONT color=#000000><FONT face=宋体>1、扩展cfg_monster.xls表Q列为怪物体型倍数，比如150=刷新出来的怪物体型放大1.5倍<BR>2、MonGenEx 颜色参数扩展 例如255#150表示本次刷的怪物体型放大1.5倍<BR>3、MonGenEx 
+颜色参数扩展 例如255#150;3#0#120;测试1 
+表示怪物体型1.5倍，所有属性提升1.2倍(血量、攻击下限、攻击上限、防御下限、防御上限)<BR><BR>  
+3#0#120;测试1&nbsp; 
+解析<BR><BR>3&nbsp;&nbsp;&nbsp;&nbsp;表示该属性有效的职业，0=战士、1=法师、2=道士、3=全职业，该命令为怪物所以填3<BR>0&nbsp;&nbsp;&nbsp;&nbsp;表示怪物所有属性，1=生命值、2=魔法值、3=攻击下限、4=攻击上限等等，详细请参考<A 
+href="../DB数据库资料/属性对照表.htm">属性对照表</A>的ID、移动速度ID为92<BR>120&nbsp;&nbsp; 
+表示调整的百分比，大于100即为提升，少于100则降低  
+<BR>测试1 表示该怪物读取的爆率文件，<FONT color=#ff0000>注意:爆率文件必须对应MonItems\ScriptMonItems\测试1.txt</FONT><FONT color=#000000>，请在爆率文件夹下创建<FONT color=#ff0000>ScriptMonItems</FONT></FONT><FONT color=#000000>目录及爆率文件。不写或读不到文件则爆率不变<BR><BR>注意：爆率文件是在M2启动的时候读取进来的，重载爆率无效，重启M2有效。<BR></FONT><BR><BR>[@mian]<BR>#IF<BR>#ACT<BR></FONT><FONT face=宋体><FONT color=#000000>MonGenEx 0 638 413 
+白野猪 1 1 0 255#<BR>MonGenEx 0 639 413 白野猪 1 1 0 255#150<BR>MonGenEx 0 640 413 白野猪 1 1 0 
+255#50<BR></FONT>SENDMSG 0 
+刷新了一只白野猪精英，体型是白野猪的1.5倍<BR>SENDMSG 0 
+刷新了一只白野猪弱小，体型是白野猪的0.5倍<BR>  
+MonGenEx&nbsp;&lt;$map&gt;&nbsp;&lt;$X&gt;&nbsp;&lt;$Y&gt;&nbsp;稻草人&nbsp;2&nbsp;1&nbsp;0&nbsp;233#200;3#0#120|3#20#50|3#92#100#1;测试1<BR>SENDMSG&nbsp;6&nbsp;血量、攻击下限、攻击上限、防御下限、防御上限1.2倍  
+<BR><BR><BR><IMG alt="" src="fd.png"></FONT></FONT></P></body>
+</html>

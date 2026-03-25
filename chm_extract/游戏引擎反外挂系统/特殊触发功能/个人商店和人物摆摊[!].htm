@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>个人商店和人物摆摊</title>
+<style type="text/css">
+<!--
+.STYLE1 {
+	color: #FF0000;
+	font-weight: bold;
+	font-size: large;
+}
+-->
+</style>
+</head>
+
+<body>
+<p class="STYLE1">该触发是引擎默认的个人商店摆摊触发，不是仿HeroM2摆摊触发。仿HeroM2摆摊相关触发完全兼容HeroM2,可以查看兼容HeroM2部分</p>
+<p>点击开始摆摊或停止摆摊将触发 QFunction-0 [@ShopStall] 地图参数 
+ALLOWUSEMYSHOP 允许摆摊(必需先设置摆摊限制在指定地图才会生效)<BR><FONT color=#ff0000>(个人商店已删直接删掉脚本用拍卖行即可)</FONT><BR><BR>     </p>
+<p>[@ShopStall]<br >
+  #IF<br >
+  INSAFEZONE<br >
+  ;检测在安全区<br >
+  #ELSEACT<br >
+  MESSAGEBOX 需要在安全区才能摆摊<br >
+  BREAK</p>
+<p>#IF<br >
+  CHECKSHOPSTALLSTATUS<br >
+  ;检测是不是在摆摊<br >
+  #ACT<br >
+  MESSAGEBOX 你是否确认要停止摆摊 @停止摆摊<br >
+  #ELSEACT<br >
+  MESSAGEBOX 你是否确认要开始摆摊 @确定开始</p>
+<p>[@确定开始]<br>
+  #if<br>
+  ISDUPMODE<br>
+  #say<br>
+  请找一个空位置，不能与别人站在一起。<br>
+  #ACT <br>
+BREAK</p>
+<p>#if<br>
+  #ACT<br>
+  SHOPSTALL<br>
+  ;使用SHOPSTALL命令，如果正在摆摊就会停止摆摊，如果没有摆摊就会开始摆摊</p>
+<p>[@停止摆摊]<br>
+  #if<br>
+  #ACT<br>
+  SHOPSTALL<br>
+  ;使用SHOPSTALL命令，如果正在摆摊就会停止摆摊，如果没有摆摊就会开始摆摊</p>
+</body>
+</html>

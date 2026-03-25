@@ -1,0 +1,196 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>传奇脚本命令详解[!]</title>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<STYLE type=text/css>
+<!--
+.STYLE1 {
+	color: #0000FF;
+	font-weight: bold;
+	font-size: large;
+}
+-->
+</STYLE>
+
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+
+<p><FONT face=宋体>===========================================================</FONT></p>
+<p><FONT face=宋体><span class="STYLE1">传奇脚本命令详解</span><br >
+====================******************************** 
+=====
+
+===================</FONT></p>
+<p><FONT face=宋体>[@段] ;段用英文或数字表示</FONT> </p>
+<p><FONT face=宋体>goto @段 ;跳转到指定段，开始执行相当于B中的goto语句</FONT>  </p>
+<p><FONT face=宋体>#say 语句 ;语句设定为字符，不用加任何定界符</FONT>  </p>
+<p><FONT face=宋体>#act 执行命令 ;符合3.0规定的任何系统已定义命令</FONT>  </p>
+<p><FONT face=宋体>give 物品 数量 
+;给多少东西,除了物器数据库中有的物品，还有金币，</FONT>   </p>
+<p><FONT face=宋体>take 物品 数量 
+;同上，只是与上面相反，一个是给东西，一个是收回东西</FONT>   </p>
+<p><FONT face=宋体>map 地图名 
+;移动到这个地图的随机坐标，地图名为地图的数字人码</FONT>  </p>
+<p><FONT face=宋体>mapmove 地图名 坐标A 坐标B ;同上，只是指定了坐标</FONT>    </p>
+<p><FONT face=宋体>monclear 地图名 ;清除这个地图上刷的怪物</FONT>  </p>
+<p><FONT face=宋体>MonGen 怪物名称 数量 时间 ;刷怪物，与刷怪角本用法相同</FONT>    </p>
+<p><FONT face=宋体>TimeRecall 数值 
+;数值为分钟，定义进入某地的时间限制。</FONT>  </p>
+<p><FONT face=宋体>BreakTimeRecall ;中断上面那个语句设定的时间</FONT> </p>
+<p><FONT face=宋体>hairstyle 数值 ;改变头发类型</FONT>  </p>
+<p><FONT face=宋体>haircolor 红值 绿值 蓝值 ;值域为0 ~ 255 
+设定头发颜色</FONT>       </p>
+<p><FONT face=宋体>close ; 关闭对话框</FONT>  </p>
+<p><FONT face=宋体>======================****************************========================<br >
+  ---------------------- 程 序 中 的 变 量 与 常 量 ------------------------<br >
+  ======================****************************
+  ===
+  
+  =====================</FONT></p>
+<p><FONT face=宋体>变量 ;变量用字母表示，在程序中可以赋任何数据 名称只限于P0-P9,D0-D9<br >
+  mov 变量 数值 ;给变量赋值</FONT>
+     </p>
+<p><FONT face=宋体>inc 变量 数值 
+;让变量自动加指定数值到变量，相当于程序中的x=x+n&lt;   /FONT&gt;</p>
+<p><FONT face=宋体>sum 变量A 变量B 
+;变量求和不要与int混淆,需要下面的组合语名才能实现</FONT>   </p>
+<p><FONT face=宋体>MOV 变量X 0 ;变量X，初值。</FONT>   </p>
+<p><FONT face=宋体>sum 变量A 变量B ;X=A+B&lt;   /FONT&gt;</p>
+<p><FONT face=宋体>sum 变量C ;X=X+C 
+最后在程序中得到的是X值，实际X=  A+B+C&lt; /FONT&gt;</p>
+<p><FONT face=宋体>;如果只写中间一句是无意义的，只能导致错误</FONT></p>
+<p><FONT face=宋体>movr 变量 数值 ;定义随机变量，变量值为 “0 到 数值”</FONT>      </p>
+<p><FONT face=宋体>random 数值 ;当数值=随机数时则为1否则为0&lt;  /FONT&gt;</p>
+<p><FONT face=宋体>&lt;$STR(变量)&gt; ;显示变量时用，可以将变量值显示在游戏里，用在 
+#say后面。</FONT>  </p>
+<p><FONT face=宋体>=========================*******************************========================<br >
+  ------------------------- 程 序 中 的 逻 辑 判 断 语 句 ------------------------<br >
+  =========================*******************************
+  ========================</FONT></p>
+<p><FONT face=宋体>[n] 
+;n为1-1024正整数，是逻辑变量，有0值和1值，初始0值</FONT> </p>
+<p><FONT face=宋体>#IF<br >
+  条件--执行<br >
+  #elsesay 或者 #elseact<br >
+  否定--执行 
+;相当于程序中的条件判断</FONT>
+   </p>
+<p><FONT face=宋体>SET [n] 1 ;设置逻辑变量为真</FONT>   </p>
+<p><FONT face=宋体>--------------------关于reset命令的详解------------------------------------</FONT></p>
+<p><FONT face=宋体>reset [XXX] 7 
+意思是将从XXX开始的7个变量回复到原始值0</FONT>   </p>
+<p><FONT face=宋体>比如：reset [100] 7 就是把100 101 102 103 104 105 
+106 107这7个变量赋值为0。</FONT>          </p>
+<p><FONT face=宋体>它等同与：set [100] 0</FONT>  </p>
+<p><FONT face=宋体>set [101] 0</FONT>  </p>
+<p><FONT face=宋体>set [102] 0</FONT>  </p>
+<p><FONT face=宋体>set [103] 0</FONT>  </p>
+<p><FONT face=宋体>set [104] 0</FONT>  </p>
+<p><FONT face=宋体>set [105] 0</FONT>  </p>
+<p><FONT face=宋体>set [106] 0</FONT>  </p>
+<p><FONT face=宋体>--------------------------------------------------------</FONT></p>
+<p><FONT face=宋体>Check [n] 1 ;测试逻辑变量是否为真，可以测试是否已经完成了任务 
+</FONT>    </p>
+<p><FONT face=宋体>small 变量 数值 ;如果“变量 &lt; 
+数值”则为1否则为0</FONT>     </p>
+<p><FONT face=宋体>large 变量 数值 ;如果“变量 &gt; 
+数值”则为1否则为0</FONT>     </p>
+<p><FONT face=宋体>equal 变量 数值 ;如果“变量 =       数据”则为1否则为0&lt;  /FONT   &gt;  </p>
+<p><FONT face=宋体>checkjob Warr(Wizard、Taos) ;测试职业 
+成功为1否则为0</FONT>   </p>
+<p><FONT face=宋体>checkgold 数值 ;拥有金币数&gt;=数值为1否则为0&lt;  /FONT&gt;</p>
+<p><FONT face=宋体>checklevel 数值 ;人物等级&gt;=数值为1否则为0&lt;  /FONT&gt;</p>
+<p><FONT face=宋体>checkitem 物品 数值 ;测试拥用物品的数量 </FONT>    </p>
+<p><FONT face=宋体>genderman ;测试性别为男，如果为男则为1否则为0</FONT> </p>
+<p><FONT face=宋体>checkbaggage ;测试背包是否已满，满时为1否则为0</FONT> </p>
+<p><FONT face=宋体>checkpkpoint 数值 
+;数值为PK值，PK值数&gt;值时为1否则为0</FONT>  </p>
+<p><FONT face=宋体>checkluckypoint 数值 ;同上，只是测的是幸运值</FONT>  </p>
+<p><FONT face=宋体>checkmonmap 地图名 数值 ;同上，只是测的是怪物数量</FONT>   </p>
+<p><FONT face=宋体>checkduraeva 物品名 数值 
+;同上，只是测试有品质的物品的品质</FONT>   </p>
+<p><FONT face=宋体>checkhum 地图名 数值 ;同上，测试这个地图的人数</FONT>   </p>
+<p><FONT face=宋体>checkitemw 物品 检测身上所带的物品</FONT>  </p>
+<p><FONT face=宋体>takew 物品 数量 
+指定部位(为空或者0搜索全身装备,大于1为指定部位)&nbsp; 直接从身上回收物品</FONT> <BR><BR>takew 力量戒指 1 
+7<BR><BR>  </p>
+<p><FONT face=宋体>checkmagic 技能名称 检测已经修炼的技能</FONT>  </p>
+<p><FONT face=宋体>脚本大全 [喜欢脚本的来]<br >
+  传奇商用NPC开头解释(部分,补足请补足)<br >
+  %100 代表买东西是原价格还是双倍价格<br >
+  +40 买肉<br >
+  +1 卖肉<br >
+  +43 武器有关(修)<br >
+  +15 头盔<br >
+  +10 买衣服<br >
+  +11 修衣服<br >
+  +26 修手镯类<br >
+  +0 买各种药水<br >
+  +42 卖各种药水<br >
+  +30 蜡烛等.<br >
+  +25 特殊水<br >
+  +3 买卷轴,书类<br >
+  +4 卖书类<br >
+  +19 项链<br >
+  +20 项链<br >
+  +21 项链<br >
+  +22 买戒指<br >
+  +23 卖戒指<br >
+  +24 买手镯<br >
+  +26 卖手镯<br >
+  +5 修炼武器或买武器<br >
+  +6 修炼武器或卖武器<br >
+  ================================</FONT></p>
+<p><FONT face=宋体>checkjob (Warr, Wizard, Taos) ;测试职业<br >
+  checkgold (金币数) ;测试金币<br >
+  checklevel (等级) ;测试等级<br >
+  checkitem (物品名) (数量) ;测试物品及数量<br >
+  give gold (金币数) ;给钱<br >
+  give (物品名) (数量) ;给物及数量<br >
+  take gold (金币数) ;拿走钱<br >
+  take (物品名) (数量) ;拿走物及数量<br >
+  checkpkpoint (pk值) ;测试PK值<br >
+  checkluckypoint (幸运值) ;幸运值正值为好,负值为差<br >
+  checkduraeva (物品名) (数值) ;一般测试矿物等物品的品质<br >
+  checkhum (地图名) (数值) ;测试这个地图的人数<br >
+  checkmonmap (地图名) (数值) ;测试这个地图的怪物数<br >
+  map (地图名) ;移动到这个地图<br >
+  mapmove (地图名) (坐标A) (坐标B) ;移动到这个地图指定坐标<br >
+  monclear 地图清除<br >
+  close 关闭对话框<br >
+  TimeRecall (设定时间值) ;分钟,一般指进入地图时间限制<br >
+  BreakTimeRecall ;中断设定时间<br >
+  ExchangeMap (地图名) ;与指定地图里的人交换位置<br >
+  daytime sunset ;一天时间<br >
+  checkbaggage ;测试背包满没<br >
+  small (变量) (数值) ;测试变量是不是小于指定数值<br >
+  large (变量) (数值) ;测试变量是不是大于指定数值<br >
+  equal (变量) (数值) ;测试变量是不是等于指定数值<br >
+  mov (变量) (数值) ;让变量等于指定数值<br >
+  sum (变量A) (变量B) ;A+B 注意,如果还要家第3个数直接换行写sum (变量C) <br >
+  注:关于SUM的详解<br >
+  首先有MOV (变量X) 0 ;(变量X)清0<br >
+  sum (变量A) (变量B) ;X=A+B<br >
+  sum (变量C) ;X=X+C<br >
+  movr (变量) (数值) ;随机把指定数值以下的数(正数)给变量<br >
+  inc (变量) (数值) ;让变量自动加指定数值到变量<br >
+  playdice (骰子数) @xxx ;玩骰子,跳转到标签[@xxx]<br >
+  random (随机数) ;一般用在#IF语句中作为触发#IF机率,有时随机数=并列#IF语句数用 于随机多项选择,例如: #IF RANDOM 3 #SAY() #ELSEACT<br >
+  Check [条件数] 1 ;测试[条件数]触发与否 1(触发) <br >
+  SET [条件数] 1 ;设置[条件数]触发<br >
+  Monclear 地图 清理这个地图！<br >
+  Param1 地图 地图名<br >
+  Param2 横坐标 坐标<br >
+  Param3 纵坐标 坐标<br >
+  MonGen 怪物名称 数量 时间<br >
+  TimeRecall 时间 时间限制<br ></FONT>
+</p>
+<p><FONT face=宋体>二。脚本变量：<br >
+  &lt;$USERNAME&gt; 当前用户名<br >
+  &lt;$GUILDWARFEE&gt;行会战金币数<br >
+  &lt;$LORD&gt;沙巴克行会头名<br >
+  &lt;$OWNERGUILD&gt;沙巴克行会名<br >
+  &lt;$UPGRADEWEAPONFEE&gt;升级武器价格<br >
+  &lt;$USERWEAPON&gt; 放在对话框里的武器名字<br >
+  &lt;$STR(变量)&gt; 把变量转换为字符型 random (随机数) ;一般用在#IF语句中作为触发#IF机率,有时随机数=并列<br >
+  #IF语句数用 于随机多项选择,例如: #IF RANDOM 3 #SAY() #ELSEACT <br ></FONT>
+</p></FONT></FONT></FONT></FONT></FONT></FONT></FONT></BODY></HTML>

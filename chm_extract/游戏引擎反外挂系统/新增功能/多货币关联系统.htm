@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>多货币关联系统</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT color=#0000ff><FONT face=宋体><STRONG>多货币关联使用功能<BR><BR></STRONG><FONT color=#000000>表：</FONT><FONT color=#000000>cfg_item.xls表</FONT><BR><BR></FONT><FONT color=#000000><FONT face=宋体>设置方法：Reserved字段&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;货币组分类(数字)#优先扣除顺序&nbsp;&nbsp;&nbsp; 
+如：10#1<BR><BR><BR><IMG alt="" src="glhb.png"><BR><BR><BR>图介绍：10#3&nbsp;&nbsp;&nbsp;&nbsp; 
+10#1&nbsp;&nbsp;&nbsp; 10#2&nbsp;&nbsp;&nbsp;&nbsp; 
+10=这3个货币是一个类别的&nbsp;&nbsp;&nbsp;&nbsp; 后面的1 2 3 代表扣除的顺序&nbsp;&nbsp; 
+数字越小越优先扣除<BR></FONT></FONT></FONT></P>
+<P><FONT color=#0000ff><FONT color=#000000><FONT face=宋体>检测多货币关联格式：CheckBindMoney 货币名称 检测符(&gt; &lt; =) 
+数量<BR>获取多货币数量格式：GetBindMoney 货币名称 存入变量<BR>扣除多货币数量格式：ChangeBindMoney 货币名称 
+数量<BR><FONT color=#ff0000>货币ID2(元宝)和4(绑定元宝)为系统默认关联货币不可再关联其他货币</FONT><BR> 
+说明：多货币只支持扣除，不支持增加，如果要增加请用其他命令 
+如：GAMEGOLD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MONEY&nbsp; <BR><BR><FONT color=#ff0000><FONT color=#000000>货币关联后的检测和扣除原则：</FONT><BR><FONT color=#0000ff>1、货币关联后检测时顺序号大的货币自动替换货币小的,扣除时优先扣除顺序小的货币<BR>2、关联货币也支持改名，例如金刚石→火龙币，灵符→绑定火龙币<BR></FONT><FONT color=#000000><BR>MONEY 
+火龙币 + 100<BR></FONT><FONT color=#000000>ChangeBindMoney 游戏点 
+100</FONT><BR></FONT><BR><BR>如果你的金刚石有100个，游戏点有200个，关联检测货币名为游戏点值为200+100=300，如果检测的货币名为金刚石则值为100<BR>关联后的货币只想检测某一种的话，请使用<FONT color=#ff0000>CHECKMONEY<BR></FONT><BR>[@MAIN]<BR>#IF<BR>CheckBindMoney 游戏点 &gt; 
+299<BR>#ACT<BR>ChangeBindMoney 游戏点 300<BR>SENDMSG 7 
+当前游戏点&lt;$MONEY(游戏点)&gt;<BR>#ELSEACT<BR>SENDMSG 7 游戏点不足<BR><BR><BR><BR><FONT color=#0000ff>MONEY操作所有货币功能<BR><BR>CHECKMONEY <FONT color=#000000>货币名称 
+检测符(&gt; &lt; = ?) 数量<BR><FONT color=#0000ff>MONEY <FONT color=#000000>货币名称 
+检测符(+ - =) 数量</FONT></FONT><BR></FONT></FONT>输出货币值:&lt;$MONEY(货币名称)&gt;<BR><BR>[@MAIN]<BR>#IF<BR>CHECKMONEY 元宝 ? 
+100<BR>#ACT<BR>sendmsg 7 大于100<BR>MONEY 元宝 - 
+100<BR><BR></FONT></FONT></FONT><FONT color=#0000ff><FONT color=#000000><FONT face=宋体>#IF<BR>CHECKMONEY 元宝&nbsp;&gt; 1000<BR>#ACT<BR>sendmsg 7 
+小于1000<BR>MONEY 元宝 - 1000<BR><BR><BR><BR><FONT color=#ff0000>;关联货币操作</FONT></P></FONT></FONT></FONT><FONT color=#0000ff><FONT color=#000000>
+<P><FONT color=#0000ff><FONT color=#000000 face=宋体>[@扣除关联货币]<BR>#IF<BR>#ACT<BR>ChangeBindMoney 元宝 300<BR>SENDMSG 6 
+你扣除了和元宝关联的货币300个</FONT></FONT></P>
+<P><FONT color=#0000ff><FONT color=#000000 face=宋体>[@获取多货币]<BR>#IF<BR>#ACT<BR>GetBindMoney 元宝 S1<BR>SENDMSG 6 
+你当前关联元宝的货币有:&lt;$STR(S1)&gt;个。</FONT></FONT></P>
+<P><FONT color=#0000ff><FONT color=#000000><BR><FONT face=宋体>[@多货币]<BR>#IF<BR>CheckBindMoney 元宝 &gt; 300<BR>#ACT<BR>SENDMSG 6 
+你的元宝关联货币足够<BR>#ELSEACT<BR>SENDMSG 6 你的元宝关联货币不足够</FONT> </FONT></FONT></P>
+<P><FONTCOLOR=#0000FF><FONTCOLOR=#000000></FONT></FONT><FONT color=#0000ff><FONT color=#000000></P></FONT></FONT></FONT></FONT></body>
+</html>

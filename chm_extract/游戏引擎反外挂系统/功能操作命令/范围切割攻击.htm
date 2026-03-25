@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>范围切割攻击</title>
+<style type="text/css">
+<!--
+.style1 {
+	color: #0000FF;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body>
+<p><FONT face=宋体>范围切割攻击是一组命令，单独使用无效，<span class="style1"> 造成的伤害飘血调用自定义飘血ID</span><br>
+SetAttackRange X Y 范围 目标类型(0所有 1人物 2怪物) 切割类型(0:以当前HP的百分比 
+1:以MaxHP的百分比 2:以伤害值切割) 伤害值<FONT color=#ff0000>(值不能超过21亿，如果是百分比，设置值不超过100，负数无效)</FONT> 飘血ID
+        
+  </FONT>
+          </p>
+<p><FONT face=宋体>设置攻击目标播放的特效，该命令单独使用无效，使用后需要使用StartAttack脚本命令才会生效，该命令可选，可以不用<br>
+  SetAttackTargetEffect WIL文件序号 开始图片序号 播放图片张数 播放速度(毫秒) 
+绘制模式(0特效绘制，1普通绘制) X Y 播放顺序(0角色上面 1角色下面)</FONT>
+             </p>
+<p><FONT face=宋体>设置附加攻击，该命令单独使用无效，使用后需要使用StartAttack脚本命令才会生效，该命令可选，可以不用<br>
+  SetAttachAttack 参数1 参数2<br>
+  参数1 0:绿毒 1:红毒 2:麻痹 3:冰冻 4:推动 5:吸血 6:吸蓝 7:蜘蛛网 8:0防御 9:0魔防 10:禁锢 <br>
+  参数2 分别对应参数1的时间或推动格数</FONT>
+   </p>
+<p><FONT face=宋体>使用SetAttackRange设置好了之后，使用这个命令开始攻击，单独使用无效<br>
+  StartAttack 
+模式(0直接掉血模式切割的人物死亡不会有PK值切割的怪物死亡爆的物品所有人都能捡取，1正常攻击模式)</FONT>&nbsp;<FONT face=宋体>&nbsp; </FONT>
+   </p>
+<p rgb(0,0,0); Microsoft YaHei?; WHITE-SPACE: WORD-SPACING: TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: FONT-STYLE: ORPHANS: WIDOWS: 2; LETTER-SPACING: TEXT-INDENT: font-variant-ligatures: font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial??              ><FONT face=宋体>;以自己的坐标在3范围内，以当前HP血量切割百分之十，切割所有目标，推动目标退3格<br>
+  [@main]<br>
+  #ACT<br>
+  SetAttackRange &lt;$X&gt; &lt;$Y&gt; 3 0 0 10 
+101</FONT>
+        </p>
+<p rgb(0,0,0); Microsoft YaHei?; WHITE-SPACE: WORD-SPACING: TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: FONT-STYLE: ORPHANS: WIDOWS: 2; LETTER-SPACING: TEXT-INDENT: font-variant-ligatures: font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial??              ><FONT face=宋体>;SetAttachAttack该命令可选，可以不用，如果需要附加攻击的，可以使用<br>
+SetAttachAttack 4 3</FONT>
+  </p>
+<p rgb(0,0,0); Microsoft YaHei?; WHITE-SPACE: WORD-SPACING: TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: FONT-STYLE: ORPHANS: WIDOWS: 2; LETTER-SPACING: TEXT-INDENT: font-variant-ligatures: font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial??              ><FONT face=宋体>;SetAttackTargetEffect该命令可选，可以不用，如果目标需要特效的，可以使用<br>
+  SetAttackTargetEffect 0 0 10 300<br>
+  StartAttack 1 </FONT>
+    </p>
+<p rgb(0,0,0); Microsoft YaHei?; WHITE-SPACE: WORD-SPACING: TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: FONT-STYLE: ORPHANS: WIDOWS: 2; LETTER-SPACING: TEXT-INDENT: font-variant-ligatures: font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial??              ><FONT face=宋体>;以自己的坐标在3范围内，以最大血量MAXHP切割百分之十，切割所有目标，推动目标退3格<br>
+  [@main]<br>
+  #ACT<br>
+  SetAttackRange &lt;$X&gt; &lt;$Y&gt; 3 0 1 10</FONT>
+        </p>
+<p rgb(0,0,0); Microsoft YaHei?; WHITE-SPACE: WORD-SPACING: TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: FONT-STYLE: ORPHANS: WIDOWS: 2; LETTER-SPACING: TEXT-INDENT: font-variant-ligatures: font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial??              ><FONT face=宋体>;SetAttachAttack该命令可选，可以不用，如果需要附加攻击的，可以使用<br>
+  SetAttachAttack 4 3</FONT>
+    </p>
+<p rgb(0,0,0); Microsoft YaHei?; WHITE-SPACE: WORD-SPACING: TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: FONT-STYLE: ORPHANS: WIDOWS: 2; LETTER-SPACING: TEXT-INDENT: font-variant-ligatures: font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial??              ><FONT face=宋体>;SetAttackTargetEffect该命令可选，可以不用，如果目标需要特效的，可以使用<br>
+  SetAttackTargetEffect 0 0 10 300<br>
+  StartAttack 1 </FONT>
+    </p>
+<p rgb(0,0,0); Microsoft YaHei?; WHITE-SPACE: WORD-SPACING: TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: FONT-STYLE: ORPHANS: WIDOWS: 2; LETTER-SPACING: TEXT-INDENT: font-variant-ligatures: font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial??              ><FONT face=宋体>;以自己的坐标在3范围内，切割1000血量，切割所有目标，推动目标退3格<br>
+  [@main]<br>
+  #ACT<br>
+  SetAttackRange &lt;$X&gt; 
+&lt;$Y&gt; 3 0 2 1000</FONT>
+        </p>
+<p rgb(0,0,0); Microsoft YaHei?; WHITE-SPACE: WORD-SPACING: TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: FONT-STYLE: ORPHANS: WIDOWS: 2; LETTER-SPACING: TEXT-INDENT: font-variant-ligatures: font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial??              ><FONT face=宋体>;SetAttachAttack该命令可选，可以不用，如果需要附加攻击的，可以使用<br>
+  SetAttachAttack 4 3</FONT>
+    </p>
+<p rgb(0,0,0); Microsoft YaHei?; WHITE-SPACE: WORD-SPACING: TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: FONT-STYLE: ORPHANS: WIDOWS: 2; LETTER-SPACING: TEXT-INDENT: font-variant-ligatures: font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial??              ><FONT face=宋体>;SetAttackTargetEffect该命令可选，可以不用，如果目标需要特效的，可以使用<br>
+  SetAttackTargetEffect 0 0 10 300<br>
+  StartAttack</FONT>
+  </p>
+<p><FONT face=宋体>;以自己的坐标在3范围内，以当前HP血量切割百分之十，切割所有目标，<strong>禁锢目标30秒</strong><br >
+  [@main]<br >
+  #ACT<br >
+SetAttackRange &lt;$X&gt; 
+&lt;$Y&gt; 3 0 0 10</FONT>
+      </p>
+<p><FONT face=宋体>;SetAttachAttack该命令可选，可以不用，如果需要附加攻击的，可以使用<br >
+  SetAttachAttack 10 30 </FONT>
+     </p>
+<p><FONT face=宋体>;SetAttackTargetEffect该命令可选，可以不用，如果目标需要特效的，可以使用<br >
+  SetAttackTargetEffect 0 0 10 300<br >
+  StartAttack</FONT>
+  </p>
+<p rgb(0,0,0); Microsoft YaHei?; WHITE-SPACE: WORD-SPACING: TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: FONT-STYLE: ORPHANS: WIDOWS: 2; LETTER-SPACING: TEXT-INDENT: font-variant-ligatures: font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial??              ><FONT face=宋体></FONT>&nbsp;</p>
+<p><FONT face=宋体></FONT>&nbsp;</p>
+</body>
+</html>

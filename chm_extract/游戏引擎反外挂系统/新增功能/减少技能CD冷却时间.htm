@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>减少技能CD冷却时间</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body><!--StartFragment-->&nbsp;<SPAN><FONT size=4><FONT color=#0000ff><STRONG><FONT face=宋体>减少技能</FONT>CD冷却时间(英雄技能使用命令加H)</STRONG></FONT></FONT></SPAN><SPAN><BR><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><o:p></o:p></SPAN>
+<DIV class=Section0>
+<P class=p style="MARGIN: 5pt 0pt; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>减免</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>技能冷却时间</FONT>: </SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>（</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>在这个技能本身基础</FONT>CD上做 + - &nbsp;如果=0 就是还原技能CD</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>）</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>比如：烈火剑法技能表中设置的是</FONT>10秒 那么=1的情况下 烈火剑法就是9秒CD</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>比如</FONT>+1 就是11秒 比如-1就是9秒</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,255); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT color=#000000><FONT color=#0000ff>设置技能冷却时间格式：</FONT><FONT color=#000000>SetSkillDecCD 技能</FONT>名称 操作符(+/-/=) 时间（秒)<BR><FONT color=#0000ff>获取技能初始冷却时间：</FONT>GetSkillCSCD 技能名称 变量名<BR><FONT color=#0000ff>获取当前技能冷却时间：</FONT>GetSkillDQCD 技能名称 变量名</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><o:p></o:p></SPAN></P><SPAN 
+class=15 
+style="FONT-FAMILY: 宋体; FONT-WEIGHT: bold; COLOR: rgb(255,0,0); mso-spacerun: 'yes'"><FONT face=宋体>注意：技能冷却时间减少只支持有</FONT>CD的技能</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,255); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN></DIV>
+<DIV class=Section0><SPAN>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan">&nbsp;</P>
+<P class=MsoNormal 
+style="MARGIN: 0pt; mso-pagination: widow-orphan"><STRONG><FONT color=#0000ff size=4>英雄技能设置</FONT><BR></STRONG><FONT color=#ff0000>cfg_magic.xls技能表与技能表现表cfg_magicinfo.xls修改为英雄技能名称(例:英雄烈火剑法)<BR>注:涉及到英雄技能相关全部使用英雄技能名称,不统一设置可能出现教程不成功情况</FONT></P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><FONT color=#0000ff>英雄设置技能冷却时间格式：</FONT>H.<FONT color=#000000>SetSkillDecCD 
+英</FONT>雄烈火剑法 操作符(+/-/=) 时间（秒)<BR><FONT color=#0000ff>英雄获取技能初始冷却时间：</FONT>H.GetSkillCSCD 英雄烈火剑法 变量名<BR><FONT color=#0000ff>英雄获取当前技能冷却时间：</FONT>H.GetSkillDQCD 英雄烈火剑法 变量名</P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan">&nbsp;</P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><FONT color=#0000ff><STRONG>重置技能冷却</STRONG></FONT><BR><FONT color=#ff0000>格式:skillrestcd&nbsp;参数1 参数2</FONT></P>
+<P class=MsoNormal 
+style="MARGIN: 0pt; mso-pagination: widow-orphan">参数1:技能ID</P>
+<P class=MsoNormal 
+style="MARGIN: 0pt; mso-pagination: widow-orphan">参数2:0=重置全部cd，不为0=减去修改值的cd时间<BR>[@IgnoreDef] 
+<BR>#act <BR>skillrestcd 56 2<BR>SENDMSG 5 56号技能cd时间减少2秒</P>
+<P class=MsoNormal 
+style="MARGIN: 0pt; mso-pagination: widow-orphan"><BR><STRONG><FONT face=宋体>例子：</FONT><BR></STRONG></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,255); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">[@设置技能冷却时间]</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><o:p></o:p></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">#IF</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><o:p></o:p></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">#ACT</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><o:p></o:p></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT color=#000000>SetSkillDecCD 野蛮冲撞 + 10</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><o:p></o:p></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">SENDMSG 
+6 野蛮冲撞增加10秒</SPAN></P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">[@获取技能初始冷却时间]</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><o:p></o:p></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">#IF</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><o:p></o:p></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">#ACT</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><o:p></o:p></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">GetSkillCSCD 
+野蛮冲撞 N10</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><o:p></o:p></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0pt 0pt 12pt; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">SENDMSG 
+6 获取成功:&lt;$STR(N10)&gt;秒</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><o:p></o:p></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">[@获取当前技能冷却时间]</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><o:p></o:p></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">#IF</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><o:p></o:p></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">#ACT</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><o:p></o:p></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">GetSkillDQCD 
+野蛮冲撞 N20</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><o:p></o:p></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN: 0pt 0pt 12pt; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">SENDMSG 
+6 获取成功:&lt;$STR(N20)&gt;秒</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN></P></DIV><!--EndFragment--></body>
+</html>

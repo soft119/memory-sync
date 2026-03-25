@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>字符串比较处理</title>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<p>功能：<br >
+字符串比较处理。</p>
+<p>格式：<br >
+  CheckContainsText 字符 字符串检查 //检查字符串是否包涵在另外一个字符串中. <br >
+  CompareText 字符 字符 // 比较两个字符串是否一样 </p>
+<p>;==========================================<br >
+  检查字符串是否包含在另外一个字符串中<br >
+  [@Test]<br >
+  #IF<br >
+  CheckContainsText <A 
+href="http://www.996m2.com">www.996m2.com</A>
+    996m2.com<br >
+  #Say<br >
+  包含<br >
+  #elsesay<br >
+  不包含<br >
+  ;==========================================</p>
+<p>;==========================================<br >
+  比较两个字符串是否一样，不区分大小写<br >
+  [@Test]<br >
+  #IF<br >
+  CompareText <A 
+href="http://www.996m2.com">www.996m2.com</A>
+  &nbsp; <A 
+href="http://www.996m2.com">www.996m2.com</A>
+    <br >
+  #Say<br >
+  一样 <br >
+  #elsesay <br >
+  不一样<br >
+  ;==========================================</p></BODY></HTML>

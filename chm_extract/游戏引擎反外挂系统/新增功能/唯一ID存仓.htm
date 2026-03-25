@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>唯一ID存仓</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT color=#0000ff face=宋体>唯一ID存仓<BR><BR><BR></FONT><FONT color=#0000ff face=宋体><FONT color=#000000 ><SPAN 
+style="FONT-SIZE: 14px; FONT-FAMILY: 'Microsoft YaHei UI'"><FONT color=#ff0000>TAKEITEMTOSTORAGE 参数1 参数2</FONT>  
+<BR>参数1<FONT face=宋体>：</FONT>存入仓库的页数<BR></SPAN>参数2：物品唯一ID<BR><BR><FONT color=#808080>注：此功能请在入包后操作，不在背包的物品无法存入仓库<BR><BR><SPAN 
+style="FONT-SIZE: 14px; FONT-FAMILY: 'Microsoft YaHei UI'"><FONT color=#000000>&lt;$STORAGEPAGECNT(1)&gt;第一页仓库剩余格子数</FONT></SPAN><BR><SPAN 
+style="FONT-SIZE: 14px; FONT-FAMILY: 'Microsoft YaHei UI'"><FONT color=#000000>&lt;$STORAGEPAGECNT(2)&gt;第二页仓库剩余格子数</FONT></SPAN><BR><SPAN 
+style="FONT-SIZE: 14px; FONT-FAMILY: 'Microsoft YaHei UI'"><FONT color=#000000>&lt;$STORAGEPAGECNT(3)&gt;第三页仓库剩余格子数</FONT></SPAN><BR><SPAN 
+style="FONT-SIZE: 14px; FONT-FAMILY: 'Microsoft YaHei UI'"><FONT color=#000000>&lt;$STORAGEPAGECNT(4)&gt;第四页仓库剩余格子数</FONT></SPAN><BR><SPAN 
+style="FONT-SIZE: 14px; FONT-FAMILY: 'Microsoft YaHei UI'"><FONT color=#000000>&lt;$STORAGEPAGECNT(5)&gt;第五页仓库剩余格子数</FONT></SPAN><BR></FONT><BR><BR>例子：<BR><BR>[@addbag]<BR>#IF<BR>#ACT<BR>LINKITEMBYMAKEINDEX 
+&lt;$NEWBAGITEMID&gt;</FONT></FONT></P>
+<P><FONT color=#0000ff face=宋体><FONT color=#000000 >#IF<BR>NOT CheckItemFlag -1 
+32<BR>#ACT<BR>#ELSEACT<BR>BREAK<BR>#OR<BR>CHECKITEMADDVALUE -1 0 &gt; 
+0<BR>CHECKITEMADDVALUE -1 1 &gt; 0<BR>CHECKITEMADDVALUE -1 2 &gt; 
+0<BR>CHECKITEMADDVALUE -1 3 &gt; 0<BR>CHECKITEMADDVALUE -1 4 &gt; 
+0<BR>#ACT<BR>MOV N$可存入 1<BR>MOV N$存入页 0<BR>GOTO @存入页判断<BR>#ELSEACT<BR>MOV N$可存入 
+0<BR>BREAK<BR>#IF<BR>LARGE N$存入页 0<BR>EQUAL N$可存入 1<BR>#ACT<BR>SetItemFlag -1 32 
+1<BR>TAKEITEMTOSTORAGE &lt;$STR(N$存入页)&gt; &lt;$NEWBAGITEMID&gt;<BR>sendmsg 7 
+物品&lt;$CURRTEMNAME&gt;已存入到仓库的第&lt;$STR(N$存入页)&gt;页</FONT></FONT></P>
+<P><FONT color=#0000ff face=宋体><FONT color=#000000 ><BR>[@存入页判断]<BR>#IF<BR>LARGE 
+&lt;$STORAGEPAGECNT(1)&gt; 0<BR>#ACT<BR>MOV N$存入页 1<BR>BREAK<BR>#IF<BR>LARGE 
+&lt;$STORAGEPAGECNT(2)&gt; 0<BR>#ACT<BR>MOV N$存入页 2<BR>BREAK<BR>#IF<BR>LARGE 
+&lt;$STORAGEPAGECNT(3)&gt; 0<BR>#ACT<BR>MOV N$存入页 3<BR>BREAK<BR>#IF<BR>LARGE 
+&lt;$STORAGEPAGECNT(4)&gt; 0<BR>#ACT<BR>MOV N$存入页 4<BR>BREAK<BR>#IF<BR>LARGE 
+&lt;$STORAGEPAGECNT(5)&gt; 0<BR>#ACT<BR>MOV N$存入页 
+5<BR>BREAK<BR></FONT></FONT><FONT color=#0000ff face=宋体><FONT color=#000000 ><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR></P></FONT></FONT></body>
+</html>

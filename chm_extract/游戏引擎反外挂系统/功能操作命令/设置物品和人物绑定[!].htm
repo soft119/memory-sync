@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>设置物品和人物绑定[!]</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+</head>
+
+<BODY>
+<P><FONT size=2 ><FONT face=宋体>功能: 设置新的装备绑定功能.<BR></FONT><FONT size=3 face=宋体> SetItemBind,设置物品和人物绑定 绑定后物品属性会显示“已绑定”<br>
+格式:SetItemBind 装备位置(-1~28或30~47,-1时为OK框中物品) 绑定(0-1)<br>
+说明:参数2 0=取消 1=绑定<BR><BR><BR>例子: 绑定武器.<BR><BR>#IF<BR>CheckGold 
+10000<BR>#ACT<BR>SetItemBind 1 1<BR>Take 金币 10000<BR><BR><BR>例子: 
+取消绑定<BR></FONT></FONT><FONT size=2 ><BR><FONT face=宋体><FONT size=3>#IF<BR>CheckGold 10000<BR>CheckItemBind 
+1<BR>#ACT<BR>SetItemBind 1 0<BR>Take 金币 
+10000<BR>#ELSESAY<BR>你没有10000金币,或者当前物品没绑定.</FONT><BR></FONT></P>
+<P><FONT face=宋体></FONT>&nbsp;</P>
+<P><FONT face=宋体>装备位置代码:</FONT></P>
+<p><FONT face=宋体>0 盔甲 <br>
+  1 武器 <br>
+  2 照明物 <br>
+  3 项链 <br>
+  4 头盔 <br>
+  5 右手镯 <br>
+  6 左手镯 <br>
+  7 右戒指 <br>
+  8 左戒指 <br>
+  9 护身符 <br>
+  10 腰带 <br>
+  11 鞋子 <br>
+  12 宝石<br>
+  13 斗笠<br>
+  14 军鼓<br>
+  15 马牌<br>
+  16 盾牌<br>
+  17 时装衣服 时装12个<br>
+  18 时装武器<br>
+  19 时装项链<br>
+  20 时装头盔<br>
+  21 时装左手镯<br>
+  22 时装右手镯<br>
+  23 时装左戒指<br>
+  24 时装右戒指<br>
+  25 时装勋章<br>
+  26 时装腰带<br>
+  27 时装鞋子<br>
+  28 时装宝石</FONT>
+   </p>
+<p><FONT face=宋体>30~41 十二个首饰盒装备</FONT> </p>
+<p><FONT face=宋体>42-47 六个首饰盒装备位置</FONT> </p>
+<P><BR><FONT face=宋体></FONT>
+</P></FONT>
+</BODY>
+</html>

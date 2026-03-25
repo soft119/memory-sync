@@ -1,0 +1,195 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>获取背包物品显示到格子</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body><FONT face=宋体><SPAN><STRONG><FONT color=#0000ff>背包道具显示到格子后,点击产生勾选效果<BR></FONT></STRONG><FONT color=#ff0000>;勾选M2-客户端控制-启用新NPC面板写法生效,不可跟老面板写法混用,仅兼容老写法的文字排版</FONT></SPAN></FONT><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT color=#000000>--&lt;BAGITEMS&gt;</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT color=#000000>--&lt;BAGITEMS|condition=xx#xx,xx#xx,|select=1,2,3|count=xx|row=1|link=@脚本命令&gt;</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+condition 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;StdMode#Shape,StdMode#Shape 
+</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+select 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">已经选择的道具唯一ID</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+count 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">格子数量</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+row 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">显示行数<BR><SPAN style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><SPAN 
+style="COLOR: #6a9955"          ><FONT color=#000000>-- iwidth 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">格子</SPAN>宽<BR></FONT></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><SPAN 
+style="COLOR: #6a9955"      ><FONT color=#000000>-- iheight 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">格子</SPAN>高</FONT></SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+link&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">单击触发(<FONT color=#ff0000><STRONG>点击触发必须放最后</STRONG></FONT> 
+)<SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">- 
+&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">selecttype</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;选择类型 
+&nbsp;&nbsp;&nbsp;0</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">=</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">多选 
+</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">1</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">=</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">单选</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+showstar 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;星级显示 
+&nbsp;&nbsp;&nbsp;1</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">=</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">显示 
+</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">0</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">=</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">不显示</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+conditionEx (注意大小写) 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;过滤星级 
+&nbsp;&nbsp;&nbsp;0=不过滤 </SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">1=过滤</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+conditionParam (注意大小写) 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;过滤星级等级</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+conditionOnOff &nbsp;(注意大小写) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;显示星级条件 
+&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">0</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">=</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">为星级小于设定条件值不显示 
+&nbsp;1</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">=</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">为大于设定条件值不显示 
+&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+exclude 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">勾选完物品唯一ID 
+</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">不显示在当前同一组件内 
+&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">格式:exclude=&lt;$str(s0)&gt;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+filter1 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">排除道具ID,排除道具ID(多个,逗号分隔)</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+filter2 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">排除道具名,排除道具名(多个,逗号分隔)</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+filter3 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">只显示道具ID或道具名,道具ID或道具名 
+(多个,逗号分隔,支持ID和道具名同时用)</SPAN>
+<P class=21 style="mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"> 
+-- 
+exbind&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;为1时过滤绑定的<BR><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- showtips </SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">是否显示tips </SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">0</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">=</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">不显示 1</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">=</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">显示</SPAN><FONT face=宋体>&nbsp;</FONT> 
+&nbsp; <BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+**************************</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR><BR><FONT color=#0000ff>--&lt;HEROBAGITEMS&gt;&nbsp; 
+参数等同 BAGITEMS</FONT><BR><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><FONT color=#ff0000><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">//;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">BAGITEMS例子</SPAN></FONT><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">[@MAIN]</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">#IF</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">#ACT</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">#SAY</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT color=#000000>&lt;BAGITEMS|condition=*|select=&lt;$STR(S0)&gt;|count=12|row=2|x=0|y=0|link=@选择物品2&gt;</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">[@选择物品2]</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">#IF</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">#ACT</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">SendMsg 
+0 --【】--&lt;$STR(S0)&gt;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">GOTO 
+@MAIN</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">说明</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">变量S0 
+是返回被点选的物品的唯一ID 点选多个物品就会返回多个ID 用,号分割</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">跳转回显示界面 
+会出现勾选效果</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN></P></body>
+</html>

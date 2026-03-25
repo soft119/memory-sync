@@ -1,0 +1,220 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>物品框ItemShow</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body><SPAN><FONT face=宋体>EquipShow</FONT><FONT face=宋体><STRONG>获取身上物品显示到格子里面<BR></STRONG><FONT color=#ff0000>;勾选M2-客户端控制-启用新NPC面板写法生效,不可跟老面板写法混用,仅兼容老写法的文字排版</FONT><BR></FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">--&lt;EquipShow&gt;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">--&lt;EquipShow|index=xx|showtips=xx|link=@脚本命令&gt;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+index </SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">物品位置(0-55)</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+showtips </SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">是否显示tips 
+</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">0</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">=</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">不显示 
+1</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">=</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">显示</SPAN><FONT face=宋体> </FONT>
+<P class=21 style="mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+bgtype&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+是否显示背景图&nbsp;&nbsp;&nbsp;&nbsp;<SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">0</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">=</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">不显示 
+1</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">=</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">显示</SPAN></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><SPAN 
+style="COLOR: #6a9955">&nbsp;</SPAN></SPAN></SPAN></P>
+<P class=21 style="mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><SPAN 
+style="COLOR: #6a9955"></SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><SPAN 
+style="COLOR: #6a9955"><FONT color=#000000>-- 
+scale&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;缩放比例</FONT> 
+ 
+</SPAN></P></SPAN></SPAN>
+<P class=21 style="mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+link </SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;单击触发(<FONT color=#ff0000><STRONG>点击触发必须放最后</STRONG></FONT> 
+)</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+reload </SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">刷新面板=1 
+不刷新=0</SPAN></P>
+<P class=21 style="mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+effectshow&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+1=显示背包 2= 
+显示内观 
+0= 不显示&nbsp; 默认值为1&nbsp; </SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- ************************** 
+</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">//;EquipShow例子</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&lt;EquipShow|id=3|percentx=10|percenty=50|a=4|index=0|showtips=1|bgtype=1|link=@点击装备&gt;<BR><BR><BR><FONT color=#0000ff>--&lt;HEROEquipShow&gt;&nbsp; 参数等同 
+EquipShow</FONT><BR><BR><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><o:p></O:P></SPAN></P>
+<P class=21 style="MARGIN-BOTTOM: 12pt; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">;------------------------------------------------------------------------------------------</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><B><SPAN 
+class=17 
+style="FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; COLOR: rgb(0,0,255); mso-spacerun: 'yes'"><BR></SPAN></B><B><SPAN 
+class=17 
+style="FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; COLOR: rgb(0,0,255); mso-spacerun: 'yes'"><FONT color=#0000ff face=宋体>ItemShow按物品IDX显示到格子里面</FONT></SPAN></B><B><SPAN class=17 
+style="FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; COLOR: rgb(0,0,255); mso-spacerun: 'yes'"><BR></SPAN></B><B><SPAN 
+class=17 
+style="FONT-FAMILY: '255);  mso-spacerun:  yes'; FONT-WEIGHT: bold; mso-spacerun: 'yes'"><BR></SPAN></B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT color=#000000>--&lt;ItemShow&gt;</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT color=#000000>--&lt;ItemShow|itemid=xx|itemcount|showtips=xx|link=@脚本命令&gt;</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+itemid &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">物品id<BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"> 
+ --</SPAN>itemname&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;物品名字<BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+itemcount &nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">物品数量</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+color &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">数量颜色</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+showtips &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">是否显示tips</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+link </SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;单击触发 
+@</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">脚本命令</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+grey &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">灰化显示</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+lock &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">1/0 
+显示锁图标</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- **************************  
+ </SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></P></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><o:p></O:P></SPAN>
+<P class=MsoNormal style="TEXT-ALIGN: left; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT color=#ff0000>//;ItemShow例子</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN> 
+</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&lt;ItemShow|id=4|x=60|y=120|itemid=10448|itemcount=100|showtips=1|bgtype=1|grey=0&gt;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONTCOLOR=#000000></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><o:p></O:P></SPAN></FONT></P>
+<P class=21 style="mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">;------------------------------------------------------------------------------------------</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><o:p></O:P></SPAN></P>
+<P class=21 style="mso-pagination: widow-orphan"><FONT face=宋体><B><SPAN class=19 
+style="FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; COLOR: rgb(0,0,255); mso-spacerun: 'yes'">DBItemShow 
+按物品的唯一ID显示到格子里面</SPAN></B><B><SPAN class=19 
+style="FONT-FAMILY: 微软雅黑; FONT-WEIGHT: bold; COLOR: rgb(255,0,0); mso-spacerun: 'yes'">&nbsp;</SPAN></B></FONT><B><SPAN 
+class=19 
+style="FONT-FAMILY: 宋体; FONT-WEIGHT: bold; COLOR: rgb(0,0,255); mso-spacerun: 'yes'"><BR></SPAN></B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- &lt;DBItemShow&gt; 
+</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&lt;DBItemShow|x=0|y=0|makeindex=22125|link=@跳转触发&gt;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+makeindex &nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">唯一ID</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+showtips &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">是否显示tips</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+link </SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;单击触发 
+@</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">脚本命令</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+grey &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">灰化显示</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- 
+showstar &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">显示星级</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;1</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">=</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">显示 
+0</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">=</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">不显示</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">-- ************************** <BR><BR><FONT color=#0000ff>--&lt;HERODBItemShow&gt; 参数等同 
+DBItemShow</FONT><BR><BR> 
+ </SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><o:p></O:P></SPAN></P>
+<P class=21 style="mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">//;DBItemShow例子<BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&lt;DBItemShow|x=0|y=0|makeindex=22125|link=@跳转触发&gt;</SPAN></P></body>
+</html>

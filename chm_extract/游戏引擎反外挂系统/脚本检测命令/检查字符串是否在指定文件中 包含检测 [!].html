@@ -1,0 +1,21 @@
+<title>检查字符串是否在指定文件中 包含检测 [!]</title>
+<p>检查字符串是否在指定文件中 包含检测 检测的字符串不需要完全相同，文件里的字符包含检测的字符，就会成功</p>
+<p>[@CheckContainsTextList]<br />
+  #IF<br />
+  CheckContainsTextList ..\QuestDiary\充值系统\10元卡号.txt &lt;$STR(S2)&gt;<br />
+#SAY<br />
+列表里的某一行字符包含&lt;$STR(S2)&gt;<br />
+#ELSESAY<br />
+列表里的某一行字符包含&lt;$STR(S2)&gt;</p>
+<p>&nbsp;</p>
+<p>[@CheckContainsTextListEx]<br />
+#IF<br />
+CheckContainsTextListEx ..\QuestDiary\充值系统\10元卡号.txt &lt;$STR(S2)&gt;<br />
+#SAY<br />
+&lt;$STR(S2)&gt;包含列表里某一行字符<br />
+#ELSESAY<br />
+&lt;$STR(S2)&gt;不包含列表里某一行字符<br />
+</p>
+<p>CheckContainsTextList 和 CheckContainsTextListEx 区别</p>
+<p>CheckContainsTextList 列表文件里保存的是完整的字符。检测列表里的某一行字符是否包含检测的关键字</p>
+<p>CheckContainsTextListEx 列表文件里保存的是关键字。检测字符是否包含列表里的某一行关键字</p>

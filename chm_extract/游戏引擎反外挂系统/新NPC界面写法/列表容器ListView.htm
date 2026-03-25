@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>列表容器ListView</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<DIV class=Section0><FONT size=3><SPAN 
+style="FONT-SIZE: 13.5pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>
+<P><FONT face=宋体><FONT face=宋体><FONT size=3><FONT color=#000000><FONT color=#0000ff><STRONG>自定义列表容器(左右滑动,上下滑动)<BR></STRONG><FONT color=#ff0000>;勾选M2-客户端控制-启用新NPC面板写法生效,不可跟老面板写法混用,仅兼容老写法的文字排版</FONT><BR><BR></FONT><BR>列表容器:&lt;ListView&gt;<BR>&lt;ListView|children={1,2}|direction=xx|bounce=xx|margin=xx|&gt;<BR>-- 
+direction&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 方向 1竖向 2横向<BR>-- 
+margin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 子控件间隔<BR>-- 
+reload&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 刷新面板=1 不刷新=0&nbsp; 
+</FONT></FONT></FONT></FONT></P>
+<P><FONT face=宋体><FONT color=#000000 size=3 face=宋体>-- 
+default&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 索引跳转第几个容器 <BR>-- cantouch&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 是否可滑动 
+1默认 0不可<BR><BR><BR>-- Slider 为1时开启滑块，有滑块参数则显示设置的滑块，没有则显示默认滑块<BR>-- Sdbg 
+滑块底图<BR><BR>注：direction为1时滑块按钮为上下放置，direction为2时滑块按钮为左右放置，以下参数为非数值值时，不显示改控件。<BR>-- 
+Sdupnimg 滑块向上/向左箭头正常图片序号<BR>-- Sdupmimg 滑块向上/向左箭头悬停图片序号<BR>-- Sduppimg 
+滑块向上/向左箭头按下图片序号 
+   
+</FONT></FONT></P>
+<P><FONT face=宋体><FONT color=#000000 size=3 face=宋体>-- Sdnimg 滑块正常图片序号<BR>-- Sdmimg 
+滑块悬停图片序号<BR>-- Sdpimg 滑块按下图片序号 
+   
+</FONT></FONT></P>
+<P><FONT face=宋体><FONT color=#000000 size=3 face=宋体>-- Sddwnimg 滑块向下/向右箭头正常图片序号<BR>-- Sddwmimg 
+滑块向下/向右箭头悬停图片序号<BR>-- 
+Sddwpimg 滑块向下/向右箭头按下图片序号<BR> 
+   
+</FONT></FONT><FONT face=宋体><FONT face=宋体><BR><FONT color=#000000 size=3>--例子:&lt;ListView|children={2,3,4,5,6,7,8,9}|x=33|y=55|width=220|height=440|direction=1|bounce=0|margin=1|reload=0&gt;<BR> -- 我想跳转到第ID：9的容器 default=   8 因为children= 
+   {2,3,4,5,6,7,8,9}里面的ID：9在第8个顺序<BR>-- 
+************************** 
+<BR>同一脚本ID不可以重复,背景默认ID为1,自己定义ID从2开始<BR></P></FONT></FONT></FONT><FONT size=3 face=宋体><FONT face=宋体><FONT size=3>
+<P><BR><FONT color=#000000>例子:</FONT></P>
+<P><FONT color=#000000>&lt;ListView|id=7|x=260|y=310|children={70,71,72,73,74,75,76,77,78,79}|width=400|height=60|direction=2|bounce=0|margin=40|cantouch=1|color=x&gt;<BR>&lt;ItemShow|id=70|itemid=10448|itemcount=100|showtips=1|bgtype=1|grey=0&gt;<BR>&lt;ItemShow|id=71|itemid=10448|itemcount=100|showtips=1|bgtype=1|grey=0&gt;<BR>&lt;ItemShow|id=72|itemid=10448|itemcount=100|showtips=1|bgtype=1|grey=0&gt;<BR>&lt;ItemShow|id=73|itemid=10448|itemcount=100|showtips=1|bgtype=1|grey=0&gt;<BR>&lt;ItemShow|id=74|itemid=10448|itemcount=100|showtips=1|bgtype=1|grey=0&gt;<BR>&lt;ItemShow|id=75|itemid=10634|itemcount=100|showtips=1|bgtype=1|grey=0&gt;</FONT></FONT></FONT></FONT></P></FONT></SPAN></FONT></DIV></body>
+</html>

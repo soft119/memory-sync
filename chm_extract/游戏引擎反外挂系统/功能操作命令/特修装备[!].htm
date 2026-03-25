@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>特修装备</title>
+</HEAD>
+<BODY>
+<P><FONT face=宋体><FONT size=2><FONT color=#0000ff><STRONG>功能：</STRONG></FONT><BR>
+&nbsp;&nbsp;&nbsp; <FONT size=2>特修装备</FONT>,</FONT>在物品规则列表中限制物品的不会被修理 </FONT> </P>
+<P><FONT face=宋体><FONT size=2><STRONG><FONT color=#0000ff>格式：</FONT><BR>
+</STRONG></FONT>RepairAll<br>
+该命令是检测命令，会自动扣除金币。<br>
+如果无法修理：<br>
+1.金币不够<br>
+2.需要修理的物品设置不允许修理的物品规则<br>
+3.该NPC文件头没有加上允许修理的代码.例如修理衣服需要加上 +10 +11</FONT>
+  </P>
+<p><FONT face=宋体>ActRepairAll<br>
+  该命令是操作命令，不会扣金币</FONT>
+  </p>
+<P><FONT size=2><FONT face=宋体>  <font color="#ff0000">;特修装备</font><BR>
+  <BR></FONT>
+</FONT></P>
+<DIV> 
+  <p><FONT face=宋体><FONT size=2>[@Test]</FONT><br>#IF<br>
+    RepairAll<br>
+    #SAY<br>
+    你的装备修好了.<br>
+    #ELSESAY<br>
+    你是不是没有钱啊.<br>
+    <br>
+    #IF<br>
+    #ACT<br>
+    ACTREPAIRALL<br>
+    #SAY<br>
+  你的装备修好了.<FONT size=2>
+</FONT></FONT></p></DIV>
+</BODY>
+</HTML>
+ 

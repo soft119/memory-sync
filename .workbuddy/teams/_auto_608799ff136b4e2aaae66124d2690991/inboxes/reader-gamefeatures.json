@@ -1,0 +1,20 @@
+[
+  {
+    "id": "msg-1774331040692-tna9ny",
+    "from": "team-lead",
+    "to": "reader-gamefeatures",
+    "type": "message",
+    "content": "请尽快完成你的阅读任务，将结果发送给我。完成后请发送\"DONE\"作为回复。",
+    "timestamp": "2026-03-24T05:44:00.692Z",
+    "read": true
+  },
+  {
+    "id": "shutdown-1774331383346",
+    "from": "team-lead",
+    "to": "reader-gamefeatures",
+    "type": "shutdown_request",
+    "content": "{\"type\":\"shutdown_request\",\"request_id\":\"shutdown-1774331383346\",\"reason\":\"任务完成，请关闭\",\"from\":\"team-lead\",\"timestamp\":\"2026-03-24T05:49:43.346Z\"}",
+    "timestamp": "2026-03-24T05:49:43.346Z",
+    "read": true
+  }
+]

@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>人形怪配置</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><STRONG><FONT size=5>人型怪物设置方法</FONT></STRONG></P>
+<P><font size=2><FONT color=#ff0000><span class=STYLE2><strong>功能：</STRONG>人型怪物设置方法</SPAN><br></FONT><strong>格式：</STRONG>无<br><strong>说明：</STRONG>无<br><strong>例：</STRONG></FONT></P>
+<P><font size=2>1、在Envir目录下增加MonUseItems目录，放置怪的配置文件，见MonUseItems目录</FONT></P>
+<p><font size=2>2、Monster.DB范例：<br>战士;60;19;0;198;0;100;5000;0;1000;1000;0;0;0;0;88;45;450;1;0;450;5000;<br>法师;60;19;0;198;0;100;5000;0;1000;1000;0;0;0;0;88;45;750;1;0;750;5000;<br>道士;60;19;0;198;0;100;5000;0;1000;1000;0;0;0;0;88;45;750;1;0;750;5000;</FONT></P>
+<p>
+<font size=2>
+3、此类怪物支持暴背包物品(MonItems目录下建立暴物品列表)，同时支持暴身上物品(MonUseItems目录，见MonUseItems目录)
+
+</font>
+</p>
+<p>
+<font size=2 >
+注意：如果觉得怪物速度太慢！可以自己调节怪物的攻击速度。走动速度。防御等等！！！！增加新怪，RACE=60</font></p>
+<p >
+
+<font size=2>
+示例：</font></p>
+<p><font size=2>Monster.DB范例：<br >战士;60;19;0;198;0;100;5000;0;1000;1000;0;0;0;0;88;45;450;1;0;450;5000;
+<br>法师;60;19;0;198;0;100;5000;0;1000;1000;0;0;0;0;88;45;750;1;0;750;5000;<br >道士;60;19;0;198;0;100;5000;0;1000;1000;0;0;0;0;88;45;750;1;0;750;5000;</font></p><p ><font size=2>MonUseItems文件夹下：</font></p><p><font size=2>道士.TXT</font></p><p><font size=2>设置内容如下：</font></p><p><font size=2>[Info]</font><font size=2>
+<br><br >;职业
+<br>Job=2<br >;性别<br>Gender=0<br>;头发<br>Hair=5
+<br>;使用魔法<br >UseSkill=神圣战甲术,幽灵盾,灵魂火符,施毒术,群体施毒术,无极真气,</font></p>
+<p>;是不是掉背包装备，1=掉，0=不掉<br >DropItem=1
+<br>;掉背包装备几率<br >DieDropItemRate=10</p>
+<p>;是不是掉身上装备，1=掉，0=不掉<br >DropUseItem=0<br>;掉身上装备几率<br>DieDropUseItemRate=10<br></p>
+<p>;是否允许挖取身上装备 1=是，0=否<br >ButchUseItem=1</p>
+<p>;挖取身上装备机率，0为百分百，数字越大，机率越小<br >ButchItemRate=10</p>
+<p>;允许挖取几件装备<br >ButchItemCount=1</p>
+<p>;身体坚韧度，数字越小，挖的时间越长<br >ButchUseItemBodyLeathery=150</p><p >;挖取身上装备收费模式(0不收费，1金币，2元宝，3金刚石，4灵符)不管有没有挖到装备都会收费<br>ButchChargeClass=0</p><p>;挖取身上装备每次收费点数<br>ButchChargeCount=1</p><p><font size=2>[UseItems]<br>;衣服<br>UseItems0=光芒道袍(男)<br>;武器<br>UseItems1=玄天<br>;照明物<br>UseItems2=<br>;项链<br>UseItems3=光芒项链<br>;头盔<br>UseItems4=天龙盔<br>;左手镯<br>UseItems5=光芒护腕<br>;右手镯
+< br>UseItems6=光芒护腕<br>;左戒指
+<br>UseItems7=光芒道戒 <br>;右戒指
+<br>UseItems8=光芒道戒<br>;物品
+<br>UseItems9=护身符(大)<br>;腰带
+<br>UseItems10=光芒腰带<br>;鞋子
+<br>UseItems11=光芒道靴<br>;宝石
+<br>UseItems12=气血石(大)<br >;斗笠<br>UseItems13=斗笠</font></p><p><font size=2>=============================================================</font></p><p><font size=2>法师.txt</font></p><p><font size=2>设置如下：</font></p><p><font size=2>[Info]</font></p><p><font size=2>;职业<br>Job=1<br>;性别<br>Gender=1<br>;头发<br>Hair=1<br>;使用魔法<br>UseSkill=雷电术,冰咆哮,抗拒火环,火墙,地狱雷光,圣言术,魔法盾,灭天火,火龙气焰,</font></p><p>;是不是掉背包装备，1=掉，0=不掉<br>DropItem=1<br>;掉背包装备几率<br>DieDropItemRate=10</p><p>;是不是掉身上装备，1=掉，0=不掉<br>DropUseItem=0<br>;掉身上装备几率<br>DieDropUseItemRate=10<br></p><p>;是否允许挖取身上装备 1=是，0=否
+<br>ButchUseItem=1</p><p >;挖取身上装备机率，0为百分百，数字越大，机率越小 
+<br>ButchItemRate=10</p><p >;允许挖取几件装备
+<br>ButchItemCount=1</p><p >;身体坚韧度，数字越小，挖的时间越长
+<br>ButchUseItemBodyLeathery=150</p><p >;挖取身上装备收费模式(0不收费，1金币，2元宝，3金刚石，4灵符)不管有没有挖到装备都会收费
+<br>ButchChargeClass=0</p><p >;挖取身上装备每次收费点数<br>ButchChargeCount=1</p><p><font size=2>[UseItems]<br>;衣服<br>UseItems0=魔法长袍(女)<br>;武器<br>UseItems1=镇天<br>;照明物<br>UseItems2=<br>;项链<br>UseItems3=烈焰项链<br>;头盔<br>UseItems4=魔龙盔<br>;左手镯<br>UseItems5=烈焰护腕<br>;右手镯
+< br>UseItems6=烈焰护腕<br>;左戒指
+<br>UseItems7=烈焰魔戒 <br>;右戒指
+<br>UseItems8=烈焰魔戒<br>;物品
+<br>UseItems9=<br>;腰带
+<br>UseItems10=烈焰腰带<br>;鞋子
+<br>UseItems11=烈焰魔靴<br>;宝石
+<br>UseItems12=气血石(大)<br >;斗笠<br>UseItems13=斗笠</font></p><p><font size=2>======================================================================</font></p><p><font size=2>战士.txt</font></p><p><font size=2>设置如下：</font></p><p><font size=2>[Info]</font></p><p><font size=2>;职业<br>Job=0<br>;性别<br>Gender=0<br>;头发<br>Hair=5<br>;使用魔法<br>UseSkill=烈火剑法,半月弯刀,刺杀剑术,狮子吼,彻地钉,擒龙手,</font></p><p>;是不是掉背包装备，1=掉，0=不掉<br>DropItem=1<br>;掉背包装备几率<br>DieDropItemRate=10</p><p>;是不是掉身上装备，1=掉，0=不掉<br>DropUseItem=0<br>;掉身上装备几率<br>DieDropUseItemRate=10<br></p><p>;是否允许挖取身上装备 1=是，0=否
+<br>ButchUseItem=1</p><p >;挖取身上装备机率，0为百分百，数字越大，机率越小 
+<br>ButchItemRate=10</p><p >;允许挖取几件装备
+<br>ButchItemCount=1</p><p >;身体坚韧度，数字越小，挖的时间越长
+<br>ButchUseItemBodyLeathery=150</p><p >;挖取身上装备收费模式(0不收费，1金币，2元宝，3金刚石，4灵符)不管有没有挖到装备都会收费
+<br>ButchChargeClass=0</p><p >;挖取身上装备每次收费点数<br>ButchChargeCount=1</p><p><font size=2>[UseItems]<br>;衣服<br>UseItems0=雷霆战甲(男)<br>;武器<br>UseItems1=开天<br>;照明物<br>UseItems2=<br>;项链<br>UseItems3=雷霆项链<br>;头盔<br>UseItems4=圣龙盔<br>;左手镯<br>UseItems5=雷霆护腕<br>;右手镯
+< br>UseItems6=雷霆护腕<br>;左戒指
+<br>UseItems7=雷霆战戒 <br>;右戒指
+<br>UseItems8=雷霆战戒<br>;物品
+<br>UseItems9=<br>;腰带
+<br>UseItems10=雷霆腰带<br>;鞋子
+<br>UseItems11=雷霆战靴<br>;宝石
+<br>UseItems12=气血石(大)<br >;斗笠<br>UseItems13=斗笠</font><br></p></body>
+</html>

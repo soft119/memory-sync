@@ -1,0 +1,173 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>穿脱装备触发</title>
+</head>
+
+<body><FONT face=宋体>
+[@TakeOnEx]<br>
+#ACT<br>
+SENDMSG 6 
+人物穿戴装备，位置&lt;$CURRTAKETEMPOS&gt;，物品&lt;$CURRTEMNAME&gt;(&lt;$G_CURRTEMNAME&gt;)，ID&lt;$CURRTEMMAKEINDEX&gt; 
+</FONT>
+  
+<p><FONT face=宋体>[@TakeOffEx]<br>
+  #ACT<br>
+  SENDMSG 6 
+人物脱装备，位置&lt;$CURRTAKETEMPOS&gt;，物品&lt;$CURRTEMNAME&gt;(&lt;$G_CURRTEMNAME&gt;)，ID&lt;$CURRTEMMAKEINDEX&gt;</FONT>
+    </p>
+<p><FONT face=宋体>[@HeroTakeOnEx]<br>
+  #ACT<br>
+  SENDMSG 6 
+英雄穿装备，位置&lt;$CURRTAKETEMPOS&gt;，物品&lt;$CURRTEMNAME&gt;(&lt;$G_CURRTEMNAME&gt;)，ID&lt;$CURRTEMMAKEINDEX&gt;</FONT>
+    </p>
+<p><FONT face=宋体>[@HeroTakeOffEx]<br>
+  #ACT</FONT>
+  </p>
+<p><FONT face=宋体>SENDMSG 6 
+英雄脱装备，位置&lt;$CURRTAKETEMPOS&gt;，物品&lt;$CURRTEMNAME&gt;(&lt;$G_CURRTEMNAME&gt;)，ID&lt;$CURRTEMMAKEINDEX&gt;<BR><BR><BR></FONT><SPAN 
+class=15 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; FONT-WEIGHT: bold; COLOR: rgb(0,0,255); mso-spacerun: 'yes'"><FONT size=3 face=宋体><U>
+<HR id=0>
+</U></FONT>
+<P></P>
+<P></P>
+<P class=p style="MARGIN-BOTTOM: 12pt; mso-pagination: widow-orphan"><FONT face=宋体>人物穿戴/脱下任意装备触发</FONT></SPAN><SPAN class=15 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; FONT-WEIGHT: bold; COLOR: rgb(0,0,255); mso-spacerun: 'yes'">  </p></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN>
+<P class=p style="mso-pagination: widow-orphan"><FONT size=3><FONT face=宋体><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; COLOR: rgb(255,0,0); mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体">;触发顺序为先</SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial">触发</SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; COLOR: rgb(255,0,0); mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体">脱,后</SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial">触发</SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; COLOR: rgb(255,0,0); mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体">穿</SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN></FONT></FONT></P>
+<P class=p style="mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><FONT size=3 face=宋体>[@TakeOnEx]</FONT></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><FONT size=3 face=宋体>#ACT</FONT></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><BR></SPAN><FONT size=3><FONT face=宋体><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体">SENDMSG 
+6 人物穿装备，位置：&lt;$CURRTAKETEMPOS&gt;，物品</SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial">名称：</SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体">&lt;$CURRTEMNAME&gt;，唯一ID：&lt;$CURRTEMMAKEINDEX&gt; 
+</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN></FONT></FONT></P>
+<P class=p style="mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><FONT size=3 face=宋体>[@TakeOffEx]</FONT></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><FONT size=3 face=宋体>#ACT</FONT></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><BR></SPAN><FONT size=3><FONT face=宋体><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体">SENDMSG 
+0 人物脱装备，位置：&lt;$CURRTAKETEMPOS&gt;，物品</SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial">名称</SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial">：</SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体">&lt;$CURRTEMNAME&gt;，唯一ID：&lt;$CURRTEMMAKEINDEX&gt;</SPAN></FONT></FONT></P>
+<P class=p style="mso-pagination: widow-orphan"><FONT color=#0000ff><STRONG><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><FONT size=3 face=宋体>
+<HR id=0>
+</FONT>
+<P></P>
+<P></P>
+<P class=p style="mso-pagination: widow-orphan"><FONT face=宋体></FONT>&nbsp;</P>
+<P class=p style="mso-pagination: widow-orphan"><FONT face=宋体>人物穿戴/脱下<FONT color=#ff0000>前</FONT>触发</FONT></SPAN></STRONG></FONT></P><FONT color=#0000ff><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><o:p>
+<P align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><FONT color=#000000><FONT size=3>[@TakeOnBefore<FONT color=#ff0000>X</FONT>]&nbsp; <SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">[@TakeOffBefore<FONT color=#ff0000>X</FONT>]</SPAN></SPAN></SPAN></FONT></FONT></SPAN></SPAN></SPAN></P>
+<P align=left><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><FONT color=#000000 size=3><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">说明：<FONT color=#ff0000>X</FONT>代表装备位置<BR><BR><FONT color=#ff0000>注意：脱装备前的一系列触发不可关联操作装备属性，因为这时候装备不在身上也不在背包。</FONT><BR></SPAN></SPAN></SPAN></FONT></SPAN></SPAN></SPAN></FONT></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><FONT color=#000000><FONT size=3><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><FONT color=#000000>[@TakeOnBefore0</FONT></SPAN></SPAN></SPAN><FONT face=宋体>]</FONT></FONT></FONT></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><FONT color=#000000 size=3 face=宋体>#ACT</FONT></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><BR></SPAN><FONT color=#000000><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><FONT size=3><FONT face=宋体>SENDMSG 6 当前即将穿上的是衣服，物品<SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial">名称：</SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体">&lt;$CURRTEMNAME&gt;，唯一ID：&lt;$CURRTEMMAKEINDEX&gt; 
+</SPAN></FONT></FONT></SPAN></FONT></P>
+<P class=p style="mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><FONT color=#000000><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><FONT color=#000000><FONT size=3><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><FONT color=#000000>[@TakeOffBefore0</FONT></SPAN></SPAN></SPAN><FONT face=宋体>]</FONT></FONT></FONT></SPAN></FONT></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><FONT color=#000000 size=3 face=宋体>#ACT</FONT></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><BR></SPAN><FONT color=#000000><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><FONT size=3><FONT face=宋体>SENDMSG 6 当前即将脱下来的是衣服，物品<SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial">名称：</SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体">&lt;$CURRTEMNAME&gt;，唯一ID：&lt;$CURRTEMMAKEINDEX&gt; 
+</SPAN></FONT></FONT></SPAN></SPAN></FONT></P>
+<P class=p style="mso-pagination: widow-orphan"><FONT color=#000000 face=宋体><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"></SPAN></SPAN></SPAN></FONT>&nbsp;</P>
+<P class=p style="mso-pagination: widow-orphan"><FONT face=宋体></FONT><FONT color=#000000><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"></P><FONT size=3 face=宋体>
+<HR id=0>
+</FONT></SPAN></SPAN></SPAN></FONT></FONT>
+<P><FONT size=3 face=宋体></FONT></P><FONT color=#000000><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体">
+<P class=p style="mso-pagination: widow-orphan"><FONT face=宋体></FONT>&nbsp;</P>
+<P class=p style="mso-pagination: widow-orphan"><FONT color=#0000ff face=宋体><STRONG>人物穿戴/脱下任意<FONT color=#0000ff>装备<FONT color=#ff0000>前</FONT></FONT>触发</STRONG></FONT></P><FONT color=#0000ff><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><o:p>
+<P align=left><FONT size=3><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><FONT color=#000000>[@TakeOnBeforeEX]&nbsp; <SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">[@TakeOffBeforeEX]</SPAN></SPAN></SPAN></FONT></SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"></P></SPAN></SPAN></SPAN></FONT></FONT></O:P></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体">
+<P class=p style="mso-pagination: widow-orphan"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><FONT color=#000000><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><FONT color=#000000 size=3>[@TakeOnBeforeEX]<BR>#IF<BR>EQUAL &lt;$CURRTAKETEMPOS&gt; 
+0<BR>#ACT<BR>SENDMSG 6 
+当前即将穿上的是衣服，物品名称：&lt;$CURRTEMNAME&gt;，唯一ID：&lt;$CURRTEMMAKEINDEX&gt; 
+</FONT></SPAN></SPAN></SPAN></FONT></SPAN></P>
+<P class=p style="mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><FONT color=#000000 face=宋体><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"></SPAN></SPAN></SPAN></FONT></SPAN>&nbsp;</P>
+<P class=p style="mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt; mso-fareast-font-family: 宋体"><FONT color=#000000><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><FONT color=#000000 size=3>[@TakeOffBeforeEX]<BR>#IF<BR>EQUAL &lt;$CURRTAKETEMPOS&gt; 
+0<BR>#ACT<BR>SENDMSG 6 
+当前即将脱下来的是衣服，物品名称：&lt;$CURRTEMNAME&gt;，唯一ID：&lt;$CURRTEMMAKEINDEX&gt; 
+<BR></FONT></SPAN></SPAN></SPAN></FONT></SPAN></P></SPAN></FONT></SPAN></SPAN></SPAN></FONT></SPAN>
+</body>
+</html>

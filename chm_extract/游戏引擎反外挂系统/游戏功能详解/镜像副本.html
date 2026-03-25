@@ -1,0 +1,76 @@
+<title>镜像副本</title>
+<style type="text/css">
+<!--
+.STYLE2 {color: #FF0000}
+-->
+</style>
+<p>动态创建一个镜像地图</p>
+<p>ADDMIRRORMAP<br />
+  格式：AddMirrorMap A B C D E F<br />
+  功能：动态创建一个镜像地图<br />
+  说明：创建成功后，人物D99变量返回1，否则返回0<br />
+  A，原地图编号，在地图配置文件中存在的地图！<br />
+  B，新地图编号，临时使用的地图编号，就和镜像地图功能一样！<br />
+  C，新地图名，这里指客户端显示的名字<br />
+  D，该地图存在的有效时长(秒)，时间到后，此地图将自动回收，并且将地图上的人传送至E参数设置的地图<br />
+  E，人物退出时返回的地图编号 该地图不能是动态创建的地图，也就是不能是ADDMIRRORMAP命令创建的地图<br />
+  F,   小地图编号</p>
+<p>DelMirrorMap<br />
+  格式：DelMirrorMap 地图名<br />
+  功能：删除动态创建的镜像地图</p>
+<p>MirrorMapTime<br />
+  格式：MirrorMapTime 地图名 时间（单位：秒）<br />
+  功能：设置/获取镜像地图的时间<br />
+  说明：如果时间不写，则表示获取当前地图的剩余时间，时间返回在D99变量<br />
+  如果获取地图失败或不是镜像地图，则D99返回-1</p>
+<p>CheckMirrorMap<br />
+  格式：CheckMirrorMap 地图名<br />
+  功能：检测镜像地图是否已经创建</p>
+<p>-------------------------------下面是使用例子---------------------------------</p>
+<p>;使用人物名称做为副本地图的名称创建副本<br />
+  [@main]<br />
+  #if<br />
+  #act<br />
+  MirrorMapTime &lt;$USERNAME&gt;<br />
+  #SAY<br />
+  剩余时间：&lt;$STR(D99)&gt;秒\ \<br />
+  &lt;创建副本/@创建副本&gt;\<br />
+  &lt;进入副本/@进入副本&gt;\<br />
+&lt;删除副本/@删除副本&gt;\</p>
+<p>[@删除副本]<br />
+  #ACT<br />
+  DELMIRRORMAP &lt;$USERNAME&gt;<br />
+  goto @main<br />
+</p>
+<p>[@进入副本]<br />
+  #IF<br />
+  LARGE D99 0<br />
+  #ACT<br />
+  give 回城卷 1<br />
+  map &lt;$USERNAME&gt;<br />
+  #ELSEACT<br />
+  goto @main<br />
+  SENDMSG 6 副本地图还没有创建</p>
+<p>[@创建副本]<br />
+  #if<br />
+  CheckMirrorMap &lt;$USERNAME&gt;<br />
+  #ACT<br />
+  goto @main<br />
+  SENDMSG 6 该副本地图已经创建<br />
+  BREAK</p>
+<p>#IF<br />
+  #ACT<br />
+  AddMirrorMap 0 &lt;$USERNAME&gt; 比奇副本 60 0159 101<br />
+  ;创建一个连接，地图3 坐标 X:333 Y:333 连接到新创建的副本地图坐标 X:333 Y:333<br />
+  AddMapGate 连接 3 333 333 1 &lt;$USERNAME&gt; 333 333 60<br />
+</p>
+<p>#if<br />
+  Equal D99 1<br />
+  #ACT<br />
+  goto @main<br />
+  SENDMSG 6 创建成功<br />
+  #ELSEACT<br />
+  goto @main<br />
+  SENDMSG 6 创建失败<br />
+</p>
+<p>&nbsp;</p>

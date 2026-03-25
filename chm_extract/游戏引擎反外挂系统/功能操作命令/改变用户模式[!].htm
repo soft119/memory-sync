@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>改变用户模式</title>
+<style>
+<!--
+div{word-break:break-all;word-wrap:break-word}.t{border:1px solid #c7d6e1;margin:0px auto 8px;}.t2{border-top:#c7d6e1 1px solid;margin:0px auto 5px;}.t{padding:1px}.t {padding:0}th{word-break:break-all;word-wrap:break-word}.r_one{background:#f9f9f9;}.tr1 th{padding:5px 10px;text-align:left;vertical-align:top;font-weight:normal;}.tr1 th{border-right:1px solid #e6e6e6;}.tpc_content{font-size:14px;font-family:Arial;padding:0 2% 0 0.5%;margin:0 0 2%}.style1 {
+	color: #FF0000;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body>
+
+<p><strong><font color="#0000ff" size="2" face=宋体>功</font></strong><FONT face=宋体><font color="#0000ff" size="2"><strong>能：<br>
+&nbsp;&nbsp;</strong></font>增加脚本命令ChangeModeEx<br>
+改变人物当前模式(无敌,隐身,生命,魔法,攻击力,魔法力,道术力,攻击速度,禁止攻击,锁定,禁锢,冰冻,蛛网,防麻痹,防禁锢,防冰冻,防蛛网,麻痹,护身，吸血,吸蓝,对怪隐身(人物不虚化),复活,破复活,定身,失明,混乱,流血</FONT>)
+</p>
+
+<p><FONT face=宋体>//格式: ChangeModeEx 模式(1-24) 时间(1-65535) 附加值(1-21亿)<br>
+  //说明: 1=无敌 2=隐身 3=HP 4=MP 5=攻击力 6=魔法力 7=道术力 8=攻击速度 9=禁止攻击 10=锁定<br>
+  //第三个参数隐身,禁止攻击时没有使用.<br><FONT color=#0000ff>//如果是无敌时，参数三为0或空无敌立即满血，为1时只无敌不回血。</FONT><BR>
+  //如果是禁锢时，第三个参数表示禁锢范围<br>
+  //11 禁锢(释放一个类似困魔咒的光圈，敌对人物或怪物只能在这个圈子里移动，无法走出圈子外面，所有传送失效，不能小退)<br>
+  //12 冰冻<br>
+  //13 蛛网<br>
+  //14 防麻痹<br>
+  //15 防禁锢<br>
+  //16 防冰冻<br>
+  //17 防蛛网<br>
+  //18 麻痹<br>
+  //19 护身<br>
+  //20 吸血<br>
+  //21 吸蓝<br>
+  //22 隐身(类似隐身戒指)<br>
+  //23 复活<br>
+  //24 破复活<br>
+  //25 定身 禁止移动<BR>
+    </FONT><FONT face=宋体>//26&nbsp;失明<BR></FONT><FONT face=宋体>//27&nbsp;混乱 
+不受控制随机走动<BR> //28&nbsp;持续流血</FONT>&nbsp;
+    </p>
+<p><br>
+  <font color="#0000ff" size="2"><strong><br><FONT face=宋体>
+例子：<br></FONT>
+</strong></font><br><FONT face=宋体>[@Test]</FONT>
+<font color="#0000ff" size="2"><strong><br>
+</strong></font><FONT face=宋体>#IF<br>
+#ACT<br>
+ChangeModeEx 1 60<br>
+#SAY<br>
+给你1分钟的无敌时间,好好利用哦!</FONT>
+</p>
+<p><FONT face=宋体>#IF<br>
+  #ACT<br>
+  ChangeModeEx 5 60 20<br>
+  #SAY<br>
+  60秒之内攻击力增加20点.</FONT>
+  </p>
+<p><FONT face=宋体>[@Main]<br>
+  #ACT<br>
+  ChangeModeEx 11 10 3<br>
+SENDMSG 6 
+你被禁锢10秒</FONT>
+  </p>
+<p><FONT face=宋体>ChangeModeEx 12 10 5 3<br>
+SENDMSG 6 
+10秒内攻击目标，可以使目标冰冻，冰冻机率5(数字越大机率越低)，冰冻时长3秒</FONT>
+  </p>
+<p><FONT face=宋体>ChangeModeEx 13 10 5 3<br>
+  SENDMSG 6 
+10秒内攻击目标，可以使目标中蛛网，中蛛网机率5(数字越大机率越低)，中蛛网时长3秒</FONT>
+    </p>
+<p><FONT face=宋体>ChangeModeEx 14 10<br>
+  SENDMSG 6 10秒内可以防麻痹</FONT>
+    </p>
+<p><FONT face=宋体>ChangeModeEx 15 10<br>
+  SENDMSG 6 10秒内可以防禁锢</FONT>
+    </p>
+<p><FONT face=宋体>ChangeModeEx 16 10<br>
+  SENDMSG 6 10秒内可以防冰冻</FONT>
+    </p>
+<p><FONT face=宋体>ChangeModeEx 17 10<br>
+  SENDMSG 6 10秒内可以防蛛网</FONT>
+    </p>
+<p><FONT face=宋体>ChangeModeEx 18 10 5 3<br>
+SENDMSG 6 
+10秒内攻击目标，可以使目标麻痹，麻痹机率5(数字越大机率越低)，麻痹时长3秒</FONT>
+  </p>
+<p><FONT face=宋体>ChangeModeEx 19 10<br>
+  SENDMSG 6 护身，有效10秒</FONT>
+    </p>
+<p class="style1"><strong><FONT face=宋体>ChangeModeEx 19 10 100 <br>
+SENDMSG 6 
+护身，有效10秒，掉蓝比例为设置值除以100</FONT>
+  </strong></p>
+<p><FONT face=宋体>ChangeModeEx 20 10 100 50<br>
+SENDMSG 6 10秒内攻击目标，可以吸血，吸血机率100(数字越大机率越高 
+100表示每次都会吸血)，吸血百分比50%(比如攻击伤害值是10000，50%的吸血比例，可以吸血5000)</FONT>
+   </p>
+<p><FONT face=宋体>ChangeModeEx 21 10 100 50<br>
+SENDMSG 6 10秒内攻击目标，可以吸蓝，吸蓝机率100(数字越大机率越高 
+100表示每次都会吸蓝)，吸蓝百分比50%(比如攻击伤害值是10000，50%的吸蓝比例，可以吸蓝5000)</FONT>
+   </p>
+<p class="style1"><FONT face=宋体>ChangeModeEx 22 10<br>
+SENDMSG 6 10秒内对怪物隐身</FONT>
+  </p>
+<p class="style1"><FONT face=宋体>ChangeModeEx 23 3600 3 <br>
+SENDMSG 6 一个小时内可以复活3次</FONT>
+  </p>
+<p class="style1"><FONT face=宋体>ChangeModeEx 24 3600<br>
+SENDMSG 6 一个小时内可以破复活</FONT>
+  </p>
+<p class="style1"><FONT face=宋体><SPAN 
+style='FONT-SIZE: 13px; FONT-FAMILY: "Lucida Grande", verdana, arial, helvetica, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,221); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><FONT color=#ff0000 style="BACKGROUND-COLOR: #ffffff"><STRONG>ChangeModeEx 26 5 10<BR>   </STRONG></FONT></SPAN> 
+</FONT><FONT face=宋体><SPAN 
+style='FONT-SIZE: 13px; FONT-FAMILY: "Lucida Grande", verdana, arial, helvetica, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,221); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><FONT color=#ff0000 ><FONT style="BACKGROUND-COLOR: #ffffff"><STRONG>;</STRONG>你<STRONG>失明了，只能看到屏幕5格内目标，10秒后恢复正常</STRONG></FONT></FONT></SPAN> 
+</FONT>
+  </p>
+<p class="style1"><FONT face=宋体><SPAN 
+style='FONT-SIZE: 13px; FONT-FAMILY: "Lucida Grande", verdana, arial, helvetica, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,221); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><FONT color=#ff0000 style="BACKGROUND-COLOR: #ffffff"><STRONG>ChangeModeEx 27 0 10<BR>   </STRONG></FONT></SPAN> 
+</FONT><FONT face=宋体><SPAN 
+style='FONT-SIZE: 13px; FONT-FAMILY: "Lucida Grande", verdana, arial, helvetica, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,221); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><SPAN 
+style='FONT-SIZE: 13px; FONT-FAMILY: "Lucida Grande", verdana, arial, helvetica, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,221); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><FONT color=#ff0000 ><FONT style="BACKGROUND-COLOR: #ffffff"><STRONG>;</STRONG>你<STRONG>进入一次混乱状态，攻击目标丢失，随机移动位置 
+10秒钟结束</STRONG></FONT></FONT></SPAN></SPAN> </FONT>
+  </p>
+<p class="style1"><FONT face=宋体>ChangeModeEx 28 60 100 1<BR>SENDMSG 6 
+你流血了,间隔1秒损失100点生命值.持续60秒</FONT>
+  </p>
+<p class="style1"><FONT face=宋体></FONT>
+  &nbsp;</p>
+<p class="style1"><FONT face=宋体></FONT>
+  &nbsp;</p>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+Load(库):[3] [0] 2026-03-10 16:14:10 如此玩 Level:0  --  -- 
+2026-03-10 16:14:11 存储耗时：SaveHum:16,HumBodyItems:0,HumBagItems:15,UpdateHumStorageItems:0
+Save:[4] [0] 2026-03-10 16:14:11 如此玩 Level:1  -- Bag[0]: MakeIndex:10016 Index:10208 OverLap:0 btValue:49(-2141869483) Bag[1]: MakeIndex:10017 Index:10002 OverLap:0 btValue:49(-2141869483) Bag[2]: MakeIndex:10018 Index:10073 OverLap:0 btValue:49(-2141869483) Bag[3]: MakeIndex:10019 Index:10112 OverLap:0 btValue:49(-2141869483)  -- 
+2026-03-10 16:14:31 存储耗时：SaveHum:0,HumBodyItems:0,HumBagItems:0,UpdateHumStorageItems:0
+Save:[4] [0] 2026-03-10 16:14:31 如此玩 Level:1 Body[0]: MakeIndex:10019 Index:10112 btValue:49(-2141869483) Body[1]: MakeIndex:10018 Index:10073 btValue:49(-2141869483)  -- Bag[0]: MakeIndex:10016 Index:10208 OverLap:0 btValue:49(-2141869483) Bag[1]: MakeIndex:10017 Index:10002 OverLap:0 btValue:49(-2141869483)  -- 
+Load(库):[3] [0] 2026-03-10 16:14:42 法大大 Level:0  --  -- 
+2026-03-10 16:14:44 存储耗时：SaveHum:0,HumBodyItems:0,HumBagItems:0,UpdateHumStorageItems:0
+Save:[4] [0] 2026-03-10 16:14:44 法大大 Level:1  -- Bag[0]: MakeIndex:10022 Index:10208 OverLap:0 btValue:49(-2141869483) Bag[1]: MakeIndex:10023 Index:10002 OverLap:0 btValue:49(-2141869483) Bag[2]: MakeIndex:10024 Index:10073 OverLap:0 btValue:49(-2141869483) Bag[3]: MakeIndex:10025 Index:10112 OverLap:0 btValue:49(-2141869483)  -- 
+2026-03-10 16:24:44 存储耗时：SaveHum:16,HumBodyItems:0,HumBagItems:0,UpdateHumStorageItems:0
+Save:[4] [0] 2026-03-10 16:24:44 法大大 Level:7 Body[0]: MakeIndex:10025 Index:10112 btValue:49(-2141869483) Body[1]: MakeIndex:10024 Index:10073 btValue:49(-2141869483) Body[2]: MakeIndex:10022 Index:10208 btValue:49(-2141869483)  -- Bag[0]: MakeIndex:10023 Index:10002 OverLap:0 btValue:49(-2141869483)  -- 
+2026-03-10 16:34:44 存储耗时：SaveHum:16,HumBodyItems:0,HumBagItems:0,UpdateHumStorageItems:0
+Save:[4] [0] 2026-03-10 16:34:44 法大大 Level:7 Body[0]: MakeIndex:10025 Index:10112 btValue:49(-2141869483) Body[1]: MakeIndex:10024 Index:10073 btValue:49(-2141869483) Body[2]: MakeIndex:10022 Index:10208 btValue:49(-2141869483)  -- Bag[0]: MakeIndex:10023 Index:10002 OverLap:0 btValue:49(-2141869483)  -- 
+2026-03-10 16:44:44 存储耗时：SaveHum:0,HumBodyItems:0,HumBagItems:0,UpdateHumStorageItems:0
+Save:[4] [0] 2026-03-10 16:44:44 法大大 Level:7 Body[0]: MakeIndex:10025 Index:10112 btValue:49(-2141869483) Body[1]: MakeIndex:10024 Index:10073 btValue:49(-2141869483) Body[2]: MakeIndex:10022 Index:10208 btValue:49(-2141869483)  -- Bag[0]: MakeIndex:10023 Index:10002 OverLap:0 btValue:49(-2141869483)  -- 
+2026-03-10 16:46:20 存储耗时：SaveHum:0,HumBodyItems:0,HumBagItems:0,UpdateHumStorageItems:0
+Save:[4] [0] 2026-03-10 16:46:20 法大大 Level:7 Body[0]: MakeIndex:10025 Index:10112 btValue:49(-2141869483) Body[1]: MakeIndex:10024 Index:10073 btValue:49(-2141869483) Body[2]: MakeIndex:10022 Index:10208 btValue:49(-2141869483)  -- Bag[0]: MakeIndex:10023 Index:10002 OverLap:0 btValue:49(-2141869483)  -- 

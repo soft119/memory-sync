@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>滑动拉杆<Slider></title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P 
+style='FONT-SIZE: medium; FONT-FAMILY: "Microsoft YaHei"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><FONT face=宋体><FONT face=宋体><FONT color=#0000ff><STRONG>滑动拉杆</STRONG></FONT></FONT></FONT></P><FONT size=3 face=宋体></FONT><FONT color=#000000 size=3 face=宋体><FONT face=宋体><FONT size=3>
+<P 
+style='FONT-SIZE: medium; FONT-FAMILY: "Microsoft YaHei"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><BR></FONT></FONT></FONT><FONT color=#000000 size=3 face=宋体><FONT face=宋体><FONT size=3>-- Slider: 滑动拉杆<BR>--&nbsp;sliderid：滑动条ID 
+用于提交数据&nbsp;&nbsp; //只支持变量 
+N&nbsp;N$&nbsp;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+例1：sliderid= N0 
+滑动取到的变量值&lt;$npcparams(3,N0)&gt;客户端常量：$STM(SLIDERV_N0)&nbsp;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<SPAN>&nbsp;</SPAN><SPAN 
+style="COLOR: rgb(51,51,255)">客户端常量只能显示在面板上，不能做其他操作类的功能</SPAN><BR> 
+--&nbsp;pcbgimg：拖动背景资源&nbsp;&nbsp;<BR> -- 
+pcbarimg：拖动条资源&nbsp;&nbsp;&nbsp;<BR>-- 
+pcballimg：拖动球资源&nbsp;&nbsp;&nbsp;<BR>--&nbsp;width：宽度</FONT></FONT></FONT><FONT color=#000000 size=3 face=宋体><FONT face=宋体><FONT size=3>&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;<SPAN>&nbsp;</SPAN></FONT></FONT></FONT><FONT color=#000000 size=3 face=宋体><FONT face=宋体><FONT size=3>为空时,默认素材的宽度<BR>-- 
+height：高度&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; 为空时,默认素材的高度<BR>-- 
+defvalue：默认展示值&nbsp;&nbsp;为空时,默认为0<BR>-- 
+maxvalue：拖动最大值&nbsp;&nbsp;为空时,默认为100<BR>-- 
+link：跳转触发<BR><BR><BR>&lt;Slider|wil=NewopUI|sliderid=N0|x=50.0|y=60.0|width=400|height=14|maxvalue=10000|defvalue=5000|pcbgimg=298|pcbarimg=299|pcballimg=297|link=@跳转&gt;<BR><BR> 
+[@跳转]<BR>#IF<BR>#ACT<BR>SENDMSG 7 
+执行了跳转当前滑动条的值为：&lt;$npcparams(3,N0)&gt; 
+</FONT></FONT></FONT></P>
+<P 
+style='FONT-SIZE: medium; FONT-FAMILY: "Microsoft YaHei"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><FONT color=#000000 size=3 face=宋体><FONT face=宋体><FONT size=3> 
+</FONT></FONT></FONT>&nbsp;</P></body>
+</html>

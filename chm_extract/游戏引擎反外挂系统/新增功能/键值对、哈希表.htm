@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>键值对操作方法</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<H3>  <FONT face=宋体><FONT color=#0000ff>字符型变量的 键值对 操作方法</FONT> </FONT>     
+</H3>
+<P><FONT face="宋体" ></FONT></P><FONT face="宋体" >
+<HR>
+</FONT>
+
+<P><FONT face="宋体" >格式：ADDSTRVALUE 参数1 参数2 参数3 
+</FONT>          </P>
+<P><FONT face="宋体" >参数1：字符型变量 (A变量 T变量 
+S变量)&nbsp; 如果是自定义字符型变量 格式为:HUMAN(XXX)&nbsp; 不要带&lt;$&gt; 但是要带HUMAN、GLOBAL GUILD 
+</FONT>     
+         
+         
+  </P>
+<P><FONT face="宋体" >参数2：主键值</FONT></P>
+<P><FONT face="宋体" >参数3：对应值</FONT></P>
+<P><BR><FONT face="宋体" >写入例子：<BR>[@main]<BR>    
+      
+      
+#IF<BR>#ACT 
+<BR>MOV&nbsp;&nbsp;T10&nbsp;&nbsp;&nbsp;1=999,2=888,3=777</FONT>  <FONT face=宋体><BR>增加例子：<BR>[@main]<BR>#IF<BR>#ACT<BR>ADDSTRVALUE T10 4 
+996M2<BR>&nbsp; 
+</FONT>  </P>
+<P><FONT face="宋体" >修改例子：<BR>[@main]<BR>#IF<BR>#ACT<BR>ADDSTRVALUE T10 1 996M2.COM 
+</FONT>          
+</P>
+<P>  <FONT face=宋体><FONT color=#0000ff>获取字符串主键值 对应值：</FONT> </FONT>     </P>
+<P><FONT face="宋体" >格式：GETSTRVALUE 参数1 参数2 参数3 
+</FONT>          </P>
+<P><FONT face="宋体" >参数1：字符型变量 (A变量 T变量 
+S变量)&nbsp; 如果是自定义字符型变量 格式为:HUMAN(XXX)&nbsp; 不要带&lt;$&gt; 但是要带HUMAN、GLOBAL 
+GUILD(注意自定义变量需要保存) </FONT>     
+    
+     
+         
+  </P>
+<P><FONT face="宋体" >参数2：主键值</FONT></P>
+<P><FONT face="宋体" >参数3：存入变量</FONT></P>
+<P><FONT face="宋体" ></FONT>&nbsp;</P>
+<P><FONT face="宋体" >例子：<BR>[@获取主键值对应值]<BR>#IF<BR>#ACT<BR>GETSTRVALUE T10 1 
+S10<BR>SENDMSG 6 获取出来的为：&lt;$STR(S10)&gt; </FONT>  
+   
+  </P>
+<P><FONT color=#0000ff face="宋体" >删除字符型变量主键值：</FONT></P>
+<P><FONT face="宋体" >DELSTRVALUE 参数1 参数2 
+</FONT>       </P>
+<P><FONT face="宋体" >参数1：字符型变量 (A变量 T变量 
+S变量)&nbsp; 如果是自定义字符型变量 格式为:HUMAN(XXX)&nbsp; 不要带&lt;$&gt; 但是要带HUMAN、GLOBAL 
+GUILD(注意自定义变量需要保存) </FONT>     
+    
+     
+         
+  </P>
+<P><FONT face="宋体" >参数2：主键值</FONT></P>
+<P><FONT face="宋体" ></FONT>&nbsp;</P>
+<P><FONT face="宋体" >例子：<BR>[@删除主键值]<BR>#IF<BR>#ACT<BR>DELSTRVALUE T10 
+1<BR><BR><BR><BR><FONT color=#0000ff>键值对获取全部主键命令</FONT><BR>GETSTRKEY 参数1 
+参数2<BR>参数1：键值对变量名称<BR>参数2：存入变量</FONT></P>
+<P><FONT face="宋体" >//例子<BR>#if<BR>#ACT<BR>movT11=2,2=1,996=2,引擎=3<BR>GETSTRKEY T1 S1<BR>;取出主键值为逗号分割(1,2,996,引擎)<BR>sendmsg 7 
+&lt;$str(S1)&gt;<BR>;搭配分割有神奇的功效<BR>MOV N11 0<BR>GETVALIDSTRSUPER 
+&lt;$str(S1)&gt; , S$获取主键值 N$总主键数量<BR>while N11 &lt; &lt;$str(N$总主键数量)&gt;<BR> INC N11 1</FONT><FONT face="宋体" >   
+<BR>sendmsg 7 &lt;$str(S$获取主键值&lt;$str(N11)&gt;)&gt;<BR>endwhile<BR><BR><BR><FONT color=#0000ff>新增键值对取主键对应的值为常量<BR><FONT color=#000000>[@main]<BR>#IF<BR>#ACT<BR> mov&nbsp;&nbsp;T1&nbsp;&nbsp;1=996M2,2=996M2.COM<BR>sendmsg 7 
+&lt;$GETSTRVALUE(T1,1)&gt;，&lt;$GETSTRVALUE(T1,2)&gt;.<BR><BR><BR><FONT color=#0000ff>功能：修改键值对主键</FONT><BR>命令：格式SETSTRVALUEKEY 变量名称 原主键 
+新主键<BR>示例：<BR>[@main]<BR>#if<BR>#ACT<BR>movT11=2,2=1,996=2,引擎=3</FONT></FONT></FONT></P>
+<P><FONT face="宋体" ><FONT color=#0000ff><FONT color=#000000>#if<BR>#ACT<BR>;修改主键“引擎”为“M2”<BR><FONT color=#000000>SETSTRVALUEKEY</FONT> T1 引擎 M2<  
+BR>SENDMSG6&lt;$STR(T1)&gt;打印值：1=2,2=1,996=2,M2=3<BR><BR><BR></FONT><FONT color=#0000ff>新读取指定CSV的2列内容以键值对的方式写入到变量<BR><BR><FONT color=#000000>NEWREADCSVSAVEVAR 
+参数1 参数2 参数3 参数4 参数5<BR><FONT color=#000000>参数1：CSV所在路径<BR>参数2：读取数据的起始行<BR>参数3：主键所在列<BR>参数4：值所在列<BR>参数5：保存的变量(只支持字符型变量)<BR><BR></FONT></FONT></FONT><FONT color=#000000>注：数据以列的形式存放在CSV中，主键和值不能同时空行，同时空行即表示读取结束<BR>注：主键为空，值不为空时，忽略该行，主键不为空，值为空时会写入空值。<BR><BR><BR>[@main]<BR>#IF<BR>#ACT<BR>MOV T10<BR>NEWREADCSVSAVEVAR ..\QuestDiary\test.csv 10 1 2 T10<BR>sendmsg 6 &lt;$STR(T10)&gt;<BR>sendmsg 
+7 &lt;$GETSTRVALUE(T10,10)&gt;，&lt;$GETSTRVALUE(T10,11)&gt;.</FONT></FONT>  
+<BR><BR><BR><BR><FONT color=#0000ff>键值对排序<BR></FONT></FONT><FONT face="宋体" ><BR>功能：键值对排序<BR>命令：SORTVARSTR 参数1 参数2 
+参数3<BR>参数1：变量名称（如：A1）<BR>参数2：排序数量（1-100，如前10名填10，最多支持排序100组键值）<BR>参数3：0/1（升序/降序）<BR>参数4：0/1（0：小于时间戳优先，1：大于时间戳优先）<BR>;注：参数4可理解为，按捐献同等数量的情况下是让先捐献的排上面，还是后捐献的排上面</FONT></P>
+<P><FONT face="宋体" >键值对排序格式：玩家名字=捐献数量#时间戳<BR>排序主键常量：&lt;$GETSTRKEY(变量名,第几个)&gt;<BR>排序值常量：&lt;$GETSORTSTRVALUE(变量名,第几个)&gt;</FONT></P>
+<P><FONT face="宋体" >&nbsp;</FONT></P>
+<P><FONT face="宋体" >;//示例<BR>;重要说明：务必按照下方脚本逻辑进行编写脚本</FONT></P>
+<P><FONT face="宋体" >[@main]<BR>#if<BR>#ACT<BR>;赋值捐献的数量<BR>MOV N$捐献数量 
+10000<BR>;在总键值对中取出该玩家捐献的数量值<BR>MOV N$捐献数量取出 
+&lt;$GETSTRVALUE(A10,&lt;$username&gt;)&gt;<BR>;加上当前实际的捐献数量<BR>INC N$捐献数量取出 
+&lt;$str(N$捐献数量)&gt;<BR>;增加原有的基础键值数据<BR>ADDSTRVALUE A10 &lt;$username&gt; 
+&lt;$str(N$捐献数量取出)&gt;<BR>;增加需要排序的变量键值数据<BR>ADDSTRVALUE A11 &lt;$username&gt; 
+&lt;$str(N$捐献数量取出)&gt;#&lt;$UTCNOW&gt;<BR>;降序只排前6名按照大于时间戳优先<BR>SORTVARSTR&nbsp; 
+A11 6 1 1<BR>sendmsg 6 
+&lt;$Str(A11)&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<BR>sendmsg 6 
+排名第一名玩家名字：&lt;$GETSTRKEY(A11,1)&gt;。捐献数量：&lt;$GETSORTSTRVALUE(A11,1)&gt;<BR>sendmsg 
+6 
+排名第二名玩家名字：&lt;$GETSTRKEY(A11,2)&gt;。捐献数量：&lt;$GETSORTSTRVALUE(A11,2)&gt;<BR>sendmsg 
+6 
+排名第三名玩家名字：&lt;$GETSTRKEY(A11,3)&gt;。捐献数量：&lt;$GETSORTSTRVALUE(A11,3)&gt;<BR>sendmsg 
+6 
+排名第四名玩家名字：&lt;$GETSTRKEY(A11,4)&gt;。捐献数量：&lt;$GETSORTSTRVALUE(A11,4)&gt;<BR>sendmsg 
+6 
+排名第五名玩家名字：&lt;$GETSTRKEY(A11,5)&gt;。捐献数量：&lt;$GETSORTSTRVALUE(A11,5)&gt;<BR>sendmsg 
+6 
+排名第六名玩家名字：&lt;$GETSTRKEY(A11,6)&gt;。捐献数量：&lt;$GETSORTSTRVALUE(A11,6)&gt;</FONT></P>
+<P><FONT face="宋体" >;逻辑：我们将A10做为原始数据负责调用，用A11进行排序，这样需要排序的变量只会增加一个，从而达到高效率排序目的<BR>;切记不要直接去排所有的变量，会造成卡顿，并且排序最多只支持100组键值<BR></P></FONT></body>
+</html>

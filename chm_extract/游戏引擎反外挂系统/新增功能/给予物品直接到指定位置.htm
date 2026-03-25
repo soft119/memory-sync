@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>给予物品直接到指定位置</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT color=#0000ff><STRONG><FONT face=宋体>给予物品直接到指定位置&nbsp;&nbsp;&nbsp; </FONT> <A 
+href="装备位置.htm"><FONT face=宋体>装备位置</FONT></A><BR><BR><BR></STRONG></FONT><FONT color=#000000><FONT face=宋体><STRONG>格式：</STRONG> 
+GiveOnItem 参数1 参数2 参数3 参数4</FONT>     </FONT></P>
+<P><FONT color=#000000 face="宋体" >参数1：位置 (-1 当前OK框; 0~55 装备位置; boxitem0~boxitem17 自定义OK框位置) 
+<BR>参数2：物品名称<BR>参数3：数量 (默认写1 
+数量大于1时只对自定义OK框叠加物品有效)<BR>参数4：属性位置<BR><BR>属性位置规则：<BR>装备极品属性：1-14<BR>防御|魔御|攻击|魔法|道术|幸运(诅咒)|准确|敏捷|攻击速度|魔法躲避|毒物躲避|魔法恢复|体力恢复|中毒恢复| 
+</FONT><FONT color=#000000><BR><FONT face="Times New Roman"><FONT face=宋体>装备元素属性：15-24<BR>暴击几率增加|增加攻击伤害|物理伤害减少|魔法伤害减少|忽视目标防御|所有伤害反弹|增加目标暴率|人物体力增加|人物魔力增加|暴击伤害增加 
+<BR></FONT><BR><BR><FONT face=宋体>;例子 </FONT> 
+</FONT> </FONT></P>
+<P><FONT face="宋体" >[@给予布衣]<BR>#if<BR>#act<BR>GiveOnItem 0 布衣(男) 1 
+1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|22|24| <BR>SENDMSG 6 
+你获得一件全属性布衣(男)<BR><BR><BR>[@给物品到OK框]<BR>#if<BR>#act<BR>GiveOnItem boxitem0 沃玛凭证 
+10<BR>SENDMSG 
+6 你放入一个沃玛凭证到OK框中</FONT>  </P></body>
+</html>

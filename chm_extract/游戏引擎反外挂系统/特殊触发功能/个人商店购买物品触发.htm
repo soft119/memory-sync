@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>个人商店购买物品触发</title>
+</head>
+
+<body>
+常量:<FONT color=#ff0000>(个人商店已删直接删掉脚本用拍卖行即可)</FONT>
+<br>
+当前卖家名字 &lt;$USERSHOPSELLER&gt;<br>
+当前买家名字 &lt;$USERSHOPBUYER&gt;<br>
+当前购买或出售的物品常量和以前通用 &lt;$CURRTEMNAME&gt; &lt;$G_CURRTEMNAME&gt; &lt;$CURRTEMINDEX&gt; &lt;$CURRTEMMAKEINDEX&gt;<br>
+当前购买或出售的物品使用的货币类型名称 &lt;$BUYITEMMONEYTYPENAME&gt;<br>
+当前购买或出售的物品使用的货币类型值 &lt;$BUYITEMMONEYTYPE&gt;<br>
+当前购买或出售的物品的价格 &lt;$BUYITEPRICE&gt;
+<p>;购买触发 买家触发<br>
+  [@BuyUserShopItem]<br>
+  #IF<br>
+  #ACT<br>
+  sendmsg 6 你购买了&lt;$USERSHOPSELLER&gt;出售的摆摊物品&lt;$G_CURRTEMNAME&gt;,ID:&lt;$CURRTEMINDEX&gt;,货币名称:&lt;$BUYITEMMONEYTYPENAME&gt;,货币类型:&lt;$BUYITEMMONEYTYPE&gt;,物品价格:&lt;$BUYITEPRICE&gt;</p>
+</body>
+</html>

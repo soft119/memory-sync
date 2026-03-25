@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<META name="GENERATOR" content="QuickCHM">
+<title>检测血量，魔法百分比</title>
+</HEAD>
+<BODY>
+<P><FONT size=2><STRONG><FONT color=#0000ff>功能：</FONT></STRONG><BR>&nbsp;&nbsp;&nbsp;检测血量，魔法百分比</FONT></P>
+<P><STRONG><FONT color=#0000ff>格式：</FONT><BR>
+  </STRONG><FONT size=2>&nbsp;&nbsp;&nbsp;</FONT>CHECKHPPER 
+控制符(=,&gt;,&lt;,?)百分比(0-100) <FONT color= #ff0000> 比率模式(0：百分比，1：千分比)<br></FONT>
+  <FONT size=2>&nbsp;&nbsp;&nbsp;</FONT>CHECKMPPER 
+控制符(=,&gt;,&lt;,?)百分比(0-100) <FONT color= #ff0000> 比率模式(0：百分比，1：千分比)<BR></FONT>
+  <BR>
+  ;==========================================<BR>
+  例子：<BR>
+  #IF<BR>
+  CheckHpPer &gt;   30<BR>
+  #ACT<BR>
+  #SAY<BR>
+  你的血量在总血量的30%以上<BR>
+  --------------------------------------------------------------------<BR>
+  #IF <BR>
+  #ACT<BR>
+  AddhpPer + 30<BR>
+  GuildNoticeMsg 250 0 你的血增加了30%   self<BR>
+  ===================================================================<BR>
+  检测自身MP百分比 
+  <BR>
+  例子：<BR>
+  #IF<BR>
+  CheckMpPer &gt;   30<BR>
+  #ACT<BR>
+  #SAY<BR>
+  你当前的MP在总mp量的30%以上<BR>
+  ;==========================================<BR>
+</P>
+</BODY>
+</HTML>
+
+  

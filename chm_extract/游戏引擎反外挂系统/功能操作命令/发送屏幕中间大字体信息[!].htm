@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>发送屏幕中间大字体信息</title>
+</head>
+
+<body>
+<p><FONT face=宋体>发送屏幕中间大字体信息</FONT></p>
+<p><FONT face=宋体>  功能: 在专用登录器屏幕的中间显示公告.<BR>
+  格式: SendCenterMsg 前景色 背景色 消息文字 模式   显示时间 倒计时标签<BR>
+  模式: 0=发送给自己 1=发送所有人物 2=发送行会 3=发送国家 4=发送当前地图 5=替换模式  6=跨服发送<BR>
+  说明: 设置倒计时标签时可执行自定义脚本功能.</FONT>
+     </p>
+<p><FONT color=#ff0000 size=2 face=宋体> %ServerName 区名称</FONT></p>
+<p><FONT face=宋体>例子:<BR>
+  [@main]<BR>
+  #IF<BR>
+  #ACT<BR>
+SendCenterMsg 180 251 这是一个居中显示的公告. 0 10000 </FONT>
+      </p>
+<p><FONT face=宋体>例子:显示30秒.<BR>
+  [@main]<BR>
+  #IF<BR>
+  #ACT<BR>
+  SendCenterMsg 180 251 这是一个居中显示的公告. 0   30<BR></FONT>
+</p>
+<p><FONT face=宋体>执行倒计时标签(<FONT color=#ff00ff>注意:文字提示中必须包含%d</FONT>):<BR>
+  [@main]<BR>
+  #IF<BR>
+  #ACT<BR>
+  SendCenterMsg 180 251   还剩余%d发放新手奖励. 0 30 @GiveNewHumanItem<BR></FONT>
+</p>
+<p><FONT face=宋体>;需要放QFunction脚本中<BR>
+  [@GiveNewHumanItem]<BR>
+  #IF<BR>
+  #ACT<BR>
+  Give 金条 1<BR>
+  Give 裁决之杖   1<BR>
+  Give 圣战戒指 2<BR>
+  Give 圣战手镯 2<BR>
+  Give 圣战头盔 1<BR>
+  Give 圣战项链 1<BR>
+Give 天魔神甲 1</FONT>
+  </p>
+<p><FONT face=宋体>    例子:替换模式<BR>
+    替换模式只在有倒计时标签时有效.<BR>
+    <BR>
+    ;以下例子说明如何使倒计时从新开始.<BR>
+    </FONT><FONT size=2 face=宋体>[@main]<BR>
+    </FONT><FONT face=宋体 size=2>#IF<BR>
+    </FONT><FONT face=宋体><FONT size=2>#ACT<BR>
+    </FONT>SendCenterMsg 180 
+    251&nbsp;还剩余%d离开本地图.&nbsp;0&nbsp;600 
+    @ExitMap<BR>
+    <BR>
+    ;执行替换模式使时间从新开始<BR></FONT>
+    <FONT size=2 face=宋体>[@main1]<BR>
+    </FONT><FONT face=宋体 size=2>#IF<BR>
+    </FONT><FONT face=宋体><FONT size=2>#ACT<BR>
+    </FONT>SendCenterMsg 180 
+251&nbsp;还剩余%d离开本地图.&nbsp;5&nbsp;600 @ExitMap</FONT>   
+</p>
+<p><FONT face=宋体>;跨服发送<BR></FONT>
+    <FONT size=2 face=宋体>[@main1]<BR>
+    </FONT><FONT face=宋体 size=2>#IF<BR>
+    </FONT><FONT face=宋体><FONT size=2>#ACT<BR>
+    </FONT>SendCenterMsg 180 251&nbsp;区名称：%ServerName，还剩余%d离开本地图.&nbsp;6&nbsp;600 @ExitMap</FONT></p>
+</body>
+</html>

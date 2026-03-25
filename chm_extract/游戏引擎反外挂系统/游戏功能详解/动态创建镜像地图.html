@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>动态创建镜像地图</title>
+<style type="text/css">
+<!--
+.STYLE2 {color: #FF0000}
+-->
+</style>
+</HEAD>
+<BODY>
+<P><FONT face=宋体>动态创建一个镜像地图</FONT></P>
+<P><FONT face=宋体>ADDMIRRORMAP<br>
+格式：AddMirrorMap A B C D E F<br>
+功能：动态创建一个镜像地图<br>
+说明：创建成功后，人物D99变量返回1，否则返回0<br>
+A，原地图编号，在地图配置文件中存在的地图！<br>
+B，新地图编号，临时使用的地图编号，就和镜像地图功能一样！<br>
+C，新地图名，这里指客户端显示的名字<br>
+D，该地图存在的有效时长(秒)，时间到后，此地图将自动回收，并且将地图上的人传送至E参数设置的地图<br>
+E，人物退出时返回的地图编号 该地图不能是动态创建的地图，也就是不能是ADDMIRRORMAP命令创建的地图<br>
+F, 小地图编号</FONT>
+ </P>
+<p><FONT face=宋体>DelMirrorMap<br>
+  格式：DelMirrorMap 地图名<br>
+  功能：删除动态创建的镜像地图</FONT>
+  </p>
+<p><FONT face=宋体>MirrorMapTime<br>
+  格式：MirrorMapTime 地图名 时间（单位：秒）<br>
+  功能：设置/获取镜像地图的时间<br>
+  说明：如果时间不写，则表示获取当前地图的剩余时间，时间返回在D99变量<br>
+  如果获取地图失败或不是镜像地图，则D99返回-1</FONT>
+  </p>
+<p><FONT face=宋体>CheckMirrorMap<br>
+  格式：CheckMirrorMap 地图名<br>
+  功能：检测镜像地图是否已经创建</FONT>
+  </p>
+</BODY>
+</HTML>
+
+ 

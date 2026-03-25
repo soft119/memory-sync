@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>GOTOLABEL触发[!]</title>
+</head>
+
+<body>
+<p><FONT face=宋体> GOTOLABEL 0 @小组成员触发 是否包含自己(0:包含,1:不包含) 传递变量1(允许为空) 传递变量2(允许为空) 传递变量3(允许为空) 传递变量4(允许为空) <br>
+     
+     GOTOLABEL
+     
+     1 @行会成员触发
+     
+     是否包含自己(0:包含,1:不包含) 传递变量1(允许为空) 传递变量2(允许为空) 传递变量3(允许为空) 传递变量4(允许为空) <br>
+     
+     GOTOLABEL
+     
+     2 @当前地图的人物触发
+     
+     是否包含自己(0:包含,1:不包含) 传递变量1(允许为空) 传递变量2(允许为空) 传递变量3(允许为空) 传递变量4(允许为空) <br>
+        GOTOLABEL&nbsp;3 @指定范围人物触发 X Y
+        范围 
+        是否包含自己(0:包含,1:不包含) 传递变量1(允许为空) 传递变量2(允许为空) 传递变量3(允许为空) 传递变量4(允许为空) <br>
+     
+     GOTOLABEL
+     
+     4 @当前地图人物触发
+     
+     是否包含自己(0:包含,1:不包含) 传递变量1(允许为空) 传递变量2(允许为空) 传递变量3(允许为空) 传递变量4(允许为空) <br>
+        GOTOLABEL 5 
+@指定范围人物攻击模式不一样的触发 X
+        Y 范围 
+        是否包含自己(0:包含,1:不包含) 传递变量1(允许为空) 传递变量2(允许为空) 传递变量3(允许为空) 传递变量4(允许为空) <br>
+        GOTOLABEL 6 @小组成员触发 X
+        Y 范围
+        是否包含自己(0:包含,1:不包含) 传递变量1(允许为空) 传递变量2(允许为空) 传递变量3(允许为空) 传递变量4(允许为空) <br>
+        GOTOLABEL 7 @行会成员触发 X
+        Y 范围
+        是否包含自己(0:包含,1:不包含) 传递变量1(允许为空) 传递变量2(允许为空) 传递变量3(允许为空) 传递变量4(允许为空) <br>
+     
+ GOTOLABEL 8 
+@当前地图的人物触发 X
+     
+ Y 范围 
+是否包含自己(0:包含,1:不包含) 传递变量1(允许为空) 传递变量2(允许为空) 传递变量3(允许为空) 传递变量4(允许为空) 
+</FONT>
+     
+  
+     
+ 
+           </p>
+<p><FONT face=宋体>[@main]<br>
+  #IF<br>
+  #ACT<br>
+  mov n1 &lt;$X&gt;<br>
+  mov n2 &lt;$Y&gt;<br>
+  mov S1 &lt;$USERNAME&gt;<br>
+  GOTOLABEL 0 @小组成员触发 1 n1 n2 S1 <br>
+  GOTOLABEL 1 @行会成员触发 1 n1 n2 S1 <br>
+  GOTOLABEL 2 @当前地图的人物触发 1 n1 n2 S1 <br>
+  GOTOLABEL 3 @指定范围人物触发 &lt;$X&gt; &lt;$Y&gt; 12 1 n1 n2 S1 
+</FONT>
+            
+
+            </p>
+<p><FONT face=宋体>[@小组成员触发]<br>
+  #ACT<br>
+SENDMSG 6 
+传递的变量和接受的变量是同一个，对方名称&lt;$STR(S1)&gt;，坐标X:&lt;$STR(N1)&gt; Y:&lt;$STR(N2)&gt; 
+</FONT>
+  
+ 
+
+   </p>
+<p><FONT face=宋体>--------------------------------------------------------------------------------------------------</FONT></p>
+<p><FONT face=宋体>GOTOLABELEX 
+模式(0组队,1行会) X Y 范围 在什么脚本里触发(0:QF脚本,1:当前NPC脚本) 触发字段 </FONT>  
+  </p>
+<p><FONT face=宋体>[@main]<br>
+  #IF<br>
+  #ACT<br>
+  GOTOLABELEX 0 &lt;$X&gt; 
+&lt;$Y&gt; 10 0 @aaa </FONT>
+     
+   
+        </p>
+</body>
+
+</html>

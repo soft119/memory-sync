@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>数值串排序</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT face=宋体>SortString 参数一 参数二 参数三 
+参数四<BR><BR>参数一：要排序的字符串<BR></FONT><FONT face=宋体>参数二：分隔符<BR>参数三：排序后赋值的变量&nbsp; <FONT color=#ff0000>注:写入变量这个参数不要带&lt;$STR()&gt;</FONT> <BR>参数四：排序模式，0小到大 
+1大到小<BR><BR>  
+<BR><FONT face=宋体 > 例子1：</P>
+<P><FONT face=宋体>;从小到大排序</FONT></P>
+<P><FONT face=宋体>#ACT<BR>MOV N$三号位置 10<BR>MOV N$四号位置 7<BR>MOV N$五号位置 3<BR>MOV S$排序 
+&lt;$STR(N$三号位置)&gt;|&lt;$STR(N$四号位置)&gt;|&lt;$STR(N$五号位置)&gt;<BR>SortString 
+&lt;$STR(S$排序)&gt; | S$整理后 0<BR>结果为：3|7|10|</FONT></P>
+<P><FONT face=宋体>例子2：</FONT></P>
+<P><FONT face=宋体>;从大到小排序</FONT></P>
+<P><FONT face=宋体>#ACT<BR>MOV S$三号位置 14<BR>MOV S$四号位置 5<BR>MOV S$五号位置 8<BR>MOV S$排序 
+&lt;$STR(S$三号位置)&gt;|&lt;$STR(S$四号位置)&gt;|&lt;$STR(S$五号位置)&gt;<BR>SortString 
+&lt;$STR(S$排序)&gt; | S$整理后 1<BR>结果为：14|8|5|<BR></FONT></P></FONT></FONT></body>
+</html>

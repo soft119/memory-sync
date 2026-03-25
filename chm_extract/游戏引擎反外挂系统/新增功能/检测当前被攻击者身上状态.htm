@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>检测当前被攻击者身上状态</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body><STRONG><FONT color=#0000ff>检测当前被攻击者身上状态<BR></FONT><BR><BR></STRONG><FONT color=#000000>格式：checkHumanState 状态<BR>状态代码：1.魔法盾 2.护体神盾 3.无极真气 4.幽灵盾 5.神圣战甲术 
+6.隐身术 7.冰冻 8.麻痹 9.锁定 
+10.蛛网<BR>备注：此命令支持多级脚本！</FONT><BR><BR><BR>;例子<BR>[@test]<BR>#IF<BR>CheckHumanState 
+1<BR>#SAY<BR>当前攻击目标魔法盾持续中<BR><BR>[@test1]<BR>#IF<BR>P.CheckHumanState 
+1<BR>#SAY<BR>当前目标魔法盾持续中</body>
+</html>

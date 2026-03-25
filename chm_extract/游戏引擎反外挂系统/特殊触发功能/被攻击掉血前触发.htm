@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>被攻击掉血前触发</title>
+</head>
+
+<body>
+ChangeDamageValue 类型(0=值,1=百分比)  操作符(+,-,=)  值
+<p>[@StruckDamage]<br>
+  #act<br>
+  sendmsg 6 被攻击掉血前触发这个QF字段,掉血值：&lt;$DAMAGEVALUE&gt;<br>
+  ChangeDamageValue 0 = 0<br>
+  ;修改掉血值为0，该命令只能在这个触发里使用，其他地方使用无效<br>
+  sendmsg 6 修改攻击为0，当前攻击失效</p>
+<p>[@AttackDamage]<br>
+  #act<br>
+  sendmsg 6 攻击目标掉血前触发这个QF字段,掉血值：&lt;$DAMAGEVALUE&gt;<br>
+  ChangeDamageValue 0 = 0<br>
+  ;修改掉血值为0，该命令只能在这个触发里使用，其他地方使用无效<br>
+  sendmsg 6 修改攻击为0，当前攻击失效</p>
+<p>;这两个触发一个就可以了,</p>
+</body>
+</html>

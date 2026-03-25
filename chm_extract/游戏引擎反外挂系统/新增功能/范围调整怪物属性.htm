@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>范围调整怪物属性</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT face=宋体>;清空上次操作过的怪物列表(不影响上次改的怪物属性),方便对下一批怪调整属性<BR>;例如调整白野猪攻击+10，然后执行清空列表，再调整白野猪攻击+5，最终白野猪攻击+5。<BR><FONT color=#ff0000>;总结，对同一批怪执行清空，则值不会累加，而是覆盖上次的值。<BR>;对下一批怪进行操作一定要清空列表，不然值是累加后的值</FONT>。<BR><FONT color=#0000ff>CLEARMONABILITY</FONT><BR></FONT><FONT face=宋体></FONT></P>
+<P><FONT face=宋体>范围调整怪物属性<BR><FONT color=#0000ff>ChangeMonAbility<BR><BR><FONT color=#000000>参数1=类型 0:HP 
+1:MaxHP 2:MP 3:MaxMP 4:AC1 5:AC2 6:MAC1 7:MAC2 8:DC1 9:DC2 10:MC1 11:MC2 12:SC1 
+13:SC2 14:攻速 15:移速 16:appr外观 17:准确 18:敏捷 19:等级 20:经验值21:攻击伤害 22:物伤减少 23:魔伤减少 
+24:忽视防御 
+25:伤害反弹</FONT><BR><BR><FONT color=#000000>参数2=运算符 
+(+、-、=)注:<FONT color=#ff0000> 16:appr外观 只有= 不支持+- ，值=   0则表示还原到怪物原本属性，不支持负数不可超过21亿   </FONT><BR><BR><FONT color=#000000>参数3=是否百分比(0:值&nbsp; 1:百分比)<BR> </FONT><BR><BR><FONT color=#000000>刷新怪物属性值</FONT><BR><FONT color=#000000><FONT color=#0000ff>RecalcMonAbility</FONT>&nbsp;&lt;$MAP&gt;&nbsp;&lt;$X&gt;&nbsp;&lt;$y&gt;&nbsp;鸡&nbsp;10&nbsp;5</FONT><BR></FONT></FONT><FONT face=宋体><BR>参数1=地图 &lt;$MAP&gt;</FONT></P>
+<P><FONT face=宋体>参数2=X坐标 &lt;$X&gt;</FONT> </P>
+<P><FONT face=宋体>参数3=Y坐标 &lt;$y&gt;</FONT> </P>
+<P><FONT face=宋体>参数4=怪物名&nbsp;&nbsp; 
+<FONT color=#ff0000>(注:</FONT><FONT color=#ff0000>*号 
+所有怪物</FONT> <FONT color=#ff0000>)</FONT> 
+</FONT></P>
+<P><FONT face=宋体>参数5=范围&nbsp;&nbsp;&nbsp;<FONT color=#ff0000> (注:范围太大可能会卡一下，尽量控制在10以内)</FONT></FONT></P>
+<P><FONT face=宋体>参数6=数量&nbsp;&nbsp;&nbsp; <FONT color=#ff0000>(<FONT color=#ff0000>注:</FONT></FONT><FONT color=#ff0000>-1不限数量)</FONT> <BR><BR>参数7=0或者空时永久有效，大于0时为时间秒，到时间后恢复<BR><BR>上述三条命令需要配合使用，只使用<FONT color=#0000ff>ChangeMonAbility</FONT><FONT color=#000000>不刷新的话不会生效，只刷新不给值也无效</FONT></FONT></P>
+<P><FONT face=宋体>例子：<BR>[@main]<BR>#ACT<BR>CLEARMONABILITY<BR>ChangeMonAbility&nbsp;0&nbsp;=&nbsp;900&nbsp;0<BR>ChangeMonAbility&nbsp;1&nbsp;=&nbsp;1000&nbsp;0<BR>ChangeMonAbility&nbsp;2&nbsp;=&nbsp;900&nbsp;0<BR>ChangeMonAbility&nbsp;3&nbsp;=&nbsp;1000&nbsp;0<BR>ChangeMonAbility&nbsp;4&nbsp;=&nbsp;100&nbsp;0<BR>ChangeMonAbility&nbsp;5&nbsp;=&nbsp;110&nbsp;0<BR>ChangeMonAbility&nbsp;6&nbsp;=&nbsp;120&nbsp;0<BR>ChangeMonAbility&nbsp;7&nbsp;=&nbsp;130&nbsp;0<BR>ChangeMonAbility&nbsp;8&nbsp;=&nbsp;130&nbsp;0<BR>ChangeMonAbility&nbsp;9&nbsp;=&nbsp;140&nbsp;0<BR>ChangeMonAbility&nbsp;10&nbsp;=&nbsp;150&nbsp;0<BR>ChangeMonAbility&nbsp;11&nbsp;=&nbsp;160&nbsp;0<BR>ChangeMonAbility&nbsp;12&nbsp;=&nbsp;170&nbsp;0<BR>ChangeMonAbility&nbsp;13&nbsp;=&nbsp;180&nbsp;0<BR>ChangeMonAbility&nbsp;14&nbsp;=&nbsp;190&nbsp;0<BR>ChangeMonAbility&nbsp;17&nbsp;=&nbsp;200&nbsp;0<BR>ChangeMonAbility&nbsp;18&nbsp;=&nbsp;210&nbsp;0<BR>ChangeMonAbility&nbsp;19&nbsp;=&nbsp;220&nbsp;0<BR>RecalcMonAbility&nbsp;&lt;$MAP&gt;&nbsp;&lt;$X&gt;&nbsp;&lt;$y&gt;&nbsp;鸡&nbsp;10&nbsp;5</FONT>      
+    </P></FONT></body>
+</html>

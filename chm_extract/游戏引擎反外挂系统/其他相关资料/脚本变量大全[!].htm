@@ -1,0 +1,1521 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>脚本变量大全[!]</title>
+<style type="text/css">
+<!--
+.STYLE8 {color: #0000FF}
+.style9 {color: #FF0000}
+-->
+</style>
+</HEAD>
+<BODY>
+<p><STRONG><FONT face=宋体>脚本变量(常量)&nbsp;</FONT></STRONG></p>
+<p><FONT face=宋体><STRONG>人物信息</STRONG> 
+</FONT>
+</p>
+<p class="style9"><strong><FONT face=宋体><strong>当前对象的</strong>所有私人的常量都可以使用在前面加“C.”的方式<br>
+    <strong>当前对象的</strong>所有私人的变量使用&lt;$CSTR(S1)&gt;和查看自己的变量&lt;$STR(S1)&gt;多一个“C”<br>
+比如在攻击触发，被攻击触发，死亡触发，还有查看出售角色的其他信息的触发时 
+</FONT>
+</strong></p>
+<p class="style9"><FONT face=宋体><STRONG>当前对象的常量，例如：&lt;$C.HP&gt; &lt;$C.PKPOINT&gt; &lt;$C.GOLDCOUNT&gt; &lt;$C.GAMEGOLD&gt;<br>
+当前对象的变量，例如：&lt;$CSTR(S1)&gt; &lt;$CSTR(A1)&gt; 
+&lt;$CSTR(T1)&gt; &lt;$CSTR(U1)&gt; &lt;$CHUMAN(QQQQ)&gt; &lt;$CGUILD(WWWW)&gt; 
+<BR><BR></STRONG><SPAN 
+style="FONT-SIZE: 18pt; FONT-FAMILY: 宋体; FONT-WEIGHT: bold; COLOR: rgb(0,0,255); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">英雄相关常量直接在人物常量上面增加H. 
+&nbsp;如：</SPAN><FONT face=宋体><SPAN 
+style="FONT-SIZE: 18pt; FONT-FAMILY: 微软雅黑; COLOR: rgb(0,0,255); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&lt;$H.MAXAC&gt;</SPAN></FONT>
+ 
+    
+ </FONT></p>
+<TABLE width="740" border=1 borderColor=#99ccff style="WIDTH: 740px"><!--DWLayoutTable-->
+  <TR>
+    <TD width="200"><FONT size=2 face=宋体 >变量名称</FONT></TD>
+    <TD width="572"><FONT size=2 face=宋体 >说明</FONT></TD></TR>
+  <TR>
+    <TD width=200>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: left; mso-pagination: widow-orphan"><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT color=#000000>&lt;$USERACCOUNT&gt;</FONT></SPAN><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN></P></TD>
+    <TD width=572>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: left; mso-pagination: widow-orphan"><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">登录帐号</SPAN><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN></P></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$USERNAME&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >人物名称</FONT></TD>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$GUILDNAME&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >行会名称</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$RANKNAME&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >行会职位名称</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$LEVEL&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >等级</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$HP&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >生命值</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$AC&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >防御力</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$MAXAC&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >最高防御力</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$MAC&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >魔法防御力</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$MAXMAC&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >最高魔法防御力</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$DC&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >物理攻击力</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$MAXDC&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >最高物理攻击力</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$MC&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >魔法力</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$MAXMC&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >最高魔法力</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$SC&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >道术</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$MAXSC&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >最高道术</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$EXP&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >当前经验值</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$MAXEXP&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >升级经验值</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$MAXHP&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>HP上限</FONT></TD>
+  </TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$MAXMP&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>MP上限</FONT></TD>
+  </TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$DIR&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>方向</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT face=宋体>&lt;$UTCNOW&gt;</FONT></TD>
+    <TD>时间戳(北京时间)</TD></TR>
+  <TR>
+    <TD width=200><!--DWLayoutEmptyCell--><FONT face=宋体>&lt;$UTCNOW8&gt;</FONT></TD>
+    <TD width=572><!--DWLayoutEmptyCell--><FONT face=宋体>时间戳(世界时间)</FONT></TD>
+  </TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$PKPOINT&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >PK点数</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$CREDITPOINT&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >声望点数</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$GOLDCOUNT&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >金币数量</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$GAMEGOLD&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >游戏币数</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$GAMEPOINT&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >游戏点数</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$HW&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >腕力</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$MAXHW&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >最高腕力</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$BW&gt; </FONT> </TD>
+    <TD width=572><FONT size=2 face=宋体 >背包重量</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$MAXBW&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >最高背包重量</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$WW&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >负重力</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$MAXWW&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >最高负重</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$HUNGER&gt; </FONT> </TD>
+    <TD width=572><FONT size=2 face=宋体 >饥饿程度</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$LOGINTIME&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >登录时间</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$LOGINLONG&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >登录时长</FONT></TD></TR>
+  <TR>
+    <TD width=200><!--DWLayoutEmptyCell--><FONT face=宋体>&lt;$IPADDR&gt;</FONT></TD>
+    <TD width=572><!--DWLayoutEmptyCell--><FONT face=宋体>玩家IP地址</FONT></TD>
+  </TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$DRESS&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >衣服</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$WEAPON&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >武器</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$RIGHTHAND&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >蜡烛</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$HELMET&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >头盔</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$NECKLACE&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >项链</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$RING_R&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >右戒指</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$RING_L&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >左戒指</FONT></TD>
+  </TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$ARMRING_R&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >右手镯</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$ARMRING_L&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >左手镯</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$BUJUK&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >护身符</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$BELT&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >腰带</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$BOOTS&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >鞋子</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$CHARM&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >宝石</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$HAT&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>斗笠</FONT></TD>
+  </TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$DRUM&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>军鼓</FONT></TD>
+  </TR>
+	  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$HORSE&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >马牌</FONT></TD>
+	  </TR>
+	  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$SHIELD&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >盾牌</FONT></TD>
+	  </TR>
+	  <TR>
+	    <TD width=200><FONT face=宋体>&lt;$SDRESS&gt;</FONT></TD>
+	    <TD width=572><FONT face=宋体>时装<FONT size=2>衣服</FONT></FONT></TD>
+  </TR>
+	  <TR>
+	    <TD width=200><FONT face=宋体>&lt;$SWEAPON&gt;</FONT></TD>
+	    <TD width=572><FONT face=宋体>时装<FONT size=2>武器</FONT></FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT face=宋体>&lt;$HFCOUNT&gt;</FONT></TD>
+    <TD><FONT face=宋体>合区次数(每次合区+1)</FONT></TD></TR>
+	  <TR>
+	    <TD width=200><!--DWLayoutEmptyCell--><FONT face=宋体>&lt;$HFTIME&gt;</FONT></TD>
+	    <TD width=572><!--DWLayoutEmptyCell--><FONT face=宋体>合区时间</FONT></TD>
+  </TR>
+	  <TR>
+	    <TD width=200><FONT face=宋体>&lt;$SUCKDAMAGE&gt;</FONT></TD>
+	    <TD width=572><FONT face=宋体>伤害吸收值 
+      脚本命令USEBONUSPOINT增加的，该值保存人物数据库里，下线不消失 </FONT> </TD>
+  </TR>
+	  <TR>
+	    <TD width=200><FONT face=宋体>&lt;$SUCKDAMAGEPOINT&gt;</FONT></TD>
+	    <TD width=572><FONT face=宋体>伤害吸收值 
+      脚本命令SETSUCKDAMAGE增加的，下线消失 </FONT> </TD>
+  </TR>
+	  <TR>
+	    <TD width=200><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+	    <TD width=572><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+  </TR>
+	  <TR>
+        <TD width=200><FONT size=2 face=宋体 >&lt;$G_DRESS&gt;</FONT></TD>
+	    <TD width=572><FONT size=2 face=宋体>衣服 改名名称</FONT></TD>
+  </TR>
+	  <TR>
+        <TD width=200><FONT size=2 face=宋体 >&lt;$G_WEAPON&gt;</FONT></TD>
+	    <TD width=572><FONT size=2 face=宋体>武器 改名名称</FONT></TD>
+  </TR>
+	  <TR>
+        <TD width=200><FONT size=2 face=宋体 >&lt;$G_RIGHTHAND&gt;</FONT></TD>
+	    <TD width=572><FONT size=2 face=宋体>蜡烛 改名名称</FONT></TD>
+  </TR>
+	  <TR>
+        <TD width=200><FONT size=2 face=宋体 >&lt;$G_HELMET&gt;</FONT></TD>
+	    <TD width=572><FONT size=2 face=宋体>头盔 改名名称</FONT></TD>
+  </TR>
+	  <TR>
+        <TD width=200><FONT size=2 face=宋体 >&lt;$G_NECKLACE&gt;</FONT></TD>
+	    <TD width=572><FONT size=2 face=宋体>项链 改名名称</FONT></TD>
+  </TR>
+	  <TR>
+        <TD width=200><FONT size=2 face=宋体 >&lt;$G_RING_R&gt;</FONT></TD>
+	    <TD width=572><FONT size=2 face=宋体>右戒指 改名名称</FONT></TD>
+  </TR>
+	  <TR>
+        <TD width=200><FONT size=2 face=宋体 >&lt;$G_RING_L&gt;</FONT></TD>
+	    <TD width=572><FONT size=2 face=宋体>左戒指 改名名称</FONT></TD>
+  </TR>
+	  <TR>
+        <TD width=200><FONT size=2 face=宋体 >&lt;$G_ARMRING_R&gt;</FONT></TD>
+	    <TD width=572><FONT size=2 face=宋体>右手镯 改名名称</FONT></TD>
+  </TR>
+	  <TR>
+        <TD width=200><FONT size=2 face=宋体 >&lt;$G_ARMRING_L&gt;</FONT></TD>
+	    <TD width=572><FONT size=2 face=宋体>左手镯 改名名称</FONT></TD>
+  </TR>
+	  <TR>
+        <TD width=200><FONT size=2 face=宋体 >&lt;$G_BUJUK&gt;</FONT></TD>
+	    <TD width=572><FONT size=2 face=宋体>护身符 改名名称</FONT></TD>
+  </TR>
+	  <TR>
+        <TD width=200><FONT size=2 face=宋体 >&lt;$G_BELT&gt;</FONT></TD>
+	    <TD width=572><FONT size=2 face=宋体>腰带 改名名称</FONT></TD>
+  </TR>
+	  <TR>
+        <TD width=200><FONT size=2 face=宋体 >&lt;$G_BOOTS&gt;</FONT></TD>
+	    <TD width=572><FONT size=2 face=宋体>鞋子 改名名称</FONT></TD>
+  </TR>
+	  <TR>
+        <TD width=200><FONT size=2 face=宋体 >&lt;$G_CHARM&gt;</FONT></TD>
+	    <TD width=572><FONT size=2 face=宋体>宝石 改名名称</FONT></TD>
+  </TR>
+	  <TR>
+        <TD width=200><FONT face=宋体>&lt;$<FONT size=2>G_</FONT>HAT&gt;</FONT></TD>
+	    <TD width=572><FONT face=宋体>斗笠<FONT size=2> 改名名称</FONT></FONT></TD>
+  </TR>
+	  <TR>
+        <TD width=200><FONT face=宋体>&lt;$<FONT size=2>G_</FONT>DRUM&gt;</FONT></TD>
+	    <TD width=572><FONT face=宋体>军鼓<FONT size=2> 改名名称</FONT></FONT></TD>
+  </TR>
+	  <TR>
+        <TD width=200><FONT size=2 face=宋体 >&lt;$G_HORSE&gt;</FONT></TD>
+	    <TD width=572><FONT size=2 face=宋体>马牌 改名名称</FONT></TD>
+  </TR>
+	  <TR>
+        <TD width=200><FONT size=2 face=宋体 >&lt;$G_SHIELD&gt;</FONT></TD>
+	    <TD width=572><FONT size=2 face=宋体>盾牌 改名名称</FONT></TD>
+  </TR>
+	  <TR>
+        <TD width=200><FONT face=宋体>&lt;$<FONT size=2>G_</FONT>SDRESS&gt;</FONT></TD>
+	    <TD width=572><FONT face=宋体>时装<FONT size=2>衣服 改名名称</FONT></FONT></TD>
+  </TR>
+	  <TR>
+        <TD width=200><FONT face=宋体>&lt;$<FONT size=2>G_</FONT>SWEAPON&gt;</FONT></TD>
+	    <TD width=572><FONT face=宋体>时装<FONT size=2>武器 改名名称</FONT></FONT></TD>
+  </TR>
+      <TR>
+        <TD width=200><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+        <TD width=572><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+      </TR>
+  <TR>
+    <TD width=200><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: Times New Roman; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: Times New Roman; mso-font-kerning: 0.0000pt"><o:p>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: left; mso-pagination: widow-orphan">  <FONT face=宋体>&lt;$OWNERGUILD&gt;</FONT></P></SPAN></TD>
+    <TD width=572>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: left; mso-pagination: widow-orphan"><FONT face=宋体><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: Times New Roman; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">沙巴克管理行会名称</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: Times New Roman; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN></FONT></P></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$CASTLENAME&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >沙城名称</FONT></TD></TR>
+  <TR>
+    <TD width=200>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: left; mso-pagination: widow-orphan"><FONT face=宋体>&lt;$LORD&gt;</FONT></P></TD>
+    <TD width=572>
+      <P class=MsoNormal 
+      style="TEXT-ALIGN: left; mso-pagination: widow-orphan"><FONT face=宋体><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: Times New Roman; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">沙巴克管理员名称</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: Times New Roman; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN></FONT></P></TD></TR>
+  <TR>
+    <TD width=200><FONT size=2 face=宋体 >&lt;$GAMEDIAMOND&gt;</FONT></TD>
+    <TD width=572><FONT size=2 face=宋体 >金刚石</FONT></TD></TR>
+  <TR>
+    <TD width=200><font size="2" face=宋体 >&lt;$GAMEGIRD&gt;</font></TD>
+    <TD width=572><font size="2" face=宋体 >灵符</font></TD></TR>
+  <TR>
+    <TD width=200><font size="2" face="宋体" >&lt;$MAP&gt;</font></TD>
+    <TD width=572><font size="2" face="宋体" >当前地图代码</font></TD>
+  </TR>
+  <TR>
+    <TD width=200><font size="2" face="宋体" >&lt;$RELEVEL&gt;</font></TD>
+    <TD width=572><font size="2" face="宋体" >显示转生等级</font></TD>
+  </TR>
+  <TR>
+    <TD width=200><font size="2" face="宋体" >&lt;$STATSERVERTIME&gt;</font></TD>
+    <TD width=572><font size="2" face="宋体" >显示M2启动时间</font></TD>
+  </TR>
+  <TR>
+    <TD width=200><font size="2" face="宋体" >&lt;$RUNDATETIME&gt;</font></TD>
+    <TD width=572><font size="2" face="宋体" >开区间隔时间</font></TD>
+  </TR>
+  <TR>
+    <TD width=200><font size="2" face=宋体 >&lt;$KILLER&gt;</font></TD>
+    <TD width=572><font size="2" face=宋体 >杀人者变量</font></TD>
+  </TR>
+  <TR>
+    <TD width=200><font size="2" face=宋体 >&lt;$RANDOMNO&gt;</font></TD>
+    <TD width=572><font size="2" face=宋体 >随机值变量</font></TD>
+  </TR>
+  <TR>
+    <TD width=200><font size="2" face=宋体 >&lt;$X&gt;</font></TD>
+    <TD width=572><font size="2" face=宋体 >人物X坐标</font></TD>
+  </TR>
+  <TR>
+    <TD width=200><font size="2" face=宋体 >&lt;$Y&gt;</font></TD>
+    <TD width=572><font size="2" face=宋体 >人物Y坐标</font></TD>
+  </TR>
+  <TR>
+    <TD width=200><font size="2" face="宋体" >&lt;$USERALLNAME&gt;</font></TD>
+    <TD width=572><font size="2" face="宋体" >人物完整名称</font></TD>
+  </TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$GAMEGLORY&gt;</FONT></TD>
+    <TD width=572><font size="2" face=宋体 >人物荣誉值</font></TD>
+  </TR>
+  <TR>
+    <TD width=200><font size="2" face=宋体 >&lt;$MapTitle&gt;</font></TD>
+    <TD width=572><font size="2" face=宋体 >取地图名称</font></TD>
+  </TR>
+  <TR>
+    <TD width=200><font size="2" face=宋体 >&lt;$GetExp&gt;</font></TD>
+    <TD width=572><font size="2" face=宋体 >人物当前获得经验变量</font></A></TD>
+  </TR>
+  <TR>
+    <TD width=200><font size="2" face=宋体 >&lt;$CASTLEGAMEGOLD&gt;</font></TD>
+    <TD width=572><font size="2" face=宋体 >显示沙城税收的元宝值</font></TD>
+  </TR>
+  <TR>
+    <TD width=200>
+      <P><font size="2" face="宋体">&lt;$KILLMONNAMEEX&gt;</font></P></TD>
+    <TD width=572><font size="2" face=宋体 >人物杀死的怪物名称带数字</font></TD>
+  </TR>
+  <TR>
+    <TD width=200><font size="2" face=宋体 >&lt;$KILLMONNAME&gt;</font></TD>
+    <TD width=572><font size="2" face=宋体 >人物杀死的怪物名称</font></TD>
+  </TR>
+  <TR>
+    <TD width=200><font size="2" face=宋体 >&lt;$KILLMONX&gt; &lt;$KILLMONY&gt;</font></TD>
+    <TD width=572><font size="2" face=宋体 >人物杀死怪物的坐标</font></TD>
+  </TR>
+  <TR>
+    <TD width=200><font size="2" face=宋体 >&lt;$HIT&gt; </font></TD>
+    <TD width=572><font size="2" face=宋体 >准确</font></TD>
+  </TR>
+  <TR>
+    <TD width=200><font size="2" face=宋体 >&lt;$SPD&gt; </font></TD>
+    <TD width=572><font size="2" face=宋体 >敏捷</font></TD>
+  </TR>
+  <TR>
+    <TD width=200><font size="2" face=宋体 >&lt;$HITSPD&gt;</font></TD>
+    <TD width=572><font size="2" face=宋体 >攻速</font></TD>
+  </TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$LUCK&gt;</FONT></TD>
+    <TD width=572>人物当前的幸运值</TD></TR>
+  <TR>
+    <TD width=200><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+    <TD width=572><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+  </TR>
+  <TR>
+    <TD width=200><font size="2" face=宋体 >&lt;$YEAR&gt; </font></TD>
+    <TD width=572><font size="2" face=宋体 >当前年份</font></TD>
+  </TR>
+  <TR>
+    <TD width=200><font size="2" face=宋体 >&lt;$MONTH&gt; </font></TD>
+    <TD width=572><font size="2" face=宋体 >当前月份</font></TD>
+  </TR>
+  <TR>
+    <TD width=200><font size="2" face=宋体 >&lt;$DAY&gt; </font></TD>
+    <TD width=572><font size="2" face=宋体 >当前日期</font></TD>
+  </TR>
+  <TR>
+    <TD width=200><font size="2" face=宋体 >&lt;$HOUR&gt; </font></TD>
+    <TD width=572><font size="2" face=宋体 >当前小时</font></TD>
+  </TR>
+  <TR>
+    <TD width=200><font size="2" face=宋体 >&lt;$MINUTE&gt; </font></TD>
+    <TD width=572><font size="2" face=宋体 >当前分钟</font></TD>
+  </TR>
+  <TR>
+    <TD width=200><font size="2" face=宋体 >&lt;$SECOND&gt; </font></TD>
+    <TD width=572><font size="2" face=宋体 >当前秒</font></TD>
+  </TR>
+  <TR>
+    <TD width=200><font size="2" face=宋体 >&lt;$TEAM0&gt;..&lt;$TEAMX&gt; </font></TD>
+    <TD width=572><font size="2" face=宋体 >用于显示组队成员,&lt;$TEAM0&gt;代表队长,成员从&lt;$TEAM1&gt;开始</font></TD>
+  </TR></TR>
+    <TR>
+    <TD width=200><font size="2" face=宋体 >&lt;$STNAME&gt;</font></TD>
+    <TD width=572><font size="2" face=宋体 >师徒名称变量</font></TD>
+  </TR>
+          <TR>
+    <TD width=200><FONT face=宋体>&lt;$KILLMONEXPRATE&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>杀怪经验倍数</FONT></TD>
+  </TR>
+          <TR>
+    <TD width=200><FONT face=宋体>&lt;$KILLMONEXPRATETIME&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>杀怪经验倍数时长</FONT></TD>
+  </TR>
+            <TR>
+    <TD width=200><FONT face=宋体>&lt;$GAMEGOLDEX&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>新游戏点数</FONT></TD>
+  </TR>
+  <TR>
+    <TD><SPAN 
+      style="FONT-SIZE: 14px; FONT-FAMILY: 'Microsoft YaHei UI'"><FONT face=宋体>&lt;$REVIVALCOUNTDOWN&gt;</FONT></SPAN></TD>
+    <TD>下次复活时间间隔</TD></TR>
+              <TR>
+    <TD width=200><FONT face=宋体>&lt;$REVIVALTIME&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>复活间隔变量</FONT></TD>
+  </TR>
+                <TR>
+    <TD width=200><FONT face=宋体>&lt;$POWERRATE&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>当前攻击力倍数</FONT></TD>
+  </TR>
+                <TR>
+    <TD width=200><FONT face=宋体>&lt;$POWERRATETIME&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>当前攻击力倍数剩余时间</FONT></TD>
+  </TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$KILLMONBURSTRATE&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>当前爆率倍数</FONT></TD></TR>
+  <TR>
+    <TD><FONT face=宋体>&lt;$KILLMONBURSTRATETIME&gt;</FONT></TD>
+    <TD>当前爆率倍数时长</TD></TR>
+                    <TR>
+    <TD width=200><FONT face=宋体>&lt;$GROUPMEMBERCOUNT&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>当前组队人数</FONT></TD>
+  </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$X&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>人物当前坐标X</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$Y&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>人物当前坐标Y</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$VALUE1&gt;..&lt;$VALUE17&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>人物元素的属性值的常量共17个。1到17</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$SCREENWIDTH&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>分辨率 宽 </FONT> </TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$SCREENHEIGHT&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>分辨率 高 </FONT> </TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+                      <TD width=572><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$PASSWORD&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>注册账号时用户输入的密码</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$BIRTHDAT&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>注册账号时用户输入的生日</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$QUIZ1&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>注册账号时用户输入的问题1</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$ANSWER1&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>注册账号时用户输入的答案1</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$QUIZ2&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>注册账号时用户输入的问题2</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$ANSWER2&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>注册账号时用户输入的答案2</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$EMAIL&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>注册账号时用户输入的邮箱</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$IDPHONE&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>注册账号时用户输入的电话</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$MOBILEPHONE&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>注册账号时用户输入的手机</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$ACCOUNTUSERNAME&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>注册账号时用户输入的用户名</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+                      <TD width=572><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$CURRTEMNAME&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>当前物品名称 指人物掉落或捡取的 </FONT>  </TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$G_CURRTEMNAME&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>当前物品改名名称 指人物掉落或捡取的 </FONT>  </TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$CURRTEMSTDMODE&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>当前物品DB字段StdMode值 指人物掉落或捡取的 
+  </FONT>   </TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$CURRTEMSHAPE&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>当前物品DB字段Shape值 指人物掉落或捡取的 
+  </FONT>  </TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$CURRTEMANICOUNT&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>当前物品DB字段AniCount值 指人物掉落或捡取的 
+    </FONT>  </TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$CURRTEMLOOKS&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>当前物品DB字段Looks值 指人物掉落或捡取的 
+  </FONT>  </TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$CURRTEMDURA&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>当前物品当前持久值 指人物掉落或捡取的 </FONT>  </TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$CURRTEMDURAMAX&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>当前物品最大值 指人物掉落或捡取的 </FONT>  </TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$CURRTEMINDEX&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>当前物品DB字段Idx值 指人物掉落或捡取的 </FONT>  </TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$CURRTEMCOLOR&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>当前物品DB字段Color值 指人物掉落或捡取的 
+  </FONT>  </TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+                      <TD width=572><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$CURRHERONAME&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>当前召唤出来的英雄名称，如果没有召唤英雄，该值为空</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><font size="2" face=宋体 >&lt;$HERONAME&gt; </font></TD>
+                      <TD width=572><FONT face=宋体>英雄名称。如果没有创建过英雄，该值为空</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$DEPUTYHERONAME&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>副将英雄名称。如果没有创建过副将英雄，该值为空</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+                      <TD width=572><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$PKPOWER&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>人物当前攻击威力</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$KILLMONNAME_MAXHP&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>当前杀死的怪物的最大血量</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$C.X&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>当前攻击目标的坐标X</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$C.Y&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>当前攻击目标的坐标Y</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$<FONT size=2>C.</FONT>HP&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>当前攻击目标的HP</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$<FONT size=2>C.</FONT>MAXHP&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>当前攻击目标的MAXHP</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$CURRRSLAVENAME&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>当前宝宝名称，在宝宝攻击或死亡触发里有效</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$CURRRTARGETNAME&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>当前目标，在杀死，攻击，被攻击等等触发里都可以用这个查看当前的目标名称</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$GAMEPROMOTIONFLAG&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>推广标识，最大支持15个汉字或30个英文字符</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$UPGRADECOUNT&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>人物身上所有装备加星总和 星星总数 </FONT> </TD>
+                    </TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$StarcountX&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>X代表身上的装备位置 
+      &nbsp;如:&lt;$Starcount0&gt; 获取身上装备星星数 </FONT> </TD></TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$NPCNAME&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>显示NPC名称，放在哪个NPC脚本，就显示哪个NPC的名字</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$TAMMINGSLAVECOUNT&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>已经诱惑的宝宝数量，不包括技能召唤的宝宝</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$MAXTAMMINGSLAVECOUNT&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>脚本命令CHANGEMAXTAMMINGSLAVECOUNT设置的允许诱惑的最大数量</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$C.TAMMINGSLAVECOUNT&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>当前角色已经诱惑的宝宝数量，不包括技能召唤的宝宝</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$C.MAXTAMMINGSLAVECOUNT&gt;</FONT></TD>
+                      <TD width=572><FONT face=宋体>当前角色脚本命令CHANGEMAXTAMMINGSLAVECOUNT设置的允许诱惑的最大数量</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+                      <TD width=572><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><!--DWLayoutEmptyCell--><FONT face=宋体>&lt;$CURREATEITEM&gt;</FONT></TD>
+                      <TD width=572><!--DWLayoutEmptyCell--><FONT face=宋体>31类型和2类型当前使用的物品IDX</SPAN></FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200     ><!--DWLayoutEmptyCell-->&lt;<FONT face=宋体>$SLAVECOUNT&gt;</FONT></TD>
+                      <TD width=572><!--DWLayoutEmptyCell--><FONT face=宋体>当前宝宝数量</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200       ><!--DWLayoutEmptyCell--><FONT face=宋体>&lt;$SLAVE(X).NAME&gt; <FONT color=#ff0000>X表示第几个宝宝，数字从0开始(下同)</FONT></FONT></TD>
+                      <TD width=572><!--DWLayoutEmptyCell--> <FONT color=#ff0000><FONT color=#000000 face=宋体>宝宝名称</FONT></FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><!--DWLayoutEmptyCell--><FONT face=宋体>&lt;$SLAVE(X).HP&gt;</FONT></TD>
+                      <TD width=572><!--DWLayoutEmptyCell--><FONT face=宋体>宝宝HP</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><!--DWLayoutEmptyCell--><FONT face=宋体>&lt;$SLAVE(X).MaxHP&gt;</FONT></TD>
+                      <TD width=572><!--DWLayoutEmptyCell--><FONT face=宋体>宝宝MaxHP</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><!--DWLayoutEmptyCell--><FONT face=宋体>&lt;$SLAVE(X).MP&gt;</FONT></TD>
+                      <TD width=572><!--DWLayoutEmptyCell--><FONT face=宋体>宝宝MP</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><FONT face=宋体>&lt;$SLAVE(X).MaxMP&gt;<!--DWLayoutEmptyCell--></FONT></TD>
+                      <TD width=572><!--DWLayoutEmptyCell--><FONT face=宋体>宝宝MaxMP</FONT></TD>
+                    </TR>
+                    <TR>
+                      <TD width=200><!--DWLayoutEmptyCell--><FONT face=宋体>&lt;$SLAVE(X).AC1&gt;</FONT></TD>
+                      <TD width=572>
+      <P><FONT face=宋体>宝宝AC1<!--DWLayoutEmptyCell--></FONT></P></TD>
+                    </TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$SLAVE(X).AC2&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>宝宝AC2</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$SLAVE(X).MAC1&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>宝宝MAC1</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$SLAVE(X).MAC2&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>宝宝MAC2</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$SLAVE(X).DC1&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>宝宝DC1</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$SLAVE(X).DC2&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>宝宝DC2</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$SLAVE(X).MC1&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>宝宝MC1</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$SLAVE(X).MC2&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>宝宝MC2</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$SLAVE(X).SC1&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>宝宝SC1</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$SLAVE(X).SC2&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>宝宝SC2</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$SLAVE(X).MS&gt;</FONT> </TD>
+    <TD width=572><FONT face=宋体>宝宝MS 移动速度</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$SLAVE(X).AS&gt; </FONT> </TD>
+    <TD width=572><FONT face=宋体>宝宝AS 攻击间隔</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$SLAVE(X).APPR&gt; </FONT> </TD>
+    <TD width=572><FONT face=宋体>宝宝APPR 外观</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$SLAVE(X).HIT&gt; </FONT> </TD>
+    <TD width=572><FONT face=宋体>宝宝HIT 准确</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$SLAVE(X).SPD&gt; </FONT> </TD>
+    <TD width=572><FONT face=宋体>宝宝SPD 敏捷</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$ISFIGHTING&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>人物是否在战斗状态</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$SFNAME&gt;</FONT></TD>
+    <TD width=572>
+      <P><FONT face=宋体>师傅常量</FONT></P></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$TDNAME1~5&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>徒弟常量1-5</FONT></TD></TR>
+  <TR>
+    <TD width=200><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&lt;$CLONEPLAYERCNT&gt;</SPAN><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN></TD>
+    <TD width=572><SPAN 
+      style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT size=3><FONT color=#000000>分身数量常量</FONT></FONT></SPAN></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$EXTBAGCLOSEITEMCOUNT&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>剩余未开启的背包格子数常量</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$BAGNILCOUNT&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>当前背包格子空格数量</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$BAGUSERCOUNT&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>当前背包格子使用数量</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$NATIONSWARTIME&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>国家战争剩余时间常量(分钟)</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$CART_MAP&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>镖车所在地图编号</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$CART_X&gt;、&lt;$CART_Y&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>镖车所在X坐标、 
+  镖车所在Y坐标</FONT> </TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$BABYCURHPX&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>宝宝当前血量,X代表第几只宝宝</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$GETMONID(怪物名称)&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>通过怪物名称获取怪物IDX常量</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$TEMPMONUSERID&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>怪物唯一id常量</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$TEMPMONIDX&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>怪物IDX常量</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$CURRMONPARAM(X)&gt;</FONT></TD>
+    <TD width=572><FONT face= 宋体>   获取怪物表Z列(zidingyi字段)   自定义字符串值   X怪物名称&lt;         
+       /FONT&gt;<  /FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$ATTACTBBID&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>宝宝唯一ID常</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$ATTACKMONSTER_X&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>当前攻击目标X坐标</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$ATTACKMONSTER_Y&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>当前攻击目标Y坐标</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$ATTACKMONSTER_XEX&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>当前攻击(主目标)目标X坐标</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$ATTACKMONSTER_YEX&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>当前攻击(主目标)目标Y坐标</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$CURRTARGETCURRX&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>被攻击时攻击者X坐标</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$CURRTARGETCURRY&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>被攻击时攻击者Y坐标</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$ATTACKMONSTER_MAXHP&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>当前攻击目标总血</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$ATTACKMONSTER_HP&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>当前攻击目标剩余血量</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$ATTACKMONSTER_MAXHPEX&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>当前攻击(主目标)目标总血量</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$ATTACKMONSTER_HPEX&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>当前攻击(主目标)目标剩余血量</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$ATTACKMONSTER_NAME&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>当前击中目标的名称</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$ATTACKMONSTER_NAMEEX&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>当前锁定攻击(主目标)目标的名称</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$SlaveX&gt; 
+      &lt;$SlaveY&gt;</FONT> </TD>
+    <TD width=572><FONT face=宋体>宝宝自身坐标（当有多个宝宝时，随便选一个）</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$SlaveTargetX&gt; 
+      &lt;$SlaveTargetY&gt;</FONT> </TD>
+    <TD width=572><FONT face=宋体>宝宝当前攻击目标坐标（优先锁定目标，多宝宝随机抽取）</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$ATTACKMONSTER_HPRATE&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>&nbsp;当前目标血量百分比</FONT></TD></TR>
+  <TR>
+    <TD width=200><FONT face=宋体>&lt;$ATTACKMONSTER_HPRATEEX&gt;</FONT></TD>
+    <TD width=572><FONT face=宋体>&nbsp;当前主目标血量百分比</FONT></TD></TR>
+</TABLE>
+<p><STRONG><FONT face=宋体></FONT></STRONG>&nbsp;</p>
+<p><STRONG><FONT face=宋体>英雄信息</FONT></STRONG></p>
+<TABLE width="758" border=1 borderColor=#99ccff><!--DWLayoutTable-->
+  <TR>
+    <TD width="147"><FONT size=2><FONT face=宋体>变量名称 <STRONG>英雄</STRONG></FONT></FONT></TD>
+    <TD width="595"><FONT size=2 face=宋体 >说明</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.USERNAME&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >人物名称</FONT></TD>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.LEVEL&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >等级</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.HP&gt;&nbsp;&nbsp;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >生命值</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.AC&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >防御力</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.MAXAC&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >最高防御力</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.MAC&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >魔法防御力</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.MAXMAC&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >最高魔法防御力</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.DC&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >物理攻击力</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.MAXDC&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >最高物理攻击力</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.MC&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >魔法力</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.MAXMC&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >最高魔法力</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.SC&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >道术</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.MAXSC&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >最高道术</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.EXP&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >当前经验值</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.MAXEXP&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >升级经验值</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT face=宋体>&lt;$<FONT size=2>H.</FONT>MAXHP&gt;</FONT></TD>
+    <TD><FONT face=宋体>HP上限</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT face=宋体>&lt;$<FONT size=2>H.</FONT>MAXMP&gt;</FONT></TD>
+    <TD><FONT face=宋体>MP上限</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT face=宋体>&lt;$<FONT size=2>H.</FONT>DIR&gt;</FONT></TD>
+    <TD><FONT face=宋体>方向</FONT></TD>
+  </TR>
+  <TR>
+    <TD><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+    <TD><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.PKPOINT&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >PK点数</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.HW&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >腕力</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.MAXHW&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >最高腕力</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.BW&gt; </FONT> </TD>
+    <TD><FONT size=2 face=宋体 >背包重量</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.MAXBW&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >最高背包重量</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.WW&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >负重力</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.MAXWW&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >最高负重</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.HUNGER&gt; </FONT> </TD>
+    <TD><FONT size=2 face=宋体 >饥饿程度</FONT></TD>
+  </TR>
+  <TR>
+    <TD><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+    <TD><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT face=宋体>&lt;$H.SUCKDAMAGE&gt;</FONT></TD>
+    <TD><FONT face=宋体>伤害吸收值 
+      脚本命令H.USEBONUSPOINT增加的，该值保存英雄数据库里，下线不消失 </FONT> </TD>
+  </TR>
+  <TR>
+    <TD><FONT face=宋体>&lt;$H.SUCKDAMAGEPOINT&gt;</FONT></TD>
+    <TD><FONT face=宋体>伤害吸收值 
+      脚本命令H.SETSUCKDAMAGE或SETHEROSUCKDAMAGE增加的，下线消失 </FONT> </TD>
+  </TR>
+  <TR>
+    <TD><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+    <TD><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+  </TR>
+  <TR>
+    <TD><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+    <TD><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.DRESS&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>衣服 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.WEAPON&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>武器 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.RIGHTHAND&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>蜡烛 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.HELMET&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>头盔 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.NECKLACE&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>项链 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.RING_R&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>右戒指 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.RING_L&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>左戒指 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.ARMRING_R&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>右手镯 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.ARMRING_L&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>左手镯 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.BUJUK&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>护身符 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.BELT&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>腰带 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.BOOTS&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>鞋子 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.CHARM&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>宝石 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT face=宋体>&lt;$<FONT size=2>H.</FONT>HAT&gt;</FONT></TD>
+    <TD><FONT face=宋体>斗笠<FONT size=2> 英雄</FONT></FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT face=宋体>&lt;$<FONT size=2>H.</FONT>DRUM&gt;</FONT></TD>
+    <TD><FONT face=宋体>军鼓<FONT size=2> 英雄</FONT></FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.HORSE&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>马牌 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.SHIELD&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>盾牌 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT face=宋体>&lt;$<FONT size=2>H.</FONT>SDRESS&gt;</FONT></TD>
+    <TD><FONT face=宋体>时装<FONT size=2>衣服 英雄</FONT></FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT face=宋体>&lt;$<FONT size=2>H.</FONT>SWEAPON&gt;</FONT></TD>
+    <TD><FONT face=宋体>时装<FONT size=2>武器 英雄</FONT></FONT></TD>
+  </TR>
+  <TR>
+    <TD><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+    <TD><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.G_DRESS&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>衣服 改名名称 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.G_WEAPON&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>武器 改名名称 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.G_RIGHTHAND&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>蜡烛 改名名称 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.G_HELMET&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>头盔 改名名称 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.G_NECKLACE&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>项链 改名名称 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.G_RING_R&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>右戒指 改名名称 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.G_RING_L&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>左戒指 改名名称 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.G_ARMRING_R&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>右手镯 改名名称 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.G_ARMRING_L&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>左手镯 改名名称 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.G_BUJUK&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>护身符 改名名称 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.G_BELT&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>腰带 改名名称 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.G_BOOTS&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>鞋子 改名名称 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.G_CHARM&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>宝石 改名名称 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT face=宋体>&lt;$<FONT size=2>H.G_</FONT>HAT&gt;</FONT></TD>
+    <TD><FONT face=宋体>斗笠<FONT size=2> 改名名称 英雄</FONT></FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT face=宋体>&lt;$<FONT size=2>H.G_</FONT>DRUM&gt;</FONT></TD>
+    <TD><FONT face=宋体>军鼓<FONT size=2> 改名名称 英雄</FONT></FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.G_HORSE&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>马牌 改名名称 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$H.G_SHIELD&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体>盾牌 改名名称 英雄</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT face=宋体>&lt;$<FONT size=2>H.</FONT><FONT size=2>G_</FONT>SDRESS&gt;</FONT></TD>
+    <TD><FONT face=宋体>时装<FONT size=2>衣服 改名名称 英雄</FONT></FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT face=宋体>&lt;$<FONT size=2>H.G_</FONT>SWEAPON&gt;</FONT></TD>
+    <TD><FONT face=宋体>时装<FONT size=2>武器 改名名称 英雄</FONT></FONT></TD>
+  </TR>
+  <TR>
+    <TD><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+    <TD><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT face=宋体><font size="2" >&lt;$</font><FONT size=2>H.</FONT><font size="2" >MAP&gt;</font></FONT></TD>
+    <TD><FONT face=宋体><font size="2">英雄</font><font size="2" >当前地图代码</font></FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT face=宋体><font size="2" >&lt;$</font><FONT size=2>H.</FONT><font size="2" >RELEVEL&gt;</font></FONT></TD>
+    <TD><FONT face=宋体><font size="2">英雄</font><font size="2" >转生等级</font></FONT></TD>
+  </TR>
+  <TR>
+    <TD><font size="2" face=宋体 >&lt;$H.X&gt;</font></TD>
+    <TD><font size="2" face=宋体 >英雄X坐标</font></TD>
+  </TR>
+  <TR>
+    <TD><font size="2" face=宋体 >&lt;$H.Y&gt;</font></TD>
+    <TD><font size="2" face=宋体 >英雄Y坐标</font></TD>
+  </TR>
+  <TR>
+    <TD><FONT face=宋体><font size="2" >&lt;$</font><FONT size=2>H.</FONT><font size="2" >USERALLNAME&gt;</font></FONT></TD>
+    <TD><FONT face=宋体><font size="2">英雄</font><font size="2" >完整名称</font></FONT></TD>
+  </TR>
+  <TR>
+    <TD><font size="2" face=宋体 >&lt;$H.MapTitle&gt;</font></TD>
+    <TD><font size="2" face=宋体 >取英雄所在地图名称</font></TD>
+  </TR>
+  <TR>
+    <TD><font size="2" face=宋体 >&lt;$HeroGetExp&gt;</font></TD>
+    <TD><font size="2" face=宋体 >英雄当前获得经验变量</font></A></TD>
+  </TR>
+  <TR>
+    <TD><font size="2" face=宋体 >&lt;$H.HIT&gt; </font></TD>
+    <TD><font size="2" face=宋体 >英雄准确</font></TD>
+  </TR>
+  <TR>
+    <TD><font size="2" face=宋体 >&lt;$H.SPD&gt; </font></TD>
+    <TD><font size="2" face=宋体 >英雄敏捷</font></TD>
+  </TR>
+  <TR>
+    <TD><font size="2" face=宋体 >&lt;$H.HITSPD&gt;</font></TD>
+    <TD><font size="2" face=宋体 >英雄攻速</font></TD>
+  </TR>
+  <TR>
+    <TD><font size="2" face=宋体 >&lt;$H.GENDER&gt; </font></TD>
+    <TD><font size="2" face=宋体 >英雄性别</font></TD>
+  </TR>
+  <TR>
+    <TD><font size="2" face=宋体 >&lt;$H.JOB&gt; </font></TD>
+    <TD><font size="2" face=宋体 >英雄职业</font></TD>
+  </TR>
+  <TR>
+    <TD><font size="2" face=宋体 >&lt;$H.LEVEL&gt; </font></TD>
+    <TD><font size="2" face=宋体 >英雄级别</font></TD>
+  </TR>
+  <TR>
+    <TD><font size="2" face=宋体 >&lt;$H.USERNAME&gt; </font></TD>
+    <TD><font size="2" face=宋体 >英雄名字</font></TD>
+  </TR>
+  <TR>
+    <TD><font size="2" face=宋体 >&lt;$H.MapTitle&gt; </font></TD>
+    <TD><font size="2" face=宋体 >英雄地图名字</font></TD>
+  </TR>
+  <TR>
+    <TD><font size="2" face=宋体 >&lt;$H.MAP&gt; </font></TD>
+    <TD><font size="2" face=宋体 >英雄地图编号</font></TD>
+  </TR>
+  <TR>
+    <TD><font size="2" face=宋体 >&lt;$H.X&gt; </font></TD>
+    <TD><font size="2" face=宋体 >英雄前坐标X</font></TD>
+  </TR>
+  <TR>
+    <TD><font size="2" face=宋体 >&lt;$H.Y&gt; </font></TD>
+    <TD><font size="2" face=宋体 >英雄前坐标Y</font></TD>
+  </TR>
+  <TR>
+    <TD><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+    <TD><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT face=宋体>&lt;$H.PKPOWER&gt;</FONT></TD>
+    <TD><FONT face=宋体>英雄当前攻击威力</FONT></TD>
+  </TR>
+  <TR>
+    <TD><FONT face=宋体>&lt;$H.UPGRADECOUNT&gt;</FONT></TD>
+    <TD><FONT face=宋体>英雄身上所有装备加星总和</FONT></TD>
+  </TR>
+  <TR>
+    <TD><!--DWLayoutEmptyCell--><FONT face=宋体>&lt;$DRANGONHEARTVALUE&gt;</FONT></TD>
+    <TD><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;英雄当前怒气</FONT></TD>
+  </TR>
+  <TR>
+    <TD><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+    <TD><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+  </TR>
+  <TR>
+    <TD><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+    <TD><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+  </TR>
+  <TR>
+    <TD><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+    <TD><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+  </TR>
+</TABLE>
+<p><FONT face=宋体><STRONG>天地结晶变量</STRONG> </FONT> 
+ </p>
+<TABLE width="360" border=1 borderColor=#99ccff><!--DWLayoutTable-->
+  <TBODY>
+    <TR>
+      <TD width="96"><STRONG><FONT face=宋体>变量名称</FONT></STRONG></TD>
+      <TD width="89"><STRONG><FONT face=宋体>说明</FONT></STRONG></TD>
+    </TR>
+    <TR>
+      <TD><font size="2" face=宋体 >&lt;$GETCRYSTALEXP&gt;</font></TD>
+      <TD><font size="2" face=宋体 >天地结晶可提取的经验</font></TD>
+    </TR>
+    <TR>
+      <TD><font size="2" face=宋体 >&lt;$GETCRYSTALNGEXP&gt;</font></TD>
+      <TD><font size="2" face=宋体 >天地结晶可提取的内功经验</font></TD>
+    </TR>
+    <TR>
+      <TD><font size="2" face=宋体 >&lt;$CRYSTALEXP&gt;</font></TD>
+      <TD><font size="2" face=宋体 >天地结晶当前的经验</font></TD>
+    </TR>
+    <TR>
+      <TD><font size="2" face=宋体 >&lt;$CRYSTALNGEXP&gt;</font></TD>
+      <TD><font size="2" face=宋体 >天地结晶当前的内功经验</font></TD>
+    </TR>
+    <TR>
+      <TD><font size="2" face=宋体 >&lt;$CRYSTALLEVEL&gt;</font></TD>
+      <TD><font size="2" face=宋体 >天地结晶等级</font></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<p><strong><FONT face=宋体>人物内力变量</FONT></strong></p>
+<TABLE width="360" border=1 borderColor=#99ccff><!--DWLayoutTable-->
+  <TBODY>
+    <TR>
+      <TD width="96"><STRONG><font size="2" face=宋体>变量名称</font></STRONG></TD>
+      <TD width="89"><STRONG><font size="2" face=宋体>说明</font></STRONG></TD>
+    </TR>
+    <TR>
+      <TD><FONT face=宋体>&lt;$NH&gt;</FONT></TD>
+      <TD><FONT face=宋体>内力</FONT></TD>
+    </TR>
+    <TR>
+      <TD><FONT face=宋体>&lt;$MAXNH&gt;</FONT></TD>
+      <TD><FONT face=宋体>内力上限</FONT></TD>
+    </TR>
+    <TR>
+      <TD><FONT face=宋体>&lt;$NGEXP&gt;</FONT></TD>
+      <TD><FONT face=宋体>内功经验</FONT></TD>
+    </TR>
+    <TR>
+      <TD><FONT face=宋体>&lt;$NGMAXEXP&gt;</FONT></TD>
+      <TD><FONT face=宋体>内功升级经验</FONT></TD>
+    </TR>
+	<TR>
+      <TD><FONT face=宋体>&lt;$NGLEVEL&gt;</FONT></TD>
+      <TD><FONT face=宋体>内功等级</FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<p><strong><FONT face=宋体>英雄内力变量</FONT></strong></p>
+<TABLE width="427" border=1 borderColor=#99ccff><!--DWLayoutTable-->
+  <TBODY>
+    <TR>
+      <TD width="175"><STRONG><font size="2" face=宋体>变量名称</font></STRONG></TD>
+      <TD width="236"><STRONG><font size="2" face=宋体>说明</font></STRONG></TD>
+    </TR>
+    <TR>
+      <TD><FONT face=宋体>&lt;$H.NH&gt;</FONT></TD>
+      <TD><FONT face=宋体>英雄内力</FONT></TD>
+    </TR>
+    <TR>
+      <TD><FONT face=宋体>&lt;$H.MAXNH&gt;</FONT></TD>
+      <TD><FONT face=宋体>英雄内力上限</FONT></TD>
+    </TR>
+    <TR>
+      <TD><FONT face=宋体>&lt;$H.NGEXP&gt;</FONT></TD>
+      <TD><FONT face=宋体>英雄内功经验</FONT></TD>
+    </TR>
+    <TR>
+      <TD><FONT face=宋体>&lt;$H.NGMAXEXP&gt;</FONT></TD>
+      <TD><FONT face=宋体>英雄内功升级经验</FONT></TD>
+    </TR>
+    <TR>
+      <TD><FONT face=宋体>&lt;$H.NGLEVEL&gt;</FONT></TD>
+      <TD><FONT face=宋体>英雄内功等级</FONT></TD>
+    </TR>
+    <TR>
+      <TD><!--DWLayoutEmptyCell--><FONT face=宋体>&nbsp;</FONT></TD>
+      <TD><p><FONT face=宋体>所有英雄的变量都是在人物的变量</FONT></p>
+        <p><FONT face=宋体>前面加“H.”<br>
+      例如：&lt;$H.MAXHP&gt; &lt;$H.MAXMP&gt; 
+    </FONT>
+       </p></TD>
+    </TR>
+    <TR>
+      <TD><FONT face=宋体>&lt;$H.VALUE1&gt;..&lt;$H.VALUE11&gt;</FONT></TD>
+      <TD><FONT face=宋体>英雄元素的属性值的常量共11个。1到11</FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<p><strong><FONT face=宋体>连击变量</FONT></strong></p>
+<TABLE width="360" border=1 borderColor=#99ccff><!--DWLayoutTable-->
+  <TBODY>
+    <TR>
+      <TD width="96"><STRONG><font size="2" face=宋体>变量名称</font></STRONG></TD>
+      <TD width="89"><STRONG><font size="2" face=宋体>说明</font></STRONG></TD>
+    </TR>
+    <TR>
+      <TD><font size="2" face=宋体 >&lt;$NGLEVEL&gt;</font></TD>
+      <TD><font size="2" face=宋体>内功等级 </font> </TD>
+    </TR>
+    <TR>
+      <TD><font size="2" face=宋体 >&lt;$HEROPULSEXP&gt;</font></TD>
+      <TD><font size="2" face=宋体 >英雄经络经验</font></TD>
+    </TR>
+    <TR>
+      <TD><font size="2" face=宋体 >&lt;$GETNGEXP&gt;</font></TD>
+      <TD><font size="2" face=宋体 >当前得到的内功经验</font></TD>
+    </TR>
+    <TR>
+      <TD><font size="2" face=宋体 >&lt;$HEROGETNGEXP&gt;</font></TD>
+      <TD><font size="2" face=宋体 >英雄当前得到的内功经验</font></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<p><strong><FONT face=宋体>国家变量</FONT></strong></p>
+<TABLE width="360" border=1 borderColor=#99ccff><!--DWLayoutTable-->
+  <TBODY>
+    <TR>
+      <TD width="96"><STRONG><font size="2" face=宋体>变量名称</font></STRONG></TD>
+      <TD width="89"><STRONG><font size="2" face=宋体>说明</font></STRONG></TD>
+    </TR>
+    <TR>
+      <TD><font size="2" face=宋体 >&lt;$NATIONNAME&gt;</font></TD>
+      <TD><FONT face=宋体>国家名称<font size="2">&nbsp; </font></FONT> </TD>
+    </TR>
+    <TR>
+      <TD><font size="2" face=宋体 >&lt;$NATIONPEOPLE&gt;</font></TD>
+      <TD><FONT face=宋体>国家<font size="2">人数</font></FONT></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<p><FONT size=2 face=宋体><STRONG>服务器信息</STRONG></FONT></p>
+<TABLE width="360" border=1 borderColor=#99ccff><!--DWLayoutTable-->
+  
+  <TR>
+    <TD>
+      <P align=center><FONT size=2 face=宋体 >变量名称</FONT></P></TD>
+    <TD>
+      <P align=center><FONT size=2 face=宋体 >说&nbsp;&nbsp;&nbsp; 
+      明</FONT></P></TD></TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$SERVERNAME&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >服务器名字</FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$SERVERIP&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >服务器IP地址</FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$WEBSITE&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >游戏网址</FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$BBSSITE&gt;&nbsp;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >论坛网址</FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$CLIENTDOWNLOAD&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >客户端程序下载地址</FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$QQ&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >联系QQ号</FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$PHONE&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >联系电话号码</FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$BANKACCOUNT0&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >银行帐号信息</FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$BANKACCOUNT1&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >银行帐号信息</FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$BANKACCOUNT2&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >银行帐号信息</FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$BANKACCOUNT3&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >银行帐号信息</FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$BANKACCOUNT4&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >银行帐号信息</FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$BANKACCOUNT5&gt;&nbsp;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >银行帐号信息</FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$BANKACCOUNT6&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >银行帐号信息</FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$BANKACCOUNT7&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >银行帐号信息</FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$BANKACCOUNT8&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >银行帐号信息</FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$BANKACCOUNT9&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >银行帐号信息</FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$GAMEGOLDNAME&gt;&nbsp;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >游戏币名称</FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$USERCOUNT&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >在线人数</FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$DATETIME&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >当前日期时间</FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$GAMEGOLDNAME&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >游戏币名称</FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$HIGHLEVELINFO&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >最高等人物信息</FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$HIGHPKINFO&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >最高PK点数人物信息</FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$HIGHDCINFO&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >最高攻击力人物信息</FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$HIGHMCINFO&gt;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >最高魔法力人物信息</FONT></TD></TR>
+  <TR>
+    <TD><FONT size=2 face=宋体 >&lt;$HIGHSCINFO&gt;&nbsp;</FONT></TD>
+    <TD><FONT size=2 face=宋体 >最高道术人物信息</FONT></TD></TR></TABLE>
+</BODY>
+</HTML>

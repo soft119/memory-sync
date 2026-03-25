@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>检测英雄的忠诚度</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+</head>
+
+<BODY>
+<P><FONT face=宋体>英雄忠诚度功能</FONT></P>
+<P><FONT face=宋体>//;检测忠诚度：CHECKHEROLUCK 检测符(&gt; &lt; =   ?) 
+值<BR>//;调整忠诚度：SETHEROLUCK 操作符 (+ - =) 值<BR>//;忠诚度改变触发：[@HeroLuck]</FONT></P>
+<P><BR><FONT face=宋体>//;例子<BR>//;QFunction-0.txt</FONT></P>
+<P><FONT face=宋体>[@HeroLuck]<BR>#IF<BR>CHECKHEROLUCK &gt; 100<BR>#ACT<BR>SENDMSG 
+6 你的英雄忠诚度大于1%<BR>BREAK</FONT></P>
+<P><BR><FONT face=宋体>[@改变英雄忠诚度]<BR>#IF<BR>#ACT<BR>SETHEROLUCK = 1000<BR>SENDMSG 
+6 你的英雄忠诚度改变成100%</FONT></P>
+</BODY>
+</html>

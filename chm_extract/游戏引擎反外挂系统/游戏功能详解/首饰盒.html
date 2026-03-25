@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>首饰盒 神佑</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+</head>
+
+<BODY>
+<p>================================首饰盒=========神佑====================================</p>
+<p>DB设置<br>
+头盔：stdmode段为15<br>
+项链：stdmode段为19、20、21<br>
+手镯：stdmode段为24、26<br>
+戒指：stdmode段为22、23<br>
+;----------------------------------------------------------------------------------</p>
+<p>放入条件<br>
+  物品允许装备的位置（只限于可以装备的物品）数据库字段：Overlap<br>
+  0,1 只允许穿身上<br>
+  2： 只允许首饰盒 <br>
+  3: 可以穿身上+首饰盒<br>
+  4： 只允许神佑<br>
+  5： 可以穿身上+神佑盒<br>
+  6： 首饰盒+神佑盒<br>
+  7： 身上+首饰盒+神佑盒<br>
+  ;----------------------------------------------------------------------------------<br>
+  首饰盒放入位置设置： Expand1: 1-6 对应6个位置；Expand1=0不能放入 Expand1=13所有位置可放<br>
+神佑盒放入位置设置： Expand1: 1-12 对应12个位置；Expand1=0不能放入 Expand1=13所有位置可放</p>
+<p>   需要自己在EXCEL表V列添加一个字段“Expand1”&nbsp; </p>
+<p>M2-选项-功能设置-其他设置(1)里面把首饰盒功能开启才可以使用</p>
+<p>必备补丁“NewopUI.pak”221 222 223 是打开首饰盒的按钮图片，如果要更换这三个图片，只能替换 必备补丁“NewopUI.pak”里面的图片，不能使用UI编辑器修改</p>
+<p>首饰盒支持套装</p>
+<p>SetSndaItemBox (0关闭,1开启) </p>
+<p>人物开启首饰盒：<br>
+  QFunction-0.txt 加入如下脚本<br>
+  [@OpenSndaItemBox]<br>
+  #act<br>
+  ;如果那个首饰盒按钮是灰色的，点击那个按钮就会触发这个，然后使用命令SetSndaItemBox开启后，按钮就会变彩色，然后点击按钮就可以打开首饰盒子<br>
+  SetSndaItemBox 1<br>
+  SENDMSG 6 人物首饰盒开启成功</p>
+<p>英雄开启首饰盒：<br>
+  [@HeroOpenSndaItemBox]<br>
+  #act<br>
+  ;如果那个首饰盒按钮是灰色的，点击那个按钮就会触发这个，然后使用命令SetSndaItemBox开启后，按钮就会变彩色，然后点击按钮就可以打开首饰盒子<br>
+  H.SetSndaItemBox 1<br>
+  H.SENDMSG 6 英雄首饰盒开启成功</p>
+<p>关闭人物首饰盒：<br>
+  [@main]<br>
+  #act<br>
+  SetSndaItemBox 0 <br>
+  SENDMSG 6 已关闭<br>
+</p>
+<p>关闭英雄首饰盒：<br>
+  [@main]<br>
+  #if<br>
+  CheckHeroOnline<br>
+  #act<br>
+  H.SetSndaItemBox 0 <br>
+  H.SENDMSG 6 已关闭<br>
+  #elseact<br>
+  SENDMSG 6 先要把英雄召唤出来</p>
+<p>首饰盒12个装备,StdMode值 100~111</p>
+<p>首饰盒装备的修理，在NPC文件头增加以下代码<br>
+  (@buy @sell @repair @s_repair)<br>
+  %100<br>
+  +100<br>
+  +101<br>
+  +102<br>
+  +103<br>
+  +104<br>
+  +105<br>
+  +106<br>
+  +107<br>
+  +108<br>
+  +109<br>
+  +110<br>
+  +111</p>
+<p>首饰盒支持CheckItemW TakeW AutoTakeOnItem AutoTakeOffItem这4个脚本命令</p>
+<p>AutoTakeOnItem 装备名称 装备位置(30~41 是首饰盒的位置代码)<br>
+  AutoTakeOffItem 装备位置(30~41 是首饰盒的位置代码)</p>
+<p>[@TakeOnX]<br>
+  首饰盒穿装备触发 X值=30~41</p>
+<p>[@TakeOffX]<br>
+  首饰盒脱装备触发 X值=30~41</p>
+<p>首饰盒装备，人物死亡掉落设置在(M2-选项-参数设置-人物死亡-首饰盒)<br>
+首饰盒装备是否掉持久设置(M2-选项-功能设置-其他控制(1))</p>
+<p>&nbsp;</p>
+<p>相关变量<br>
+</p>
+<p>;——————————————————人物变量<br>
+  &lt;$GODBLESSITEM1&gt; ---- &lt;$GODBLESSITEM12&gt;</p>
+<p>&lt;$G_GODBLESSITEM1&gt; ---- &lt;$G_GODBLESSITEM12&gt;</p>
+<p>;——————————————————英雄变量<br>
+  &lt;$H.GODBLESSITEM1&gt; ---- &lt;$H.GODBLESSITEM12&gt;</p>
+<p>&lt;$H.G_GODBLESSITEM1&gt; ---- &lt;$H.G_GODBLESSITEM12&gt;</p>
+<p><br>
+</p>
+</BODY>
+</html>

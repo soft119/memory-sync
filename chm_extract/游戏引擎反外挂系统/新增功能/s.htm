@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>气泡引导</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT face=宋体><FONT color=#0000ff>气泡引导功能<BR></FONT><FONT color=#ff0000>增加气泡格式:addbutshow 参数1 参数2 
+参数3</FONT><BR>参数1:ID<BR>参数2:显示名称<BR>参数3:@跳转QF(支持回调功能,例:@气泡引导回调,aaa,bbb,ccccc)<BR><FONT color=#ff0000>删除气泡格式:delbutshow ID</FONT> 
+</FONT></P>
+<P><FONT face=宋体>例子:<BR>[@增加气泡]<BR>#IF<BR>#ACT<BR>AddbutShow 1 测试气泡 
+@跳转QF</FONT></P>
+<P><FONT face=宋体>[@气泡引导]<BR>#act<BR>AddbutShow 1 测试气泡测试气泡测试气泡 
+@气泡引导回调,aaa,bbb,ccccc</FONT></P>
+<P><FONT face=宋体>QFunction-0.txt<BR>[@跳转QF]<BR>#IF<BR>#act<BR>mapmove 3 333 
+333<BR>OPENHYPERLINK 16<BR>SENDMSG 6 你的气泡触发成功</FONT></P>
+<P><FONT face=宋体>[@删除气泡]<BR>#IF<BR>#ACT<BR>DelbutShow 1<BR>SENDMSG 6 
+你的气泡删除成功</FONT></P>
+<P><FONT face=宋体>[@气泡引导回调]<BR>#act<BR>sendmsg 6 
+气泡回调Param1=&lt;$Param1&gt;<BR>sendmsg 6 气泡回调Param2=&lt;$Param2&gt;<BR>sendmsg 6 
+气泡回调Param3=&lt;$Param3&gt;<BR></FONT></P></body>
+</html>

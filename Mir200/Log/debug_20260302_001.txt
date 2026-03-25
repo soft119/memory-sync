@@ -1,0 +1,42 @@
+[2026-03-02 02:18:24:058] 共享HUMMAPMAP映射名：huoshan64
+[2026-03-02 02:18:24:058] 共享HEROMAP映射名：huoshan64_hero
+[2026-03-02 02:18:25:075] 加载新版地图14字节: D:\MirServer高清复古\Mir200\map\0.map(700/700)
+[2026-03-02 02:18:25:279] 加载新版地图14字节: D:\MirServer高清复古\Mir200\map\3.map(1000/800)
+[2026-03-02 02:18:25:586] 加载新版地图14字节: D:\MirServer高清复古\Mir200\map\M101.map(20/25)
+[2026-03-02 02:18:27:555] 登录服务器(127.0.0.1:5600)连接成功...
+
+[2026-03-02 02:18:29:789] 游戏网关[0](127.0.0.1:6532)已打开..
+[2026-03-02 02:18:29:817] 数据库服务器(127.0.0.1:6000)连接成功.
+
+[2026-03-02 02:19:25:338] >>Login: 1 
+[2026-03-02 02:19:25:338] >>Login: 2 6499, sessionID:2
+[2026-03-02 02:19:25:338] >>Login: 3 6499
+[2026-03-02 02:19:25:339] >>Login: 5_0 6499
+[2026-03-02 02:19:25:358] >>Login: 5 6499, 1, 1
+[2026-03-02 02:19:25:358] >>Login: 6 6499
+[2026-03-02 02:19:25:358] >>Login: TFrontEngine.LoadHumFromDB 6499-1772302815000001479,flag:6
+[2026-03-02 02:19:25:535] >>Login: 6-1 6499
+[2026-03-02 02:19:25:535] >>火山，变量加载中...
+[2026-03-02 02:19:25:535] >>火山，数据库加载变量
+[2026-03-02 02:19:25:535] >>Login: 6-3 6499, AType:0
+[2026-03-02 02:19:25:535] >>Login: 7 6499
+[2026-03-02 02:19:25:536] >>Login: 8 6499
+[2026-03-02 02:19:26:401] >>Login: 8_3 6499
+[2026-03-02 02:19:26:401] 消息记录:火山[3-330,330] -> 1018,0,50332672,99,1,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvX]MlpyINRk?lPdNzzGuVG[=NAK?yzK^@zKqBp{p_xK\PXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvXk]lM^sODyJ@o>KOhksO<wD_Mk_ykguBpqGyMiHPpyIVXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+[2026-03-02 02:19:26:409] >>Login: 9 6499
+[2026-03-02 02:19:26:409] >>Login: 11 6499
+[2026-03-02 02:19:26:519] Title Load:火山 - 
+[2026-03-02 02:19:26:553] 消息记录:火山[3-330,330] -> 81,0,0,0,0,
+[2026-03-02 02:19:26:553] 消息记录:火山[3-330,330] -> 5285,1,0,0,635,LmsJSXJJ@_Re_=TNWgueLzMPtl^]@]Wyk_tu<luc?pAjEFWbglE>KQpzZ^q>rOwZV=rgLiTHRwZ`JCo<tqBnGvfabQK?[H<TPVdk[?rVuaI_Y?OzR=r\f^l`vM\fGrnsB?MRSdx<vQUZ_l?eQavKTl[@of?QF\WeSIe_=xNI=n`pUUweL>{QiV>^_LXeIE>bvTTkQaN\btqhdoNLejb>Gra\dKh`={PpSMse\^yejf>KEBlHIBvUvUpksgf\_qHCwoMXDJ`f{iS<dHMO=zxpJYWebkuRgf=ZPrmpI?cRg_^OIIuUZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZn@Sbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZUaT]KvzDSbURDOzk^AubQ^@{gt]ZUaT]KvzDSbURDOzk^AubQ^@{gt]ZUaT]KvzDSbURDOzk^AubQ^@{gt]ZUaT]KvzDSbURDOzk^AubQ\=Z\AiE><\
+[2026-03-02 02:19:26:557] 消息记录:火山[3-330,330] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-02 02:19:26:557] 消息记录:火山[3-330,330] -> 1151,0,0,0,0,
+[2026-03-02 02:19:26:559] 消息记录:火山[3-330,330] -> 5012,0,0,0,0,3
+[2026-03-02 02:19:27:187] 消息记录:火山[3-330,330] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-02 02:19:27:187] 消息记录:火山[3-330,330] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-02 02:19:27:187] 消息记录:火山[3-330,330] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+
+[2026-03-02 02:19:29:035] 消息记录:火山[3-332,330] -> 1019,0,0,0,0,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvX]MlpyINRk?lPdNzzGuVG[=NAK?yzK^@zKqBp{p_xK\PXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvXk]lM^sODyJ@o>KOhksO<wD_Mk_ykguBpqGyMiHPpyIVXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+[2026-03-02 02:19:30:668] 玩家 火山 下线1(0,0,51)。。
+[2026-03-02 02:19:30:669] 玩家 火山 下线(0,0,51)。。
+[2026-03-02 02:19:30:670] >>CloseUser2 火山-0-0
+

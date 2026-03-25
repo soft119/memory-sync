@@ -1,0 +1,5 @@
+单机测试
+登陆器授权密钥：tP68vTOfLBiOswE8CIrOSWWe/bS1In8Y+dbSoQ1g5Kh83Hsd/94aDQ==
+登陆器网站链接：http://www.996m2.com/
+登陆器游戏列表：http://127.0.0.1/gamelist.txt
+登陆器备用列表：http://127.0.0.1/gamelist2.txt

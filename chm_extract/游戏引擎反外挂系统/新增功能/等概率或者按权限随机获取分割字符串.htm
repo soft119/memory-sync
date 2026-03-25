@@ -1,0 +1,216 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>等概率或者按权限随机获取分割字符串</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body><!--StartFragment--><SPAN><FONT face=宋体><FONT color=#0000ff><STRONG>等概率或者按权限随机获取分割字符串</STRONG></FONT><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN></FONT><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>格式：</FONT>RANSJSTR 参数1 参数2 参数3 参数4 参数5</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><o:p></o:p></SPAN>
+<DIV class=Section0><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">
+<P class=MsoNormal 
+style="MARGIN-BOTTOM: 12pt; TEXT-ALIGN: left; mso-pagination: widow-orphan"><BR></SPAN><FONT color=#000000><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>参数</FONT>1：需要获取随机的字符串</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>字符串</FONT>#权重|字符串#权重 &nbsp;&nbsp;|=分割符 &nbsp;&nbsp;&nbsp;(</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>字符串顺序无要求</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">)</SPAN></FONT><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><FONT color=#000000><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>参数</FONT>2：0~1（</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">0=系统权重随机,有几个字符串就是几份之一</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>，</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">1=按#位权重随机总权重为各项</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>；</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>位权重总和</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>）</FONT></SPAN></FONT><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><FONT color=#000000><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>参数</FONT>3：</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">0~3（0=参数4和参数5</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>；</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>显示</FONT>#权重数字</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">1=参数4和参数5</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>；</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>不显示</FONT>#权重数字</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">2=参数4</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>；</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>显示权重</FONT>&nbsp;参数5</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>；</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>不显示权重</FONT>&nbsp;&nbsp;3=参数4</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>；</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>不显示权重</FONT>&nbsp;参数5</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>；</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>显示权重）</FONT></SPAN></FONT><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT color=#000000><FONT face=宋体>参数</FONT>4：随机到的字符串保存变量</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT color=#000000><FONT face=宋体>参数</FONT>5：剩余的字符串保存变量</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>例子</FONT>1:</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">[@随机分割字符串]</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">#IF</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">#ACT</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">RANSJSTR</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>测试</FONT>1#2000|测试2#1000|测试3#5000</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">1</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">3</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">S0</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">S1</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><FONT color=#808000><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; FONT-WEIGHT: bold; COLOR: rgb(148,138,84); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">;总权重说明</SPAN></B><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; FONT-WEIGHT: bold; COLOR: rgb(148,138,84); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>：</FONT></SPAN></B><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; FONT-WEIGHT: bold; COLOR: rgb(148,138,84); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>总权重为</FONT>2000+1000+5000=8000</SPAN></B></FONT><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">SENDMSG</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">0</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>随机的字符串</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>：</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&lt;$str(S0)&gt;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">SENDMSG</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">0</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>剩余字符串值</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>：</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&lt;$str(S1)&gt;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><FONT color=#808000><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; FONT-WEIGHT: bold; COLOR: rgb(148,138,84); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">;</SPAN></B><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; FONT-WEIGHT: bold; COLOR: rgb(148,138,84); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>假设分割出来的是</FONT>:</SPAN></B><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; FONT-WEIGHT: bold; COLOR: rgb(147,137,83); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>测试</FONT>2</SPAN></B><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; FONT-WEIGHT: bold; COLOR: rgb(147,137,83); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">#</SPAN></B><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; FONT-WEIGHT: bold; COLOR: rgb(147,137,83); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">1000</SPAN></B></FONT><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; FONT-WEIGHT: bold; COLOR: rgb(148,138,84); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN></B><FONT color=#808000><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; FONT-WEIGHT: bold; COLOR: rgb(147,137,83); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">;</SPAN></B><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; FONT-WEIGHT: bold; COLOR: rgb(147,137,83); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>继续分割剩余的字符串</FONT></SPAN></B><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; FONT-WEIGHT: bold; COLOR: rgb(147,137,83); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;</SPAN></B><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; FONT-WEIGHT: bold; COLOR: rgb(148,138,84); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>总权重为</FONT>2000-1000+5000=7000</SPAN></B></FONT><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">RANSJSTR</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&lt;$str(S1)&gt;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">1</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">3</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">S2</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">S3</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">SENDMSG</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">0</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>随机的字符串：</FONT>&lt;$str(S2)&gt;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">SENDMSG</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">0</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>剩余字符串值：</FONT>&lt;$str(S3)&gt;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>例子</FONT>2:</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT color=#000000>[@随机分割字符串系统权重]</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">#IF</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">#ACT</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">RANSJSTR</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>木剑</FONT>#3|铁剑#3|短剑#3</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">0</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">1</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">S0</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">S1</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">SENDMSG</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">0</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>随机的字符串：</FONT>&lt;$str(S0)&gt;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">SENDMSG</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">0</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>剩余字符串值：</FONT>&lt;$str(S1)&gt;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; FONT-WEIGHT: bold; COLOR: rgb(147,137,83); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">;<FONT color=#808000>总权重说明</FONT></SPAN></B><FONT color=#808000><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; FONT-WEIGHT: bold; COLOR: rgb(147,137,83); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>：</FONT></SPAN></B><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; FONT-WEIGHT: bold; COLOR: rgb(147,137,83); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>总权重为</FONT>3(系统权重随机时,有几个字符串就是几份之一)</SPAN></B></FONT><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">gives</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&lt;$str(S0)&gt;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">SENDMSG</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">0</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>你获得了</FONT>3把铁剑(假设分割出来的是铁剑)</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; FONT-WEIGHT: bold; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体><FONT color=#ff0000>权重规则解释：</FONT></FONT></SPAN></B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><o:p></o:p></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN-BOTTOM: 12pt; TEXT-ALIGN: left; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>如：</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">RANSJSTR 
+测试2#300|测试1#100|测试3#200 1 3 S0 S1</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><o:p></o:p></SPAN></P>
+<P class=MsoNormal 
+style="MARGIN-BOTTOM: 12pt; TEXT-ALIGN: left; mso-pagination: widow-orphan"><FONT color=#000000><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>那么总权重为：</FONT>300+100+200=600 系统会从1~600随机出来一个数 
+&nbsp;如随机出来的是50，那么就和第一个字符串#权重|做对比 如果50比第一个字符串小于等于，那么就取第1个 </SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><o:p></o:p></SPAN></FONT></P>
+<P class=MsoNormal 
+style="MARGIN-BOTTOM: 12pt; TEXT-ALIGN: left; mso-pagination: widow-orphan"><FONT color=#000000><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>如果随机出来的是</FONT>400，那么就会用400-300=100 &nbsp;再和下面一个 </SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>测试</FONT>1#100</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;<FONT face=宋体>对比然后小于等于</FONT>100那么就取第二个，依次类推</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><o:p></o:p></SPAN></FONT></P>
+<P class=MsoNormal 
+style="MARGIN-BOTTOM: 12pt; TEXT-ALIGN: left; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><o:p>&nbsp;</o:p></SPAN></P></DIV><!--EndFragment--></body>
+</html>

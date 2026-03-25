@@ -1,0 +1,23 @@
+[2026-03-25 14:51:18:154] 脚本错误2: RANDOM 100 第:34 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-03-25 14:51:18:154] 脚本错误2: RANDOM 100 第:82 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-03-25 14:51:18:154] 脚本错误2: RANDOM 100 第:131 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-03-25 14:54:16:681] 脚本错误2: RANDOMEX 1 100 第:34 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-03-25 14:54:16:681] 脚本错误2: RANDOMEX 1 100 第:82 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-03-25 14:54:16:681] 脚本错误2: RANDOMEX 1 100 第:131 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-03-25 14:57:16:666] 脚本错误2: CLEAR [200] 第:130 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-03-25 14:57:16:666] 脚本错误2: CLEAR [201] 第:131 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-03-25 14:57:16:666] 脚本错误2: CLEAR [202] 第:132 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-03-25 19:35:13:999] 脚本错误, 加载失败: 系统功能\点卡测试.txt  @点卡测试
+
+[2026-03-25 19:38:02:977] 脚本错误, 加载失败: 系统功能\点卡测试.txt  @点卡测试
+
+[2026-03-25 20:07:00:095] 脚本错误2: CHECKVAR HUMAN 点卡时间 > 0 第:25 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\点卡管理员-600.txt
+[2026-03-25 20:07:00:095] 脚本错误2: CHECKVAR HUMAN 点卡时间 > 0 第:25 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\点卡管理员-3.txt
+
+[2026-03-25 20:49:49:179] 脚本错误2: CHECKLEVELEX = 7 第:1182 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-03-25 22:48:29:581] [脚本参数不正确] Cmd:CHECKVAR NPC名称:QFunction 地图:0 座标:0:0 参数1:HUMAN 参数2:点卡时间 参数3:< 参数4:1 参数5:
+

@@ -1,0 +1,15 @@
+[2026-03-23 00:03:23:343] 脚本错误1: CHECKMAP = 600 第:766 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-03-23 00:08:03:319] 脚本错误1: CHECKMAP = 600 第:766 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-03-23 00:23:39:410] 脚本错误1: CHECKMAP = 600 第:766 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-03-23 23:02:51:208] 脚本错误1: CHECKMAP = BRTL 第:15 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-03-23 23:02:51:208] 脚本错误1: CHECKMAP = BRTL 第:31 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-03-23 23:02:51:208] 脚本错误1: CHECKMAP = BRTL 第:52 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-03-23 23:02:51:208] 脚本错误2: CheckMapHumanCount BRTL D99 第:172 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-03-23 23:02:51:211] 脚本错误1: NOT CHECKMAP = BRTL 第:768 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-03-23 23:02:51:211] 脚本错误1: NOT CHECKMAP = BRTL 第:792 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-03-23 23:02:51:211] 脚本错误1: NOT CHECKMAP = BRTL 第:809 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-03-23 23:02:51:211] 脚本错误1: NOT CHECKMAP = BRTL 第:826 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+

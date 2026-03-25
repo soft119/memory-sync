@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>字符串替换</title>
+</HEAD>
+<BODY>
+<P><FONT size=2><FONT face=宋体><FONT color=#0000ff><STRONG>功能：</STRONG></FONT><BR>
+&nbsp;&nbsp;&nbsp; <FONT size=2>字符串替换</FONT></FONT></FONT></P>
+<P><FONT size=2><FONT face=宋体><STRONG><FONT color=#0000ff>格式：</FONT><BR>
+</STRONG>&nbsp;&nbsp;&nbsp; ANSIREPLACETEXT 字符串变量 旧字符串 新字符串 
+<BR><BR>;==========================================
+<BR>
+;========================================== <br>
+;把<A 
+href="http://www.996m2.com">www.996m2.com</A>
+替换成www.qq.com<br>
+[@main]<br>
+#IF<br>
+#ACT<br>
+mov S1 www.996m2.com<br>
+ ANSIREPLACETEXT S1&nbsp;996m2 qq<br>
+SENDMSG 6 &lt;$STR(S1)&gt;</FONT>
+  </FONT></P>
+<P><FONT face=宋体></FONT>&nbsp;</P>
+</BODY>
+</HTML>
+
+ 

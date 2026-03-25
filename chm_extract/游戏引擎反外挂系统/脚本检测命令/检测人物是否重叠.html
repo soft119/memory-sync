@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>检测人物是否重叠</title>
+</head>
+
+<body>
+<p>格式: IsDupMode 模式(0检测所有对象(包括人物、怪物、NPC)，1只检测是否有人物)</p>
+<p><br />
+  [@Main]<br />
+  #IF<br />
+  IsDupMode 1<br />
+  #SAY<br />
+不要和其他人站在一起</p>
+<p><br />
+[@Main]<br />
+#IF<br />
+IsDupMode 0 <br />
+#SAY<br />
+不要和其他人或怪物站在一起<br />
+</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>

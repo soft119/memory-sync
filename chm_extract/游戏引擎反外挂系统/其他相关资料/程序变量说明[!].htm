@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>程序变量说明[!]</title>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<STYLE type=text/css>
+<!--
+.STYLE5 {color: #FF0000; font-weight: bold; }
+.STYLE6 {color: #FF0000; font-weight: bold; font-size: large; }
+.STYLE2 {color: #FF0000}
+-->
+</STYLE>
+
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<p><FONT face=宋体>P0-P99 (私人变量，数字型) 关闭对话框重置为0。<br>
+  D0-D99 (私人变量，数字型) 下线不保存.摇筛子变量.<br>
+  M0-M99 (私人变量，数字型) 下线不保存.切换地图清空.<br>
+  N0-N99 (私人变量，数字型) 下线不保存.小退归0.<br>
+  S0-S99 (私人变量，字符型) 下线不保存.小退归0.<br>
+  I0-I99 (全局变量，数字型) 不可保存，服务器重启自动重置为0。<br>
+  G0-G499 (全局变量，数字型) 可保存。（存放在Mir200/GlobalVal.ini文件里面）<br>
+  A0-A499 (全局变量，字符型) 可保存。（存放在Mir200/GlobalVal.ini文件里面）<br >
+  U0-U254 (私人变量，数字型) 可保存。（存放在人物数据库里面、值最大范围正负21亿）<br>
+  T0-T254 (私人变量，字符型) 可保存。（存放在人物数据库里面、字符长度8000 &lt;1个字母为1字符、1汉字为2字符&gt;）<br>
+  J0-J254 (私人变量，数字型) 
+可保存,每晚12点自动重置,合区或关停服务器请错开00:00点即可。（存放在人物数据库里面、值最大范围正负21亿）<BR>Z0-Z254 (私人变量，字符型) 
+可保存,每晚12点自动重置,合区或关停服务器请错开00:00点即可。（存放在人物数据库里面、字符长度200 
+&lt;1个字母为1字符、1汉字为2字符）<BR>
+   个人标识(私人变量，布尔型) 可保存。（[0~999]存放在人物数据库里面、值只有0或1）<br><BR>  
+ 
+</FONT>&nbsp;   </p>
+<p class="STYLE6"><FONT face=宋体>注意： 
+自定义变量名称不要以P、D、M、N、S、I、G、A、U、T、J开头</FONT> </p>
+<p class="STYLE6"><FONT face=宋体>增加&lt;$CONST(X)&gt;用法，表示X不是变量，就是一个常量字符，一些地图名称以变量名称开头的等等地方，可以用&lt;$CONST(X)&gt;表示</FONT></p>
+<p class="STYLE6"><FONT face=宋体>这样就不在把&lt;$CONST(X)&gt;当成变量，造成脚本错误，例如：</FONT></p>
+<p class="STYLE6"><FONT face=宋体>[@main]<br>
+  #Act<br>
+  MOV N0 3<br>
+  ;这里的N0的变量值等于“3”是把“3”当成地图名称，还是把“N0”当成地图名称，引擎以前有这方面的处理，优先检查有没有N0这个地图<br>
+  ;现在可以直接设置成地图名称<br>
+  MAP &lt;$CONST(N0)&gt;<br>
+;表示传送到地图名称为“N0”的地图</FONT>
+</p>
+<p class="STYLE6"><FONT face=宋体></FONT>&nbsp;</p>
+<p class="STYLE6"><FONT face=宋体>变量显示:&lt;$STR(S0)&gt; 
+&lt;$STR(G0)&gt;</FONT> </p>
+<p class="STYLE6"><FONT face=宋体>当前对象的变量显示:&lt;$CSTR(S0)&gt; 
+&lt;$CSTR(G0)&gt;</FONT> </p>
+<p class="STYLE6"><FONT face=宋体></FONT>&nbsp;</p>
+<p><FONT face=宋体>【变量属性】 </FONT> </p>
+<p><FONT face=宋体>P(0-99) </FONT> </p>
+<p><FONT face=宋体>『属性说明』：该变量只对当前对话NPC内有效果。如果中途点其他NPC或者对话产生close、关闭时所有P变量均归0。该变量取值范围：（0-？）根据M2最大值不同 <br >
+  『用法』：该变量没有NPC间传递性作为临时变量多重复使用效果十分好。而且因为脚本命令有对该变量进行加/减/赋值/随机取值等运算，他和goto的配合可以使脚本中出现仿for循环的效果。并且因为他不传递的性质其 <br >
+  随机取值也能与RANDOM媲美。</FONT>
+  </p>
+<p><FONT face=宋体>D(0-99) </FONT> </p>
+<p><FONT face=宋体>『属性说明』：该变量在人物不下线时对全局NPC通用传递。该变量取值范围：同P变量 <br >
+  『用法』：既有像[0-？]变量一样的人物属性私有变量的效果又有像P变量一样的运算功能！唯一不足就是下线 
+后该变量会被清空。可是如果配合上[000]变量或者namelist变量的记录性。实在是功能强大的个人隐私属性！ </FONT>
+    </p>
+<p><FONT face=宋体>G(0-499) </FONT> </p>
+<p><FONT face=宋体>『属性说明』：该变量不属于人物属性范围，对于全服务器内该变量唯一并且全局NPC通用传递。该变量取值范围：同P变量 <br >
+  『用法』：这个变量是唯一的一个不属于任何人物而属于服务器的变量，该变量通过任何人的运算均产生效果。而且不保存在任何人的属性中。（存放在Mir200/GlobalVal.ini文件里面）</FONT>
+  </p>
+<p><FONT face=宋体>A(0-499) </FONT> </p>
+<p><FONT face=宋体>『属性说明』：该变量不属于人物属性范围，对于全服务器内该变量唯一并且全局NPC通用传递。该变量取值范围：同D变量 <br >
+『用法』：这个变量是唯一的一个不属于任何人物而属于服务器的变量，该变量通过任何人的运算均产生效果。而且不保存在任何人的属性中。（存放在Mir200/GlobalVal.ini文件里面）</FONT> 
+<BR><BR>
+</p>
+<P align=left><FONT face=宋体><FONT color=#000000>个人标识变量：<BR></FONT></FONT><BR><FONT face=宋体>类型：<BR>个人变量 通用传递 下线保存 
+<BR>数量：<BR>1000个 ( 000 - 999 ) <BR>属性：<BR>该变量只有2种状态：1 和 0！ 
+<BR>使用方法：<BR>因为该变量记录性比较强。而且如果产生读写操作时服务器的操作不是很大。 
+<BR>所以作为记录一些人物的下线后需要保留的数据的话作用十分大， <BR>大部分任务时常用到他。该变量值只有1和0的两种状态。 
+<BR><BR>　<BR>举例： <BR>#IF <BR>CHECK [008] 0 <BR>#ACT <BR>SET [008] 1 
+<BR>Break<BR></FONT></P>
+<P align=left><FONT face=宋体><FONT color=#0000ff><STRONG><FONT color=#ff0000>标识不支持表格式常量嵌套如：</FONT><BR>check [&lt;$cfg_biaoming(1_1)&gt;] 
+0<BR>set </STRONG><STRONG>[&lt;$cfg_biaoming(1_1)&gt;]</STRONG><STRONG> 
+1</STRONG></FONT><BR></FONT><BR></P></BODY></HTML>

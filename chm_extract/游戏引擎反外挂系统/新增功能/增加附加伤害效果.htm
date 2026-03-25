@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>增加附加伤害效果</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT face=宋体><SPAN class=15 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; FONT-WEIGHT: bold; COLOR: rgb(0,0,255); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT color=#0000ff><FONT face=宋体>增加附加伤害效果</FONT>RangeHarm</FONT></SPAN>       
+</FONT>       </P>
+<P><FONT face=宋体>说明：<BR>RangeHarm 参数1 参数2 参数3 参数4 参数5 参数6.....参数15<BR>参数1 X坐标<BR>参数2 
+Y坐标<BR>参数3 范围<BR>参数4伤害值<BR>参数5附加效果0=无,1=击退,2=冻结,3=麻痹,4=吸血,5= 
+ 吸蓝,6真实伤害数值,7蛛网效果,8红毒,9绿毒,10定身,11防禁锢,12最大hp百分比真实伤害,13当前hp百分比真实伤害<BR>参数6 附加属性值 <SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>参数</FONT>5=1;击退距离、2;冻结时间、3;麻痹时间、4;吸血值、5;吸蓝值、6;真实伤害值、7;蛛网时间、8;红毒时间、9;绿毒时间、<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10;定身时间(定身时间单位是毫秒)、11;防禁锢时间(秒) 
+</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">12;最大hp百分比真实伤害的值 
+13;当前hp百分比真实伤害的值</SPAN> 
+<BR>参数7 
+是否检查防冻结/麻痹/石化/冰冻/蛛网/红毒/绿毒属性（0: 直接设置状态; 1：检查后设置状态)<BR>参数8 目标(0或空:所有目标; 1:仅人物; 
+2:仅怪物)<BR>参数9 WIL序号 <BR>参数10 开始图片<BR>参数11 播放张数<BR>参数12 播放速度<BR>参数13 
+是否透明绘制(0或空，1)<BR>参数14 是否物理属性攻击(0或空，1 
+物理属性则目标以防御来抵御伤害，0或者空目标则以魔御来抵御伤害)</FONT> 
+<BR><FONT face=宋体>参数15 飘血ID<BR></FONT><BR>  </P>
+<P><BR><FONT face=宋体>例<BR>RangeHarm &lt;$X&gt; &lt;$Y&gt; 5 
+333 3 2 0 0 36 1560 20 100 1 1 101<BR>当前人物范围5之内所有可以攻击的目标都受到333点伤害并且被麻痹2秒<BR>所有参数都支持变量 伤害和普通伤害一样需要 考虑目标的防御</FONT>  </P>
+<P><FONT face=宋体></FONT>&nbsp;</P>
+<P><FONT face=宋体>扩展了一个 RangeHarmEx 支持伤害触发</FONT>  </P>
+<P><FONT face=宋体>RangeHarmEx<BR>参数1 X坐标<BR>参数2 Y坐标<BR>参数3 范围<BR>参数4 伤害值<BR>参数5附加效果0=无,1=击退,2=冻结,3=麻痹,4=吸血,5= 
+吸蓝,6真实伤害数值,7蛛网效果,8红毒,9绿毒,10定身,11防禁锢,12最大hp百分比真实伤害,13当前hp百分比真实伤害<BR>参数6 附加属性值 <SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>参数</FONT>5=1;击退距离、2;冻结时间、3;麻痹时间、4;吸血值、5;吸蓝值、6;真实伤害值、7;蛛网时间、8;红毒时间、9;绿毒时间、<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10;定身时间(定身时间单位是毫秒)、11;防禁锢时间(秒) 
+</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">12;最大hp百分比真实伤害的值 
+13;当前hp百分比真实伤害的值</SPAN> 
+<BR>参数7 
+是否检查防冻结/麻痹/石化/冰冻/蛛网/红毒/绿毒属性（0: 直接设置状态; 1：检查后设置状态)<BR>参数8 目标(0或空:所有目标; 1:仅人物; 
+2:仅怪物)<BR>参数9 
+触发选项(0:所有目标触发； 1:只触发一次）<FONT color=#ff0000>  注:该触发走的是[@Magicattack]<BR></FONT>参数10 触发几率(仅对所有目标触发有效，值越小几率越高)<BR>参数11 
+WIL序号 <BR>参数12 开始图片<BR>参数13 播放张数<BR>参数14 播放速度<BR>参数15 是否透明绘制(0或空，1)<BR>参数16 
+是否物理属性攻击(0或空，1 物理属性则目标以防御来抵御伤害，0或者空目标则以魔御来抵御伤害)<BR> 
+参数17 飘血ID</FONT>&nbsp; 
+ </P>
+<P><BR><FONT face=宋体>[@Attack]<BR>#IF<BR>#ACT<BR>RangeHarmEx &lt;$X&gt; 
+&lt;$Y&gt; 5 333 1 4 0 0 3 
+3 36 1560 20 100 1 0 101<BR>SENDMSG 6 
+当前屏幕内所有目标造成333点伤害附加击退4格的伤害</FONT>  </P></body>
+</html>

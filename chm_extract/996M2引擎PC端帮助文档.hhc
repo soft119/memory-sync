@@ -1,0 +1,4297 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<!-- Sitemap 1.0 -->
+</HEAD>
+<BODY>
+   <OBJECT type="text/site properties"> 
+     <param name="FrameName" value="right">
+     <param name="Font" value=",10,0">
+     <param name="ImageType" value="Book">
+     <param name="Window Styles" value="0x27">
+     <param name="ExWindow Styles" value="0x0">
+   </OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="更新日志">
+<param name="Local" value="UpDate.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="历史更新日志">
+<param name="Local" value="游戏引擎反外挂系统/部分脚本实例/历史更新日志.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="地图编号">
+<param name="Local" value="地图编号.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="颜色值列表">
+<param name="Local" value="256色值.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="NPC代码">
+<param name="Local" value="NPC.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="怪物编号">
+<param name="Local" value="怪物编号.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="版本转换信息汇总">
+<param name="Local" value="官方主页.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="服务端文本结构">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Castle(沙巴克配置)">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="沙巴克配置">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/沙巴克配置.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="老沙巴克配置">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/老沙巴克配置.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="新沙巴克配置">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/新沙巴克配置.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Envir(脚本配置目录)">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="data(服务端表目录)">
+<param name="Local" value="">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="服务端表结构">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/服务端表结构.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MapQuest_def(登录脚本目录)">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="QManage.txt(登录脚本)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/QManage.txt(登录脚本).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Market_Def(NPC功能脚本目录)">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="QFunction-0.txt(功能脚本)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/QFunction-0.txt(功能脚本).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Market_Prices(商店售卖缓存目录)">
+<param name="Local" value="">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Market_Saved(商店买卖缓存目录)">
+<param name="Local" value="">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Market_Upg(沙城武器升级记录)">
+<param name="Local" value="">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MonItems(怪物爆率文件目录)">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="爆率格式">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/爆率格式.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="精准爆率格式">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/精准爆率格式.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="MonUseItems(人形怪配置目录)">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="人形怪配置">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/人形怪配置.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Nations(国家配置目录)">
+<param name="Local" value="">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Npc_def(NPC脚本目录)">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="系统默认NPC">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/管理NPC.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="QuestDiary(调用类脚本目录)">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="调用脚本说明">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/调用脚本说明.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Robot_def(机器人脚本目录)">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="AutoRunRobot.txt(机器人配置)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/AutoRunRobot.txt(机器人配置).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RobotManage.txt(机器人脚本)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/RobotManage.txt(机器人脚本).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="NpcIcons(NPC顶戴花翎)">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="NPC顶戴花翎配置">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/NPC顶戴花翎配置.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="MonIcons(怪物顶戴花翎)">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="怪物顶戴花翎配置">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/怪物顶戴花翎配置.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="SmartMonster(自定义怪物配置)">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="自定义怪物系统">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/自定义怪物系统.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="UserData(用户数据目录)">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="CustomNpc(自定义NPC)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/CustomNpc(自定义NPC).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CustomSkill自定义技能系统">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/自定义技能系统.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="PoisonWeapon.txt(绿毒武器)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/PoisonWeapon.txt(绿毒武器).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="AdminList.txt(管理员列表)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/AdminList.txt(管理员列表).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="AutoLoadOffline.txt(脱机人物列表)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/AutoLoadOffline.txt(离线挂机人物列表).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BoxsList.txt(宝箱配置)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/BoxItem.txt(宝箱配置).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ClientEatItemNameList.txt(内挂药品设置列表)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/ClientEatItemNameList.txt(内挂药品设置列表).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CustomItemAbilTextList.txt(新版自定义属性)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/CustomItemAbilTextList.txt(新版自定义属性).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="禁止系列文本">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/禁止系列文本.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="DropEffectList.txt(物品光柱列表)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/DropEffectList.txt(物品光柱列表).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="DummyNameList.txt(假人名字列表)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/DummyNameList.txt(假人名字列表).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="DZItemDescList.txt(顶部备注列表)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/DZItemDescList.txt(顶部备注列表).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="EffectImageList.txt(Wil资源列表)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/EffectImageList.txt(Wil资源列表).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="EffectItemList.txt(物品特效列表)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/EffectItemList.txt(物品特效列表).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="FilterItemList.txt(内挂拾取列表)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/FilterItemList.txt(内挂拾取列表).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GroupItemList.txt(套装属性列表)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/GroupItemList.txt(套装属性列表).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GuardList.txt(大刀守卫刷新列表)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/GuardList.txt(大刀守卫刷新列表).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ItemDescList.txt(物品备注列表)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/ItemDescList.txt(物品备注列表).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ItemRuleList.txt(物品规则列表)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/ItemRuleList.txt(物品规则列表).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MakeItem.txt(毒药炼制配置)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/MakeItem.txt(毒药炼制配置).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MapEvent.txt(地图触发事件)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/MapEvent.txt(地图触发事件).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MapInfo.txt(地图及参数配置)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/MapInfo.txt(地图及参数配置).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MapQuest.txt(杀怪触发配置)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/MapQuest.txt(杀怪触发配置).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MerChant.txt(NPC配置)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/MerChant.txt(NPC配置).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MiniMap.txt(小地图配置)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/MiniMap.txt(小地图配置).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MonGen.txt(刷怪配置)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/MonGen.txt(刷怪配置).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MonSayMsg.txt(怪物说话配置)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/MonSayMsg.txt(怪物说话配置).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MonSpAbilList.txt(怪物特殊配置)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/MonSpAbilList.txt(怪物特殊配置).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Npcs.txt(管理NPC配置)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/Npcs.txt(管理NPC配置).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MagicShieldItemList.txt(护身装备扩展)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/MagicShieldItemList.txt(护身装备扩展).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ParalysisItemList.txt(麻痹装备扩展)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/ParalysisItemList.txt(麻痹装备扩展).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RevivalItemList.txt(复活装备扩展)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/RevivalItemList.txt(复活装备扩展).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Robot.txt(机器人脚本配置)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/Robot.txt(机器人脚本配置).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="ShopItemList.txt(系统商铺配置)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/ShopItemList.txt(系统商城配置).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SkillPowerItemList.txt(装备技能威力配置)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/SkillPowerItemList.txt(装备技能威力配置).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="StartPoint.txt(安全区及出生点配置)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/StartPoint.txt(安全区及出生点配置).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="SuiteItemsList.txt(套装属性配置)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/SuiteItemsList.txt(套装属性配置).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="TzItemDescList.txt(套装备注)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/TzItemDescList.txt(套装备注).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="UnbindList.txt(解包文本配置)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/UnbindList.txt(解包文本配置).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="UserCmds.txt(自定义用户命令配置)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/UserCmd.txt(自定义用户命令配置).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="log(M2引擎日志)">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="data_xxx(运行数据日志)">
+<param name="Local" value="">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="error_xxx(错误数据日志)">
+<param name="Local" value="">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="debug_xxx(执行数据日志)">
+<param name="Local" value="">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="script_xxx(脚本日志)">
+<param name="Local" value="">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Notice(游戏登录公告)">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Notice.txt(游戏公告)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/Notice.txt(游戏公告).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="LineNotice.txt(彩色滚动播报)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/LineNotice.txt(彩色滚动播报).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="map(地图文件目录)">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="地图文件说明">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/地图文件说明.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="!Setup.txt(引擎配置文件)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/!Setup.txt(引擎配置文件).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Command.ini(游戏命令配置)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/Command.ini(游戏命令配置).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Exps.ini(人物等级经验配置)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/Exps.ini(人物等级经验).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="LevelAbilitys0.ini(人物等级属性配置)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/LevelAbilitys0.ini(人物等级属性配置).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GlobalVal.ini(全局变量存储文件)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/GlobalVal.ini(全局变量存储文件).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="String.ini(系统提示信息配置)">
+<param name="Local" value="游戏引擎反外挂系统/服务端文本结构/String.ini(系统提示信息配置).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="游戏引擎反外挂系统">
+<param name="Local" value="">
+<param name="ImageNumber" value="21">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="新增功能">
+<param name="Local" value="">
+<param name="ImageNumber" value="2">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="装备位置">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/装备位置.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="物品光柱">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/物品光柱.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="技能备注">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/技能备注.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="取身上物品位置唯一ID">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/取身上物品位置唯一ID.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="通过物品唯一ID获取物品名称">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/通过物品唯一ID获取物品名称.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="字符分割高级">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/字符分割高级.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="脚本总耗时">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/脚本总耗时.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="批量使用叠加消耗类型物品">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/批量使用叠加消耗类型物品.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="给予物品直接到指定位置">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/给予物品直接到指定位置.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="取数值的百分比">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/取数值的百分比.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="取两个时间之间的相差秒数">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/取两个时间之间的相差秒数.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="读取xls表格功能">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/读取xls表格功能.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="CSV表格读取">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/CSV表格读取.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="获取背包物品数量">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/获取背包物品数量.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="获取当前物品的附加元素属性">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/获取当前物品的附加元素属性.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="物品添加标记">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/物品添加标记.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="星期脚本案例">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/星期脚本案例.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="人物攻击掉血前触发">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/人物攻击掉血前触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="人物宝宝攻击触发">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/人物宝宝攻击触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="人物宝宝攻击前触发">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/人物宝宝攻击前触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="物品进背包触发">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/物品进背包触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="获取当前唯一ID物品的星星数量">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/获取当前唯一ID物品的星星数量.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="行会触发相关">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/行会触发相关.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="押镖系统">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/押镖系统.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="禁止跑步">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/禁止跑步.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Stop停止执行消耗">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/Stop停止执行消耗.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="遍历背包物品">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/NPC.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="批量检测背包唯一ID或者IDX物品是否存在">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/批量检测背包唯一ID或者IDX物品是否存在.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="拍卖行系统">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/拍卖行系统.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="时间转换">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/时间转换.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="将变量插入字符串指定位置">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/将变量插入字符串指定位置.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="截取字符串中的一段字符">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/截取字符串中的一段字符.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="顶戴花翎扩展(宝宝)">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/顶戴花翎扩展(宝宝).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="RandomText随机取字符串">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/RandomText随机取字符串.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="百分比范围切割">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/百分比范围切割.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="掉落身上指定部位装备">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/掉落身上指定部位装备.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="修改宝宝外观">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/修改宝宝外观.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="宝宝相关">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/宝宝相关.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="范围调整怪物属性">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/范围调整怪物属性.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="清空字符串内的空格">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/清空字符串内的空格.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="终止当前技能">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/终止当前技能.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="键值对操作方法">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/键值对、哈希表.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="全屏吸怪">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/全屏吸怪.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="新自定义变量">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/新自定义变量.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="数值串排序">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/数值串排序.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="变量的嵌套写法">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/变量的嵌套写法.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="NPC面板编辑功能">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/NPC面板编辑功能.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="发型斗笠外显控制">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/发型斗笠外显控制.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测当前被攻击者身上状态">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/检测当前被攻击者身上状态.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="武器加诅咒触发">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/武器加诅咒触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="艺术字效果">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/艺术字效果.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="邮件系统">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/邮件系统.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="切换攻击模式触发">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/切换攻击模式触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="系统攻击经验倍数结束触发">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/系统攻击经验倍数结束触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="NPC面板倒计时">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/NPC面板倒计时.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="暂停刷怪">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/暂停刷怪.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="强制加入攻城列表">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/强制加入攻城列表.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="四则运算">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/四则运算.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="限时物品扩展及触发">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/限时物品扩展及触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="调整背包负重">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/调整背包负重.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="怪物体型放大">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/怪物体型放大.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="透明消息框">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/透明消息框.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="技能CD显示及快捷拖放">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/技能CD显示及快捷拖放.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="获取指定地图玩家数量">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/获取指定地图玩家数量.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="获取指定地图、指定怪物当前血量和最大血量">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/获取指定地图、指定怪物当前血量和最大血量.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="使用地图参数限制角色在地图内时间">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/使用地图参数限制角色在地图内时间.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="取指定行会成员人数">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/取指定行会成员人数.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="动态调整特殊属性">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/动态调整特殊属性.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="铭文系统支持">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/铭文系统支持.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="祝福罐、魔族指令设置">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/祝福罐、魔族指令设置.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="使用技能前触发">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/使用技能前触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="调整人物所有属性">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/调整人物所有属性.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="是否正在进行行会战">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/是否正在进行行会战.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="字符串取左边取长度">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/字符串取左边.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="While条件循环">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/While条件循环.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="时间戳转换月日年时分秒">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/时间戳转换月日年时分秒_.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="货币超出21亿触发">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/货币超出21亿触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="装备回收系统">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/装备回收系统.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="46类宝石镶嵌系统">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/46类宝石镶嵌系统.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="地图播放怪物形象倒计时">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/地图播放怪物形象倒计时.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="BOSS大血条">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/BOSS大血条.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="16位及常量颜色写法">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/16位及常量颜色写法.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="坐骑系统">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/坐骑系统.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="传送戒指传送前触发">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/传送戒指传送前触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="设置下次攻击伤害命令">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/设置下次攻击伤害命令.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="主屏幕弹出公告">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/主屏幕弹出公告.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="脚本设置、删除安全区">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/脚本设置、删除安全区.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="购买商铺物品前触发">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/购买商铺物品前触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="获取指定地图怪物数量">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/获取指定地图怪物数量.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="清掉地图某范围的怪物">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/清掉地图某范围的怪物.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="将自己宝宝移动至指定坐标">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/将自己宝宝移动至指定坐标.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="人物身上装备掉落前触发">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/人物身上装备掉落前触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="获取当前地图怪物状态命令">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/获取当前地图怪物状态命令.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="多货币关联使用功能">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/多货币关联系统.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="改变技能特效">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/改变技能特效.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="沙城升级武器破碎触发">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/沙城升级武器破碎触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="设置当前攻击飘血">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/设置当前攻击飘血.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自动寻路打开指定NPC面板">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/自动寻路打开指定NPC面板.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="红点系统">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/红点系统.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="获取技能等级功能">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/获取技能等级功能.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="系统任务计时">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/系统任务计时.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="货币改变触发">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/货币改变触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="交易前触发">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/交易前触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="新方式给装备设置绑定状态">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/新方式给装备设置绑定状态.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="气泡引导">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/s.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="唯一ID存仓">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/唯一ID存仓.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="准星功能">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/准星功能.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="满聚灵珠操作功能">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/满聚灵珠操作功能.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="设置剪切板内容">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/设置剪切板内容.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="设置等级锁定">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/新建项目.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="关联物品获取背包物品数量">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/关联物品获取背包物品数量.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="穿脱任意套装触发">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/穿脱任意套装触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="等概率或者按权限随机获取分割字符串">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/等概率或者按权限随机获取分割字符串.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="通过字符串增加对应属性值">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/通过字符串增加对应属性值.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="百分比修改速度">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/百分比修改速度.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="IF(2)多条件判断逻辑支持">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/IF(2)多条件判断逻辑支持.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="脚本开启隔位野蛮">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/脚本开启隔位野蛮.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="行会战宣战命令">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/行会战宣战命令.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="死亡前触发">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/死亡前触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="批量检测\拿走\给予\背包物品">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/批量检测_拿走_给予_背包物品.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="设置等级锁定">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/新建项目.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="减少技能CD冷却时间">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/减少技能CD冷却时间.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="数据消息上报">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/数据消息上报.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="角色交易行">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/角色交易行.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="施法边框特效">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/施法边框特效.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="百区来源查询设置">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/百区来源查询设置.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="系统NPC商店购买后触发">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/系统NPC商店购买后触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="增加附加伤害效果">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/增加附加伤害效果.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="修理沙巴克城墙城门">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/修理沙巴克城墙城门.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="人物变身怪物命令">
+<param name="Local" value="游戏引擎反外挂系统/新增功能/人物变身怪物命令.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="新NPC界面写法">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="通用面板格式">
+<param name="Local" value="游戏引擎反外挂系统/新NPC界面写法/通用面板格式.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="图片Img">
+<param name="Local" value="游戏引擎反外挂系统/新NPC界面写法/新界面写法.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="文字Text">
+<param name="Local" value="游戏引擎反外挂系统/新NPC界面写法/文字.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="按钮Button">
+<param name="Local" value="游戏引擎反外挂系统/新NPC界面写法/按钮.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="特效Effect">
+<param name="Local" value="游戏引擎反外挂系统/新NPC界面写法/特效Effect.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="基础容器Layout">
+<param name="Local" value="游戏引擎反外挂系统/新NPC界面写法/基础容器Layout.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="列表容器ListView">
+<param name="Local" value="游戏引擎反外挂系统/新NPC界面写法/列表容器ListView.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="复选框CheckBox">
+<param name="Local" value="游戏引擎反外挂系统/新NPC界面写法/复选框CheckBox.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="物品框ItemShow">
+<param name="Local" value="游戏引擎反外挂系统/新NPC界面写法/物品框ItemShow.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="倒计时COUNTDOWN">
+<param name="Local" value="游戏引擎反外挂系统/新NPC界面写法/倒计时COUNTDOWN.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自定义OK框">
+<param name="Local" value="游戏引擎反外挂系统/新NPC界面写法/自定义OK框.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="获取背包物品显示到格子">
+<param name="Local" value="游戏引擎反外挂系统/新NPC界面写法/取背包物品显示到格子.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="获取身上装备显示到格子">
+<param name="Local" value="游戏引擎反外挂系统/新NPC界面写法/获取身上装备显示到格子.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="进度条LoadingBar">
+<param name="Local" value="游戏引擎反外挂系统/新NPC界面写法/进度条LoadingBar.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="艺术字TextAtlas">
+<param name="Local" value="游戏引擎反外挂系统/新NPC界面写法/艺术字TextAtlas.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="游戏面板调用">
+<param name="Local" value="游戏引擎反外挂系统/新NPC界面写法/游戏面板调用.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="NPC窗口面板触发">
+<param name="Local" value="游戏引擎反外挂系统/新NPC界面写法/NPC窗口面板触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自定义按钮AddButton">
+<param name="Local" value="游戏引擎反外挂系统/新NPC界面写法/自定义按钮AddButton.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自定义输入框Input">
+<param name="Local" value="游戏引擎反外挂系统/新NPC界面写法/自定义输入框Input.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="百分比图片&lt;PercentImg&gt;">
+<param name="Local" value="游戏引擎反外挂系统/新NPC界面写法/百分比图片_PercentImg_.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="菜单选项&lt;menuid&gt;">
+<param name="Local" value="游戏引擎反外挂系统/新NPC界面写法/菜单选项_menuid_.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="角色内观部件&lt;UIModel&gt;">
+<param name="Local" value="游戏引擎反外挂系统/新NPC界面写法/角色内观部件_UIModel_.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="滑动拉杆&lt;Slider&gt;">
+<param name="Local" value="游戏引擎反外挂系统/新NPC界面写法/滑动拉杆_Slider_.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="序列帧&lt;Frames&gt;">
+<param name="Local" value="游戏引擎反外挂系统/新NPC界面写法/序列帧_Frames_.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="自定义职业详解">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="自定义职业设置">
+<param name="Local" value="游戏引擎反外挂系统/自定义职业详解/自定义职业设置.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自定义职业素材扩展规则">
+<param name="Local" value="游戏引擎反外挂系统/自定义职业详解/自定义职业素材扩展规则.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="跨服及国家功能">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="跨服配置">
+<param name="Local" value="游戏引擎反外挂系统/跨服功能/跨服配置.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="跨服变量传递">
+<param name="Local" value="游戏引擎反外挂系统/跨服功能/跨服变量传递.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="跨服与本服之间数据传递">
+<param name="Local" value="游戏引擎反外挂系统/跨服功能/跨服与本服之间数据传递.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="跨服添加删除物品">
+<param name="Local" value="游戏引擎反外挂系统/跨服功能/跨服添加删除物品.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="跨服沙巴克">
+<param name="Local" value="游戏引擎反外挂系统/跨服功能/跨服沙巴克.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="国家系统">
+<param name="Local" value="游戏引擎反外挂系统/跨服功能/国家系统.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="Excel数据库资料">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="cfg_item(装备表)">
+<param name="Local" value="游戏引擎反外挂系统/DB数据库资料/cfg_item(装备表).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="cfg_magic(技能表)">
+<param name="Local" value="游戏引擎反外挂系统/DB数据库资料/Magic详解[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="cfg_monster(怪物表)">
+<param name="Local" value="游戏引擎反外挂系统/DB数据库资料/Monster详解.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Stditem详解">
+<param name="Local" value="游戏引擎反外挂系统/DB数据库资料/Stditem详解.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="物品代码表">
+<param name="Local" value="游戏引擎反外挂系统/DB数据库资料/物品代码表[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="物品所需条件设置">
+<param name="Local" value="游戏引擎反外挂系统/DB数据库资料/物品所需条件设置.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="物品极口属性详解">
+<param name="Local" value="游戏引擎反外挂系统/DB数据库资料/物品极品属性详解.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="特殊物品设置[!]">
+<param name="Local" value="游戏引擎反外挂系统/DB数据库资料/特殊物品设置[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="属性对照表">
+<param name="Local" value="游戏引擎反外挂系统/DB数据库资料/属性对照表.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="日志记录开启方法">
+<param name="Local" value="游戏引擎反外挂系统/DB数据库资料/日志记录开启方法.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="新怪物支持">
+<param name="Local" value="游戏引擎反外挂系统/DB数据库资料/新怪物支持.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="特殊触发功能">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="GOTOLABEL触发[!]">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/GOTOLABEL触发[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="M2启动后触发">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/M2启动后触发.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="个人商店和人物摆摊">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/个人商店和人物摆摊[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="个人商店购买物品触发">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/个人商店购买物品触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="人物升级触发">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/人物升级触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="人物大退小退触发">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/人物小退触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="人物当前获得经验触发">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/人物当前获得经验触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="人物死亡时触发[!]">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/人物死亡时触发[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="使用魔法触发">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/使用魔法触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="切换地图触发">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/切换地图触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="初始化行会触发">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/初始化行会触发.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="占领沙巴克触发">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/占领沙巴克触发.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="取下身上物品时触发[!]">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/取下身上物品时触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="地图事件触发">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/地图事件触发.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="复活时触发[!]">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/复活脚本触发[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="外挂触发[!]">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/外挂触发[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="套装触发">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/套装触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="定时触发[!]">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/定时触发[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="宝宝相关触发">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/宝宝相关触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="带上物品时触发[!]">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/带上物品时触发[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="弹出验证码窗口时触发">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/弹出验证码窗口时触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="扔物品触发[!]">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/扔物品触发[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="拣物品触发 捡取物品触发[!]">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/拣物品触发%20捡取物品触发[!].html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="指定人物触发字段">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/指定人物触发字段.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="攻击触发">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/攻击触发.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="暴击触发">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/暴击触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="杀死人物宝宝时触发[!]">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/杀死人物宝宝时触发[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="杀死人物触发">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/杀死人物触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="杀死怪物时触发">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/杀死怪物触发[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="查看对方装备触发">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/查看对方装备触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="爆物品触发">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/爆物品触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="物品触发脚本功能">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/物品触发功能脚本.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="界面帮助按钮触发">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/界面帮助按钮触发[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="穿脱装备触发">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/穿脱装备触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="穿脱装备入包前触发">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/穿脱装备入包前触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="组队时触发">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/组队时触发[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="被攻击掉血前触发">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/被攻击掉血前触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="装备升级触发[!]">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/装备升级触发[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="装备持久消失时触发">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/装备持久消失时触发[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="走路和跑步触发">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/走路和跑步触发.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="进入连接点前触发">
+<param name="Local" value="游戏引擎反外挂系统/特殊触发功能/进入连接点前触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="其他相关资料">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="DEC对字符型变量操作命令[!]">
+<param name="Local" value="游戏引擎反外挂系统/其他相关资料/DEC对字符型变量操作命令[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="新增GM命令[!]">
+<param name="Local" value="游戏引擎反外挂系统/其他相关资料/GM管理命令[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="MOV INC DEC变量操作命令">
+<param name="Local" value="游戏引擎反外挂系统/其他相关资料/MOV%20INC%20DEC变量操作命令.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="传奇脚本命令详解[!]">
+<param name="Local" value="游戏引擎反外挂系统/其他相关资料/传奇基础脚本命令详解[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="关于国战">
+<param name="Local" value="游戏引擎反外挂系统/其他相关资料/关于国战.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="新怪物数据[!]">
+<param name="Local" value="游戏引擎反外挂系统/其他相关资料/新怪物数据[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="设置显示名称格式">
+<param name="Local" value="游戏引擎反外挂系统/其他相关资料/显示名称控制.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="查看人物私聊信息">
+<param name="Local" value="游戏引擎反外挂系统/其他相关资料/查看人物私聊信息.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="物品绑定人物[!]">
+<param name="Local" value="游戏引擎反外挂系统/其他相关资料/物品绑定人物[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="用户游戏命令详解">
+<param name="Local" value="游戏引擎反外挂系统/其他相关资料/用户游戏相关命令.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="程序变量说明[!]">
+<param name="Local" value="游戏引擎反外挂系统/其他相关资料/程序变量说明[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="脚本变量大全[!]">
+<param name="Local" value="游戏引擎反外挂系统/其他相关资料/脚本变量大全[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="客户端常量">
+<param name="Local" value="游戏引擎反外挂系统/其他相关资料/客户端常量.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自定义常量功能">
+<param name="Local" value="游戏引擎反外挂系统/其他相关资料/自定义常量功能.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="大数值突破说明">
+<param name="Local" value="游戏引擎反外挂系统/其他相关资料/大数值突破说明.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="武器衣服扩展特效计算">
+<param name="Local" value="游戏引擎反外挂系统/其他相关资料/武器衣服扩展特效计算.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="假人系统支持">
+<param name="Local" value="游戏引擎反外挂系统/其他相关资料/假人系统支持.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="兼容HeroM2">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="功能操作命令">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="不允许宝石升级">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/不允许宝石升级.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="关闭大对话框模式">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/关闭大对话框模式.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="写入指定文本文件">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/写入指定文本文件[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="创建目录">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/创建目录.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="删除地图动态链接点">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/删除地图动态链接点.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="动态修改地图名字">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/动态修改地图名字.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="取下人物身上装备">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/取下人物身上装备.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="取字符串在列表中的位置">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/取字符串在列表中的位置.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="取得随机字符串">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/取得随机字符串.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="取装备名字">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/取装备名字.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="召唤自己的分身">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/召唤自己的分身[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="地图动态链接点">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/地图动态链接点.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="宝宝立即叛变">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/宝宝立即叛变.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="延时执行脚本">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/延时执行脚本.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="建立一个文本文件">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/建立一个文本文件.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="建立新行会">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/建立新行会.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="强制攻击模式">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/强制攻击模式.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="恢复发言">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/恢复发言.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="所有行会同时攻城">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/所有行会同时攻城.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="打开网站地址">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/打开网站地址.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="拆解物品">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/拆解物品.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="排序人物自定义变量[!]">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/排序人物自定义变量[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="排序在线人物自定义变量[!]">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/排序在线人物自定义变量[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="改变人物的模式">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/改变人物的模式.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="改变宝宝名字颜色">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/改变宝宝名字颜色.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="改变指定行会的掌门人">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/改变指定行会的掌门人.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="改变物品的持久">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/改变物品的持久.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="改变衣服翅膀效果">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/改变衣服翅膀效果.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="杀死人物的宝宝">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/杀死人物的宝宝.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="杀死地图中的怪物">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/杀死地图中的怪物.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="@OnKillMob">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/杀死怪物时触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="查看动态地图链接点">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/查看动态地图链接点.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="清除宝石升级属性">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/清除宝石升级属性.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="特修身上装备">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/特修身上装备.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="移动怪物到新坐标">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/移动怪物到新坐标.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="移动某地图全部人物到另外一个地图">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/移动某地图全部人物到另外一个地图.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="给字符串增加空格">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/给字符串增加空格.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自动穿戴装备">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/自动穿戴装备.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自定义颜色文字发送">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/自定义颜色文字发送.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="获取玩家名字">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/获取玩家名字.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="设置人物伤害吸收">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/设置人物伤害吸收.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="设置人物商铺购买价格比例">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/设置人物商铺购买价格比例.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="设置装备发光">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/设置装备发光.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="读取文本内容到变量[!]">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/读取文本内容到变量.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="随机验证码">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/功能操作命令/随机验证码.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="游戏功能详解">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="宝石升级系统[!]">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/游戏功能详解/宝石升级系统[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="毒素武器[!]">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/游戏功能详解/毒素武器[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="特殊触发功能">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="技能触发脚本功能">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/特殊触发功能/技能触发脚本功能.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="摆摊触发脚本">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/特殊触发功能/摆摊触发脚本.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="购买商铺物品时触发">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/特殊触发功能/购买商铺物品时触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="脚本检测命令">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查一个范围内怪物数[!]">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检查一个范围内怪物数[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物所在地图是否允许使用记忆,夫妻,师徒传送">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检查人物所在地图是否允许使用记忆,夫妻,师徒传送.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物是否在指定范围内">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检查人物是否在指定范围内.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物杀死怪物的名字">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检查人物杀死怪物的名字.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物被踢次数">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检查人物被踢次数.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查在线最高属性人物">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检查在线最高属性人物.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查地图中的人物是否属于同一个行会">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检查地图中的人物是否属于同一个行会.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查宝宝数量">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检查宝宝数量.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查宝宝最高等级">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检查宝宝最高等级.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查指定人物背包空格数量">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检查指定人物背包空格数量.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查指定城堡是否在攻城[!]">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检查指定城堡是否在攻城[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查指定范围内人物数量">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检查指定范围内人物数量.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查是被人物还是怪物杀死的">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检查是被人物还是怪物杀死的.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查正在攻击中的怪物名字">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检查正在攻击中的怪物名字.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查正在穿身上装备的名字[!]">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检查正在穿身上装备的名字[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查正在脱身上装备的名字[!]">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检查正在脱身上装备的名字[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查自己和宝宝之间的距离[!]">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检查自己和宝宝之间的距离[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查装备升级次数 或 星星数量">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检查装备升级次数.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测人物是否挂机">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检测人物是否挂机.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测人物的攻击模式">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检测人物的攻击模式.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测字符串长度命令">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检测字符串长度命令.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测当前宝石升级装备的名字">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检测当前宝石升级装备的名字.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测月份">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检测月份.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测本月的天数">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检测本月的天数.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测物品持久">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检测物品持久.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测物品纯度">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检测物品纯度.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测被自己杀死宝宝的名字">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检测被自己杀死宝宝的名字.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测装备名字颜色">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检测装备名字颜色.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测装备的附加属性总和[!]">
+<param name="Local" value="游戏引擎反外挂系统/兼容HeroM2/脚本检测命令/检测装备的附加属性总和[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL></UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="功能操作命令">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="BUFF">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/BUFF.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="GIVE物品后关联">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/GIVE物品后关联.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="IncFileList 脚本命令">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/IncFileList%20脚本命令.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="Take命令扩展">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/Take命令扩展.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="一键回收包裹物品[!]">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/一键回收包裹物品[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="个人定时器">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/个人定时器.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="乘法">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/乘法.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="人物小退">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/人物小退.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="人物杀怪暴率倍数">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/人物杀怪暴率倍数.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="人物聊天文字变色">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/人物聊天文字变色[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="从指定文件中删除字符串[!]">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/从指定文件中删除字符串[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="从文件中随机取文本">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/从文件中随机取文本.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="从文本里随机获取一组不相同的字符">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/从文本里随机获取一组不相同的字符.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="修改宝宝属性">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/修改宝宝属性.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="修改物品的Looks">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/修改物品的Looks.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="修改物品的Shape">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/修改物品的Shape.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="修改物品的属性框悬浮框的特效背景">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/修改物品的属性框悬浮框的特效背景.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="修改物品的附加属性值">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/修改物品的附加属性值.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="关闭或显示脚本命令提示没有戴指定物品">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/关闭或显示脚本命令提示没有戴指定物品.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="文件操作类">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/创建文件.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="删除一个NPC">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/删除一个NPC.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="删除会员人物及时间">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/删除会员人物及时间.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="删除行会成员">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/删除行会成员.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="删除行会掌门人">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/删除行会掌门人.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="刷新包裹">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/刷新包裹.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="加入会员人物及时间">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/加入会员人物及时间.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="发送屏幕中间大字体信息">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/发送屏幕中间大字体信息[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="发送屏幕滚动信息">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/发送屏幕滚动信息.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="发送文字信息">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/发送文字信息.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="发送聊天框固顶信息">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/发送聊天框固顶信息.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="取对面角色人物名">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/取对面角色人物名.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="变量数据传递MOVEX">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/变量数据传递MOVEX.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="召唤指定怪物为宝宝">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/召唤指定怪物为宝宝.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="吸收指定怪物的伤害">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/吸收指定怪物的伤害.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="在地图上播放魔法效果[!]">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/在地图上播放魔法效果[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="在地图上放物品[!]">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/在地图上放物品[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="在屏幕上播放魔法效果">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/在屏幕上播放魔法效果[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="在屏幕上显示向上滚动信息">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/在屏幕上显示向上滚动信息.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="在线命令弹出菜单功能">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/在线弹出菜单脚本.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="在线泡经验">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/在线泡经验.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="增加会员时间[!]">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/增加会员时间[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="增加限次使用物品的次数">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/增加限次使用物品的次数[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="复活人物">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/复活人物.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="字符串分割EXTRACTSTRING">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/字符串分割.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="字符串替换">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/字符串替换.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="宝宝不攻击人物">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/宝宝不攻击人物.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="导出行会在线成员数据">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/导出行会在线成员数据.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="杀死宝宝">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/将人物的宝宝全部杀死.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="屏幕震动">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/屏幕震动.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="延时移动">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/延时移动.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="强制怪物爆出指定物品">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/强制怪物爆出指定物品.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="循环脚本运行">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/循环脚本运行.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="所有行会同时攻城">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/所有行会同时攻城.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="打开NPC大对话框[!]">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/打开NPC大对话框[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="打开OK对话框">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/打开OK对话框.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="打开个人商店脚本命令">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/打开个人商店脚本命令.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="打开网站OpenUrl">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/打开网站OpenUrl.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="打开自定义NPC对话框[!]">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/打开自定义NPC对话框[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="扩展GIVE命令">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/扩展GIVE命令.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="扩展MessageBox">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/扩展MessageBox.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="扩展MOVR使用方法">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/扩展Movr.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="扩展传送地图MAPMOVE">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/扩展传送地图MAPMOVE.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="把人物加入行会">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/把人物加入行会.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="把人物的属性叠加给宝宝">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/把人物的属性叠加给宝宝.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="把行会加入攻城列表">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/把行会加入攻城列表.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="指定怪物直接爆物品">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/指定怪物直接爆物品.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="按地图列表移动">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/按地图列表移动.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="排序行会在线人数">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/排序行会在线人数.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="播放人物效果PLAYEFFECT">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/播放人物效果PLAYEFFECT.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="播放窗口特效PlayWindowEffect">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/播放窗口特效PlayWindowEffect.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="播放网络MP3">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/播放网络MP3.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="播放音乐">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/播放音乐.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="收回OK框中的物品">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/收回OK框中的物品.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="改变人体颜色">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/改变人体颜色.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="改变人物攻击模式">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/改变人物攻击模式.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="改变人物状态">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/改变人物状态.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="改变用户模式">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/改变用户模式[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="新游戏点[!]">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/新游戏点[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="新的装备改名">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/新的装备改名[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="显示一个放大的虚影">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/显示一个放大的虚影.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="显示倒计时信息提示">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/显示倒计时信息提示.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="设置技能快捷键">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/显示技能CD.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="更换性别">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/更换性别.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="转换职业">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/更换职业.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="更改头发类型">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/更改头发类型.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="更改人物颜色">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/更新名称颜色.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="杀死人物">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/杀死人物.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="永久增加人物属性点">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/永久增加人物属性点[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="添加行会成员">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/添加行会成员.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="清空技能CD">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/清空技能CD.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="清除SendCenterMsg DelayGoto">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/清除SendCenterMsg%20DelayGoto.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="清除人物的仓库密码">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/清除人物的仓库密码.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="清除人物转生">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/清除人物转生数据.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="清除列表内容">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/清除列表内容.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="清除地图物品">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/清除地图物品[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="清除屏幕特效">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/清除屏幕特效.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="清除延时移动">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/清除延时移动.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="清除地图中的怪物">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/清除指定地图里的怪物.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="清除结婚信息">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/清除结婚信息.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="物品关联命令LINKPICKUPITEM">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/物品关联命令LINKPICKUPITEM.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="特修装备">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/特修装备[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="百分比">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/百分比.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="禁止小退">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/禁止小退.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="变量数据传递MOVEX">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/禁止登录列表[!]..htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="秒杀保护 防秒杀">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/秒杀保护%20防秒杀.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="移动到回城点">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/移动到回城点.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="穿人模式">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/穿人模式[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="累加行会所有在线成员的个人变量">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/累加行会所有在线成员的个人变量.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="练习技能">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/练习技能.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="给予带绑定状态装备[!]">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/给予带绑定状态装备[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="编组地图传送">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/编组地图传送[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="脚本修改浑水摸鱼模式">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/脚本修改浑水摸鱼模式.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="脚本命令刷怪">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/脚本命令刷怪.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="脚本命令设置技能威力">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/脚本命令设置技能威力.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="脚本命令释放技能">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/脚本命令释放技能.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自动一键捡取物品">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/自动一键捡取物品.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自动寻路">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/自动寻路[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自动穿取装备">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/自动穿取装备.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自动穿装备和取装备">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/自动穿装备和取装备[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自动行走">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/自动行走.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自定义变量功能">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/自定义变量功能.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自定义变量按变量值大小排序[!]">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/自定义变量按变量值大小排序[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自定义按钮">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/自定义按钮.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自定义采集[!]">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/自定义采集[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="范围切割攻击">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/范围切割攻击.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="获取一组不相同的随机数">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/获取一组不相同的随机数.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="获取包裹里某个物品的数量">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/获取包裹里某个物品的数量.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="获取宝宝属性">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/获取宝宝属性.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="获取对面人物的名字">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/获取对面人物的名字.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="获取指定人物的变量到自己的变量中">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/获取指定人物的变量到自己的变量中.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="获取文本字符">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/获取文本字符.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="获取物品数据库的字段值">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/获取物品数据库的字段值.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="获取身上装备属性值到变量">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/获取身上装备属性值到变量.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="将人物行会名加入列表">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/行会名加入列表.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="行会地图传送">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/行会地图传送.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="行会地图随机传送">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/行会地图随机传送.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="行会建设相关">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/行会建设相关.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="装备属性升级">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/装备升级功能.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="装备名称自定义系统">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/装备名称自定义系统.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="装备框的自定义文字显示">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/装备框的自定义文字显示.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="装备框的自定义特效绘制">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/装备框的自定义特效绘制.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="解毒">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/解毒.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="设置个人商店营业状态 冻结个人商店">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/设置个人商店营业状态.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="设置人物名称 称号">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/设置人物名称%20称号.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="设置人物当前权限">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/设置人物当前权限.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="设置人物当前模式">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/设置人物当前模式.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="设置地图的杀怪经验倍数">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/设置地图的杀怪经验倍数.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="设置技能快捷键">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/设置技能快捷键.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="设置指定人物的变量值">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/设置指定人物的变量值.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="设置攻击力倍数[!]">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/设置攻击力倍数[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="设置杀怪经验倍数">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/设置杀怪经验倍数.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="设置物品和人物绑定[!]">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/设置物品和人物绑定[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="设置物品来源">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/设置物品来源.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="设置装备发光特效">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/设置装备发光特效.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="设置装备绑定状态[!]">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/设置装备绑定状态[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="读写ini配置项">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/读写ini配置项.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="脚本调整人物PK点">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/调整人物PK点数.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="调整人物会员等级">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/调整人物会员等级.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="调整人物会员类型">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/调整人物会员类型.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="调整声望点">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/调整人物声望点.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="调整人物属性">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/调整人物属性.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="调整属性点">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/调整人物属性点.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="调整人物游戏点数">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/调整人物游戏点.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="调整人物的HP或MP[!]">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/调整人物的HP或MP[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="调整人物的元素属性">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/调整人物的元素属性.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="调整人物的荣誉值[!]">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/调整人物的荣誉值[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="脚本控制人物等级">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/调整人物等级.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="脚本调整升级经验">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/调整人物经验.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="调整允许诱惑宝宝的最大数量">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/调整允许诱惑宝宝的最大数量.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="调整宝宝的攻击威力">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/调整宝宝的攻击威力.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="调整宝宝等级">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/调整宝宝等级.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="调整死亡不掉装备的次数">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/调整死亡不掉装备的次数.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="游戏币控制">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/调整游戏币.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="调整游戏速度">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/调整游戏速度.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="调整物品元素属性">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/调整物品元素属性.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="调整物品名字颜色">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/调整物品名字颜色.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="调整血量，魔法百分比">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/调整血量，魔法百分比.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="调整行会人数上限[!]">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/调整行会人数上限[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="调整行会可以容纳最多成员">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/调整行会可以容纳最多成员.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="调整装备升级次数或星星数量[!]">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/调整装备升级次数或星星数量.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="调整金刚石数量">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/调整金刚石数量.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="踢人物下线">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/踢人物下线.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="过滤全服提示信息">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/过滤全服提示信息.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="返回OK框中的物品">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/返回OK框中的物品.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="通过脚本建立一个NPC 动态创建NPC">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/通过脚本建立一个NPC%20动态创建NPC.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="重新分配人物附加属性点">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/重新分配人物附加属性点.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="除法">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/除法.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="随机跳转触发">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/随机跳转触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="鞭尸再一次爆物品">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/鞭尸再一次爆物品.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="高等级杀怪经验不变">
+<param name="Local" value="游戏引擎反外挂系统/功能操作命令/高等级杀怪经验不变.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="常见问题解答">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="为什么不能自动解包">
+<param name="Local" value="游戏引擎反外挂系统/常见问题解答/为什么不能自动解包.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="为什么卡">
+<param name="Local" value="游戏引擎反外挂系统/常见问题解答/为什么卡.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="为什么地面物品不显示名称，不自动捡取？">
+<param name="Local" value="游戏引擎反外挂系统/常见问题解答/为什么地面物品不显示名称，不自动捡取.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="为什么怪物打不死？">
+<param name="Local" value="游戏引擎反外挂系统/常见问题解答/为什么怪物打不死.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="为什么怪物简装无效?">
+<param name="Local" value="游戏引擎反外挂系统/常见问题解答/为什么怪物简装无效.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="为什么我的NPC不能买、卖、修理物品？">
+<param name="Local" value="游戏引擎反外挂系统/常见问题解答/为什么我的NPC不能买卖修理物品.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="为什么我的沙城墙没血条">
+<param name="Local" value="游戏引擎反外挂系统/常见问题解答/为什么我的沙城墙没血条.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="为什么所有的衣服外观都只显示重盔甲？">
+<param name="Local" value="游戏引擎反外挂系统/常见问题解答/为什么所有的衣服外观都只显示重盔甲.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="为什么提示禁止点击该NPC触发字段？">
+<param name="Local" value="游戏引擎反外挂系统/常见问题解答/为什么提示禁止点击该NPC触发字段.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="为什么无法切换攻击模式，@开始提问无效？">
+<param name="Local" value="游戏引擎反外挂系统/常见问题解答/为什么无法切换攻击模式，@开始提问无效.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="为什么有空气墙？">
+<param name="Local" value="游戏引擎反外挂系统/常见问题解答/为什么有空气墙.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="为什么物品不能重叠">
+<param name="Local" value="游戏引擎反外挂系统/常见问题解答/为什么物品不能重叠.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="为什么看不见衣服翅膀和武器特效">
+<param name="Local" value="游戏引擎反外挂系统/常见问题解答/为什么看不见衣服翅膀和武器特效.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="为什么装备元素属性不显示">
+<param name="Local" value="游戏引擎反外挂系统/常见问题解答/为什么装备元素属性不显示.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="为什么打不开NPC界面">
+<param name="Local" value="游戏引擎反外挂系统/常见问题解答/为什么打不开NPC界面.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="如何拆分叠加物品">
+<param name="Local" value="游戏引擎反外挂系统/常见问题解答/如何拆分叠加物品.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="如何改变蜡烛类型装备掉持久类型">
+<param name="Local" value="游戏引擎反外挂系统/常见问题解答/如何改变蜡烛类型装备掉持久类型[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="如何设置武器为吸血武器">
+<param name="Local" value="游戏引擎反外挂系统/常见问题解答/如何设置武器为吸血武器.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="脚本错误 script error,load fail">
+<param name="Local" value="游戏引擎反外挂系统/常见问题解答/脚本错误%20script%20error,load%20fail.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="血球素材编辑">
+<param name="Local" value="游戏引擎反外挂系统/常见问题解答/血球素材编辑.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="网关封速详解">
+<param name="Local" value="游戏引擎反外挂系统/常见问题解答/网关封速详解.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="脚本防刷说明">
+<param name="Local" value="游戏引擎反外挂系统/常见问题解答/脚本防刷说明.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="如何查询数据库信息">
+<param name="Local" value="游戏引擎反外挂系统/常见问题解答/如何查询数据库信息.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="如何在内挂增加BOSS提示问题">
+<param name="Local" value="游戏引擎反外挂系统/常见问题解答/如何在内挂增加BOSS提示问题.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="UI编辑器的快捷键">
+<param name="Local" value="游戏引擎反外挂系统/常见问题解答/UI编辑器的快捷键.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="游戏功能详解">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="NewopUI.Jpk文件说明[!]">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/NewopUI.Pak文件说明[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="NPC名称支持全局A变量设置">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/NPC名称支持全局A变量设置.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="NPC对话框内创建输入框">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/NPC对话框内创建输入框.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="NPC对话框显示物品图片 显示物品属性">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/NPC对话框显示物品图片%20显示物品属性.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="NPC彩色字体设置[!]">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/NPC彩色字体[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="NPC标签备注功能[!]">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/NPC标签备注功能[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="NPC自动变色[!]">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/NPC自动变色[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="人物在线改名系统">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/人物在线改名系统.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="人物英雄等级属性调整">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/人物英雄等级属性调整.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="伤害吸收装备设置">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/伤害吸收装备设置[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="内挂自动挂机[!]">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/内挂自动挂机[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="动态创建镜像地图">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/动态创建镜像地图.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="叠加功能">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/叠加功能[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="可视化仓库">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/可视化仓库.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="可视化组队">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/可视化组队.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="地图参数表">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/地图参数详解[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="多级脚本使用[!]">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/多级脚本使用[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="大包裹 大背包">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/大包裹%20大背包.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="天气效果[!]">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/天气效果[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="怪物伤害封顶[!]">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/怪物伤害封顶[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="怪物探索设置说明[!]">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/怪物探索设置说明[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="扩展NPC脚本点击触发带参数">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/扩展NPC脚本点击触发带参数.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="扩展字符变量S和数字变量N[!]">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/扩展字符变量S和数字变量N[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="技能CD时间显示">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/技能CD时间显示.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="技能备注功能">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/技能备注功能.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="斗笠功能设置[!]">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/斗笠功能设置[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="新版自定义属性">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/新版自定义属性.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="无限刀 攻击不卡">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/无限刀%20攻击不卡.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="时装">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/时装.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="机器码使用说明[!]">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/机器码使用说明[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="极品属性转移">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/极品属性转移.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="浑水摸鱼地图参数设置">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/浑水摸鱼地图参数设置.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="游戏开宝箱功能[!]">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/游戏开宝箱功能[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="火龙神殿[!]">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/火龙神殿[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="点击小地图自动寻路[!]">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/点击小地图自动寻路[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="物品光柱">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/物品光柱.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="物品衣服武器的扩展算法[!]">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/物品衣服武器的扩展算法[!].html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="界面的魔法球血球效果">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/界面的魔法球血球效果[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="称号系统">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/称号系统.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="简装">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/简装.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="绝对路径">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/绝对路径.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="聊天框彩色字体设置[!]">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/聊天框彩色字体设置[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="脚本中使用图标功能[!]">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/脚本中使用图标功能[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="脚本命令修改账号密码信息">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/脚本命令修改账号密码信息.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自动登录离线挂机人物[!]">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/自动登录离线挂机人物[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自定义OK框[!]">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/自定义OK框[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自定义人物装备框按钮">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/自定义人物装备框按钮.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自定义包裹按钮">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/自定义包裹按钮.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自定义命令输入参数[!]">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/自定义命令输入参数[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自定义物品特效">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/自定义物品特效.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自定义装备属性 自定义装备文本">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/自定义装备属性%20自定义装备文本.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自定义装备进度条 类似刀魂功能">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/自定义装备进度条%20类似刀魂功能.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="自定义输入">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/自定义输入.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="补丁读取规则[!]">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/补丁读取规则[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="装备对比">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/装备对比.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="装备技能冷却元素">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/装备技能冷却元素.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="装备投保功能">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/装备投保功能.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="装备框 悬浮框 背景特效">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/装备框%20悬浮框%20背景特效.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="设置NPC文字坐标">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/设置NPC文字坐标.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="镜像副本">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/镜像副本.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="镶嵌宝石">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/镶嵌宝石.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="顶戴花翎功能">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/顶戴花翎功能[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="顶部备注 特殊备注功能">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/顶部备注%20特殊备注功能.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="首饰盒(6个物品的)">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/首饰盒(6个物品的).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="首饰盒 神佑">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/首饰盒.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="物品合成系统">
+<param name="Local" value="游戏引擎反外挂系统/游戏功能详解/物品合成系统.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="游戏魔法技能">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="英雄合击技能[!]">
+<param name="Local" value="游戏引擎反外挂系统/游戏魔法技能/合击技能[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="新技能[!]">
+<param name="Local" value="游戏引擎反外挂系统/游戏魔法技能/新技能[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="脚本检测命令">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查登录帐号与IP是否匹配">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/可以检查登录帐号与IP是否匹配.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="新物品绑定检测[!]">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/新物品绑定检测[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查一个地图内人数">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查一个地图内的人物数量.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查地图怪物数量">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查一个地图内的怪物数量.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物HP值">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查人物HP值.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物MP值">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查人物MP值.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物名称是否与IP匹配">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查人物名称与IP是否匹配.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物在列表中的位置">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查人物在列表中的位置.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物声望点">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查人物声望点.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物攻击力">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查人物攻击力.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物是否为管理员">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查人物是否为管理员.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物是否付费">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查人物是否付费.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物是否在攻城区域[!]">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查人物是否在攻城区域[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物是否学习了某项魔法">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查人物是否学习了某项魔法[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物登录IP">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查人物登录IP.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物登录帐号">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查人物登录帐号.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物的会员等级">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查人物的会员等级.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物的会员类型">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查人物的会员类型.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物的游戏点数">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查人物的游戏点数.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物的转生等级">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查人物的转生等级.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物称号的数量">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查人物称号的数量.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物背包空格数">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查人物背包空格数.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物身上装备类型">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查人物身上戴物品类型.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物身上指定位置是否戴物品">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查人物身上指定位置是否戴物品.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物道术">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查人物道术.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物附加属性点数">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查人物附加属性点数.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物魔法力">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查人物魔法力.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查会员时间">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查会员时间.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查国家人物总数">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查国家人物总数.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查城堡战争天数">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查城堡战争天数.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="字符串比较处理">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查字符串是否包涵在另外一个字符串中.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查字符串是否在指定文件中 包含检测 [!]">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查字符串是否在指定文件中%20包含检测%20[!].html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查字符串是否在指定文件中[!]">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查字符串是否在指定文件中[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查对面人物的性别">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查对面人物的性别.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查对面人物的等级">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查对面人物的等级.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查对面人物站的位置">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查对面人物站的位置性别.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物的游戏点数">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查当前人物身上有多少点数.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查当前所在地图的名字">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查当前所在地图的名字.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查是否为组长">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查是否为组长.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查是否在某地图">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查是否在某地图.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查是否存在某个称号">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查是否存在某个称号.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查城门状态">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查沙城门状态.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查城堡占领天数">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查沙巴克占领天数.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物当前经验值">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查玩家当前经验值.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物是否为新人">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查玩家是否为新人.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物是否为沙城成员">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查玩家是否为沙城成员.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物是否为沙城城主">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查玩家是否为沙城老大.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物是否为行会掌门人">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查玩家是否为行会老大.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物是否加入行会">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查玩家是否加入行会.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查人物等级（改进）">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查玩家等级.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查行会名称">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查行会名称.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查行会是否在列表中">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查行会是否在列表中.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查装备绑定状态[!]">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检查装备绑定状态[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测人物PK值">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测人物PK值.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测人物元素属性">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测人物元素属性.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测人物包裹物品checkitem">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测人物包裹物品checkitem.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测人物在线时长[!]">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测人物在线时长[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测人物宝宝名字[!]">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测人物宝宝名字[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测人物是否佩带指定物品">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测人物是否佩带指定物品.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测人物是否在线">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测人物是否在线.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测人物是否挂机">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测人物是否挂机.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测人物是否重叠">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测人物是否重叠.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测人物的伤害吸收">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测人物的吸收伤害[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测人物荣誉">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测人物荣誉.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测会员剩余时间">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测会员剩余时间.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测加入国家">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测加入国家.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测包含字符串取在列表中行数">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测包含字符串取在列表中行数.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测在安全区">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测在安全区.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测地图坐标是否可以到达">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测地图坐标是否可以到达.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测地图相同怪物数量[!]">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测地图相同怪物数量[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测地图范围怪物数量[!]">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测地图范围怪物数量[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测当前目标类型">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测当前目标类型.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测技能修炼点数[!]">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测技能修炼点数[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测指定范围内的人物数量">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测指定范围内的人物数量.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测文件是否存在">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测文件是否存在.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测是不是在摆摊">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测是不是在摆摊.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测是否允许复活">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测是否允许复活.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测是否正在攻城">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测是否正在攻城.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测是否进入攻城的范围">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测是否进入攻城的范围.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测杀人者是人物还是怪物">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测杀人者是人物还是怪物.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测死亡不掉装备的次数">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测死亡不掉装备的次数.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测物品的附加属性值">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测物品的附加属性值[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测组队人数[!]">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测组队人数[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测血量，魔法百分比">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测血量，魔法百分比.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测行会可以容纳多少成员">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测行会可以容纳多少成员.html">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测被自己杀死宝宝的名字">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测被自己杀死宝宝的名字[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查金刚石数量">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/检测金刚石数量.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="脚本检测命令取反 NOT [!]">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/脚本检测命令取反NOT[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="行会成员人数">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/行会成员人数.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="随机检测RANDOMEX">
+<param name="Local" value="游戏引擎反外挂系统/脚本检测命令/随机检测RANDOMEX.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="英雄功能操作">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="创建主将英雄脚本">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/创建主将英雄脚本.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="cfg_magic(技能表)">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/cfg_magic(技能表).htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="召唤/收回英雄">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/收回人物的英雄.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查是否有英雄">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/检查是否有英雄.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检查英雄等级">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/检查英雄等级.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测英雄登录器荣誉">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/检测英雄登录器荣誉.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测英雄的PK值">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/检测英雄的PK值.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测英雄的伤害吸收">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/检测英雄的伤害吸收.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测英雄的忠诚度">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/检测英雄的忠诚度.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测英雄职业">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/检测英雄职业.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="清除英雄所有技能">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/清除英雄所有技能.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="英雄上线触发">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/英雄上线触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="英雄升级触发">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/英雄升级触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="英雄当前获得经验触发">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/英雄当前获得经验触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="设置英雄伤害吸收">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/设置英雄伤害吸收[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="调整英雄的PK值[!]">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/调整英雄的PK值.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="获取指定英雄的主人名字">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/获取指定英雄的主人名字.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="物品进入英雄背包触发">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/物品进入英雄背包触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测英雄是否在线">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/检测英雄是否在线.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="获取指定玩家名称英雄职业">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/获取指定玩家名称英雄职业.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="英雄在线改名">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/英雄在线改名.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="英雄套装触发功能">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/英雄套装触发功能.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="英雄切换地图触发">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/英雄切换地图触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="英雄攻击触发">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/英雄攻击触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="英雄攻击前掉血触发">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/英雄攻击前掉血触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="英雄宝宝攻击前触发">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/英雄宝宝攻击前触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="英雄穿戴装备/脱下时触发">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/英雄穿戴装备_脱下时触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="检测和改变英雄模式">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/检测和改变英雄模式.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="英雄宝宝叛变触发">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/英雄宝宝叛变触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="英雄死亡触发">
+<param name="Local" value="游戏引擎反外挂系统/英雄功能操作/英雄死亡触发.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="部分脚本实例">
+<param name="Local" value="">
+<param name="ImageNumber" value="1">
+</OBJECT>
+<UL><LI><OBJECT type="text/sitemap">
+<param name="Name" value="LineNotice.txt彩色滚动公告[!]">
+<param name="Local" value="游戏引擎反外挂系统/部分脚本实例/LineNotice.txt彩色滚动公告[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="人物转生[!]">
+<param name="Local" value="游戏引擎反外挂系统/部分脚本实例/人物转生[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="人物颜色发型">
+<param name="Local" value="游戏引擎反外挂系统/部分脚本实例/人物颜色发型.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="任务脚本">
+<param name="Local" value="游戏引擎反外挂系统/部分脚本实例/任务脚本.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="会员系统详解">
+<param name="Local" value="游戏引擎反外挂系统/部分脚本实例/会员系统详解.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="假人自动摆摊">
+<param name="Local" value="游戏引擎反外挂系统/部分脚本实例/假人自动摆摊.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="元宝转帐">
+<param name="Local" value="游戏引擎反外挂系统/部分脚本实例/元宝转帐.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="动态地图连接[!]">
+<param name="Local" value="游戏引擎反外挂系统/部分脚本实例/动态地图连接[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="魔王岭脚本">
+<param name="Local" value="游戏引擎反外挂系统/部分脚本实例/天下第一.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="脚本控制怪物攻城">
+<param name="Local" value="游戏引擎反外挂系统/部分脚本实例/怪物攻城脚本.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="挑战功能">
+<param name="Local" value="游戏引擎反外挂系统/部分脚本实例/挑战功能.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="收徒脚本">
+<param name="Local" value="游戏引擎反外挂系统/部分脚本实例/收徒脚本.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="新转职业变性脚本">
+<param name="Local" value="游戏引擎反外挂系统/部分脚本实例/新转职业变性脚本.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="机器人脚本">
+<param name="Local" value="游戏引擎反外挂系统/部分脚本实例/机器人脚本.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="沙城主公告">
+<param name="Local" value="游戏引擎反外挂系统/部分脚本实例/沙城主公告.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="烟花脚本实例[!]">
+<param name="Local" value="游戏引擎反外挂系统/部分脚本实例/烟花脚本[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="人物登录脚本">
+<param name="Local" value="游戏引擎反外挂系统/部分脚本实例/登录脚本.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="祝福语脚本">
+<param name="Local" value="游戏引擎反外挂系统/部分脚本实例/祝福语脚本.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="离线挂机[!]">
+<param name="Local" value="游戏引擎反外挂系统/部分脚本实例/离线挂机[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="结婚脚本">
+<param name="Local" value="游戏引擎反外挂系统/部分脚本实例/结婚脚本.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="记忆石设置方法[!]">
+<param name="Local" value="游戏引擎反外挂系统/部分脚本实例/记忆石设置方法[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="跳转，延迟">
+<param name="Local" value="游戏引擎反外挂系统/部分脚本实例/跳转延迟.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="转职业变性脚本">
+<param name="Local" value="游戏引擎反外挂系统/部分脚本实例/转职业变性脚本.htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="达到多少人在线不允许离线挂机脚本[!]">
+<param name="Local" value="游戏引擎反外挂系统/部分脚本实例/达到多少人在线不允许离线挂机脚本[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+<LI><OBJECT type="text/sitemap">
+<param name="Name" value="酒神弟子完整脚本[!]">
+<param name="Local" value="游戏引擎反外挂系统/部分脚本实例/酒神弟子完整脚本[!].htm">
+<param name="ImageNumber" value="11">
+</OBJECT>
+</UL></UL></UL>
+</BODY>
+</HTML>

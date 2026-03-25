@@ -1,0 +1,56 @@
+[
+  {
+    "id": "msg-1774331041469-pj4r6o",
+    "from": "team-lead",
+    "to": "reader-others",
+    "type": "message",
+    "content": "请尽快完成你的阅读任务，将结果发送给我。完成后请发送\"DONE\"作为回复。",
+    "timestamp": "2026-03-24T05:44:01.469Z",
+    "read": true
+  },
+  {
+    "id": "shutdown-1774331384186",
+    "from": "team-lead",
+    "to": "reader-others",
+    "type": "shutdown_request",
+    "content": "{\"type\":\"shutdown_request\",\"request_id\":\"shutdown-1774331384186\",\"reason\":\"任务完成，请关闭\",\"from\":\"team-lead\",\"timestamp\":\"2026-03-24T05:49:44.186Z\"}",
+    "timestamp": "2026-03-24T05:49:44.186Z",
+    "read": true
+  },
+  {
+    "id": "shutdown-1774331478784",
+    "from": "team-lead",
+    "to": "reader-others",
+    "type": "shutdown_request",
+    "content": "{\"type\":\"shutdown_request\",\"request_id\":\"shutdown-1774331478784\",\"reason\":\"任务完成，请立即关闭\",\"from\":\"team-lead\",\"timestamp\":\"2026-03-24T05:51:18.784Z\"}",
+    "timestamp": "2026-03-24T05:51:18.784Z",
+    "read": true
+  },
+  {
+    "id": "msg-1774331665650-4tiql8",
+    "from": "team-lead",
+    "to": "reader-others",
+    "type": "message",
+    "content": "请汇报你的工作进度和结果。",
+    "timestamp": "2026-03-24T05:54:25.650Z",
+    "read": true
+  },
+  {
+    "id": "shutdown-1774331670992",
+    "from": "team-lead",
+    "to": "reader-others",
+    "type": "shutdown_request",
+    "content": "{\"type\":\"shutdown_request\",\"request_id\":\"shutdown-1774331670992\",\"reason\":\"工作完成，请关闭\",\"from\":\"team-lead\",\"timestamp\":\"2026-03-24T05:54:30.992Z\"}",
+    "timestamp": "2026-03-24T05:54:30.992Z",
+    "read": true
+  },
+  {
+    "id": "shutdown-1774331822211",
+    "from": "team-lead",
+    "to": "reader-others",
+    "type": "shutdown_request",
+    "content": "{\"type\":\"shutdown_request\",\"request_id\":\"shutdown-1774331822211\",\"reason\":\"工作完成，请关闭\",\"from\":\"team-lead\",\"timestamp\":\"2026-03-24T05:57:02.211Z\"}",
+    "timestamp": "2026-03-24T05:57:02.211Z",
+    "read": true
+  }
+]

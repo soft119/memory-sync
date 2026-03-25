@@ -1,0 +1,141 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>文件操作类</title>
+</head>
+
+<body>
+<P><B><FONT color=#0000ff face=宋体>文本操作类</FONT></B></P>
+<P><FONT face=宋体><FONT color=#ff0000>功能：<FONT color=#ff0000>创建文本</FONT></FONT><FONT color=#ff0000 >文件</FONT></FONT></P>
+<p><FONT face=宋体>格式: CREATEFILE 文件名称</FONT>  </p>
+<p><FONT face=宋体>[@main]</FONT>
+</p>
+<p><FONT face=宋体><FONT size=2 >#IF<BR>#ACT<BR>CreateFile 
+..\QuestDiary\NewFile.txt<BR>#SAY<BR>在Envir\QuestDiary目录中建立了一个<FONT color=#ffffff >文件</FONT>.</FONT> </FONT>
+</p>
+<p><FONT face=宋体>;--------------------------------------------------------------------------- 
+</FONT>
+</p>
+<p><FONT face=宋体><FONT color=#ff0000>功能：删除文<FONT color=#ff0000>本</FONT></FONT><FONT color=#ff0000>文件 </FONT> </FONT>
+</p>
+<p><FONT face=宋体>格式: DeleteFile 文件名称 </FONT>  
+</p>
+<p><FONT face=宋体>[@main]<br>#if<br>FileExists ..\QuestDiary\数据.txt<br>;检测“..\QuestDiary\数据.txt” 是否存在<br>#act<br>;删除“..\QuestDiary\数据.txt” <br>DeleteFile ..\QuestDiary\数据.txt</FONT> </p>
+<p><FONT face=宋体>;---------------------------------------------------------------------------<BR><BR></FONT></p>
+<p><FONT face=宋体><FONT color=#ff0000>功能：获取文本总行数<BR><BR><FONT color=#000000>GetTextLineCount 路径 
+保存变量</FONT>  </FONT> </FONT> </p>
+<p><FONT face=宋体><FONT color=#ff0000><FONT color=#000000>[@main]<BR>#if<BR>#act<BR>GetTextLineCount ..\QuestDiary\装备回收.txt 
+N$行数<BR>Sendmsg 5 
+提示:装备回收.txt文件共有&lt;$STR(N$行数)&gt;行内容</FONT><BR><BR><BR>功能：复<FONT color=#ff0000>制文件到指定目录</FONT></FONT><FONT color=#ff0000> 
+</FONT> </FONT> </p>
+<P><FONT face=宋体><FONT color=#000000>CopyFile 源文件 目标 
+文件</FONT></FONT></P>
+<P><FONT face=宋体><FONT color=#000000>[@复制文件]<BR></FONT>#ACT<BR>CopyFile ..\QuestDiary\战力排行\战力数据.txt 
+..\QuestDiary\复制战力排行\复制战力数据.txt</FONT>  
+</P>
+<P><FONT face=宋体>;---------------------------------------------------------------------------<BR><FONT color=#ff0000>功能：从文件中随机取文本</FONT></FONT></P>
+<P><FONT color=#ff0000><FONT face=宋体><FONT color=#000000>格式：GETRANDOMLINETEXT 文件</FONT></FONT><FONT color=#000000 face=宋体><FONT color=#000000> 字符串变量 指定行(0或空是随机一行，大于0是取指定行)</FONT> 
+ <BR><BR>例子: <BR>[@Main]<BR>#If 
+<BR>#Act<BR>GETRANDOMLINETEXT ..\QuestDiary\装备列表.txt S0<BR>#Say<BR>取回的文本是： 
+&lt;$STR(S0)&gt;<BR>注：GetCacheRandomLineText写法一样，区别只是从缓存检测，速度更快，但是只读取一次，修改文本也不会再更新<BR><BR> 
+</FONT></FONT></P>
+<P><FONT color=#ff0000><FONT face=宋体><FONT color=#000000>;--------------------------------------------------------------------------- 
+<BR></FONT><FONT color=#ff0000>功能：写入指定文本文件</FONT></FONT></FONT></P>
+<P><FONT color=#ff0000><FONT face=宋体><FONT color=#000000>功能：把字符串写入到指定的文本文件</FONT></FONT><FONT color=#000000 face=宋体><FONT color=#000000>中,可以指定写入行.</FONT><BR>格式：AddTextListEx 路径 字符串 
+行(0-65535)<BR><BR>例子:<BR>[@main] <BR>#IF<BR>#ACT<BR>AddTextListEx ..\TestList.txt 
+&lt;$USERNAME&gt; 0 1</FONT></FONT></P>
+<P><FONT face=宋体>;---------------------------------------------------------------------------</FONT></P>
+<P><FONT face=宋体><FONT color=#ff0000>功能: <FONT color=#ff0000>读取文本</FONT> </FONT><FONT color=#ff0000 >文件</FONT><FONT color=#ff0000><FONT color=#ff0000>中的内容</FONT>到变量中.</FONT> <BR><BR>格式：GetListString <FONT color=#000000> 文件路径</FONT> 行号(行号从0开始) 变量1 
+变量2<BR>说明：变量2可以不需要,当读取变量2时文本单行的内容必须是以下格式:<BR>人物1:10<BR>人物2:20<BR><BR>例子:<BR>[@main]<BR>#IF<BR>#ACT<BR>GetListString 
+..\QuestDiary\测试.txt 5 A10 N10</FONT> 
+   </P>
+<P><FONT face=宋体>;--------------------------------------------------------------------------- 
+<BR><FONT color=#ff0000>功能: 取字符串在列表中的下标.</FONT> <BR><BR>格式：GetStringPos 路径 
+字符串<BR><BR>说明：返回值放在人物的N0变量中,如果值= 
+9999999说明没有找到<BR>其他：返回值可以通过EQUAL做条件检测<BR><BR>[@main]<BR>#IF<BR>#ACT<BR>GetStringPos 
+..\QuestDiary\测试.txt 管理员<BR> 
+ SendMsg 5 
+字符串在列表中的位置:&lt;$STR(N0)&gt;</FONT> 
+<BR>注：GetCacheStringPos写法一样，区别只是从缓存检测，速度更快，但是只读取一次，修改文本也不会再更新<BR><BR> 
+   </P>
+<P><FONT face=宋体>;--------------------------------------------------------------------------- 
+<BR><FONT color=#ff0000>功能: 从文件中随机获取一行字符串</FONT> <BR><BR>格式：GetRandomText <FONT color=#000000> 文件路径</FONT> 变量(S0--S99) 
+指定行(0-10000)<BR>说明：没有指定行时随机取某一行的字符串.<BR><BR>例如:随机取一行字符串到S10中.<BR>[@Main]<BR>#IF<BR>#ACT<BR>GetRandomText 
+..\QuestDiary\测试.txt S10<BR>SendMsg 5 
+取出的字符串是:&lt;$STR(S10)&gt;<BR><BR><BR>例如:取特定行的字符串.<BR>[@Main]<BR>#IF<BR>#ACT<BR>GetRandomText 
+..\QuestDiary\测试.txt S10 5<BR> 
+ SendMsg 5 取出的字符串是:&lt;$STR(S10)&gt;</FONT> 
+<BR><BR>注：GetCacheRandomText写法一样，区别只是从缓存检测，速度更快，但是只读取一次，修改文本也不会再更新<BR> 
+   </P>
+<P><FONT face=宋体>;--------------------------------------------------------------------------- 
+<BR><FONT color=#ff0000>功能：清除列表内容</FONT> <BR><BR>命令格式：CLEARNAMELIST 
+namelist.txt<BR><BR>;清除列表<BR>[@Clearnamelist]<BR>#IF<BR>#ACT<BR>CLEARNAMELIST 
+namelist.txt<BR>#SAY<BR> 
+   列表已被清除</FONT> 
+   </P>
+<P><FONT face=宋体>;--------------------------------------------------------------------------- 
+<BR><FONT color=#ff0000>功能：删除文本某一行，保留行号</FONT> <BR><BR>格式：DelText 文本路径 行数 删除模式(0=不保留删除行 1=   
+ 保留删除行为空行) 
+   </P>
+<P><FONT face=宋体>;---------------------------------------------------------------------------<BR><FONT color=#ff0000>功能：从指<FONT color=#ff0000>定文件中</FONT>删除字符串和从指<FONT color=#ff0000>定文件</FONT>中增加字符串<FONT color=#ff0000>，新格式老格式都可以使用</FONT>。</FONT> 
+<BR><BR>格式：<BR><FONT color=#000000>AddTextList 文件位置 字符串<BR>DelTextList 文件位置字符串<BR></FONT><BR><FONT color=#000000>;增加字符串</FONT> <BR>[@Test老格式]<BR>#IF<BR>#ACT<BR>AddTextList 
+..\TestList.txt 您的名字<BR><BR>[@Test新格式]<BR>#IF<BR>#ACT<BR>AddTextList ..\TestList.txt 
+您的名字 您的性别<BR><BR><FONT color=#000000>;删除字符串</FONT> 
+<BR>[@Test老格式]<BR>#IF<BR>#ACT<BR>DelTextList ..\TestList.txt 
+您的名字<BR><BR>[@Test1新格式]<BR>#IF<BR>#ACT<BR>DelTextList ..\TestList.txt 您的名字 
+您的性别<BR></FONT> 
+   </P>
+<P><FONT color=#ff0000><FONT face=宋体><FONT color=#000000>;------------------------------------------------------------------------- 
+<BR></FONT><FONT color=#ff0000>功能：检查字符串是否在<FONT color=#ff0000>指定文件中</FONT></FONT></FONT><FONT color=#000000 face=宋体> <BR><BR>[@旧格式_不区分大小写]<BR>#IF<BR>CHECKTEXTLIST 
+..\QuestDiary\充值系统\10元卡号.txt 
+&lt;$STR(S$2)&gt;<BR>#SAY<BR>&lt;$STR(S$2)&gt;在列表中<BR>#ELSESAY<BR>&lt;$STR(S$2)&gt;不在列表中<BR><BR><BR>[@新格式_区分大小写]<BR>#IF<BR>CHECKTEXTLIST 
+..\QuestDiary\充值系统\10元卡号.txt &lt;$STR(S$2)&gt; 
+&lt;$STR(S$3)&gt;<BR>#SAY<BR>卡号密码正确<BR>#ELSESAY<BR>卡号密码错误<BR><BR>S$2和S$3的值在“10元卡号.txt”文本中以空格分开<BR>注：CheckCacheTextList写法一样，区别只是从缓存检测，速度更快，但是只读取一次，修改文本也不会再更新。<BR><BR></FONT></FONT></P>
+<P><FONT color=#ff0000><FONT face=宋体><FONT color=#000000>;---------------------------------------------------------------------------<BR></FONT><FONT color=#ff0000>检查字符串是<FONT color=#ff0000>否在指定文件中 包含检测 检测的字符串不需要完全相同，文件里的字符</FONT>包含检测的字符，就会成功</FONT></FONT><FONT face=宋体><FONT color=#000000> 
+<BR><BR>[@CheckContainsTextList]<BR>#IF<BR>CheckContainsTextList 
+..\QuestDiary\充值系统\10元卡号.txt &lt;$STR(S2)&gt;<BR>#ACT<BR><FONT color=#000000>SENDMSG 6 列表</FONT>  
+</FONT><FONT color=#000000 >文件</FONT></FONT><FONT face=宋体><FONT color=#000000>中某一行字符包含&lt;$STR(S2)&gt;<BR>#ELSEACT<BR>SENDMSG 6 列表文件</FONT></FONT><FONT face=宋体><FONT color=#000000><FONT color=#000000>中某一行字符不包含&lt;$STR(S2)&gt;<BR></FONT><BR><BR>[@CheckContainsTextListEx]<BR>#IF<BR>CheckContainsTextListEx 
+..\QuestDiary\充值系统\10元卡号.txt &lt;$STR(S2)&gt;<BR>#ACT<BR>SENDMSG 6 
+&lt;$STR(S2)&gt;</FONT></FONT><FONT face=宋体><FONT color=#000000>包含列表中某一行字符<BR>#ELSEACT<BR>SENDMSG 6 
+&lt;$STR(S2)&gt;不<FONT face=宋体><FONT color=#000000>  包含列表中某一行字符</FONT></FONT>  </FONT></FONT><FONT color=#000000 face=宋体><BR><BR><BR>CheckContainsTextList&nbsp;和&nbsp;CheckContainsTextListEx&nbsp;区别<BR><BR>CheckContainsTextList&nbsp;列表中，是否包含被检测的字符<BR><BR>CheckContainsTextListEx&nbsp;被检测的字符是否包含列表中的某一行内容<BR><BR>注：CheckCacheContainsTextList、CheckCacheContainsTextListEx写法一样，区别只是从缓存检测，速度更快，但是只读取一次，修改文本也不会再更新。<BR></FONT></FONT><FONT face=宋体><BR>;---------------------------------------------------------------------------</FONT></P>
+<P><FONT face=宋体><FONT color=#ff0000>功能：读取文本单行多列</FONT><BR>格式:GetListStringEx 
+文本路径 行号 写入变量 符号(默认为空) 
+</FONT> </P>
+<P><BR><FONT face=宋体>例子:<BR>[@读文本多列]<BR>#IF<BR>#ACT<BR>AddTextListEx 
+..\QuestDiary\测试.txt 战士*100*法师*200*道士*300 0<BR>GetListStringEx 
+..\QuestDiary\测试.txt 0 S$读取列 *<BR>SENDMSG 0 
+---&lt;$STR(S$读取列0)&gt;---&lt;$STR(S$读取列1)&gt;----&lt;$STR(S$读取列2)&gt;--&lt;$STR(S$读取列3)&gt;--&lt;$STR(S$读取列4)&gt;--&lt;$STR(S$读取列5)&gt; 
+</FONT> 
+</P>
+<P><FONT face=宋体><B>人物操作类</B></FONT></P>
+<P><FONT face=宋体>;---------------------------------------------------------------------------</FONT></P>
+<P><FONT face=宋体><FONT color=#ff0000>功能：检测人物名单</FONT><BR><BR>[@检测名字在文本]<BR>#IF<BR>CHECKNAMELIST 
+..\QuestDiary\测试.txt<BR>#ACT<BR>SendMsg 0 名字在文本<BR>#ELSEACT<BR>SendMsg 0 
+名字不在文本 
+</FONT> </P>
+<P><FONT face=宋体>;---------------------------------------------------------------------------<BR><BR><FONT color=#ff0000>功能：增加人物ID在列表中</FONT> <BR><BR> CHECKACCOUNTLIST 
+检测登录账号ID<BR> ADDACCOUNTLIST 
+增加登录账号ID<BR><BR>例子:<BR><BR>#IF<BR>CHECKACCOUNTLIST 
+..\QUESTDIARY\测试.TXT<BR>#act<BR>SENDMSG 0 在里面<BR>#ELSEACT<BR>SENDMSG 0 
+不在里面<BR><BR>#IF<BR>#Act<BR>ADDACCOUNTLIST 
+..\QUESTDIARY\测试.TXT<BR><BR><BR>;---------------------------------------------------------------------------<BR><BR><FONT color=#ff0000>功能：删除人物ID在列表中</FONT> 
+<BR><BR>例子：<BR><BR>[@DelAccountList]<BR>#IF<BR>#Act<BR>DELACCOUNTLIST 
+AccountList.txt<BR><BR>;---------------------------------------------------------------------------<BR><BR><FONT color=#ff0000>功能：增加人物名在列表中</FONT> 
+<BR><BR>格式：<BR><BR>[@AddNameList]<BR>#IF<BR>#Act<BR>ADDNAMELIST 
+NameList.txt<BR><BR>;---------------------------------------------------------------------------<BR><BR><FONT color=#ff0000>功能：删除人物名在列表中</FONT> 
+<BR><BR>格式：<BR><BR>[@DelNameList]<BR>#IF<BR>#Act<BR>DELNAMELIST 
+NameList.txt<BR><BR>;---------------------------------------------------------------------------<BR><BR><FONT color=#ff0000>功能：增加人物IP在列表中</FONT> 
+<BR><BR>例子：<BR><BR>[@AddIPList]<BR>#IF<BR>#Act<BR>ADDIPLIST 
+IPList.txt<BR><BR>;---------------------------------------------------------------------------<BR><BR><FONT color=#ff0000>功能：删除人物IP在列表中</FONT> 
+<BR><BR>例子：<BR><BR>[@DelIPList]<BR>#IF<BR>#Act<BR>DELIPLIST IPList.txt 
+</FONT> 
+</P><BR><FONT face=宋体>;---------------------------------------------------------------------------<BR><BR><FONT color=#ff0000>功能：<FONT color=#ff0000>删除列表行会名</FONT></FONT> </FONT>
+<P><FONT face=宋体>例子：</FONT></P>
+<P><FONT face=宋体>[@delguildList]<BR>#if<BR>#act
+<BR>&nbsp;&nbsp; DELGUILDLIST&nbsp;&nbsp;&nbsp; 
+guildlist.txt</FONT> 
+ </P></FONT>
+</body>
+</html>

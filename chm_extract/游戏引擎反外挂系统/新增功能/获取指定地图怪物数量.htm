@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>获取指定地图怪物数量</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT face=宋体>获取指定地图怪物数量</FONT></P>
+<P><FONT face=宋体></FONT>&nbsp;</P>
+<P><FONT face=宋体>格式：FindMapMonster 地图号 怪物名称(*号代表全部怪物) 存入变量 模式<BR>模式=0或为空 
+（当前地图共存在的怪物数量，包含死亡怪物，尸体未清理掉的）<BR>模式=1 当前地图存活的怪物数量<BR>模式=2 当前地图死亡的怪物数量</FONT></P>
+<P><FONT face=宋体>//;例子<BR>[@数羊羊]<BR>#IF<BR>#ACT<BR>FindMapMonster 3 羊 
+N1</FONT></P>
+<P><FONT face=宋体>SendMsg 6 共有羊&lt;$STR(N1)&gt;只</FONT></P>
+<P><FONT face=宋体>FindMapMonster 3 羊 N1 1</FONT></P>
+<P><FONT face=宋体>SendMsg 6 活羊共&lt;$STR(N1)&gt;只</FONT></P>
+<P><FONT face=宋体>FindMapMonster 3 羊 N1 2</FONT></P>
+<P><FONT face=宋体>SendMsg 6 死羊共&lt;$STR(N1)&gt;只</FONT></P></body>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>脚本命令释放技能</title>
+<style type="text/css">
+<!--
+.style1 {
+	color: #0000FF;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body>
+<P><STRONG><FONT size=5 face=宋体>脚本命令释放技能</FONT></STRONG></P><FONT face=宋体>脚本命令释放技能 
+无需蓝药，无需毒符，无需练习该技能(技能数据库里有就可以)，也不受技能的时间间隔限制,可以直接释放技能 </FONT>
+ 
+<P><FONT face=宋体>releasemagic 参数1 参数2 参数3 参数4 
+参数5</FONT>     </P>
+<p><FONT face=宋体>参数1 释放技能id (能支持自定义技能)</FONT>  </p>
+<p><FONT face=宋体>参数2 技能是否是强化技能 0= 普通技能  1= 强化技能</p>
+<p><FONT face=宋体>参数3 技能等级</FONT> </p>
+<p><FONT face=宋体>参数4 技能目标 1= 攻击目标 2=      自身</p>
+<p><FONT face=宋体>参数5 0=或为空的时候，有技能动作 1= 
+  无技能动作，战士技能无效</p>
+<P><BR>
+  <BR>
+  <BR>
+  <BR><FONT face=宋体>
+  [@attack]<BR>
+  #if<BR>
+  #act<BR>
+  releasemagic 26 0 3 1<BR>
+  SENDMSG 6 你的物理攻击触发了一次3级烈火剑法<BR>
+  <BR>
+  <BR>
+  [@magicattack]<BR>
+  #if<BR>
+  equal &lt;$CURRRUSEMAGICID&gt; 11<BR>
+  #act<BR>
+  releasemagic 33 1 9 1<BR>
+  SENDMSG 6 你的雷电术触发特效攻击，对怪物释放了一次强化九重冰咆哮<BR>
+  <BR>
+  <BR>
+  #if<BR>
+  equal &lt;$CURRRUSEMAGICID&gt; 11<BR>
+  #act<BR>
+  releasemagic 2 0 3 2<BR>
+  SENDMSG 6 你的雷电术攻击为自己释放了一次3级治疗术<BR></FONT>
+ 
+</P></FONT></FONT></FONT>
+</body>
+</html>

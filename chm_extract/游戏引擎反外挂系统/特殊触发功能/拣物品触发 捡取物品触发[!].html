@@ -1,0 +1,150 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>拣物品触发 捡取物品触发[!]</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+</head>
+
+<BODY>
+<P><FONT face=Arial size=2><FONT face=Fixedsys><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">功能：对物品进行关联 
+捡取物品触发</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">LINKPICKUPITEM 
+</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">关联脚本命令可以对当前捡取物品进行关联后进行操作</SPAN><BR><BR><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; FONT-WEIGHT: bold; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">下面触发中的XX=物品数据库中对应的IDX<BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT color=#c0c0c0><STRONG><FONT color=#000080>;注意:引擎默认的拾取触发IDX是ITEM表+1的，如果想要一一对应的话，必须勾选M2-参数设置-游戏选项(1)-IDX同步，并且清理掉客户端缓存才行即清空此目录X:\热血传奇\MirCache</FONT></STRONG><BR></FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT color=#ff0000><STRONG>;正式开区的区服不要修改此勾选，否则数据错乱后果自负。</STRONG><BR></FONT><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">玩家</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">捡取物品</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">后</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">按</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">IDX触发： 
+</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">[@PickUpItemXX]</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">玩家捡取任意物品</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">后</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">触发：</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">[@PickUpItemE</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">X</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">]</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">玩家捡取物品</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">前</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">按IDX触发：</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">[@PickUpItemfrontXX]</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">玩家捡取任意物品</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">前</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">触发：</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">[@PickUpItemfrontE</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">X</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">]</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">玩家仍掉物品</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">后</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">按IDX触发</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">：</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">[@DropItemXX]</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">玩家仍掉任意物品</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">后</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">触发</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">：</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">[@DropItemEX]</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">玩家仍掉物品</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">前</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">按IDX触发：</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">[@DropItemfrontXX]</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">玩家仍掉任意物品</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">前</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">触发：</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">[@DropItemfrontEX]&nbsp;【&lt;$param2&gt;】&nbsp;1-为人物掉落触发&nbsp;&nbsp;&nbsp;0-扔掉触发</SPAN></P>
+<P class=20 style="MARGIN-BOTTOM: 12pt; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">玩家<SPAN 
+style='FONT-SIZE: 13px; FONT-FAMILY: "Lucida Grande", verdana, arial, helvetica, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,221); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'><FONT style="BACKGROUND-COLOR: #ffffff" color=#000000 size=3 face=宋体>掉落背包任意物品前触发&nbsp;[@PickUpDropItemEX]</FONT></SPAN></SPAN></SPAN></P>
+<P class=20 style="MARGIN-BOTTOM: 12pt; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">;----------------------------------------------------<BR>英雄仍掉物品<FONT color=#ff0000>后</FONT>按IDX触发： [@HeroDropItemXX]<BR>英雄仍掉任意物品<FONT color=#ff0000>后</FONT>触发：&nbsp; [@HeroDropItemEX]<BR>英雄仍掉物品<FONT color=#ff0000>前</FONT>按IDX触发： [@HeroDropItemfrontXX]<BR>英雄仍掉任意物品<FONT color=#ff0000>前</FONT>触发：&nbsp; 
+[@HeroDropItemfrontEX]<BR>;----------------------------------------------------<BR>怪物掉落指定IDX物品前触发：[@MonDropItemXX]<BR>怪物掉落任意物品前触发：&nbsp;&nbsp; 
+[@MonDropItemEX]</SPAN></SPAN><BR><BR><BR>功能: 拣物品触发 
+捡取物品触发</FONT></FONT></P>
+<P><FONT size="2" face=宋体>@PickUpItemX</FONT> X是物品数据库中对应的IDX</P>
+<P><FONT size="2" face=宋体>[@PickUpItem0]<BR>
+  #IF<BR>
+#SAY<BR>
+某某某捡到了一个&lt;$CURRTEMNAME&gt;</FONT></P>
+<P><FONT size="2" face=宋体>[@PickUpItemEx]<BR>
+#IF<BR>
+#SAY<BR>
+某某某捡到了一个&lt;$CURRTEMNAME&gt;</FONT></P>
+<P><strong>捡取物品的相关常量</strong></P>
+<TABLE width="621" border=1 borderColor=#99ccff style="HEIGHT: 369px; WIDTH: 621px"><!--DWLayoutTable-->
+  <TR>
+    <TD>&lt;$CURRTEMNAME&gt;</TD>
+    <TD>当前物品名称 指人物掉落或捡取的 </TD>
+  </TR>
+  <TR>
+    <TD>&lt;$G_CURRTEMNAME&gt;</TD>
+    <TD>当前物品改名名称 指人物掉落或捡取的 </TD>
+  </TR>
+  <TR>
+    <TD>&lt;$CURRTEMSTDMODE&gt;</TD>
+    <TD>当前物品DB字段StdMode值 指人物掉落或捡取的 </TD>
+  </TR>
+  <TR>
+    <TD>&lt;$CURRTEMSHAPE&gt;</TD>
+    <TD>当前物品DB字段Shape值 指人物掉落或捡取的 </TD>
+  </TR>
+  <TR>
+    <TD>&lt;$CURRTEMANICOUNT&gt;</TD>
+    <TD>当前物品DB字段AniCount值 指人物掉落或捡取的 </TD>
+  </TR>
+  <TR>
+    <TD>&lt;$CURRTEMLOOKS&gt;</TD>
+    <TD>当前物品DB字段Looks值 指人物掉落或捡取的 </TD>
+  </TR>
+  <TR>
+    <TD>&lt;$CURRTEMDURA&gt;</TD>
+    <TD>当前物品当前持久值 指人物掉落或捡取的 </TD>
+  </TR>
+  <TR>
+    <TD>&lt;$CURRTEMDURAMAX&gt;</TD>
+    <TD>当前物品最大值 指人物掉落或捡取的 </TD>
+  </TR>
+  <TR>
+    <TD>&lt;$CURRTEMINDEX&gt;</TD>
+    <TD>当前物品DB字段Idx值 指人物掉落或捡取的 </TD>
+  </TR>
+  <TR>
+    <TD>&lt;$CURRTEMCOLOR&gt;</TD>
+    <TD>当前物品DB字段Color值 指人物掉落或捡取的 </TD>
+  </TR>
+  <TR>
+    <TD>&lt;$CURRTEMMAKEINDEX&gt;</TD>
+    <TD>当前物品MakeIndex序列号 </TD>
+  </TR>
+</TABLE>
+<P>&nbsp;</P>
+<P></P>
+</BODY>
+</html>

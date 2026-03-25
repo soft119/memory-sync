@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>自定义职业设置</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT face=宋体><FONT color=#0000ff>自定义职业创建角色：<BR></FONT>登录器生成器的UI编辑器里面设置创建角色界面的职业图标和职业展示模型<BR>职业名：配置新职业的名称，如'藏剑'<BR>职业名-缩写：显示血条上职业简称字母，如 
+藏剑的'CJ'<BR>核心属性名：游戏内的装备属性TIPS显示名字</FONT></P>
+<P><BR><FONT face=宋体><FONT color=#0000ff>自定义职业的核心属性：</FONT><BR> 自定义职业5：&nbsp;核心属性ID108-109&nbsp; 
+游戏内显示名字以UI创角界面的核心属性名为准<BR> 自定义职业6：&nbsp;核心属性ID110-111&nbsp; 
+游戏内显示名字以UI创角界面的核心属性名为准<BR> 自定义职业7：&nbsp;核心属性ID112-113&nbsp; 
+游戏内显示名字以UI创角界面的核心属性名为准<BR> 自定义职业8：&nbsp;核心属性ID114-115&nbsp; 
+游戏内显示名字以UI创角界面的核心属性名为准<BR> 自定义职业9：&nbsp;核心属性ID116-117&nbsp; 
+游戏内显示名字以UI创角界面的核心属性名为准<BR>自定义职业10：核心属性ID118-119&nbsp; 
+游戏内显示名字以UI创角界面的核心属性名为准<BR>自定义职业11：核心属性ID120-121&nbsp; 
+游戏内显示名字以UI创角界面的核心属性名为准<BR>自定义职业12：核心属性ID122-123&nbsp; 
+游戏内显示名字以UI创角界面的核心属性名为准<BR>自定义职业13：核心属性ID124-125&nbsp; 
+游戏内显示名字以UI创角界面的核心属性名为准<BR>自定义职业14：核心属性ID126-127&nbsp; 
+游戏内显示名字以UI创角界面的核心属性名为准<BR>自定义职业15：核心属性ID128-129&nbsp; 
+游戏内显示名字以UI创角界面的核心属性名为准<BR>自定义职业16：核心属性ID130-131&nbsp; 
+游戏内显示名字以UI创角界面的核心属性名为准<BR>自定义职业17：核心属性ID132-133&nbsp; 
+游戏内显示名字以UI创角界面的核心属性名为准<BR>自定义职业18：核心属性ID134-135&nbsp; 
+游戏内显示名字以UI创角界面的核心属性名为准<BR>自定义职业19：核心属性ID136-137&nbsp; 
+游戏内显示名字以UI创角界面的核心属性名为准<BR>自定义职业20：核心属性ID138-139&nbsp; 
+游戏内显示名字以UI创角界面的核心属性名为准<BR>自定义职业21：核心属性ID140-141&nbsp; 
+游戏内显示名字以UI创角界面的核心属性名为准<BR>自定义职业22：核心属性ID142-143&nbsp; 
+游戏内显示名字以UI创角界面的核心属性名为准<BR>自定义职业23：核心属性ID144-145&nbsp; 
+游戏内显示名字以UI创角界面的核心属性名为准<BR>自定义职业24：核心属性ID146-147&nbsp; 
+游戏内显示名字以UI创角界面的核心属性名为准<BR>自定义职业25：核心属性ID148-149&nbsp; 
+游戏内显示名字以UI创角界面的核心属性名为准</FONT></P>
+<P><BR><FONT face=宋体><FONT color=#0000ff>自定义职业的等级属性：<BR></FONT>cfg_level.xls<BR>exp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+字段：角色经验，所有职业通用<BR>attribute 
+字段：角色属性，职业(0战,1法,2道,5-25自定义职业,3=所有职业)<BR>weight&nbsp;&nbsp;&nbsp; 
+字段：背包负重，战士#法师#道士#预留#自定义职业5#职业6#......#职业25<BR>wearWeight字段：穿戴负重，战士#法师#道士#预留#自定义职业5#职业6#......#职业25<BR>handWeight字段：腕力负重，战士#法师#道士#预留#自定义职业5#职业6#......#职业25<BR><FONT color=#808080>*有等级表的时候按等级表计算升级经验及各项属性,没有表的时候按默认属性和M2的升级经验计算</FONT><BR><BR><BR></FONT><BR><FONT face=宋体><FONT color=#0000ff>自定义职业自定义技能：</FONT><BR>M2-查看-列表信息二-自定义技能-客户端效果-技能效果-基本设置<BR>设置了攻击动作设置里面的职业ID和动作ID后，释放该技能所使用的动作就会读取(cfg_JobAction.xls)表的动作素材<BR><FONT color=#0000ff><BR><BR>自定义职业动作表(cfg_JobAction.xls)</FONT><BR><FONT color=#ff0000>职业ID(0-25)<BR></FONT>0=战士、1=法师、2=道士、3预留、4预留、5-25为自定义职业</FONT></P>
+<P><FONT face=宋体>设置了自定义动作后该职业所有默认动作按动作表包名及素材读取，否则默认读取战士动作<BR>默认动作：0-11，待机、走路、跑、战待、攻击、挖矿、逐日、施法、挖肉、受击、死亡、倚天辟地<BR><FONT color=#808080>*12以后都是自定义动作，最多支持100个。</FONT><BR><FONT color=#ff0000>[通用包名列]</FONT><BR>格式解释：衣服#衣服特效#武器#武器特效#左手武器#左手特效#头发#斗笠#盾牌#盾牌特效#翅膀<BR>例子：<BR>hum_ck##wep_ck_r##wep_ck_l##hair_ck#hair_ck###<BR>cbohum##cboweapon####cbohair#cbohair#shield##humeffect<BR>*某一个部位不需要显示的情况下可空,例如某个职业没有左手武器，直接##空出来就行<BR>*包名随意但同部件包名必须统一,第一个文件包含100件装备，第二个文件及以后都是50个装备<BR>*包名必须数字递增，比如hum.JPK包含(0-99)hum2.JPK包含(100-149)hum3.JPK包含(150-199)依此类推。<BR><FONT color=#ff0000>动作ID</FONT><BR>格式解释：0#4#4#1200<BR>*起始帧#数量#空图数量#每组张数(包含男女)<BR>*举例衣服算法：Shape=6的女衣服&nbsp;&nbsp; 
+6*1200+(1200/2)=7800<BR>*每组总张数=0的情况下表示所有动作都使用这一组素材，即通用动作素材<BR>*如果某个动作读取的包名跟通用包名不一样，可以在这个动作ID里面填入对应的完整包名并用"|"隔开即可。<BR>例子：<BR>cbohum##cboweapon####cbohair#cbohair###|128#6#2#1200</FONT></P>
+<P><FONT face=宋体><FONT color=#ff0000>[威力计算]：</FONT><BR>[技能威力计算]：选择指定的职业ID，则技能威力按该职业的核心属性计算。<BR>*普攻攻击属性 
+M2-功能设置-其他设置-自定义职业配置,勾选之后普攻攻击按核心属性计算，不勾默认按攻击计算。<BR>*技能攻击属性 
+自定义技能-服务端效果-技能威力计算选择对应职业ID，技能输出伤害即按核心属性计算<BR> 
+*战士类自定义技能的核心属性伤害,物理防御可抵抗,其他自定义技能核心属性伤害魔防可抵抗<BR>*其他配置和常规自定义技能配置相同。</FONT></P>
+<P><BR><FONT face=宋体><FONT color=#0000ff>自定义职业配置技能书：</FONT>cfg_item.xls表shape字段扩展<BR>技能书stdmode=4<BR>shape职业要求：0=战士，1=法师，2=道士，英雄战士，4=英雄法师，5=英雄道士，6=英雄合击技能，99=通用技能<BR>职业扩展：9=自定义职业5，10=职业6 
+......29=职业25</FONT></P>
+<P><BR><FONT face=宋体><FONT color=#0000ff>武器特殊显示：</FONT>cfg_item.xls配置,武器stdmode=6,69时有效<BR>Shape=右武器模型ID<BR>Anicount=右武器外显特效ID<BR>effectParam=左武器ID#左武器特效ID<BR><FONT color=#808080>*注意：左右不能颠倒，不会影响显示，但会影响显示层级！<BR>*用途：刺客武器,一把武器显示左右手2个武器模型和弓箭手武器在左手上显示！</FONT></FONT></P>
+<P><BR><FONT face=宋体><FONT color=#0000ff>自定义职业配置装备穿戴：</FONT>cfg_item.xls表Need字段扩展<BR>Need字段:扩展110~143<BR>具体查询' 
+物品所需条件设置'</FONT></P>
+<P><BR><FONT face=宋体><FONT color=#0000ff>检测职业和转职命令扩展</FONT><BR>检测命令：CHECKJOB 
+参数一(0战,1法,2道,5-25自定义职业)<BR>转职命令：CHANGEJOB 
+参数一(0战,1法,2道,5-25自定义职业)<BR><FONT color=#808080>*参数一战法道可使用0或Warrior,1或Wizard,2或Taoist，自定义职业使用5~25</FONT><BR>[@检测职业]<BR>#if<BR>CHECKJOB 
+5<BR>#say<BR>你是自定义职业5</FONT></P>
+<P><FONT face=宋体>[@转职]<BR>#act<BR>CHANGEJOB 5<BR>sendmsg 6 
+你的职业变成自定义职业5</FONT></P>
+<P><BR><FONT face=宋体><FONT color=#0000ff>常量扩展<BR></FONT>&lt;$JOB&gt;&nbsp;&nbsp;&nbsp; 职业常量 
+(0战,1法,2道,5-25自定义职业)职业常量<BR>&lt;$CUSTJOBABIL[XXX]&gt; 属性常量 
+XXX表示属性对照表属性id</FONT></P>
+<P><BR><FONT face=宋体>其他说明<BR><FONT color=#808080>*自定义职业不支持英雄版本<BR>*表格job字段非特殊情况 可按照 
+(0战,1法,2道,5-25自定义职业)-通用</FONT>  
+<BR></FONT></P></body>
+</html>

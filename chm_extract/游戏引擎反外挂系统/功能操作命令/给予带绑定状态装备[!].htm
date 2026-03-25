@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>给予带绑定状态装备[!]</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+</head>
+
+<BODY>
+<P><FONT face=宋体>功能：<br>
+给予带绑定状态装备。主要方便设置不能配带的装备绑定状态 </FONT>
+</P>
+<p><FONT face=宋体>格式：</FONT></p>
+<p><FONT face=宋体>格式:CheckItemBind 装备位置(-1~28或30~47,-1时为OK框中物品)<br>
+GiveStateItem 物品名称 项目1 项目2 
+项目3 项目4 项目5 项目6 项目7(0为正常,1为绑定) 数量) 改名名称(为空时，不改名) </FONT>
+          </p>
+<p><FONT face=宋体>;项目1--禁止扔，项目2--禁止交易，项目3--禁止存，项目4--禁止修，项目5--禁止出售,项目6--禁止爆出的装备,项目7--丢弃消失</FONT></p>
+<p><FONT face=宋体>[@给一个绑定的装备]<br>
+  #ACT<br>
+  GiveStateItem 木剑 1 0 0 0 0 0 0 1 新木剑<br>
+  SENDMSG 6 给你一个绑定木剑并且禁止扔，并且把名字改为“新木剑” 
+</FONT>
+    </p>
+<P><FONT color=#0000ff>GiveStateItemex<BR></FONT><BR><FONT face=宋体>给予格式：GiveStateItemex&nbsp;&nbsp;物品名称&nbsp;&nbsp;数量&nbsp;&nbsp;项目1&nbsp;&nbsp;项目2&nbsp;&nbsp;项目3&nbsp;&nbsp;项目4&nbsp;&nbsp;项目5&nbsp;&nbsp;项目6&nbsp;&nbsp;项目7&nbsp;&nbsp;项目8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;0为正常,1为绑定项目类型<BR><BR><BR>绑定类型；项目1=禁止扔；项目2=禁止交易；项目3=禁止存；项目4=禁止修；项目5=禁止出售；项目6=禁止爆出的装备；项目7=丢弃消失；项目8=禁止摆摊或拍卖行<BR><BR><BR><BR>装备位置代码: </FONT>
+  </P>
+<p><FONT face=宋体>0 盔甲 <br>
+  1 武器 <br>
+  2 照明物 <br>
+  3 项链 <br>
+  4 头盔 <br>
+  5 右手镯 <br>
+  6 左手镯 <br>
+  7 右戒指 <br>
+  8 左戒指 <br>
+  9 护身符 <br>
+  10 腰带 <br>
+  11 鞋子 <br>
+  12 宝石<br>
+  13 斗笠<br>
+  14 军鼓<br>
+  15 马牌<br>
+  16 盾牌<br>
+  17 时装衣服 时装12个<br>
+  18 时装武器<br>
+  19 时装项链<br>
+  20 时装头盔<br>
+  21 时装左手镯<br>
+  22 时装右手镯<br>
+  23 时装左戒指<br>
+  24 时装右戒指<br>
+  25 时装勋章<br>
+  26 时装腰带<br>
+  27 时装鞋子<br>
+  28 时装宝石 </FONT>
+   </p>
+<p><FONT face=宋体>30~41 十二个首饰盒装备 </FONT> </p>
+<p><FONT face=宋体>42-47 六个首饰盒装备位置 </FONT> </p>
+<P><BR><BR><BR><FONT face=宋体></FONT>
+  </P>
+</BODY>
+</html>

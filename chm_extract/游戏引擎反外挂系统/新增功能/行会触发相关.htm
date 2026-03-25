@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>行会触发相关</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P class=MsoNormal 
+style="TEXT-ALIGN: left; mso-pagination: widow-orphan"><B><SPAN class=20 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; FONT-WEIGHT: bold; COLOR: rgb(0,0,255); mso-spacerun: 'yes'">行会触发相关</SPAN></B><B><SPAN class=20 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; FONT-WEIGHT: bold; COLOR: rgb(0,0,255); mso-spacerun: 'yes'"><BR></SPAN></B><B><SPAN 
+class=20 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; FONT-WEIGHT: bold; COLOR: rgb(0,0,255); mso-spacerun: 'yes'"><BR></SPAN></B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">;QFunction-0.txt<BR><BR><BR><FONT color=#ff0000>;加入行会前的QF触发</FONT><br>[@ConfirmGuildAddMember]<BR>#IF<BR>#ACT<BR>;ConfirmGuildAddMember&nbsp;(1=禁止&nbsp;0=允许)<BR>;Stop&nbsp;(禁止加入行会),兼容2个禁止加入行会命令<BR>;增加传递参数，预加入行会名<FONT color=#ff0000>&lt;$Param1&gt;</FONT>和预加入行会成员人数<FONT color=#ff0000>&lt;$Param2&gt;</FONT><BR>SENDMSG&nbsp;6&nbsp;&lt;$USERNAME&gt;：即将加入【&lt;$Param1&gt;】，拥有【&lt;$Param2&gt;】小伙伴！</SPAN></P>
+<P class=MsoNormal 
+style="TEXT-ALIGN: left; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">  
+</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">//;加入行会后触发例子</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">[@GuildAddMember]</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">#IF</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">  &nbsp; 
+ </SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">#ACT</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">SENDMSG&nbsp;6&nbsp;&lt;$USERNAME&gt;：已加入【&lt;$GUILDNAME&gt;】，拥有【&lt;$GUILDMEMBERCNT&gt;】小伙伴！ 
+ 
+ </SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">//;退出行会触发</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">[@GuildDelMember]</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">#IF</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">#ACT</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">MOV U30 120    
+ </SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">SENDMSG 7 &lt;$USERNAME&gt;退出行会    
+ </SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; FONT-WEIGHT: normal; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">//;</SPAN><SPAN 
+class=17 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; FONT-WEIGHT: normal; COLOR: rgb(255,0,0); mso-spacerun: 'yes'">编辑行会公告前触发</SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">[@UpdateGuildNotice]</SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">#IF</SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">#ACT</SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">SENDMSG 
+6 你编辑了</SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; BACKGROUND: rgb(255,255,255); COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)">行会</SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; BACKGROUND: rgb(255,255,255); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)">公告<BR><BR><FONT color=#ff0000>//.掌门招募逐一触发(招募页面点击接受)</FONT><BR>[@CanAddJoinMember]<BR>#IF<BR>EQUAL 
+&lt;$param1&gt; 1<BR>#ACT<BR>Stop<BR>SENDMSG 6 
+接受玩家&lt;$param3&gt;入会申请，是否在线&lt;$param1&gt;--USERID=&lt;$param2&gt;<BR>;&lt;$param1&gt; 
+0~1&nbsp;&nbsp;&nbsp; 
+0表示该玩家不在线，1表示该玩家在线<BR>;&lt;$param2&gt;&nbsp;玩家唯一UID<BR>;&lt;$param3&gt; 
+被接受的玩家名<BR><BR></P>
+<P 
+style='FONT-SIZE: 13px; FONT-FAMILY: "Lucida Grande", verdana, arial, helvetica, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; text-decoration-thickness: initial'><FONT face=宋体><FONT color=#ff0000>//;退出行会前触发</FONT><BR>[@GuildDelMemberBefore]<BR></FONT><FONT face=宋体> 
+ #IF<BR>#ACT<BR>STOP<BR><BR></FONT></P>
+<P 
+style='FONT-SIZE: 13px; FONT-FAMILY: "Lucida Grande", verdana, arial, helvetica, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; text-decoration-thickness: initial'><FONT face=宋体><FONT color=#ff0000>//;解散行会前</FONT><BR>[@GuildCloseBefore]<BR></FONT><FONT face=宋体> 
+ #IF<BR>#ACT<BR>STOP<BR><BR><BR></FONT><FONT face=宋体><FONT color=#ff0000><STRONG>行会战宣战命令</STRONG><BR></FONT>SETGUILDWAR 参数1 参数2 
+参数3<BR>参数1:宣战行会名字&nbsp; <BR>参数2:敌对行会名字&nbsp; <BR>参数3:时间分钟</FONT></P>
+<P 
+style='FONT-SIZE: 13px; FONT-FAMILY: "Lucida Grande", verdana, arial, helvetica, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; text-decoration-thickness: initial'><FONT face=宋体>[@设置行会宣战]<BR>#ACT<BR>SETGUILDWAR 红方 蓝方 30<BR><BR><FONT color=#ff0000>//;创建行会前触发</FONT><BR>[@CheckBuildGuild]<BR>#IF<BR>#ACT<BR>SENDMSG 
+7 
+禁止&lt;$USERNAME&gt;创建行会：&lt;$param1&gt;<BR>Stop<BR><FONT color=#ff0000>//;加入行会触发</FONT><BR>[@GuildAddMemberAfter]<BR><FONT color=#ff0000>//;退出行会触发</FONT><BR>[@GuildDelMember]<BR>#IF<BR>#ACT<BR>MOV 
+U30 120<BR>SENDMSG 7 &lt;$USERNAME&gt;退出行会</FONT></P>
+<P 
+style='FONT-SIZE: 13px; FONT-FAMILY: "Lucida Grande", verdana, arial, helvetica, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; text-decoration-thickness: initial'><FONT face=宋体><FONT color=#ff0000>;//掌门踢出行会成员前触发</FONT><BR>[@GuildChiefDelMember]<BR>#IF<BR>#act<BR>stop<BR>sendmsg 
+7 禁止踢出行会</FONT></P>
+<P 
+style='FONT-SIZE: 13px; FONT-FAMILY: "Lucida Grande", verdana, arial, helvetica, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; text-decoration-thickness: initial'><FONT face=宋体><FONT color=#ff0000>//;行会编辑封号前触发</FONT><BR>QF触发@SetRankNameXX（XX：1-5个行会封号）</FONT></P>
+<P 
+style='FONT-SIZE: 13px; FONT-FAMILY: "Lucida Grande", verdana, arial, helvetica, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; text-decoration-thickness: initial'><FONT face=宋体>[@SetRankName1]<BR>#act<BR>stop<BR>sendmsg 6 
+不允许编辑行会掌门封号！</FONT></P>
+<P 
+style='FONT-SIZE: 13px; FONT-FAMILY: "Lucida Grande", verdana, arial, helvetica, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; text-decoration-thickness: initial'><FONT face=宋体><FONT color=#ff0000>//;退出行会前触发</FONT><BR>[@GuildDelMemberBefore]</FONT></P>
+<P 
+style='FONT-SIZE: 13px; FONT-FAMILY: "Lucida Grande", verdana, arial, helvetica, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; text-decoration-thickness: initial'><FONT face=宋体><FONT color=#ff0000>//;解散行会</FONT><BR>[@GuildClose]</FONT></P>
+<P 
+style='FONT-SIZE: 13px; FONT-FAMILY: "Lucida Grande", verdana, arial, helvetica, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; text-decoration-thickness: initial'><FONT face=宋体>[@SetGuildRank1]<BR>#IF<BR>#act<BR>Sendmsg 6 
+任命掌门人前触发<BR>Stop</FONT></P>
+<P 
+style='FONT-SIZE: 13px; FONT-FAMILY: "Lucida Grande", verdana, arial, helvetica, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; text-decoration-thickness: initial'><FONT face=宋体>[@SetGuildRank2]<BR>#IF<BR>#act<BR>sendmsg 6 
+任命副掌门前触发<BR>Stop</FONT></P>
+<P 
+style='FONT-SIZE: 13px; FONT-FAMILY: "Lucida Grande", verdana, arial, helvetica, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; text-decoration-thickness: initial'><FONT face=宋体>[@SetGuildRank3]<BR>#IF<BR>#act<BR>sendmsg 6 
+任命成员3前触发<BR>Stop</FONT></P>
+<P 
+style='FONT-SIZE: 13px; FONT-FAMILY: "Lucida Grande", verdana, arial, helvetica, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; text-decoration-thickness: initial'><FONT face=宋体>[@SetGuildRank4]<BR>#IF<BR>#act<BR>sendmsg 6 
+任命成员4前触发<BR>Stop</FONT></P>
+<P 
+style='FONT-SIZE: 13px; FONT-FAMILY: "Lucida Grande", verdana, arial, helvetica, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; text-decoration-thickness: initial'><FONT face=宋体>[@SetGuildRank5]<BR>#IF<BR>#act<BR>sendmsg 6 
+任命成员5前触发<BR>Stop<BR><BR><BR></P></FONT></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; BACKGROUND: rgb(255,255,255); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)">
+<HR><BR></SPAN>
+<P class=MsoNormal 
+style="TEXT-ALIGN: left; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; BACKGROUND: rgb(255,255,255); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">  &lt;$GUILDNAMENOTICE&gt;：行会公告常量<BR><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&lt;$RANKNAME&gt;：  <SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">行会职位名称<BR></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&lt;$GUILDNAME&gt;：  <SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">行会名称<BR>&lt;$GUILDMEMBERCNT&gt;：当前行会人数常量<BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><SPAN 
+style="FONT-SIZE: 10.5pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN></P>
+<P class=MsoNormal 
+style="TEXT-ALIGN: left; MARGIN-LEFT: 0pt; MARGIN-RIGHT: 0pt; mso-pagination: widow-orphan; mso-para-margin-right: 0.0000gd; mso-para-margin-left: 0.0000gd"></SPAN></SPAN><BR>&nbsp;</P></FONT>
+<P class=56 
+style="mso-pagination: widow-orphan"><BR></SPAN>&nbsp;</P></FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: rgb(255,255,255); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)"><o:p></O:P></SPAN></body>
+</html>

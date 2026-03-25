@@ -1,0 +1,41 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>自定义输入框Input</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body><FONT color=#000000><FONT color=#0000ff><STRONG>自定义输入框</STRONG></FONT><BR><FONT color=#ff0000 face=宋体>;勾选M2-客户端控制-启用新NPC面板写法生效,不可跟老面板写法混用,仅兼容老写法的文字排版</FONT><BR><BR><BR>&lt;Input|inputid=xx|type=xx|width=xx|height=xx|color=xx|size=xx|mincount=xx|maxcount=xx|errortips=xx&gt;<BR><BR>-- -- 
+Input&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 输入框<BR>-- -- 
+inputid(1~9)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 输入框ID 用于提交数据<BR>-- -- 
+type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 输入类型 0任意文本 1数字 2密码 
+3绝对值数字(输入09显示9)<BR>-- -- 
+place&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 空着时提醒文本<BR>-- -- 
+placecolor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 空着时提醒文本颜色<BR>-- -- 
+width&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 输入框宽度<BR>-- 
+-- height&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;输入框高度<BR>-- 
+-- color&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;输入文本颜色<BR>-- -- 
+size&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+输入文本大小<BR>-- -- 
+mincount&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 最小输入字符数<BR>-- -- maxcount&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+最大输入字符数<BR>-- -- 
+errortips&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+输入类型不符提醒 <BR>-- -- onlyCh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+输入仅能中文 
+1仅中文<BR>-- -- submitInput (0~9) 提交输入框内容可以提交多个(格式：submitInput=3,4,5)</FONT><FONT face=宋体><BR><FONT color=#000000>-- -- 输入的字符常量&lt;$NPCINPUT(X)&gt; X= 
+1~9</FONT></FONT><FONT face=宋体><BR><FONT face=Arial>-- -- 
+bgtype&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+是否显示背景框0~1</FONT><BR><BR><BR>;例子<BR>[@自定义输入框]<BR>#IF<BR>#ACT<BR>#SAY<BR>&lt;Img|children={1,2,3,4,5,6,7,8,9,10,11,12}|show=4|bg=1|esc=1|move=1|wil=对话框|pcimg=112|reset=1|scale9l=10|scale9r=10|scale9t=10|scale9b=10&gt;<BR>&lt;<A 
+href="mailto:Layout|id=1|children={a1}|x=790|y=60|width=50|height=50|color=x|link=@exit">Layout|id=1|children={a1}|x=790|y=60|width=50|height=50|color=x|link=@exit</A>&gt;<BR>&lt;Button|id=a1|a=4|percentx=50|percenty=50|wil=对话框<A 
+href="mailto:|pcnimg=113|pcmimg=113|pcpimg=114|link=@exit">|pcnimg=113|pcmimg=113|pcpimg=114|link=@exit</A>&gt;<BR>&lt;Input|x=20|y=40|width=145|height=25|size=18|place=请输入|placecolor=251|errortips=输入不对|mincount=3|color=250|maxcount=15|inputid=1|type=0&gt;<BR>&lt;Img|x=80|y=240|wil=对话框|submitInput=1|pcimg=115|grey=1|link=@提交&gt;<BR><BR><BR><BR><BR>[@提交]<BR>#IF<BR>#ACT<BR>sendmsg 7 
+本次输入的值：&lt;$NPCINPUT(1)&gt;<BR><BR><BR><BR><BR></FONT></body>
+</html>

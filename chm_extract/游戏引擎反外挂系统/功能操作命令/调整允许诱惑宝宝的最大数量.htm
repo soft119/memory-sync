@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>调整允许诱惑宝宝的最大数量</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+</head>
+
+<BODY>
+<P><FONT size=2 ><FONT face=宋体>功能: 调整允许诱惑宝宝的最大数量<BR>
+  格式: 
+CHANGEMAXTAMMINGSLAVECOUNT 操作符(+ = -) 数量<BR><BR><BR>
+例子:允许诱惑7个宝宝，不包括技能召唤的宝宝，不能超过，M2-选项-功能设置-技能魔法-法师技能-诱惑之光里面的诱惑数量，脚本设置超过了也没用<br>
+如果“<FONT size=2 >CHANGEMAXTAMMINGSLAVECOUNT =  0</FONT>”表示脚本不限制数量，完全按照M2设置的数量</FONT></FONT></P>
+<P><FONT face=宋体>相关常量:<br>
+已经诱惑的宝宝数量，不包括技能召唤的宝宝&lt;$TAMMINGSLAVECOUNT&gt; &lt;$C.TAMMINGSLAVECOUNT&gt; <br>
+脚本命令<strong>CHANGEMAXTAMMINGSLAVECOUNT</strong>设置的允许诱惑的最大数量&lt;$MAXTAMMINGSLAVECOUNT&gt; 
+&lt;$C.MAXTAMMINGSLAVECOUNT&gt; </FONT>  </P>
+<P><FONT size=2 ><BR><FONT face=宋体>
+  [@设置允许最大诱惑数量位7个]<br>
+  #IF<br>
+  #ACT<br>
+  CHANGEMAXTAMMINGSLAVECOUNT = 7
+  &nbsp;  </FONT></P>
+<p><strong><FONT face=宋体>[@设置脚本不限制数量，按照M2是的设置数量]<br>
+  #IF<br>
+  #ACT<br>
+  CHANGEMAXTAMMINGSLAVECOUNT = 
+0
+  &nbsp;  </strong></p>
+<P><FONT face=宋体></FONT>&nbsp;</P></FONT></FONT>
+</BODY>
+</html>

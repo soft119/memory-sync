@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>设置指定人物的变量值</title>
+<style>
+<!--
+div{word-break:break-all;word-wrap:break-word}.t{border:1px solid #c7d6e1;margin:0px auto 8px;}.t2{border-top:#c7d6e1 1px solid;margin:0px auto 5px;}.t{padding:1px}.t {padding:0}th{word-break:break-all;word-wrap:break-word}.r_one{background:#f9f9f9;}.tr1 th{padding:5px 10px;text-align:left;vertical-align:top;font-weight:normal;}.tr1 th{border-right:1px solid #e6e6e6;}.tpc_content{font-size:14px;font-family:Arial;padding:0 2% 0 0.5%;margin:0 0 2%}-->
+</style>
+</head>
+
+<body>
+<P><FONT face=宋体 color=#0000ff>变量获取和传递功能</FONT></P>
+<P><BR><FONT face=宋体>传递命令格式:SetHumVar 角色名称 传递后存放的变量 传递的变量名称<BR>获取命令格式:GetHumVar 角色名称 获取后存放的变量 
+获取的变量名称 </FONT>   
+ </P>
+<P><FONT face=宋体>例子:<BR>[@main]<BR>你要把你的防御力数值传给别人,让他知道你的防御力是多少吗\<BR>请确保对方在线\<BR>&lt;请输入对方名字</FONT><A><FONT face=宋体>/@@InPutString1</FONT></A><FONT face=宋体>&gt; 
+\<BR>对方名字：&lt;$STR(S1)&gt; \</FONT> </P>
+<P><FONT face=宋体>你想知道对方防御力是多少吗,并且不让他知道\<BR>请确保对方在线\<BR>&lt;请输入对方名字</FONT><A><FONT face=宋体>/@@InPutString3</FONT></A><FONT face=宋体>&gt; 
+\<BR>对方名字：&lt;$STR(S3)&gt; <BR>对方防御力：&lt;$STR(S4)&gt;\</FONT></P>
+<P><FONT face=宋体>;传递<BR>[@InPutString1]<BR>#IF<BR>#ACT<BR>SetHumVar S1 S2 
+&lt;$MAXAC&gt;<BR>SENDMSG 6 
+成功把你的防御力数值传递给对方的S2变量，对方已知道你的防御力多少</FONT>  </P>
+<P><FONT face=宋体>;获取<BR>[@InPutString3]<BR>#IF<BR>#ACT<BR>GetHumVar S3 &lt;$MAXDC&gt; 
+S4<BR>SENDMSG 6 你已成功取得对方防御力为&lt;$STR(S4)&gt; 
+</FONT>   </P>
+<P><FONT face=宋体></FONT>&nbsp;</P>
+</body>
+
+</html>

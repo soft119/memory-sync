@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "sessions": {
+    "608799ff136b4e2aaae66124d2690991": [
+      {
+        "expertId": "UnrealSystemEngineer",
+        "name": "Wade",
+        "profession": "Unreal系统工程师",
+        "avatarUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/avatars/12-GameDevelopment/UnrealSystemEngineer/UnrealSystemEngineer.png",
+        "promptUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/experts/12-GameDevelopment/UnrealSystemEngineer/UnrealSystemEngineer_zh.md",
+        "usedAt": 1774445492056,
+        "industryId": "12-GameDevelopment"
+      }
+    ]
+  },
+  "lastUpdated": 1774450540231
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<TITLE>为什么怪物打不死？</TITLE>
+</HEAD>
+<BODY>
+<P><STRONG><FONT 
+size=2>为什么怪物打不死？</FONT></STRONG></P>
+<P><FONT size=2>最大的可能就是，怪物DB的MP字段设置的值不是0 </FONT></P>
+<P><font size="2">怪物的MP字段的作用是：</font></P>
+<P>怪物伤害封顶，封顶数值等于怪物BD中的MP数值，若DB中怪物MP值=0则不计算伤害封顶。例如怪物数据库MP设置为10.不管你攻击多高，每次只能攻击最多掉血10</P>
+</BODY>
+</HTML>
+ 

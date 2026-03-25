@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>宝石升级系统[!]</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+</head>
+
+<BODY>
+<p><FONT size=2><FONT face=Fixedsys>说明:1.打开人物背包点右下脚的升级按钮进行升级.也可使用OpenUpgradeDialog命令打开界面.
+  <BR>
+  &nbsp;&nbsp;&nbsp;&nbsp; 
+  3.放好物品点升级时先执行Q-Function中的@ItemUpgrade脚本段.<BR>
+  <BR>
+  执行脚本功能.升级成功时执行@UpgradeOKX,升级失败时执行@UpgradeFailX,<BR>
+属性被清除时执行@UpgradeClearX,其中X代表装备位置,例如:衣服=0,武器=1</FONT></FONT></p>
+<p><FONT size=2><FONT face=Fixedsys><BR>
+  例如:升级装备需要5000金币,此脚本放入Q-Function.txt中.<BR>
+  <BR>
+  [@ItemUpgrade]<BR>
+  #IF<BR>
+  CheckGold 
+5000<BR>
+  #ACT<BR>
+  Take 金币 
+  5000<BR>
+  #ELSESAY&nbsp;<BR>
+  升级装备需要5000金币.<BR>
+  #ELSEACT<BR>
+  SetUpgradeFail<BR>
+  Break</FONT></FONT></p>
+<p><FONT size=2><FONT face=Fixedsys>----------------------</FONT><FONT face=Fixedsys>----------------------------------------------------------------------------------------</FONT></FONT></p>
+<p><FONT size=2><FONT face=Fixedsys>  升级宝石StdMode=55,56,57,58,59</FONT> <BR><BR><FONT color=#ff0000>(暂不支持)</FONT><BR><BR> 
+  
+</FONT></p>
+<P><FONT face=Fixedsys color=#000000 size=2>宝石类型1:</FONT></P>
+
+<P><font size="2" face="Fixedsys">StdMode=55(升级指定类型的装备)<br>
+  Shape=(指定升级哪种类型的装备,此处添写和要升级类型的StdMode一样的值即可,例如武器设定为5)<br>
+  AniCount=(指定可以升级加几以下的装备,例如:设定为10,那么该宝石可以升级次数小于10次的装备)<br>
+  DuraMax=(指定宝石升级装备的成功机率,例如:设定为20既为20%成功机率)<br>
+  Need=(升级失败后可执行的操作,如果该值等于1-100时,则失败后把装备副加属性全部清零.如果该等于101-200时,则失败后装备消失.等于201-300时,升级失败后装备当前属性不变.)<
+  br>NeedLevel=(指定宝石升级范围,等于0时不限制,例如:该宝石只允许升级+5到+10之间的装备,那么Need=5*65535+10,计算规则=低限*65535+上限)<br>
+Ac,Ac2,Mac,Mac2,Dc,Dc2,Mc,Mc2,Sc,SC2=(指定该宝石升级成功后给装备加的属性，设定方法跟设置装备属性一样，不同的装备设置也不一样)</font></P>
+
+<P><FONT color=#000000 size=2><FONT face=Fixedsys>宝石类型2:<BR>
+StdMode=57(升级符合类型的装备)<BR>Source=(等于1)<BR>Shape=(等于0升级符合类型的装备,指定类型时填写待升级装备的StdMode值)<BR>区别:其他设置方法参照宝石类型1<BR>注意:此类宝石只增加防御和魔御.<BR>AC2,MAC2=(升级装备的防御,魔御,必须是可增加防御和魔御的装备才可以升级,例如:衣服,手镯等)</FONT></FONT></P>
+<P><FONT color=#000000 size=2><FONT face=Fixedsys>宝石类型3:<BR>
+  StdMode=57(升级符合类型的装备)<BR>Source=(等于2)<BR>Shape=(等于0升级符合类型的装备,指定类型时填写待升级装备的StdMode值)<BR>区别:其他设置方法参照宝石类型1<BR>注意:此类宝石只增加攻击,道术和魔法.<BR>DC2,MC2,SC2=(升级装备的攻击,魔法等,必须是可增加攻击和魔法等属性的装备才可以升级,例如:武器,项链等) 
+</FONT></FONT></P>
+<P><FONT face=Fixedsys color=#000000 size=2>宝石类型4:<BR>
+StdMode=58(随成升级装备属性)<BR>Shape=(0表示所有类型,指定类型时填写待升级装备的StdMode值)<BR>AniCount=(升级点数)<BR>区别:其他设置参照宝石类型1,此类宝石升级时随机增加装备属性,例如:AniCount等于5时,那么随机增加装备5点属性.<BR>注意:升级失败后如果Need小于100那么随机清除某项或者多项附加属性.</FONT></P><FONT color=#000000 size=2>
+</FONT><P><FONT color="#000000" size="2" face=Fixedsys>宝石类型5:<BR>
+  StdMode=59(增加升级成功率)<BR>Shape=(0表示所有类型,指定类型时填写待升级装备的StdMode值)<BR>DuraMax=(提高成功机率,例如:设定5即为提高5%的机率)<BR>
+  <BR>
+  </FONT><strong><font color="#ff0000">以下是最新更新后的部分新特性:</font></strong></P>
+<p><font color="#ff0000"><strong>1.55,56,57,58这几种类型宝石失败后默认不会降低装备升级的星星数.如果升级失败时需要降低装备的星星数那么设置物品的Reserved字段,0时不降,大于0时设置几就降几点.<br>
+  例如宝石的Reserved=2 装备的星星数=3 升级失败后星星就会减去2，剩下1个星星</strong></font></p>
+<p><font color="#ff0000"><strong>2.58类型的升级宝石Weight=1时随机升级所以属性,Weight=2时只随机升级攻击,魔法,道术.</strong></font></p>
+<P><font color="#ff0000"><FONT face=Fixedsys><strong><BR>
+  <BR>
+  </strong></FONT></font></P>
+</BODY>
+</html>

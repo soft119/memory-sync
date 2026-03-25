@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>宝宝相关触发</title>
+<style type="text/css">
+<!--
+.STYLE5 {	font-size: 14px;
+	color: #000000;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body>
+
+<p>宝宝相关触发</p>
+<p>;QFunction-0脚本触发<br />
+  [@SlaveDie]<br />
+  #IF<br />
+  #ACT<br />
+SENDMSG 6 你的宝宝【&lt;$CURRRSLAVENAME&gt;】被杀死了</p>
+<p>[@SlaveAttack]<br />
+  #ACT<br />
+  M.HumanHP - 10000<br />
+  SendMsg 6 你的宝宝正在使用物理攻击，对怪物造成二次伤害10000点，宝宝名称：&lt;$CURRRSLAVENAME&gt;，技能ID：&lt;$CURRRUSEMAGICID&gt;</p>
+<p>[@SlaveMagicAttack]<br />
+  #ACT<br />
+  M.HumanHP - 10000<br />
+  SendMsg 6 你的宝宝正在使用魔法攻击，对怪物造成二次伤害10000点，宝宝名称：&lt;$CURRRSLAVENAME&gt;，技能ID：&lt;$CURRRUSEMAGICID&gt;</p>
+<p>[@SlaveStruck]<br />
+  #ACT <br />
+  SENDMSG 6 你的宝宝被攻击了，宝宝名称：&lt;$CURRRSLAVENAME&gt;，技能ID：&lt;$CURRRUSEMAGICID&gt;</p>
+<p>[@SlaveMagicStruck]<br />
+  #ACT <br />
+  SENDMSG 6 你的宝宝被魔法攻击了，宝宝名称：&lt;$CURRRSLAVENAME&gt;，技能ID：&lt;$CURRRUSEMAGICID&gt;</p>
+<p>&nbsp;</p>
+</body>
+
+</html>

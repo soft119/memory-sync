@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>打开网站OpenUrl</title>
+</head>
+
+<body>
+<p><FONT face=宋体><STRONG><FONT color=#0000ff>功能：<BR></FONT></STRONG>&nbsp;&nbsp;&nbsp; 浏览网页</FONT>
+   </p>
+<p><FONT face=宋体><STRONG><FONT color=#0000ff>格式：<BR></FONT></STRONG>&nbsp;&nbsp;&nbsp;OpenUrl 地址</FONT> 
+0或空=游戏外打开，1=游戏内打开
+   </p>
+<p><FONT face=宋体>[@main]<br>
+  #if<br>
+  #act<br>
+  OpenUrl </FONT>
+   <A 
+href="http://www.996m2.com"><FONT face=宋体>http://www.996m2.com</FONT></A><FONT face=宋体> 0<BR>SENDMSG 7 游戏外打开了网站 </FONT>
+   </p>
+<p><FONT face=宋体>[@main]<br>
+  #if<br>
+  #act<br>
+  OpenUrl
+   <A 
+href="http://www.996m2.com"><FONT face=宋体>http://www.996m2.com</FONT></A><FONT face=宋体> 1<BR>SENDMSG 7 游戏内打开了网站 </FONT></FONT>
+   </p>
+<P><FONT face=宋体><FONT size=2><FONT color=#0000ff><STRONG>功能：</STRONG></FONT><BR>&nbsp;&nbsp;&nbsp; </FONT>浏览网页</FONT></P>
+<P><FONT face=宋体><FONT size=2><STRONG><FONT color=#0000ff>格式：</FONT></STRONG><BR>&nbsp;&nbsp;&nbsp;</FONT>WebBrowser 地址</FONT> </P>
+<P><FONT face=宋体><FONT size=2>;==========================================<BR>[@</FONT>WebBrowsertest</FONT><FONT face=宋体><FONT size=2>]<BR>#IF<BR>#ACT<BR>&nbsp;</FONT>WebBrowser 
+</FONT> <a 
+href="http://www.996m2.com"><FONT face=宋体>http://www.996m2.com</FONT></a><FONT size=2><BR><FONT face=宋体>;==========================================</FONT></FONT></P>
+</body>
+</html>

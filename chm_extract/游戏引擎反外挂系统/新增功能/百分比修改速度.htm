@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>百分比修改速度</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT color=#0000ff face=宋体><STRONG>百分比修改速度</STRONG></FONT></P>
+<P><FONT face=宋体><FONT color=#ff0000>功能:百分比修改速度</FONT><BR>格式: <FONT color=#ff0000>ChangeSpeedEX</FONT> 参数1 参数2 
+参数3</FONT>    </P>
+<P><FONT face=宋体>参数1:速度类型 1=移动速度 2=攻击速度 3= 魔法速度< /FONT></P>
+<P><FONT face=宋体>参数2:速度值0=原速度 (大于0=加速 -= 减速)< /FONT></P>
+<P><FONT face=宋体>参数3:有效时间秒(为空=表示不限制时间,最大值65535)</FONT></P>
+<P><FONT face=宋体>说明:<BR>速度值百分比，由于系统中是由移动间隔、攻击间隔决定的：<BR>当速度值大于0，则移动攻击间隔=固有间隔/(1+攻速/100)<BR>当速度值小于0，则移动攻击间隔=固有间隔*(1-攻速（负数值）/100)</FONT></P>
+<P><FONT face=宋体>例如：原有攻击间隔为1000ms，即1秒一刀<BR>速度值=100，加速100%，相当于速度为原来(1+100%)=2倍<BR>攻击间隔=1000/(1+100%)=500ms，即1秒2刀<BR>速度值=-100，即减慢100%，则速度为原来的1/(1+100%)=0.5倍<BR>攻击间隔=1000*(1+100%)=2000ms，即2秒1刀</FONT></P>
+<P><FONT face=宋体>;该速度与ChangeSpeed的区别在于百分比增加减少</FONT></P>
+<P><FONT face=宋体>[@main]<BR>#ACT<BR>CHANGESPEEDEX 1 50 
+65535<BR>#SAY<BR>移动速度增加50%</FONT></P></body>
+</html>

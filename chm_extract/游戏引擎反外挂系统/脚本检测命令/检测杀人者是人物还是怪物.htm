@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>检测杀人者是人物还是怪物</title>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY><p>检测杀人者是人物还是怪物</p>
+<p><font size="2"><font color="#ff0000"><strong>功能：</strong></font><br >
+&nbsp;&nbsp;&nbsp;人物是被怪物杀死还是玩家杀死</font> 死亡触发</p>
+<p><font size="2"><strong><font color="#ff0000">格式：</font></strong></font></p>
+<p><font size="2">  ;==========================================<br >
+  </font>[@PlayDie]<br >
+  #IF<br >
+  CHECKCURRTARGETRACE = 0<br >
+  #ACT<br >
+  SENDMSG 6 你被人物【&lt;$CURRRTARGETNAME&gt;】杀死了 255 249<br >
+  BREAK</p>
+<p>#IF<br >
+  CHECKCURRTARGETRACE = 1<br >
+  #ACT<br >
+  SENDMSG 6 你被英雄【&lt;$CURRRTARGETNAME&gt;】杀死了 255 249<br >
+  BREAK</p>
+<p>#IF<br >
+  #ACT<br >
+  SENDMSG 6 你被怪物【&lt;$CURRRTARGETNAME&gt;】杀死了 255 249<br >
+  BREAK<BR><BR><BR>
+  </p></BODY></HTML>

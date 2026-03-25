@@ -1,0 +1,701 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>装备位置</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body><!--StartFragment--><FONT face=宋体>&nbsp;</FONT><SPAN><STRONG><FONT face=宋体>物品位置和相关常量:<BR><BR></FONT></STRONG><FONT face=宋体>996引擎装备常量: 
+唯一ID&lt;$USEITEM[XX]&gt;;IDX&lt;$USEITEMID[XX]&gt;;名字&lt;$USEITEMNAME[XX]&gt;<BR>XX表示M2设置的装备位置支持（0-111)<BR></FONT>
+<P class=Section0><FONT face=宋体><FONT color=#0000ff>英雄常量在原来常量基础上增加H.<SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 微软雅黑; FONT-WEIGHT: normal; COLOR: rgb(11,27,243); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;&nbsp;&nbsp;&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 微软雅黑; FONT-WEIGHT: normal; COLOR: rgb(11,27,243); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">如：&lt;$H.DRESS&gt;</SPAN></FONT><BR></FONT></SPAN><FONT face=宋体><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 微软雅黑; FONT-WEIGHT: normal; COLOR: rgb(11,27,243); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">改名字后常量在原来基础加G_ 
+&nbsp;&nbsp;如：&lt;$G_DRESS&gt;&nbsp;</SPAN>&nbsp;<BR><BR><BR></P>
+<P class=Section0>
+<TABLE style="HEIGHT: 1203px; WIDTH: 919px; BORDER-COLLAPSE: collapse" 
+borderColor=#000000 cellSpacing=0 cellPadding=2 width=919 border=1>
+  
+  <TR>
+    <TD>
+      <P align=center><STRONG><FONT face=宋体>道具类型</FONT></STRONG></P></TD>
+    <TD>
+      <P align=center><STRONG><FONT face=宋体>&nbsp;数据库stdmode</FONT></STRONG></P></TD>
+    <TD>
+      <P align=center><STRONG><FONT face=宋体>&nbsp;<FONT color=#000000>穿戴位置</FONT></FONT></STRONG></P></TD>
+    <TD>
+      <P align=center><STRONG><FONT color=#000000 face=宋体>&nbsp;位置常量</FONT></STRONG></P></TD>
+    <TD>
+      <P align=center><STRONG><FONT face=宋体><FONT color=#000000>&nbsp;位置唯一ID常量(取下保留对应唯一ID</FONT>)</FONT></STRONG></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#000000><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">衣服(男)</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN></FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&nbsp;10</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>0</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$DRESS&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$DRESSID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">衣服(女)</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN></FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&nbsp;11</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>0</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$DRESS&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$DRESSID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#000000><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">武器(男)</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN></FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&nbsp;5、6</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>1</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$WEAPON&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$WEAPONID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">武器(女)</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN></FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&nbsp;5、6</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>1</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$WEAPON&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$WEAPONID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#000000><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">勋章</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN></FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&nbsp;30</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>2</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$RIGHTHAND&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$RIGHTHANDID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">项链</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN></FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&nbsp;19、20、21</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>3</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$NECKLACE&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&nbsp;&lt;$NECKLACEID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#000000><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">头盔</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN></FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&nbsp;15</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>4</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$HELMET&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&nbsp;&lt;$HELMETID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">右手镯</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN></FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&nbsp;24、26</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>5</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$ARMRING_R&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&nbsp;&lt;$ARMRING_RID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#000000><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">左手镯</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN></FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&nbsp;24、26</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>6</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$ARMRING_L&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&nbsp;&lt;$ARMRING_LID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">右戒指</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN></FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>22、23</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>7</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$RING_R&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$RING_RID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>左戒指</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>22、23</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>8</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$RING_L&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$RING_LID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">符、毒药</SPAN><SPAN 
+      style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt"><o:p></O:P></SPAN></FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>25、51</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>9</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$BUJUK&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$BUJUKID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>腰带</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>54、64</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>10</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$BELT&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$BELTID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>靴子</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>52、62</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>11</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$BOOTS&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$BOOTSID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>宝石、血石</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>53、63、7</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>12</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$CHARM&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$CHARMID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>斗笠</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>16</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>13</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$HAT&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$HATID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>军鼓</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>65</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>14</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$DRUM&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$DRUMID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>马牌</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>28</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>15</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$HORSE&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$HORSEID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>盾牌</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>48</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>16</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$SHIELD&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$SHIELDID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>面巾</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>50</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>55</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$FTOWEL&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$FTOWELID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>时装衣服(男)</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>66</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>17</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$SDRESS&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$SDRESSID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>时装衣服(女)</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>67</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>17</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$SDRESS&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$SDRESSID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>时装武器(男)</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>68</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>18</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$SWEAPON&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$SWEAPONID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>时装武器(女)</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>69</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>18</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$SWEAPON&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$SWEAPONID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>时装斗笠</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>71</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>29</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$SHAT&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$SHATID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>时装项链</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>75、76、77</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>19</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$SNECKLACE&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$SNECKLACEID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>时装头盔</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>78</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>20</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$SHELMET&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$SHELMETID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>时装右手镯</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>79、80</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>21</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$SARMRING_R&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$SARMRING_RID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>时装左手镯</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>79、80</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>22</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$SARMRING_L&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$SARMRING_LID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>时装左戒指</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>81、82</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>23</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$SRING_L&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$SRING_LID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>时装右戒指</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>81、82</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>24</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$SRING_R&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$SRING_RID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>时装勋章</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>83</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>25</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$SRIGHTHAND&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$SRIGHTHANDID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>时装腰带</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>84、85</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>26</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$SBELT&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$SBELTID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>时装靴子</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>86、87</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>27</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$SBOOTS&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$SBOOTSID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>时装宝石</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>88、89</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>28</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$SCHARM&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$SCHARMID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>时装马牌</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>90</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>48</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$SHORSE&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$SHORSEID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>时装符印</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>91</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>49</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$SBUJUK&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$SBUJUKID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>时装军鼓</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>92</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>50</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$SDRUM&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$SDRUMID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>时装盾牌</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>93</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>51</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$SSHIELD&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$SSHIELDID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>时装面巾</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>94</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>52</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$SFTOWEL&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$SFTOWELID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体><FONT color=#000000>生肖位置1</FONT></FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>100</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>30</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$GODBLESSITEM1&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$GODBLESSITEM1ID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体><FONT color=#000000>生肖</FONT><FONT color=#800000>位置2</FONT></FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>101</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>31</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$GODBLESSITEM2&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$GODBLESSITEM2ID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>生肖<FONT color=#000000>位置3</FONT></FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>102</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>32</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$GODBLESSITEM3&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$GODBLESSITEM3ID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体><FONT color=#000000>生肖</FONT><FONT color=#800000>位置4</FONT></FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>103</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>33</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$GODBLESSITEM4&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$GODBLESSITEM4ID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>生肖<FONT color=#000000>位置5</FONT></FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>104</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>34</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$GODBLESSITEM5&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$GODBLESSITEM5ID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体><FONT color=#000000>生肖</FONT><FONT color=#800000>位置6</FONT></FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>105</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>35</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$GODBLESSITEM6&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$GODBLESSITEM6ID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>生肖<FONT color=#000000>位置7</FONT></FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>106</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>36</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$GODBLESSITEM7&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$GODBLESSITEM7ID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体><FONT color=#000000>生肖</FONT><FONT color=#800000>位置8</FONT></FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>107</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>37</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$GODBLESSITEM8&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$GODBLESSITEM8ID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>生肖<FONT color=#000000>位置9</FONT></FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>108</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>38</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$GODBLESSITEM9&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$GODBLESSITEM9ID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体><FONT color=#000000>生肖</FONT><FONT color=#800000>位置10</FONT></FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>109</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>39</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$GODBLESSITEM10&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体>&lt;$GODBLESSITEM10ID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>生肖<FONT color=#000000>位置11</FONT></FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>110</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>40</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$GODBLESSITEM11&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#000000 face=宋体>&lt;$GODBLESSITEM11ID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体 ><FONT color=#000000>生肖</FONT><FONT color=#800000 >位置12</FONT></FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体 >111</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体 >41</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体 >&lt;$GODBLESSITEM12&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000 face=宋体 >&lt;$GODBLESSITEM12ID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center>&nbsp;首饰盒位置1</P></TD>
+    <TD>
+      <P align=center>&nbsp;头手戒链<FONT color=#800000>STDMODE</FONT></P></TD>
+    <TD>
+      <P align=center>42</P></TD>
+    <TD>
+      <P align=center>&lt;$JEWELRYITEM1&gt;</P></TD>
+    <TD>
+      <P align=center>&lt;$JEWELRYITEM1ID&gt;</P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000>首饰盒位置2</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000><FONT color=#800000>头手戒链</FONT>STDMODE</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000>43</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000>&lt;$JEWELRYITEM2&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000>&lt;$JEWELRYITEM2ID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center>首饰盒位置3</P></TD>
+    <TD>
+      <P align=center>头手戒链STDMODE</P></TD>
+    <TD>
+      <P align=center>44</P></TD>
+    <TD>
+      <P align=center>&lt;$JEWELRYITEM3&gt;</P></TD>
+    <TD>
+      <P align=center>&lt;$JEWELRYITEM3ID&gt;</P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000>首饰盒位置4</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000><FONT color=#800000>头手戒链</FONT>STDMODE</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000>45</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000>&lt;$JEWELRYITEM4&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000>&lt;$JEWELRYITEM4ID&gt;</FONT></P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center>首饰盒位置5</P></TD>
+    <TD>
+      <P align=center>头手戒链STDMODE</P></TD>
+    <TD>
+      <P align=center>46</P></TD>
+    <TD>
+      <P align=center>&lt;$JEWELRYITEM5&gt;</P></TD>
+    <TD>
+      <P align=center>&lt;$JEWELRYITEM5ID&gt;</P></TD></TR>
+  <TR>
+    <TD>
+      <P align=center><FONT color=#800000>首饰盒位置6</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000><FONT color=#800000>头手戒链</FONT>STDMODE</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000>47</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000>&lt;$JEWELRYITEM6&gt;</FONT></P></TD>
+    <TD>
+      <P align=center><FONT color=#800000>&lt;$JEWELRYITEM6ID&gt;</FONT></P></TD></TR></TABLE></P> 
+</FONT>
+<DIV class=Section0>&nbsp;</DIV></body>
+</html>

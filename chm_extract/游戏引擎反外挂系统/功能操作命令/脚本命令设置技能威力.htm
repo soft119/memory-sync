@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>脚本命令设置技能威力</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+</head>
+
+<BODY><FONT face=宋体>设置技能伤害/防御 </FONT>
+
+<p><FONT face=宋体>格式: SetSkillPower 技能ID +/-/=  
+人物伤害增加% 人物伤害增加值 怪物伤害增加% 怪物伤害增加值 防御增加% 防御增加值   时间(秒;-1一直有效)       </p>
+<p><FONT face=宋体>示范脚本：</FONT></p>
+<p><FONT face=宋体>#act<br>
+  SetSkillPower 66 = 100 0 100 0 0 0 -1<br>
+  SENDMSG 6 
+你的开天斩技能对人物伤害增加为原来的2倍(增加100%)，对怪物伤害为原来的2倍(增加100%)</FONT>
+    </p>
+<p><FONT face=宋体>获取技能伤害/防御</FONT></p>
+<p><FONT face=宋体>GetSkillPower 技能ID 人物伤害增加%(变量) 人物伤害增加值(变量) 
+怪物伤害增加%(变量) 怪物伤害增加值(变量) 防御增加%(变量) 防御增加值(变量) 时间(变量)</FONT> <BR><BR><BR><BR><BR><BR><FONT color=#0000ff>四级技能威力<BR><BR><FONT color=#000000>cfg_magic.xls第38列(AM列)<BR><BR>等级技能威力书写格式，最多支持4-10级<BR>&nbsp;<BR>等级#威力(万分比)|等级#威力(万分比)<BR><BR><BR>例如：4#12000|5#14000|6#16000|7#18000|8#20000<BR>4级1.2倍&nbsp; 
+5级1.4倍&nbsp; 6级1.6倍&nbsp; 7级1.8倍&nbsp; 
+8级2.0倍</FONT><BR></FONT>        </p></FONT>
+</BODY>
+</html>

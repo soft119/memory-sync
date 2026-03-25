@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>红点系统</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT size=4 face=Simsun ><STRONG><FONT color=#0000ff>红点系统相关</FONT></STRONG></FONT></P>
+<P><FONT color=#000000 size=3 face=宋体><FONT color=#0000ff><STRONG><FONT color=#0000ff>红点主窗口id</FONT><BR></STRONG></FONT>-- 101&nbsp; 主界面左上<BR>-- 
+102&nbsp; 主界面右上<BR>-- 103&nbsp; 主界面左下<BR>-- 104&nbsp; 主界面右下<BR>-- 105&nbsp; 
+主界面左中<BR>-- 106&nbsp; 主界面上中<BR>-- 107&nbsp; 主界面右中<BR>-- 108&nbsp; 主界面下中<BR>-- 
+0&nbsp;&nbsp;&nbsp; NPC面板<BR>-- 1&nbsp;&nbsp;&nbsp; 角色背包<BR>-- 2&nbsp;&nbsp;&nbsp; 角色界面<BR>-- 
+9&nbsp;&nbsp;&nbsp; 商城-装饰(按钮ID=商城序号ID)<BR>-- 10&nbsp;&nbsp; 
+商城-补给(按钮ID=商城序号ID)<BR>--11&nbsp;&nbsp;商城-强化(按钮ID=商城序号ID)&lt;BR&gt;--12&nbsp;&nbsp;商城-好友(按钮ID=商城序号ID)&lt;BR&gt;--200&nbsp;PC端下方3个按钮(按钮ID:100=角色按钮，101=背包按钮，102=  技能按钮)<BR>-- 
+202&nbsp; 玩家主面板<BR>  </FONT></P><FONT color=#000000 size=3>
+<P><BR><FONT face=宋体><STRONG><FONT color=#0000ff>给按钮增<FONT color=#0000ff>加红点(</FONT>脚本)</FONT></STRONG><BR><FONT color=#ff0000>格式:Reddot 参数1 
+参数2 参数3 参数4 参数5 参数6<BR></FONT>参数1：主窗口ID(NPC面板默认=0 
+任务栏=110)<BR>参数2：按钮ID(每个界面或者按钮都有ID)&nbsp;&nbsp; 
+任务栏使用任务ID<BR>参数3：X坐标<BR> 
+参数4：Y坐标<BR>参数5：Wil资源文件名<BR>参数6：图片起始序号<BR>参数7：播放张数<BR>参数8：播放速度(单位毫秒)<BR>参数9：绘制模式(0普通绘制 
+1特效绘制)<BR></FONT></P>
+<P><FONT color=#ff0000 face=宋体>删除格式:Reddel 主窗口ID(NPC面板默认为0)&nbsp; 
+按钮ID(每个界面或者按钮都有ID)</FONT></P>
+<P><FONT face=宋体 color=#000000>;例子<BR>[@自定义图片红点]<BR>#IF<BR>#ACT<BR>Reddot 104 333 15 15 Newopui 2470 9 80 
+0<BR>SENDMSG 6 增加红点成功</FONT></P>
+<P><FONT face=宋体 color=#000000>[@增加默认红点]<BR>#IF<BR>#ACT<BR>Reddot 104 333 15 15 Newopui 2470 9 80 0<BR>SENDMSG 6 
+增加红点成功</FONT></P>
+<P><FONT face=宋体><FONT color=#000000>[@删除红点]</FONT><BR>#IF<BR>#act<BR>Reddel 104 333<BR>SENDMSG 6 删除<FONT color=#000000>  红点成功</FONT></FONT></P>
+<P><BR><FONT face=宋体><STRONG><FONT color=#0000ff><FONT color=#0000ff>红点系统(cfg</FONT>_redpoint.xls)<BR></FONT><FONT color=#000000>字列</FONT></STRONG>：id<BR>含义：<FONT color=#000000>红点ID</FONT></FONT></P>
+<P><FONT face=宋体><STRONG>字列</STRONG>：group<BR>含义：组别，多个id在同一个组时，通过levelCondition字列条件判断此id是否生效，且一组中只会生效一个id</FONT></P>
+<P><FONT face=宋体><STRONG>字列</STRONG>：level<BR>含义：系统等级，数字越小越优先，在同组别读取levelCondition字列条件的顺序，合理使用可大大降低卡顿问题</FONT></P>
+<P><FONT face=宋体><STRONG>字列</STRONG>：ids<BR>含义：按钮配置<BR><FONT color=#0000ff>按钮ID使用变量改变时，如有不刷新可在面板里加入“reload=1”&nbsp;&nbsp;&nbsp;&nbsp;示例&lt;Img|layerid=1234|img=public/bg_npc_01.png|loadDelay=1|bg=1|reset=1|show=0|reload=1&gt;</FONT></FONT></P>
+<P><FONT face=宋体><STRONG>字列</STRONG>：levelCondition<BR>含义：功能对应变量/常量等级，判断ID是否生效，同组别，必须使用同一个变量/常量作为判断条件，且要使用等于判断</FONT></P>
+<P><FONT face=宋体><STRONG>字列</STRONG>：VarCondition<BR>含义：变量/常量条件<BR>格式：变量/常量/Idx 
+检测符(&gt; &lt; = &gt;= &lt;=) 值&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+"<FONT color=#ff0000>|</FONT>"&nbsp; "<FONT color=#ff0000>&amp;</FONT> 
+"&nbsp;分割(|=或，&amp;=和)<BR><FONT color=#0000ff>示例：S10=贵族一级&amp;N10&gt;=10&nbsp;&nbsp;&nbsp; 混合使用 
+"|"和"&amp;”混合使用时需要加[]括号，如[N1&gt;1&amp;N2&gt;2]|[N3&gt;3&amp;N4&gt;4]</FONT><BR><FONT color=#c0c0c0>常量示例：&lt;$LEVEL&gt;&gt;=100<BR>键值示例：&lt;T10#会员等级&gt;=1<BR>变量示例：N1=1<BR>标识示例：{8}=1<BR>为空示例：S1=null<BR>组合示例：<BR>T11=996M2|T12=引<FONT color=#c0c0c0>擎|T13=红点&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+变量T11等于'996M2'&nbsp; 或者&nbsp; 变量T12等于'引擎' 或者&nbsp; 变量T13等于'红点' 
+其中一个满足即可<BR>T11=996M2&amp;T12=引擎&amp;T13=红点&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+变量T11等于'996M2'&nbsp; 和&nbsp; 变量T12等于'引擎' 和&nbsp; 变量T13等于'红点' 
+三个变量都要满足<BR>[T11=996M2|T12=引擎]&amp;[T13=红点|T14</FONT>=系统]&nbsp;&nbsp;&nbsp;&nbsp; 变 量T11等于'996M2'&nbsp; 
+或者&nbsp; 变量T12等于'引擎'则满足第一段； 变量T13等于'红 点'&nbsp; 或者&nbsp; 变量T14等于'系统'则满足第二段&nbsp; 
+这2段都要满足<BR>&lt;$Level&gt;&gt;=200&amp;&lt;$USEITEMNAME[1]&gt;=屠龙&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+等级大于等于200级 和 穿戴的武器屠龙</FONT></FONT></P>
+<P><FONT face=宋体><STRONG>字列</STRONG>：currencyCondition<BR>含义：道具,装备,货币数量条件<BR>格式：Idx 
+检测符(&gt; &lt; = &gt;= &lt;=) 值&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+"<FONT color=#ff0000>|</FONT>"&nbsp; "<FONT color=#ff0000>&amp;</FONT> 
+"&nbsp;分割(|=或，&amp;=和)<BR>道具示例：10132&gt;=2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+背包回城石大于等于2个<BR>装备示例：50014&gt;=5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+背包木剑大于等于5个<BR>货币示例：2&gt;=1000&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+元宝大于等于1000<BR>多个Idx条件用法参考VarCondition字列的组合示例，此字列条件也支持配置VarCondition字列中</FONT></P>
+<P><FONT face=宋体><STRONG>字列</STRONG>：offset<BR>含义：<FONT color=#000000>红点显示</FONT>的类型和偏移坐标</FONT></P>
+<P><FONT face=宋体><STRONG>字列</STRONG>：BindCurrency<BR>含义：需关联的货币(item表Reserved关联后生效)<BR><FONT color=#0000ff>填写关联货币的Idx,多个货币用#分割；如金币与绑定金币关联,只填“1”即可，元宝与绑定元宝关联,只填"2",如多组货币填写"1#2"</FONT></FONT></P>
+<P><FONT face=宋体><FONT color=#ff0000>表格配置的变量,标识等需配置M2&nbsp;&nbsp; 
+路径:M2选项-功能设置-其他设置-客户端推送变量</FONT><BR><FONT color=#000000>VarCondition字段支持的常量<BR><FONT color=#000000>红点变量</FONT>立即推送前端命令 sendredvartoclient</FONT></FONT></FONT></P>
+<P><FONT color=#000000 face=宋体></FONT></P>
+<P>
+<TABLE 
+style='HEIGHT: 140px; FONT-FAMILY: "Microsoft YaHei"; WIDTH: 1109px; WORD-SPACING: 0px; BORDER-COLLAPSE: collapse; TEXT-TRANSFORM: none; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial' 
+borderColor=#000000 cellSpacing=0 cellPadding=2 border=1>
+  
+  <TR>
+    <TD style="TEXT-ALIGN: center">
+      <P><FONT face=宋体>等级&lt;$LEVEL&gt;</FONT></P></TD>
+    <TD style="TEXT-ALIGN: center"><FONT face=宋体>职业<BR>&lt;$JOB&gt;</FONT></TD>
+    <TD style="TEXT-ALIGN: center"><FONT face=宋体>转生<BR>&lt;$RELEVEL&gt;</FONT></TD>
+    <TD style="TEXT-ALIGN: center"><FONT face=宋体>生命值&lt;$HP&gt;</FONT></TD>
+    <TD style="TEXT-ALIGN: center"><FONT face=宋体>HP上限&lt;$MAXHP&gt;</FONT></TD>
+    <TD style="TEXT-ALIGN: center"><FONT face=宋体>魔力值&lt;$MP&gt;</FONT></TD>
+    <TD style="TEXT-ALIGN: center"><FONT face=宋体>MP上限<BR>&lt;$MAXMP&gt;</FONT></TD>
+    <TD style="TEXT-ALIGN: center"><FONT face=宋体>防御力<BR>&lt;$AC&gt;</FONT></TD>
+    <TD style="TEXT-ALIGN: center"><FONT face=宋体>最高防御力&lt;$MAXAC&gt;</FONT></TD>
+    <TD style="TEXT-ALIGN: center"><FONT face=宋体>魔御力&lt;$MAC&gt;</FONT></TD>
+    <TD style="TEXT-ALIGN: center"><FONT face=宋体>最高魔御力&lt;$MAXAC&gt;</FONT></TD></TR>
+  <TR>
+    <TD style="TEXT-ALIGN: center">
+      <P><FONT face=宋体>攻击力&lt;$DC&gt;</FONT></P></TD>
+    <TD style="TEXT-ALIGN: center">
+      <P><FONT face=宋体>最高攻击力&lt;$MAXDC&gt;&nbsp;</FONT></P></TD>
+    <TD style="TEXT-ALIGN: center"><FONT face=宋体>魔法力&lt;$MC&gt;</FONT></TD>
+    <TD style="TEXT-ALIGN: center"><FONT face=宋体>最高魔法力&lt;$MAXMC&gt;</FONT></TD>
+    <TD style="TEXT-ALIGN: center"><FONT face=宋体>道术<BR>&lt;$SC&gt;</FONT></TD>
+    <TD style="TEXT-ALIGN: center"><FONT face=宋体>最高道术&lt;$MAXSC&gt;<BR></FONT></TD>
+    <TD style="TEXT-ALIGN: center"><FONT face=宋体>装备位置名称&lt;$USEITEMNAME[X]&gt;</FONT></TD>
+    <TD style="TEXT-ALIGN: center"><FONT face=宋体>装备位置Idx<BR>&lt;$USEITEMID[X]&gt;&nbsp;&nbsp;&nbsp;</FONT></TD>
+    <TD style="TEXT-ALIGN: center"><FONT face=宋体>货币名称&lt;$MONEY(X)&gt;</FONT></TD>
+    <TD style="TEXT-ALIGN: center"><FONT face=宋体></FONT></TD>
+    <TD style="TEXT-ALIGN: center"><FONT face=宋体></FONT></TD></TR></TABLE><FONT style="FONT-SIZE: medium; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; font-variant-ligatures: normal; font-variant-caps: normal" size=3><BR class=Apple-interchange-newline></FONT></P></body>
+</html>

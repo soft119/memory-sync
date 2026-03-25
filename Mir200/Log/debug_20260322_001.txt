@@ -1,0 +1,483 @@
+[2026-03-22 22:48:25:599] 共享HUMMAPMAP映射名：mssql
+[2026-03-22 22:48:25:599] 共享HEROMAP映射名：mssql_hero
+[2026-03-22 22:48:26:511] 加载新版地图14字节: D:\MirServer\Mir200\map\0.map(700/700)
+[2026-03-22 22:48:26:634] 加载新版地图14字节: D:\MirServer\Mir200\map\3.map(1000/800)
+[2026-03-22 22:48:26:812] 加载新版地图14字节: D:\MirServer\Mir200\map\M101.map(20/25)
+[2026-03-22 22:48:28:227] 登录服务器(127.0.0.1:5600)连接成功...
+
+[2026-03-22 22:48:29:387] 游戏网关[0](127.0.0.1:22567)已打开..
+[2026-03-22 22:48:30:513] 数据库服务器(127.0.0.1:6000)连接成功.
+
+[2026-03-22 22:49:02:792] >>Login: 1 
+[2026-03-22 22:49:02:792] >>Login: 2 soft119, sessionID:2
+[2026-03-22 22:49:02:792] >>Login: 3 soft119
+[2026-03-22 22:49:02:794] >>Login: 5_0 soft119
+[2026-03-22 22:49:02:806] >>Login: 5 soft119, 1, 1
+[2026-03-22 22:49:02:806] >>Login: 6 soft119
+[2026-03-22 22:49:02:806] >>Login: TFrontEngine.LoadHumFromDB soft119-1773657920000001167,flag:6
+[2026-03-22 22:49:02:962] >>Login: 6-1 soft119
+[2026-03-22 22:49:02:962] >>哈迪斯，变量加载中...
+[2026-03-22 22:49:02:962] >>哈迪斯，数据库加载变量
+[2026-03-22 22:49:02:962] >>Login: 6-3 soft119, AType:0
+[2026-03-22 22:49:02:962] >>Login: 7 soft119
+[2026-03-22 22:49:02:963] >>Login: 8 soft119
+[2026-03-22 22:49:03:424] >>Login: 8_3 soft119
+[2026-03-22 22:49:03:424] 消息记录:哈迪斯[3-330,330] -> 1018,0,50332672,99,1,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvX^KOGWuBXDOtGYKlRiJzo=Otk^KHAIH?kagy{TN@hiH_XemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+[2026-03-22 22:49:03:508] >>Login: 9 soft119
+[2026-03-22 22:49:03:508] >>Login: 11 soft119
+[2026-03-22 22:49:03:619] Title Load:哈迪斯 - 
+[2026-03-22 22:49:03:746] 消息记录:哈迪斯[3-330,330] -> 81,0,0,0,0,
+[2026-03-22 22:49:03:746] 消息记录:哈迪斯[3-330,330] -> 5285,1,0,0,635,LmsJSXJJ@_Re_=TNWgueLzMPtl^]@]Wyk_tu<luc?pAjEFWbglE>KQpzZ^q>rOwZV=rgLiTHRwZ`JCo<tqBnGvfabQK?[H<TPVdk[?rVuaI_Y?OzR=r\f^l`vM\fGrnsB?MRSdx<vQUZ_l?eQavKTl[@of?QF\WeSIe_=xNI=n`pUUweL>{QiV>^_LXeIE>bvTTkQaN\btqhdoNLejb>Gra\dKh`={PpSMse\^yejf>KEBlHIBvUvUpksgf\_qHCwoMXDJ`f{iS<dHMO=zxpJYWebkuRgf=ZPrmpI?cRg_^OIIuUZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZn@Sbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZUaT]KvzDSbURDOzk^AubQ^@{gt]ZUaT]KvzDSbURDOzk^AubQ^@{gt]ZUaT]KvzDSbURDOzk^AubQ^@{gt]ZUaT]KvzDSbURDOzk^AubQ\=Z\AiE><\
+[2026-03-22 22:49:03:749] 消息记录:哈迪斯[3-330,330] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-22 22:49:03:749] 消息记录:哈迪斯[3-330,330] -> 1151,0,0,0,0,
+[2026-03-22 22:49:03:751] 消息记录:哈迪斯[3-330,330] -> 5012,0,0,0,0,3
+
+[2026-03-22 22:49:04:408] 消息记录:哈迪斯[3-330,330] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-22 22:49:04:408] 消息记录:哈迪斯[3-330,330] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-22 22:49:04:410] 消息记录:哈迪斯[3-330,330] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-22 22:49:06:024] 消息记录:哈迪斯[3-334,332] -> 1019,0,0,0,0,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvX\H_hkpPXAGHDnslX@WlR`TPDxolDxoOGQeBhdNn<{_yXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+
+[2026-03-22 22:49:11:023] 消息记录:哈迪斯[3-338,336] -> 1019,0,0,0,0,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvX\H_hkpPXAGHDnslX@WlR`TPDxolDxoOGQeBhdNn<{_yXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+
+[2026-03-22 22:49:15:873] 消息记录:哈迪斯[3-336,334] -> 1001,336,334,0,0,
+[2026-03-22 22:49:16:024] 消息记录:哈迪斯[3-336,334] -> 1019,0,0,0,0,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvX\H_hkpPXAGHDnslX@WlR`TPDxolDxoOGQeBhdNn<{_yXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+
+[2026-03-22 22:49:20:990] 消息记录:哈迪斯[3-338,334] -> 1010,0,0,0,0,{"index":10007,"UserID":"10007"}
+[2026-03-22 22:49:21:358] 消息记录:哈迪斯[3-338,334] -> 1010,0,0,0,0,{"index":10007,"UserID":"10007"}
+[2026-03-22 22:49:22:374] 消息记录:哈迪斯[3-338,334] -> 1011,0,0,0,0,{"Act":"@XIANE","SelectItemID":"","index":10007,"Input":[],"MenuItem":[],"CheckBox":[],"UserID":"10007","Slider":[]}
+
+[2026-03-22 22:49:27:109] 消息记录:哈迪斯[3-336,334] -> 1010,0,0,0,0,{"index":10007,"UserID":"10007"}
+
+[2026-03-22 22:49:29:008] 消息记录:哈迪斯[3-336,334] -> 1010,0,0,0,0,{"index":10007,"UserID":"10007"}
+[2026-03-22 22:49:30:442] 消息记录:哈迪斯[3-336,334] -> 1011,0,0,0,0,{"Act":"@ANQUAN","SelectItemID":"","index":10007,"Input":[],"MenuItem":[],"CheckBox":[],"UserID":"10007","Slider":[]}
+[2026-03-22 22:49:32:076] 消息记录:哈迪斯[3-336,334] -> 1010,0,0,0,0,{"index":10007,"UserID":"10007"}
+
+[2026-03-22 22:50:10:558] GM命令2：哈迪斯, f ,0113 , ,  , ,,  
+[2026-03-22 22:50:10:665] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[3->0113] curTid:5916
+[2026-03-22 22:50:10:766] 消息记录:哈迪斯[0113-7,13] -> 5012,0,0,0,0,0113
+
+[2026-03-22 22:50:24:230] GM命令2：哈迪斯, f ,01132 , ,  , ,,  
+[2026-03-22 22:50:24:338] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[0113->01132] curTid:5916
+[2026-03-22 22:50:24:432] 消息记录:哈迪斯[01132-16,22] -> 5012,0,0,0,0,01132
+
+[2026-03-22 22:50:33:164] 消息记录:哈迪斯[01132-11,10] -> 3010,0,7,655371,655371,
+[2026-03-22 22:50:33:530] 消息记录:哈迪斯[01132-11,10] -> 3010,0,6,655371,655371,
+
+[2026-03-22 22:50:34:348] 消息记录:哈迪斯[01132-11,11] -> 3010,0,6,720907,720907,
+[2026-03-22 22:50:35:079] 消息记录:哈迪斯[01132-11,11] -> 3010,0,5,720907,720907,
+
+[2026-03-22 22:50:57:150] GM命令2：哈迪斯, f ,0114 , ,  , ,,  
+[2026-03-22 22:50:57:260] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[01132->0114] curTid:5916
+[2026-03-22 22:50:57:350] 消息记录:哈迪斯[0114-6,11] -> 5012,0,0,0,0,0114
+
+[2026-03-22 22:51:06:775] GM命令2：哈迪斯, f ,01141 , ,  , ,,  
+[2026-03-22 22:51:06:883] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[0114->01141] curTid:5916
+[2026-03-22 22:51:06:971] 消息记录:哈迪斯[01141-13,9] -> 5012,0,0,0,0,01141
+
+[2026-03-22 22:51:13:120] GM命令2：哈迪斯, f ,0115 , ,  , ,,  
+[2026-03-22 22:51:13:228] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[01141->0115] curTid:5916
+[2026-03-22 22:51:13:318] 消息记录:哈迪斯[0115-4,11] -> 5012,0,0,0,0,0115
+
+[2026-03-22 22:51:16:453] 消息记录:哈迪斯[0115-12,17] -> 3010,0,1,1114124,1114124,
+
+[2026-03-22 22:51:36:416] GM命令2：哈迪斯, f ,01152 , ,  , ,,  
+[2026-03-22 22:51:36:525] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[0115->01152] curTid:5916
+[2026-03-22 22:51:36:621] 消息记录:哈迪斯[01152-13,15] -> 5012,0,0,0,0,01152
+[2026-03-22 22:51:37:370] 消息记录:哈迪斯[01152-13,15] -> 3010,0,1,983053,983053,
+
+[2026-03-22 22:51:47:245] GM命令2：哈迪斯, f ,0137 , ,  , ,,  
+[2026-03-22 22:51:47:352] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[01152->0137] curTid:5916
+[2026-03-22 22:51:47:439] 消息记录:哈迪斯[0137-9,30] -> 5012,0,0,0,0,0137
+[2026-03-22 22:51:48:104] 消息记录:哈迪斯[0137-9,30] -> 3010,0,0,1966089,1966089,
+
+[2026-03-22 22:52:01:391] 消息记录:哈迪斯[0-417,244] -> 5012,0,0,0,0,0
+[2026-03-22 22:52:03:455] 消息记录:哈迪斯[0137-19,20] -> 5012,0,0,0,0,0137
+
+[2026-03-22 22:52:04:587] 消息记录:哈迪斯[0137-17,18] -> 3010,0,0,1179665,1179665,
+
+[2026-03-22 22:52:34:604] GM命令2：哈迪斯, f ,F013 , ,  , ,,  
+[2026-03-22 22:52:34:712] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[0137->F013] curTid:5916
+[2026-03-22 22:52:34:810] 消息记录:哈迪斯[F013-27,17] -> 5012,0,0,0,0,F013
+
+[2026-03-22 22:52:42:588] GM命令2：哈迪斯, f ,F011 , ,  , ,,  
+[2026-03-22 22:52:42:697] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[F013->F011] curTid:5916
+[2026-03-22 22:52:42:792] 消息记录:哈迪斯[F011-138,149] -> 5012,0,0,0,0,F011
+
+[2026-03-22 22:52:51:558] GM命令2：哈迪斯, f ,F012 , ,  , ,,  
+[2026-03-22 22:52:51:665] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[F011->F012] curTid:5916
+[2026-03-22 22:52:51:760] 消息记录:哈迪斯[F012-26,18] -> 5012,0,0,0,0,F012
+[2026-03-22 22:52:52:608] 消息记录:哈迪斯[F012-26,18] -> 3010,0,4,1179674,1179674,
+[2026-03-22 22:52:53:676] 消息记录:哈迪斯[F012-27,18] -> 3010,0,3,1179675,1179675,
+
+[2026-03-22 22:52:54:226] 消息记录:哈迪斯[F012-27,18] -> 3010,0,4,1179675,1179675,
+
+[2026-03-22 22:53:03:682] 消息记录:哈迪斯[F012-26,18] -> 3010,0,4,1179674,1179674,
+
+[2026-03-22 22:53:06:433] GM命令2：哈迪斯, f ,F006 , ,  , ,,  
+[2026-03-22 22:53:06:539] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[F012->F006] curTid:5916
+[2026-03-22 22:53:06:628] 消息记录:哈迪斯[F006-105,129] -> 5012,0,0,0,0,F006
+
+[2026-03-22 22:53:13:869] GM命令2：哈迪斯, f ,F007 , ,  , ,,  
+[2026-03-22 22:53:13:978] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[F006->F007] curTid:5916
+
+[2026-03-22 22:53:14:062] 消息记录:哈迪斯[F007-80,101] -> 5012,0,0,0,0,F007
+
+[2026-03-22 22:53:20:432] GM命令2：哈迪斯, f ,F008 , ,  , ,,  
+[2026-03-22 22:53:20:540] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[F007->F008] curTid:5916
+[2026-03-22 22:53:20:629] 消息记录:哈迪斯[F008-125,61] -> 5012,0,0,0,0,F008
+
+[2026-03-22 22:53:26:119] GM命令2：哈迪斯, f ,F009 , ,  , ,,  
+[2026-03-22 22:53:26:227] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[F008->F009] curTid:5916
+[2026-03-22 22:53:26:297] 消息记录:哈迪斯[F009-78,129] -> 5012,0,0,0,0,F009
+
+[2026-03-22 22:53:32:681] GM命令2：哈迪斯, f ,F010 , ,  , ,,  
+[2026-03-22 22:53:32:791] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[F009->F010] curTid:5916
+[2026-03-22 22:53:32:880] 消息记录:哈迪斯[F010-81,114] -> 5012,0,0,0,0,F010
+
+[2026-03-22 22:54:59:089] GM命令2：哈迪斯, f ,0147 , ,  , ,,  
+[2026-03-22 22:54:59:197] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[F010->0147] curTid:5916
+[2026-03-22 22:54:59:287] 消息记录:哈迪斯[0147-5,17] -> 5012,0,0,0,0,0147
+
+[2026-03-22 22:55:04:155] 消息记录:哈迪斯[3-392,330] -> 5012,0,0,0,0,3
+[2026-03-22 22:55:06:555] 消息记录:哈迪斯[0147-3,15] -> 5012,0,0,0,0,0147
+
+[2026-03-22 22:56:00:716] 消息记录:哈迪斯[0147-10,8] -> 3010,0,3,524298,524298,
+[2026-03-22 22:56:03:620] GM命令2：哈迪斯, f ,G003 , ,  , ,,  
+[2026-03-22 22:56:03:728] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[0147->G003] curTid:5916
+[2026-03-22 22:56:03:844] 消息记录:哈迪斯[G003-16,34] -> 5012,0,0,0,0,G003
+
+[2026-03-22 22:56:19:698] GM命令2：哈迪斯, f ,G014 , ,  , ,,  
+[2026-03-22 22:56:19:806] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[G003->G014] curTid:5916
+[2026-03-22 22:56:19:893] 消息记录:哈迪斯[G014-37,26] -> 5012,0,0,0,0,G014
+
+[2026-03-22 22:56:28:230] GM命令2：哈迪斯, f ,G004 , ,  , ,,  
+[2026-03-22 22:56:28:337] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[G014->G004] curTid:5916
+[2026-03-22 22:56:28:428] 消息记录:哈迪斯[G004-57,22] -> 5012,0,0,0,0,G004
+
+[2026-03-22 22:56:43:213] GM命令2：哈迪斯, f ,G005 , ,  , ,,  
+[2026-03-22 22:56:43:321] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[G004->G005] curTid:5916
+[2026-03-22 22:56:43:413] 消息记录:哈迪斯[G005-17,39] -> 5012,0,0,0,0,G005
+
+[2026-03-22 22:56:48:791] GM命令2：哈迪斯, f ,G006 , ,  , ,,  
+[2026-03-22 22:56:48:899] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[G005->G006] curTid:5916
+[2026-03-22 22:56:48:995] 消息记录:哈迪斯[G006-53,58] -> 5012,0,0,0,0,G006
+
+[2026-03-22 22:56:54:589] GM命令2：哈迪斯, f ,G010 , ,  , ,,  
+[2026-03-22 22:56:54:696] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[G006->G010] curTid:5916
+[2026-03-22 22:56:54:781] 消息记录:哈迪斯[G010-59,44] -> 5012,0,0,0,0,G010
+
+[2026-03-22 22:57:05:744] GM命令2：哈迪斯, f ,G003 , ,  , ,,  
+[2026-03-22 22:57:05:853] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[G010->G003] curTid:5916
+[2026-03-22 22:57:05:947] 消息记录:哈迪斯[G003-39,44] -> 5012,0,0,0,0,G003
+
+[2026-03-22 23:05:54:244] GM命令2：哈迪斯, f ,兵营 , ,  , ,,  
+
+[2026-03-22 23:06:00:806] GM命令2：哈迪斯, f ,0121 , ,  , ,,  
+[2026-03-22 23:06:00:914] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[G003->0121] curTid:5916
+[2026-03-22 23:06:01:008] 消息记录:哈迪斯[0121-6,13] -> 5012,0,0,0,0,0121
+
+[2026-03-22 23:22:15:010] 玩家 哈迪斯 下线1(0,0,51)。。
+[2026-03-22 23:22:15:010] 玩家 哈迪斯 下线(0,0,51)。。
+[2026-03-22 23:22:15:011] >>CloseUser2 哈迪斯-0-0
+
+[2026-03-22 23:22:43:365] 共享HUMMAPMAP映射名：mssql
+[2026-03-22 23:22:43:365] 共享HEROMAP映射名：mssql_hero
+[2026-03-22 23:22:44:283] 加载新版地图14字节: D:\MirServer\Mir200\map\0.map(700/700)
+[2026-03-22 23:22:44:369] 加载新版地图14字节: D:\MirServer\Mir200\map\3.map(1000/800)
+[2026-03-22 23:22:44:480] 加载新版地图14字节: D:\MirServer\Mir200\map\M101.map(20/25)
+[2026-03-22 23:22:45:753] 登录服务器(127.0.0.1:5600)连接成功...
+[2026-03-22 23:22:46:670] 游戏网关[0](127.0.0.1:23568)已打开..
+
+[2026-03-22 23:22:48:089] 数据库服务器(127.0.0.1:6000)连接成功.
+
+[2026-03-22 23:23:11:576] >>Login: 1 
+[2026-03-22 23:23:11:576] >>Login: 2 soft119, sessionID:2
+[2026-03-22 23:23:11:576] >>Login: 3 soft119
+[2026-03-22 23:23:11:577] >>Login: 5_0 soft119
+[2026-03-22 23:23:11:587] >>Login: 5 soft119, 1, 1
+[2026-03-22 23:23:11:587] >>Login: 6 soft119
+[2026-03-22 23:23:11:587] >>Login: TFrontEngine.LoadHumFromDB soft119-1773657920000001167,flag:6
+[2026-03-22 23:23:11:776] >>Login: 6-1 soft119
+[2026-03-22 23:23:11:776] >>哈迪斯，变量加载中...
+[2026-03-22 23:23:11:776] >>哈迪斯，数据库加载变量
+[2026-03-22 23:23:11:776] >>Login: 6-3 soft119, AType:0
+[2026-03-22 23:23:11:776] >>Login: 7 soft119
+[2026-03-22 23:23:11:777] >>Login: 8 soft119
+
+[2026-03-22 23:23:12:325] >>Login: 8_3 soft119
+[2026-03-22 23:23:12:325] 消息记录:哈迪斯[0121-6,9] -> 1018,0,50332672,99,1,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvX\H_hkpPXAGHDnslX@WlR`TPDxolDxoOGQeBhdNn<{_yXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+[2026-03-22 23:23:12:431] >>Login: 9 soft119
+[2026-03-22 23:23:12:431] >>Login: 11 soft119
+[2026-03-22 23:23:12:540] Title Load:哈迪斯 - 
+[2026-03-22 23:23:12:540] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[0121->600] curTid:17116
+[2026-03-22 23:23:12:697] 消息记录:哈迪斯[600-11,6] -> 81,0,0,0,0,
+[2026-03-22 23:23:12:697] 消息记录:哈迪斯[600-11,6] -> 5285,1,0,0,635,LmsJSXJJ@_Re_=TNWgueLzMPtl^]@]Wyk_tu<luc?pAjEFWbglE>KQpzZ^q>rOwZV=rgLiTHRwZ`JCo<tqBnGvfabQK?[H<TPVdk[?rVuaI_Y?OzR=r\f^l`vM\fGrnsB?MRSdx<vQUZ_l?eQavKTl[@of?QF\WeSIe_=xNI=n`pUUweL>{QiV>^_LXeIE>bvTTkQaN\btqhdoNLejb>Gra\dKh`={PpSMse\^yejf>KEBlHIBvUvUpksgf\_qHCwoMXDJ`f{iS<dHMO=zxpJYWebkuRgf=ZPrmpI?cRg_^OIIuUZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZn@Sbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZUaT]KvzDSbURDOzk^AubQ^@{gt]ZUaT]KvzDSbURDOzk^AubQ^@{gt]ZUaT]KvzDSbURDOzk^AubQ^@{gt]ZUaT]KvzDSbURDOzk^AubQ\=Z\AiE><\
+[2026-03-22 23:23:12:703] 消息记录:哈迪斯[600-11,6] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-22 23:23:12:703] 消息记录:哈迪斯[600-11,6] -> 1151,0,0,0,0,
+[2026-03-22 23:23:12:705] 消息记录:哈迪斯[600-11,6] -> 5012,0,0,0,0,0121
+[2026-03-22 23:23:12:869] 消息记录:哈迪斯[600-11,6] -> 5012,0,0,0,0,600
+[2026-03-22 23:23:13:495] 消息记录:哈迪斯[600-11,6] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-22 23:23:13:495] 消息记录:哈迪斯[600-11,6] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-22 23:23:13:495] 消息记录:哈迪斯[600-11,6] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-22 23:23:15:425] 消息记录:哈迪斯[600-7,10] -> 1019,0,0,0,0,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvXk_HM^IVG[]lRhnnAKp?ptMBGMLikhoHDnJ@XC?Op{?tXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+
+[2026-03-22 23:23:20:424] 消息记录:哈迪斯[600-7,8] -> 1019,0,0,0,0,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvXk_HM^IVG[]lRhnnAKp?ptMBGMLikhoHDnJ@XC?Op{?tXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+[2026-03-22 23:23:21:073] GM命令2：哈迪斯, map , , ,  , ,,  
+
+[2026-03-22 23:23:25:424] 消息记录:哈迪斯[600-7,8] -> 1019,0,0,0,0,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvXk_HM^IVG[]lRhnnAKp?ptMBGMLikhoHDnJ@XC?Op{?tXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+
+[2026-03-22 23:26:01:307] GM命令2：哈迪斯, f ,600 , ,  , ,,  
+
+[2026-03-22 23:26:22:744] 玩家 哈迪斯 下线1(0,0,51)。。
+[2026-03-22 23:26:22:745] 玩家 哈迪斯 下线(0,0,51)。。
+[2026-03-22 23:26:22:746] >>CloseUser2 哈迪斯-0-0
+
+[2026-03-22 23:26:34:078] 共享HUMMAPMAP映射名：mssql
+[2026-03-22 23:26:34:078] 共享HEROMAP映射名：mssql_hero
+[2026-03-22 23:26:34:943] 加载新版地图14字节: D:\MirServer\Mir200\map\0.map(700/700)
+[2026-03-22 23:26:35:028] 加载新版地图14字节: D:\MirServer\Mir200\map\3.map(1000/800)
+[2026-03-22 23:26:35:140] 加载新版地图14字节: D:\MirServer\Mir200\map\M101.map(20/25)
+[2026-03-22 23:26:36:362] 登录服务器(127.0.0.1:5600)连接成功...
+[2026-03-22 23:26:37:822] 游戏网关[0](127.0.0.1:23736)已打开..
+
+[2026-03-22 23:26:38:699] 数据库服务器(127.0.0.1:6000)连接成功.
+
+[2026-03-22 23:27:03:896] >>Login: 1 
+[2026-03-22 23:27:03:896] >>Login: 2 soft119, sessionID:3
+[2026-03-22 23:27:03:896] >>Login: 3 soft119
+[2026-03-22 23:27:03:898] >>Login: 5_0 soft119
+[2026-03-22 23:27:03:900] >>Login: 5 soft119, 1, 1
+[2026-03-22 23:27:03:900] >>Login: 6 soft119
+[2026-03-22 23:27:03:900] >>Login: TFrontEngine.LoadHumFromDB soft119-1773657920000001167,flag:6
+[2026-03-22 23:27:04:087] >>Login: 6-1 soft119
+[2026-03-22 23:27:04:087] >>哈迪斯，变量加载中...
+[2026-03-22 23:27:04:087] >>哈迪斯，数据库加载变量
+[2026-03-22 23:27:04:087] >>Login: 6-3 soft119, AType:0
+[2026-03-22 23:27:04:087] >>Login: 7 soft119
+[2026-03-22 23:27:04:088] >>Login: 8 soft119
+[2026-03-22 23:27:04:476] >>Login: 8_3 soft119
+[2026-03-22 23:27:04:476] 消息记录:哈迪斯[600-349,477] -> 1018,0,50332672,99,1,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvXk_HM^IVG[]lRhnnAKp?ptMBGMLikhoHDnJ@XC?Op{?tXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+[2026-03-22 23:27:04:524] >>Login: 9 soft119
+[2026-03-22 23:27:04:524] >>Login: 11 soft119
+[2026-03-22 23:27:04:634] Title Load:哈迪斯 - 
+[2026-03-22 23:27:04:647] 消息记录:哈迪斯[600-60,60] -> 81,0,0,0,0,
+[2026-03-22 23:27:04:647] 消息记录:哈迪斯[600-60,60] -> 5285,1,0,0,635,LmsJSXJJ@_Re_=TNWgueLzMPtl^]@]Wyk_tu<luc?pAjEFWbglE>KQpzZ^q>rOwZV=rgLiTHRwZ`JCo<tqBnGvfabQK?[H<TPVdk[?rVuaI_Y?OzR=r\f^l`vM\fGrnsB?MRSdx<vQUZ_l?eQavKTl[@of?QF\WeSIe_=xNI=n`pUUweL>{QiV>^_LXeIE>bvTTkQaN\btqhdoNLejb>Gra\dKh`={PpSMse\^yejf>KEBlHIBvUvUpksgf\_qHCwoMXDJ`f{iS<dHMO=zxpJYWebkuRgf=ZPrmpI?cRg_^OIIuUZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZn@Sbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZUaT]KvzDSbURDOzk^AubQ^@{gt]ZUaT]KvzDSbURDOzk^AubQ^@{gt]ZUaT]KvzDSbURDOzk^AubQ^@{gt]ZUaT]KvzDSbURDOzk^AubQ\=Z\AiE><\
+[2026-03-22 23:27:04:652] 消息记录:哈迪斯[600-60,60] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-22 23:27:04:652] 消息记录:哈迪斯[600-60,60] -> 1151,0,0,0,0,
+[2026-03-22 23:27:04:653] 消息记录:哈迪斯[600-60,60] -> 5012,0,0,0,0,600
+[2026-03-22 23:27:04:943] 消息记录:哈迪斯[600-60,60] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-22 23:27:04:943] 消息记录:哈迪斯[600-60,60] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-22 23:27:04:943] 消息记录:哈迪斯[600-60,60] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-22 23:27:06:876] 消息记录:哈迪斯[600-60,60] -> 1019,0,0,0,0,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvXk_HM^IVG[]lRhnnAKp?ptMBGMLikhoHDnJ@XC?Op{?tXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+
+[2026-03-22 23:27:08:943] 消息记录:哈迪斯[600-60,58] -> 3010,0,6,3801148,3801148,
+[2026-03-22 23:27:11:877] 消息记录:哈迪斯[600-60,60] -> 1019,0,0,0,0,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvXk_HM^IVG[]lRhnnAKp?ptMBGMLikhoHDnJ@XC?Op{?tXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+
+[2026-03-22 23:27:16:876] 消息记录:哈迪斯[600-60,60] -> 1019,0,0,0,0,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvXk_HM^IVG[]lRhnnAKp?ptMBGMLikhoHDnJ@XC?Op{?tXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+
+[2026-03-22 23:30:25:558] GM命令2：哈迪斯, f ,0121 , ,  , ,,  
+[2026-03-22 23:30:25:665] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[600->0121] curTid:20760
+[2026-03-22 23:30:25:760] 消息记录:哈迪斯[0121-7,9] -> 5012,0,0,0,0,0121
+
+[2026-03-22 23:33:44:045] 共享HUMMAPMAP映射名：mssql
+[2026-03-22 23:33:44:045] 共享HEROMAP映射名：mssql_hero
+[2026-03-22 23:33:44:903] 加载新版地图14字节: D:\MirServer\Mir200\map\0.map(700/700)
+[2026-03-22 23:33:44:988] 加载新版地图14字节: D:\MirServer\Mir200\map\3.map(1000/800)
+[2026-03-22 23:33:45:097] 加载新版地图14字节: D:\MirServer\Mir200\map\M101.map(20/25)
+[2026-03-22 23:33:46:310] 登录服务器(127.0.0.1:5600)连接成功...
+[2026-03-22 23:33:47:634] 游戏网关[0](127.0.0.1:23967)已打开..
+
+[2026-03-22 23:33:48:654] 数据库服务器(127.0.0.1:6000)连接成功.
+
+[2026-03-22 23:34:27:631] >>Login: 1 
+[2026-03-22 23:34:27:631] >>Login: 2 soft119, sessionID:4
+[2026-03-22 23:34:27:631] >>Login: 3 soft119
+[2026-03-22 23:34:27:632] >>Login: 5_0 soft119
+[2026-03-22 23:34:27:634] >>Login: 5 soft119, 1, 1
+[2026-03-22 23:34:27:634] >>Login: 6 soft119
+[2026-03-22 23:34:27:634] >>Login: TFrontEngine.LoadHumFromDB soft119-1773657920000001167,flag:6
+[2026-03-22 23:34:27:650] >>Login: 6-1 soft119
+[2026-03-22 23:34:27:650] >>哈迪斯，变量加载中...
+[2026-03-22 23:34:27:650] >>哈迪斯，数据库加载变量
+[2026-03-22 23:34:27:650] >>Login: 6-3 soft119, AType:0
+[2026-03-22 23:34:27:650] >>Login: 7 soft119
+[2026-03-22 23:34:27:651] >>Login: 8 soft119
+
+[2026-03-22 23:34:28:279] >>Login: 8_3 soft119
+[2026-03-22 23:34:28:279] 消息记录:哈迪斯[0121-6,10] -> 1018,0,50332672,99,1,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvXk_HM^IVG[]lRhnnAKp?ptMBGMLikhoHDnJ@XC?Op{?tXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+[2026-03-22 23:34:28:307] >>Login: 9 soft119
+[2026-03-22 23:34:28:307] >>Login: 11 soft119
+[2026-03-22 23:34:28:416] Title Load:哈迪斯 - 
+[2026-03-22 23:34:28:416] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[0121->600] curTid:9008
+[2026-03-22 23:34:28:451] 消息记录:哈迪斯[600-50,40] -> 81,0,0,0,0,
+[2026-03-22 23:34:28:451] 消息记录:哈迪斯[600-50,40] -> 5285,1,0,0,635,LmsJSXJJ@_Re_=TNWgueLzMPtl^]@]Wyk_tu<luc?pAjEFWbglE>KQpzZ^q>rOwZV=rgLiTHRwZ`JCo<tqBnGvfabQK?[H<TPVdk[?rVuaI_Y?OzR=r\f^l`vM\fGrnsB?MRSdx<vQUZ_l?eQavKTl[@of?QF\WeSIe_=xNI=n`pUUweL>{QiV>^_LXeIE>bvTTkQaN\btqhdoNLejb>Gra\dKh`={PpSMse\^yejf>KEBlHIBvUvUpksgf\_qHCwoMXDJ`f{iS<dHMO=zxpJYWebkuRgf=ZPrmpI?cRg_^OIIuUZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZn@Sbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZUaT]KvzDSbURDOzk^AubQ^@{gt]ZUaT]KvzDSbURDOzk^AubQ^@{gt]ZUaT]KvzDSbURDOzk^AubQ^@{gt]ZUaT]KvzDSbURDOzk^AubQ\=Z\AiE><\
+[2026-03-22 23:34:28:456] 消息记录:哈迪斯[600-50,40] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-22 23:34:28:456] 消息记录:哈迪斯[600-50,40] -> 1151,0,0,0,0,
+[2026-03-22 23:34:28:457] 消息记录:哈迪斯[600-50,40] -> 5012,0,0,0,0,0121
+[2026-03-22 23:34:28:702] 消息记录:哈迪斯[600-50,40] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-22 23:34:28:702] 消息记录:哈迪斯[600-50,40] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-22 23:34:28:703] 消息记录:哈迪斯[600-50,40] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-22 23:34:28:729] 消息记录:哈迪斯[600-50,40] -> 5012,0,0,0,0,600
+[2026-03-22 23:34:30:545] 消息记录:哈迪斯[600-48,42] -> 1019,0,0,0,0,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvXk_HM^IVG[]lRhnnAKp?ptMBGMLikhoHDnJ@XC?Op{?tXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+
+[2026-03-22 23:34:35:546] 消息记录:哈迪斯[600-48,40] -> 1019,0,0,0,0,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvXk_HM^IVG[]lRhnnAKp?ptMBGMLikhoHDnJ@XC?Op{?tXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+
+[2026-03-22 23:34:40:547] 消息记录:哈迪斯[600-48,40] -> 1019,0,0,0,0,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvXk_HM^IVG[]lRhnnAKp?ptMBGMLikhoHDnJ@XC?Op{?tXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+
+[2026-03-22 23:47:38:134] 玩家 哈迪斯 下线1(0,0,51)。。
+[2026-03-22 23:47:38:134] 玩家 哈迪斯 下线(0,0,51)。。
+[2026-03-22 23:47:38:135] >>CloseUser2 哈迪斯-0-0
+
+[2026-03-22 23:47:50:180] 共享HUMMAPMAP映射名：mssql
+[2026-03-22 23:47:50:180] 共享HEROMAP映射名：mssql_hero
+[2026-03-22 23:47:51:036] 加载新版地图14字节: D:\MirServer\Mir200\map\0.map(700/700)
+[2026-03-22 23:47:51:122] 加载新版地图14字节: D:\MirServer\Mir200\map\3.map(1000/800)
+[2026-03-22 23:47:51:232] 加载新版地图14字节: D:\MirServer\Mir200\map\M101.map(20/25)
+[2026-03-22 23:47:52:475] 登录服务器(127.0.0.1:5600)连接成功...
+[2026-03-22 23:47:53:855] 游戏网关[0](127.0.0.1:24250)已打开..
+
+[2026-03-22 23:47:54:823] 数据库服务器(127.0.0.1:6000)连接成功.
+
+[2026-03-22 23:48:20:632] >>Login: 1 
+[2026-03-22 23:48:20:632] >>Login: 2 soft119, sessionID:5
+[2026-03-22 23:48:20:632] >>Login: 3 soft119
+[2026-03-22 23:48:20:634] >>Login: 5_0 soft119
+[2026-03-22 23:48:20:636] >>Login: 5 soft119, 1, 1
+[2026-03-22 23:48:20:636] >>Login: 6 soft119
+[2026-03-22 23:48:20:636] >>Login: TFrontEngine.LoadHumFromDB soft119-1773657920000001167,flag:6
+[2026-03-22 23:48:20:790] >>Login: 6-1 soft119
+[2026-03-22 23:48:20:790] >>哈迪斯，变量加载中...
+[2026-03-22 23:48:20:790] >>哈迪斯，数据库加载变量
+[2026-03-22 23:48:20:790] >>Login: 6-3 soft119, AType:0
+[2026-03-22 23:48:20:790] >>Login: 7 soft119
+[2026-03-22 23:48:20:792] >>Login: 8 soft119
+[2026-03-22 23:48:21:230] >>Login: 8_3 soft119
+[2026-03-22 23:48:21:230] 消息记录:哈迪斯[600-48,40] -> 1018,0,50332672,99,1,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvXk_HM^IVG[]lRhnnAKp?ptMBGMLikhoHDnJ@XC?Op{?tXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+[2026-03-22 23:48:21:337] >>Login: 9 soft119
+[2026-03-22 23:48:21:337] >>Login: 11 soft119
+[2026-03-22 23:48:21:448] Title Load:哈迪斯 - 
+[2026-03-22 23:48:21:468] 消息记录:哈迪斯[600-50,40] -> 81,0,0,0,0,
+[2026-03-22 23:48:21:468] 消息记录:哈迪斯[600-50,40] -> 5285,1,0,0,635,LmsJSXJJ@_Re_=TNWgueLzMPtl^]@]Wyk_tu<luc?pAjEFWbglE>KQpzZ^q>rOwZV=rgLiTHRwZ`JCo<tqBnGvfabQK?[H<TPVdk[?rVuaI_Y?OzR=r\f^l`vM\fGrnsB?MRSdx<vQUZ_l?eQavKTl[@of?QF\WeSIe_=xNI=n`pUUweL>{QiV>^_LXeIE>bvTTkQaN\btqhdoNLejb>Gra\dKh`={PpSMse\^yejf>KEBlHIBvUvUpksgf\_qHCwoMXDJ`f{iS<dHMO=zxpJYWebkuRgf=ZPrmpI?cRg_^OIIuUZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZn@Sbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZUaT]KvzDSbURDOzk^AubQ^@{gt]ZUaT]KvzDSbURDOzk^AubQ^@{gt]ZUaT]KvzDSbURDOzk^AubQ^@{gt]ZUaT]KvzDSbURDOzk^AubQ\=Z\AiE><\
+[2026-03-22 23:48:21:472] 消息记录:哈迪斯[600-50,40] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-22 23:48:21:472] 消息记录:哈迪斯[600-50,40] -> 1151,0,0,0,0,
+[2026-03-22 23:48:21:474] 消息记录:哈迪斯[600-50,40] -> 5012,0,0,0,0,600
+[2026-03-22 23:48:22:349] 消息记录:哈迪斯[600-50,40] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-22 23:48:22:350] 消息记录:哈迪斯[600-50,40] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-22 23:48:22:350] 消息记录:哈迪斯[600-50,40] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+
+[2026-03-22 23:48:24:280] 消息记录:哈迪斯[600-50,40] -> 1019,0,0,0,0,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvXk_HM^IVG[]lRhnnAKp?ptMBGMLikhoHDnJ@XC?Op{?tXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+
+[2026-03-22 23:48:29:280] 消息记录:哈迪斯[600-50,40] -> 1019,0,0,0,0,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvXk_HM^IVG[]lRhnnAKp?ptMBGMLikhoHDnJ@XC?Op{?tXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+
+[2026-03-22 23:48:34:281] 消息记录:哈迪斯[600-50,40] -> 1019,0,0,0,0,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvXk_HM^IVG[]lRhnnAKp?ptMBGMLikhoHDnJ@XC?Op{?tXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+
+[2026-03-22 23:49:40:469] 消息记录:哈迪斯[600-52,41] -> 1006,0,2,0,10190,
+[2026-03-22 23:49:43:121] 消息记录:哈迪斯[600-156,176] -> 1006,0,2,0,12319,
+[2026-03-22 23:49:43:151] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[600->3] curTid:21164
+[2026-03-22 23:49:43:238] 消息记录:哈迪斯[3-330,330] -> 5012,0,0,0,0,3
+
+[2026-03-22 23:49:56:384] 玩家 哈迪斯 下线1(0,0,51)。。
+[2026-03-22 23:49:56:385] 玩家 哈迪斯 下线(0,0,51)。。
+[2026-03-22 23:49:56:387] >>CloseUser2 哈迪斯-0-0
+
+[2026-03-22 23:51:20:070] 共享HUMMAPMAP映射名：mssql
+[2026-03-22 23:51:20:070] 共享HEROMAP映射名：mssql_hero
+[2026-03-22 23:51:20:941] 加载新版地图14字节: D:\MirServer\Mir200\map\0.map(700/700)
+[2026-03-22 23:51:21:027] 加载新版地图14字节: D:\MirServer\Mir200\map\3.map(1000/800)
+[2026-03-22 23:51:21:137] 加载新版地图14字节: D:\MirServer\Mir200\map\M101.map(20/25)
+[2026-03-22 23:51:22:366] 登录服务器(127.0.0.1:5600)连接成功...
+[2026-03-22 23:51:23:479] 游戏网关[0](127.0.0.1:24403)已打开..
+
+[2026-03-22 23:51:24:713] 数据库服务器(127.0.0.1:6000)连接成功.
+
+[2026-03-22 23:51:48:272] >>Login: 1 
+[2026-03-22 23:51:48:272] >>Login: 2 soft119, sessionID:6
+[2026-03-22 23:51:48:272] >>Login: 3 soft119
+[2026-03-22 23:51:48:273] >>Login: 5_0 soft119
+[2026-03-22 23:51:48:275] >>Login: 5 soft119, 1, 1
+[2026-03-22 23:51:48:275] >>Login: 6 soft119
+[2026-03-22 23:51:48:275] >>Login: TFrontEngine.LoadHumFromDB soft119-1773657920000001167,flag:6
+[2026-03-22 23:51:48:446] >>Login: 6-1 soft119
+[2026-03-22 23:51:48:446] >>哈迪斯，变量加载中...
+[2026-03-22 23:51:48:446] >>哈迪斯，数据库加载变量
+[2026-03-22 23:51:48:446] >>Login: 6-3 soft119, AType:0
+[2026-03-22 23:51:48:446] >>Login: 7 soft119
+[2026-03-22 23:51:48:447] >>Login: 8 soft119
+[2026-03-22 23:51:48:764] >>Login: 8_3 soft119
+[2026-03-22 23:51:48:764] 消息记录:哈迪斯[3-332,332] -> 1018,0,50332672,99,1,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvXk_HM^IVG[]lRhnnAKp?ptMBGMLikhoHDnJ@XC?Op{?tXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+[2026-03-22 23:51:48:775] >>Login: 9 soft119
+[2026-03-22 23:51:48:775] >>Login: 11 soft119
+[2026-03-22 23:51:48:886] Title Load:哈迪斯 - 
+[2026-03-22 23:51:48:886] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[3->600] curTid:20576
+[2026-03-22 23:51:48:904] 消息记录:哈迪斯[600-230,200] -> 81,0,0,0,0,
+[2026-03-22 23:51:48:904] 消息记录:哈迪斯[600-230,200] -> 5285,1,0,0,635,LmsJSXJJ@_Re_=TNWgueLzMPtl^]@]Wyk_tu<luc?pAjEFWbglE>KQpzZ^q>rOwZV=rgLiTHRwZ`JCo<tqBnGvfabQK?[H<TPVdk[?rVuaI_Y?OzR=r\f^l`vM\fGrnsB?MRSdx<vQUZ_l?eQavKTl[@of?QF\WeSIe_=xNI=n`pUUweL>{QiV>^_LXeIE>bvTTkQaN\btqhdoNLejb>Gra\dKh`={PpSMse\^yejf>KEBlHIBvUvUpksgf\_qHCwoMXDJ`f{iS<dHMO=zxpJYWebkuRgf=ZPrmpI?cRg_^OIIuUZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZn@Sbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZUaT]KvzDSbURDOzk^AubQ^@{gt]ZUaT]KvzDSbURDOzk^AubQ^@{gt]ZUaT]KvzDSbURDOzk^AubQ^@{gt]ZUaT]KvzDSbURDOzk^AubQ\=Z\AiE><\
+[2026-03-22 23:51:48:909] 消息记录:哈迪斯[600-230,200] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-22 23:51:48:909] 消息记录:哈迪斯[600-230,200] -> 1151,0,0,0,0,
+[2026-03-22 23:51:48:911] 消息记录:哈迪斯[600-230,200] -> 5012,0,0,0,0,3
+
+[2026-03-22 23:51:49:271] 消息记录:哈迪斯[600-230,200] -> 5012,0,0,0,0,600
+[2026-03-22 23:51:49:440] 消息记录:哈迪斯[600-230,200] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-22 23:51:49:440] 消息记录:哈迪斯[600-230,200] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-22 23:51:49:440] 消息记录:哈迪斯[600-230,200] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-22 23:51:51:381] 消息记录:哈迪斯[600-230,200] -> 1019,0,0,0,0,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvXk_HM^IVG[]lRhnnAKp?ptMBGMLikhoHDnJ@XC?Op{?tXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+
+[2026-03-22 23:51:56:387] 消息记录:哈迪斯[600-226,204] -> 1019,0,0,0,0,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvXk_HM^IVG[]lRhnnAKp?ptMBGMLikhoHDnJ@XC?Op{?tXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+
+[2026-03-22 23:52:01:381] 消息记录:哈迪斯[600-226,204] -> 1019,0,0,0,0,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvXk_HM^IVG[]lRhnnAKp?ptMBGMLikhoHDnJ@XC?Op{?tXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+
+[2026-03-22 23:52:28:041] 玩家 哈迪斯 下线1(0,0,51)。。
+[2026-03-22 23:52:28:042] 玩家 哈迪斯 下线(0,0,51)。。
+[2026-03-22 23:52:28:043] >>CloseUser2 哈迪斯-0-0
+
+[2026-03-22 23:56:38:078] 共享HUMMAPMAP映射名：mssql
+[2026-03-22 23:56:38:078] 共享HEROMAP映射名：mssql_hero
+[2026-03-22 23:56:38:940] 加载新版地图14字节: D:\MirServer\Mir200\map\0.map(700/700)
+[2026-03-22 23:56:39:027] 加载新版地图14字节: D:\MirServer\Mir200\map\3.map(1000/800)
+[2026-03-22 23:56:39:137] 加载新版地图14字节: D:\MirServer\Mir200\map\M101.map(20/25)
+[2026-03-22 23:56:40:371] 登录服务器(127.0.0.1:5600)连接成功...
+[2026-03-22 23:56:41:979] 游戏网关[0](127.0.0.1:24564)已打开..
+
+[2026-03-22 23:56:42:717] 数据库服务器(127.0.0.1:6000)连接成功.
+
+[2026-03-22 23:57:22:144] >>Login: 1 
+[2026-03-22 23:57:22:144] >>Login: 2 soft119, sessionID:7
+[2026-03-22 23:57:22:144] >>Login: 3 soft119
+[2026-03-22 23:57:22:145] >>Login: 5_0 soft119
+[2026-03-22 23:57:22:148] >>Login: 5 soft119, 1, 1
+[2026-03-22 23:57:22:148] >>Login: 6 soft119
+[2026-03-22 23:57:22:148] >>Login: TFrontEngine.LoadHumFromDB soft119-1773657920000001167,flag:6
+[2026-03-22 23:57:22:306] >>Login: 6-1 soft119
+[2026-03-22 23:57:22:306] >>哈迪斯，变量加载中...
+[2026-03-22 23:57:22:306] >>哈迪斯，数据库加载变量
+[2026-03-22 23:57:22:306] >>Login: 6-3 soft119, AType:0
+[2026-03-22 23:57:22:306] >>Login: 7 soft119
+[2026-03-22 23:57:22:307] >>Login: 8 soft119
+[2026-03-22 23:57:23:125] >>Login: 8_3 soft119
+[2026-03-22 23:57:23:125] 消息记录:哈迪斯[3-328,330] -> 1018,0,50332672,99,1,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvXk_HM^IVG[]lRhnnAKp?ptMBGMLikhoHDnJ@XC?Op{?tXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+[2026-03-22 23:57:23:181] >>Login: 9 soft119
+[2026-03-22 23:57:23:181] >>Login: 11 soft119
+[2026-03-22 23:57:23:291] Title Load:哈迪斯 - 
+[2026-03-22 23:57:23:292] >>>>>TBaseObject.SpaceMove 哈迪斯-1773657920000001167[3->D022] curTid:5360
+[2026-03-22 23:57:23:313] 消息记录:哈迪斯[D022-230,200] -> 81,0,0,0,0,
+[2026-03-22 23:57:23:313] 消息记录:哈迪斯[D022-230,200] -> 5285,1,0,0,635,LmsJSXJJ@_Re_=TNWgueLzMPtl^]@]Wyk_tu<luc?pAjEFWbglE>KQpzZ^q>rOwZV=rgLiTHRwZ`JCo<tqBnGvfabQK?[H<TPVdk[?rVuaI_Y?OzR=r\f^l`vM\fGrnsB?MRSdx<vQUZ_l?eQavKTl[@of?QF\WeSIe_=xNI=n`pUUweL>{QiV>^_LXeIE>bvTTkQaN\btqhdoNLejb>Gra\dKh`={PpSMse\^yejf>KEBlHIBvUvUpksgf\_qHCwoMXDJ`f{iS<dHMO=zxpJYWebkuRgf=ZPrmpI?cRg_^OIIuUZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZn@Sbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZUaT]KvzDSbURDOzk^AubQ^@{gt]ZUaT]KvzDSbURDOzk^AubQ^@{gt]ZUaT]KvzDSbURDOzk^AubQ^@{gt]ZUaT]KvzDSbURDOzk^AubQ\=Z\AiE><\
+[2026-03-22 23:57:23:317] 消息记录:哈迪斯[D022-230,200] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-22 23:57:23:317] 消息记录:哈迪斯[D022-230,200] -> 1151,0,0,0,0,
+[2026-03-22 23:57:23:320] 消息记录:哈迪斯[D022-230,200] -> 5012,0,0,0,0,3
+[2026-03-22 23:57:23:681] 消息记录:哈迪斯[D022-230,200] -> 5012,0,0,0,0,D022
+[2026-03-22 23:57:23:976] 消息记录:哈迪斯[D022-230,200] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-22 23:57:23:976] 消息记录:哈迪斯[D022-230,200] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-22 23:57:23:976] 消息记录:哈迪斯[D022-230,200] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-22 23:57:25:908] 消息记录:哈迪斯[D022-230,200] -> 1019,0,0,0,0,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvXk_HM^IVG[]lRhnnAKp?ptMBGMLikhoHDnJ@XC?Op{?tXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+
+[2026-03-22 23:57:30:908] 消息记录:哈迪斯[D022-230,210] -> 1019,0,0,0,0,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvXk_HM^IVG[]lRhnnAKp?ptMBGMLikhoHDnJ@XC?Op{?tXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+
+[2026-03-22 23:57:35:908] 消息记录:哈迪斯[D022-222,214] -> 1019,0,0,0,0,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvXk_HM^IVG[]lRhnnAKp?ptMBGMLikhoHDnJ@XC?Op{?tXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+
+[2026-03-22 23:57:49:561] 消息记录:哈迪斯[D023-198,195] -> 5012,0,0,0,0,D023
+
+[2026-03-22 23:57:52:195] 消息记录:哈迪斯[D022-250,206] -> 5012,0,0,0,0,D022
+
+[2026-03-23 00:03:08:354] 玩家 哈迪斯 下线1(0,0,51)。。
+[2026-03-23 00:03:08:354] 玩家 哈迪斯 下线(0,0,51)。。
+[2026-03-23 00:03:08:370] >>CloseUser2 哈迪斯-0-0
+

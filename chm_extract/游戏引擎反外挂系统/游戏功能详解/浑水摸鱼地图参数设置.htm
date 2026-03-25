@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>浑水摸鱼地图参数设置</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style type="text/css">
+<!--
+.STYLE8 {color: #0000FF}
+-->
+</style>
+</head>
+
+<BODY>
+<p class="STYLE8">[+] 增加地图参数：SECRET(31|固定名字|2|21) //浑水摸鱼模式<br />
+    <br />
+  01 禁止说话<br />
+  02 禁止名字变色<br />
+  04 禁止看对方装备<br />
+  08 统一名字 //第2参数就是指定显示的名字<br />
+  16 统一装备外观 //第3参数指衣服外观，第4参数指武器外观<br />
+  32 是否百分比显血 //是否人物、英雄HP以百分比显示<br />
+  <strong>如果要多个功能起作用，相加对应的数字即可， </strong><br />
+  例如：禁止名字变色(02) + 禁止看对方装备(04) + 统一装备外观(16)，等于：22，既是第1参数=22</p>
+<p class="STYLE8">&nbsp;</p>
+<p class="STYLE8">SECRET(31|固定名字|2|21)</p>
+<p class="STYLE8">特别解说: 第一参数 31 为控制总参数</p>
+<p class="STYLE8">总参数分为</p>
+<p class="STYLE8">01 禁止说话<br />
+  02 禁止名字变色<br />
+  04 禁止看对方装备<br />
+  08 统一名字 //第2参数就是指定显示的名字<br />
+  16 统一装备外观 //第3参数指衣服外观，第4参数指武器外观<br />
+  32 是否百分比显血 //是否人物、影响HP以百分比显示 </p>
+<p class="STYLE8">假如第一参数为01时 SECRET(1|固定名字|2|21) 那么后面的 |固定名字|2|21 的几个参数也必须写上但是不生效</p>
+<p class="STYLE8">举列: 我要设置盟重身 所有玩家名字为 神秘人 禁止说话 禁止查看对方装备</p>
+<p class="STYLE8">那么第一参数就是 01+08+04=13 第2参数写 神秘人 第3参数和第4参数由于未用到可以随便写不起效</p>
+<p class="STYLE8">[盟重省 3] SECRET(13|神秘人|2|21)</p>
+<p class="STYLE8">举列2: 我要设置盟重身 所有玩家名字为 神秘人 禁止说话 禁止名字变色 禁止查看对方装备 统一装备外观为倚天衣=物品库的倚天衣SHAPE=35 统一武器外观为倚天武器=物品库的SHAPE=68</p>
+<p class="STYLE8">那么第一参数就是 1+2+4+8+16=31 第2参数写 神秘人 第3参数写35 第4参数写68</p>
+<p class="STYLE8">[盟重省 3] SECRET(31|神秘人|35|68)</p>
+<p class="STYLE8">&nbsp;</p>
+<p class="STYLE8">举列2: 我要设置盟重身 所有玩家名字为 神秘人 禁止说话 禁止名字变色 禁止查看对方装备 统一装备外观为倚天衣=物品库的倚天衣SHAPE=35 统一武器外观为倚天武器=物品库的SHAPE=68 .比例显血</p>
+<p class="STYLE8">那么第一参数就是 1+2+4+8+16+32=63 第2参数写 神秘人 第3参数写35 第4参数写68</p>
+<p class="STYLE8">[盟重省 3] SECRET(63|神秘人|35|68)</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</BODY>
+</html>

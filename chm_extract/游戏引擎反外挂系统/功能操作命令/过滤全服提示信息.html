@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>过滤全服提示信息</title>
+</HEAD>
+<BODY>
+<P><FONT size=2><FONT face=宋体><STRONG><FONT color=#0000ff>功能：</FONT></STRONG><BR>&nbsp;&nbsp;&nbsp; 过滤全服提示信息，发送给个人的信息不过滤</FONT>
+ </FONT></P>
+<P><FONT face=宋体><FONT color=#0000ff size=2><STRONG>格式：<BR>
+</STRONG></FONT>FILTERGLOBALMSG 聊天框(0不过滤，1过滤) 
+聊天框固顶(0不过滤，1过滤) SendMoveMsg(0不过滤，1过滤) 
+SendCenterMsg(0不过滤，1过滤,如果有字段触发的还是会触发，只是客户端不显示信息) 
+SendVerticalMoveMsg(0不过滤，1过滤)</FONT> 掉落提示消息(0不过滤，1过滤)     </P>
+<P><br><FONT face=宋体>
+  [@main]<br>
+  #IF<br>
+  #ACT<br>
+  FILTERGLOBALMSG 1<br>
+  SENDMSG 6 
+开启过滤全服提示信息，你不在接受如SENDMSG、GuildNoticeMsg等等脚本命令发送的全服提示信息。</FONT>
+    </P>
+<P><FONT face=宋体></FONT>&nbsp;</P>
+<P><FONT face=宋体>[@过滤聊天框和聊天框固顶信息]<br>
+#IF<br>
+#ACT<br>
+FILTERGLOBALMSG 1 1 <br>
+SENDMSG 6 
+过滤聊天框和聊天框固顶信息</FONT>
+  </P>
+<P><FONT face=宋体>[@过滤SendCenterMsg信息]<br>
+#IF<br>
+#ACT<br>
+FILTERGLOBALMSG 0 0 1 <br>
+SENDMSG 6 
+过滤SendCenterMsg信息</FONT>
+  </P>
+<P><FONT face=宋体></FONT>&nbsp;</P>
+<P><FONT face=宋体>[@过滤所有信息]<br>
+#IF<br>
+#ACT<br>
+FILTERGLOBALMSG 1 
+1 1 1 1 1<br>
+SENDMSG 6 过滤所有信息</FONT>
+  </P>
+</BODY>
+</HTML>
+

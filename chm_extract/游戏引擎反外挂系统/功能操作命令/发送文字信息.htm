@@ -1,0 +1,67 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>发送文字信息</title>
+</HEAD>
+<BODY>
+<P><FONT face=宋体>发送文字信息<BR></FONT></P>
+<P><FONT size=2><FONT face=宋体><FONT color=#0000ff>功能：</FONT><BR>&nbsp;&nbsp;&nbsp; 利用NPC发送信息。</FONT> 
+</FONT></P>
+<P><FONT face=宋体><FONT size=2><FONT color=#0000ff>格式：<BR>
+</FONT>&nbsp;&nbsp;&nbsp; 
+</FONT><FONT size=2>SENDMSG 信息类型代码  字体颜色(0-255) 背景颜色(0-255)</FONT> <FONT size=2>%s信息内容%d</FONT></FONT></P>
+<P><FONT size=2><FONT face=宋体><FONT color=#0000ff>信息类型代码：</FONT><BR>&nbsp;&nbsp;&nbsp; 
+1、发送普通红色广播信息。<BR>&nbsp;&nbsp;&nbsp; 2、发送普通红色广播信息，并显示NPC名称。<BR>&nbsp;&nbsp;&nbsp; 
+3、发送普通红色广播信息，并人物NPC名称。<BR>&nbsp;&nbsp;&nbsp; 
+4、在NPC头顶，显示普通说话信息。<BR>&nbsp;&nbsp;&nbsp; 5、发送红色信息给人物<BR>&nbsp;&nbsp;&nbsp; 
+6、发送绿色信息给人物<BR>
+&nbsp;&nbsp;&nbsp; 7、发送蓝色信息给人物<br>&nbsp;&nbsp;&nbsp; 8、跨服发送给所有人<BR>&nbsp;&nbsp;&nbsp; 9、发送屏幕中间快捷栏上方透明提示信息(支持多种颜色组合)</FONT>&nbsp;
+ </FONT></P>
+<P><FONT color=#ff0000 size=2 face=宋体>&nbsp;&nbsp;&nbsp; %s 代表人物名称<BR>
+  &nbsp;&nbsp;&nbsp; %d 代表NPC名称<br>
+&nbsp;&nbsp;&nbsp; %ServerName 区名称</FONT></P>
+<P><FONT face=宋体><FONT size=2><FONT color=#0000ff>命令格式：</FONT><BR>[@test]<BR>#IF<BR>#ACT<BR>
+  SENDMSG 0 
+%s信息内容%d<BR>
+SENDMSG 1 %s信息内容%d<BR>
+SENDMSG 2 %s信息内容%d<BR>
+SENDMSG 3 
+%s信息内容%d<BR>
+SENDMSG 4 %s信息内容%d<BR>
+SENDMSG 5 %s信息内容%d<BR>
+SENDMSG 7 %s信息内容%d<br>
+SENDMSG 8 </FONT><FONT size=2>%s信息内容%d<BR>SENDMSG&nbsp;9<FONT size=2>&lt;font&nbsp;color='#00FF00'&gt;信息内容&lt;/font&gt;</FONT><BR></FONT></FONT></P>
+<P><FONT face=宋体>;以下是自定义颜色</FONT></P>
+<p><FONT face=宋体>SENDMSG 0 249 47 %s信息内容%d<br>
+  SENDMSG 1 249 255 %s信息内容%d<br>
+  SENDMSG 2 249 253 %s信息内容%d<br>
+  SENDMSG 3 249 47 %s信息内容%d<br>
+  SENDMSG 4 249 47 %s信息内容%d<br>
+  SENDMSG 5 249 47 %s信息内容%d<br>
+  SENDMSG 6 249 47 %s信息内容%d<br>
+  SENDMSG 7 249 47 %s信息内容%d<br>
+  SENDMSG 8 249 47  <FONT size=2>%s信息内容%d<BR>SENDMSG&nbsp;9&nbsp;&lt;font&nbsp;color='#FFFFFF'&gt;请预留2个&lt;/font&gt;&lt;font&nbsp;color='#00FF00'&gt;背包空格&lt;/font&gt;</FONT></FONT><FONT size=2><BR><FONT face=宋体>==================================================<BR><BR><BR><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; FONT-WEIGHT: bold; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">屏幕任意坐标发送公告信息 
+<FONT color=#000000>SendCustomMsg</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT color=#000000>SendCustomMsg 参数1 参数2 参数3 参数4 参数5 参数6 
+参数7<BR>参数1：消息类型<BR>参数2：消息内容<BR>参数3：前景色<BR>参数4：背景色<BR>参数5：X<BR>参数6：Y</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR><FONT color=#000000>参数7：PC(X)<BR>参数8：PC(Y)<BR></FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT color=#000000>;例</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT color=#000000>[@公告显示]</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT color=#000000>#IF</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT color=#000000>#ACT</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT color=#000000>SendCustomMsg 0 当前是自定</FONT>义坐标333,33显示0,249色显示 0 249 500 
+333</SPAN><BR><BR><BR><BR><BR></FONT></FONT></p>
+</BODY>
+</HTML>
+
+  

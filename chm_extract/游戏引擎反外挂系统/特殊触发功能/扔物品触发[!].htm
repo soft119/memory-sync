@@ -1,0 +1,64 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>扔物品触发[!]</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+</head>
+
+<BODY>
+<P><FONT face=Arial size=2><FONT face=Fixedsys>功能: 扔物品触发</FONT> <font color="#ff0000"><strong>人物死亡掉落或怪物死亡掉落的物品不触发<BR><BR></strong></font></FONT></P>
+<P><FONT size="2" face=宋体>@DropItemX</FONT> X是物品数据库中对应的IDX<BR><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT color=#c0c0c0><STRONG><FONT color=#000080>;注意:引擎默认的拾取触发IDX是ITEM表+1的，如果想要一一对应的话，必须勾选M2-参数设置-游戏选项(1)-IDX同步，并且清理掉客户端缓存才行即清空此目录X:\热血传奇\MirCache</FONT></STRONG><BR></FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT color=#ff0000><STRONG>;正式开区的区服不要修改此勾选，否则数据错乱后果自负。</STRONG><BR></FONT></SPAN> </P>
+<P><FONT size="2" face=宋体>[@DropItem0]<BR>
+  #IF<BR>
+#SAY<BR>
+某某某</FONT><FONT face=Arial size=2><FONT face=Fixedsys>扔</FONT></FONT><FONT size="2" face=宋体>了一个&lt;$CURRTEMNAME&gt;</FONT></P>
+<P><FONT face=Arial size=2><FONT face=Fixedsys><strong>扔</strong></FONT></FONT><strong>物品的相关常量</strong></P>
+<TABLE width="690" border=1 borderColor=#99ccff style="HEIGHT: 362px; WIDTH: 690px"><!--DWLayoutTable-->
+  <TR>
+    <TD width="143">&lt;$CURRTEMNAME&gt;</TD>
+    <TD width="452">当前物品名称 指人物掉落、捡取、杀死怪物爆出来</TD>
+  </TR>
+  <TR>
+    <TD>&lt;$G_CURRTEMNAME&gt;</TD>
+    <TD>当前物品改名名称 指人物掉落、捡取、杀死怪物爆出来</TD>
+  </TR>
+  <TR>
+    <TD>&lt;$CURRTEMSTDMODE&gt;</TD>
+    <TD>当前物品DB字段StdMode值 指人物掉落、捡取、杀死怪物爆出来</TD>
+  </TR>
+  <TR>
+    <TD>&lt;$CURRTEMSHAPE&gt;</TD>
+    <TD>当前物品DB字段Shape值 指人物掉落、捡取、杀死怪物爆出来</TD>
+  </TR>
+  <TR>
+    <TD>&lt;$CURRTEMANICOUNT&gt;</TD>
+    <TD>当前物品DB字段AniCount值 指人物掉落、捡取、杀死怪物爆出来</TD>
+  </TR>
+  <TR>
+    <TD>&lt;$CURRTEMLOOKS&gt;</TD>
+    <TD>当前物品DB字段Looks值 指人物掉落、捡取、杀死怪物爆出来</TD>
+  </TR>
+  <TR>
+    <TD>&lt;$CURRTEMDURA&gt;</TD>
+    <TD>当前物品当前持久值 指人物掉落、捡取、杀死怪物爆出来</TD>
+  </TR>
+  <TR>
+    <TD>&lt;$CURRTEMDURAMAX&gt;</TD>
+    <TD>当前物品最大值 指人物掉落、捡取、杀死怪物爆出来</TD>
+  </TR>
+  <TR>
+    <TD>&lt;$CURRTEMINDEX&gt;</TD>
+    <TD>当前物品DB字段Idx值 指人物掉落、捡取、杀死怪物爆出来</TD>
+  </TR>
+  <TR>
+    <TD>&lt;$CURRTEMCOLOR&gt;</TD>
+    <TD>当前物品DB字段Color值 指人物掉落、捡取、杀死怪物爆出来</TD>
+  </TR>
+</TABLE>
+<P></P>
+</BODY>
+</html>

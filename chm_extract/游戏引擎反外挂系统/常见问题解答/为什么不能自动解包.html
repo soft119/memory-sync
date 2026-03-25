@@ -1,0 +1,56 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>为什么不能自动解包</title>
+</HEAD>
+<BODY>
+为什么不能自动解包
+<p>客户端自动解包配置，药品数据库的Anicount=打包物品的Shape，这样才可以自动解包<br>
+  例如：<br>
+  强效金创药 Anicount=100 超级金创药 Shape=100<br>
+  疗伤药 Anicount=115 疗伤药包 Shape=115<br>
+  回城卷 Anicount=108 回城卷包 Shape=108</p>
+<p>支持2次打包<br>
+  例如：<br>
+  可以把“疗伤药包”再次打包<br>
+  疗伤药包 Anicount=120 超级疗伤药包 Shape=120</p>
+<p>使用启动器有个捆绑DB转换一下就正常了</p>
+<p> <br>
+</p>
+<p>新的解包配置文件 Envir\UnbindList.txt 格式，兼容旧格式，升级新M2如果不需要修改解包数量的，可以不修改Envir\UnbindList.txt：</p>
+<p>;物品DB字段Anicount的值 物品名称 解包数量 物品类型(0其他,1加红,2加蓝,3加红蓝,4卷轴)</p>
+<p>100 强效金创药 6 1<br>
+  101 强效魔法药 6 2<br>
+  119 强效太阳水 6 3<br>
+  120 万年雪霜 6 3<br>
+  102 金创药(小量) 6 1<br>
+  103 魔法药(小量) 6 2<br>
+  104 金创药(中量) 6 1<br>
+  105 魔法药(中量) 6 2<br>
+  106 地牢逃脱卷 6 4<br>
+  107 随机传送卷 6 4<br>
+  108 回城卷 6 4<br>
+  109 行会回城卷 6 
+4<BR><BR><BR><BR><BR><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">复古内挂普通体力药、特殊体力药优先级设置<BR><BR>Reserved= 
+优先级</SPAN>
+</p>
+<P class=p style="mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>普通红药</FONT>:(Reserved=0~99优先级,数字越小优先级越高)</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>普通蓝药</FONT>:(Reserved=0~99优先级,数字越小优先级越高)</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>瞬回药品</FONT>:(Reserved=0~99优先级,数字越小优先级越高)</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>回城系列</FONT>:(Reserved=0~99优先级,数字越小优先级越高)</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>随机系列</FONT>:(Reserved=0~99优先级,数字越小优先级越高)</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>如果没配</FONT>Reserved优先级,那么按照物品的IDX顺序来使用,优先使用排序在前面的物品&nbsp; </SPAN>
+     <br></P>
+</BODY>
+</HTML>
+ 

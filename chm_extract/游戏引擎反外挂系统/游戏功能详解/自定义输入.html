@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>自定义输入</title>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<p><FONT face=宋体>自定义输入</FONT></p>
+<p><FONT face=宋体>@@InPutString 用法 @InPutInteger 
+类似</FONT>     </p>
+<p><FONT face=宋体>22要和后面的变量一样&lt;$STR(S22)&gt;<BR><BR>输入框常量：&lt;$npcparams(类型,变量)&gt;<BR>&nbsp;;类型：1=输入框，2=勾选框，3=滑动条，4=下拉框(菜单)<BR>&nbsp; ;变量：面板传递的变量<BR><BR></FONT></p>
+<p><FONT face=宋体>举例说明：</FONT></p>
+<p><FONT face=宋体>[@main]<br >&lt;请输入充值卡卡号/@@InPutString22&gt;\</FONT>
+</p>
+<p><FONT face=宋体>[@InPutString22]<br >
+  #if<BR>#act<BR>MOV S22 
+&lt;$NPCPARAMS(1,S22)&gt;<BR>#if<BR>EQUAL 
+S22 996引擎<BR>#act<BR> sendmsg 
+6  
+常量值:&lt;$NPCPARAMS(1,S22)&gt;</p>
+<p><FONT face=宋体>---------------------------------------------------------------------</FONT></p>
+<p><FONT face=宋体>[@main]</FONT></p>
+<p><FONT face=宋体>支持自定义对话框标题，弹出来的对话框上面显示的信息，括号里的信息就是对话框上显示的信息<br >&lt;请输入充值卡卡号/@@InPutInteger22(请输入充值卡卡号：)&gt;\</FONT>
+  </p>
+<p><FONT face=宋体>[@InPutInteger22]<br >
+#if<BR>#act<BR>MOV N22 
+&lt;$NPCPARAMS(1,N22)&gt;<BR>#if<BR>EQUAL 
+N22 996<BR>#act<BR>  
+sendmsg6  
+常量值:&lt;$NPCPARAMS(1,N22)&gt;</p></FONT></FONT></BODY></HTML>

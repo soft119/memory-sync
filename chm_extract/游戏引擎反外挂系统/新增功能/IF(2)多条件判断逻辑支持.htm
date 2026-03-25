@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>IF(2)多条件判断逻辑支持</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT face=宋体><FONT color=#0000ff>多条件判断</FONT><BR><BR><FONT color=#ff0000>IF(2)</FONT> 
+括号内为条件个数，本次代码段内满足2个条件即成立<BR><BR><BR>例如：<BR>[@MAIN]<BR>#IF(3)<BR>EQUAL &lt;$JOB&gt; 
+0<BR>SMALL &lt;$LEVEL&gt; 80<BR>LARGE &lt;$MAXDC&gt; 120<BR>#ACT<BR>SENDMSG 7 
+成立&lt;$JOB&gt;-&lt;$LEVEL&gt;-&lt;$MAXDC&gt;<BR>  
+</FONT><FONT face=宋体>#ELSEACT<BR>SENDMSG 7 
+不成立&lt;$JOB&gt;-&lt;$LEVEL&gt;-&lt;$MAXDC&gt;</FONT><BR></P></body>
+</html>

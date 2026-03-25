@@ -1,0 +1,45 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>补丁读取规则[!]</title>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<STYLE type=text/css>
+<!--
+.STYLE2 {color: #FF0000}
+-->
+</STYLE>
+
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<p><strong><font size="5">补丁读取规则</font></strong></p>
+<p><font size="2"><span class="STYLE2"><strong>功能：</strong>补丁读取规则</span><br >
+    <strong>格式：</strong>Resources目录<br >
+    <strong>说明：</strong>以读取Prguse.wzl为例， 
+先读取Resources\Data\Prguse.Jpk,
+如果Resources\Data\Prguse.Jpk不存在,读取Data\Prguse.wzl,
+如果Data\Prguse.wzl不存在,而你的Wzllist.txt也没有写这个文件的读取路径则会去官方CDN拉取Data\Prguse.wzl。<br >
+</font></p>
+<p>例:<br >
+  优先读取Resources\Data\Hum.Jpk 如果这个文件不存在，则读取Data\Hum.wzl。<br >
+  优先读取Resources\Map\0.map 如果这个文件不存在，则读取Map\0.map。<br >
+优先读取Resources\Wav\0.wav 如果这个文件不存在，则读取Wav\0.wav。</p>
+<p>
+增加支持 M2--列表信息二--物品备注(物品备注) <BR>
+增加支持 
+M2--列表信息二--套装系统(套装备注) <BR>增加支持 
+Resources\Data\SkillDesc.Dat(技能备注)<BR>增加支持 
+Resources\Data\MapDesc.Dat(外传的小地图备注)<BR> 
+  
+增加支持 
+Resources\Data\MapDesc1.Dat(小地图备注) </p>
+<HR>
+<p>
+  增加Items1.wzl DnItems1.wzl StateItem1.wzl 
+数据库Looks起始编号10000开始<BR>改进小地图扩展mmap10.wzl从10001开始<BR>增加扩展Npc10.wzl 
+Npc代码从1000<BR>增加支持:<br >
+  武器和衣服时可按照一件武器一个.Jpk文件的方式配置.<br >
+  武器放在传奇目录的\Graphics\Weapon\ <br >
+  衣服放在\Graphics\Human\下.<br >
+  物品数据库中单个武器和衣服的Shape值从1000开始算起.<br >
+  单个武器和衣服素材的文件名必须和物品数据库中的Shape值一样,<br >
+例如:数据库中设置Shape=1000,那么单个武器或者素材的文件就是1000.Jpk,如果Shape= 
+  
+ 1001那么文件名就是1001.Jpk </p></BODY></HTML>

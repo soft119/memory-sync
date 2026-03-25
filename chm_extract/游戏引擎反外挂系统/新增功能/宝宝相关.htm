@@ -1,0 +1,181 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>宝宝相关</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT color=#0000ff>人物宝宝叛变<BR></FONT>QFunction-0.txt触发</P>
+<P>[@MobTreachery]<BR>#IF<BR>#ACT<BR>SENDMSG 7 宝宝已叛变</P>
+<P><FONT color=#0000ff>宝宝升级触发</FONT><BR>QFunction-0.txt触发</P>
+<P>[@Slaveupgrade]<BR>#IF<BR>#ACT<BR>SENDMSG 6 你的宝宝&lt;$SLAVEUPGRADENAME&gt;升级了 
+</P>
+<P><FONT color=#0000ff>获得宝宝触发</FONT><BR>QFunction-0.txt触发，注意:神兽站起和趴下也会触发</P>
+<P>[@Slavebb]<BR>#IF<BR>#ACT<BR>SENDMSG 7 你获得宝宝&lt;$SLAVEBBNAME&gt;</P>
+<P><FONT color=#0000ff>宝宝被攻击和攻击别人宝宝触发</FONT><BR>QFunction-0.txt触发</P>
+<P>[@SlaveDamage]<BR>#IF<BR>#ACT<BR>SENDMSG 7 宝宝被[&lt;$darlingpet&gt;]攻击了</P>
+<P>[@HitSlave]<BR>#IF<BR>#ACT<BR>SENDMSG 7 你攻击了[&lt;$darlingpet&gt;]的宝宝 </P>
+<P><FONT color=#0000ff>杀死别人宝宝触发</FONT><BR>QFunction-0.txt触发</P>
+<P>[@KillSlave]<BR>#IF<BR>CheckKillSlaveName 月灵<BR>#ACT<BR>SendMsg 5 
+你把对方&lt;$KILLSLAVEMASTERNAME&gt;的月灵宝宝杀死了.</P>
+<P><FONT color=#0000ff>自己宝宝死亡触发</FONT><BR>QFunction-0.txt触发<BR>[@SelfKillSlave]<BR>#IF<BR>#ACT<BR>SendMsg 6 
+&lt;$USERNAME&gt;你的宝宝&lt;$SLAVEBBNAME&gt;死了</P>
+<P><FONT color=#0000ff>脚本召唤宝宝</FONT><BR>RECALLMOB 怪物名称 宝宝等级(最高为 7) 叛变时间(分钟) 
+是否自动变色（0、1）固定颜色（1-7）<BR>  
+   
+<BR>[@召唤宝宝]<BR>#IF<BR>#ACT<BR>;召唤宝宝30分钟后叛变,七彩变色<BR>RECALLMOB 
+神兽 7 30 1<BR>SENDMSG 0 好好看着自己的宝宝，不要乱咬人</P>
+<P><FONT color=#0000ff>检查宝宝的等级</FONT><BR>CHECKSLAVELEVEL 控制符(=,&gt;,&lt;)&nbsp; 等级数&lt; 
+BR&gt; <BR>[@checklevel0]<BR>#IF<BR>&nbsp; CHECKSLAVELEVEL = 
+5<BR>#SAY<BR>宝宝的等级等于5级。<BR>#ELSESAY<BR>宝宝的等级不等于5级。</P>
+<P><FONT color=#0000ff>检查玩家所带宝宝数量</FONT><BR>格式：CHECKSLAVECOUNT&nbsp; 控制符(=,&gt;,&lt;)&nbsp; 数量&lt; BR&gt; 
+<BR>  
+[@宝宝数量]<BR>#IF<BR>CHECKSLAVECOUNT &lt; 
+5<BR>#ACT<BR>SENDMSG 6 你的宝宝总数量为5个。<BR>#ELSEACT<BR> 
+SENDMSG6 你的宝宝总数量不为5个。<BR><BR><FONT color=#0000ff>检测人物宝宝名字</FONT><BR>CHECKSLAVENAME 
+宝宝名字<BR><BR>[@检测宝宝名字]<BR>#IF<BR>CHECKSLAVENAME 虎卫<BR>#ACT<BR>SENDMSG 5 
+提示:你的宝宝叫虎卫<BR>#ELSEACT<BR>SENDMSG 5 提示:你的宝宝不叫虎卫<BR><BR><BR><FONT color=#0000ff>检测自己和宝宝之间的距离<BR></FONT>CheckSlaveInRange 名字 
+距离<BR><BR>[@检测宝宝距离]<BR>#IF<BR>CheckSlaveInRange 月灵 
+5<BR>#SAY<BR>你的月灵在身边<BR>#ELSESAY<BR>你的月灵宝宝跑哪里去了?<BR><BR><FONT color=#0000ff>杀死自己指定宝宝</FONT><BR>KillCallMob 名字 数量 
+方式(为空或者0有死亡动画&nbsp;  
+1直接消失)</P>
+<P>示例一：<BR>[@杀死自己指定宝宝]<BR>#IF<BR>#ACT<BR>;把自己宝宝杀死,有死亡动画<BR>KILLCALLMOB 
+虎卫 1<BR>SENDMSG 
+5  
+你的虎卫宝宝被杀死了.</P>
+<P>示例二：<BR>[@杀死自己指定宝宝]<BR>#IF<BR>#ACT<BR>;把自己宝宝杀死,没有死亡动画<BR>KILLCALLMOB 
+虎卫 1 1<BR>SENDMSG 5 你的虎卫宝宝被杀死了.<BR><BR><FONT color=#0000ff>杀死自己全部宝宝</FONT><BR>KILLSLAVE<BR><BR>[@杀死全部宝宝]<BR>#IF<BR>#ACT<BR>KILLSLAVE<BR>SENDMSG 
+5 你的宝宝全部杀死了<BR><BR><BR><FONT color=#0000ff>指定宝宝立即叛变<BR></FONT> 
+GetCallMob  
+宝宝名字</P>
+<P>[@立即叛变]<BR>#IF<BR>#act<BR>GETCALLMOB 
+神兽<BR>#say<BR>你的神兽已经叛变<BR><BR><BR><FONT color=#0000ff>直接调整人物宝宝的等级</FONT><BR>ChangeSlaveLevel 参数1 参数2 参数3 
+参数4<BR>参数1：名字<BR>参数2：操作符(+ = 
+-)<BR>参数3：等级(1-7)<BR>参数4：第几只宝宝(为空或为0=全部宝宝，1~99= 
+  
+第几只宝宝)</P>
+<P>[@调整所有宝宝等级]<BR>#IF<BR> 
+  
+#ACT<BR>;把虎卫的等级调整到7级.<BR>ChangeSlaveLevel 虎卫 = 
+  
+7</P>
+<P>[@调整第1个宝宝等级]<BR>#IF<BR>#ACT<BR>ChangeSlaveLevel 虎卫 
+=&nbsp; 7 1<BR><BR><BR><FONT color=#0000ff>调整宝宝攻击人物的威力倍率<BR></FONT>ChangeSlaveAttackHumPowerRate 宝宝名称 
+攻击人物威力倍率(威力倍数为0时不攻击人物,当前值除以100为实际倍数) 
+  
+</P>
+<P>[@神兽不攻击人物]<BR>#if<BR>CHECKSLAVENAME 
+神兽<BR>#ACT<BR>ChangeSlaveAttackHumPowerRate 神兽 0<BR>sendmsg 6 
+神兽不攻击人物<BR>#elseact<BR>sendmsg 6 请先把神兽召唤出来 
+  
+</P>
+<P>[@神兽攻击人物倍数1点1倍]<BR>#if<BR>CHECKSLAVENAME 
+神兽<BR>#ACT<BR>ChangeSlaveAttackHumPowerRate 神兽 110<BR>sendmsg 6 
+神兽攻击人物1.1倍攻击力<BR>#elseact<BR>sendmsg 6 请先把神兽召唤出来<BR><BR><BR><FONT color=#0000ff>获取当前宝宝名字和宝宝等级</FONT><BR>GetSlaveInfo 参数1 参数2 参数3 
+参数4<BR>参数1：第几只宝宝<BR>参数2：宝宝名字存取变量<BR>参数3：宝宝等级存取变量<BR>参数4：是否带数字保存(0或者空不带 
+1=带宝宝后面数字) 
+  
+</P>
+<P>示例一：<BR>;==========================================<BR>[@宝宝名字和等级不带数字]<BR>#IF<BR>#ACT<BR>GetSlaveInfo 
+1 S$宝宝名字1 N$宝宝等级1<BR>GetSlaveInfo 2 S$宝宝名字2 N$宝宝等级2<BR>SENDMSG 6 
+&lt;$STR(S$宝宝名字1)&gt;---&lt;$STR(N$宝宝等级1)&gt;<BR>SENDMSG 6 
+&lt;$STR(S$宝宝名字2)&gt;---&lt;$STR(N$宝宝等级2)&gt; 
+  
+</P>
+<P>示例二：<BR>;==========================================<BR>[@宝宝名字和等级带数字]<BR>#IF<BR>#ACT<BR>GetSlaveInfo 
+1 S$宝宝名字1 N$宝宝等级1 1<BR>GetSlaveInfo 2 S$宝宝名字2 N$宝宝等级2 1<BR>SENDMSG 6 
+&lt;$STR(S$宝宝名字1)&gt;---&lt;$STR(N$宝宝等级1)&gt;<BR>SENDMSG 6 
+&lt;$STR(S$宝宝名字2)&gt;---&lt;$STR(N$宝宝等级2)&gt;<BR> 
+  
+</P>
+<P><FONT color=#0000ff>修改宝宝属性值</FONT><BR>CHANGEMOBABILITY 
+参数1 参数2 参数3 参数4<BR>参数1：宝宝名称(不需要带数字)<BR>参数2：属性位置<BR>;属性位置:1=防御下限 2=防御上限 3=魔御下限 
+4=魔御上限 5=攻击下限 6=攻击上限 7=魔法下限 8=魔法上限 9=道术下限 10=道术上限 11=MaxHP 12=MaxMP 13=移动速度(百分比) 
+14= 攻击速度(百分比)<BR>参数3：操作符(+ - =)<BR>参数4：时间（属性值最大21亿）</P>
+<P>  
+示例：<BR>;==========================================<BR>[@main]<BR>#IF<BR>#ACT<BR>CHANGEMOBABILITY 
+神兽 11 + 10000 9999<BR>SENDMSG 7 你的神兽增加了HP+10000</P>
+<P><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">  
+</P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan">
+<HR id=0>
+<P></SPAN><SPAN><FONT color=#0000ff face=宋体><STRONG>恢复宝宝血量</STRONG></FONT></SPAN><FONT face=宋体> </FONT>  
+</P>
+<P class=MsoNormal 
+style="MARGIN: 0pt; mso-pagination: widow-orphan"><SPAN></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT color=#ff0000><STRONG>MEBabyHP 参数1 参数2 参数3 参数4</STRONG></FONT></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">参数1<FONT color=#000000>：宝宝名称</FONT></SPAN></P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">参数2：操作符号(+ 
+- =)&nbsp;&nbsp;</SPAN></P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">参数3：血量值</SPAN></P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">参数4：是否区分数字(0不区别,1区别)</SPAN></P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN>&nbsp;</P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">;示例:</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">[@修改神兽血量]</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">#IF</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">#ACT</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">MEBabyHP 
+神兽 = 99999 0</SPAN></P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">sendmsg&nbsp;7&nbsp;您的BB恢复了99999点血</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">[@修改神兽1血量]</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">#IF</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">#ACT</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">MEBabyHP 
+神兽1 = 99999 1</SPAN></P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">sendmsg&nbsp;7&nbsp;您的BB恢复了99999点血</SPAN></P><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><o:p>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan">
+<HR id=0>
+
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><FONT color=#0000ff><STRONG><FONT color=#0000ff>宝宝在</FONT>线改名命令</STRONG></FONT></P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><FONT color=#ff0000><STRONG>ChangeBmz 参数1 参数2</STRONG></FONT></P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><FONT color=#000000>参数1：新名字</FONT></P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><FONT color=#000000>参数2：原有名字（如果原有名字为空，则把所有宝宝的名字都改成新名字）</FONT></P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><FONT color=#000000></FONT>&nbsp;</P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><FONT color=#000000><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; BACKGROUND: rgb(255,255,255); FONT-WEIGHT: normal; COLOR: rgb(255,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-shading: rgb(255,255,255)">;示例:</SPAN><BR>[@ChangeBmz]<BR>#IF<BR>#ACT<BR>ChangeBmz 
+超级神兽<BR>SendMsg 5 你所有宝宝名字修改为超级神兽！</FONT></P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><FONT color=#000000></FONT>&nbsp;</P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan"><FONT color=#000000>[@ChangeBmz1]<BR>#IF<BR>CHECKSLAVENAME 神兽<BR>#ACT<BR>ChangeBmz 
+超级神兽 神兽<BR>SendMsg 5 你的神兽宝宝名字成功修改为超级神兽！<BR>#ELSEACT</FONT><BR><FONT color=#000000>SENDMSG 5 提示:你的宝宝名字不</FONT>叫神兽</P>
+<P class=MsoNormal style="MARGIN: 0pt; mso-pagination: widow-orphan">
+<HR id=0>
+</o:p></SPAN>
+<P>  
+&nbsp;</P>
+<P>  
+&nbsp;</P></body>
+</html>

@@ -1,0 +1,138 @@
+[2026-03-20 16:51:00:664] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-13572] 当前Thread:18972
+[2026-03-20 16:51:00:664] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-13572] 当前Thread:18972
+[2026-03-20 16:51:00:664] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-13572] 当前Thread:18972
+[2026-03-20 16:51:00:664] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-13572] 当前Thread:18972
+[2026-03-20 16:51:00:664] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-13572] 当前Thread:18972
+[2026-03-20 16:51:00:664] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-13572] 当前Thread:18972
+[2026-03-20 16:51:00:664] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-13572] 当前Thread:18972
+[2026-03-20 16:51:00:664] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-13572] 当前Thread:18972
+[2026-03-20 16:51:00:664] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-13572] 当前Thread:18972
+[2026-03-20 16:51:00:664] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-13572] 当前Thread:18972
+[2026-03-20 16:51:00:664] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-13572] 当前Thread:18972
+[2026-03-20 16:51:00:664] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-13572] 当前Thread:18972
+[2026-03-20 16:51:00:664] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-13572] 当前Thread:18972
+[2026-03-20 16:51:00:664] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-13572] 当前Thread:18972
+[2026-03-20 16:51:00:664] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-13572] 当前Thread:18972
+[2026-03-20 16:51:00:664] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-13572] 当前Thread:18972
+[2026-03-20 16:51:00:664] >>>>>RegenMonsterByName ThreadError :[守卫]-0[3-13572] 当前Thread:18972
+[2026-03-20 16:51:00:664] >>>>>RegenMonsterByName ThreadError :[守卫]-0[3-13572] 当前Thread:18972
+[2026-03-20 16:51:00:664] >>>>>RegenMonsterByName ThreadError :[守卫]-0[3-13572] 当前Thread:18972
+[2026-03-20 16:51:00:664] >>>>>RegenMonsterByName ThreadError :[守卫]-0[3-13572] 当前Thread:18972
+[2026-03-20 16:51:01:068] Socket Err:10061
+[2026-03-20 16:51:01:877] [Exception]TIdHttpServerThread.Execute Error]
+
+[2026-03-20 16:53:06:846] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-14292] 当前Thread:12632
+[2026-03-20 16:53:06:846] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-14292] 当前Thread:12632
+[2026-03-20 16:53:06:846] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-14292] 当前Thread:12632
+[2026-03-20 16:53:06:846] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-14292] 当前Thread:12632
+[2026-03-20 16:53:06:846] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-14292] 当前Thread:12632
+[2026-03-20 16:53:06:846] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-14292] 当前Thread:12632
+[2026-03-20 16:53:06:846] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-14292] 当前Thread:12632
+[2026-03-20 16:53:06:846] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-14292] 当前Thread:12632
+[2026-03-20 16:53:06:846] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-14292] 当前Thread:12632
+[2026-03-20 16:53:06:846] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-14292] 当前Thread:12632
+[2026-03-20 16:53:06:846] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-14292] 当前Thread:12632
+[2026-03-20 16:53:06:846] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-14292] 当前Thread:12632
+[2026-03-20 16:53:06:846] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-14292] 当前Thread:12632
+[2026-03-20 16:53:06:846] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-14292] 当前Thread:12632
+[2026-03-20 16:53:06:846] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-14292] 当前Thread:12632
+[2026-03-20 16:53:06:846] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-14292] 当前Thread:12632
+[2026-03-20 16:53:06:846] >>>>>RegenMonsterByName ThreadError :[守卫]-0[3-14292] 当前Thread:12632
+[2026-03-20 16:53:06:846] >>>>>RegenMonsterByName ThreadError :[守卫]-0[3-14292] 当前Thread:12632
+[2026-03-20 16:53:06:846] >>>>>RegenMonsterByName ThreadError :[守卫]-0[3-14292] 当前Thread:12632
+[2026-03-20 16:53:06:846] >>>>>RegenMonsterByName ThreadError :[守卫]-0[3-14292] 当前Thread:12632
+[2026-03-20 16:53:07:343] Socket Err:10061
+[2026-03-20 16:53:07:948] [Exception]TIdHttpServerThread.Execute Error]
+
+[2026-03-20 17:00:21:927] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-22272] 当前Thread:21636
+[2026-03-20 17:00:21:927] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-22272] 当前Thread:21636
+[2026-03-20 17:00:21:927] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-22272] 当前Thread:21636
+[2026-03-20 17:00:21:927] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-22272] 当前Thread:21636
+[2026-03-20 17:00:21:927] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-22272] 当前Thread:21636
+[2026-03-20 17:00:21:927] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-22272] 当前Thread:21636
+[2026-03-20 17:00:21:927] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-22272] 当前Thread:21636
+[2026-03-20 17:00:21:928] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-22272] 当前Thread:21636
+[2026-03-20 17:00:21:928] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-22272] 当前Thread:21636
+[2026-03-20 17:00:21:928] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-22272] 当前Thread:21636
+[2026-03-20 17:00:21:928] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-22272] 当前Thread:21636
+[2026-03-20 17:00:21:928] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-22272] 当前Thread:21636
+[2026-03-20 17:00:21:928] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-22272] 当前Thread:21636
+[2026-03-20 17:00:21:928] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-22272] 当前Thread:21636
+[2026-03-20 17:00:21:928] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-22272] 当前Thread:21636
+[2026-03-20 17:00:21:928] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-22272] 当前Thread:21636
+[2026-03-20 17:00:21:928] >>>>>RegenMonsterByName ThreadError :[守卫]-0[3-22272] 当前Thread:21636
+[2026-03-20 17:00:21:928] >>>>>RegenMonsterByName ThreadError :[守卫]-0[3-22272] 当前Thread:21636
+[2026-03-20 17:00:21:928] >>>>>RegenMonsterByName ThreadError :[守卫]-0[3-22272] 当前Thread:21636
+[2026-03-20 17:00:21:928] >>>>>RegenMonsterByName ThreadError :[守卫]-0[3-22272] 当前Thread:21636
+[2026-03-20 17:00:22:442] Socket Err:10061
+[2026-03-20 17:00:22:987] [Exception]TIdHttpServerThread.Execute Error]
+
+[2026-03-20 17:06:46:327] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-18984] 当前Thread:10244
+[2026-03-20 17:06:46:327] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-18984] 当前Thread:10244
+[2026-03-20 17:06:46:327] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-18984] 当前Thread:10244
+[2026-03-20 17:06:46:327] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-18984] 当前Thread:10244
+[2026-03-20 17:06:46:327] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-18984] 当前Thread:10244
+[2026-03-20 17:06:46:327] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-18984] 当前Thread:10244
+[2026-03-20 17:06:46:327] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-18984] 当前Thread:10244
+[2026-03-20 17:06:46:327] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-18984] 当前Thread:10244
+[2026-03-20 17:06:46:327] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-18984] 当前Thread:10244
+[2026-03-20 17:06:46:327] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-18984] 当前Thread:10244
+[2026-03-20 17:06:46:327] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-18984] 当前Thread:10244
+[2026-03-20 17:06:46:327] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-18984] 当前Thread:10244
+[2026-03-20 17:06:46:327] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-18984] 当前Thread:10244
+[2026-03-20 17:06:46:327] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-18984] 当前Thread:10244
+[2026-03-20 17:06:46:327] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-18984] 当前Thread:10244
+[2026-03-20 17:06:46:327] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-18984] 当前Thread:10244
+[2026-03-20 17:06:46:327] >>>>>RegenMonsterByName ThreadError :[守卫]-0[3-18984] 当前Thread:10244
+[2026-03-20 17:06:46:327] >>>>>RegenMonsterByName ThreadError :[守卫]-0[3-18984] 当前Thread:10244
+[2026-03-20 17:06:46:327] >>>>>RegenMonsterByName ThreadError :[守卫]-0[3-18984] 当前Thread:10244
+[2026-03-20 17:06:46:327] >>>>>RegenMonsterByName ThreadError :[守卫]-0[3-18984] 当前Thread:10244
+[2026-03-20 17:06:46:797] Socket Err:10061
+[2026-03-20 17:06:47:496] [Exception]TIdHttpServerThread.Execute Error]
+
+[2026-03-20 17:09:40:037] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-22292] 当前Thread:2300
+[2026-03-20 17:09:40:037] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-22292] 当前Thread:2300
+[2026-03-20 17:09:40:037] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-22292] 当前Thread:2300
+[2026-03-20 17:09:40:037] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-22292] 当前Thread:2300
+[2026-03-20 17:09:40:037] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-22292] 当前Thread:2300
+[2026-03-20 17:09:40:037] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-22292] 当前Thread:2300
+[2026-03-20 17:09:40:037] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-22292] 当前Thread:2300
+[2026-03-20 17:09:40:037] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-22292] 当前Thread:2300
+[2026-03-20 17:09:40:037] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-22292] 当前Thread:2300
+[2026-03-20 17:09:40:037] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-22292] 当前Thread:2300
+[2026-03-20 17:09:40:037] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-22292] 当前Thread:2300
+[2026-03-20 17:09:40:037] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-22292] 当前Thread:2300
+[2026-03-20 17:09:40:037] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-22292] 当前Thread:2300
+[2026-03-20 17:09:40:037] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-22292] 当前Thread:2300
+[2026-03-20 17:09:40:037] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-22292] 当前Thread:2300
+[2026-03-20 17:09:40:037] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-22292] 当前Thread:2300
+[2026-03-20 17:09:40:037] >>>>>RegenMonsterByName ThreadError :[守卫]-0[3-22292] 当前Thread:2300
+[2026-03-20 17:09:40:037] >>>>>RegenMonsterByName ThreadError :[守卫]-0[3-22292] 当前Thread:2300
+[2026-03-20 17:09:40:037] >>>>>RegenMonsterByName ThreadError :[守卫]-0[3-22292] 当前Thread:2300
+[2026-03-20 17:09:40:037] >>>>>RegenMonsterByName ThreadError :[守卫]-0[3-22292] 当前Thread:2300
+[2026-03-20 17:09:40:492] Socket Err:10061
+[2026-03-20 17:09:41:042] [Exception]TIdHttpServerThread.Execute Error]
+
+[2026-03-20 17:11:22:405] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-9232] 当前Thread:15576
+[2026-03-20 17:11:22:405] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-9232] 当前Thread:15576
+[2026-03-20 17:11:22:405] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-9232] 当前Thread:15576
+[2026-03-20 17:11:22:405] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-9232] 当前Thread:15576
+[2026-03-20 17:11:22:405] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-9232] 当前Thread:15576
+[2026-03-20 17:11:22:405] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-9232] 当前Thread:15576
+[2026-03-20 17:11:22:405] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-9232] 当前Thread:15576
+[2026-03-20 17:11:22:405] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-9232] 当前Thread:15576
+[2026-03-20 17:11:22:405] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-9232] 当前Thread:15576
+[2026-03-20 17:11:22:405] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-9232] 当前Thread:15576
+[2026-03-20 17:11:22:405] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-9232] 当前Thread:15576
+[2026-03-20 17:11:22:405] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-9232] 当前Thread:15576
+[2026-03-20 17:11:22:405] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-9232] 当前Thread:15576
+[2026-03-20 17:11:22:405] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-9232] 当前Thread:15576
+[2026-03-20 17:11:22:405] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-9232] 当前Thread:15576
+[2026-03-20 17:11:22:405] >>>>>RegenMonsterByName ThreadError :[弓箭手]-0[3-9232] 当前Thread:15576
+[2026-03-20 17:11:22:405] >>>>>RegenMonsterByName ThreadError :[守卫]-0[3-9232] 当前Thread:15576
+[2026-03-20 17:11:22:405] >>>>>RegenMonsterByName ThreadError :[守卫]-0[3-9232] 当前Thread:15576
+[2026-03-20 17:11:22:405] >>>>>RegenMonsterByName ThreadError :[守卫]-0[3-9232] 当前Thread:15576
+[2026-03-20 17:11:22:405] >>>>>RegenMonsterByName ThreadError :[守卫]-0[3-9232] 当前Thread:15576
+[2026-03-20 17:11:22:902] Socket Err:10061
+[2026-03-20 17:11:23:406] [Exception]TIdHttpServerThread.Execute Error]
+

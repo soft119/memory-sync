@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>大包裹 大背包</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+</head>
+
+<BODY>
+<p><FONT face=宋体>大包裹 大背包</FONT> </p>
+<p><FONT face=宋体>在“引擎-选项-功能设置-客户端控制里面开启</FONT> </p>
+<p><FONT face=宋体>大包裹数量调整脚本命令ChangeBagCount，包裹最少为46个，最大为126个</FONT></p>
+<p><FONT face=宋体>
+  大包裹为一体式包裹设置，不分页。<br>
+  双击带锁的格子可以触发QF脚本<BR>如果减背包格子，而被减掉的格子里又存放了物品，那么物品不会消失只是取不出来<BR>
+  再次开启该格子物品就可以显示出来了。</FONT>
+  </p>
+<p><FONT face=宋体>&lt;$BAGCOUNT&gt; 当前包裹里的物品数量(包括放在OK框里的和仿HeroM2摆摊的物品)<br>
+  &lt;$BAGMAXCOUNT&gt; 包裹允许存放的最大数量<br>
+ChangeBagCount 参数1(+，-，=) 参数2(数量)
+ &nbsp; </p>
+<p><FONT face=宋体>[@main]<br>
+  #act<br>
+  ChangeBagCount + 1<br></FONT>
+</p>
+<p><FONT face=宋体>QF触发，包裹里格子显示有锁图片的是不能放物品的，双击锁图片触发<br>
+  [@UnLockBag]<br>
+  #act<br>
+  ChangeBagCount + 1<br>
+  SENDMSG 6 
+你的包裹解锁一格，当前最大允许放物品&lt;$BAGMAXCOUNT&gt;个</FONT>
+    </p>
+<p><FONT face=宋体></FONT> </p></FONT>
+</BODY>
+</html>

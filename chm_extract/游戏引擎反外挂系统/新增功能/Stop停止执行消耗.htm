@@ -1,0 +1,22 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Stop停止执行消耗</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT color=#0000ff >  <FONT face=宋体>停止执行触发类物品的消耗<BR><FONT color=#000000>说明:如果你使用双击解包物品,背包满了返回的物品会掉在地面就可以用这个写法</FONT></FONT></FONT><FONT color=#0000ff ><BR><FONT face=宋体><FONT color=#000000>例子:<BR>[@StdModeFunc253]<BR>#if<BR>NOT CHECKBAGSIZE 
+4<BR>#ACT<BR>MESSAGEBOX 你背包满了<BR></FONT><FONT color=#0000ff>stop<BR></FONT></FONT><FONT color=#000000><FONT face=宋体>#ELSEACT<BR>GIVE 金条 
+1<BR><BR>;超级祝福油 31类触发物品<BR>[@StdModeFunc7]<BR>#IF<BR>CheckItemAddValue 1 3 &lt; 
+7<BR>#ACT<BR>CHANGEITEMADDVALUE&nbsp;1&nbsp;3&nbsp;+&nbsp;1<BR>SENDMSG&nbsp;6&nbsp;您的武器获得了幸运+1！<BR>#ELSEACT<BR>;<FONT color=#ff0000>执行stop后物品不会消耗</FONT>，无需再返还一个。<BR><FONT color=#0000ff>Stop</FONT><BR>;下面这句提示框仍然会执行，<FONT color=#ff0000>Stop不会停止下面的脚本执行(切记)</FONT></FONT></FONT></FONT><FONT color=#0000ff ><FONT color=#000000><BR><FONT face=宋体>MESSAGEBOX&nbsp;[系统]：您的武器幸运已满!!</FONT></FONT></FONT></P></body>
+</html>

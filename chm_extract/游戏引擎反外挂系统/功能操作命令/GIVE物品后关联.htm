@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>GIVE物品后关联</title>
+</head>
+
+<body>
+<p><FONT face=宋体>[@main]<br>
+  #if<br>
+  #act<br>
+  GIVE 乌木剑 1<br>
+  ;给一个物品<br>
+  LinkGiveItem<br>
+  ;关联这个物品<br>
+  CHANGEITEMADDVALUE -1 0 + 1<br>
+;脚本命令操作该物品</FONT>
+</p>
+<p><FONT face=宋体>SENDUPGRADEITEM<br>
+  ;修改后的参数，刷新到客户端</FONT>
+  </p>
+</body>
+</html>

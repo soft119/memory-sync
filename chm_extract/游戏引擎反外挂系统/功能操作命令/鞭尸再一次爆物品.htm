@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>鞭尸再一次爆物品</title>
+<style>
+<!--
+div{word-break:break-all;word-wrap:break-word}.t{border:1px solid #c7d6e1;margin:0px auto 8px;}.t2{border-top:#c7d6e1 1px solid;margin:0px auto 5px;}.t{padding:1px}.t {padding:0}th{word-break:break-all;word-wrap:break-word}.r_one{background:#f9f9f9;}.tr1 th{padding:5px 10px;text-align:left;vertical-align:top;font-weight:normal;}.tr1 th{border-right:1px solid #e6e6e6;}.tpc_content{font-size:14px;font-family:Arial;padding:0 2% 0 0.5%;margin:0 0 2%}-->
+</style>
+</head>
+
+<body>
+
+<p><strong><font color="#0000ff" size="2" face=宋体>功</font></strong><FONT face=宋体><font color="#0000ff" size="2"><strong>能：<br>
+&nbsp;&nbsp; 杀怪后再一次爆物品 鞭尸</strong></font> 此命令只可用在QF[@KillMon]字段下<br></FONT>
+  <font color="#0000ff" size="2"><strong><br><FONT face=宋体>
+例子：<br></FONT>
+  </strong></font><br><FONT face=宋体>
+[@KillMon]<br>
+#IF<br>
+#ACT<br>
+MonItems<br>
+ 
+;每次杀怪，怪物都会爆两次,如果第一次怪物已经把物品爆的差不多了，再一次可能爆不出来东西<BR><BR>MonItems 
+1<BR>参数1:=
+ 
+1时表示完整复制一份怪物爆出的物品,包含极品值</FONT>
+ </p>
+<p><FONT color=#ff0000 face=宋体><STRONG>功能：高级鞭尸</STRONG></FONT></p>
+<p><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">格式：MonItemsex</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">怪物名称</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">可爆次数</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">(最大</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">20</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">次)</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&nbsp;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">延迟毫秒数(默认不延迟)</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR>
+[@KillMon]<br>
+#IF<br>
+#ACT<br>
+MonItemsex 魔龙教主 10 1000</SPAN></p>
+<p><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">;杀死任何怪物都会触发魔龙教主的爆率连续爆10次，间隔1秒</SPAN></p>
+<p><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">注意：本次触发的鞭尸，已经爆出过的物品不会重复爆出，例如：爆率中的 1/1 祝福油 
+连续爆10次的情况下只会爆出一次.</SPAN></p>
+<p><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">MonItems\魔龙教主.txt</SPAN></p>
+<p><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">1/1&nbsp;祝福油<BR>1/59&nbsp;圣战戒指<BR>1/38&nbsp;圣战手镯<BR>1/38&nbsp;圣战项链<BR>1/38&nbsp;圣战头盔<BR>1/58&nbsp;法神戒指<BR>1/38&nbsp;法神手镯<BR>1/38&nbsp;法神项链<BR>1/38&nbsp;法神头盔<BR>1/58&nbsp;天尊戒指<BR>1/38&nbsp;天尊手镯<BR>1/38&nbsp;天尊项链<BR>1/38&nbsp;天尊头盔<BR>1/22&nbsp;裁决之杖<BR>1/58&nbsp;血饮<BR>1/800&nbsp;怒斩<BR>1/800&nbsp;龙牙<BR>1/900&nbsp;&nbsp; 
+麻痹戒指<BR>1/900&nbsp;&nbsp; 复活戒指<BR>1/900&nbsp;&nbsp; 
+护身戒指<BR>1/900&nbsp;逍遥扇<BR>1/3500&nbsp;屠龙</SPAN></p>
+</body>
+
+</html>

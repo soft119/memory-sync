@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>系统任务计时</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT face=宋体><STRONG><FONT color=#0000ff>系统任务计时</FONT></STRONG></FONT><FONT face=宋体><BR><FONT color=#ff0000><STRONG>按需使用，可代替部分定时器功能，效率要比定时器高很多！</STRONG></FONT></FONT></P>
+<P><FONT face=宋体>1.增加倒计时<BR>格式：<FONT color=#ff0000>DSFUNCALL&nbsp; 参数1&nbsp; 
+参数2&nbsp; 参数3&nbsp; 参数4</FONT><BR>参数1：标识, DINGSHICF_自定义&nbsp;&nbsp; (标识必须以&nbsp; 
+“DINGSHICF_”&nbsp;&nbsp; 开头)<BR>参数2：倒计时时间单位毫秒,&nbsp; 
+倒计时结束后会自动触发QFunction-0&nbsp; @DINGSHICF_自定义 字段下脚本<BR>参数3： (参数=1, 
+上线直接执行&nbsp;&nbsp; 参数=0或为空, 上线需重新开启否则消失)<BR>参数4：(参数=1,上线刷新当前时间，参数=0或为空,&nbsp; 
+开启新的)</FONT></P>
+<P><FONT face=宋体><FONT color=#0000ff>2.删除倒计时</FONT><BR> 
+DELDSFUNCALL&nbsp;DINGSHICF_自定义</FONT></P>
+<P><FONT face=宋体><FONT color=#0000ff>3.改变倒计时状态</FONT><BR>格式：CNGDSFUNCALLSTATE&nbsp;&nbsp; 参数1&nbsp; 
+参数2<BR>参数1：DINGSHICF_自定义<BR>参数2：参数=1时继续，参数=2时停止) </FONT></P>
+<P><FONT face=宋体><FONT color=#0000ff>4.常量</FONT><BR>&lt;$GETDS(DINGSHICF_自定义)&gt;&nbsp; 
+剩余时间,默认值为0<BR>&lt;$GETDSSTATE(DINGSHICF_自定义)&gt;&nbsp; 
+状态：0不存在，1运行中，2停止</FONT></P><FONT face=宋体>
+<P>
+<HR id=0>
+
+<P></P>
+<P>例子：<BR>[@增加倒计时]<BR>#IF<BR>#ACT<BR>DSFUNCALL DINGSHICF_测试 5000 1 1<BR>SENDMSG 
+6&nbsp;&nbsp; 
+倒计时时间：&lt;$GETDS(DINGSHICF_测试)&gt;秒<BR>;;增加5秒倒计时,5秒后触发QF的@DINGSHICF_测试</FONT></P>
+<P><FONT face=宋体>;QFunction-0.txt触发标签<BR>[@DINGSHICF_测试]<BR>#IF<BR>#ACT<BR>DELDSFUNCALL 
+DINGSHICF_测试<BR>SENDMSG 6&nbsp;&nbsp; 
+倒计时状态：&lt;$GETDSSTATE(DINGSHICF_测试)&gt;</FONT></P></body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>46类宝石镶嵌系统</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><BR><FONT face=宋体><FONT color=#0000ff><STRONG>46类宝石镶嵌功能<BR><BR></STRONG></FONT>stdmode 
+46类宝石，shape=3<BR>Anicount=0时，镶嵌后图标读取Source0-4，显示出5个不同颜色的镶嵌宝石，在必备补丁NewopUI.PAK的301~305<BR>Anicount=1时，镶嵌后图标显示looks字段对应背包Items文件<BR>Anicount=2时，镶嵌后图标读取looks对应内观StateItem文件<BR>Reserved=0时，拆卸宝石归还<BR>Reserved&gt;0时，拆卸宝石消失<BR><BR>镶嵌宝石时，只需要右键点击宝石，再点击有镶嵌凹槽的装备即可，支持装备栏已穿戴装备，装备凹槽不足时会镶嵌失败，成功或失败都会触发QF<BR><BR><BR></FONT><FONT face=宋体><FONT color=#0000ff><STRONG>拆卸类道具<BR><BR></STRONG></FONT>stdmode 
+46类道具，shape=9<BR>拆卸宝石道具，右键点击背包中拆卸宝石的道具，当鼠标变成锤子状态，左键点击需拆卸的装备，弹出拆卸界面，再点击上面格子中的宝石即可。</FONT></P>
+<P><BR><FONT color=#0000ff>功能:获取身上所有装备宝石数量</FONT><BR>命令：GetStoneCount 参数 宝石名称(不分名称可用 * ） 
+变量<BR>示例：<BR>&nbsp;#if<BR>#act<BR>GetStoneCount * N10<BR>SENDMSG 6 
+你的身上所有宝石共有宝石：&lt;$STR(N10)&gt;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<BR>GetStoneCount 攻击青宝石(初级) N10<BR>SENDMSG 6 
+你的身上【攻击青宝石(初级)】共有宝石：&lt;$STR(N10)&gt;<BR><BR><BR><FONT color=#0000ff>功能: 
+获取装备宝石数量命令</FONT><BR>命令： GetItemStoneCount 参数 装备位置 宝石名称(不分名称可用 * ） 
+变量<BR>示例：<BR>[@获取装备宝石数量命令]<BR>#if<BR>#act<BR>GetItemStoneCount 1 * 
+N10<BR>SENDMSG 6 
+你的【&lt;$WEAPON&gt;】上面共有宝石：&lt;$STR(N10)&gt;<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<BR>GetItemStoneCount 1 攻击青宝石(初级) N10<BR>SENDMSG 6 
+你的【&lt;$WEAPON&gt;】上面共有【攻击青宝石(初级)】：&lt;$STR(N10)&gt; <BR><BR><FONT color=#0000ff>批量打孔命令：</FONT><BR>SETFLUTECOUNT 位置 数量 </P>
+<P><FONT color=#0000ff>检测打孔数量命令：</FONT><BR>CheckFluteCount 
+位置 （&lt;、=、&gt;、?）数量 </P>
+<P><FONT color=#0000ff>检测物品镶嵌宝石数量：</FONT><BR>CheckItemStoneCount 装备位置 （&lt;、=、&gt;） 
+数量 </P>
+<P><FONT color=#0000ff>检测装备是否镶嵌指定宝石：</FONT><BR>命令格式：<BR>CheckItemHasStone 装备位置 宝石名称 
+数量 </P>
+<P><FONT color=#0000ff>检测人物全身镶嵌指定宝石数量：</FONT><BR>格式： 命令 
+宝石名称 数量<BR>CheckStoneCount 宝石名 &gt;&lt;=? 数量<BR><BR><BR><FONT face=宋体><FONT color=#ff0000>;QF触发</FONT><BR><BR>镶嵌宝石触发<BR><FONT color=#ff0000>[@ClientGemAdd]<BR></FONT>&lt;$param1&gt;：宝石名称<BR>&lt;$param2&gt;：宝石唯一ID<BR>&lt;$param3&gt;：镶嵌孔序号<BR>&lt;$param4&gt;：被镶嵌装备唯一ID<BR><BR>并支持STOP 
+阻止镶嵌<BR><BR>取下宝石触发<BR><FONT color=#ff0000>[@ClientGemDel]</FONT><BR>&lt;$param1&gt;：宝石名称<BR>&lt;$param2&gt;：宝石唯一ID<BR>&lt;$param3&gt;：镶嵌孔序号<BR>&lt;$param4&gt;：被镶嵌装备唯一ID<BR>并支持STOP 
+阻止取下<BR><BR>[@SetSuccessGem]&nbsp; 镶嵌成功<BR>[@OutSuccessGem]&nbsp; 
+取下成功<BR>[@SetFailGem]&nbsp; 镶嵌失败<BR>[@OutFailGem]&nbsp; 取下失败</FONT> </P>
+<P><FONT face=宋体>QF触发时附带3个参数。<BR>&lt;$param1&gt;：宝石名称<BR>&lt;$param2&gt;：装备唯一ID<BR>&lt;$param3&gt;：失败返回ID<BR><BR></FONT></P>
+<P><FONT face=宋体>镶嵌失败返回ID：<BR>-1&nbsp;&nbsp; 孔位不满足0-9<BR>-999 镶嵌装备不存在<BR>-998 
+镶嵌时镶嵌孔位未开孔或该孔位已镶嵌宝石<BR>-995 镶嵌消耗宝石类型不对</FONT> </P>
+<P><FONT face=宋体>取下失败返回ID：<BR>-997 取下时镶嵌孔位未开孔或该孔位没有宝石<BR>-993 取下消耗宝石类型不对<BR>-991 取下宝石类型不对</FONT> 
+</P></body>
+</html>

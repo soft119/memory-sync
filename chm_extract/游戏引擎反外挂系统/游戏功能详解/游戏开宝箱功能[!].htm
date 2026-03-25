@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>游戏开宝箱功能[!]</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+<style type="text/css">
+<!--
+.STYLE1 {color: #FF0000}
+-->
+</style>
+</head>
+
+<body><FONT face=Arial size=2>
+<P><strong><font size="5">游戏开宝箱功能</font></strong></P>
+</FONT>
+<p><font size="2"><span class="STYLE1"><strong>功能：</strong>双击物品可以打开宝箱功</span><br />
+      <strong>格式：</strong>无<br />
+      <strong>说明：</strong>无<br />
+      <strong>例：</strong></font></p>
+<FONT face=Arial size=2>
+<P><FONT size=2 face="Arial">宝箱相关数据:  </FONT></P>
+</FONT>
+<p>宝箱的设置方法(M2-查看\列表信息二中编辑):</p>
+<p>宝箱设置:StdMode=31 Shape=15--18(15=檀木宝箱,16=紫铜宝箱,17=白银宝箱,18=赤金宝箱,19-24=扩展的6个宝箱)<br>
+  钥匙设置:StdMode=40 Shape=15--24</p>
+<p>宝箱增加获得物品时触发Q-Function中的@GetBoxsItemX脚本段,其中X表示当前宝箱的Shape值,<br>
+  当前获得的物品名称放在人物的S0变量中,例如我们在物品数据中添加一个叫做经验500000的物品,<br>
+  打开檀木宝箱获得此物品时自动增加50W经验值,那么编写如下脚本:</p>
+<p>[@GetBoxsItem15]<br>
+  #IF<br>
+  EQUAL S0 经验500000<br>
+  #ACT<br>
+  Take 经验500000<br>
+  ChangeExp + 500000<br>
+  Break</p>
+<p>OpenDragonBox<br>
+  功能: 使用脚本命令开宝箱<br>
+  格式: OpenDragonBox 编号(15--24)<br>
+  说明: 除了默认4个宝箱外,还可支持扩展的6个宝箱,具体设置M2\查看\列表信息\其他设置\宝箱系统</p>
+<p>例子: 开宝箱.<br>
+  #IF<br>
+  CheckGold 10000<br>
+  #ACT<br>
+  OpenDragonBox 15<br>
+  Take 金币 10000<br>
+  #ELSESAY<br>
+  没钱还想开宝箱?</p>
+</body>
+</html>
