@@ -5851,3 +5851,130 @@
 [2026-03-25 22:58:11:263] >>>>>TBaseObject.SpaceMove 三大算-1774368650000013544[3->D601] curTid:17324
 [2026-03-25 22:58:11:326] 消息记录:三大算[D601-38,30] -> 5012,0,0,0,0,D601
 
+[2026-03-25 22:58:21:312] 消息记录:三大算[D601-39,35] -> 1006,0,0,0,23740,
+
+[2026-03-25 22:58:24:193] 消息记录:三大算[D601-38,34] -> 1006,0,0,0,21954,
+
+[2026-03-25 22:58:30:912] 消息记录:三大算[D601-40,28] -> 1006,0,0,0,21954,
+
+[2026-03-25 22:58:42:118] 消息记录:三大算[D601-40,28] -> 1006,0,0,0,23740,
+
+[2026-03-25 22:58:52:269] 消息记录:三大算[D601-40,33] -> 1001,40,33,0,0,
+
+[2026-03-25 22:59:05:658] 消息记录:三大算[D601-40,33] -> 1003,8,0,0,23732,魅力戒指
+[2026-03-25 22:59:06:126] 消息记录:三大算[D601-40,33] -> 1003,3,0,0,23849,放大镜
+[2026-03-25 22:59:07:399] 消息记录:三大算[D601-40,33] -> 1003,8,0,0,22842,生铁戒指
+
+[2026-03-25 22:59:10:304] 消息记录:三大算[D601-40,33] -> 1000,1,0,0,23732,魅力戒指
+[2026-03-25 22:59:11:009] 消息记录:三大算[D601-40,33] -> 1000,1,0,0,23719,黑檀项链
+[2026-03-25 22:59:12:121] 消息记录:三大算[D601-40,33] -> 1000,1,0,0,23847,回城卷
+
+[2026-03-25 22:59:16:742] 消息记录:三大算[D601-39,32] -> 1001,39,32,0,0,
+
+[2026-03-25 22:59:19:507] 消息记录:三大算[D601-39,32] -> 1003,8,0,0,23732,魅力戒指
+[2026-03-25 22:59:20:704] 消息记录:三大算[D601-38,31] -> 1000,1,0,0,22842,生铁戒指
+[2026-03-25 22:59:21:426] 消息记录:三大算[D601-38,31] -> 1006,0,2,0,23710,
+
+[2026-03-25 22:59:33:543] 消息记录:三大算[D601-30,37] -> 1006,0,0,0,23740,
+
+[2026-03-25 23:00:25:423] 消息记录:三大算[D601-33,31] -> 1006,0,2,0,23710,
+
+[2026-03-25 23:00:36:460] 消息记录:三大算[D601-27,37] -> 1001,27,37,0,0,
+[2026-03-25 23:00:37:661] 消息记录:三大算[D601-27,37] -> 1003,4,0,0,23857,道士头盔
+
+[2026-03-25 23:00:40:243] 消息记录:三大算[D601-27,37] -> 1003,4,0,0,23857,道士头盔
+
+[2026-03-25 23:00:43:092] 消息记录:三大算[D601-27,37] -> 1004,0,0,0,23705,灵魂战衣(男)
+[2026-03-25 23:00:43:799] 消息记录:三大算[D601-27,37] -> 1003,4,0,0,23857,道士头盔
+[2026-03-25 23:00:44:788] 消息记录:三大算[D601-27,37] -> 1003,0,0,0,23705,灵魂战衣(男)
+
+[2026-03-25 23:00:49:455] 消息记录:三大算[D601-25,41] -> 1006,0,0,0,23740,
+
+[2026-03-25 23:00:53:297] 消息记录:三大算[D601-27,39] -> 1006,0,0,0,21954,
+
+[2026-03-25 23:01:02:842] 消息记录:三大算[D601-27,39] -> 1006,0,0,0,23740,
+
+[2026-03-25 23:01:15:691] 消息记录:三大算[D601-23,43] -> 1006,0,2,0,22816,
+[2026-03-25 23:01:15:754] >>>>>TBaseObject.SpaceMove 三大算-1774368650000013544[D601->3] curTid:17324
+[2026-03-25 23:01:15:880] 消息记录:三大算[3-330,330] -> 5012,0,0,0,0,3
+
+[2026-03-25 23:01:19:530] 消息记录:三大算[3-327,322] -> 1010,0,0,0,0,{"index":10117,"UserID":"10117"}
+[2026-03-25 23:01:19:859] 消息记录:三大算[3-327,322] -> 1010,0,0,0,0,{"index":10117,"UserID":"10117"}
+[2026-03-25 23:01:20:944] 消息记录:三大算[3-327,322] -> 1011,0,0,0,0,{"Act":"@坐标","SelectItemID":"","index":10117,"Input":[],"MenuItem":[],"CheckBox":[],"UserID":"10117","Slider":[]}
+[2026-03-25 23:01:21:972] 消息记录:三大算[3-327,322] -> 1010,0,0,0,0,{"index":10117,"UserID":"10117"}
+[2026-03-25 23:01:22:865] 消息记录:三大算[3-327,322] -> 1011,0,0,0,0,{"Act":"@商店","SelectItemID":"","index":10117,"Input":[],"MenuItem":[],"CheckBox":[],"UserID":"10117","Slider":[]}
+
+[2026-03-25 23:01:24:421] 消息记录:三大算[3-327,322] -> 1011,0,0,0,0,{"Act":"@布料店","SelectItemID":"","index":10117,"Input":[],"MenuItem":[],"CheckBox":[],"UserID":"10117","Slider":[]}
+[2026-03-25 23:01:24:516] >>>>>TBaseObject.SpaceMove 三大算-1774368650000013544[3->0149] curTid:17324
+[2026-03-25 23:01:24:641] 消息记录:三大算[0149-13,12] -> 5012,0,0,0,0,0149
+[2026-03-25 23:01:26:825] 消息记录:三大算[0149-15,14] -> 1010,0,0,0,0,{"index":10097,"UserID":"10097"}
+
+[2026-03-25 23:01:28:140] 消息记录:三大算[0149-15,14] -> 1011,0,0,0,0,{"Act":"@buy","SelectItemID":"","index":10097,"Input":[],"MenuItem":[],"CheckBox":[],"UserID":"10097","Slider":[]}
+[2026-03-25 23:01:32:255] 消息记录:三大算[0149-15,14] -> 1003,0,0,0,23705,灵魂战衣(男)
+
+[2026-03-25 23:01:35:236] 消息记录:三大算[0149-15,14] -> 1015,0,0,0,0,{"MakeIndex":0,"Name":10114,"UserID":"10097"}
+[2026-03-25 23:01:36:363] 消息记录:三大算[0149-15,14] -> 1014,0,0,0,0,{"MakeIndex":-66826,"Name":10114,"UserID":"10097","Count":1}
+[2026-03-25 23:01:37:220] 消息记录:三大算[0149-15,14] -> 1003,0,0,0,23863,轻型盔甲(男)
+
+[2026-03-25 23:01:38:858] 消息记录:三大算[0149-17,16] -> 1000,1,0,0,23705,灵魂战衣(男)
+[2026-03-25 23:01:40:382] 消息记录:三大算[0149-17,19] -> 1006,0,2,0,22816,
+[2026-03-25 23:01:40:382] >>>>>TBaseObject.SpaceMove 三大算-1774368650000013544[0149->3] curTid:17324
+[2026-03-25 23:01:40:509] 消息记录:三大算[3-330,330] -> 5012,0,0,0,0,3
+[2026-03-25 23:01:42:031] 消息记录:三大算[3-332,332] -> 1010,0,0,0,0,{"index":10007,"UserID":"10007"}
+
+[2026-03-25 23:01:45:517] 消息记录:三大算[3-332,332] -> 1006,0,4,0,22233,
+[2026-03-25 23:01:45:673] 消息记录:三大算[3-332,332] -> 1008,0,0,0,1,
+[2026-03-25 23:01:45:673] 消息记录:三大算[3-332,332] -> 1008,0,0,0,8,
+[2026-03-25 23:01:45:673] 消息记录:三大算[3-332,332] -> 1008,0,0,0,20,
+[2026-03-25 23:01:45:673] 消息记录:三大算[3-332,332] -> 1008,0,0,0,9,
+[2026-03-25 23:01:45:673] 消息记录:三大算[3-332,332] -> 1008,0,0,0,21,
+[2026-03-25 23:01:45:673] 消息记录:三大算[3-332,332] -> 1008,0,0,0,5,
+[2026-03-25 23:01:45:673] 消息记录:三大算[3-332,332] -> 1008,0,0,0,23,
+
+[2026-03-25 23:01:50:426] 消息记录:三大算[3-332,332] -> 1008,52,0,0,22,
+[2026-03-25 23:01:52:949] 消息记录:三大算[3-332,332] -> 1011,0,0,0,0,{"Act":"@XIANE","SelectItemID":"","index":10007,"Input":[],"MenuItem":[],"CheckBox":[],"UserID":"10007","Slider":[]}
+
+[2026-03-25 23:01:54:747] 消息记录:三大算[3-332,332] -> 1011,0,0,0,0,{"Act":"@JN2","SelectItemID":"","index":10007,"Input":[],"MenuItem":[],"CheckBox":[],"UserID":"10007","Slider":[]}
+[2026-03-25 23:01:54:763] >>>>>TBaseObject.SpaceMove 三大算-1774368650000013544[3->D601] curTid:17324
+[2026-03-25 23:01:54:889] 消息记录:三大算[D601-194,30] -> 5012,0,0,0,0,D601
+
+[2026-03-25 23:02:01:232] 消息记录:三大算[D601-194,32] -> 1006,0,0,0,23740,
+
+[2026-03-25 23:02:10:876] 消息记录:三大算[D601-194,36] -> 1006,0,0,0,23740,
+
+[2026-03-25 23:10:28:572] 消息记录:三大算[D601-192,36] -> 1099,0,0,0,0,
+[2026-03-25 23:10:28:693] 消息记录:三大算[D601-192,36] -> 1009,0,0,0,0,
+[2026-03-25 23:10:28:693] 玩家 三大算 下线1(0,0,52)。。
+[2026-03-25 23:10:28:693] 玩家 三大算 下线(0,0,52)。。
+[2026-03-25 23:10:28:708] >>CloseUser2 三大算-0-1
+[2026-03-25 23:10:29:600] >>Login: 1 
+[2026-03-25 23:10:29:600] >>Login: 2 soft110, sessionID:20
+[2026-03-25 23:10:29:600] >>Login: 3 soft110
+[2026-03-25 23:10:29:615] >>Login: 5_0 soft110
+[2026-03-25 23:10:29:631] >>Login: 5 soft110, 1, 5
+[2026-03-25 23:10:29:631] >>Login: 6 soft110
+[2026-03-25 23:10:29:631] >>Login: TFrontEngine.LoadHumFromDB soft110-1774368650000013544,flag:6
+[2026-03-25 23:10:29:757] >>Login: 6-1 soft110
+[2026-03-25 23:10:29:757] >>三大算，变量加载中...
+[2026-03-25 23:10:29:757] >>三大算，缓存加载变量
+[2026-03-25 23:10:29:757] >>Login: 6-3 soft110, AType:0
+[2026-03-25 23:10:29:757] >>Login: 7 soft110
+[2026-03-25 23:10:29:772] >>Login: 8 soft110
+[2026-03-25 23:10:30:200] >>Login: 8_3 soft110
+[2026-03-25 23:10:30:200] 消息记录:三大算[D601-192,36] -> 1018,0,50332672,99,1,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvX]OODwENX<Jz{WtPpnJzRk\i<{?lXHnnDs=B{[<?pnstXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+[2026-03-25 23:10:30:200] >>Login: 9 soft110
+[2026-03-25 23:10:30:201] >>Login: 11 soft110
+[2026-03-25 23:10:30:308] Title Load:三大算 - 
+[2026-03-25 23:10:30:369] 消息记录:三大算[D601-192,36] -> 81,0,0,0,0,
+[2026-03-25 23:10:30:369] 消息记录:三大算[D601-192,36] -> 5285,1,0,0,635,LmsJSXJJ@_Re_=TNWgueLzMPtl^]@]Wyk_tu<luc?pAjEFWbglE>KQpzZ^q>rOwZV=rgLiTHRwZ`JCo<tqBnGvfabQK?[H<TPVdk[?rVuaI_Y?OzR=r\f^l`vM\fGrnsB?MRSdx<vQUZ_l?eQavKTl[@of?QF\WeSIe_=xNI=n`pUUweL>{QiV>^_LXeIE>bvTTkQaN\btqhdoNLejb>Gra\dKh`={PpSMse\^yejf>KEBlHIBvUvUpksgf\_qHCwoMXDJ`f{iS<dHMO=zxpJYWebkuRgf=ZPrmpI?cRg_^OIIuUZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZnBmbbTSqByZkn^kgSh]hUebAyMkSgxdgvqwDWBVU][PWqv{FFziZn@Sbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZdSjkDck?AuedyiLzSfAwgnEwlmZVVKWPKav]Zvx^ZxHSbb_rq?uZUaT]KvzDSbURDOzk^AubQ^@{gt]ZUaT]KvzDSbURDOzk^AubQ^@{gt]ZUaT]KvzDSbURDOzk^AubQ^@{gt]ZUaT]KvzDSbURDOzk^AubQ\=Z\AiE><\
+[2026-03-25 23:10:30:369] 消息记录:三大算[D601-192,36] -> 5277,0,0,0,0,[{"key":"ZDLH","value":1},{"key":"ZDKTZ","value":1},{"key":"ZDZR","value":1},{"key":"ZDLYJF","value":0},{"key":"ZDLTJF","value":0},{"key":"ZDZHJS","value":0},{"key":"ZDXPYJ","value":0},{"key":"HERO_AUTO_RECALL","value":0},{"key":"HERO_FOLLOW_ATTACK","value":0},{"key":"CUSTOMSKILL()","value":0},{"key":"BB_FOLLOW_ATTACK","value":0}]
+[2026-03-25 23:10:30:369] 消息记录:三大算[D601-192,36] -> 1151,0,0,0,0,
+[2026-03-25 23:10:30:369] 消息记录:三大算[D601-192,36] -> 5012,0,0,0,0,D601
+[2026-03-25 23:10:32:795] 消息记录:三大算[D601-190,36] -> 1019,0,0,0,0,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvX]OODwENX<Jz{WtPpnJzRk\i<{?lXHnnDs=B{[<?pnstXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+
+[2026-03-25 23:10:37:796] 消息记录:三大算[D601-190,36] -> 1019,0,0,0,0,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvX]OODwENX<Jz{WtPpnJzRk\i<{?lXHnnDs=B{[<?pnstXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+
+[2026-03-25 23:10:42:795] 消息记录:三大算[D601-190,36] -> 1019,0,0,0,0,GsGHDxrjJs>]Ts>]vI=lk@<_oSDvXcFXXjwloIQetC?d]CDvXk_y]GGyhgt?oHmlxIJnoGwORc<iM]L_h^JzMgt_pyKOXemnpLSdpC>xos<wo=eeJy=nJcEncCGLdRb{xFCLVY=lX_eNcCGIxGmlVTMnJaFXXdVxxFCLwgg\Jy=ldSDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemnLHdwpGfxvI=lk=StVRkMX@KLBb`wpCDvXcFXXkX_Ds?HpJ_LXGlVVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGsDnIloI<VVOkLX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGAVRkLXFCdpC>xBb`wpCDvXksyz>r@AGt?haeBpwvn]DMBGS<_<np_MgwtAAEl<wFzXemno>KIgaVvzK?HpBbvtCDvXcFXXdWZVRigos<woCDvXdOyPdNzoDLik^HPAK]VAKqlGWtPA>pikc?HDwwyRgElXemno>KIgaVvzK?HpBbvt<QnJcEncCGdpC>xos<woIBvkmeeJy=nJcEncCGHDxrjJy>@VY=lkCDvX]OODwENX<Jz{WtPpnJzRk\i<{?lXHnnDs=B{[<?pnstXemnLHdwpGfx@w{HX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCE<VraltI?sLy=ltDOAV{?IX_enGNqB_WvzkcFXX`?FJy>vkDWZVRigX_en]KqN]GwH]>rzDmLPzAdP{S<ik]LPGNrzXHl_kkqVhc=ncCGHDxrjnj?tVZ>@Vr`wpCDvXcFXXj_LXGoKX?kHBb`wpCDvXcEO
+
+[2026-03-25 23:15:28:722] 1774368650000013544释放...三大算
+

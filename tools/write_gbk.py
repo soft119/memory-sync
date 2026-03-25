@@ -1,41 +1,33 @@
-import codecs
-
-content = """[@点卡测试]
-{
-欢迎来到点卡管理系统！\\
-
-<查看点卡/@查看点卡>\\
-<传送回城/@回城>\\
-<关闭/@exit>
-
-[@查看点卡]
-#IF
-#ACT
-VAR Integer HUMAN 点卡时间
-#SAY
-您的当前剩余游戏时间：<$HUMAN(点卡时间)>秒\\
-
-<返回/@main>\\
-<关闭/@exit>
-
-[@回城]
-#IF
-CHECKMAPNAME 600
-CHECKVAR HUMAN 点卡时间 > 0
-#ACT
-MAPMOVE 3 330 330
-SENDMSG 6 已传送回土城安全区！
-#ELSEACT
-#IF
-CHECKMAPNAME 600
-#ACT
-SENDMSG 5 您的游戏时间已用完，无法传送！
-SENDMSG 5 请使用7天点卡续费！
-#ELSEACT
-SENDMSG 6 您不在欠费等待区，无需传送！
+# -*- coding: utf-8 -*-
 """
+通用 GBK 文件写入工具
+用法: python write_gbk.py "文件路径" "内容"
+"""
+import sys
+import os
 
-path = r'D:\MirServer\Mir200\Envir\QuestDiary\系统功能\点卡测试.txt'
-with codecs.open(path, 'w', 'gbk') as f:
-    f.write(content)
-print('已生成GBK编码文件')
+def write_gbk(file_path, content):
+    """写入 GBK 编码文件"""
+    # 替换转义字符
+    content = content.replace('\\r\\n', '\r\n')
+    content = content.replace('\\n', '\r\n')
+    
+    # 确保目录存在
+    os.makedirs(os.path.dirname(file_path), exist_ok=True)
+    
+    # 写入文件
+    with open(file_path, 'w', encoding='gbk', errors='replace') as f:
+        f.write(content)
+    
+    return file_path
+
+if __name__ == '__main__':
+    if len(sys.argv) < 3:
+        print("Usage: python write_gbk.py \"file_path\" \"content\"")
+        sys.exit(1)
+    
+    file_path = sys.argv[1]
+    content = sys.argv[2]
+    
+    result = write_gbk(file_path, content)
+    print(f"OK: {result}")
