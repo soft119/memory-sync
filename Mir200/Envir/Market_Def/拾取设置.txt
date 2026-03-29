@@ -1,5 +1,0 @@
-[@拾取设置]
-#IF
-#ACT
-OPENHYPERLINK 21
-SENDMSG 6 已打开拾取设置面板

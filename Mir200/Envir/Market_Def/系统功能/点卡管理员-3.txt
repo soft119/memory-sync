@@ -1,6 +1,6 @@
 [@main]
 #SAY
-欢迎来到点卡管理系统！\
+欢迎来到点卡管理系统!\
 <查看点卡状态/@查看>\
 <传送回城/@回城>\
 <关闭/@exit>
@@ -9,10 +9,20 @@
 #IF
 #ACT
 VAR Integer HUMAN 点卡时间
-LOADVAR HUMAN 点卡时间 ..\..\QuestDiary\系统功能\点卡时间.txt
+LOADVAR HUMAN 点卡时间 \系统功能\点卡时间.txt
+MOV N0 <$HUMAN(点卡时间)>
+DIV N1 <$STR(N0)> 86400
+MUL N2 <$STR(N1)> 86400
+MOV N3 <$STR(N0)>
+DEC N3 <$STR(N2)>
+DIV N4 <$STR(N3)> 3600
+MUL N5 <$STR(N4)> 3600
+MOV N6 <$STR(N3)>
+DEC N6 <$STR(N5)>
+DIV N7 <$STR(N6)> 60
+SENDMSG 6 您的点卡余额：<$STR(N1)>天<$STR(N4)>小时<$STR(N7)>分钟
 #SAY
-您的当前剩余游戏时间：<$HUMAN(点卡时间)>秒\
-
+您的点卡信息已显示在聊天框!\
 <返回/@main>\
 <关闭/@exit>
 
@@ -21,7 +31,7 @@ LOADVAR HUMAN 点卡时间 ..\..\QuestDiary\系统功能\点卡时间.txt
 CHECKMAPNAME 600
 #ACT
 VAR Integer HUMAN 点卡时间
-LOADVAR HUMAN 点卡时间 ..\..\QuestDiary\系统功能\点卡时间.txt
+LOADVAR HUMAN 点卡时间 \系统功能\点卡时间.txt
 #IF
 CHECKVAR HUMAN 点卡时间 > 0
 #ACT
@@ -29,7 +39,3 @@ MAPMOVE 3 330 330
 SENDMSG 6 已传送回土城安全区！
 #ELSEACT
 SENDMSG 5 您的游戏时间已用完，无法传送！
-
-[@返回]
-#ACT
-GOTO @main
