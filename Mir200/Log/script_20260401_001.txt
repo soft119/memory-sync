@@ -1,0 +1,2 @@
+[2026-04-01 00:04:29:540] 脚本错误2: GOLD - 5000 第:4 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+

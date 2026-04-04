@@ -1,0 +1,36 @@
+[2026-04-03 10:20:08:188] [脚本参数不正确] Cmd:CHECKVAR NPC名称:QFunction 地图:0 座标:0:0 参数1:HUMAN 参数2:点卡时间 参数3:< 参数4:1 参数5:
+
+[2026-04-03 10:52:07:419] [脚本参数不正确] Cmd:CHECKVAR NPC名称:QFunction 地图:0 座标:0:0 参数1:HUMAN 参数2:点卡时间 参数3:< 参数4:1 参数5:
+
+[2026-04-03 11:39:30:981] [脚本参数不正确] Cmd:CHECKVAR NPC名称:QFunction 地图:0 座标:0:0 参数1:HUMAN 参数2:点卡时间 参数3:< 参数4:1 参数5:
+
+[2026-04-03 14:24:35:585] 脚本错误2: RANDOM 30 第:96 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-03 14:33:27:542] 脚本错误2: RANDOM 3 第:192 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-03 14:51:22:708] 脚本错误2: RANDOM 20 第:95 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-03 14:53:03:490] 脚本错误2: RANDOM 20 第:95 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-03 14:58:27:698] 脚本错误2: RANDOM 20 第:190 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-03 15:37:13:285] [脚本参数不正确] Cmd:CHECKVAR NPC名称:QFunction 地图:0 座标:0:0 参数1:HUMAN 参数2:点卡时间 参数3:<= 参数4:0 参数5:
+
+[2026-04-03 16:46:59:996] NPC加载错误 D:\MirServer\Mir200\Envir\MapQuest_def\Q004.txt   Script = nil
+[2026-04-03 16:46:59:996] NPC加载错误 D:\MirServer\Mir200\Envir\MapQuest_def\Q004.txt   Script = nil
+[2026-04-03 16:46:59:996] NPC加载错误 D:\MirServer\Mir200\Envir\MapQuest_def\Q004.txt   Script = nil
+[2026-04-03 16:47:00:006] NPC加载错误 D:\MirServer\Mir200\Envir\MapQuest_def\Q005.txt   Script = nil
+[2026-04-03 16:47:00:006] NPC加载错误 D:\MirServer\Mir200\Envir\MapQuest_def\Q005.txt   Script = nil
+[2026-04-03 16:47:00:006] NPC加载错误 D:\MirServer\Mir200\Envir\MapQuest_def\Q005.txt   Script = nil
+[2026-04-03 16:47:00:009] 脚本错误2: RANDOM N@Prob 20 第:14 行: D:\MirServer\Mir200\Envir\MapQuest_def\Q001.txt
+[2026-04-03 16:47:00:009] 脚本错误1: N@Prob EQUAL [1] 第:19 行: D:\MirServer\Mir200\Envir\MapQuest_def\Q001.txt
+[2026-04-03 16:47:00:009] 脚本错误1: MOBRACE INRANGE [86, 88] 第:21 行: D:\MirServer\Mir200\Envir\MapQuest_def\Q001.txt
+[2026-04-03 16:47:00:009] 脚本错误2: GETKILLMOBCOORD N@MX N@MY 第:24 行: D:\MirServer\Mir200\Envir\MapQuest_def\Q001.txt
+[2026-04-03 16:47:00:009] 脚本错误2: NEWMOB N@X N@Y 1029 1 0 第:31 行: D:\MirServer\Mir200\Envir\MapQuest_def\Q001.txt
+[2026-04-03 16:47:00:024] NPC加载错误 D:\MirServer\Mir200\Envir\MapQuest_def\Q002.txt   Script = nil
+[2026-04-03 16:47:00:024] NPC加载错误 D:\MirServer\Mir200\Envir\MapQuest_def\Q002.txt   Script = nil
+[2026-04-03 16:47:00:024] NPC加载错误 D:\MirServer\Mir200\Envir\MapQuest_def\Q002.txt   Script = nil
+[2026-04-03 16:47:00:033] NPC加载错误 D:\MirServer\Mir200\Envir\MapQuest_def\Q003.txt   Script = nil
+[2026-04-03 16:47:00:033] NPC加载错误 D:\MirServer\Mir200\Envir\MapQuest_def\Q003.txt   Script = nil
+[2026-04-03 16:47:00:033] NPC加载错误 D:\MirServer\Mir200\Envir\MapQuest_def\Q003.txt   Script = nil
+

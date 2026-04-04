@@ -2,7 +2,7 @@
 CastleName=沙巴克
 ChangeDate=1899/12/30/周六
 WarDate=1899/12/30/周六
-IncomeToday=2026/3/25/周三
+IncomeToday=2026/4/3/周五 1:00:58
 TotalGold=0
 TodayIncome=0
 OwnGuild=

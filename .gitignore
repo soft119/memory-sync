@@ -9,10 +9,35 @@
 __pycache__/
 *.pyc
 
-# 忽略大型文件（可选）
-# *.map
-# *.db
+# 忽略游戏日志和运行文件
+Logs/
+CenterLog/
+DBServer/Log/
+LoginGate/
+LoginSrv/
+LogServer/
+RunGate/
+
+# 忽略可执行文件和库文件
+*.exe
+*.dll
+*.pdb
+
+# 忽略大型游戏文件
+*.map
+*.db
+*.chm
 
 # 忽略临时目录
 temp/
 temp_card.txt
+
+# 忽略游戏运行数据
+Mir200/DB/
+Mir200/Guild/
+Mir200/Notice/
+Mir200/UserData/
+Mir200/UserRanks/
+
+# 忽略工作记忆的临时备份
+.workbuddy/memory/*.backup

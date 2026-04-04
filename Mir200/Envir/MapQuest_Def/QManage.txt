@@ -98,3 +98,5 @@ CALCVAR HUMAN 点卡时间 = 0
 SAVEVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
 MAPMOVE 600 20 20
 SENDMSG 5 您的游戏时间已用完！
+
+

@@ -1,0 +1,19 @@
+[2026-04-02 19:57:26:302] 脚本错误1: CHECKMONSTERNAME 骷髅 第:115 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-02 19:57:26:302] 脚本错误1: CHECKMONSTERNAME 掷斧骷髅 第:116 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-02 19:57:26:302] 脚本错误1: CHECKMONSTERNAME 骷髅战士 第:117 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-02 19:57:26:302] 脚本错误1: CHECKMONSTERNAME 骷髅战将 第:118 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-02 19:57:26:302] 脚本错误2: MAKEMONSTER 1 1029 %X %Y 第:123 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+
+[2026-04-02 19:58:28:207] 脚本错误1: $KILLMONSTER = 骷髅 第:115 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-02 19:58:28:207] 脚本错误1: $KILLMONSTER = 掷斧骷髅 第:117 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-02 19:58:28:207] 脚本错误1: $KILLMONSTER = 骷髅战士 第:119 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-02 19:58:28:207] 脚本错误1: $KILLMONSTER = 骷髅战将 第:121 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-02 19:58:28:207] 脚本错误2: MAKEMONSTER 骷髅精灵 1 第:127 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+
+[2026-04-02 19:59:18:138] 脚本错误1: CALCPOS 0 怪物名称 S0 第:115 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-02 19:59:18:138] 脚本错误1: S0 = 骷髅 第:117 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-02 19:59:18:138] 脚本错误1: S0 = 掷斧骷髅 第:119 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-02 19:59:18:138] 脚本错误1: S0 = 骷髅战士 第:121 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-02 19:59:18:138] 脚本错误1: S0 = 骷髅战将 第:123 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-02 19:59:18:138] 脚本错误2: MAKEMONSTER 1 1029 第:130 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+

@@ -1,0 +1,26 @@
+[2026-04-02 19:34:03:456] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-11244] 当前Thread:16084
+[2026-04-02 19:34:03:456] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-11244] 当前Thread:16084
+[2026-04-02 19:34:03:456] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-11244] 当前Thread:16084
+[2026-04-02 19:34:03:456] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-11244] 当前Thread:16084
+[2026-04-02 19:34:03:743] Socket Err:10061
+
+[2026-04-02 19:51:10:641] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-25748] 当前Thread:26544
+[2026-04-02 19:51:10:641] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-25748] 当前Thread:26544
+[2026-04-02 19:51:10:641] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-25748] 当前Thread:26544
+[2026-04-02 19:51:10:641] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-25748] 当前Thread:26544
+
+[2026-04-02 19:57:26:587] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-25840] 当前Thread:23676
+[2026-04-02 19:57:26:587] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-25840] 当前Thread:23676
+[2026-04-02 19:57:26:587] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-25840] 当前Thread:23676
+[2026-04-02 19:57:26:587] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-25840] 当前Thread:23676
+
+[2026-04-02 19:58:28:503] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-7220] 当前Thread:21064
+[2026-04-02 19:58:28:504] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-7220] 当前Thread:21064
+[2026-04-02 19:58:28:504] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-7220] 当前Thread:21064
+[2026-04-02 19:58:28:504] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-7220] 当前Thread:21064
+
+[2026-04-02 19:59:18:434] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-24648] 当前Thread:26292
+[2026-04-02 19:59:18:434] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-24648] 当前Thread:26292
+[2026-04-02 19:59:18:434] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-24648] 当前Thread:26292
+[2026-04-02 19:59:18:434] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-24648] 当前Thread:26292
+

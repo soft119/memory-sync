@@ -1,0 +1,78 @@
+[2026-03-31 19:43:41:295] 脚本错误2: SUB N5 N4 第:43 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+[2026-03-31 19:43:41:295] 脚本错误2: SUB N5 N4 第:102 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+[2026-03-31 19:43:41:295] 脚本错误2: RANDOM 100 第:115 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+
+[2026-03-31 19:44:33:110] 脚本错误2: RANDOM 第:114 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+
+[2026-03-31 19:44:50:431] 脚本错误2: RANDOM 第:114 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+
+[2026-03-31 19:45:50:391] 脚本错误2: RANDOM 第:114 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+
+[2026-03-31 23:29:23:925] NPC加载错误 D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt   Script = nil
+[2026-03-31 23:29:23:925] NPC加载错误 D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt   Script = nil
+[2026-03-31 23:29:23:925] NPC加载错误 D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt   Script = nil
+[2026-03-31 23:29:23:925] NPC加载错误 D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt   Script = nil
+[2026-03-31 23:29:23:925] NPC加载错误 D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt   Script = nil
+
+[2026-03-31 23:30:39:922] NPC加载错误 D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt   Script = nil
+[2026-03-31 23:30:39:922] NPC加载错误 D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt   Script = nil
+[2026-03-31 23:30:39:922] NPC加载错误 D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt   Script = nil
+[2026-03-31 23:30:39:922] NPC加载错误 D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt   Script = nil
+[2026-03-31 23:30:39:922] NPC加载错误 D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt   Script = nil
+
+[2026-03-31 23:37:54:471] NPC加载错误 D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt   Script = nil
+[2026-03-31 23:37:54:471] NPC加载错误 D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt   Script = nil
+[2026-03-31 23:37:54:471] NPC加载错误 D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt   Script = nil
+[2026-03-31 23:37:54:471] NPC加载错误 D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt   Script = nil
+[2026-03-31 23:37:54:471] NPC加载错误 D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt   Script = nil
+[2026-03-31 23:37:54:471] NPC加载错误 D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt   Script = nil
+
+[2026-03-31 23:44:55:564] NPC加载错误 D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt   Script = nil
+[2026-03-31 23:44:55:564] NPC加载错误 D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt   Script = nil
+[2026-03-31 23:44:55:564] NPC加载错误 D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt   Script = nil
+[2026-03-31 23:44:55:564] NPC加载错误 D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt   Script = nil
+[2026-03-31 23:44:55:564] NPC加载错误 D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt   Script = nil
+[2026-03-31 23:44:55:564] NPC加载错误 D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt   Script = nil
+
+[2026-03-31 23:51:55:817] 脚本错误2: TAKEITEM 1 1       ; 扣除第1格物品（模拟“放入”） 第:13 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+
+[2026-03-31 23:53:43:146] 脚本错误2: RANDOM 100 第:10 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+[2026-03-31 23:53:43:146] 脚本错误2: SETITEMLEVEL 9 +1  ; 强化背包中的装备等级+1 第:14 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+[2026-03-31 23:53:43:146] 脚本错误3: TAKEITEM 9 1       ; 强化失败，扣除装备 第:17 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+
+[2026-03-31 23:58:24:037] 脚本错误2: GOLD - 5000 第:30 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+[2026-03-31 23:58:24:037] 脚本错误2: RANDOM 100 第:33 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+
+[2026-03-31 23:59:27:164] 脚本错误2: GOLD - 5000 第:24 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+[2026-03-31 23:59:27:164] 脚本错误2: RANDOM 100 第:26 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+[2026-03-31 23:59:27:164] 脚本错误2: GOTOIF < N0 50 @Success 第:28 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+
+[2026-03-31 23:59:35:365] 脚本错误2: GOLD - 5000 第:24 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+[2026-03-31 23:59:35:365] 脚本错误2: RANDOM 100 第:26 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+[2026-03-31 23:59:35:365] 脚本错误2: GOTOIF < N0 50 @Success 第:28 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+
+[2026-04-01 00:00:41:080] 脚本错误2: GOLD-5000  ; 去掉空格 第:16 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+[2026-04-01 00:00:41:080] 脚本错误2: RANDOM100  ; 去掉空格 第:17 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+[2026-04-01 00:00:41:080] 脚本错误2: SETITEMLEVEL +1 第:21 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+
+[2026-04-01 00:01:11:173] 脚本错误2: GOLD - 5000 第:16 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+[2026-04-01 00:01:11:173] 脚本错误2: RANDOM 100 第:17 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+[2026-04-01 00:01:11:174] 脚本错误2: SETITEMLEVEL 1 第:21 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+
+[2026-04-01 00:01:42:623] 脚本错误2: GOLD - 5000 第:15 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+[2026-04-01 00:01:42:624] 脚本错误2: RANDOM 100 第:16 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+[2026-04-01 00:01:42:624] 脚本错误2: SETITEMLEVEL 1 第:20 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+
+[2026-04-01 00:02:18:350] 脚本错误2: RANDOM 100 第:20 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+[2026-04-01 00:02:18:350] 脚本错误2: SETITEMLEVEL 1 第:28 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+
+[2026-04-01 00:02:49:981] 脚本错误2: GETIME 4 第:20 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+[2026-04-01 00:02:49:981] 脚本错误2: TAKEITEMW 裁决之杖 1 第:29 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+[2026-04-01 00:02:49:981] 脚本错误3: TAKEITEMW 裁决之杖 1 第:36 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+
+[2026-04-01 00:03:21:396] 脚本错误2: GOLD - 5000 第:11 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+
+[2026-04-01 00:03:47:605] 脚本错误2: GOLD - 5000 第:4 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+
+[2026-04-01 00:04:11:049] 脚本错误2: GOLD - 5000 第:4 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\强化师-3.txt
+

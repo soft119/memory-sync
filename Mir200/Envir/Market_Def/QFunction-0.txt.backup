@@ -1,0 +1,102 @@
+(@@InPutInteger @@InPutString @@useitemname @@OffLineMsg @@dealgold)
+
+;----------------------------------------------------------------
+; QFunction-0.txt - 996PC引擎 全局功能脚本 (GBK编码)
+;----------------------------------------------------------------
+
+[@StdModeFunc100]
+#IF
+#ACT
+; 7天点卡双击增加时间
+LOADVAR HUMAN 点卡时间 ..\\QuestDiary\\系统功能\\点卡时间.txt
+CALCVAR HUMAN 点卡时间 + 604800  ; 增加7天(604800秒)
+SAVEVAR HUMAN 点卡时间 ..\\QuestDiary\\系统功能\\点卡时间.txt
+TAKE 7天点卡 1
+SENDMSG 6 点卡充值成功！增加7天游戏时间。
+BREAK
+
+[@PlayLevelUp]
+#IF
+EQUAL <> 7
+CHECKJOB warrior
+#ACT
+ADDSKILL 基本剑术 3
+SENDMSG 6 恭喜升到7级，自动学习基本剑术3级！
+BREAK
+
+#IF
+EQUAL <> 7
+CHECKJOB wizard
+#ACT
+ADDSKILL 火球术 3
+SENDMSG 6 恭喜升到7级，自动学习火球术3级！
+BREAK
+
+#IF
+EQUAL <> 7
+CHECKJOB taoist
+#ACT
+ADDSKILL 治愈术 3
+SENDMSG 6 恭喜升到7级，自动学习治愈术3级！
+BREAK
+
+#IF
+EQUAL <> 1
+ISNEWHUMAN
+CHECKJOB warrior
+#ACT
+MOV HUMAN 新人礼包 1
+GIVE 木剑 1
+GIVE 蜡烛 1
+GIVE 布衣(男) 1
+SENDMSG 6 欢迎来到传奇世界！已赠送新人礼包。
+BREAK
+
+#IF
+EQUAL <> 1
+ISNEWHUMAN
+CHECKJOB wizard
+#ACT
+MOV HUMAN 新人礼包 1
+GIVE 木剑 1
+GIVE 蜡烛 1
+GIVE 布衣(男) 1
+SENDMSG 6 欢迎来到传奇世界！已赠送新人礼包。
+BREAK
+
+#IF
+EQUAL <> 1
+ISNEWHUMAN
+CHECKJOB taoist
+#ACT
+MOV HUMAN 新人礼包 1
+GIVE 木剑 1
+GIVE 蜡烛 1
+GIVE 布衣(女) 1
+SENDMSG 6 欢迎来到传奇世界！已赠送新人礼包。
+BREAK
+
+; 22级点卡检测
+#IF
+EQUAL <> 22
+CHECKVAR HUMAN 点卡时间 <= 0
+#ACT
+MAPMOVE 600 10 10
+SENDMSG 6 22级后需要点卡才能继续游戏！请充值后返回土城。
+BREAK
+
+[@OnKillMob]
+; 击杀骷髅系列怪物概率刷新骷髅精灵
+#IF
+#OR
+EQUAL <> 骷髅
+EQUAL <> 掷斧骷髅
+EQUAL <> 骷髅战士
+#ACT
+; 33%概率 (RANDOM 3 = 1/3概率)
+RANDOM 3
+MonGenEx <> <> <> 骷髅精灵 3 1 0 251
+SENDMSG 6 成功击杀骷髅怪物，有概率刷新骷髅精灵！
+BREAK
+
+;----------------------------------------------------------------
