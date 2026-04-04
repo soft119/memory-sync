@@ -225,24 +225,14 @@ BREAK
 
 [@OnKillMob]
 
+; 地图命令已限定在骷髅地图触发，无需判断怪物类型
+
+; 5%概率刷出骷髅精灵 (RANDOM 40 = 1/40 = 2.5%)
 #IF
-
-#OR
-
-EQUAL <$KILLMONNAME> 骷髅
-
-EQUAL <$KILLMONNAME> 掷斧骷髅
-
-EQUAL <$KILLMONNAME> 骷髅战士
-
-#ACT
-
-; 5%概率刷出骷髅精灵 (RANDOM 20 = 1/20 = 5%)
-#IF
-RANDOM 10
+RANDOM 50
 #ACT
 MonGenEx <$MAP> <$X> <$Y> 骷髅精灵 3 1 0 251
-SENDMSG 6 成功击杀骷髅怪物，有概率刷新骷髅精灵！
+SENDMSG 6 见你杀辛苦，老夫赏你一只大怪玩玩！
 #ELSEACT
 BREAK
 BREAK
