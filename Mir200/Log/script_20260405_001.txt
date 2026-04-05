@@ -1,0 +1,16 @@
+[2026-04-05 19:57:49:586] 脚本错误1: JOB WARRIOR 第:108 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-05 19:57:49:586] 脚本错误1: JOB WARRIOR 第:119 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-05 19:57:49:586] 脚本错误1: JOB WIZARD 第:130 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-05 19:57:49:586] 脚本错误1: JOB WIZARD 第:141 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-05 19:57:49:586] 脚本错误1: JOB TAOIST 第:152 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-05 19:57:49:586] 脚本错误1: JOB TAOIST 第:163 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-05 19:57:49:588] 脚本错误2: SetBit [265] 1 第:9 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-05 20:33:41:268] 脚本错误1: JOB WARRIOR 第:275 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-05 20:33:41:268] 脚本错误1: JOB WARRIOR 第:286 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-05 20:33:41:268] 脚本错误1: JOB WIZARD 第:297 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-05 20:33:41:268] 脚本错误1: JOB WIZARD 第:308 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-05 20:33:41:268] 脚本错误1: JOB TAOIST 第:319 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-05 20:33:41:268] 脚本错误1: JOB TAOIST 第:330 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-05 20:33:41:269] 脚本错误2: SetBit [265] 1 第:9 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+

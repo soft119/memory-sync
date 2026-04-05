@@ -4,6 +4,9 @@
 #IF
 #ACT
 ChangeBagCount = 126
+VAR Integer HUMAN 在线计时
+LOADVAR HUMAN 在线计时 ..\QuestDiary\系统功能\在线计时.txt
+SetOnTimer 55 1 0
 
 ;================================================
 ; 新人检测 - 送初始装备（只送一次）
@@ -99,4 +102,151 @@ SAVEVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
 MAPMOVE 600 20 20
 SENDMSG 5 您的游戏时间已用完！
 
+;================================================
+; 在线礼包系统 - 每秒计时
+;================================================
+[@OnTimer55]
+#IF
+#ACT
+VAR Integer HUMAN 在线计时
+LOADVAR HUMAN 在线计时 ..\QuestDiary\系统功能\在线计时.txt
+CALCVAR HUMAN 在线计时 + 1
+SAVEVAR HUMAN 在线计时 ..\QuestDiary\系统功能\在线计时.txt
+
+#IF
+CHECKVAR HUMAN 在线计时 >= 60
+#ACT
+CALCVAR HUMAN 在线计时 = 0
+SAVEVAR HUMAN 在线计时 ..\QuestDiary\系统功能\在线计时.txt
+RandomGoto 100 30:@基础礼包|100:@稀有礼包
+
+; 基础礼包 - 5选1
+[@基础礼包]
+#ACT
+RandomGoto 100 20:@给超级金创药|40:@给超级魔法药|60:@给强效太阳水|80:@给疗伤药|100:@给蜡烛
+
+[@给超级金创药]
+#ACT
+GIVE 超级金创药 1
+SENDMSG 6 在线礼包：获得超级金创药 1个
+BREAK
+
+[@给超级魔法药]
+#ACT
+GIVE 超级魔法药 1
+SENDMSG 6 在线礼包：获得超级魔法药 1个
+BREAK
+
+[@给强效太阳水]
+#ACT
+GIVE 强效太阳水 1
+SENDMSG 6 在线礼包：获得强效太阳水 1个
+BREAK
+
+[@给疗伤药]
+#ACT
+GIVE 疗伤药 1
+SENDMSG 6 在线礼包：获得疗伤药 1个
+BREAK
+
+[@给蜡烛]
+#ACT
+GIVE 蜡烛 1
+SENDMSG 6 在线礼包：获得蜡烛 1个
+BREAK
+
+; 稀有礼包 - 14选1
+[@稀有礼包]
+#ACT
+RandomGoto 100 7:@给修复神水|14:@给火把|21:@给比奇传送石|28:@给盟重传送石|35:@给千里传音|42:@给幻境凭证|49:@给骰子|56:@给双倍卷轴|63:@给个性发型|70:@给反璞归真|77:@给金条|84:@给1小时点卡|91:@给2小时点卡|98:@给5小时点卡|100:@给1天点卡
+
+[@给修复神水]
+#ACT
+GIVE 修复神水 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【修复神水】！
+BREAK
+
+[@给火把]
+#ACT
+GIVE 火把 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【火把】！
+BREAK
+
+[@给比奇传送石]
+#ACT
+GIVE 比奇传送石 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【比奇传送石】！
+BREAK
+
+[@给盟重传送石]
+#ACT
+GIVE 盟重传送石 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【盟重传送石】！
+BREAK
+
+[@给千里传音]
+#ACT
+GIVE 千里传音(大) 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【千里传音(大)】！
+BREAK
+
+[@给幻境凭证]
+#ACT
+GIVE 幻境凭证 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【幻境凭证】！
+BREAK
+
+[@给骰子]
+#ACT
+GIVE 骰子 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【骰子】！
+BREAK
+
+[@给双倍卷轴]
+#ACT
+GIVE 双倍卷轴 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【双倍卷轴】！
+BREAK
+
+[@给个性发型]
+#ACT
+GIVE 个性发型 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【个性发型】！
+BREAK
+
+[@给反璞归真]
+#ACT
+GIVE 反璞归真 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【反璞归真】！
+BREAK
+
+[@给金条]
+#ACT
+GIVE 金条 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【金条】！
+BREAK
+
+[@给1小时点卡]
+#ACT
+GIVE 1小时点卡 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【1小时点卡】！
+BREAK
+
+[@给2小时点卡]
+#ACT
+GIVE 2小时点卡 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【2小时点卡】！
+BREAK
+
+[@给5小时点卡]
+#ACT
+GIVE 5小时点卡 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【5小时点卡】！
+BREAK
+
+[@给1天点卡]
+#ACT
+GIVE 1天点卡 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【1天点卡】！
+BREAK
 

@@ -1,5 +1,14 @@
 # 996PC引擎 项目记忆
 
+## 工作规范（重要！）
+
+1. **修改前先备份** — 用 `replace_in_file` 之前先 `read_file` 备份内容
+2. **查知识库** — 优先使用 Skill 中的 `996PC引擎知识库`
+3. **上网查阅** — 知识库没有的，上网搜索
+4. **再问用户** — 网上也找不到的才来问
+5. **不乱编造** — 所有命令都要有依据，禁止自己编造引擎不支持的语法
+6. **GBK编码** — 脚本文件写入后用 Python 转换编码，或用 `write_gbk.py`，防止乱码
+
 > 详细知识体系已迁移至 Skill：`996PC引擎知识库`（C:\Users\Administrator\.workbuddy\skills\996PC引擎知识库\SKILL.md）
 
 ## 项目信息
@@ -11,6 +20,29 @@
 - **GBK写入工具**: `D:\MirServer\tools\write_gbk.py`
 - **引擎文档**: `D:\MirServer\chm_extract\游戏引擎反外挂系统\`（810个文件）
 - **命令清单**: `D:\MirServer\tools\engine_commands.txt`（915个命令）
+
+## 脚本文件固定路径（重要！）
+
+- **QF (QFunction)**: `D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt`
+- **QM (QManage)**: `D:\MirServer\Mir200\Envir\MapQuest_Def\QManage.txt`
+- **点卡存储**: `D:\MirServer\Mir200\Envir\QuestDiary\系统功能\点卡时间.txt`
+- **物品数据库**: `D:\MirServer\Mir200\Envir\data\cfg_item.xls`
+- **在线奖励存储**: `D:\MirServer\Mir200\Envir\QuestDiary\系统功能\在线奖励.txt`
+- **点卡管理员NPC**: `D:\MirServer\Mir200\Envir\Market_Def\Npcs\点卡管理员.txt`
+
+## 地图信息
+
+- **欠费等待区**: 地图600，土城安全区坐标: 3 330 330
+
+## 点卡物品配置
+
+| 物品 | Idx | AniCount | 触发标签 | 增加时间 |
+|------|-----|----------|----------|----------|
+| 7天点卡 | 10350 | 100 | [@StdModeFunc100] | 604800秒 |
+| 1小时点卡 | 10351 | 101 | [@StdModeFunc101] | 3600秒 |
+| 2小时点卡 | 10352 | 102 | [@StdModeFunc102] | 7200秒 |
+| 5小时点卡 | 10353 | 103 | [@StdModeFunc103] | 18000秒 |
+| 1天点卡 | 10354 | 104 | [@StdModeFunc104] | 86400秒 |
 
 ## 土城安全区
 
@@ -41,6 +73,17 @@
 - 定时器: 50号，每3600秒，CHECKVAR>0扣除，=0传送到地图600
 - 22级以下免费，升22级时立即检测
 
+## 在线2小时礼包系统
+
+- 定时器: 55号，每1秒触发一次
+- 变量: `在线计时`(秒), `在线礼包已领`(0/1)
+- 存储: `QuestDiary\系统功能\在线计时.txt`, `QuestDiary\系统功能\在线礼包已领.txt`
+- 抽奖逻辑: `RandomGoto 100 70:@基础礼包|30:@稀有礼包`
+- 基础礼包(70%): 超级金创药、超级魔法药、强效太阳水、疗伤药、蜡烛（5选1）
+- 稀有礼包(30%): 修复神水、火把、传送石、千里传音、幻境凭证、骰子、双倍卷轴、个性发型、反璞归真、金条、1小时点卡、2小时点卡、5小时点卡、1天点卡（15选1）
+- 下线清零: QF[@Logout]处理
+- 限制: 每人只能领取一次
+
 ## 怪物IDX速查（骷髅系列）
 
 | IDX | 名称 | Race |
@@ -63,6 +106,7 @@
 | 功能 | 关键文件 | 状态 |
 |------|----------|------|
 | 击杀骷髅概率刷新骷髅精灵 | QF[@OnKillMob] | ✅ |
+| 在线2小时礼包系统 | QM[@OnTimer55] | ✅ |
 
 ## 最近修改（2026-03-25）
 
