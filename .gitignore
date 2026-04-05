@@ -17,6 +17,8 @@ LoginGate/
 LoginSrv/
 LogServer/
 RunGate/
+Mir200/Log/
+Mir200/GameGuard/Log/
 
 # 忽略可执行文件和库文件
 *.exe
@@ -41,6 +43,16 @@ Mir200/Guild/
 Mir200/Notice/
 Mir200/UserData/
 Mir200/UserRanks/
+
+# 忽略备份文件
+*.bak*
+*.new
+*_backup.txt
+
+# 忽略临时工作文件
+.codebuddy/
+tools/*_backup.txt
+tools/*.bak
 
 # 忽略工作记忆的临时备份
 .workbuddy/memory/*.backup
