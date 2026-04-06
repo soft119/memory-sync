@@ -6,7 +6,16 @@ LOADVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
 CALCVAR HUMAN 点卡时间 + 604800
 SAVEVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
 TAKE 7天点卡 1
-SENDMSG 7 恭喜您获得7天游戏时间！剩余：<$HUMAN(点卡时间)>秒
+DIV N102 <$HUMAN(点卡时间)> 86400
+MUL N103 <$STR(N102)> 86400
+MOV N104 <$HUMAN(点卡时间)>
+DEC N104 <$STR(N103)>
+DIV N105 <$STR(N104)> 3600
+MUL N106 <$STR(N105)> 3600
+MOV N107 <$STR(N104)>
+DEC N107 <$STR(N106)>
+DIV N108 <$STR(N107)> 60
+SENDMSG 7 恭喜您获得7天游戏时间！剩余：<$STR(N102)>天<$STR(N105)>小时<$STR(N108)>分钟
 SetOnTimer 50 60
 SET [265] 1
 
@@ -18,7 +27,16 @@ LOADVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
 CALCVAR HUMAN 点卡时间 + 3600
 SAVEVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
 TAKE 1小时点卡 1
-SENDMSG 7 恭喜您获得1小时游戏时间！剩余：<$HUMAN(点卡时间)>秒
+DIV N102 <$HUMAN(点卡时间)> 86400
+MUL N103 <$STR(N102)> 86400
+MOV N104 <$HUMAN(点卡时间)>
+DEC N104 <$STR(N103)>
+DIV N105 <$STR(N104)> 3600
+MUL N106 <$STR(N105)> 3600
+MOV N107 <$STR(N104)>
+DEC N107 <$STR(N106)>
+DIV N108 <$STR(N107)> 60
+SENDMSG 7 恭喜您获得1小时游戏时间！剩余：<$STR(N102)>天<$STR(N105)>小时<$STR(N108)>分钟
 SetOnTimer 50 60
 
 [@StdModeFunc102]
@@ -29,7 +47,16 @@ LOADVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
 CALCVAR HUMAN 点卡时间 + 7200
 SAVEVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
 TAKE 2小时点卡 1
-SENDMSG 7 恭喜您获得2小时游戏时间！剩余：<$HUMAN(点卡时间)>秒
+DIV N102 <$HUMAN(点卡时间)> 86400
+MUL N103 <$STR(N102)> 86400
+MOV N104 <$HUMAN(点卡时间)>
+DEC N104 <$STR(N103)>
+DIV N105 <$STR(N104)> 3600
+MUL N106 <$STR(N105)> 3600
+MOV N107 <$STR(N104)>
+DEC N107 <$STR(N106)>
+DIV N108 <$STR(N107)> 60
+SENDMSG 7 恭喜您获得2小时游戏时间！剩余：<$STR(N102)>天<$STR(N105)>小时<$STR(N108)>分钟
 SetOnTimer 50 60
 
 [@StdModeFunc103]
@@ -40,7 +67,16 @@ LOADVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
 CALCVAR HUMAN 点卡时间 + 18000
 SAVEVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
 TAKE 5小时点卡 1
-SENDMSG 7 恭喜您获得5小时游戏时间！剩余：<$HUMAN(点卡时间)>秒
+DIV N102 <$HUMAN(点卡时间)> 86400
+MUL N103 <$STR(N102)> 86400
+MOV N104 <$HUMAN(点卡时间)>
+DEC N104 <$STR(N103)>
+DIV N105 <$STR(N104)> 3600
+MUL N106 <$STR(N105)> 3600
+MOV N107 <$STR(N104)>
+DEC N107 <$STR(N106)>
+DIV N108 <$STR(N107)> 60
+SENDMSG 7 恭喜您获得5小时游戏时间！剩余：<$STR(N102)>天<$STR(N105)>小时<$STR(N108)>分钟
 SetOnTimer 50 60
 
 [@StdModeFunc104]
@@ -51,7 +87,16 @@ LOADVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
 CALCVAR HUMAN 点卡时间 + 86400
 SAVEVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
 TAKE 1天点卡 1
-SENDMSG 7 恭喜您获得1天游戏时间！剩余：<$HUMAN(点卡时间)>秒
+DIV N102 <$HUMAN(点卡时间)> 86400
+MUL N103 <$STR(N102)> 86400
+MOV N104 <$HUMAN(点卡时间)>
+DEC N104 <$STR(N103)>
+DIV N105 <$STR(N104)> 3600
+MUL N106 <$STR(N105)> 3600
+MOV N107 <$STR(N104)>
+DEC N107 <$STR(N106)>
+DIV N108 <$STR(N107)> 60
+SENDMSG 7 恭喜您获得1天游戏时间！剩余：<$STR(N102)>天<$STR(N105)>小时<$STR(N108)>分钟
 SetOnTimer 50 60
 
 [@STDMODEFUNC9]
