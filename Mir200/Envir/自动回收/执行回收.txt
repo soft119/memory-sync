@@ -1,0 +1,9 @@
+[@main]
+#ACT
+; 回收技能书
+TakeBagItem 火球术|治愈术|基本剑术|抗拒火环|施毒术 46 10 0 0 0 N$书籍数量 0
+; 回收武器
+TakeBagItem 木剑|匕首|青铜剑 46 0 0 0 0 N$武器数量 0
+; 显示结果
+SENDMSG 6 回收书籍<$STR(N$书籍数量)>件，武器<$STR(N$武器数量)>件
+CloseBigDialogBox

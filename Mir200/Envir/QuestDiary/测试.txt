@@ -1,0 +1,7 @@
+[@main]
+{
+#IF
+TRUE
+#ACT
+SENDMSG 6 测试成功！
+}
