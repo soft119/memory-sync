@@ -45,15 +45,15 @@ SENDMSG 0 玩家「<$USERNAME>」进入了游戏，欢迎新朋友！
 
 ;================================================
 ; 点卡系统 - 登录检测
-; 22级以下新人不需要点卡
+; 15级以下新人不需要点卡
 ;================================================
 #IF
-CHECKLEVELEX < 22
+CHECKLEVELEX < 15
 #ACT
-SENDMSG 6 欢迎新人！22级以下免费游戏，祝您游戏愉快！
+SENDMSG 6 欢迎新人！15级以下免费游戏，祝您游戏愉快！
 BREAK
 
-; 22级及以上需要检测点卡
+; 15级及以上需要检测点卡
 #IF
 #ACT
 VAR Integer HUMAN 点卡时间
@@ -63,7 +63,7 @@ LOADVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
 CHECKVAR HUMAN 点卡时间 < 1
 #ACT
 MAPMOVE 600 20 20
-SENDMSG 5 您已达到22级，需要点卡才能继续游戏！
+SENDMSG 5 您已达到15级，需要点卡才能继续游戏！
 SENDMSG 5 请使用7天点卡续费！
 BREAK
 
@@ -118,12 +118,12 @@ CHECKVAR HUMAN 在线计时 >= 60
 #ACT
 CALCVAR HUMAN 在线计时 = 0
 SAVEVAR HUMAN 在线计时 ..\QuestDiary\系统功能\在线计时.txt
-RandomGoto 100 30:@基础礼包|100:@稀有礼包
+RandomGoto 100 70:@基础礼包|100:@稀有礼包
 
 ; 基础礼包 - 5选1
 [@基础礼包]
 #ACT
-RandomGoto 100 20:@给超级金创药|40:@给超级魔法药|60:@给强效太阳水|80:@给疗伤药|100:@给蜡烛
+RandomGoto 100 20:@给超级金创药|40:@给超级魔法药|60:@给强效太阳水|80:@给疗伤药|100:@给祝福油
 
 [@给超级金创药]
 #ACT
@@ -149,10 +149,10 @@ GIVE 疗伤药 1
 SENDMSG 6 在线礼包：获得疗伤药 1个
 BREAK
 
-[@给蜡烛]
+[@给祝福油]
 #ACT
-GIVE 蜡烛 1
-SENDMSG 6 在线礼包：获得蜡烛 1个
+GIVE 祝福油 1
+SENDMSG 6 在线礼包：获得祝福油 1个
 BREAK
 
 ; 稀有礼包 - 14选1
