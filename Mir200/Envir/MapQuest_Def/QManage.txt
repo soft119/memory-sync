@@ -118,7 +118,7 @@ CHECKVAR HUMAN 在线计时 >= 60
 #ACT
 CALCVAR HUMAN 在线计时 = 0
 SAVEVAR HUMAN 在线计时 ..\QuestDiary\系统功能\在线计时.txt
-RandomGoto 100 70:@基础礼包|100:@稀有礼包
+RandomGoto 100 70:@基础礼包|30:@稀有礼包
 
 ; 基础礼包 - 5选1
 [@基础礼包]
