@@ -1,0 +1,9 @@
+{
+[@main]
+#IF
+checkitem 火球术 1
+#ACT
+TAKE 火球术 99
+give 金币 250
+SENDMSG 6 回收火球术！
+}

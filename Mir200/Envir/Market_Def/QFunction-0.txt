@@ -2,52 +2,96 @@
 #IF
 #ACT
 VAR Integer HUMAN 点卡时间
-LOADVAR HUMAN 点卡时间 ..\\QuestDiary\\系统功能\\点卡时间.txt
+LOADVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
 CALCVAR HUMAN 点卡时间 + 604800
-SAVEVAR HUMAN 点卡时间 ..\\QuestDiary\\系统功能\\点卡时间.txt
-SENDMSG 7 提示：恭喜您获得7天游戏时间！当前剩余：<$STR(N$点卡时间)>秒
+SAVEVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
+TAKE 7天点卡 1
+MOV N10 <$HUMAN(点卡时间)>
+DIV N11 <$STR(N10)> 86400
+MOV N12 <$STR(N10)>
+DEC N12 <$STR(N11)> 86400
+DIV N13 <$STR(N12)> 3600
+MOV N14 <$STR(N12)>
+DEC N14 <$STR(N13)> 3600
+DIV N15 <$STR(N14)> 60
+SENDMSG 7 恭喜您获得7天游戏时间！剩余：<$STR(N11)>天<$STR(N13)>小时<$STR(N15)>分钟
 SetOnTimer 50 60
 SET [265] 1
-MAP 3 330 330
 
 [@StdModeFunc101]
 #IF
 #ACT
 VAR Integer HUMAN 点卡时间
-LOADVAR HUMAN 点卡时间 ..\\QuestDiary\\系统功能\\点卡时间.txt
+LOADVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
 CALCVAR HUMAN 点卡时间 + 3600
-SAVEVAR HUMAN 点卡时间 ..\\QuestDiary\\系统功能\\点卡时间.txt
-SENDMSG 7 提示：恭喜您获得1小时游戏时间！当前剩余：<$STR(N$点卡时间)>秒
+SAVEVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
+TAKE 1小时点卡 1
+MOV N10 <$HUMAN(点卡时间)>
+DIV N11 <$STR(N10)> 86400
+MOV N12 <$STR(N10)>
+DEC N12 <$STR(N11)> 86400
+DIV N13 <$STR(N12)> 3600
+MOV N14 <$STR(N12)>
+DEC N14 <$STR(N13)> 3600
+DIV N15 <$STR(N14)> 60
+SENDMSG 7 恭喜您获得1小时游戏时间！剩余：<$STR(N11)>天<$STR(N13)>小时<$STR(N15)>分钟
 SetOnTimer 50 60
 
 [@StdModeFunc102]
 #IF
 #ACT
 VAR Integer HUMAN 点卡时间
-LOADVAR HUMAN 点卡时间 ..\\QuestDiary\\系统功能\\点卡时间.txt
+LOADVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
 CALCVAR HUMAN 点卡时间 + 7200
-SAVEVAR HUMAN 点卡时间 ..\\QuestDiary\\系统功能\\点卡时间.txt
-SENDMSG 7 提示：恭喜您获得2小时游戏时间！当前剩余：<$STR(N$点卡时间)>秒
+SAVEVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
+TAKE 2小时点卡 1
+MOV N10 <$HUMAN(点卡时间)>
+DIV N11 <$STR(N10)> 86400
+MOV N12 <$STR(N10)>
+DEC N12 <$STR(N11)> 86400
+DIV N13 <$STR(N12)> 3600
+MOV N14 <$STR(N12)>
+DEC N14 <$STR(N13)> 3600
+DIV N15 <$STR(N14)> 60
+SENDMSG 7 恭喜您获得2小时游戏时间！剩余：<$STR(N11)>天<$STR(N13)>小时<$STR(N15)>分钟
 SetOnTimer 50 60
 
 [@StdModeFunc103]
 #IF
 #ACT
 VAR Integer HUMAN 点卡时间
-LOADVAR HUMAN 点卡时间 ..\\QuestDiary\\系统功能\\点卡时间.txt
+LOADVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
 CALCVAR HUMAN 点卡时间 + 18000
-SAVEVAR HUMAN 点卡时间 ..\\QuestDiary\\系统功能\\点卡时间.txt
-SENDMSG 7 提示：恭喜您获得5小时游戏时间！当前剩余：<$STR(N$点卡时间)>秒
+SAVEVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
+TAKE 5小时点卡 1
+MOV N10 <$HUMAN(点卡时间)>
+DIV N11 <$STR(N10)> 86400
+MOV N12 <$STR(N10)>
+DEC N12 <$STR(N11)> 86400
+DIV N13 <$STR(N12)> 3600
+MOV N14 <$STR(N12)>
+DEC N14 <$STR(N13)> 3600
+DIV N15 <$STR(N14)> 60
+SENDMSG 7 恭喜您获得5小时游戏时间！剩余：<$STR(N11)>天<$STR(N13)>小时<$STR(N15)>分钟
 SetOnTimer 50 60
 
 [@StdModeFunc104]
 #IF
 #ACT
 VAR Integer HUMAN 点卡时间
-LOADVAR HUMAN 点卡时间 ..\\QuestDiary\\系统功能\\点卡时间.txt
+LOADVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
 CALCVAR HUMAN 点卡时间 + 86400
-SAVEVAR HUMAN 点卡时间 ..\\QuestDiary\\系统功能\\点卡时间.txt
-SENDMSG 7 提示：恭喜您获得1天游戏时间！当前剩余：<$STR(N$点卡时间)>秒
+SAVEVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
+TAKE 1天点卡 1
+MOV N10 <$HUMAN(点卡时间)>
+DIV N11 <$STR(N10)> 86400
+MOV N12 <$STR(N10)>
+DEC N12 <$STR(N11)> 86400
+DIV N13 <$STR(N12)> 3600
+MOV N14 <$STR(N12)>
+DEC N14 <$STR(N13)> 3600
+DIV N15 <$STR(N14)> 60
+SENDMSG 7 恭喜您获得1天游戏时间！剩余：<$STR(N11)>天<$STR(N13)>小时<$STR(N15)>分钟
 SetOnTimer 50 60
 
 [@STDMODEFUNC9]
@@ -80,6 +124,140 @@ BREAK
 #ACT
 REFRESHBAG 
 SENDMSG 6 背包刷新成功
+
+[@ItemBagButtonClick2]
+#ACT
+#IF
+checkitem 火球术 1
+#ACT
+TAKE 火球术 99
+give 金币 250
+#IF
+checkitem 治愈术 1
+#ACT
+TAKE 治愈术 99
+give 金币 250
+#IF
+checkitem 基本剑术 1
+#ACT
+TAKE 基本剑术 99
+give 金币 250
+#IF
+checkitem 精神力战法 1
+#ACT
+TAKE 精神力战法 99
+give 金币 250
+#IF
+checkitem 抗拒火环 1
+#ACT
+TAKE 抗拒火环 99
+give 金币 250
+#IF
+checkitem 诱惑之光 1
+#ACT
+TAKE 诱惑之光 99
+give 金币 500
+#IF
+checkitem 施毒术 1
+#ACT
+TAKE 施毒术 99
+give 金币 500
+#IF
+checkitem 地狱火 1
+#ACT
+TAKE 地狱火 99
+give 金币 500
+#IF
+checkitem 雷电术 1
+#ACT
+TAKE 雷电术 99
+give 金币 500
+#IF
+checkitem 灵魂火符 1
+#ACT
+TAKE 灵魂火符 99
+give 金币 500
+#IF
+checkitem 大火球 1
+#ACT
+TAKE 大火球 99
+give 金币 1000
+#IF
+checkitem 攻杀剑术 1
+#ACT
+TAKE 攻杀剑术 99
+give 金币 1000
+#IF
+checkitem 召唤骷髅 1
+#ACT
+TAKE 召唤骷髅 99
+give 金币 1000
+#IF
+checkitem 瞬息移动 1
+#ACT
+TAKE 瞬息移动 99
+give 金币 1000
+#IF
+checkitem 隐身术 1
+#ACT
+TAKE 隐身术 99
+give 金币 1000
+#IF
+checkitem 集体隐身术 1
+#ACT
+TAKE 集体隐身术 99
+give 金币 1500
+#IF
+checkitem 爆裂火焰 1
+#ACT
+TAKE 爆裂火焰 99
+give 金币 1500
+#IF
+checkitem 幽灵盾 1
+#ACT
+TAKE 幽灵盾 99
+give 金币 2500
+#IF
+checkitem 火墙 1
+#ACT
+TAKE 火墙 99
+give 金币 1500
+#IF
+checkitem 刺杀剑术 1
+#ACT
+TAKE 刺杀剑术 99
+give 金币 2500
+#IF
+checkitem 神圣战甲术 1
+#ACT
+TAKE 神圣战甲术 99
+give 金币 5000
+#IF
+checkitem 疾光电影 1
+#ACT
+TAKE 疾光电影 99
+give 金币 5000
+#IF
+checkitem 心灵启示 1
+#ACT
+TAKE 心灵启示 99
+give 金币 2500
+#IF
+checkitem 木剑 1
+#ACT
+TAKE 木剑 99
+give 金币 25
+#IF
+checkitem 匕首 1
+#ACT
+TAKE 匕首 99
+give 金币 250
+#IF
+checkitem 青铜剑 1
+#ACT
+TAKE 青铜剑 99
+give 金币 450
+SENDMSG 6 一键回收完成！
 
 [@ItemBagButtonClick3]
 #if
@@ -803,11 +981,11 @@ SETOFFTIMER 55
 ;================================================
 ; 地图击杀触发 - 击杀怪物概率刷新骷髅精灵 (2.5%)
 ;================================================
-[@OnKillMon]
+[@OnKillMob]
 #IF
 RANDOM 40
 #ACT
-MonGenEx <$MAP> <$X> <$Y> 骷髅精灵 3 1 0
+MonGenEx <$MAP> <$X> <$Y> 骷髅精灵 3 1 0 251
 SENDMSG 6 提示：击杀怪物，骷髅精灵出现了！
 
 
