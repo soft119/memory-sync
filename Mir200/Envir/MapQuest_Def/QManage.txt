@@ -6,6 +6,8 @@
 ChangeBagCount = 126
 VAR Integer HUMAN 在线计时
 LOADVAR HUMAN 在线计时 ..\QuestDiary\系统功能\在线计时.txt
+VAR Integer HUMAN 新人礼包
+LOADVAR HUMAN 新人礼包 ..\QuestDiary\系统功能\新人礼包.txt
 SetOnTimer 55 1 0
 
 ;================================================
@@ -13,17 +15,12 @@ SetOnTimer 55 1 0
 ;================================================
 #IF
 CHECKLEVELEX = 1
-#ACT
-VAR Integer HUMAN 新人礼包
-
-#IF
-CHECKLEVELEX = 1
 CHECKVAR HUMAN 新人礼包 < 1
 #ACT
 GIVE 木剑 1
 GIVE 蜡烛 1
 CALCVAR HUMAN 新人礼包 = 1
-SAVEVAR HUMAN 新人礼包
+SAVEVAR HUMAN 新人礼包 ..\QuestDiary\系统功能\新人礼包.txt
 
 #IF
 CHECKLEVELEX = 1
@@ -114,7 +111,8 @@ CALCVAR HUMAN 在线计时 + 1
 SAVEVAR HUMAN 在线计时 ..\QuestDiary\系统功能\在线计时.txt
 
 #IF
-CHECKVAR HUMAN 在线计时 >= 60
+CHECKVAR HUMAN 在线计时 >= 3600
+CHECKLEVELEX > 24
 #ACT
 CALCVAR HUMAN 在线计时 = 0
 SAVEVAR HUMAN 在线计时 ..\QuestDiary\系统功能\在线计时.txt

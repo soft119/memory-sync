@@ -279,6 +279,21 @@ SendMsg 5 你杀人了?
 
 [@PlayLevelUp]
 #IF
+CHECKLEVELEX > 14
+#ACT
+VAR Integer HUMAN 点卡时间
+LOADVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
+#IF
+CHECKVAR HUMAN 点卡时间 < 1
+#ACT
+MAPMOVE 600 20 20
+SENDMSG 5 您的游戏时间不足，需要点卡才能继续游戏！
+BREAK
+#ELSEACT
+CALCVAR HUMAN 点卡时间 - 0
+SAVEVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
+
+#IF
 checkjob wizard
 CHECKLEVELEX = 7
 #ACT
@@ -1110,11 +1125,18 @@ give 金币 2500
 INC N1 2500
 Loopgoto @技能书回收
 #IF
+checkitem 心灵启示 1
+#ACT
+take 心灵启示 1
+give 金币 2500
+INC N1 2500
+Loopgoto @技能书回收
+#IF
 checkitem 神圣战甲术 1
 #ACT
 take 神圣战甲术 1
-give 金币 5000
-INC N1 5000
+give 金币 2500
+INC N1 2500
 Loopgoto @技能书回收
 #ELSEACT
 BREAK
@@ -1497,6 +1519,13 @@ checkitem 魔力手镯 1
 take 魔力手镯 1
 give 金币 2000
 INC N1 2000
+Loopgoto @回收检测
+#IF
+checkitem 坚固手套 1
+#ACT
+take 坚固手套 1
+give 金币 1850
+INC N1 1850
 Loopgoto @回收检测
 #IF
 checkitem 金手镯 1
