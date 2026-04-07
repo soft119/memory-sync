@@ -1068,6 +1068,13 @@ give 金币 1000
 INC N1 1000
 Loopgoto @技能书回收
 #IF
+checkitem 召唤骷髅 1
+#ACT
+take 召唤骷髅 1
+give 金币 1000
+INC N1 1000
+Loopgoto @技能书回收
+#IF
 checkitem 隐身术 1
 #ACT
 take 隐身术 1
@@ -1156,6 +1163,13 @@ give 金币 750
 INC N1 750
 Loopgoto @回收检测
 #IF
+checkitem 半月 1
+#ACT
+take 半月 1
+give 金币 2100
+INC N1 2100
+Loopgoto @回收检测
+#IF
 checkitem 八荒 1
 #ACT
 take 八荒 1
@@ -1208,379 +1222,393 @@ Loopgoto @回收检测
 checkitem 偃月 1
 #ACT
 take 偃月 1
-give 金币 5000
-INC N1 5000
+give 金币 2500
+INC N1 2500
 Loopgoto @回收检测
 #IF
 checkitem 轻型盔甲(男) 1
 #ACT
 take 轻型盔甲(男) 1
-give 金币 1500
-INC N1 1500
+give 金币 750
+INC N1 750
 Loopgoto @回收检测
 #IF
 checkitem 轻型盔甲(女) 1
 #ACT
 take 轻型盔甲(女) 1
-give 金币 1500
-INC N1 1500
+give 金币 750
+INC N1 750
 Loopgoto @回收检测
 #IF
 checkitem 中型盔甲(男) 1
 #ACT
 take 中型盔甲(男) 1
-give 金币 3000
-INC N1 3000
+give 金币 1500
+INC N1 1500
 Loopgoto @回收检测
 #IF
 checkitem 中型盔甲(女) 1
 #ACT
 take 中型盔甲(女) 1
-give 金币 3000
-INC N1 3000
+give 金币 1500
+INC N1 1500
 Loopgoto @回收检测
 #IF
 checkitem 重盔甲(男) 1
 #ACT
 take 重盔甲(男) 1
-give 金币 6000
-INC N1 6000
+give 金币 3000
+INC N1 3000
 Loopgoto @回收检测
 #IF
 checkitem 重盔甲(女) 1
 #ACT
 take 重盔甲(女) 1
-give 金币 6000
-INC N1 6000
+give 金币 3000
+INC N1 3000
 Loopgoto @回收检测
 #IF
-checkitem 战神盔甲(男) 1
+checkitem 灵魂战衣(男) 1
 #ACT
-take 战神盔甲(男) 1
-give 金币 12500
-INC N1 12500
+take 灵魂战衣(男) 1
+give 金币 3000
+INC N1 3000
 Loopgoto @回收检测
 #IF
-checkitem 战神盔甲(女) 1
+checkitem 灵魂战衣(女) 1
 #ACT
-take 战神盔甲(女) 1
-give 金币 12500
-INC N1 12500
+take 灵魂战衣(女) 1
+give 金币 3000
+INC N1 3000
+Loopgoto @回收检测
+#IF
+checkitem 魔法长袍(男) 1
+#ACT
+take 魔法长袍(男) 1
+give 金币 3000
+INC N1 3000
+Loopgoto @回收检测
+#IF
+checkitem 魔法长袍(女) 1
+#ACT
+take 魔法长袍(女) 1
+give 金币 3000
+INC N1 3000
 Loopgoto @回收检测
 #IF
 checkitem 青铜头盔 1
 #ACT
 take 青铜头盔 1
-give 金币 500
-INC N1 500
+give 金币 250
+INC N1 250
 Loopgoto @回收检测
 #IF
 checkitem 魔法头盔 1
 #ACT
 take 魔法头盔 1
-give 金币 1000
-INC N1 1000
+give 金币 500
+INC N1 500
 Loopgoto @回收检测
 #IF
 checkitem 道士头盔 1
 #ACT
 take 道士头盔 1
-give 金币 2500
-INC N1 2500
+give 金币 1250
+INC N1 1250
 Loopgoto @回收检测
 #IF
 checkitem 骷髅头盔 1
 #ACT
 take 骷髅头盔 1
-give 金币 4000
-INC N1 4000
+give 金币 2000
+INC N1 2000
 Loopgoto @回收检测
 #IF
 checkitem 古铜戒指 1
 #ACT
 take 古铜戒指 1
-give 金币 250
-INC N1 250
+give 金币 125
+INC N1 125
 Loopgoto @回收检测
 #IF
 checkitem 玻璃戒指 1
 #ACT
 take 玻璃戒指 1
-give 金币 400
-INC N1 400
+give 金币 200
+INC N1 200
 Loopgoto @回收检测
 #IF
 checkitem 六角戒指 1
 #ACT
 take 六角戒指 1
-give 金币 400
-INC N1 400
+give 金币 200
+INC N1 200
 Loopgoto @回收检测
 #IF
 checkitem 牛角戒指 1
 #ACT
 take 牛角戒指 1
-give 金币 500
-INC N1 500
+give 金币 250
+INC N1 250
 Loopgoto @回收检测
 #IF
 checkitem 蓝色水晶戒指 1
 #ACT
 take 蓝色水晶戒指 1
-give 金币 750
-INC N1 750
+give 金币 375
+INC N1 375
 Loopgoto @回收检测
 #IF
 checkitem 生铁戒指 1
 #ACT
 take 生铁戒指 1
-give 金币 1500
-INC N1 1500
+give 金币 750
+INC N1 750
 Loopgoto @回收检测
 #IF
 checkitem 珍珠戒指 1
 #ACT
 take 珍珠戒指 1
-give 金币 1000
-INC N1 1000
+give 金币 500
+INC N1 500
 Loopgoto @回收检测
 #IF
 checkitem 黑色水晶戒指 1
 #ACT
 take 黑色水晶戒指 1
-give 金币 1000
-INC N1 1000
+give 金币 500
+INC N1 500
 Loopgoto @回收检测
 #IF
 checkitem 蛇眼戒指 1
 #ACT
 take 蛇眼戒指 1
-give 金币 1000
-INC N1 1000
+give 金币 500
+INC N1 500
 Loopgoto @回收检测
 #IF
 checkitem 金戒指 1
 #ACT
 take 金戒指 1
-give 金币 4000
-INC N1 4000
+give 金币 2000
+INC N1 2000
 Loopgoto @回收检测
 #IF
 checkitem 道德戒指 1
 #ACT
 take 道德戒指 1
-give 金币 2000
-INC N1 2000
+give 金币 1000
+INC N1 1000
 Loopgoto @回收检测
 #IF
 checkitem 魅力戒指 1
 #ACT
 take 魅力戒指 1
-give 金币 2000
-INC N1 2000
+give 金币 1000
+INC N1 1000
 Loopgoto @回收检测
 #IF
 checkitem 降妖除魔戒指 1
 #ACT
 take 降妖除魔戒指 1
-give 金币 5000
-INC N1 5000
+give 金币 2500
+INC N1 2500
 Loopgoto @回收检测
 #IF
 checkitem 骷髅戒指 1
 #ACT
 take 骷髅戒指 1
-give 金币 2500
-INC N1 2500
+give 金币 1250
+INC N1 1250
 Loopgoto @回收检测
 #IF
 checkitem 珊瑚戒指 1
 #ACT
 take 珊瑚戒指 1
-give 金币 7500
-INC N1 7500
+give 金币 3750
+INC N1 3750
 Loopgoto @回收检测
 #IF
-checkitem 铂金戒指 1
+checkitem 皮制手套 1
 #ACT
-take 铂金戒指 1
-give 金币 7500
-INC N1 7500
+take 皮制手套 1
+give 金币 250
+INC N1 250
 Loopgoto @回收检测
 #IF
 checkitem 铁手镯 1
 #ACT
 take 铁手镯 1
-give 金币 400
-INC N1 400
+give 金币 200
+INC N1 200
 Loopgoto @回收检测
 #IF
 checkitem 小手镯 1
 #ACT
 take 小手镯 1
-give 金币 500
-INC N1 500
+give 金币 250
+INC N1 250
 Loopgoto @回收检测
 #IF
 checkitem 银手镯 1
 #ACT
 take 银手镯 1
-give 金币 750
-INC N1 750
+give 金币 413
+INC N1 413
 Loopgoto @回收检测
 #IF
 checkitem 钢手镯 1
 #ACT
 take 钢手镯 1
-give 金币 1000
-INC N1 1000
+give 金币 550
+INC N1 550
 Loopgoto @回收检测
 #IF
 checkitem 大手镯 1
 #ACT
 take 大手镯 1
-give 金币 2500
-INC N1 2500
+give 金币 1375
+INC N1 1375
 Loopgoto @回收检测
 #IF
 checkitem 魔法手镯 1
 #ACT
 take 魔法手镯 1
-give 金币 2000
-INC N1 2000
+give 金币 1000
+INC N1 1000
 Loopgoto @回收检测
 #IF
 checkitem 道士手镯 1
 #ACT
 take 道士手镯 1
-give 金币 2000
-INC N1 2000
+give 金币 1000
+INC N1 1000
 Loopgoto @回收检测
 #IF
 checkitem 黑檀手镯 1
 #ACT
 take 黑檀手镯 1
-give 金币 2000
-INC N1 2000
+give 金币 1000
+INC N1 1000
 Loopgoto @回收检测
 #IF
 checkitem 魔力手镯 1
 #ACT
 take 魔力手镯 1
-give 金币 4000
-INC N1 4000
+give 金币 2000
+INC N1 2000
 Loopgoto @回收检测
 #IF
 checkitem 金手镯 1
 #ACT
 take 金手镯 1
-give 金币 3500
-INC N1 3500
+give 金币 1750
+INC N1 1750
 Loopgoto @回收检测
 #IF
 checkitem 死神手套 1
 #ACT
 take 死神手套 1
-give 金币 4000
-INC N1 4000
+give 金币 2000
+INC N1 2000
 Loopgoto @回收检测
 #IF
 checkitem 金项链 1
 #ACT
 take 金项链 1
-give 金币 250
-INC N1 250
+give 金币 125
+INC N1 125
 Loopgoto @回收检测
 #IF
 checkitem 传统项链 1
 #ACT
 take 传统项链 1
-give 金币 500
-INC N1 500
+give 金币 250
+INC N1 250
 Loopgoto @回收检测
 #IF
 checkitem 黄色水晶项链 1
 #ACT
 take 黄色水晶项链 1
-give 金币 600
-INC N1 600
+give 金币 300
+INC N1 300
 Loopgoto @回收检测
 #IF
 checkitem 黑檀项链 1
 #ACT
 take 黑檀项链 1
-give 金币 600
-INC N1 600
+give 金币 300
+INC N1 300
 Loopgoto @回收检测
 #IF
 checkitem 黑色水晶项链 1
 #ACT
 take 黑色水晶项链 1
-give 金币 750
-INC N1 750
+give 金币 375
+INC N1 375
 Loopgoto @回收检测
 #IF
 checkitem 白色虎齿项链 1
 #ACT
 take 白色虎齿项链 1
-give 金币 1500
-INC N1 1500
+give 金币 750
+INC N1 750
 Loopgoto @回收检测
 #IF
 checkitem 白金项链 1
 #ACT
 take 白金项链 1
-give 金币 1000
-INC N1 1000
+give 金币 500
+INC N1 500
 Loopgoto @回收检测
 #IF
 checkitem 灯笼项链 1
 #ACT
 take 灯笼项链 1
-give 金币 1500
-INC N1 1500
+give 金币 750
+INC N1 750
 Loopgoto @回收检测
 #IF
 checkitem 琥珀项链 1
 #ACT
 take 琥珀项链 1
-give 金币 1000
-INC N1 1000
+give 金币 500
+INC N1 500
 Loopgoto @回收检测
 #IF
 checkitem 魔鬼项链 1
 #ACT
 take 魔鬼项链 1
-give 金币 1250
-INC N1 1250
+give 金币 625
+INC N1 625
 Loopgoto @回收检测
 #IF
 checkitem 凤凰明珠 1
 #ACT
 take 凤凰明珠 1
-give 金币 1000
-INC N1 1000
+give 金币 500
+INC N1 500
 Loopgoto @回收检测
 #IF
 checkitem 蓝翡翠项链 1
 #ACT
 take 蓝翡翠项链 1
-give 金币 5000
-INC N1 5000
+give 金币 2500
+INC N1 2500
 Loopgoto @回收检测
 #IF
 checkitem 竹笛 1
 #ACT
 take 竹笛 1
-give 金币 3000
-INC N1 3000
+give 金币 1500
+INC N1 1500
 Loopgoto @回收检测
 #IF
 checkitem 放大镜 1
 #ACT
 take 放大镜 1
-give 金币 3000
-INC N1 3000
+give 金币 1500
+INC N1 1500
 Loopgoto @回收检测
 #ELSEACT
 BREAK
