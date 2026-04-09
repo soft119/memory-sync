@@ -994,8 +994,10 @@ SENDMSG 6 提示：击杀怪物，骷髅精灵出现了！
 MOV N1 0
 Loopgoto @技能书回收 100
 Loopgoto @装备回收 200
+#IF
+LARGE N1 0
+#ACT
 SENDMSG 6 回收完成！共获得<$STR(N1)>金币
-BREAK
 
 [@技能书回收]
 #IF
@@ -1209,6 +1211,13 @@ Loopgoto @回收检测
 checkitem 破魂 1
 #ACT
 take 破魂 1
+give 金币 2500
+INC N1 2500
+Loopgoto @回收检测
+#IF
+checkitem 降魔 1
+#ACT
+take 降魔 1
 give 金币 2500
 INC N1 2500
 Loopgoto @回收检测
@@ -1641,3 +1650,5 @@ INC N1 1500
 Loopgoto @回收检测
 #ELSEACT
 BREAK
+
+
