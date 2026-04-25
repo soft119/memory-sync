@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=gb2312">
+<META name="GENERATOR" content="QuickCHM">
+<title>创建主将英雄脚本</title>
+</HEAD>
+<BODY>
+<p>;@@BuHero&nbsp;是创建和删除主将英雄的标志<BR>(@@BuHero)
+  <br>
+[@main]<br>
+创建英雄：&lt;英雄取名/@@buHero&gt;\</A> 
+\
+ <br>
+删除英雄：&lt;删除英雄/@DelMyHero&gt;\ \<br>
+&lt;退出/@exit&gt;<br>
+<br>
+
+[@buHero]<br>
+  //CREATEHERO
+职业性别请创建英雄：\ \<br>
+<br>
+&lt;男战士/@CREATEHERO_WARR_MAN&gt;   &lt;女战士/@CREATEHERO_WARR_WOM&gt;\<br>
+&lt;男法师/@CREATEHERO_WIZA_MAN&gt;   &lt;女法师/@CREATEHERO_WIZA_WOM&gt;\<br>
+&lt;男道士/@CREATEHERO_TAOS_MAN&gt;   &lt;女道士/@CREATEHERO_TAOS_WOM&gt;\ \<br>
+<br>
+&lt;关闭/@exit&gt;<br>
+<br>
+[@CREATEHERO_WARR_MAN]<br>
+#ACT<br>
+CREATEHERO 0 0<br>
+[@CREATEHERO_WARR_WOM]<br>
+#ACT<br>
+CREATEHERO 0 1<br>
+[@CREATEHERO_WIZA_MAN]<br>
+#ACT<br>
+CREATEHERO 1 0<br>
+[@CREATEHERO_WIZA_WOM]<br>
+#ACT<br>
+CREATEHERO 1 1<br>
+[@CREATEHERO_TAOS_MAN]<br>
+#ACT<br>
+CREATEHERO 2 0<br>
+[@CREATEHERO_TAOS_WOM]<br>
+#ACT<br>
+CREATEHERO 2 1<br>
+<br>
+//返回消息<br>
+[@CreateingHero]<br>
+系统正在接受申请，请稍候……\ \<br>&lt;关闭/@exit&gt;</p>
+<p>[@HaveHero]<br>
+  您已经有英雄了。\ \<br>&lt;关闭/@exit&gt;
+  </p>
+<p>[@HeroNameFilter]<br>
+  英雄名字存在非法字符。\ \<br>&lt;关闭/@exit&gt;
+  </p>
+<p>[@SetHeroName]<br>
+  请先给您的英雄取名字。\ \<br>&lt;关闭/@exit&gt;
+  </p>
+<p><br>
+  <br>
+  ;;--------------------删除英雄触发------------------<br>
+  <br>
+  [@DelMyHero]<br>
+  #ACT<br>
+  DELETEHERO<br>
+  //返回消息<br>
+  <br>
+  [@NotHaveHero]<br>
+  你没有英雄。\ \<br>
+  <br>
+&lt;关闭/@exit&gt;<br>
+[@LogOutHeroFirst]<br>
+请将英雄设置下线！\ \<br>
+<br>
+&lt;关闭/@exit&gt;<br>
+[@DeleteHeroOK]<br>
+删除英雄成功。\ \<br>&lt;关闭/@exit&gt;
+</p>
+<p>;---------------------QF脚本触发--------------------</p>
+<p>[@CreateHeroOK]<br>
+英雄创建成功。\ \<br>&lt;关闭/@exit&gt;
+</p>
+<p>[@HeroNameExists]<br>
+英雄名称已经存在了，请重新换一个名称。\ \<br>&lt;关闭/@exit&gt;
+</p>
+<p>[@HeroOverChrCount]<br>
+英雄的数量超出限制。\ \<br>&lt;关闭/@exit&gt;
+</p>
+<p>[@CreateHeroFail]<br>
+英雄创建失败。\ \<br>&lt;关闭/@exit&gt;
+</p>
+<p>[@CreateHeroFailEx]<br>
+英雄创建失败。\ \<br>&lt;关闭/@exit&gt;
+</p>
+<p><br>
+  [@HeroNameFilter] <br>
+  英雄名字存在非法字符。\ \<br>&lt;关闭/@exit&gt;
+</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>;--------------------------------</p>
+<p>[@DeleteHeroOK] <br>
+英雄删除成功。\ \<br>&lt;关闭/@exit&gt;
+</p>
+<p>[@DeleteHeroFail] <br>
+英雄删除失败。\ \<br>&lt;关闭/@exit&gt;
+</p>
+<p>&nbsp;</p>
+<P><FONT size=2><BR>
+</FONT></P>
+</BODY>
+</HTML>
+<br><hr><br>
+
+
+

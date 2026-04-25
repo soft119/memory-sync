@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>脚本设置、删除安全区</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT face=宋体><FONT color=#0000ff>功能：脚本命令设置、删除安全区</FONT><BR>格式：增加安全区： 
+ADDSTARTPOINT 参数1 参数2 参数3 参数4 
+参数5<BR>参数1：地图编号<BR>参数2：自定义安全区编号<BR>参数3：安全区光柱特效类型（参考cfg_startpoint.xls表安全区配置）<BR>参数4：安全区坐标及中心点（参考cfg_startpoint.xls表格安全区配置）</FONT></P>
+<P><FONT face=宋体>删除安全区：<BR>格式： DELSTARTPOINT 参数1 
+参数2<BR>参数1：地图编号<BR>参数2：自定义安全区编号</FONT></P>
+<P><FONT face=宋体>*说明： 
+1.ADDSTARTPOINT命令设置，重启M2消失不保存<BR>2.删除安全区DELSTARTPOINT命令，只支持删除ADDSTARTPOINT命令设置的安全区，<BR>3、可添加多个相同ID的安全区，删除的时候也要一个个删除。<BR></FONT><FONT face=宋体><BR><BR>示例：<BR>[@脚本命令设置安全区]<BR>#IF<BR>#ACT<BR>ADDSTARTPOINT 3 1 4 
+343#320#343#328#351#328#351#320#347#324<BR></FONT></P></body>
+</html>

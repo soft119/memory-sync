@@ -1,0 +1,98 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>攻击触发</title>
+<style type="text/css">
+<!--
+.style9 {color: #FF0000}
+-->
+</style>
+</head>
+
+<body>
+<p>QFunction-0 </p>
+<p class="style9"><strong><strong>当前对象的</strong>所有私人的常量都可以使用在前面加“C.”的方式<br>
+      <strong>当前对象的</strong>所有私人的变量使用&lt;$CSTR(S1)&gt;和查看自己的变量&lt;$STR(S1)&gt;多一个“C”<br>
+  比如在攻击触发，被攻击触发，死亡触发，还有查看出售角色的其他信息的触发时</strong></p>
+<p class="style9"><strong>当前对象的常量，例如：&lt;$C.HP&gt; &lt;$C.PKPOINT&gt; &lt;$C.GOLDCOUNT&gt; &lt;$C.GAMEGOLD&gt;<br>
+当前对象的变量，例如：&lt;$CSTR(S1)&gt; &lt;$CSTR(A1)&gt; &lt;$CSTR(T1)&gt; &lt;$CSTR(U1)&gt;</strong></p>
+<p>;所有触发只有攻击到怪物才会触发，有些魔法不会触发，如魔法盾<br>
+  ;======================魔法攻击触发==========================<br>
+  [@MagicStruck]<br>
+  #IF<br>
+  CHECKCURRTARGETRACE = 0<br>
+  #ACT <br>
+  SENDMSG 6 你被人物【&lt;$CURRRTARGETNAME&gt;】攻击了。使用魔法ID=&lt;$CURRRUSEMAGICID&gt; 255 253<br>SENDMSG6你被人物【&lt;$C.USERNAME&gt;】攻击了。使用魔法ID=&lt;$CURRRUSEMAGICID&gt;。对方HP=&lt;$C.HP&gt;对方PK值=&lt;$C.PKPOINT&gt;对方元宝=&lt;$C.GAMEGOLD&gt; 255 253<br>
+  BREAK<br>
+</p>
+<p>#IF<br>
+  #ACT
+  <br>
+  SENDMSG 6 你被怪物【&lt;$CURRRTARGETNAME&gt;】攻击了。使用魔法ID=&lt;$CURRRUSEMAGICID&gt;  255 253<br>
+  BREAK<br>
+</p>
+<p>[@MagicAttack]<br>
+  #IF<br>
+  CHECKCURRTARGETRACE = 0<br>
+  #ACT <br>
+  SENDMSG 6 你攻击了人物【&lt;$CURRRTARGETNAME&gt;】。使用魔法ID=&lt;$CURRRUSEMAGICID&gt;。魔法攻击的鼠标指向的坐标【&lt;$STR(N98)&gt;:&lt;$STR(N99)&gt;】 255 249<br>SENDMSG6你攻击了人物【&lt;$C.USERNAME&gt;】。使用魔法ID=&lt;$CURRRUSEMAGICID&gt;。对方HP=&lt;$C.HP&gt;对方PK值=&lt;$C.PKPOINT&gt;对方元宝=&lt;$C.GAMEGOLD&gt; 255 249<br>
+  BREAK<br>
+</p>
+<p>#IF<br>
+  #ACT
+  <br>
+  SENDMSG 6 你攻击了怪物【&lt;$CURRRTARGETNAME&gt;】。使用魔法ID=&lt;$CURRRUSEMAGICID&gt;  255 249<br>
+  BREAK</p>
+<p>;======================物理攻击触发==========================<br>
+  [@Struck]<br>
+  #IF<br>
+  CHECKCURRTARGETRACE = 0<br>
+  #ACT
+  <br>
+  SENDMSG 6 你被人物【&lt;$CURRRTARGETNAME&gt;】攻击了。使用魔法ID=&lt;$CURRRUSEMAGICID&gt;  255 253<br>
+  BREAK<br>
+</p>
+<p>#IF<br>
+  #ACT
+  <br>
+  SENDMSG 6 你被怪物【&lt;$CURRRTARGETNAME&gt;】攻击了。使用魔法ID=&lt;$CURRRUSEMAGICID&gt; 255 253<br>
+  BREAK<br>
+</p>
+<p>[@Attack]<br>
+  #IF<br>
+  CHECKCURRTARGETRACE = 0<br>
+  #ACT<br>
+  MOV &lt;$CSTR(S1)&gt; &lt;$STR(S1)&gt;<br>
+SENDMSG 6 把我的S1变量值传递给攻击人的S1变量里，使用“CSTR”代表当前对象的变量比自己的“STR”前面多一个“C”</p>
+<p>MOV &lt;$STR(N1)&gt; &lt;$CSTR(N1)&gt;<br>
+  SENDMSG 6 把对方的的N1变量值传递给我的的N1变量里，使用“CSTR”代表当前对象的变量比自己的“STR”前面多一个“C”</p>
+<p>SENDMSG 6 你攻击了人物【&lt;$C.USERNAME&gt;】。使用魔法ID=&lt;$CURRRUSEMAGICID&gt; 255 249<br>
+  BREAK</p>
+<p>#IF<br>
+  #ACT
+  <br>
+  SENDMSG 6 你攻击了怪物【&lt;$CURRRTARGETNAME&gt;】。使用魔法ID=&lt;$CURRRUSEMAGICID&gt; 255 249<br>
+  BREAK<br>
+</p>
+<HR>
+<SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT color=#0000ff>;======================下面变量获取怪物完整名字==========================</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><FONT color=#0000ff><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>增加变量以显示完整名（不去数字）：</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&lt;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">$CURRRTARGETFULLNAME</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&gt;</SPAN></FONT><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><FONT color=#0000ff><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT face=宋体>上面演示脚本中变量不获取怪物名字后面的数字：</FONT></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&lt;</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">$CURRRTARGETNAME</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'">&gt;</SPAN></FONT><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'"><FONT color=#0000ff><FONT face=宋体>提供</FONT>2种变量大家自己按需使用！</FONT></SPAN>
+</body>
+</html>

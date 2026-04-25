@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>扩展字符变量S和数字变量N[!]</title>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<STYLE type=text/css>
+<!--
+.STYLE2 {color: #FF0000}
+-->
+</STYLE>
+
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<p><FONT face=宋体><strong><font size="5">扩展字符变量S和数字变量N</font></strong> 
+</FONT> </p><FONT face=宋体>
+<font size="2"><span class="STYLE2"><strong>功能：</strong>扩展字符变量S和数字变量N</span><br >
+<strong>格式：</strong>无<br >
+<strong>说明：</strong>扩展字符变量S和数字变量N，除了支持0~999以外，可以在S$变量或N$变量后面增加任意字符，人物基础变量不需要加$。<br >
+<strong>例：</strong></font> 
+</FONT>
+<p><FONT face=宋体>  [@test]<br >
+  #ACT<br >
+  MOV S$我的人物名称 &lt;$USERNAME&gt;<br >
+SENDMSG 0 &lt;$STR(S$我的人物名称)&gt; 255 253</FONT>
+    </p>
+<p><FONT face=宋体>[@test1]<br >
+  #ACT<br >
+  MOV N$我的杀怪总数 100<br >
+  INC N$我的当前杀怪数 1<br >
+    SENDMSG6【杀怪总数=&lt;$STR(N$我的杀怪总数)&gt;】【当前杀怪数=&lt;$STR(N$我的当前杀怪数)&gt;】 
+255
+    253</FONT>  </p>
+<p class="STYLE2"><FONT face=宋体>注意:<br >
+  以下的人物基础变量。不需要<font size="2">在S变量或N变量的</font>后加$，当然你也可以加，加上后就属于扩展变量，例如 S1和S$1 这样的2个变量完全是2个不同的变量。<br >
+  P0-P99 (私人变量，数字型) 关闭对话框重置为0。<br >
+  D0-D99 (私人变量，数字型) 下线不保存.摇筛子变量.<br >
+  M0-M99 (私人变量，数字型) 下线不保存.切换地图清空.<br >
+  N0-N99 (私人变量，数字型) 下线不保存.小退归0.<br >
+  S0-S99 (私人变量，字符型) 下线不保存.小退归0.<br >
+  I0-I499 (全局变量，数字型) 下线不保存.小退归0.<br >
+  G0-G499 (全局变量，数字型) 可保存。（存放在Mir200/GlobalVal.ini文件里面）<br >
+  A0-A499 (全局变量，字符型) 可保存。（存放在Mir200/GlobalVal.ini文件里面）<br >
+  U0-U254 (私人变量，数字型) 可保存。（存放在人物数据库里面）<br >
+  T0-T254 (私人变量，字符型) 
+可保存。（存放在人物数据库里面）</FONT>
+    </p></BODY></HTML>

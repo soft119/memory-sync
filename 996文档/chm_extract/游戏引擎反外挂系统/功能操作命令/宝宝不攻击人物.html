@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>宝宝不攻击人物</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+</head>
+
+<BODY>
+<p><FONT face=宋体>====================================宝宝不攻击人物================================================<br>
+  ChangeSlaveAttackHumPowerRate 宝宝名称 攻击人物威力倍率(威力倍数为0时不攻击人物,当前值除以100为实际倍数)<br>
+调整版本攻击人物的威力倍率</FONT>
+</p>
+<p><FONT face=宋体>[@main]<br>
+  #if<br>
+  CHECKSLAVENAME 神兽<br>
+  #act<br>
+  ChangeSlaveAttackHumPowerRate 神兽 0<br>
+  sendmsg 6 神兽不攻击人物<br>
+  #elseact<br>
+  sendmsg 6 请先把神兽召唤出来</FONT>
+    </p>
+</BODY>
+</html>

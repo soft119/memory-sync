@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>MOV INC DEC变量操作命令</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+<style type="text/css">
+<!--
+.style9 {color: #FF0000}
+-->
+</style>
+</head>
+
+<BODY>
+<P class="style9"><FONT face=宋体>当前对象的所有私人的常量都可以使用在前面加“C.”的方式<br>
+      当前对象的所有私人的变量使用&lt;$CSTR(S1)&gt;和查看自己的变量&lt;$STR(S1)&gt;多一个“C”<br>
+比如在攻击触发，被攻击触发，死亡触发，还有查看出售角色的其他信息的触发时</FONT></P>
+<p class="style9"><FONT face=宋体>当前对象的常量，例如：&lt;$C.HP&gt; &lt;$C.PKPOINT&gt; &lt;$C.GOLDCOUNT&gt; &lt;$C.GAMEGOLD&gt;<br>
+  当前对象的变量，例如：&lt;$CSTR(S1)&gt; &lt;$CSTR(A1)&gt; 
+&lt;$CSTR(T1)&gt; &lt;$CSTR(U1)&gt; &lt;$CHUMAN(QQQQ)&gt;<span class="style9">&lt;$CGUILD(WWWW)&gt;</span> </FONT>
+</p>
+<p><FONT face=宋体>;攻击触发<BR></FONT><FONT face=宋体>[@Attack]<br>
+  #IF<br>
+  CHECKCURRTARGETRACE = 0<br>
+  #ACT<br>
+  MOV S1 &lt;$CSTR(S1)&gt;<br>
+SENDMSG 6 
+把我的S1变量值传递给被攻击人的S1变量里，使用“CSTR”代表当前对象的变量比自己的“STR”前面多一个“C”</FONT></p>
+<p><FONT face=宋体>MOV N1 &lt;$CSTR(N1)&gt;<br>
+  SENDMSG 6 
+把对方的的N1变量值传递给我的的N1变量里，使用“CSTR”代表当前对象的变量比自己的“STR”前面多一个“C”</FONT></p>
+<p><FONT face=宋体>SENDMSG 6 你攻击了人物【&lt;$C.USERNAME&gt;】。使用魔法ID=&lt;$CURRRUSEMAGICID&gt; 255 249<br>
+  BREAK<BR><BR><BR><BR>
+  </FONT><FONT face=宋体>[@main]<br >
+#IF<br >
+#ACT<br >
+MOV S1 测试人物<br >
+;SetCurrTarget 名称(空的情况下表示清空当前对象)<br ></FONT><FONT face=宋体><FONT color=#ff0000>
+;使用SetCurrTarget设置当前对象<br ><FONT color=#ff0000>SetCurrTarget &lt;$STR(S1</FONT>
+ 
+</FONT><FONT color=#ff0000>)&gt;</FONT></FONT></p>
+<p><FONT face=宋体>#IF<br >
+  CompareText &lt;$C.USERNAME&gt; S1<br >
+  ;检测设置的对象是否成功<br >
+  #ACT<br>SENDMSG 6 
+当前对象名称：【&lt;$C.USERNAME&gt;】等级：【&lt;$C.LEVEL&gt;】S1：【&lt;$CSTR(S1)&gt;】N1：【&lt;$CSTR(N1)&gt;】<BR><BR></FONT><FONT face=宋体>;使用MOV命令调整当前对象的变量<br >
+    
+</FONT><FONT face=宋体>MOV N1 &lt;$CSTR(N1)&gt;<br >
+  SENDMSG 6 
+把对方的的N1变量值传递给我的的N1变量里，使用“CSTR”代表当前对象的变量比自己的“STR”前面多一个“C<BR><FONT color=#ff0000><BR>注:CSTR只支持取对象的变量，不支持直接写入到对象的变量，写对象请使用多级脚本</FONT><BR>
+    
+</FONT><FONT color=#ff0000><FONT face=宋体><FONT color=#ff00ff >  <BR><BR></FONT><BR></FONT></FONT></p>
+<P><FONT color=#ff0000 face=宋体></FONT>
+  &nbsp;</P>
+<P><FONT face=宋体></FONT>&nbsp;</P>
+</BODY>
+</html>

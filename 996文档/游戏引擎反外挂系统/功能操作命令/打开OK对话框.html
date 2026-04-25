@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>打开OK对话框</title>
+</head>
+
+<body>
+<p><FONT face=宋体>格式: OPENUPGRADEDLG 显示的名称</FONT>  </p>
+<p><FONT face=宋体>例：<br >
+  [@main] <br >
+  #ACT<br >
+OPENUPGRADEDLG 
+装备升级(显示的名称)</FONT>
+ </p>
+<p><FONT face=宋体>;打开可以放物品的对话框，也就是装备修理或出售物品的那个对话框<BR>
+OPENUPGRADEDLG 装备升级(显示的名称)</FONT>
+ </p>
+<P><FONT face=宋体>;收回OK框中的物品<BR>
+  TAKEDLGITEM</FONT>
+  </P>
+<P><FONT face=宋体>;返回OK框中的物品到包裹<BR>
+  RECLAIMITEM</FONT>
+  </P>
+<P><FONT face=宋体>点击OK键后触发字段[@UpgradeDlgItem]</FONT></P>
+<P><FONT face=宋体>[@UpgradeDlgItem]<BR>
+  #SAY<BR>
+  OK框中物品的名称:&lt;$DLGITEM.NAME&gt;\<BR>
+  OK框中物品的StdMode:&lt;$DLGITEM.STDMODE&gt;\<BR>
+  OK框中物品的持久:&lt;$DLGITEM.DURA&gt;\<BR>
+  OK框中物品的最大持久:&lt;$DLGITEM.DURAMAX&gt;\<BR>&lt;升级/@升级&gt;\</FONT>
+  </P>
+<P><FONT face=宋体>[@升级]<BR>
+  #ACT<BR>
+  SetNewItemValue -1 0 + 10<BR>
+  RECLAIMITEM</FONT>
+  </P>
+<P><FONT face=宋体>SetNewItemValue 位置(-1时是OK框中的装备, 
+0-12时是穿在身上的装备) 属性(0-10) 操作符(+,-,= )    值(1-100) 
+  </P>
+<p><FONT face=宋体> </FONT> </p></FONT>
+</body>
+</html>

@@ -1,0 +1,1694 @@
+[@StdModeFunc100]
+#IF
+#ACT
+VAR Integer HUMAN 点卡时间
+LOADVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
+CALCVAR HUMAN 点卡时间 + 604800
+SAVEVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
+TAKE 7天点卡 1
+; 计算天时分
+DIV N1 <$HUMAN(点卡时间)> 86400
+MUL N2 <$STR(N1)> 86400
+MOV N3 <$HUMAN(点卡时间)>
+DEC N3 <$STR(N2)>
+DIV N4 <$STR(N3)> 3600
+MUL N5 <$STR(N4)> 3600
+MOV N6 <$STR(N3)>
+DEC N6 <$STR(N5)>
+DIV N7 <$STR(N6)> 60
+#IF
+SMALL N1 1
+#ACT
+GOTO @不足1天_100
+#ELSEACT
+SENDMSG 7 恭喜您获得7天游戏时间！剩余：<$STR(N1)>天<$STR(N4)>小时<$STR(N7)>分钟
+SetOnTimer 50 60
+SET [265] 1
+
+[@不足1天_100]
+#IF
+SMALL N4 1
+#ACT
+GOTO @不足1小时_100
+#ELSEACT
+SENDMSG 7 恭喜您获得7天游戏时间！剩余：<$STR(N4)>小时<$STR(N7)>分钟
+SetOnTimer 50 60
+SET [265] 1
+
+[@不足1小时_100]
+#IF
+#ACT
+SENDMSG 7 恭喜您获得7天游戏时间！剩余：<$STR(N7)>分钟
+SetOnTimer 50 60
+SET [265] 1
+
+[@StdModeFunc101]
+#IF
+#ACT
+VAR Integer HUMAN 点卡时间
+LOADVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
+CALCVAR HUMAN 点卡时间 + 3600
+SAVEVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
+TAKE 1小时点卡 1
+; 计算天时分
+DIV N1 <$HUMAN(点卡时间)> 86400
+MUL N2 <$STR(N1)> 86400
+MOV N3 <$HUMAN(点卡时间)>
+DEC N3 <$STR(N2)>
+DIV N4 <$STR(N3)> 3600
+MUL N5 <$STR(N4)> 3600
+MOV N6 <$STR(N3)>
+DEC N6 <$STR(N5)>
+DIV N7 <$STR(N6)> 60
+#IF
+SMALL N1 1
+#ACT
+GOTO @不足1天_101
+#ELSEACT
+SENDMSG 7 恭喜您获得1小时游戏时间！剩余：<$STR(N1)>天<$STR(N4)>小时<$STR(N7)>分钟
+SetOnTimer 50 60
+
+[@不足1天_101]
+#IF
+SMALL N4 1
+#ACT
+GOTO @不足1小时_101
+#ELSEACT
+SENDMSG 7 恭喜您获得1小时游戏时间！剩余：<$STR(N4)>小时<$STR(N7)>分钟
+SetOnTimer 50 60
+
+[@不足1小时_101]
+#IF
+#ACT
+SENDMSG 7 恭喜您获得1小时游戏时间！剩余：<$STR(N7)>分钟
+SetOnTimer 50 60
+
+[@StdModeFunc102]
+#IF
+#ACT
+VAR Integer HUMAN 点卡时间
+LOADVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
+CALCVAR HUMAN 点卡时间 + 7200
+SAVEVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
+TAKE 2小时点卡 1
+; 计算天时分
+DIV N1 <$HUMAN(点卡时间)> 86400
+MUL N2 <$STR(N1)> 86400
+MOV N3 <$HUMAN(点卡时间)>
+DEC N3 <$STR(N2)>
+DIV N4 <$STR(N3)> 3600
+MUL N5 <$STR(N4)> 3600
+MOV N6 <$STR(N3)>
+DEC N6 <$STR(N5)>
+DIV N7 <$STR(N6)> 60
+#IF
+SMALL N1 1
+#ACT
+GOTO @不足1天_102
+#ELSEACT
+SENDMSG 7 恭喜您获得2小时游戏时间！剩余：<$STR(N1)>天<$STR(N4)>小时<$STR(N7)>分钟
+SetOnTimer 50 60
+
+[@不足1天_102]
+#IF
+SMALL N4 1
+#ACT
+GOTO @不足1小时_102
+#ELSEACT
+SENDMSG 7 恭喜您获得2小时游戏时间！剩余：<$STR(N4)>小时<$STR(N7)>分钟
+SetOnTimer 50 60
+
+[@不足1小时_102]
+#IF
+#ACT
+SENDMSG 7 恭喜您获得2小时游戏时间！剩余：<$STR(N7)>分钟
+SetOnTimer 50 60
+
+[@StdModeFunc103]
+#IF
+#ACT
+VAR Integer HUMAN 点卡时间
+LOADVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
+CALCVAR HUMAN 点卡时间 + 18000
+SAVEVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
+TAKE 5小时点卡 1
+; 计算天时分
+DIV N1 <$HUMAN(点卡时间)> 86400
+MUL N2 <$STR(N1)> 86400
+MOV N3 <$HUMAN(点卡时间)>
+DEC N3 <$STR(N2)>
+DIV N4 <$STR(N3)> 3600
+MUL N5 <$STR(N4)> 3600
+MOV N6 <$STR(N3)>
+DEC N6 <$STR(N5)>
+DIV N7 <$STR(N6)> 60
+#IF
+SMALL N1 1
+#ACT
+GOTO @不足1天_103
+#ELSEACT
+SENDMSG 7 恭喜您获得5小时游戏时间！剩余：<$STR(N1)>天<$STR(N4)>小时<$STR(N7)>分钟
+SetOnTimer 50 60
+
+[@不足1天_103]
+#IF
+SMALL N4 1
+#ACT
+GOTO @不足1小时_103
+#ELSEACT
+SENDMSG 7 恭喜您获得5小时游戏时间！剩余：<$STR(N4)>小时<$STR(N7)>分钟
+SetOnTimer 50 60
+
+[@不足1小时_103]
+#IF
+#ACT
+SENDMSG 7 恭喜您获得5小时游戏时间！剩余：<$STR(N7)>分钟
+SetOnTimer 50 60
+
+[@StdModeFunc104]
+#IF
+#ACT
+VAR Integer HUMAN 点卡时间
+LOADVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
+CALCVAR HUMAN 点卡时间 + 86400
+SAVEVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
+TAKE 1天点卡 1
+; 计算天时分
+DIV N1 <$HUMAN(点卡时间)> 86400
+MUL N2 <$STR(N1)> 86400
+MOV N3 <$HUMAN(点卡时间)>
+DEC N3 <$STR(N2)>
+DIV N4 <$STR(N3)> 3600
+MUL N5 <$STR(N4)> 3600
+MOV N6 <$STR(N3)>
+DEC N6 <$STR(N5)>
+DIV N7 <$STR(N6)> 60
+#IF
+SMALL N1 1
+#ACT
+GOTO @不足1天_104
+#ELSEACT
+SENDMSG 7 恭喜您获得1天游戏时间！剩余：<$STR(N1)>天<$STR(N4)>小时<$STR(N7)>分钟
+SetOnTimer 50 60
+
+[@不足1天_104]
+#IF
+SMALL N4 1
+#ACT
+GOTO @不足1小时_104
+#ELSEACT
+SENDMSG 7 恭喜您获得1天游戏时间！剩余：<$STR(N4)>小时<$STR(N7)>分钟
+SetOnTimer 50 60
+
+[@不足1小时_104]
+#IF
+#ACT
+SENDMSG 7 恭喜您获得1天游戏时间！剩余：<$STR(N7)>分钟
+SetOnTimer 50 60
+
+[@STDMODEFUNC9]
+#IF
+gender woman
+#ACT
+hairstyle 1
+sendmsg 7 发型已经变更!
+BREAK
+#IF
+gender man
+#ACT
+hairstyle 1
+sendmsg 7 发型已经变更!
+BREAK
+
+[@@@InPutInteger @@InPutString @@useitemname @@OffLineMsg @@dealgold)
+;----------------------------------------------------
+
+[@StartMyShop]
+#IF
+#ACT
+ForbidMyShop
+MESSAGEBOX 禁止摆摊!请使用拍卖
+BREAK
+
+
+[@ItemBagButtonClick1]
+#IF
+#ACT
+REFRESHBAG 
+SENDMSG 6 背包刷新成功
+
+
+[@ItemBagButtonClick3]
+#if
+#ACT
+CloseBigDialogBox
+#SAY
+移动仓库为您提供以下仓库服务功能： \ \
+<可视仓库/@火山仓库>\ \
+[@火山仓库]
+#ACT
+OpenStorageView 1
+SETSTORAGEOPEN 2 1
+SETSTORAGEOPEN 3 1
+SETSTORAGEOPEN 4 1
+SETSTORAGEOPEN 5 1
+Break
+
+
+[@StartAutoPlayGame]
+#IF
+CHECKMAPNAME 3
+#ACT
+MESSAGEBOX 当前地图禁止挂机
+break
+
+#IF
+#act
+StartAutoPlayGame 100 60 1
+SENDMSG 6 开始挂机，使用快捷键“CTRL+ALT+X”停止挂机
+
+[@StopAutoPlayGame]
+#act
+SENDMSG 6 挂机结束，使用快捷键“CTRL+ALT+X”开始挂机
+
+
+
+[@KillPlay]
+#ACT
+SendMsg 5 你杀人了?
+
+[@PlayLevelUp]
+#IF
+CHECKLEVELEX > 14
+#ACT
+VAR Integer HUMAN 点卡时间
+LOADVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
+#IF
+CHECKVAR HUMAN 点卡时间 < 1
+#ACT
+MAPMOVE 600 20 20
+SENDMSG 5 您的游戏时间不足，需要点卡才能继续游戏！
+BREAK
+#ELSEACT
+CALCVAR HUMAN 点卡时间 - 0
+SAVEVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
+
+#IF
+checkjob wizard
+CHECKLEVELEX = 7
+#ACT
+ADDSKILL 火球术 3
+SENDMSG 7 提示：恭喜您升级到7级，系统自动学习火球术技能！
+SENDMSG 0 玩家「<$USERNAME>」通过努力已经达到了7级，希望有位勇士收为徒弟，继续探知神秘的玛法大陆。
+break
+
+#IF
+checkjob warrior
+CHECKLEVELEX = 7
+#ACT
+ADDSKILL 基本剑术 3
+SENDMSG 7 提示：恭喜您升级到7级，系统自动学习基本剑术技能！
+SENDMSG 0 玩家「<$USERNAME>」通过努力已经达到了7级，希望有位勇士收为徒弟，继续探知神秘的玛法大陆。
+break
+
+#IF
+checkjob taoist
+CHECKLEVELEX = 7
+#ACT
+ADDSKILL 治愈术 3
+SENDMSG 7 提示：恭喜您升级到7级，系统自动学习治愈术技能！
+SENDMSG 0 玩家「<$USERNAME>」通过努力已经达到了7级，希望有位勇士收为徒弟，继续探知神秘的玛法大陆。
+break
+
+#IF
+checkjob taoist
+CHECKLEVELEX = 9
+#ACT
+ADDSKILL 精神力战法 3
+SENDMSG 7 提示：恭喜您升级到9级，系统自动学习精神力战法技能！
+break
+
+#IF
+checkjob wizard
+CHECKLEVELEX = 12
+#ACT
+SENDMSG 7 提示：恭喜您升级到12级，可以学习抗拒火环技能！
+break
+
+#IF
+checkjob wizard
+CHECKLEVELEX = 13
+#ACT
+SENDMSG 7 提示：恭喜您升级到13级，可以学习诱惑之光技能！
+break
+
+#IF
+checkjob taoist
+CHECKLEVELEX = 14
+#ACT
+SENDMSG 7 提示：恭喜您升级到14级，可以学习施毒术技能！
+break
+
+#IF
+checkjob wizard
+CHECKLEVELEX = 16
+#ACT
+SENDMSG 7 提示：恭喜您升级到16级，可以学习地狱火技能！
+break
+
+#IF
+checkjob wizard
+CHECKLEVELEX = 17
+#ACT
+SENDMSG 7 提示：恭喜您升级到17级，可以学习雷电术技能！
+break
+
+#IF
+checkjob taoist
+CHECKLEVELEX = 18
+#ACT
+SENDMSG 7 提示：恭喜您升级到18级，可以学习灵魂火符技能！
+break
+
+#IF
+checkjob wizard
+CHECKLEVELEX = 19
+#ACT
+SENDMSG 7 提示：恭喜您升级到19级，可以学习瞬息移动技能！
+break
+
+#IF
+checkjob warrior
+CHECKLEVELEX = 19
+#ACT
+SENDMSG 7 提示：恭喜您升级到19级，可以学习攻杀剑术技能！
+break
+
+#IF
+checkjob taoist
+CHECKLEVELEX = 19
+#ACT
+SENDMSG 7 提示：恭喜您升级到19级，可以学习召唤骷髅技能！
+break
+
+#IF
+checkjob wizard
+CHECKLEVELEX = 19
+#ACT
+SENDMSG 7 提示：恭喜您升级到19级，可以学习大火球技能！
+break
+
+#IF
+checkjob taoist
+CHECKLEVELEX = 20
+#ACT
+SENDMSG 7 提示：恭喜您升级到20级，可以学习隐身术技能！
+break
+
+#IF
+checkjob taoist
+CHECKLEVELEX = 21
+#ACT
+SENDMSG 7 提示：恭喜您升级到21级，可以学习集体隐身术技能！
+break
+
+#IF
+checkjob wizard
+CHECKLEVELEX = 22
+#ACT
+SENDMSG 7 提示：恭喜您升级到22级，可以学习爆裂火焰技能！
+break
+
+#IF
+checkjob taoist
+CHECKLEVELEX = 22
+#ACT
+SENDMSG 7 提示：恭喜您升级到22级，可以学习幽灵盾技能！
+break
+
+#IF
+checkjob wizard
+CHECKLEVELEX = 24
+#ACT
+SENDMSG 7 提示：恭喜您升级到24级，可以学习火墙技能！
+break
+
+#IF
+checkjob taoist
+CHECKLEVELEX = 25
+#ACT
+SENDMSG 7 提示：恭喜您升级到25级，可以学习神圣战甲术技能！
+break
+
+#IF
+checkjob warrior
+CHECKLEVELEX = 25
+#ACT
+SENDMSG 7 提示：恭喜您升级到25级，可以学习刺杀剑术技能！
+break
+
+#IF
+checkjob wizard
+CHECKLEVELEX = 26
+#ACT
+SENDMSG 7 提示：恭喜您升级到26级，可以学习疾光电影技能！
+break
+
+#IF
+checkjob taoist
+CHECKLEVELEX = 26
+#ACT
+SENDMSG 7 提示：恭喜您升级到26级，可以学习心灵启示技能！
+break
+
+#IF
+checkjob taoist
+CHECKLEVELEX = 28
+#ACT
+SENDMSG 7 提示：恭喜您升级到28级，可以学习困魔咒技能！
+break
+
+#IF
+checkjob warrior
+CHECKLEVELEX = 28
+#ACT
+SENDMSG 7 提示：恭喜您升级到28级，可以学习半月弯刀技能！
+break
+
+#IF
+checkjob warrior
+CHECKLEVELEX = 30
+#ACT
+SENDMSG 7 提示：恭喜您升级到30级，可以学习野蛮冲撞技能！
+break
+
+#IF
+checkjob wizard
+CHECKLEVELEX = 30
+#ACT
+SENDMSG 7 提示：恭喜您升级到30级，可以学习地狱雷光技能！
+break
+
+#IF
+checkjob wizard
+CHECKLEVELEX = 31
+#ACT
+SENDMSG 7 提示：恭喜您升级到31级，可以学习魔法盾技能！
+break
+
+#IF
+checkjob wizard
+CHECKLEVELEX = 32
+#ACT
+SENDMSG 7 提示：恭喜您升级到32级，可以学习圣言术技能！
+break
+
+#IF
+checkjob taoist
+CHECKLEVELEX = 33
+#ACT
+SENDMSG 7 提示：恭喜您升级到33级，可以学习群体治疗术技能！
+break
+
+#IF
+checkjob warrior
+CHECKLEVELEX = 35
+#ACT
+SENDMSG 7 提示：恭喜您升级到35级，可以学习烈火剑法技能！
+break
+
+#IF
+checkjob wizard
+CHECKLEVELEX = 35
+#ACT
+SENDMSG 7 提示：恭喜您升级到35级，可以学习冰咆哮技能！
+break
+
+#IF
+checkjob taoist
+CHECKLEVELEX = 35
+#ACT
+SENDMSG 7 提示：恭喜您升级到35级，可以学习召唤神兽技能！
+break
+
+
+[@PlayDie]
+
+#IF
+KILLBYHUM
+#ACT
+SENDMSG 1 提示:玩家【<$CURRRTARGETNAME>】在:%m(%x:%y)把玩家<$USERNAME>干掉了！
+#ELSEACT
+SENDMSG 1 提示:怪物【<$CURRRTARGETNAME>】在:%m(%x:%y)把玩家<$USERNAME>干掉了！
+
+;----------------------------------------------------
+
+[@STDMODEFUNC9]
+#IF
+gender woman
+#ACT
+HAIRSTYLE 1
+SENDMSG 7 发型已经变更! 
+BREAK
+#IF
+gender man
+#ACT
+HAIRSTYLE 1
+SENDMSG 7 发型已经变更! 
+BREAK
+
+[@STDMODEFUNC10]
+#IF
+gender woman
+#ACT
+HAIRSTYLE 0
+SENDMSG 7 发型已经变更! 
+BREAK
+#IF
+gender man
+#ACT
+HAIRSTYLE 0
+SENDMSG 7 发型已经变更! 
+BREAK
+
+[@STDMODEFUNC11]
+#IF
+#ACT
+KILLMONEXPRATE 200 7200
+Gmexecute showeffect 76
+SENDMSG 0 玩家「<$USERNAME>」使用双倍卷轴，获得了2小时双倍时间。
+
+
+[@STDMODEFUNC12]
+#IF
+#ACT
+KILLMONEXPRATE 200 3600
+Gmexecute showeffect 76
+SENDMSG 0 玩家「<$USERNAME>」使用双倍宝典(小)，获得了1小时双倍时间。
+
+
+[@STDMODEFUNC13]
+#IF
+#ACT
+KILLMONEXPRATE 200 10800
+Gmexecute showeffect 76
+SENDMSG 0 玩家「<$USERNAME>」使用双倍宝典(中)，获得了3小时双倍时间。
+
+
+[@STDMODEFUNC14]
+#IF
+#ACT
+KILLMONEXPRATE 200 21600
+Gmexecute showeffect 76
+SENDMSG 0 玩家「<$USERNAME>」使用双倍宝典(大)，获得了6小时双倍时间。
+
+
+[@StdModeFunc15]
+#IF
+#ACT
+Gmexecute showeffect 79
+SENDMSG 0 <$USERNAME>在:%m%x:%y处放烟花咯、大家快去欣赏哦。
+
+[@StdModeFunc16]
+#IF
+#ACT
+Gmexecute showeffect 80
+SENDMSG 0 <$USERNAME>在:%m%x:%y处放烟花咯、大家快去欣赏哦。
+
+[@StdModeFunc17]
+#IF
+#ACT
+Gmexecute showeffect 81
+SENDMSG 0 <$USERNAME>在:%m%x:%y处放烟花咯、大家快去欣赏哦。
+
+[@StdModeFunc18]
+#IF
+#ACT
+Gmexecute showeffect 82
+SENDMSG 0 <$USERNAME>在:%m%x:%y处放烟花咯、大家快去欣赏哦。
+
+[@StdModeFunc19]
+#IF
+#ACT
+Gmexecute showeffect 83
+SENDMSG 0 <$USERNAME>在:%m%x:%y处放烟花咯、大家快去欣赏哦。
+
+[@StdModeFunc20]
+#IF
+#ACT
+Gmexecute showeffect 84
+SENDMSG 0 <$USERNAME>在:%m%x:%y处放烟花咯、大家快去欣赏哦。
+
+[@StdModeFunc21]
+#IF
+#ACT
+Gmexecute showeffect 85
+SENDMSG 0 <$USERNAME>在:%m%x:%y处放烟花咯、大家快去欣赏哦。
+
+[@StdModeFunc41]
+#IF
+small M3 60
+#Act
+INC M3 2
+Gmexecute showeffect 79
+Gmexecute showeffect 80
+Gmexecute showeffect 81
+Delaygoto 2000 @庆典蛋糕1
+SENDMSG 0 <$USERNAME>在:%m%x:%y处放庆典蛋糕了!大家快去看拉
+#ELSEAct
+MOV M3 0
+
+[@庆典蛋糕1]
+#IF
+small M3 60
+#Act
+INC M3 2
+Gmexecute showeffect 80
+Gmexecute showeffect 81
+Gmexecute showeffect 82
+Delaygoto 2000 @庆典蛋糕2
+SENDMSG 0 <$USERNAME>在:%m%x:%y处放庆典蛋糕了!大家快去看拉
+#ELSEAct
+MOV M3 0
+
+[@庆典蛋糕2]
+#IF
+small M3 60
+#Act
+INC M3 2
+Gmexecute showeffect 81
+Gmexecute showeffect 82
+Gmexecute showeffect 83
+Delaygoto 2000 @庆典蛋糕3
+SENDMSG 0 <$USERNAME>在:%m%x:%y处放庆典蛋糕了!大家快去看拉
+#ELSEAct
+MOV M3 0
+
+[@庆典蛋糕3]
+#IF
+  small M3 60
+#Act
+  INC M3 2
+Gmexecute showeffect 82
+Gmexecute showeffect 83
+Gmexecute showeffect 84
+Delaygoto 2000 @庆典蛋糕4
+SENDMSG 0 <$USERNAME>在:%m%x:%y处放庆典蛋糕了!大家快去看拉
+#ELSEAct
+MOV M3 0
+
+[@庆典蛋糕4]
+#IF
+small M3 60
+#Act
+INC M3 2
+Gmexecute showeffect 83
+Gmexecute showeffect 84
+Gmexecute showeffect 85
+Delaygoto 2000 @庆典蛋糕5
+SENDMSG 0 <$USERNAME>在:%m%x:%y处放庆典蛋糕了!大家快去看拉
+#ELSEAct
+MOV M3 0
+
+[@庆典蛋糕5]
+#IF
+small M3 60
+#Act
+INC M3 2
+Gmexecute showeffect 79
+Gmexecute showeffect 84
+Gmexecute showeffect 85
+Delaygoto 2000 @庆典蛋糕6
+SENDMSG 0 <$USERNAME>在:%m%x:%y处放庆典蛋糕了!大家快去看拉
+#ELSEAct
+MOV M3 0
+
+[@庆典蛋糕6]
+#IF
+small M3 60
+#Act
+INC M3 2
+Gmexecute showeffect 79
+Gmexecute showeffect 80
+Gmexecute showeffect 85
+Delaygoto 2000 @庆典蛋糕
+SENDMSG 0 <$USERNAME>在:%m%x:%y处放庆典蛋糕了!大家快去看拉
+#ELSEAct
+MOV M3 0
+
+[@StdModeFunc29]
+#IF
+#ACT
+mapmove 0 326 272
+
+[@StdModeFunc30]
+#IF
+#ACT
+mapmove 3 330 330
+
+[@StdModeFunc99]
+一： <记录当前坐标/@TAGMAPINFO1> <移动到/@PMOVE1> -> <$TAGMAPNAME1> <$TAGX1> <$TAGY1>\
+二： <记录当前坐标/@TAGMAPINFO2> <移动到/@PMOVE2> -> <$TAGMAPNAME2> <$TAGX2> <$TAGY2>\
+三： <记录当前坐标/@TAGMAPINFO3> <移动到/@PMOVE3> -> <$TAGMAPNAME3> <$TAGX3> <$TAGY3>\
+四： <记录当前坐标/@TAGMAPINFO4> <移动到/@PMOVE4> -> <$TAGMAPNAME4> <$TAGX4> <$TAGY4>\
+五： <记录当前坐标/@TAGMAPINFO5> <移动到/@PMOVE5> -> <$TAGMAPNAME5> <$TAGX5> <$TAGY5>\
+六： <记录当前坐标/@TAGMAPINFO6> <移动到/@PMOVE6> -> <$TAGMAPNAME6> <$TAGX6> <$TAGY6>\ \
+<成功传送后才会消失一点.安全无毒.放心使用>\ 
+[@PMOVE1]
+#ACT
+TAGMAPMOVE 1
+[@PMOVE2]
+#ACT
+TAGMAPMOVE 2
+[@PMOVE3]
+#ACT
+TAGMAPMOVE 3
+[@PMOVE4]
+#ACT
+TAGMAPMOVE 4
+[@PMOVE5]
+#ACT
+TAGMAPMOVE 5
+[@PMOVE6]
+#ACT
+TAGMAPMOVE 6
+[@TAGMAPINFO1]
+#ACT
+TAGMAPINFO 1
+GOTO @StdModeFunc99
+[@TAGMAPINFO2]
+#ACT
+TAGMAPINFO 2
+GOTO @StdModeFunc99
+[@TAGMAPINFO3]
+#ACT
+TAGMAPINFO 3
+GOTO @StdModeFunc99
+[@TAGMAPINFO4]
+#ACT
+TAGMAPINFO 4
+GOTO @StdModeFunc99
+[@TAGMAPINFO5]
+#ACT
+TAGMAPINFO 5
+GOTO @StdModeFunc99
+[@TAGMAPINFO6]
+#ACT
+TAGMAPINFO 6
+GOTO @StdModeFunc99
+
+[@RevMaster]
+对方想拜你为师，你是否想收此人为徒？ \ \
+『<同意/@ResposeMaster>』 \
+『<不同意/@ResposeMasterFail>』
+
+[@ResposeMaster]
+#IF
+#ACT
+master responsemaster1 ok
+close
+
+[@ResposeMasterFail]
+#if
+#act
+master responsemaster1 fail
+
+[@EndMaster]
+#if
+#act
+SENDMSG 0 %s完成了拜师收徒仪式!
+
+[@EndMasterFail]
+拜师失败！\ \
+〖<关闭/@exit>〗
+
+[@RevUnMaster]
+对方向你请求脱离师徒关系，你是否答应？ \ \
+『<我愿意/@ResposeUnMaster>』
+〖<退出/@Exit>〗
+
+[@ResposeUnMaster]
+#if
+#act 
+unmaster REQUESTUNMASTER MASTER
+
+[@PoseUnMasterEnd]
+呵呵，你已经与徒弟脱离师徒关系了！！！ \ \
+『<退出/@exit>』
+
+[@RequestUnMasterEnd]
+呵呵，你已经脱离师徒关系了！！！ \ \
+『<退出/@exit>』
+
+
+
+
+;传送神石
+[@StdModeFunc1]
+#or
+ISONMAP D024
+ISONMAP D5061
+ISONMAP D5062
+ISONMAP D5063
+ISONMAP D5064
+ISONMAP D5065
+ISONMAP D5066
+ISONMAP D5067
+ISONMAP D5068
+ISONMAP D5069
+ISONMAP D5072
+ISONMAP D5073
+ISONMAP D5074
+ISONMAP D515
+ISONMAP Q011
+ISONMAP Q012
+ISONMAP Q013
+ISONMAP Q014
+ISONMAP Q015
+ISONMAP Q016
+CheckContainsText <$MAP> B1
+ISONMAP T103
+ISONMAP T105
+ISONMAP T1061
+ISONMAP T1062
+ISONMAP T1063
+ISONMAP T109
+ISONMAP T115
+ISONMAP T118
+ISONMAP T119
+ISONMAP T125
+ISONMAP T1281
+ISONMAP T1282
+ISONMAP T1283
+ISONMAP T131
+ISONMAP T132
+ISONMAP T134
+ISONMAP T1361
+ISONMAP T1362
+ISONMAP T1363
+ISONMAP T138
+ISONMAP T138
+ISONMAP T140
+ISONMAP D2002
+ISONMAP D2006
+ISONMAP D2008
+ISONMAP D2009
+ISONMAP D2011
+ISONMAP D2012
+ISONMAP D2013
+ISONMAP D2064
+ISONMAP D2067
+ISONMAP D2078
+ISONMAP D2079
+ISONMAP T140A
+ISONMAP T339
+ISONMAP T315
+ISONMAP T118A
+ISONMAP T219
+ISONMAP T232
+#act
+Break
+#say
+使用传送神石可以去到很多你想去的地方。\ \
+<此地图禁止随机传送>  <取消坐标传送(不扣除使用点数)/@取消传送>\ \
+<边 界 村/@边界村> <银 杏 村/@银杏村> <比 奇 城/@比奇城> <毒 蛇 村/@毒蛇村> <白 日 门/@白日门>\
+<盟 重 城/@盟重城> <沙 巴 克/@沙巴克> <红 名 村/@红名村> <封 魔 谷/@封魔谷> <苍 月 岛/@苍月岛>\
+<沃玛森林/@沃玛森林> <天然洞穴/@天然洞穴> <兽人古墓/@兽人古墓> <比奇矿区/@比奇矿区> <毒蛇矿区/@毒蛇矿区>\ 
+<沃玛寺庙/@沃玛寺庙> <蜈蚣洞口/@蜈蚣洞口> <未知暗殿/@未知暗殿> <石墓入口/@石墓入口> <祖玛寺庙/@祖玛寺庙>\
+<丛林迷宫/@丛林迷宫> <封魔矿区/@封魔矿区> <尸魔洞口/@尸魔洞口> <骨魔洞口/@骨魔洞口> <牛魔寺庙/@牛魔寺庙>\ 
+
+#if
+equal U9 0
+#act
+Break
+#say
+使用传送神石可以去到很多你想去的地方。\ \
+<切换为随机传送/@切随机传>  <取消坐标传送(不扣除使用点数)/@取消传送>\ \
+<边 界 村/@边界村> <银 杏 村/@银杏村> <比 奇 城/@比奇城> <毒 蛇 村/@毒蛇村> <白 日 门/@白日门>\
+<盟 重 城/@盟重城> <沙 巴 克/@沙巴克> <红 名 村/@红名村> <封 魔 谷/@封魔谷> <苍 月 岛/@苍月岛>\
+<沃玛森林/@沃玛森林> <天然洞穴/@天然洞穴> <兽人古墓/@兽人古墓> <比奇矿区/@比奇矿区> <毒蛇矿区/@毒蛇矿区>\ 
+<沃玛寺庙/@沃玛寺庙> <蜈蚣洞口/@蜈蚣洞口> <未知暗殿/@未知暗殿> <石墓入口/@石墓入口> <祖玛寺庙/@祖玛寺庙>\
+<丛林迷宫/@丛林迷宫> <封魔矿区/@封魔矿区> <尸魔洞口/@尸魔洞口> <骨魔洞口/@骨魔洞口> <牛魔寺庙/@牛魔寺庙>\ 
+
+#if
+equal U9 1
+#act
+map <$MAP>
+#say
+使用传送神石可以去到很多你想去的地方。\ \
+<切换为坐标传送/@切坐标传>
+
+[@取消传送]
+#act
+close
+AddFunItemDura 1000
+
+[@切随机传]
+#act
+close
+mov U9 1
+AddFunItemDura 1000
+sendmsg 7 提示：传送神石已切换为随机传送模式。
+
+[@切坐标传]
+#act
+close
+mov U9 0
+sendmsg 7 提示：传送神石已切换为坐标传送模式。
+
+
+
+
+[@PickUpItemEx]
+
+
+;======================人物死亡触发==========================
+[@PlayDie]
+
+;================================================
+; 在线2小时礼包系统 - 下线清零计时
+;================================================
+[@Logout]
+#IF
+#ACT
+VAR Integer HUMAN 在线计时
+CALCVAR HUMAN 在线计时 = 0
+SAVEVAR HUMAN 在线计时 ..\\QuestDiary\\系统功能\\在线计时.txt
+SETOFFTIMER 55
+
+;================================================
+; 地图击杀触发 - 击杀怪物概率刷新骷髅精灵 (2.5%)
+;================================================
+[@OnKillMob]
+#IF
+RANDOM 40
+#ACT
+MonGenEx <$MAP> <$X> <$Y> 骷髅精灵 3 1 0 251
+SENDMSG 6 提示：击杀怪物，骷髅精灵出现了！
+
+
+
+
+[@ItemBagButtonClick2]
+#ACT
+MOV N1 0
+Loopgoto @技能书回收 100
+Loopgoto @装备回收 200
+SENDMSG 6 回收完成！共获得<$STR(N1)>金币
+BREAK
+
+[@技能书回收]
+#IF
+checkitem 火球术 1
+#ACT
+take 火球术 1
+give 金币 250
+INC N1 250
+Loopgoto @技能书回收
+#IF
+checkitem 基本剑术 1
+#ACT
+take 基本剑术 1
+give 金币 250
+INC N1 250
+Loopgoto @技能书回收
+#IF
+checkitem 治愈术 1
+#ACT
+take 治愈术 1
+give 金币 250
+INC N1 250
+Loopgoto @技能书回收
+#IF
+checkitem 精神力战法 1
+#ACT
+take 精神力战法 1
+give 金币 250
+INC N1 250
+Loopgoto @技能书回收
+#IF
+checkitem 抗拒火环 1
+#ACT
+take 抗拒火环 1
+give 金币 250
+INC N1 250
+Loopgoto @技能书回收
+#IF
+checkitem 诱惑之光 1
+#ACT
+take 诱惑之光 1
+give 金币 500
+INC N1 500
+Loopgoto @技能书回收
+#IF
+checkitem 施毒术 1
+#ACT
+take 施毒术 1
+give 金币 500
+INC N1 500
+Loopgoto @技能书回收
+#IF
+checkitem 地狱火 1
+#ACT
+take 地狱火 1
+give 金币 500
+INC N1 500
+Loopgoto @技能书回收
+#IF
+checkitem 雷电术 1
+#ACT
+take 雷电术 1
+give 金币 500
+INC N1 500
+Loopgoto @技能书回收
+#IF
+checkitem 灵魂火符 1
+#ACT
+take 灵魂火符 1
+give 金币 500
+INC N1 500
+Loopgoto @技能书回收
+#IF
+checkitem 大火球 1
+#ACT
+take 大火球 1
+give 金币 1000
+INC N1 1000
+Loopgoto @技能书回收
+#IF
+checkitem 攻杀剑术 1
+#ACT
+take 攻杀剑术 1
+give 金币 1000
+INC N1 1000
+Loopgoto @技能书回收
+#IF
+checkitem 召唤骷髅 1
+#ACT
+take 召唤骷髅 1
+give 金币 1000
+INC N1 1000
+Loopgoto @技能书回收
+#IF
+checkitem 隐身术 1
+#ACT
+take 隐身术 1
+give 金币 1000
+INC N1 1000
+Loopgoto @技能书回收
+#IF
+checkitem 集体隐身术 1
+#ACT
+take 集体隐身术 1
+give 金币 1500
+INC N1 1500
+Loopgoto @技能书回收
+#IF
+checkitem 火墙 1
+#ACT
+take 火墙 1
+give 金币 1500
+INC N1 1500
+Loopgoto @技能书回收
+#IF
+checkitem 幽灵盾 1
+#ACT
+take 幽灵盾 1
+give 金币 2500
+INC N1 2500
+Loopgoto @技能书回收
+#IF
+checkitem 刺杀剑术 1
+#ACT
+take 刺杀剑术 1
+give 金币 2500
+INC N1 2500
+Loopgoto @技能书回收
+#IF
+checkitem 心灵启示 1
+#ACT
+take 心灵启示 1
+give 金币 2500
+INC N1 2500
+Loopgoto @技能书回收
+#IF
+checkitem 神圣战甲术 1
+#ACT
+take 神圣战甲术 1
+give 金币 2500
+INC N1 2500
+Loopgoto @技能书回收
+#ELSEACT
+BREAK
+
+[@装备回收]
+#IF
+checkitem 匕首 1
+#ACT
+take 匕首 1
+give 金币 250
+INC N1 250
+Loopgoto @回收检测
+#IF
+checkitem 乌木剑 1
+#ACT
+take 乌木剑 1
+give 金币 2000
+INC N1 2000
+Loopgoto @回收检测
+#IF
+checkitem 青铜剑 1
+#ACT
+take 青铜剑 1
+give 金币 450
+INC N1 450
+Loopgoto @回收检测
+#IF
+checkitem 短剑 1
+#ACT
+take 短剑 1
+give 金币 500
+INC N1 500
+Loopgoto @回收检测
+#IF
+checkitem 铁剑 1
+#ACT
+take 铁剑 1
+give 金币 600
+INC N1 600
+Loopgoto @回收检测
+#IF
+checkitem 青铜斧 1
+#ACT
+take 青铜斧 1
+give 金币 750
+INC N1 750
+Loopgoto @回收检测
+#IF
+checkitem 半月 1
+#ACT
+take 半月 1
+give 金币 2100
+INC N1 2100
+Loopgoto @回收检测
+#IF
+checkitem 八荒 1
+#ACT
+take 八荒 1
+give 金币 2500
+INC N1 2500
+Loopgoto @回收检测
+#IF
+checkitem 凌风 1
+#ACT
+take 凌风 1
+give 金币 2500
+INC N1 2500
+Loopgoto @回收检测
+#IF
+checkitem 破魂 1
+#ACT
+take 破魂 1
+give 金币 2500
+INC N1 2500
+Loopgoto @回收检测
+#IF
+checkitem 降魔 1
+#ACT
+take 降魔 1
+give 金币 2500
+INC N1 2500
+Loopgoto @回收检测
+#IF
+checkitem 斩马刀 1
+#ACT
+take 斩马刀 1
+give 金币 3000
+INC N1 3000
+Loopgoto @回收检测
+#IF
+checkitem 修罗 1
+#ACT
+take 修罗 1
+give 金币 5000
+INC N1 5000
+Loopgoto @回收检测
+#IF
+checkitem 凝霜 1
+#ACT
+take 凝霜 1
+give 金币 4000
+INC N1 4000
+Loopgoto @回收检测
+#IF
+checkitem 海魂 1
+#ACT
+take 海魂 1
+give 金币 1500
+INC N1 1500
+Loopgoto @回收检测
+#IF
+checkitem 偃月 1
+#ACT
+take 偃月 1
+give 金币 2500
+INC N1 2500
+Loopgoto @回收检测
+#IF
+checkitem 轻型盔甲(男) 1
+#ACT
+take 轻型盔甲(男) 1
+give 金币 750
+INC N1 750
+Loopgoto @回收检测
+#IF
+checkitem 轻型盔甲(女) 1
+#ACT
+take 轻型盔甲(女) 1
+give 金币 750
+INC N1 750
+Loopgoto @回收检测
+#IF
+checkitem 中型盔甲(男) 1
+#ACT
+take 中型盔甲(男) 1
+give 金币 1500
+INC N1 1500
+Loopgoto @回收检测
+#IF
+checkitem 中型盔甲(女) 1
+#ACT
+take 中型盔甲(女) 1
+give 金币 1500
+INC N1 1500
+Loopgoto @回收检测
+#IF
+checkitem 重盔甲(男) 1
+#ACT
+take 重盔甲(男) 1
+give 金币 3000
+INC N1 3000
+Loopgoto @回收检测
+#IF
+checkitem 重盔甲(女) 1
+#ACT
+take 重盔甲(女) 1
+give 金币 3000
+INC N1 3000
+Loopgoto @回收检测
+#IF
+checkitem 灵魂战衣(男) 1
+#ACT
+take 灵魂战衣(男) 1
+give 金币 3000
+INC N1 3000
+Loopgoto @回收检测
+#IF
+checkitem 灵魂战衣(女) 1
+#ACT
+take 灵魂战衣(女) 1
+give 金币 3000
+INC N1 3000
+Loopgoto @回收检测
+#IF
+checkitem 魔法长袍(男) 1
+#ACT
+take 魔法长袍(男) 1
+give 金币 3000
+INC N1 3000
+Loopgoto @回收检测
+#IF
+checkitem 魔法长袍(女) 1
+#ACT
+take 魔法长袍(女) 1
+give 金币 3000
+INC N1 3000
+Loopgoto @回收检测
+#IF
+checkitem 青铜头盔 1
+#ACT
+take 青铜头盔 1
+give 金币 250
+INC N1 250
+Loopgoto @回收检测
+#IF
+checkitem 魔法头盔 1
+#ACT
+take 魔法头盔 1
+give 金币 500
+INC N1 500
+Loopgoto @回收检测
+#IF
+checkitem 道士头盔 1
+#ACT
+take 道士头盔 1
+give 金币 1250
+INC N1 1250
+Loopgoto @回收检测
+#IF
+checkitem 骷髅头盔 1
+#ACT
+take 骷髅头盔 1
+give 金币 2000
+INC N1 2000
+Loopgoto @回收检测
+#IF
+checkitem 古铜戒指 1
+#ACT
+take 古铜戒指 1
+give 金币 125
+INC N1 125
+Loopgoto @回收检测
+#IF
+checkitem 玻璃戒指 1
+#ACT
+take 玻璃戒指 1
+give 金币 200
+INC N1 200
+Loopgoto @回收检测
+#IF
+checkitem 六角戒指 1
+#ACT
+take 六角戒指 1
+give 金币 200
+INC N1 200
+Loopgoto @回收检测
+#IF
+checkitem 牛角戒指 1
+#ACT
+take 牛角戒指 1
+give 金币 250
+INC N1 250
+Loopgoto @回收检测
+#IF
+checkitem 蓝色水晶戒指 1
+#ACT
+take 蓝色水晶戒指 1
+give 金币 375
+INC N1 375
+Loopgoto @回收检测
+#IF
+checkitem 生铁戒指 1
+#ACT
+take 生铁戒指 1
+give 金币 750
+INC N1 750
+Loopgoto @回收检测
+#IF
+checkitem 珍珠戒指 1
+#ACT
+take 珍珠戒指 1
+give 金币 500
+INC N1 500
+Loopgoto @回收检测
+#IF
+checkitem 黑色水晶戒指 1
+#ACT
+take 黑色水晶戒指 1
+give 金币 500
+INC N1 500
+Loopgoto @回收检测
+#IF
+checkitem 蛇眼戒指 1
+#ACT
+take 蛇眼戒指 1
+give 金币 500
+INC N1 500
+Loopgoto @回收检测
+#IF
+checkitem 金戒指 1
+#ACT
+take 金戒指 1
+give 金币 2000
+INC N1 2000
+Loopgoto @回收检测
+#IF
+checkitem 道德戒指 1
+#ACT
+take 道德戒指 1
+give 金币 1000
+INC N1 1000
+Loopgoto @回收检测
+#IF
+checkitem 魅力戒指 1
+#ACT
+take 魅力戒指 1
+give 金币 1000
+INC N1 1000
+Loopgoto @回收检测
+#IF
+checkitem 降妖除魔戒指 1
+#ACT
+take 降妖除魔戒指 1
+give 金币 2500
+INC N1 2500
+Loopgoto @回收检测
+#IF
+checkitem 骷髅戒指 1
+#ACT
+take 骷髅戒指 1
+give 金币 1250
+INC N1 1250
+Loopgoto @回收检测
+#IF
+checkitem 珊瑚戒指 1
+#ACT
+take 珊瑚戒指 1
+give 金币 3750
+INC N1 3750
+Loopgoto @回收检测
+#IF
+checkitem 皮制手套 1
+#ACT
+take 皮制手套 1
+give 金币 250
+INC N1 250
+Loopgoto @回收检测
+#IF
+checkitem 铁手镯 1
+#ACT
+take 铁手镯 1
+give 金币 200
+INC N1 200
+Loopgoto @回收检测
+#IF
+checkitem 小手镯 1
+#ACT
+take 小手镯 1
+give 金币 250
+INC N1 250
+Loopgoto @回收检测
+#IF
+checkitem 银手镯 1
+#ACT
+take 银手镯 1
+give 金币 413
+INC N1 413
+Loopgoto @回收检测
+#IF
+checkitem 钢手镯 1
+#ACT
+take 钢手镯 1
+give 金币 550
+INC N1 550
+Loopgoto @回收检测
+#IF
+checkitem 大手镯 1
+#ACT
+take 大手镯 1
+give 金币 1375
+INC N1 1375
+Loopgoto @回收检测
+#IF
+checkitem 魔法手镯 1
+#ACT
+take 魔法手镯 1
+give 金币 1000
+INC N1 1000
+Loopgoto @回收检测
+#IF
+checkitem 道士手镯 1
+#ACT
+take 道士手镯 1
+give 金币 1000
+INC N1 1000
+Loopgoto @回收检测
+#IF
+checkitem 黑檀手镯 1
+#ACT
+take 黑檀手镯 1
+give 金币 1000
+INC N1 1000
+Loopgoto @回收检测
+#IF
+checkitem 魔力手镯 1
+#ACT
+take 魔力手镯 1
+give 金币 2000
+INC N1 2000
+Loopgoto @回收检测
+#IF
+checkitem 坚固手套 1
+#ACT
+take 坚固手套 1
+give 金币 1850
+INC N1 1850
+Loopgoto @回收检测
+#IF
+checkitem 金手镯 1
+#ACT
+take 金手镯 1
+give 金币 1750
+INC N1 1750
+Loopgoto @回收检测
+#IF
+checkitem 死神手套 1
+#ACT
+take 死神手套 1
+give 金币 2000
+INC N1 2000
+Loopgoto @回收检测
+#IF
+checkitem 金项链 1
+#ACT
+take 金项链 1
+give 金币 125
+INC N1 125
+Loopgoto @回收检测
+#IF
+checkitem 传统项链 1
+#ACT
+take 传统项链 1
+give 金币 250
+INC N1 250
+Loopgoto @回收检测
+#IF
+checkitem 黄色水晶项链 1
+#ACT
+take 黄色水晶项链 1
+give 金币 300
+INC N1 300
+Loopgoto @回收检测
+#IF
+checkitem 黑檀项链 1
+#ACT
+take 黑檀项链 1
+give 金币 300
+INC N1 300
+Loopgoto @回收检测
+#IF
+checkitem 黑色水晶项链 1
+#ACT
+take 黑色水晶项链 1
+give 金币 375
+INC N1 375
+Loopgoto @回收检测
+#IF
+checkitem 白色虎齿项链 1
+#ACT
+take 白色虎齿项链 1
+give 金币 750
+INC N1 750
+Loopgoto @回收检测
+#IF
+checkitem 白金项链 1
+#ACT
+take 白金项链 1
+give 金币 500
+INC N1 500
+Loopgoto @回收检测
+#IF
+checkitem 灯笼项链 1
+#ACT
+take 灯笼项链 1
+give 金币 750
+INC N1 750
+Loopgoto @回收检测
+#IF
+checkitem 琥珀项链 1
+#ACT
+take 琥珀项链 1
+give 金币 500
+INC N1 500
+Loopgoto @回收检测
+#IF
+checkitem 魔鬼项链 1
+#ACT
+take 魔鬼项链 1
+give 金币 625
+INC N1 625
+Loopgoto @回收检测
+#IF
+checkitem 凤凰明珠 1
+#ACT
+take 凤凰明珠 1
+give 金币 500
+INC N1 500
+Loopgoto @回收检测
+#IF
+checkitem 蓝翡翠项链 1
+#ACT
+take 蓝翡翠项链 1
+give 金币 2500
+INC N1 2500
+Loopgoto @回收检测
+#IF
+checkitem 竹笛 1
+#ACT
+take 竹笛 1
+give 金币 1500
+INC N1 1500
+Loopgoto @回收检测
+#IF
+checkitem 放大镜 1
+#ACT
+take 放大镜 1
+give 金币 1500
+INC N1 1500
+Loopgoto @回收检测
+#ELSEACT
+BREAK
+
+
+;================================================
+; 照明物品持久消耗系统
+; 蜡烛/火把/火炬 佩戴后每秒自动消耗
+; 持久0时自动消失
+;================================================
+
+; 佩戴触发
+[@TakeOnEx]
+#IF
+#ACT
+; 检测是否戴了照明物品
+CheckItemState 0 1
+CheckItemState 1 2
+# 或其他方式触发
+SetOnTimer 58 1
+SetOnTimer 59 60
+SENDMSG 6 照明物品已佩戴，定时器已启动
+
+[@TakeOffEx]
+#IF
+#ACT
+SetOffTimer 58
+
+; 58号定时器：每秒检测
+; 59号定时器：每60秒检测一次照明物品
+[@OnTimer_59]
+#IF
+#ACT
+SetOnTimer 58 1
+SetOffTimer 58
+SENDMSG 6 照明物品定时器已启动
+
+; 58号定时器处理
+[@OnTimer_58]
+#IF
+#ACT
+SetOffTimer 58
+; 手动处理持久减少
+; 引擎可能不支持手动扣持久，使用SetItemDura命令
+; 或直接用计时器自动关闭
+SENDMSG 6 照明检测
+SetOnTimer 58 1

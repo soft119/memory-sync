@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>检测加入国家</title>
+</head>
+
+<body>
+<p>检测加入国家</p>
+<p>格式: CheckNational (国家编号 0~100) </p>
+<p><br />
+[@main]  <br />
+  #IF<br />
+  CheckNational  0 <br />
+  #SAY<br />
+  你还没有加入国家<br />
+BREAK</p>
+<p>#IF<br />
+CheckNational  1 <br />
+#SAY<br />
+你已经加入国家，国家编号1<br />
+BREAK</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>

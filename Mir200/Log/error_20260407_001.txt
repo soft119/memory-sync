@@ -1,0 +1,223 @@
+[2026-04-07 15:21:48:699] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-20016] 当前Thread:19672
+[2026-04-07 15:21:48:699] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-20016] 当前Thread:19672
+[2026-04-07 15:21:48:699] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-20016] 当前Thread:19672
+[2026-04-07 15:21:48:699] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-20016] 当前Thread:19672
+[2026-04-07 15:21:48:977] Socket Err:10061
+
+[2026-04-07 15:38:37:784] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-19460] 当前Thread:3940
+[2026-04-07 15:38:37:784] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-19460] 当前Thread:3940
+[2026-04-07 15:38:37:784] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-19460] 当前Thread:3940
+[2026-04-07 15:38:37:784] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-19460] 当前Thread:3940
+
+[2026-04-07 15:43:55:696] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-12548] 当前Thread:15208
+[2026-04-07 15:43:55:696] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-12548] 当前Thread:15208
+[2026-04-07 15:43:55:696] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-12548] 当前Thread:15208
+[2026-04-07 15:43:55:696] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-12548] 当前Thread:15208
+
+[2026-04-07 15:49:59:727] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-7336] 当前Thread:7688
+[2026-04-07 15:49:59:727] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-7336] 当前Thread:7688
+[2026-04-07 15:49:59:727] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-7336] 当前Thread:7688
+[2026-04-07 15:49:59:727] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-7336] 当前Thread:7688
+
+[2026-04-07 15:57:07:705] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-8900] 当前Thread:3136
+[2026-04-07 15:57:07:705] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-8900] 当前Thread:3136
+[2026-04-07 15:57:07:705] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-8900] 当前Thread:3136
+[2026-04-07 15:57:07:705] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-8900] 当前Thread:3136
+
+[2026-04-07 16:39:19:943] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-19428] 当前Thread:6200
+[2026-04-07 16:39:19:943] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-19428] 当前Thread:6200
+[2026-04-07 16:39:19:943] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-19428] 当前Thread:6200
+[2026-04-07 16:39:19:943] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-19428] 当前Thread:6200
+
+[2026-04-07 16:41:09:788] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-10856] 当前Thread:9908
+[2026-04-07 16:41:09:788] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-10856] 当前Thread:9908
+[2026-04-07 16:41:09:788] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-10856] 当前Thread:9908
+[2026-04-07 16:41:09:788] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-10856] 当前Thread:9908
+
+[2026-04-07 16:43:33:819] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-20268] 当前Thread:14048
+[2026-04-07 16:43:33:819] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-20268] 当前Thread:14048
+[2026-04-07 16:43:33:819] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-20268] 当前Thread:14048
+[2026-04-07 16:43:33:819] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-20268] 当前Thread:14048
+
+[2026-04-07 16:44:51:771] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-19304] 当前Thread:13060
+[2026-04-07 16:44:51:771] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-19304] 当前Thread:13060
+[2026-04-07 16:44:51:771] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-19304] 当前Thread:13060
+[2026-04-07 16:44:51:771] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-19304] 当前Thread:13060
+
+[2026-04-07 16:48:31:791] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-7892] 当前Thread:16388
+[2026-04-07 16:48:31:791] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-7892] 当前Thread:16388
+[2026-04-07 16:48:31:791] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-7892] 当前Thread:16388
+[2026-04-07 16:48:31:791] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-7892] 当前Thread:16388
+
+[2026-04-07 16:48:58:217] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-13884] 当前Thread:8188
+[2026-04-07 16:48:58:217] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-13884] 当前Thread:8188
+[2026-04-07 16:48:58:217] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-13884] 当前Thread:8188
+[2026-04-07 16:48:58:217] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-13884] 当前Thread:8188
+[2026-04-07 16:48:58:584] Socket Err:10061
+
+[2026-04-07 16:50:31:220] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-3188] 当前Thread:2352
+[2026-04-07 16:50:31:220] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-3188] 当前Thread:2352
+[2026-04-07 16:50:31:220] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-3188] 当前Thread:2352
+[2026-04-07 16:50:31:220] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-3188] 当前Thread:2352
+
+[2026-04-07 17:02:37:291] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-19608] 当前Thread:11248
+[2026-04-07 17:02:37:291] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-19608] 当前Thread:11248
+[2026-04-07 17:02:37:291] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-19608] 当前Thread:11248
+[2026-04-07 17:02:37:291] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-19608] 当前Thread:11248
+
+[2026-04-07 17:04:21:243] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-5048] 当前Thread:7628
+[2026-04-07 17:04:21:243] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-5048] 当前Thread:7628
+[2026-04-07 17:04:21:243] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-5048] 当前Thread:7628
+[2026-04-07 17:04:21:243] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-5048] 当前Thread:7628
+
+[2026-04-07 17:07:09:199] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-19820] 当前Thread:5968
+[2026-04-07 17:07:09:199] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-19820] 当前Thread:5968
+[2026-04-07 17:07:09:199] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-19820] 当前Thread:5968
+[2026-04-07 17:07:09:199] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-19820] 当前Thread:5968
+
+[2026-04-07 18:22:55:284] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-18452] 当前Thread:16324
+[2026-04-07 18:22:55:284] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-18452] 当前Thread:16324
+[2026-04-07 18:22:55:284] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-18452] 当前Thread:16324
+[2026-04-07 18:22:55:284] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-18452] 当前Thread:16324
+
+[2026-04-07 18:29:17:245] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-3192] 当前Thread:1696
+[2026-04-07 18:29:17:245] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-3192] 当前Thread:1696
+[2026-04-07 18:29:17:245] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-3192] 当前Thread:1696
+[2026-04-07 18:29:17:245] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-3192] 当前Thread:1696
+
+[2026-04-07 18:54:40:956] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-15464] 当前Thread:15652
+[2026-04-07 18:54:40:956] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-15464] 当前Thread:15652
+[2026-04-07 18:54:40:956] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-15464] 当前Thread:15652
+[2026-04-07 18:54:40:956] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-15464] 当前Thread:15652
+[2026-04-07 18:54:41:374] Socket Err:10061
+
+[2026-04-07 21:35:57:961] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-7488] 当前Thread:11804
+[2026-04-07 21:35:57:961] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-7488] 当前Thread:11804
+[2026-04-07 21:35:57:961] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-7488] 当前Thread:11804
+[2026-04-07 21:35:57:962] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-7488] 当前Thread:11804
+
+[2026-04-07 22:22:38:898] ProgramException Except：List index out of bounds (1) - (00000000000476F7){M2Server.exe} [00000000004486F7] System.SysUtils.Exception.RaisingException (Line 23523, "System.SysUtils.pas" + 3) + $9
+(000000000004846B){M2Server.exe} [000000000044946B] System.SysUtils.RaiseExceptObject (Line 23911, "System.SysUtils.pas" + 3) + $0
+(00000000000107B6){M2Server.exe} [00000000004117B6] System.@RaiseAtExcept (Line 22048, "System.pas" + 31) + $0
+(00000000000F2B01){M2Server.exe} [00000000004F3B01] System.Classes.TStrings.Error (Line 6805, "System.Classes.pas" + 1) + $44
+(00000000000F5C37){M2Server.exe} [00000000004F6C37] System.Classes.TStringList.InsertObject (Line 7773, "System.Classes.pas" + 3) + $0
+(00000000000F3CA6){M2Server.exe} [00000000004F4CA6] System.Classes.TStrings.Move (Line 7092, "System.Classes.pas" + 11) + $0
+(0000000001277EB3){M2Server.exe} [0000000001678EB3] ViewList3.TfrmViewList3.ViewShopList (Line 4315, "ViewList3.pas" + 13) + $2
+(00000000001AEB93){M2Server.exe} [00000000005AFB93] Vcl.Controls.TControl.Click (Line 7661, "Vcl.Controls.pas" + 10) + $0
+(00000000001E731B){M2Server.exe} [00000000005E831B] Vcl.StdCtrls.TCustomButton.Click (Line 5876, "Vcl.StdCtrls.pas" + 4) + $0
+(00000000001E8BA4){M2Server.exe} [00000000005E9BA4] Vcl.StdCtrls.TCustomButton.CNCommand (Line 6511, "Vcl.StdCtrls.pas" + 2) + $0
+(000000000000EAD5){M2Server.exe} [000000000040FAD5] System.TObject.Dispatch (Line 18852, "System.pas" + 10) + $A
+(00000000001AE490){M2Server.exe} [00000000005AF490] Vcl.Controls.TControl.WndProc (Line 7545, "Vcl.Controls.pas" + 92) + $0
+(00000000001B56C0){M2Server.exe} [00000000005B66C0] Vcl.Controls.TWinControl.WndProc (Line 10581, "Vcl.Controls.pas" + 172) + $0
+(00000000001E6D35){M2Server.exe} [00000000005E7D35] Vcl.StdCtrls.TButtonControl.WndProc (Line 5709, "Vcl.StdCtrls.pas" + 14) + $0
+(00000000001ADF82){M2Server.exe} [00000000005AEF82] Vcl.Controls.TControl.Perform (Line 7323, "Vcl.Controls.pas" + 11) + $0
+(00000000001B589E){M2Server.exe} [00000000005B689E] Vcl.Controls.DoControlMsg (Line 10648, "Vcl.Controls.pas" + 12) + $18
+(00000000001B69D8){M2Server.exe} [00000000005B79D8] Vcl.Controls.TWinControl.WMCommand (Line 10925, "Vcl.Controls.pas" + 1) + $C
+(000000000000EAD5){M2Server.exe} [000000000040FAD5] System.TObject.Dispatch (Line 18852, "System.pas" + 10) + $A
+(00000000001AE490){M2Server.exe} [00000000005AF490] Vcl.Controls.TControl.WndProc (Line 7545, "Vcl.Controls.pas" + 92) + $0
+(00000000001B56C0){M2Server.exe} [00000000005B66C0] Vcl.Controls.TWinControl.WndProc (Line 10581, "Vcl.Controls.pas" + 172) + $0
+(00000000001B485C){M2Server.exe} [00000000005B585C] Vcl.Controls.TWinControl.MainWndProc (Line 10269, "Vcl.Controls.pas" + 5) + $0
+(0000000000111096){M2Server.exe} [0000000000512096] System.Classes.StdWndProc (Line 18336, "System.Classes.pas" + 9) + $0
+(00000000000179A1){USER32.dll  } [00007FF8279089A1] Unknown function at DispatchMessageW + $741
+(0000000000016ECD){USER32.dll  } [00007FF827907ECD] Unknown function at SendMessageW + $37D
+(0000000000016C87){USER32.dll  } [00007FF827907C87] SendMessageW + $137
+(00000000000BDD35){COMCTL32.dll} [00007FF807C7ED35] Unknown function at TaskDialogIndirect + $29695
+(0000000000035533){COMCTL32.dll} [00007FF807BF6533] Unknown function at InitCommonControls + $DD23
+(00000000000179A1){USER32.dll  } [00007FF8279089A1] Unknown function at DispatchMessageW + $741
+(00000000000171EB){USER32.dll  } [00007FF8279081EB] CallWindowProcW + $8B
+(00000000001B5831){M2Server.exe} [00000000005B6831] Vcl.Controls.TWinControl.DefaultHandler (Line 10620, "Vcl.Controls.pas" + 30) + $23
+(00000000001AF23F){M2Server.exe} [00000000005B023F] Vcl.Controls.TControl.WMLButtonUp (Line 7794, "Vcl.Controls.pas" + 2) + $0
+(000000000000EAD5){M2Server.exe} [000000000040FAD5] System.TObject.Dispatch (Line 18852, "System.pas" + 10) + $A
+(00000000001AE490){M2Server.exe} [00000000005AF490] Vcl.Controls.TControl.WndProc (Line 7545, "Vcl.Controls.pas" + 92) + $0
+(00000000001B56C0){M2Server.exe} [00000000005B66C0] Vcl.Controls.TWinControl.WndProc (Line 10581, "Vcl.Controls.pas" + 172) + $0
+(00000000001E6D35){M2Server.exe} [00000000005E7D35] Vcl.StdCtrls.TButtonControl.WndProc (Line 5709, "Vcl.StdCtrls.pas" + 14) + $0
+(00000000001B485C){M2Server.exe} [00000000005B585C] Vcl.Controls.TWinControl.MainWndProc (Line 10269, "Vcl.Controls.pas" + 5) + $0
+(0000000000111096){M2Server.exe} [0000000000512096] System.Classes.StdWndProc (Line 18336, "System.Classes.pas" + 9) + $0
+(00000000000179A1){USER32.dll  } [00007FF8279089A1] Unknown function at DispatchMessageW + $741
+(0000000000017461){USER32.dll  } [00007FF827908461] Unknown function at DispatchMessageW + $201
+(00000000002E7233){M2Server.exe} [00000000006E8233] Vcl.Forms.TApplication.ProcessMessage (Line 11317, "Vcl.Forms.pas" + 23) + $8
+(00000000002E72A8){M2Server.exe} [00000000006E82A8] Vcl.Forms.TApplication.HandleMessage (Line 11347, "Vcl.Forms.pas" + 1) + $C
+(00000000002E0654){M2Server.exe} [00000000006E1654] Vcl.Forms.TCustomForm.ShowModal (Line 7973, "Vcl.Forms.pas" + 51) + $0
+(00000000012CC688){M2Server.exe} [00000000016CD688] svMain.TFrmMain.mniClearAVarClick (Line 1943, "svMain.pas" + 3) + $22
+(00000000002BED56){M2Server.exe} [00000000006BFD56] Vcl.Menus.TMenuItem.Click (Line 2615, "Vcl.Menus.pas" + 21) + $0
+(00000000002C1164){M2Server.exe} [00000000006C2164] Vcl.Menus.TMenu.DispatchCommand (Line 3571, "Vcl.Menus.pas" + 6) + $0
+(00000000002DE0C9){M2Server.exe} [00000000006DF0C9] Vcl.Forms.TCustomForm.WMCommand (Line 6914, "Vcl.Forms.pas" + 5) + $22
+(000000000000EAD5){M2Server.exe} [000000000040FAD5] System.TObject.Dispatch (Line 18852, "System.pas" + 10) + $A
+(00000000001AE490){M2Server.exe} [00000000005AF490] Vcl.Controls.TControl.WndProc (Line 7545, "Vcl.Controls.pas" + 92) + $0
+(00000000001B56C0){M2Server.exe} [00000000005B66C0] Vcl.Controls.TWinControl.WndProc (Line 10581, "Vcl.Controls.pas" + 172) + $0
+(00000000002D8FB1){M2Server.exe} [00000000006D9FB1] Vcl.Forms.TCustomForm.WndProc (Line 4986, "Vcl.Forms.pas" + 222) + $13
+(00000000001B485C){M2Server.exe} [00000000005B585C] Vcl.Controls.TWinControl.MainWndProc (Line 10269, "Vcl.Controls.pas" + 5) + $0
+(0000000000111096){M2Server.exe} [0000000000512096] System.Classes.StdWndProc (Line 18336, "System.Classes.pas" + 9) + $0
+(00000000000179A1){USER32.dll  } [00007FF8279089A1] Unknown function at DispatchMessageW + $741
+(0000000000017461){USER32.dll  } [00007FF827908461] Unknown function at DispatchMessageW + $201
+(00000000002E7233){M2Server.exe} [00000000006E8233] Vcl.Forms.TApplication.ProcessMessage (Line 11317, "Vcl.Forms.pas" + 23) + $8
+(00000000002E72A8){M2Server.exe} [00000000006E82A8] Vcl.Forms.TApplication.HandleMessage (Line 11347, "Vcl.Forms.pas" + 1) + $C
+(00000000002E76FF){M2Server.exe} [00000000006E86FF] Vcl.Forms.TApplication.Run (Line 11486, "Vcl.Forms.pas" + 27) + $9
+(00000000012D3D42){M2Server.exe} [00000000016D4D42] M2Server.M2Server (Line 60, "System.Generics.Defaults.pas" + -41) + $A5
+(000000000001157D){KERNEL32.DLL} [00007FF828EB257D] BaseThreadInitThunk + $1D
+(0000000000059F28){ntdll.dll   } [00007FF82998AF28] RtlUserThreadStart + $28
+	0141e97e +19e M2Server.exe M2Share         7715  +12 OutErrorLog
+016c4760 +130 M2Server.exe svMain           419  +32 TFrmMain.StartEngine
+006e88bd +07d M2Server.exe Vcl.Forms      11537  +16 TApplication.HandleException
+005b587e +04e M2Server.exe Vcl.Controls   10273   +9 TWinControl.MainWndProc
+00512093 +023 M2Server.exe System.Classes 18335   +8 StdWndProc
+005b682c +10c M2Server.exe Vcl.Controls   10620  +30 TWinControl.DefaultHandler
+005b023c +01c M2Server.exe Vcl.Controls    7793   +1 TControl.WMLButtonUp
+0040fad2 +042 M2Server.exe System         18852  +10 TObject.Dispatch
+005af48d +36d M2Server.exe Vcl.Controls    7544  +91 TControl.WndProc
+005b66bb +97b M2Server.exe Vcl.Controls   10579 +170 TWinControl.WndProc
+005e7d30 +090 M2Server.exe Vcl.StdCtrls    5708  +13 TButtonControl.WndProc
+005b585a +02a M2Server.exe Vcl.Controls   10267   +3 TWinControl.MainWndProc
+00512093 +023 M2Server.exe System.Classes 18335   +8 StdWndProc
+006e822e +12e M2Server.exe Vcl.Forms      11317  +23 TApplication.ProcessMessage
+006e82a3 +013 M2Server.exe Vcl.Forms      11347   +1 TApplication.HandleMessage
+006e164f +2af M2Server.exe Vcl.Forms       7972  +50 TCustomForm.ShowModal
+016cd682 +052 M2Server.exe svMain          1943   +3 TFrmMain.mniClearAVarClick
+006bfd54 +0e4 M2Server.exe Vcl.Menus       2613  +19 TMenuItem.Click
+006c215e +01e M2Server.exe Vcl.Menus       3570   +5 TMenu.DispatchCommand
+006df0c4 +044 M2Server.exe Vcl.Forms       6914   +5 TCustomForm.WMCommand
+0040fad2 +042 M2Server.exe System         18852  +10 TObject.Dispatch
+005af48d +36d M2Server.exe Vcl.Controls    7544  +91 TControl.WndProc
+005b66bb +97b M2Server.exe Vcl.Controls   10579 +170 TWinControl.WndProc
+006d9fac +9dc M2Server.exe Vcl.Forms       4986 +222 TCustomForm.WndProc
+005b585a +02a M2Server.exe Vcl.Controls   10267   +3 TWinControl.MainWndProc
+00512093 +023 M2Server.exe System.Classes 18335   +8 StdWndProc
+006e822e +12e M2Server.exe Vcl.Forms      11317  +23 TApplication.ProcessMessage
+006e82a3 +013 M2Server.exe Vcl.Forms      11347   +1 TApplication.HandleMessage
+006e86fa +0ea M2Server.exe Vcl.Forms      11486  +27 TApplication.Run
+
+[2026-04-07 22:58:46:383] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-10336] 当前Thread:15040
+[2026-04-07 22:58:46:383] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-10336] 当前Thread:15040
+[2026-04-07 22:58:46:383] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-10336] 当前Thread:15040
+[2026-04-07 22:58:46:383] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-10336] 当前Thread:15040
+
+[2026-04-07 23:00:42:210] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-24224] 当前Thread:7540
+[2026-04-07 23:00:42:210] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-24224] 当前Thread:7540
+[2026-04-07 23:00:42:210] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-24224] 当前Thread:7540
+[2026-04-07 23:00:42:210] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-24224] 当前Thread:7540
+
+[2026-04-07 23:25:22:185] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-15776] 当前Thread:21512
+[2026-04-07 23:25:22:185] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-15776] 当前Thread:21512
+[2026-04-07 23:25:22:185] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-15776] 当前Thread:21512
+[2026-04-07 23:25:22:185] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-15776] 当前Thread:21512
+
+[2026-04-07 23:35:54:249] >>>>>RegenMonsterByName ThreadError :[城门]-0[3-7304] 当前Thread:24696
+[2026-04-07 23:35:54:249] >>>>>RegenMonsterByName ThreadError :[左城墙]-0[3-7304] 当前Thread:24696
+[2026-04-07 23:35:54:249] >>>>>RegenMonsterByName ThreadError :[中城墙]-0[3-7304] 当前Thread:24696
+[2026-04-07 23:35:54:249] >>>>>RegenMonsterByName ThreadError :[右城墙]-0[3-7304] 当前Thread:24696
+
+[2026-04-07 23:50:40:758] ProgramException Except：Access violation at address 0000000000000000 in module 'M2Server.exe'. Execution of address 0000000000000000 - (00000000000476F7){M2Server.exe} [00000000004486F7] System.SysUtils.Exception.RaisingException (Line 23523, "System.SysUtils.pas" + 3) + $9
+(00000000000483FB){M2Server.exe} [00000000004493FB] System.SysUtils.GetExceptionObject (Line 23897, "System.SysUtils.pas" + 14) + $0
+(000000000000FF37){M2Server.exe} [0000000000410F37] System.@DelphiExceptionHandler (Line 20765, "System.pas" + 53) + $D
+(00000000000A404F){ntdll.dll   } [00007FF8299D504F] Unknown function at __chkstk + $12F
+(000000000001D866){ntdll.dll   } [00007FF82994E866] Unknown function at RtlFindCharInUnicodeString + $A96
+(00000000000A303E){ntdll.dll   } [00007FF8299D403E] KiUserExceptionDispatcher + $2E
+	0141e97e +19e M2Server.exe M2Share         7715 +12 OutErrorLog
+016c4760 +130 M2Server.exe svMain           419 +32 TFrmMain.StartEngine
+006e88bd +07d M2Server.exe Vcl.Forms      11537 +16 TApplication.HandleException
+005b587e +04e M2Server.exe Vcl.Controls   10273  +9 TWinControl.MainWndProc
+00512093 +023 M2Server.exe System.Classes 18335  +8 StdWndProc
+006e822e +12e M2Server.exe Vcl.Forms      11317 +23 TApplication.ProcessMessage
+006e82a3 +013 M2Server.exe Vcl.Forms      11347  +1 TApplication.HandleMessage
+006e86fa +0ea M2Server.exe Vcl.Forms      11486 +27 TApplication.Run
+

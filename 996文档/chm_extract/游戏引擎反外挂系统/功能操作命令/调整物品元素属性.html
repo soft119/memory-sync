@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>调整物品元素属性</title>
+</head>
+
+<body>
+<p><FONT face=宋体>调整物品元素属性</FONT></p>
+<p><FONT face=宋体>格式: SetNewItemValue 位置(-1时是OK框中的装备, 
+0~28或30~47时是穿在身上的装备) 属性(0-16) 操作符(+,-,=) 值(1-100)     &nbsp;   </p>
+<p><FONT face=宋体>属性(0-16)<br >
+(0)暴击几率增加 1~100%<br>
+(1)增加攻击伤害 1~65535%<br>
+(2)物理伤害减少 1~100%<br>
+(3)魔法伤害减少 1~100%<br>
+(4)忽视目标防御 1~100%<br>
+(5)所有伤害反弹 1~100%<br>
+(6)增加目标暴率 1~100%<br>
+(7)人物体力增加 1~65535%<br>
+(8)人物魔力增加 1~65535%<br>
+(9)怒气恢复增加 1~100%<br>
+(10)合击攻击增加 1~100%<br>
+(11)防止暴击几率1-100%<br>
+(12)防止麻痹几率1-100%<br>
+(13)防止复活几率1-100%<br>
+(14)防止全毒几率1-100%<br>
+(15)防止冰冻几率1-100%<br>
+(16)防止蛛网几率1-100%</FONT>
+</p>
+<p><FONT face=宋体>点击OK键后触发字段[@UpgradeDlgItem]</FONT></p>
+<p><FONT face=宋体>[@UpgradeDlgItem]<br >
+  #SAY<br >
+  OK框中物品的名称:&lt;$DLGITEM.NAME&gt;\<br >
+  OK框中物品的StdMode:&lt;$DLGITEM.STDMODE&gt;\<br >
+  OK框中物品的持久:&lt;$DLGITEM.DURA&gt;\<br >
+  OK框中物品的最大持久:&lt;$DLGITEM.DURAMAX&gt;\<br >&lt;升级/@升级&gt;\</FONT>
+  </p>
+<p><FONT face=宋体>[@升级]<br >
+  #ACT<br >
+  SetNewItemValue -1 0 + 10<br >
+  RECLAIMITEM</FONT>
+  </p>
+<p><FONT face=宋体></FONT>&nbsp;</p>
+<p><FONT face=宋体></FONT>&nbsp;</p>
+<p><FONT face=宋体></FONT>&nbsp;</p>
+<p><FONT face=宋体>装备位置代码:</FONT></p>
+<p><FONT face=宋体>0 盔甲 <br>
+  1 武器 <br>
+  2 照明物 <br>
+  3 项链 <br>
+  4 头盔 <br>
+  5 右手镯 <br>
+  6 左手镯 <br>
+  7 右戒指 <br>
+  8 左戒指 <br>
+  9 护身符 <br>
+  10 腰带 <br>
+  11 鞋子 <br>
+  12 宝石<br>
+  13 斗笠<br>
+  14 军鼓<br>
+  15 马牌<br>
+  16 盾牌<br>
+  17 时装衣服 时装12个<br>
+  18 时装武器<br>
+  19 时装项链<br>
+  20 时装头盔<br>
+  21 时装左手镯<br>
+  22 时装右手镯<br>
+  23 时装左戒指<br>
+  24 时装右戒指<br>
+  25 时装勋章<br>
+  26 时装腰带<br>
+  27 时装鞋子<br>
+  28 时装宝石</FONT>
+   </p>
+<p><FONT face=宋体>30~41 十二个首饰盒装备</FONT> </p>
+<p><FONT face=宋体>42-47 六个首饰盒装备位置</FONT> </p>
+<p><FONT face=宋体></FONT>&nbsp;</p></FONT>
+</body>
+</html>

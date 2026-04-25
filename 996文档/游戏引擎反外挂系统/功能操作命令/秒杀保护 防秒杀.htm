@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>秒杀保护 防秒杀</title>
+<style type="text/css">
+<!--
+.style1 {color: #0000FF;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body>
+<p class="style1"><FONT color=#a0a0a4>ProtectHP 
+检测可以保护血量或血量的百分比最低值 秒杀时设置的血量或血量百分比 时间（秒） 是否是百分比(1是 0不是)</FONT>     </p>
+<p class="style1"><FONT color=#a0a0a4></FONT>&nbsp;</p>
+<p class="style1"><FONT color=#a0a0a4>[@防秒杀百分比]<br >
+  #act<br >
+  ProtectHP 90 10 360 1<br >
+  SENDMSG 6 
+该脚本的意思是，你的血量在大于等于90%的情况下，如果有人可以一刀秒杀你，你不会被秒杀，而是把你的血量降低到10%，并且触发QF字段[@ProtectHP]，有效期360秒</FONT>
+    </p>
+<p class="style1"><FONT color=#a0a0a4>[@防秒杀]<br >
+  #act<br >
+  ProtectHP 100 10 360 0<br >
+  SENDMSG 6 
+该脚本的意思是，你的血量在大于等于100的情况下，如果有人可以一刀秒杀你，你不会被秒杀，而是把你的血量降低到10，并且触发QF字段[@ProtectHP]，有效期360秒</FONT>
+    </p>
+<p class="style1"><FONT color=#a0a0a4>QF触发</FONT></p>
+<p class="style1"><FONT color=#a0a0a4>[@ProtectHP]<br >
+  #ACT<br >
+  防秒杀保护成功</FONT>
+  </p>
+<p><FONT color=#ff0000>请去M2选项-参数设置-PK控制&nbsp;&nbsp; 
+里面设置</FONT></p>
+</body>
+</html>

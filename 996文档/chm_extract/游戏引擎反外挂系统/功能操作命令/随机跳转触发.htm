@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>随机跳转触发</title>
+</head>
+
+<body>
+<p><FONT face=宋体>RandomGoto 随机数(母) 随机数(子):触发字段(多个以“|”隔开)<br>
+  和RANDOMEX命令几率算法是一样的，只不过这个支持触发，随机数(子)，数值越大几率越高，如果和随机数(母)数值一样大，就是百分百几率<br>
+按照写的脚本顺序触发的，每次只触发一个字段，如果几率没有百分百的也有可能一个都不会触发，当然如果有百分百几率的，那肯定会触发那个百分百几率的</FONT>
+</p>
+<p><FONT face=宋体>[@main]<br>
+  #act<br>
+  RandomGoto 100 10:@触发1|50:@触发2|100:@触发3<br>
+  SENDMSG 6 
+按照脚本写的顺序触发的，如果你把“100:@触发3”写在前面，那后面两个几率永远都不会触发了，因为“100:@触发3”是百分百几率触发的</FONT>
+    </p>
+<p><FONT face=宋体>[@触发1]<br>
+  #act<br>
+  SENDMSG 6 你触发了百分之十的几率</FONT>
+    </p>
+<p><FONT face=宋体>[@触发2]<br>
+  #act<br>
+  SENDMSG 6 你触发了百分之五十的几率</FONT>
+    </p>
+<p><FONT face=宋体>[@触发3]<br>
+  #act<br>
+  SENDMSG 6 你触发了百分之百的几率</FONT>
+    </p>
+</body>
+</html>

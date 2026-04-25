@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>读写ini配置项</title>
+</head>
+
+<body>
+<p><FONT face=宋体>说明：读写ini配置项<BR>
+  <BR>
+  ---------------------------------------------------------------------------------------------<BR>
+  <BR>
+  <BR>
+  说明：<BR>
+  <BR><FONT color=#ff0000>WriteConfigFileItem</FONT>
+  写配置项<BR>
+  功能说明：可以把一些数据进行配置保存 你也可以把它当成一种变量保存方式<BR>
+<BR>
+<FONT color=#ff0000 >ReadConfigFileItem</FONT>读配置项<BR>
+功能说明：获取出配置文件中的配置项内容 <BR>
+<BR>
+此两个命令配合使用 就相当于变量保存操作 <BR>
+<BR>
+<BR>
+示例：<BR>
+[@main]<BR>
+&lt;写配置项&gt; &lt;请输入你要写入配置项的内容/@@InPutString3&gt;\<BR>
+&lt;读配置项内容/@读配置项&gt; &lt;$STR(S$配置项内容)&gt;\<BR>
+<BR>
+[@InPutString3]<BR>
+#IF<BR>
+#ACT<BR>
+;写配置项<BR><FONT color=#ff0000>WriteConfigFileItem</FONT>
+ ..\QuestDiary\KEY.ini &lt;$USERNAME&gt; 内容 S3<BR>
+SENDMSG 6 你已经把你输入的内容写到配置文件中KEY.ini<BR>
+<BR>
+[@读配置项]<BR>
+#IF<BR>
+#ACT<BR>
+;读配置项<BR><FONT color=#ff0000>;注意：996的写法第四个参数(写入的变量)不要带&lt;$STR()&gt;</FONT>
+<BR>
+<FONT color=#ff0000 >ReadConfigFileItem</FONT> ..\QuestDiary\KEY.ini &lt;$USERNAME&gt; 内容 S$配置项内容<BR>
+SENDMSG 6 你已经把配置文件KEY.ini中的内容获取出<BR>
+GOTO @main<BR>
+<BR>
+删除配置文件中的一行：<BR>
+DelConfigFileItem 文件名 设置 用户 （删除 用户 = aaaa 这一行）<BR>
+<BR>
+删除配置文件中的一个区：<BR>
+DelConfigFileSection 文件名 设置 （删除 [设置] 及设置以下的项）<BR>
+<BR>
+<BR>
+<BR>
+<B><FONT color=#ff0000>WriteConfigFileItem</FONT> <FONT color=#ff0000 >ReadConfigFileItem</FONT> 支持绝对路径，注意使用绝对路径参数必须完整！</B><BR>
+<BR></FONT>
+</p>
+</body>
+</html>

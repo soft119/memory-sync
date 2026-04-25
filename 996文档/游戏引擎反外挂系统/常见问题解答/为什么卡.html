@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>为什么卡</title>
+</HEAD>
+<BODY>
+<P><strong>这种问题都是脚本导致，脚本太复杂，或者脚本有读写文件的，文件太大，或者读写太频繁</strong></P>
+<P><strong>有的版本写的有问题，大部分是爆物品触发或捡取触发里，加入了脚本记录装备的功能导致的，每爆或捡取一个装备，脚本就记录下来，记录的文本很快就变的很大，频繁读写硬盘就会卡</strong></P>
+<P>[@InPutString22]<br>
+  #IF<br>
+  CHECKTEXTLIST ..\QuestDiary\元宝充值\50000.txt &lt;$STR(S22)&gt;<br>
+  ;比如这个命令，使用了这个命令，引擎就会从硬盘读取“..\QuestDiary\元宝充值\50000.txt”这个文件，如果文件变得越来越大，读取就会变慢，就会卡<br>
+  #ACT<br>
+  DELTEXTLIST ..\QuestDiary\元宝充值\50000.txt &lt;$STR(S22)&gt;<br>
+  ;比如这个命令，使用了这个命令，引擎会读取“..\QuestDiary\元宝充值\50000.txt”这个文件，然后还会写入硬盘，比上面那个命令(CHECKTEXTLIST)操作更慢，因为这个命令先读取，在写入，多一个步骤写入，如果文件变得越来越大，就会卡</P>
+<p>;不仅仅是这两个命令，所有读写文件的脚本命令，都会这样，比如CheckContainsTextList、AddTextList、GetRandomText等等<br>
+  ;有的文件看起来不大，但是有时候还会卡，那可能读写太频繁了，不是NPC点击一下才读写的，比如版本里有自动捡取功能<br>
+  ;然后有捡取触发脚本，一瞬间几毫秒内捡取几十个物品，就触发几十次脚本，脚本里有读写文件的脚本命令，就会读写几十次文件，每读写一次文件，都是需要时间的，就会卡在读写文件那里，等待脚本全部触发完成，就会卡<br>
+  ;这样的情况，就算文件不大，也可能会造成卡</p>
+<p>;还有就是定时器脚本，如果太复杂，或者有文件读写都有可能</p>
+<p><strong>;有些版本为了实现某些功能，会使用goto循环去触发脚本，如果条件达不到，<br>
+  ;会一直goto循环，这样的脚本，引擎会卡死在这个脚本，甚至卡死引擎</strong><br>
+  --------------------------------------------------------------------------------------------------------------<br>
+  <strong>;解决办法就是脚本简单点，读写文件的脚本频率小一点<br>
+  ;可以使用LoadFileToMemory和LoadFileToMemoryEx这两个脚本命令，可以搜索说明书<br>
+  ;这两个命令也不是让你无限制的可以读写文件，还是要尽量减少读写频率，和减小文件大小</strong><br>
+</p>
+</BODY>
+</HTML>
+ 

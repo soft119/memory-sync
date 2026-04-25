@@ -1,0 +1,209 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>押镖系统</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; FONT-WEIGHT: bold; COLOR: rgb(0,128,0); mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><FONT face=宋体>功能</FONT>:镖车自动寻路到指定坐标</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><FONT face=宋体>格式</FONT>:Dartmap 333 333 0 X坐标 坐标Y 人物离镖车几格内镖车自动寻路 为空或0 
+不检测镖车和人物范围自动到设置坐标 范围:1~12格</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; FONT-WEIGHT: bold; COLOR: rgb(0,128,0); mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><FONT face=宋体>功能</FONT>:镖车人物下线和设置镖车存活时间</SPAN></B><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><FONT face=宋体>格式</FONT>:镖车存活时间 DartTime 60 1 镖车存活多少秒 下线是否消失 
+为空或0消失，1为下线不消失到时间消失</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">QFunction-0.txt 
+触发</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,255); mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">//;镖车到达指定寻路触发</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">(只支持镖车自动寻路到坐标点触发)</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">[@CarPathEnd]</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">#IF</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">#ACT</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">SENDMSG 
+7 你的镖车达到了指定位置</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,255); mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">//;镖车切换当前地图触发</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">(只支持坐标点切换地图,不支持传送切换地图)</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">[@LeaveDart]</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">#IF</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">#ACT</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">SENDMSG 
+7 你的镖车切换了地图</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,255); mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">//;人物离开又进入镖车范围触发</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(255,0,0); mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">(只支持镖车跟着人物走的模式触发)</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">[@CarFindMaster]</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">#IF</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">#ACT</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">SENDMSG 
+7 你的进入了镖车自动寻路范围</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">[@SlaveDamage]</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">#IF</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">CHECKSLAVENAME 
+普通镖车</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">#ACT</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">SENDMSG 
+7 你的普通镖车被攻击了</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">[@HitSlave]</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">#IF</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">CHECKSLAVENAME 
+普通镖车</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">#act</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">SENDMSG 
+7 攻击了别人的普通镖车</SPAN></P>
+<P><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"></SPAN>&nbsp;</P>
+<P><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">[@MAIN]<BR>#IF<BR>#SAY<BR>&lt;五年诚信经营，打造品牌游戏，每天多个新区开放，打造激情天堂/SCOLOR=146&gt;\ 
+\<BR>╔━━━━━┳━━━━━━━━━━━━━━━━━┳━━━━╗\<BR>┃ &lt;激情镖车/SCOLOR=250&gt; ┃ 
+&lt;镖车越好获得的物品越好(随机分配)/SCOLOR=146&gt; 
+┃&lt;接受任务<A>/@JSRW&gt;┃\</A><BR>╠━━━━━╋━━━━━━━━━━━━━━━━━╋━━━━┫\<BR>┃ 
+&lt;激情镖车/SCOLOR=250&gt; ┃ &lt;镖车越好获得的物品越好(随机分配)/SCOLOR=146&gt; 
+┃&lt;接受任务<A>/@JSRW&gt;┃\</A><BR>╚━━━━━┻━━━━━━━━━━━━━━━━━┻━━━━╝\<BR>　 
+　&lt;请把镖车拉运到：押镖之路(二)的镖务总管处换取酬劳/AUTOCOLOR=253&gt;\<BR>　 　　 
+您今天押镖次数为：&lt;$HUMAN(押镖次数)&gt;次(每角色每天可押镖3次)<BR>#ACT<BR>break<BR>#ELSEACT<BR>MESSAGEBOX 
+活动时间为：19点-21点!<BR></SPAN></P>
+<P><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,255); mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">//;镖车自动寻路到坐标点</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,255); mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">//;龙门镖局-3.txt</SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><BR><FONT color=#0000ff><BR></FONT><FONT color=#000000>[@JSRW]<BR>#IF<BR>CHECKGAMEGOLD 
+&lt; 1000<BR>#ACT<BR>MESSAGEBOX 
+接受押镖任务需要1000颗元宝做为押金，完成任务将反还给你！<BR>break</FONT></SPAN></SPAN></P>
+<P><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><FONT color=#000000>#IF<BR>check [145] 
+1<BR>#SAY<BR>您还没有完成上一次押镖任务.如果你要重新开始,请先放弃上一\<BR>次未完成的护送任务。\ \<BR>注意：放弃任务为任务失败！\ 
+\<BR>&lt;放弃任务/@放弃任务&gt;&nbsp;&nbsp;&nbsp; \ \<BR>&lt;返回</FONT><A><FONT color=#000000>/@main&gt;\</FONT></A><BR><FONT color=#000000>#ACT<BR>break</FONT></SPAN></SPAN></P>
+<P><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><FONT color=#000000>#IF<BR>CHECKVAR HUMAN 押镖次数 &lt; 3<BR>RANDOM 15<BR>#ACT<BR>GAMEGOLD 
+- 1000<BR>RECALLMOB 豪华镖车 7 30&nbsp; 0<BR><FONT color=#ff0000>DartTime 300 
+1<BR>Dartmap 21 23 0</FONT><BR>set [145] 1<BR>MESSAGEBOX 
+恭喜你接到了【豪华镖车】\一直往前走,直到看见镖务总管为止!<BR>GuildNoticeMsg 251 249 
+玩家【%s】接受了(豪华镖车)，前往杀害他的镖车可获得1000个元宝哦，机会不可错过！<BR>break</FONT></SPAN></SPAN></P>
+<P><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><FONT color=#000000>#IF<BR>CHECKVAR HUMAN 押镖次数 &lt; 3<BR>RANDOM 5<BR>#ACT<BR>GAMEGOLD 
+- 1000<BR>RECALLMOB 高级镖车 7 30&nbsp; 0<BR><FONT color=#ff0000>DartTime 300 
+1<BR>Dartmap 21 23 0</FONT><BR>set [145] 1<BR>MESSAGEBOX 
+恭喜你接到了【高级镖车】\一直往前走,直到看见镖务总管为止!<BR>GuildNoticeMsg 251 249 
+玩家【%s】接受了(高级镖车)，前往杀害他的镖车可获得1000个元宝哦，机会不可错过！<BR>break</FONT></SPAN></SPAN></P>
+<P><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><FONT color=#000000>#IF<BR>CHECKVAR HUMAN 押镖次数 &lt; 3<BR>#ACT<BR>GAMEGOLD - 
+1000<BR>RECALLMOB 普通镖车 7 30&nbsp; 0<BR><FONT color=#ff0000>DartTime 300 
+1<BR>Dartmap 21 23 0<BR></FONT>set [145] 1<BR>MESSAGEBOX 
+恭喜你接到了【普通镖车】\一直往前走,直到看见镖务总管为止!<BR>GuildNoticeMsg 251 249 
+玩家【%s】接受了(普通镖车)，前往杀害他的镖车可获得1000个元宝哦，机会不可错过！<BR>break<BR>#elsesay<BR>接受任务失败：\ 
+\<BR>1.您今天已经完成了3次押镖任务！\ \<BR>2.您的元宝不足1000颗，无法接受任务！\ \<BR>3.押镖时间为每天的19点至21点！\ 
+\<BR>&lt;离开</FONT><A><FONT color=#000000>/@EXIT</FONT></A><FONT color=#000000>&gt;<BR>&nbsp;</P>
+<HR>
+<P><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,255); mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">//;镖车跟着人物走<BR><FONT color=#000000>[@JSRW]<BR>#IF<BR>CHECKGAMEGOLD 
+&lt; 1000<BR>#ACT<BR>MESSAGEBOX 
+接受押镖任务需要1000颗元宝做为押金，完成任务将反还给你！<BR>break</FONT></P>
+<P><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><FONT color=#000000>#IF<BR>check [145] 
+1<BR>#SAY<BR>您还没有完成上一次押镖任务.如果你要重新开始,请先放弃上一\<BR>次未完成的护送任务。\ \<BR>注意：放弃任务为任务失败！\ 
+\<BR>&lt;放弃任务/@放弃任务&gt;&nbsp;&nbsp;&nbsp; \ \<BR>&lt;返回</FONT><A><FONT color=#000000>/@main&gt;\</FONT></A><BR><FONT color=#000000>#ACT<BR>break</FONT></SPAN></SPAN></P>
+<P><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><FONT color=#000000>#IF<BR>CHECKVAR HUMAN 押镖次数 &lt; 3<BR>RANDOM 15<BR>#ACT<BR>GAMEGOLD 
+- 1000<BR>RECALLMOB 豪华镖车 7 30&nbsp; 0<BR><FONT color=#ff0000>DartTime 
+300 1</FONT>    <BR>set [145] 1<BR>MESSAGEBOX 
+恭喜你接到了【豪华镖车】\一直往前走,直到看见镖务总管为止!<BR>GuildNoticeMsg 251 249 
+玩家【%s】接受了(豪华镖车)，前往杀害他的镖车可获得1000个元宝哦，机会不可错过！<BR>break</FONT></SPAN></SPAN></P>
+<P><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><FONT color=#000000>#IF<BR>CHECKVAR HUMAN 押镖次数 &lt; 3<BR>RANDOM 5<BR>#ACT<BR>GAMEGOLD 
+- 1000<BR>RECALLMOB 高级镖车 7 30&nbsp; 0<BR><FONT color=#ff0000>DartTime 
+300 1</FONT>    <BR>set [145] 1<BR>MESSAGEBOX 
+恭喜你接到了【高级镖车】\一直往前走,直到看见镖务总管为止!<BR>GuildNoticeMsg 251 249 
+玩家【%s】接受了(高级镖车)，前往杀害他的镖车可获得1000个元宝哦，机会不可错过！<BR>break</FONT></SPAN></SPAN></P>
+<P><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><FONT color=#000000>#IF<BR>CHECKVAR HUMAN 押镖次数 &lt; 3<BR>#ACT<BR>GAMEGOLD - 
+1000<BR>RECALLMOB 普通镖车 7 30&nbsp; 0<BR><FONT color=#ff0000> DartTime 300 1<BR></FONT>set [145] 1<BR>MESSAGEBOX 
+恭喜你接到了【普通镖车】\一直往前走,直到看见镖务总管为止!<BR>GuildNoticeMsg 251 249 
+玩家【%s】接受了(普通镖车)，前往杀害他的镖车可获得1000个元宝哦，机会不可错过！<BR>break<BR>#elsesay<BR>接受任务失败：\ 
+\<BR>1.您今天已经完成了3次押镖任务！\ \<BR>2.您的元宝不足1000颗，无法接受任务！\ \<BR>3.押镖时间为每天的19点至21点！\ 
+\<BR>&lt;离开</FONT><A><FONT color=#000000>/@EXIT</FONT></A><FONT color=#000000>&gt;</FONT></SPAN></SPAN></P></SPAN></FONT></SPAN></SPAN>
+<P><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,255); mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">//;镖务总管-3<BR><FONT color=#000000>[@MAIN]<BR>#IF<BR>check [145] 1<BR>CHECKVAR HUMAN 押镖次数 &lt; 
+3<BR>CheckSlaveInRange 豪华镖车 5<BR>#ACT<BR>KILLCALLMOB 豪华镖车 1 1<BR>set [145] 
+0<BR>CALCVAR HUMAN 押镖次数 + 1<BR>SAVEVAR HUMAN 押镖次数 
+..\QuestDiary\重要数据\镖车变量.txt<BR>CHANGEEXP + 30000000<BR>GAMEGOLD + 
+1000<BR>GuildNoticeMsg 251 249 
+玩家(&lt;$USERNAME&gt;)参加激情押镖活动中,经验值(3000万)!<BR>messagebox 
+[提示]:你的1000元宝押金已经返还。请查看背包！ <BR>break</FONT></SPAN></SPAN></SPAN></P><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,255); mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt">
+<P><BR><FONT color=#000000>#IF<BR>check [145] 1<BR>CHECKVAR 
+HUMAN 押镖次数 &lt; 3<BR>CheckSlaveInRange 高级镖车 5<BR>#ACT<BR>KILLCALLMOB 高级镖车 1 
+1<BR>set [145] 0<BR>CALCVAR HUMAN 押镖次数 + 1<BR>SAVEVAR HUMAN 押镖次数 
+..\QuestDiary\重要数据\镖车变量.txt<BR>CHANGEEXP + 15000000<BR>GAMEGOLD + 
+1000<BR>GuildNoticeMsg 251 249 
+玩家(&lt;$USERNAME&gt;)参加激情押镖活动中,获得经验值(1500万)!<BR>messagebox 
+[提示]:你的1000元宝押金已经返还。请查看背包！ <BR>break</FONT></P>
+<P><BR><FONT color=#000000>#IF<BR>check [145] 1<BR>CHECKVAR 
+HUMAN 押镖次数 &lt; 3<BR>CheckSlaveInRange 普通镖车 5<BR>#ACT<BR>KILLCALLMOB 普通镖车 1 
+1<BR>set [145] 0<BR>CALCVAR HUMAN 押镖次数 + 1<BR>SAVEVAR HUMAN 押镖次数 
+..\QuestDiary\重要数据\镖车变量.txt<BR>CHANGEEXP + 10000000<BR>GAMEGOLD + 
+1000<BR>GuildNoticeMsg 251 249 
+玩家(&lt;$USERNAME&gt;)参加激情押镖活动中,获得经验值(1000万)!<BR>messagebox 
+[提示]:你的1000元宝押金已经返还。请查看背包！ 
+<BR>break<BR>#ELSESAY<BR>你的镖车跑哪里去了?</FONT></SPAN></SPAN></SPAN><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"><SPAN 
+style="FONT-SIZE: 12pt; FONT-FAMILY: 宋体; mso-spacerun: 'yes'; mso-font-kerning: 0.0000pt"></P></SPAN></SPAN></body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>调整人物属性</title>
+<style>
+<!--
+div{word-break:break-all;word-wrap:break-word}.t{border:1px solid #c7d6e1;margin:0px auto 8px;}.t2{border-top:#c7d6e1 1px solid;margin:0px auto 5px;}.t{padding:1px}.t {padding:0}th{word-break:break-all;word-wrap:break-word}.r_one{background:#f9f9f9;}.tr1 th{padding:5px 10px;text-align:left;vertical-align:top;font-weight:normal;}.tr1 th{border-right:1px solid #e6e6e6;}.tpc_content{font-size:14px;font-family:Arial;padding:0 2% 0 0.5%;margin:0 0 2%}.STYLE1 {
+	color: #0000FF;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body>
+
+<p><FONT face=宋体><strong><font color="#0000ff" size="2">功</font></strong><font color="#0000ff" size="2"><strong>能：</strong></font> 
+调整人物属性</FONT> </p>
+<p><FONT face=宋体><span class="STYLE1">格式:</span> ChangeHumAbility 属性(1-20) 操作符(+ = -) 效果(1-21亿) 时间秒(为0时，不限制时间)<br>
+  <span class="STYLE1">说明:</span> 属性1-12分别对应人物 防御下限 防御上限 魔御下限 魔御上限 攻击下限 攻击上限 魔法下限 魔法上限 道术下限 道术上限 MaxHP MaxMP HP恢复 MP恢复 毒恢复 毒躲避 魔法躲避 准确 敏捷 幸运<br>
+  <span class="STYLE1">注意:</span> 
+调整后的属性效果只在人物在线时有效.不带时间为在线一直有效</FONT> </p>
+<p><br>
+  <font color="#0000ff" size="2"><strong><br><FONT face=宋体>
+例子：<br></FONT>
+</strong></font><br><FONT face=宋体>[@Test]</FONT>
+<font color="#0000ff" size="2"><strong><br>
+</strong></font><FONT face=宋体>#IF<br>
+#ACT<br>
+ChangeHumAbility 2 + 10 60<br>
+#SAY<br>
+你的防御上限增加10点.60秒后恢复</FONT>
+</p>
+</body>
+
+</html>

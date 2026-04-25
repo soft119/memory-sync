@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>检测是否允许复活</title>
+</head>
+
+<body>
+<p>检测是否到了复活的时间间隔 检测是否可以复活</p>
+<p>格式:   CheckRevival 变量(保存剩余时间，可选，允许为空)</p>
+<p>例子:</p>
+<p><br>
+  #IF <BR>
+  CheckRevival N111 <BR>
+  #ACT<BR>
+  SENDMSG 6   时间到了允许复活<BR>
+  #ELSEACT<BR>
+  SENDMSG 6 不允许可以复活，可能时间没有到或者没有复活的装备，还需要等待&lt;$STR(N111)&gt;秒，如果变量值在21亿以上，表示该人物没有复活的装备</p>
+</body>
+</html>

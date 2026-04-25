@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>检测和改变英雄模式</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P class=style1><FONT color=#000000><FONT size=3><FONT face=宋体><STRONG><SPAN 
+class=style2><FONT color=#0000ff>检测和改变英雄模式</FONT><BR><BR></SPAN><BR></STRONG><FONT color=#000000>检测英雄模式：</FONT>CheckHeroSta 模式 0= 攻击 1=跟随 2= 休息<BR>改变英雄模式<FONT color=#0000ff>：</FONT>SetHeroSta 模式&nbsp;0=攻击 1=跟随 2= 休息<BR><FONT color=#000000>英雄传送到主体身边： HeroFollow</FONT></FONT></FONT></P>
+<P class=style1><FONT color=#000000 size=3 face=宋体>例子;<BR>[@检测英雄模式]</FONT><FONT color=#000000><BR><FONT face=宋体><FONT size=3 >#IF<BR>CheckHeroSta 0<BR>#ACT<BR>SENDMSG 
+5 你的英雄正在攻击。<BR><BR>#IF<BR>CheckHeroSta 1<BR>#ACT<BR>SENDMSG 5 
+你的英雄正在跟随。<BR><BR>#IF<BR>CheckHeroSta 2<BR>#ACT<BR>SENDMSG 5 
+你的英雄正在休息。<BR><BR><BR><BR>[@改变英雄模式]<BR>#IF<BR>#ACT<BR>SetHeroSta 0<BR>SENDMSG 5 
+你的英雄模式改变为攻击。</FONT> </FONT> </FONT></P>
+<P class=style1><FONT face=宋体><FONT size=3 >#IF<BR>#ACT<BR>SetHeroSta 1<BR>SENDMSG 5 
+你的英雄模式改变为跟随。<BR><BR>#IF<BR>#ACT<BR>SetHeroSta 2<BR>SENDMSG 5 你的英雄模式改变为休息。</FONT> </FONT> 
+</P></FONT></body>
+</html>

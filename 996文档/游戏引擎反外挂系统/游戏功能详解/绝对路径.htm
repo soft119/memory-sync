@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>绝对路径</title>
+<style type="text/css">
+<!--
+.STYLE2 {color: #FF0000}
+-->
+</style>
+</HEAD>
+<BODY>
+<P>(所有脚本命令，只要路径那个参数是绝对路径，就会自动检测到。例: CHECKNAMELIST E:\数据文件\100元卡号.txt<BR>
+  不要使用前面加点的方式(“..\..\..\..\QuestDiary\<FONT size=2>100元卡号.txt</FONT>”)去读写否则可能产生“I/O error”错误)
+<P><strong>如果是通区数据，就使用绝对路径，不要使用前面加点的方式(“..\..\..\..\QuestDiary\<FONT size=2>100元卡号.txt</FONT>”)去读写</strong>
+<P><FONT size=2>[@Main]<BR>
+  #If <BR>
+  #Act<BR>
+  GETRANDOMLINETEXT E:\通区数据\通区数据.txt S0<BR>
+  #Say<BR>
+取回的文本是： &lt;$STR(S</FONT><FONT size=2>0)&gt;</FONT>
+<P>[@Main]<br>
+  #If <br>
+  #Act <br>
+AddTextList <FONT size=2>E:\通区数据\通区数据.txt</FONT> 您的名字
+<p>[@Main]<br>
+  #If <br>
+  #Act <br>
+  AddTextList <FONT size=2>E:\通区数据\通区数据.txt</FONT> 您的名字</p>
+<p>[@main]<br>
+  #IF<br>
+  #ACT<br>
+  GetStringPos <FONT size=2>E:\通区数据\通区数据.txt</FONT> 管理员<br>
+  SendMsg 5 字符串在列表中的位置:&lt;$STR(N0)&gt;</p>
+</BODY>
+</HTML>
+

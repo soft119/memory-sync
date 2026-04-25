@@ -1,0 +1,23 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>穿脱装备触发</title>
+</head>
+
+<body>
+[@TakeOnEx]<br>
+#ACT<br>
+SENDMSG 6 人物穿戴装备，位置&lt;$CURRTAKETEMPOS&gt;，物品&lt;$CURRTEMNAME&gt;(&lt;$G_CURRTEMNAME&gt;)，ID&lt;$CURRTEMMAKEINDEX&gt;
+<p>[@TakeOffEx]<br>
+  #ACT<br>
+  SENDMSG 6 人物脱装备，位置&lt;$CURRTAKETEMPOS&gt;，物品&lt;$CURRTEMNAME&gt;(&lt;$G_CURRTEMNAME&gt;)，ID&lt;$CURRTEMMAKEINDEX&gt;</p>
+<p>[@HeroTakeOnEx]<br>
+  #ACT<br>
+  SENDMSG 6 英雄穿装备，位置&lt;$CURRTAKETEMPOS&gt;，物品&lt;$CURRTEMNAME&gt;(&lt;$G_CURRTEMNAME&gt;)，ID&lt;$CURRTEMMAKEINDEX&gt;</p>
+<p>[@HeroTakeOffEx]<br>
+  #ACT</p>
+<p>SENDMSG 6 英雄脱装备，位置&lt;$CURRTAKETEMPOS&gt;，物品&lt;$CURRTEMNAME&gt;(&lt;$G_CURRTEMNAME&gt;)，ID&lt;$CURRTEMMAKEINDEX&gt;</p>
+</body>
+</html>

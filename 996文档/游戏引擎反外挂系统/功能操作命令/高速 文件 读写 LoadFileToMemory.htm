@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>高速 文件 读写 LoadFileToMemory</title>
+<style type="text/css">
+<!--
+.style1 {
+	color: #0000FF;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body>
+<p><FONT face=宋体>高速 文件 读写 LoadFileToMemory</FONT>   </p>
+<p><FONT face=宋体>LoadFileToMemory 文件(文件不能是通区数据文件，不支持绝对路径) 类型(0=普通文件 1=INI格式文件)<br >
+  该命令作用是，把脚本用到的数据文件加载到内存里，脚本命令读取的时候就不用从硬盘读取该文件了<br >
+  --------------------------------------好处--------------------------------------<br >
+  已经在启动的的时候加载到内存，直接在内存读写，读写速度快，用在读写比较频繁的文件，比如捡取触发等等，<br >
+  引擎每隔一段时间，保存一次该文件，不会频繁读写硬盘。<br >
+  --------------------------------------缺点--------------------------------------<br >
+  不能手动修改该文件,只能通过脚本命令读写<br >
+  --------------------------------------------------------------------------------</FONT>
+  </p>
+<p><FONT face=宋体><FONT color=#ff0000>(暂不支持)</FONT> </FONT>
+  </p>
+<p><FONT face=宋体>[@Startup]<br >
+  #ACT<br >
+  LoadFileToMemory ..\QuestDiary\数据\名单.txt 0 <br >
+  LoadFileToMemory ..\QuestDiary\数据\战力排行数量.txt 0 </FONT>
+     </p>
+<p><FONT face=宋体>;变量数据文件，也就是INI文件<br>
+LoadFileToMemory ..\QuestDiary\数据\变量.txt 1</FONT>
+  </p>
+<p><FONT face=宋体>[@main]<br >
+  #IF<br >
+  CHECKTEXTLIST ..\QuestDiary\数据\名单.txt &lt;$USERNAME)&gt;<br >
+  #SAY<br >
+  你的名字已经保存<br >
+  #ELSEACT<br >
+  AddTextList ..\QuestDiary\数据\名单.txt &lt;$USERNAME)&gt;<br >
+  SENGMSG 6 写入后，已经在内存中，不会立即保存到文件里，引擎每隔一段时间自动保存，文件里可能看不见。<br>
+  SENGMSG 6 不管是否保存，使用CHECKTEXTLIST命令检测是存在的，使用了LoadFileToMemory后，所有命令都是直接检测内存的<br></FONT>
+</p>
+</body>
+</html>

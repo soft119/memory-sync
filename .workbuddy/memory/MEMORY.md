@@ -241,3 +241,202 @@ BREAK
 
 ### 参考文档
 `D:\996PC最新文档_extract\游戏引擎反外挂系统\常见问题解答\如何改变蜡烛类型装备掉持久类型[!].htm`
+
+---
+
+## 回收脚本优化（2026-04-09）
+
+### 问题
+- 没有任何物品可回收时，点击回收显示"回收完成！共获得0金币"
+
+### 解决方案
+- 修改 `[@ItemBagButtonClick2]` 触发
+- 使用 `LARGE N1 0` 检测是否有回收
+- 有物品时显示"回收完成！共获得X金币"
+- 无物品时不显示任何消息
+
+### 修改后代码
+```txt
+[@ItemBagButtonClick2]
+#ACT
+MOV N1 0
+Loopgoto @技能书回收 100
+Loopgoto @装备回收 200
+#IF
+LARGE N1 0
+#ACT
+SENDMSG 6 回收完成！共获得<$STR(N1)>金币
+```
+
+### 注意事项
+- 修改后必须转换为GBK编码
+- 用Python：`with open(path, 'w', encoding='gbk', newline='\r\n')`
+
+---
+
+## 参考版本：血魂微变（2026-04-09）
+
+**路径**: `F:\BaiduNetdiskDownload\血魂微变\Mirserver\Mir200\`
+
+### 定时活动系统架构
+
+#### 1. 定时器配置文件
+**文件**: `Envir\Robot_def\AutoRunRobot.txt`
+**语法**: `#AutoRun NPC RUNONDAY HH:MM @标签` 或 `#AutoRun NPC SEC/MIN N @标签`
+
+```txt
+# 每天0点-23点循环活动（每2小时一次）
+#AutoRun NPC RUNONDAY 00:00 @摇钱宝树
+#AutoRun NPC RUNONDAY 00:30 @材料使者
+#AutoRun NPC RUNONDAY 01:00 @土城酷跑
+#AutoRun NPC RUNONDAY 01:05 @酷跑关闭
+#AutoRun NPC RUNONDAY 01:30 @行会争霸
+#AutoRun NPC RUNONDAY 01:40 @争霸关闭
+; ... 重复到23:00
+
+# 固定时间活动
+#AutoRun NPC RUNONDAY 22:50 @夺宝奇兵
+#AutoRun NPC RUNONDAY 22:10 @魔王来袭
+#AutoRun NPC RUNONDAY 23:30 @世界BOSS
+
+# 百米冲刺（每3小时一次）
+#AutoRun NPC RUNONDAY 0:15 @百米开始
+#AutoRun NPC RUNONDAY 0:18 @百米结束
+```
+
+#### 2. 活动触发脚本
+**文件**: `Envir\Robot_def\RobotManage.txt`
+
+**核心标签**:
+| 标签 | 功能 | 关键命令 |
+|------|------|----------|
+| `@摇钱宝树` | 在paodian2地图刷新摇钱树 | `MonGen 摇钱树 1 1` |
+| `@材料使者` | 刷新送宝使者 | `MonGen 送宝使者 1 1` |
+| `@土城酷跑` | 设置I67=1开启酷跑 | `MOV I67 1` |
+| `@行会争霸` | 设置A80变量，投物品到xhzc | `ThrowItem xhzc X Y 数量 物品 概率` |
+| `@夺宝奇兵` | 设置A81变量，投传国玉玺 | `ThrowItem dbqb 20 23 3 传国玉玺 60` |
+| `@魔王来袭` | 设置A48变量 | `MOV A48 入口开放` |
+| `@世界BOSS` | 在mishi地图投人民币物品 | `ThrowItem misha 物品 概率` |
+| `@百米开始/结束` | 设置G263变量 | `MOV G263 1/0` |
+| `@激情派对` | 设置I25/I26变量 | `MOV I25 1; DEC I26 1` |
+
+#### 3. 活动控制变量
+| 变量 | 用途 | 说明 |
+|------|------|------|
+| `A80` | 行会争霸状态 | `<已经开启/SCOLOR=250>` 或 `<已经关闭/SCOLOR=249>` |
+| `A81` | 夺宝奇兵状态 | 同上 |
+| `A48` | 魔王来袭状态 | `入口开放` 或 `等待开放` |
+| `G263` | 百米冲刺开关 | 1=开启,0=关闭 |
+| `I67` | 土城酷跑开关 | 1=开启,0=关闭 |
+| `I25/I26` | 激情派对控制 | I25=状态,I26=倒计时 |
+| `G264` | 百米冲刺备用 | 0 |
+
+#### 4. 活动奖励机制
+| 活动 | 奖励 | 触发条件 |
+|------|------|----------|
+| 摇钱宝树 | 必爆50000元宝 | 击杀摇钱树怪物 |
+| 行会争霸 | 中心点288W经验+5元宝/秒，非中心188W+1元宝 | CheckInMapRange xhzc 19 17 0 |
+| 夺宝奇兵 | 保护玉玺400秒获奖 | Timer3计时+GAMEPOINT倒计时 |
+| 百米冲刺 | 1名99999,2名66666,3-10名33333元宝 | 到达终点触发 |
+| 激情派对 | 688W/588W/388W经验+元宝 | CheckHumInRange 3 354 336 N |
+
+#### 5. 定时器逻辑（QManage.txt）
+```txt
+[@OnTimer1] - 行会争霸经验
+[@OnTimer2] - 激情派对检测
+[@OnTimer3] - 夺宝奇兵玉玺倒计时
+[@OnTimer4] - 夺宝奇兵图标
+[@OnTimer5] - 土豪神器检测
+[@OnTimer6] - 泡点系统
+...
+```
+
+#### 6. 关键命令
+- `Gmexecute 开始提问 @标签` - 从机器人触发QManage的标签
+- `ThrowItem 地图 X Y 数量 物品 概率` - 在地图投放物品
+- `MoveMapPlay 地图 目标X 目标Y` - 传送所有地图玩家
+- `SetOnTimer N 1` - 开启玩家个人定时器
+- `SendCenterMsg 颜色 模式 消息 模式 滚动速度 字体颜色 字体大小` - 中央滚动消息
+
+#### 7. 活动使者NPC
+**文件**: `Envir\Market_Def\新活动\活动使者-3.txt`
+- 9个活动入口按钮（摇钱树/送宝使者/土城跑酷/百米冲刺/行会争霸/激情派对/魔王来袭/夺宝奇兵/遗失宝藏）
+- 每个活动显示当前状态（请等待下次启动/已经开启）
+
+---
+
+## 参考版本：火龙战神（2026-04-09）
+
+**路径**: `F:\BaiduNetdiskDownload\火龙战神\Mirserver\Mir200\`
+**引擎**: GOM引擎（非996PC）
+
+### 版本特点
+1. **首冲礼包系统**: 充值60元宝给钻石会员+会员回收宝箱+职业技能书（战：开天斩，道：飓风破，法：流星火雨）
+2. **技能强化卷**: StdModeFunc117，根据职业强化技能到9级（战：烈火剑法，道：灵魂火符，法：魔法盾）
+3. **套装系统**: StdModeFunc40/41/43 分别给雷霆套/烈焰套/光芒套
+4. **赞助大使图标**: 根据火龙斗笠等级设置不同图标，SetIcon命令设置装备外观
+5. **封号系统**: 天下第一系统，男女战/法/道各一套，1.1倍攻击加成
+6. **九尾假人系统**: 完整的自动练级假人AI，Job/Gender/Level/Skill全配置化
+7. **装备回收系统**: 多级分类回收（雷霆/战神/开天/精品/火龙），累计奖励
+8. **防脱机验证**: 词组验证系统，打错3次踢下线
+9. **金钻工资**: 每周7天不同奖励（50金币+各种道具）
+10. **新人全技能3级**: 登录给满级技能（战：6技能，道：10技能，法：13技能）
+11. **63级触发**: POWERRATE 120，1.2倍攻击
+
+### 关键脚本路径
+- QFunction: `Envir\Market_Def\QFunction-0.txt`
+- QManage: `Envir\MapQuest_Def\QManage.txt`
+- 九尾假人: `Envir\QuestDiary\九尾假人脚本\`
+- 装备回收: `Envir\QuestDiary\麻疯制作\装备回收\`
+- 封号系统: `Envir\QuestDiary\封号系统\`
+- 天下第一: `Envir\QuestDiary\天下第一\`
+
+### 赞助大使相关（GOM引擎特有）
+- 火龙斗笠等级对应图标：lv.1-5对应不同外观
+- [599]标志位表示金钻会员
+- SetIcon命令：SetIcon 1 15 4445 0 -20 6 0 300 0
+
+### 首冲礼包脚本参考（[@StdModeFunc103]）
+```txt
+; 检查充值积分>59，未领取过[251]，背包>6格
+CHECKGAMEDIAMOND > 59
+check [251] 0
+CHECKBAGSIZE 6
+; 给予钻石会员+会员回收宝箱+职业技能书
+give 钻石会员 1
+give 会员回收宝箱 1
+give 开天斩/飓风破/流星火雨 1 ; 根据职业
+SET [251] 1
+```
+
+### 九尾假人配置（CreateFile+AddTextListEx）
+```txt
+CreateFile ..\QuestDiary\九尾假人脚本\假人自配\<$USERNAME>.txt
+AddTextListEx ..\QuestDiary\九尾假人脚本\假人自配\<$USERNAME>.txt [Info] 0
+AddTextListEx ..\QuestDiary\九尾假人脚本\假人自配\<$USERNAME>.txt Job=0 8
+AddTextListEx ..\QuestDiary\九尾假人脚本\假人自配\<$USERNAME>.txt UseSkill=烈火剑法,半月弯刀 13
+SETDUMMYCONFIGFILENAME ..\QuestDiary\九尾假人脚本\假人自配\<$USERNAME>.txt
+LOADDUMMYCONFIGFILE
+```
+
+### 装备回收脚本模式
+```txt
+; 累计变量：M37=元宝，M38=经验，M39=数量
+#IF
+checkitem 开天 1
+#ACT
+take 开天 1
+inc m39 1
+inc M38 1000000
+inc m37 200
+goto @回收检测
+
+; 60级以上只给元宝，不给经验
+#IF
+LARGE M39 0
+CHECKLEVELEX > 59
+#ACT
+GAMEGOLD + <$STR(M37)>
+GuildNoticeMsg 全服广播
+```
+

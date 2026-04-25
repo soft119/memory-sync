@@ -1,0 +1,57 @@
+[2026-04-08 00:11:05:798] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：63; NpcThreadId: 2788, CurPlayThreadId: 2788
+
+[2026-04-08 00:47:01:693] [脚本参数不正确] Cmd:CHECKVAR NPC名称:QFunction 地图:0 座标:0:0 参数1:HUMAN 参数2:点卡时间 参数3:< 参数4:1 参数5:
+[2026-04-08 00:47:01:694] [脚本错误] 变量点卡时间不存在，变量类型:HUMAN 脚本命令:SAVEVAR NPC名称:QFunction 地图:0(0:0) 参数1:HUMAN 参数2:点卡时间 参数3:- 参数4:0 参数5: 参数6:
+[2026-04-08 00:47:01:694] [脚本错误] 变量点卡时间不存在，变量类型:HUMAN 脚本命令:SAVEVAR NPC名称:QFunction 地图:0(0:0) 参数1:HUMAN 参数2:点卡时间 参数3:..\QuestDiary\系统功能\点卡时间.txt 参数4: 参数5: 参数6:
+
+[2026-04-08 00:48:41:033] [脚本参数不正确] Cmd:CHECKVAR NPC名称:QFunction 地图:0 座标:0:0 参数1:HUMAN 参数2:点卡时间 参数3:< 参数4:1 参数5:
+[2026-04-08 00:48:41:034] [脚本错误] 变量点卡时间不存在，变量类型:HUMAN 脚本命令:SAVEVAR NPC名称:QFunction 地图:0(0:0) 参数1:HUMAN 参数2:点卡时间 参数3:- 参数4:0 参数5: 参数6:
+[2026-04-08 00:48:41:034] [脚本错误] 变量点卡时间不存在，变量类型:HUMAN 脚本命令:SAVEVAR NPC名称:QFunction 地图:0(0:0) 参数1:HUMAN 参数2:点卡时间 参数3:..\QuestDiary\系统功能\点卡时间.txt 参数4: 参数5: 参数6:
+
+[2026-04-08 00:48:54:920] [脚本参数不正确] Cmd:CHECKVAR NPC名称:QFunction 地图:0 座标:0:0 参数1:HUMAN 参数2:点卡时间 参数3:< 参数4:1 参数5:
+[2026-04-08 00:48:54:920] [脚本错误] 变量点卡时间不存在，变量类型:HUMAN 脚本命令:SAVEVAR NPC名称:QFunction 地图:0(0:0) 参数1:HUMAN 参数2:点卡时间 参数3:- 参数4:0 参数5: 参数6:
+[2026-04-08 00:48:54:920] [脚本错误] 变量点卡时间不存在，变量类型:HUMAN 脚本命令:SAVEVAR NPC名称:QFunction 地图:0(0:0) 参数1:HUMAN 参数2:点卡时间 参数3:..\QuestDiary\系统功能\点卡时间.txt 参数4: 参数5: 参数6:
+
+[2026-04-08 15:11:44:381] 脚本错误2: CHECKITEMW 1 第:1660 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-08 15:11:44:381] 脚本错误2: UpgradeWeapon 第:1687 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-08 15:18:51:928] 脚本错误3: 妫�娴? 第:1650 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-08 15:21:45:175] 脚本错误2: CheckMirRoleUseItem 1 第:1661 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-08 15:22:53:118] 脚本错误2: CHECKUSEITEM 1 第:1661 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-08 15:47:57:159] 脚本错误2: RANDOM 100 70:@强化成功 第:1672 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-08 16:20:57:107] 脚本错误2: RANDOM 100 70:@强化成功 第:1684 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-08 16:22:27:122] 脚本错误2: RANDOMEX 70 100 第:1690 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-08 16:33:19:154] 脚本错误2: SETOPENUPGRADEDLG 第:1695 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-08 16:33:19:154] 脚本错误2: RANDOMEX 70 100 第:1708 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-08 16:34:45:172] 脚本错误2: RANDOMEX 70 100 第:1709 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-08 16:49:17:643] 脚本错误2: RANDOM 100 第:24 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化师-3.txt
+
+[2026-04-08 19:16:59:343] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：47; NpcThreadId: 21456, CurPlayThreadId: 21456
+
+[2026-04-08 20:00:49:464] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：47; NpcThreadId: 22296, CurPlayThreadId: 22296
+
+[2026-04-08 20:05:52:957] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：47; NpcThreadId: 22296, CurPlayThreadId: 22296
+
+[2026-04-08 20:06:26:352] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：62; NpcThreadId: 22296, CurPlayThreadId: 22296
+[2026-04-08 20:06:26:575] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：62; NpcThreadId: 22296, CurPlayThreadId: 22296
+
+[2026-04-08 20:07:57:527] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：62; NpcThreadId: 22296, CurPlayThreadId: 22296
+
+[2026-04-08 20:11:16:507] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：47; NpcThreadId: 22296, CurPlayThreadId: 22296
+[2026-04-08 20:11:16:837] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：63; NpcThreadId: 22296, CurPlayThreadId: 22296
+
+[2026-04-08 20:15:01:691] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：47; NpcThreadId: 23208, CurPlayThreadId: 23208
+
+[2026-04-08 20:15:56:457] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：31; NpcThreadId: 23208, CurPlayThreadId: 23208
+
+[2026-04-08 21:41:08:885] 脚本错误2: CheckItemState 0 1 第:1663 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-08 21:41:08:885] 脚本错误2: CheckItemState 1 2 第:1664 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+

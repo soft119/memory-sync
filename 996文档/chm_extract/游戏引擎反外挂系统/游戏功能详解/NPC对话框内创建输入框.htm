@@ -1,0 +1,75 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>NPC对话框内创建输入框</title>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<STYLE type=text/css>
+<!--
+.STYLE2 {color: #FF0000}
+-->
+</STYLE>
+
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<p>NPC对话框内创建输入框<BR>
+  <BR>
+  <BR>
+  <FONT style="BACKGROUND-COLOR: #0078d7" color=#ffffff>INPUTTEXT</FONT>:输入框ID:X:Y:宽度:高度:背景色:边框色:文字颜色:最小长度:最大长度:数据无效时提示对话框内容:提示文字:提示文字颜色
+  <BR>
+输入框ID: 1-40<BR>
+背景色：-1为透明，0-255<BR>
+边框色：-1为无边框， 0-255<BR>
+最小长度，最大长度，为0表示不判断<BR>
+<BR>
+INPUTNUM:输入框ID:X:Y:宽度:高度:背景色:边框色:文字颜色:最小值:最大值:数据无效时提示对话框内容:提示文字:提示文字颜色<BR>
+输入框ID: 1-40<BR>
+背景色：-1为透明，0-255<BR>
+边框色：-1为无边框， 0-255<BR>
+最小值，最大值：同时为0表示不限，否则最小值必须 &lt;= 最大值<BR>
+<BR>
+以上2个命令：“数据无效时提示对话框内容”为空时，客户端不检查数据有效性。<BR>
+<BR>
+<BR>
+示范：<BR>
+<BR>
+[@main]<BR>
+姓名：&lt;INPUTTEXT:1:0:0:80:15:0:249:255:4:10:姓名必须在4-10位长:输入姓名:160&gt; \<br>
+年龄：&lt;INPUTNUM:2:0:2:80:15:0:249:255:1:100:年龄必须输入1-100之间的数字:输入年龄:160&gt; \<br>
+性别：&lt;INPUTNUM:3:0:4:80:15:0:249:255:0:1:性别必须输入0或1:男(0)-女(1):160&gt; \</p>
+<p>&lt;text:只提交姓名年龄:10:6:1,2/@提交部分&gt;\<br>
+&lt;Img:130:1:0:4:1,2|249#将所有输入框的内容全提交/@提交部分&gt;\ <br>
+&lt;全部提交/@全部提交&gt;</p>
+<p class="STYLE2"><STRONG>使用IMG或者IMGEX或PLAYIMG提交输入框数据时，如果不指定哪个输入框，是不会提交数据的，例如：<br>
+&lt;ImgEx:0:120:121:122:0:0:1,2|254#996引擎官方网站：^253#www.996m2.com/@提交部分&gt;\<br>
+  就是提交输入框1和2，如果不写，例如<br>&lt;ImgEx:0:120:121:122:0:0|254#996引擎官方网站：^253#www.</STRONG><STRONG>996m2</STRONG><STRONG>
+.com/@提交部分&gt;\<br>
+这样就不会提交输入框数据的</STRONG></p>
+<p><BR>
+  [@全部提交]<BR>
+  #act<BR>
+  ;;;;;;★★★★★★★★★★★★★★★★★★★★★★★★★★这里别忘了对输入的数据有效性判断。。。<BR>
+  SendMsg 5 输入的姓名为 &lt;$NPCINPUT(1)&gt;<BR>
+  SendMsg 5 输入的年龄为 &lt;$NPCINPUT(2)&gt;<BR>
+  SendMsg 5 输入的性别为 &lt;$NPCINPUT(3)&gt;</p>
+<p>[@提交部分]<BR>
+#act<BR>
+;;;;;;★★★★★★★★★★★★★★★★★★★★★★★★★★这里别忘了对输入的数据有效性判断。。。<BR>
+SendMsg 5 输入的姓名为 &lt;$NPCINPUT(1)&gt;<BR>
+SendMsg 5 输入的年龄为 &lt;$NPCINPUT(2)&gt;<BR>
+SendMsg 5 输入的性别为 &lt;$NPCINPUT(3)&gt;<BR>
+  <BR>
+  <BR>
+  ;---------------------------------------------------------------------------------------------<BR>
+  <BR>
+  注： 如果留空要通过检测不想提示的请用空格。<BR>
+  <BR>
+  姓名：&lt;<FONT style="BACKGROUND-COLOR: #0078d7" color=#ffffff>INPUTTEXT</FONT>:1:0:0:80:15:0:249:255:0:0: : :160&gt;\ <BR>
+  <BR>
+  ;---------------------------------------------------------------------------------------------<BR>
+  <BR>
+  <BR>
+  <FONT style="BACKGROUND-COLOR: #0078d7" color=#ffffff>INPUTTEXT</FONT><BR>
+  INPUTNUM 有非法字符，全是触发 @inputboxFilter<BR>
+  <BR>
+  [@InputBoxFilter]<BR>
+  #ACT<BR>
+  SendMsg 5 输入了非法字符<BR>
+</p></BODY></HTML>

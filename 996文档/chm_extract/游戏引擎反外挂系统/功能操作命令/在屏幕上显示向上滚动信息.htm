@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>在屏幕上显示向上滚动信息</title>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<STYLE type=text/css>
+<!--
+.STYLE2 {color: #FF0000}
+-->
+</STYLE>
+
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<P><FONT face=宋体>功能说明：在屏幕上显示向上滚动信息</FONT></P>
+<p><FONT face=宋体>格式：SENDVERTICALMOVEMSG 文字信息 文字颜色 背景颜色 坐标Y 
+滚动次数 发送模式(0=全服 1=      个人 2= 跨服发送)</p>
+<p><FONT face=宋体>文字换行：\</FONT></p>
+<p><FONT face=宋体>%ServerName 区名称</FONT> </p>
+<p><FONT face=宋体>[@main]<br>
+  #ACT<br>
+  SENDVERTICALMOVEMSG 提示信息1\提示信息2 249 0 100 3 0</FONT>
+        </p>
+<p><FONT face=宋体>[@跨服发送]<br>
+  #ACT<br>
+  SENDVERTICALMOVEMSG %ServerName提示信息1\提示信息2 249 0 100 3 2<br></FONT>
+</p>
+<P><FONT face=宋体> </FONT> </P></FONT></BODY></HTML>

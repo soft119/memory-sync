@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>国家系统</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT face=宋体><FONT color=#0000ff size=4><STRONG>国家系统</STRONG></FONT></FONT></P><FONT face=宋体><STRONG><FONT color=#0000ff size=4></FONT></STRONG>
+<P><BR><FONT color=#000000><FONT color=#ff0000>国家常量：</FONT><BR>国家名称：&lt;$NATIONNAME&gt;<BR>国家人数：&lt;$NATIONPEOPLE&gt;&nbsp;&nbsp; 
+<BR>国家ID常量：&lt;$NATIONID&gt; <BR>国家职位名称常量：&lt;$nationjob1&gt; - 
+&lt;$nationjob10&gt;<BR>玩家职位ID常量：&lt;$NATIONJOBID&gt;</FONT></P>
+<P><FONT color=#000000><FONT color=#ff0000>脚本命令：(Nidx为国家ID)</FONT><BR>创建国家格式：CREATENATION nIdx 国家名称 
+限制人数<BR>删除国家格式：DELNATION nIdx<BR>检查国家是否创建：CHECKATION 
+nIdx<BR>设置当前人物在国家的职位格式：SETNATIONKING 职位编号<BR>修改国家职位名称：SETNATIONRANK 国家编号 职位编号 
+职位名称(需小退才更新) <BR>加入国家&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 格式: 
+JoinNational 参数1：国家编号 (1~100) 参数2：职位编号（1-10 不填 
+默认为10）<BR>退出国家&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 格式: 
+JoinNational 0<BR>检测加入国家&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 格式: CheckNational (国家编号 
+0~100&nbsp; 0代表没有加入国家)<BR>检查国家人物总数. 格式: CheckNationHumCount 操作符(&lt; = &gt;) 
+人数</FONT></P>
+<P><FONT color=#000000><FONT color=#ff0000>国家自定义变量： 
+(申明放置QM中)</FONT><BR>自定义变量：&lt;$NATION(国家变量)&gt;</FONT></P>
+<P><FONT color=#000000>申明&nbsp;&nbsp; VAR String NATION 字符国家变量<BR>申明&nbsp;&nbsp; 
+VAR Integer NATION 数字国家变量</FONT></P>
+<P><FONT color=#000000>修改&nbsp;&nbsp; CALCVAR NATION 数字国家变量 = 
+888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<BR>保存&nbsp;&nbsp; SAVEVAR NATION 数字国家变量 </FONT></P>
+<P><FONT color=#000000>[@LoadNatIon]<BR>#ACT<BR>;操作支持加减乘除等于(+ - * / 
+=)<BR>CALCVAR NATION 数字国家变量 = 
+888&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<BR>SAVEVAR NATION 数字国家变量 </FONT></P>
+<P><FONT color=#000000>清理自定义国家变量格式:ClearNATIONCustVar 参数1 参数2<BR>排序格式:SortHumVar 
+参数1 参数2 参数3 参数4 参数5 参数6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <BR>参数4： 
+3=国家变量</FONT></P>
+<P><BR><FONT color=#000000><FONT color=#ff0000>相关命令脚本：<BR></FONT>脚本刷怪：MonGenEx 
+地图文件名称 X Y 怪物名称 范围 数量 是否内功怪物(0否,1是) 名称颜色(0~255) 国家名称(属于哪个国家的怪物，没有可以为空) 
+同一个国家玩家是否可攻击怪怪物(0不可以,1可以)<BR>MonGenEx 3 330 330 白野猪 1 10 0 249 神都帝国 0</FONT></P>
+<P><FONT color=#000000>发送自定义颜色的文字信息.&nbsp; 格式: GuildNoticeMsg 255 233 
+发送自定义颜色的文字信息. NATIONAL 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+参数4:'National'时发送给自己国家的人(使用于<FONT style="BACKGROUND-COLOR: #0078d7" color=#ffffff>国战</FONT>)<BR>发送屏幕中间大字体信息&nbsp; 格式: SendCenterMsg 前景色 背景色 消息文字 模式 
+显示时间 
+倒计时标签<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+参数4：3=发送国家</FONT></P>
+<P><FONT color=#000000>改变人物攻击模式：ChangeAttatckMode (0~7)&nbsp; 
+和强制攻击&nbsp;&nbsp;&nbsp; 国家=7</FONT></FONT></P>
+<P><FONT color=#0000ff face=宋体>//国家合区说明：</FONT></P>
+<P><FONT color=#ff0000 face=宋体>合区后只保留主服的国家人员和ID其他国家不会合并在一起<BR>从区的国家ID及人员全部清空</FONT></P>
+<P><FONT face=宋体><FONT color=#0000ff size=4>刷怪命令扩展</FONT><BR>MonGenEx 地图文件名称 X Y 
+怪物名称 范围 数量 0 名称颜色(0~255)&nbsp; 怪物自定义名称 是否过滤数字（0不过滤，1过滤) 国家名称(属于哪个国家的怪物) 
+是否可攻击同国家的玩家(0,1) 不同国家怪物是否可PK(0,1) 怪物是否禁止被同国家的人攻击(0,1) <BR>是否可攻击同国家的玩家(0,1)&nbsp; 
+&nbsp;&nbsp; 0=怪物不会攻击同国家的人&nbsp; 
+1=非国家模式下会攻击同国家的人<BR>不同国家怪物是否可PK(0,1)&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+0=不能PK&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+1=不同国家的怪物可以互相PK<BR>怪物是否禁止被同国家的人攻击(0,1) 
+&nbsp;0=不禁止，人物可攻击同国家怪物。1=禁止，人物不能攻击同国家怪物<BR></FONT></P>
+<P><FONT face=宋体><FONT color=#0000ff size=4>国家脚本刷怪设定</FONT><BR>此命令支持怪物巡逻坐标攻击，设置多个指定坐标后，怪物会沿途巡逻(按照设定坐标行走到最后一个坐标停止)<BR>格式: 
+<BR>MISSION 地图 x1;x2;x3...xn y1;y2;y3...yn (x和y的数量要一致）<BR>PARAM1 
+刷新怪物座标X<BR>PARAM2 刷新怪物座标Y<BR>PARAM3 数量<BR>PARAM4 范围<BR>PARAM5 国家名称<BR>PARAM6 
+是否攻击本国玩家(0,1)<BR>PARAM7 不同国家怪物是否PK(0,1)<BR>PARAM8 怪物名字颜色<BR>PARAM9 
+是否禁止本国玩家攻击(0,1)<BR>MOBPLACE 怪物名称 目标名称<BR>;;;;;;;;参数二 
+目标名称--这个参数，为空表示可攻击所有可攻击的对象，指定名字表示只攻击指定名称的可攻击对象</FONT></P>
+<P><FONT face=宋体>示范：<BR>[@国家刷怪]<BR>#act<BR>MISSION 3 319;319 320;340<BR>PARAM1 
+333<BR>PARAM2 333<BR>PARAM3 10<BR>PARAM4 0<BR>PARAM5 神都帝国<BR>PARAM6 0<BR>PARAM7 
+1<BR>PARAM8 242<BR>PARAM9 0<BR>MOBPLACE 国家士兵</FONT></P>
+<P><FONT face=宋体></FONT>&nbsp;</P>
+<P><FONT face=宋体><FONT color=#0000ff size=4>国家战争功能</FONT><BR>国家宣战脚本命令： 
+NationsWar 国家名称 时间(0=立即关闭) X小时 
+测试版本单位分钟<BR>监测国家战争状态：ISNATIONSWAR<BR>国家战争地图参数：FIGHT6 默认不掉落 
+（FIGHT6(0)，不掉落，FIGHT6(1) 掉落）国家战争地图 进入该地图人物颜色会变色 杀人不加PK值<BR>修改地图参数FIGHT6脚本命令 
+：SetMapMode 地图号 模式（FIGHT6(0) 0,表示不掉落，1，表示掉落）</FONT></P>
+<P><FONT color=#ff0000 face=宋体>国家战争剩余时间常量(分钟)：&lt;$NATIONSWARTIME&gt;</FONT></P>
+<P><FONT face=宋体>[@国家宣战]<BR>#act<BR>NationsWar 傲来国 1<BR>sendmsg 9 
+本国与傲来国开启了战争，持续时间为1小时。</FONT></P>
+<P><FONT face=宋体>[修改战争地图掉落]<BR>#act<BR>SETMPAMODE g008 FIGHT6(1)<BR>sendmsg 6 
+<FONT style="BACKGROUND-COLOR: #0078d7" color=#ffffff>国战</FONT>地图已修改为掉落装备状态！！！</FONT></P>
+<P><BR><FONT face=宋体>[@战争状态]<BR>#IF<BR>ISNATIONSWAR<BR>#SAY<BR>国家正在战争<BR>#ELSESAY<BR>国家没有战争<BR></FONT></P></body>
+</html>

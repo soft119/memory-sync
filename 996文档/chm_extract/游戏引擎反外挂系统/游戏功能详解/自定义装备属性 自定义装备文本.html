@@ -1,0 +1,150 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>自定义装备属性 自定义装备文本</title>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<STYLE type=text/css>
+<!--
+.STYLE1 {
+	color: #0000FF;
+	font-weight: bold;
+}
+.STYLE2 {
+	color: #FF0000;
+	font-weight: bold;
+}
+-->
+</STYLE>
+
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<p class="STYLE1">自定义装备文本 该数据保存在人物数据库里</p>
+<p>功能说明：可以给装备自定义一行文字，文字长度20个字符，也就是10个汉字。</p>
+<p>修改自定义装备文字内容：<br >
+  CHANGECUSTOMITEMTEXT 装备位置(-1时是OK框中的装备, <FONT face=Fixedsys size=2>0~28或30~47</FONT>时是穿在身上的装备) 文字内容</p>
+<p>修改自定义装备文字内容显示的颜色：<br >
+  CHANGECUSTOMITEMTEXTCOLOR 装备位置(-1时是OK框中的装备, <FONT face=Fixedsys size=2>0~28或30~47</FONT>时是穿在身上的装备) 文字颜色(0~255)</p>
+<p>例：<br >
+  [@main]<br >
+  &lt;设置衣服自定义文字(不超过10个汉字)/@@InputString1&gt;\<br >
+&lt;设置衣服自定义文字颜色(0~255)/@@InputInteger1&gt;\</p>
+<p>[@InputInteger1]<br >
+  #ACT<br >
+  CHANGECUSTOMITEMTEXTCOLOR 0 N1</p>
+<p>[@InputString1]<br >
+  #ACT<br >
+  CHANGECUSTOMITEMTEXT 0 
+S1<BR><BR><BR>获取自定义属性文字内容<BR>GETCUSTOMITEMTEXT 装备位置(-1时是OK框中的装备, 
+0~28或30~47时是穿在身上的装备) 变量<BR><BR>获取自定义属性文字颜色<BR>GETCUSTOMITEMTEXTCOLOR 
+装备位置(-1时是OK框中的装备, 0~28或30~47时是穿在身上的装备) 变量</p>
+<p>例：<BR>[@main]<BR>\ \<BR>&lt;取名/@取名&gt;&nbsp;&nbsp;&nbsp; 
+&lt;取颜色/@取颜色&gt;</p>
+<p>[@取名]<BR>#ACT<BR>GETCUSTOMITEMTEXT 1 S$名字<BR>SENDMSG 6 
+&lt;$STR(S$名字)&gt;</p>
+<p>[@取颜色]<BR>#ACT<BR>GETCUSTOMITEMTEXTCOLOR 1 
+S$名字颜色<BR>SENDMSG 6 &lt;$STR(S$名字颜色)&gt;</p>
+<p class="STYLE1">自定义装备属性 该数据保存在人物Mir.DB里</p>
+<p>功能说明：可以自定义装备的属性值，<span class="STYLE2">支持20个属性</span></p>
+<p class="STYLE2">自定义装备属性的名称控制(M2-选项-客户端设置-自定义属性)</p>
+<p>检测自定义装备属性值：<br >
+CHECKCUSTOMITEMVALUE (-1时是OK框中的装备, <FONT face=Fixedsys size=2>0~28或30~47</FONT>时是穿在身上的装备) 属性位置(0~19 每个装备可以自定义20个属性）                           (检测符&gt;，&lt;，=) 值</p>
+<p>检测自定义装备属性绑定类型：<br >
+CHECKCUSTOMITEMVALUETYPE (-1时是OK框中的装备, <FONT face=Fixedsys size=2>0~28或30~47</FONT>时是穿在身上的装备) 属性位置(0~19 每个装备可以自定义20个属性）                           (检测符&gt;，&lt;，=) 值(0~17 0没有绑定 1绑定AC 2绑定MAC 3绑定DC 4绑定MC 5绑定SC 6绑定MaxHP 7绑定MaxMP 8~17为10个无属性的)</p>
+<p>修改自定义装备属性值：<br >
+CHANGECUSTOMITEMVALUE (-1时是OK框中的装备, <FONT face=Fixedsys size=2>0~28或30~47</FONT>时是穿在身上的装备) 属性位置(0~19 每个装备可以自定义20个属性）                           (控制符+，-，=) 值</p>
+<p>获取人物所穿装备的自定义属性值：<br >
+GETHUMCUSTOMITEMVALUE 属性位置(-1表示20个属性全部获取,0~19 装备自定义20个属性） 绑定的属性类型(0~17 0没有绑定 1绑定AC 2绑定MAC 3绑定DC 4绑定MC 5绑定SC 6绑定MaxHP 7绑定MaxMP 8~17为10个无属性的)  变量1(保存属性值) 变量2(如果属性是百分比的，保存在这个变量)</p>
+<p>------------------------------------------------------------------------------------------------------------------------</p>
+<p>修改自定义装备属性：<br >
+  CHANGECUSTOMITEMABIL 参数1 参数2 参数3 参数4</p>
+<p>参数1:<br >
+装备位置(-1时是OK框中的装备, <FONT face=Fixedsys size=2>0~28或30~47</FONT>时是穿在身上的装备)</p>
+<p>参数2:<br >
+  属性位置(0~19）每个装备可以自定义20个属性</p>
+<p>参数3:<br >
+  修改类型(0~4)
+  <br >
+  0表示修改该属性显示的颜色(等于1时，参数4的范围在 0~255)<br >
+  1表示该属性绑定哪个属性,必须绑定，否则该属性无效，登陆器也不会显示(参数4的范围在0~17 0取消绑定 1绑定AC 2绑定MAC 3绑定DC 4绑定MC 5绑定SC 6绑定MaxHP 7绑定MaxMP 8~17为10个无属性的 更多属性持续增加中)<br >
+  2表示在属性框里的显示位置<br >
+  3表示该属性是否是百分比属性(0,1) 0不是百分比 1是百分比</p>
+<p>参数4:
+<br >
+  参数3=0时 修改的值0~255<br >
+  参数3=1时 修改的值0~17<br >
+  参数3=2时 修改的值0~255<br >
+  参数3=3时 修改的值0~1<br >
+</p>
+<p>例：</p>
+<p>[@检测衣服的第一个自定义装备属性的绑定类型]<br >
+  #IF<br >
+  CHECKCUSTOMITEMVALUETYPE 0 0 = 1<br >
+  #ACT<br >
+  SENDMSG 6 你的衣服的第一个自定义属性绑定的是AC</p>
+<p><br >
+  [@修改衣服的自定义属性值]<br >
+  #ACT<br >
+  CHANGECUSTOMITEMVALUE 0 0 =
+     
+      10<br >
+  CHANGECUSTOMITEMVALUE 0 1 = 20<br >
+  SENDMSG 6 衣服的第一个自定义属性的值修改成10，第二个自定义属性值修改成20</p>
+<p>[@修改衣服的自定义属性值显示颜色]<br >
+  #ACT<br >
+  CHANGECUSTOMITEMABIL 0 0 0 249<br >
+  CHANGECUSTOMITEMABIL 0 1 0 180<br >
+  SENDMSG 6 衣服的第一个自定义属性显示颜色修改成红色，第二个自定义属性显示颜色修改成蓝色</p>
+<p>[@修改衣服的自定义属性绑定类型]<br >
+  #ACT<br >
+  CHANGECUSTOMITEMABIL 0 0 1 1 <br >
+  CHANGECUSTOMITEMABIL 0 1 1 2 <br >
+  SENDMSG 6 衣服的第一个自定义属性绑定防御属性，可以增加人物防御，第二个自定义属性绑定魔防属性，可以增加人物魔防</p>
+<p>[@修改衣服的自定义属性显示在同一行]<br >
+  #ACT<br >
+  CHANGECUSTOMITEMABIL 0 0 2 0<br >
+  CHANGECUSTOMITEMABIL 0 1 2 0<br >
+  ;第四个参数相同的会显示在同一行<br >
+SENDMSG 6 衣服的第一个自定义属性和第二个自定义属性显示在同一行</p>
+<p>[@修改衣服的自定义属性不显示在同一行]<br >
+  #ACT<br >
+  CHANGECUSTOMITEMABIL 0 0 2                                           0<br >
+  CHANGECUSTOMITEMABIL 0 1  2 1<br >
+  ;第四个参数不相同的会分开显示，不会在同一行<br >
+  SENDMSG 6 衣服的第一个自定义属性显示在第一行，第二个自定义属性显示在第二行</p>
+<p>[@修改衣服的自定义属性值是否是百分比]<br >
+  #ACT<br >
+  CHANGECUSTOMITEMABIL 0 0 3 0<br >
+  CHANGECUSTOMITEMABIL 0 1 3 1<br >
+  SENDMSG 6 衣服的第一个自定义属性不是百分比属性，第二个自定义属性为百分比属性</p>
+<p class="STYLE1">&nbsp;</p>
+<P></P>
+<P>装备位置代码:</P>
+<p>0 盔甲 <br>
+  1 武器 <br>
+  2 照明物 <br>
+  3 项链 <br>
+  4 头盔 <br>
+  5 右手镯 <br>
+  6 左手镯 <br>
+  7 右戒指 <br>
+  8 左戒指 <br>
+  9 护身符 <br>
+  10 腰带 <br>
+  11 鞋子 <br>
+  12 宝石<br>
+  13 斗笠<br>
+  14 军鼓<br>
+  15 马牌<br>
+  16 盾牌<br>
+  17 时装衣服 时装12个<br>
+  18 时装武器<br>
+  19 时装项链<br>
+  20 时装头盔<br>
+  21 时装左手镯<br>
+  22 时装右手镯<br>
+  23 时装左戒指<br>
+  24 时装右戒指<br>
+  25 时装勋章<br>
+  26 时装腰带<br>
+  27 时装鞋子<br>
+  28 时装宝石</p>
+<p>30~41 十二个首饰盒装备</p>
+<p>42-47 六个首饰盒装备位置</p></BODY></HTML>

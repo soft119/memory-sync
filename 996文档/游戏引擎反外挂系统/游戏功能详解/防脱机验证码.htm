@@ -1,0 +1,37 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>防脱机验证码</title>
+</head>
+
+<body>
+<p>原理：每隔一段时间，弹出验证码窗口验证</p>
+<p>M2-选项-功能设置-防脱机设置</p>
+<p><FONT color=#ff0000>(暂不支持)</FONT></p>
+<p>------------------------脚本中的应用------------------------------</p>
+<p>验证码基本设置-勾选验证时禁止攻击和使用物品</p>
+<p>可以在NPC里添加验证，比如传送地图，出售物品的NPC，可以防止自动点击NPC，传送地图，出售挂机的物品，例：</p>
+<p>[@main]<br>
+  #ACT<br>
+  ;点击NPC显示验证码<br>
+  SHOWGAMEVALIDATEDLG 0<br>
+  #SAY<br>
+  欢迎光临!你可以在我这里享受以下服务.\<br>
+  请选择你要前往的地区:\<br>
+  ┏━━━━┳━━━━┳━━━━┳━━━━┓\<br>
+  ┃&lt;城区传送/@ANQUAN&gt;┃&lt;险恶区域/@XIANE&gt;┃&lt;挑战幻境/@huan&gt;┃&lt;查看时间/@time&gt;┃\<br>
+┗━━━━┻━━━━┻━━━━┻━━━━┛\</p>
+<p>[@main]<br>
+#ACT<br>
+;点击NPC显示验证码<br>
+SHOWGAMEVALIDATEDLG 0<br>
+#SAY<br>
+  请问什么事情需要我帮忙吗？\ \<br>
+&lt;买/@buy&gt; 衣服\<br>
+&lt;卖/@sell&gt; 衣服\<br>
+&lt;修复/@repair&gt; 衣服\<br>
+&lt;关 闭/@exit&gt;</p>
+</body>
+</html>

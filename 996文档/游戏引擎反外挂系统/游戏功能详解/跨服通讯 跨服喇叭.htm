@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>跨服跨区通讯 跨服喇叭</title>
+<style type="text/css">
+<!--
+.STYLE1 {color: #0000FF}
+-->
+</style>
+</HEAD>
+<BODY>
+<p><strong>跨服跨区通讯 跨服跨区喇叭</strong></p>
+<p><strong>使用“GameOfMir引擎控制器”配置向导，配置到第八步，勾选“跨服通讯设置”</strong></p>
+<p>必须要设置一个主区，也只能设置一个主区<br>
+  随便哪一个区设置主区，没有什么特别要求<br>
+  其他都设置成分区，分区引擎会连接主区<br>
+  如果主区和分区在同一台服务器，<br>
+  IP设置成127.0.0.1，如果在另外一台服务器，<br>
+IP要设置成主区服务器的IP</p>
+<p>所有区的通讯端口要一样</p>
+<p><FONT color=#ff0000>(暂不支持)</FONT></p>
+<p>假设：</p>
+<p>“服务器A”开3个区 区名称是“gameofmir1” “gameofmir2” “gameofmir3” “服务器A”的外网IP是 116.236.250.102</p>
+<p> “服务器B”开3个区 区名称是“gameofmir4” “gameofmir5” “gameofmir6”</p>
+<p>设置“gameofmir1”设置成主区 端口是：4900 “gameofmir2” “gameofmir3”这两个区设置成分区，通讯IP设置成“127.0.0.1”端口是：4900</p>
+<p>“gameofmir4” “gameofmir5” “gameofmir6”这三个区设置成分区，通讯IP设置成“116.236.250.102”端口是：4900</p>
+<p> </p>
+<p> <br>
+</p>
+</BODY>
+</HTML>

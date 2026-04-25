@@ -1,0 +1,2 @@
+[2026-04-17 23:24:56:138] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：94; NpcThreadId: 10992, CurPlayThreadId: 10992
+

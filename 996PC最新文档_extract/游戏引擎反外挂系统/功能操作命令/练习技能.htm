@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>练习技能</title>
+<style>
+<!--
+.STYLE1 {color: #FF0000}
+-->
+</style>
+</HEAD>
+<BODY>
+<P><FONT face=宋体><B>功能：脚本增加<FONT color=#ffffff >技能</FONT></B><BR><BR>[@addskill]<BR>#IF<BR>#ACT<BR>ADDSKILL 
+雷电术<BR>#SAY<BR>你已经练习雷电术了。<BR><BR>;--------------------------------------------<BR><BR><B>功能：清除人物非本职业的所有<FONT color=#ffffff >技能</FONT></B><BR><BR>[@clearskill]<BR>#IF<BR>#ACT<BR>DELNOJOBSKILL<BR>#SAY<BR>你的非法<FONT color=#ffffff >技能</FONT>已经清除了。<BR><BR>;--------------------------------------------<BR><BR><B>功能：清除人物的所有<FONT color=#ffffff >技能</FONT></B><BR><BR>[@clearskill]<BR>#IF<BR>#ACT<BR>CLEARSKILL<BR>#SAY<BR>你的所有<FONT color=#ffffff >技能</FONT>已经清除了。<BR><BR>;--------------------------------------------<BR><BR><B>功能：脚本删除指定<FONT color=#ffffff >技能</FONT></B><BR><BR>[@delskill]<BR>#IF<BR>#ACT<BR>DELSKILL 
+雷电术<BR>#SAY<BR>你的雷电术已删除了。<BR><BR>;--------------------------------------------<BR><BR><B>功能：脚本调整<FONT color=#ffffff >技能</FONT>点数</B><BR><BR>格式：CHANGETRANPOINT 控制符(+,-,=) 
+点数<BR><BR>[@CHANGETRANPOINT]<BR>#IF<BR>#ACT<BR>CHANGETRANPOINT 雷电术 = 
+100<BR><BR>;--------------------------------------------<BR><BR><B>功能：检查人物<FONT color=#ffffff >技能</FONT></B><BR><BR>格式：CHECKSKILL <FONT color=#ffffff >技能</FONT>名称 检测符(&lt;,&gt;,=) 
+等级<BR><BR>例：<BR><BR>[@main]<BR>#IF<BR>CHECKSKILL 雷电术 = 1<BR>#ACT<BR>ADDSKILL 
+雷电术<BR>#ELSEACT<BR>SENDMSG 6 
+你已经学习了雷电术。<BR><BR>;--------------------------------------------<BR><BR><B>功能：检查人物是否学习了某项魔法</B> 
+<BR><BR>[@main]<BR>#IF<BR>CheckMagicName 
+烈火剑法<BR>#SAY<BR>你已经学会了烈火剑法.</FONT></P>
+<P><FONT face=宋体>;==========================================</FONT></P>
+<P><FONT face=宋体><FONT size=2><FONT color=#0000ff><STRONG>功能：</STRONG></FONT><BR>&nbsp;&nbsp;&nbsp; 脚本调整技能等级。</FONT><span class=STYLE1></span></FONT></P>
+<P><FONT size=2><FONT face=宋体><STRONG><FONT color=#0000ff>格式：</FONT><BR></STRONG>&nbsp;&nbsp;&nbsp;SKILLLEVEL 魔法名称 调整符(+,-,=) 等级 
+是否调整强化技能(0或为空时为技能等级,1为强化技能等级)<BR><BR><BR>;==========================================<BR>[@skilllevel0]<BR>#IF<BR>#ACT<BR>&nbsp; SKILLLEVEL 雷电术 = 3<BR>#SAY<BR>你的雷电术等级已经为3级。<BR>;==========================================<BR><BR>;==========================================<BR>;<BR>[@skilllevel1]<BR>#IF<BR>#ACT<BR>&nbsp; SKILLLEVEL 雷电术 + 1<BR>#SAY<BR>你的雷电术等级已经升了1级。<BR>;==========================================<BR><BR>;==========================================<BR>;<BR>[@skilllevel2]<BR>#IF<BR>#ACT<BR>&nbsp; SKILLLEVEL 雷电术 - 1<BR>#SAY<BR>你的雷电术等级已经降了1级。<BR>;==========================================</FONT></FONT><FONT size=3></P>
+<P><FONT size=2><BR></FONT><FONT face=宋体>[@<FONT size=2>skilllevel3</FONT>]<BR>#IF<BR>CHECKSKILL 冰咆哮 = 0 1<BR>#ACT<BR>SKILLLEVEL 冰咆哮 = 1 1<BR>SENDMSG 6 
+冰咆哮已修炼到强化一重</FONT>  
+</P></FONT>
+<P><FONT face=宋体></FONT>&nbsp;</P>
+</BODY>
+</HTML>
+

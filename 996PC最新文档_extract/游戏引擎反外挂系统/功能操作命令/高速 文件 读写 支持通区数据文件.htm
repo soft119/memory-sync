@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>高速 文件 读写 支持通区数据文件</title>
+</head>
+
+<body>
+<p><FONT face=宋体>高速 文件 读写 LoadFileToMemoryEx</FONT>   </p>
+<p><FONT face=宋体>LoadFileToMemoryEx 
+文件(文件可以是通区数据文件也可以不是，都支持，支持绝对路径) 类型(0= 普通文件  1= INI格式文件)</p>
+<p><FONT face=宋体>[@Startup]<br>
+  #ACT<br>
+  LoadFileToMemoryEx E:\数据\名单.txt 0 <br>
+  LoadFileToMemoryEx E:\数据\战力排行数量.txt 0 <br>
+  ;变量数据文件，也就是INI文件<br>
+LoadFileToMemoryEx 
+E:\数据\变量.txt 1</FONT>
+  </p>
+<p><FONT face=宋体><FONT color=#ff0000>(暂不支持)</FONT> </FONT>
+  </p>
+<p><FONT face=宋体>[@main]<br>
+  #IF<br>
+  CHECKTEXTLIST E:\数据\名单.txt &lt;$USERNAME)&gt;<br>
+  #SAY<br>
+  你的名字已经保存<br>
+  #ELSEACT<br>
+  AddTextList 
+E:\QuestDiary\数据\名单.txt &lt;$USERNAME)&gt;</FONT>
+    </p>
+<p><FONT face=宋体></FONT></p></FONT>
+</body>
+</html>

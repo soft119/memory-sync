@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>人物在线改名系统</title>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<STYLE type=text/css>
+<!--
+.STYLE2 {color: #FF0000}
+-->
+</STYLE>
+
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<p><strong><font size="5" face=宋体>人物在线改名系统</font></strong></p>
+<p><FONT face=宋体>-----------------------------------人物在线改名------------------------------<br >
+  [@Main]<br >
+  &lt;查询名称是否可以使用/@@InputString1(请输入新的名称：)&gt;\<br >&lt;我要改名/@@InputString2(请输入新的名称：)&gt;&gt;\</FONT>
+</p>
+<p><FONT face=宋体>[@InputString1]<br >
+  #IF<br >
+  Equal S1<br >
+  #ACT<br >
+  SENDMSG 6 请输入一个正确的名称<br >
+  Break</FONT>
+  </p>
+<p><FONT face=宋体>#OR<br >
+  CheckStringlength S1 &gt; 20<br >
+  CheckStringlength S1 &lt; 4<br >
+  #ACT<br >
+  SENDMSG 6 输入名称长度不正确<br >
+  Break</FONT>
+  </p>
+<p><FONT face=宋体>#IF<br >
+  #ACT<br >
+  QUERYHUMNAMEEXIST S1</FONT>
+   </p>
+<p><FONT face=宋体>[@InputString2]<br >
+  #IF<br >
+  Equal S2<br >
+  #ACT<br >
+  SENDMSG 6 请输入一个正确的名称<br >
+  Break</FONT>
+  </p>
+<p><FONT face=宋体>#OR<br >
+  CheckStringlength S2 &gt; 20<br >
+  CheckStringlength S2 &lt; 4<br >
+  #ACT<br >
+  SENDMSG 6 输入名称长度不正确<br >
+  Break</FONT>
+  </p>
+<p><FONT face=宋体>#IF<br >
+  #ACT<br >
+  CHANGEHUMNAME S2</FONT>
+   </p>
+<p><FONT face=宋体>-----------------------------------------------------------------------------</FONT></p>
+<p><FONT face=宋体>QFunction-0.txt脚本相关触发</FONT></p>
+<p><FONT face=宋体>[@QueryingHumName]<br >
+  正在查询请稍后。。。\ \<br >&lt;关闭/@exit&gt;\</FONT>
+  </p>
+<p><FONT face=宋体>[@QueryHumNameOK]<br >
+  查询成功，该名称可以使用\ \<br >&lt;关闭/@exit&gt;\</FONT>
+  </p>
+<p><FONT face=宋体>[@ChangeingHumName]<br >
+  正在修改请稍后。。。\ \<br >&lt;关闭/@exit&gt;\</FONT>
+  </p>
+<p><FONT face=宋体>[@ChangeHumNameOK]<br >
+  #ACT<br >
+  ;这个命令是用来修改，你的变量保存文件和人物名称列表文件里面的人物名称的，如果没有这些可以不使用这个命令<br >
+  ;这个命令也只能放在这个地方，放其他地方无效<br >
+  CHANGEHUMNAMEFILE ..\QuestDiary\变量文件\HQCQASave.txt<br >
+  CHANGEHUMNAMEFILE ..\QuestDiary\会员名称.txt<br >
+  #SAY<br >
+  你的名字修改成功，旧名称：&lt;$USERNAME&gt; 新名称：&lt;$USERNEWNAME&gt;！\ \<br >&lt;关闭/@exit&gt;\</FONT>
+  </p>
+<p><FONT face=宋体>[@NameLengthFail]<br >
+  名字长度不允许超过30个字符！\ \<br >&lt;关闭/@exit&gt;\</FONT>
+  </p>
+<p><FONT face=宋体>[@HumNameFilter]<br >
+  该名字存在非法字符！\ \<br >&lt;关闭/@exit&gt;\</FONT>
+  </p>
+<p><FONT face=宋体>[@HumNameExists]<br >
+  该名字已经被其他玩家占用，请选择其他名字\ \<br >&lt;关闭/@exit&gt;\</FONT>
+  </p>
+<p><FONT face=宋体>[@ChangeHumNameFail]<br >
+  改名失败！\ \<br >&lt;关闭/@exit&gt;\</FONT>
+  </p></BODY></HTML>

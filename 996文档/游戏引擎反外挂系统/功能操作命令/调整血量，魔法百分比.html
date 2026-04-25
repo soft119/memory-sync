@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>调整血量，魔法百分比</title>
+<style type="text/css">
+<!--
+.STYLE8 {color: #0000FF}
+-->
+</style>
+</head>
+
+<body>
+
+<P><FONT size=2><FONT face=宋体><FONT color=#0000ff><STRONG>功能：</STRONG></FONT><BR>&nbsp;&nbsp;&nbsp; 调整血量，魔法百分比</FONT> 
+</FONT></P>
+<P><FONT size=2><FONT face=宋体><STRONG><FONT color=#0000ff>格式：</FONT></STRONG><BR>&nbsp;&nbsp;&nbsp; ADDHPPER 操作符(+,-,= ) 百分比(1-100) 
+</FONT><FONT face= 宋体>   <FONT color= #ff0000>  
+
+     比率模式(0：百分比，1：千分比)<br></FONT>&nbsp;&nbsp;&nbsp; ADDMPPER 操作符(+,-,= ) 百分比(1-100) 
+<FONT color=#ff0000>比率模式(0：百分比，1：千分比)  &nbsp; 
+ 
+   </FONT></FONT></P>
+<P class="STYLE8"><FONT face=宋体>该命令飘血调用的素材是在必备补丁NewopUI.Pak 
+编号：1490~1541</FONT> </P>
+<P><FONT size=2 face=宋体>;==========================================<BR>
+  例：<BR>
+  #IF <BR>
+  #ACT<BR>
+  AddMpPer + 30<BR>
+GuildNoticeMsg 250 0 你的MP增加了30%   self</FONT></P>
+<P><FONT size=2 face=宋体> ====================================================================== 
+<BR>
+  例：<BR>
+  #IF <BR>
+  #ACT<BR>
+  h.AddMpPer   + 30 1<BR>
+  GuildNoticeMsg 250 0 你的英雄MP增加了30% self <BR>
+        #IF<BR>
+  h.CheckHpPer &gt; 30 1<BR>
+  #ACT<BR>
+  #SAY<BR>
+  你的英雄血量在总血量的30%以上</FONT><font size="2"><BR><FONT face=宋体>;==========================================
+  </FONT></P></FONT></FONT>
+</body>
+
+</html>

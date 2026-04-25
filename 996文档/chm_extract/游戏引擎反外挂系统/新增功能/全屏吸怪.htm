@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>全屏吸怪</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P>全屏吸怪，嘲讽周围怪物<BR><FONT color=#0000ff><STRONG>MoveMonsters</STRONG></FONT></P>
+<P>参数1：中心X</P>
+<P>参数2：中心Y</P>
+<P>参数3：影响范围(0-999)</P>
+<P>参数4：目标类型(0=怪物 1=人物 2=   怪物+人物)</P>
+<P>参数5：最大吸取数量(0=不限制数量)</P>
+<P>参数6：判断怪物等级(0=不判断，其他数值的话。怪物等级小于等于参数6吸取)</P>
+<P>参数7：判断是否嘲讽状态（0=不判断 1= 
+静止的怪才吸取, 避免吸取其他玩家的怪） </P>
+<P>例子1<BR>[@attack]<BR>#IF<BR>#ACT<BR>MoveMonsters &lt;$X&gt; &lt;$Y&gt; 20 0 0 
+0 0<BR>sendmsg 6 范围20的所有怪物都吸过来了  </P>
+<P>例子2<BR>[@attack]<BR>#IF<BR>#ACT<BR>MoveMonsters &lt;$X&gt; &lt;$Y&gt; 20 0 0 
+0 1<BR>sendmsg 6 范围20的所有怪物都吸过来了,不包括活跃的怪物  </P></FONT></FONT></body>
+</html>

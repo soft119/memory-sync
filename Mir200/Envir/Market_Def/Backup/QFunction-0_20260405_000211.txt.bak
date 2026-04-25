@@ -1,0 +1,47 @@
+;----------------------------------------------------------------
+
+; QFunction-0.txt - 996PC 引擎 全局功能脚本 (GBK 编码)
+
+;----------------------------------------------------------------
+
+[@StartMyShop]
+#IF
+#ACT
+ForbidMyShop
+MESSAGEBOX 禁止摆摊！请使用拍卖
+BREAK
+
+
+[@ItemBagButtonClick1]
+#IF
+#ACT
+REFRESHBAG 
+SENDMSG 6 背包刷新成功
+
+[@ItemBagButtonClick3]
+#if
+#ACT
+CloseBigDialogBox
+#SAY
+移动仓库为您提供以下仓库服务功能： \ \<可视仓库/@火山仓库>\ \
+[@火山仓库]
+#ACT
+OpenStorageView 1
+SETSTORAGEOPEN 2 1
+SETSTORAGEOPEN 3 1
+SETSTORAGEOPEN 4 1
+SETSTORAGEOPEN 5 1
+Break
+
+
+[@StartAutoPlayGame]
+#IF
+CHECKMAPNAME 3
+#ACT
+MESSAGEBOX 当前地图禁止挂机
+break
+
+#IF
+#act
+StartAutoPlayGame 100 60 1
+SENDMSG 6 开始挂机，使用快捷键

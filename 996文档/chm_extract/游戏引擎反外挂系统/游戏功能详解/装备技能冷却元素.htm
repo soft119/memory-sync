@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>装备技能冷却元素</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+</head>
+
+<BODY>
+<p>每个装备只能设置一个技能</p>
+<p>设置装备的技能冷却时间<br>
+  SetItemSkillTime 装备位置 技能ID (+,-,=) 时间(秒)
+</p>
+<p>获取装备的技能和冷却时间<br>
+  GetItemSkillTime 装备位置 保存变量(技能ID) 保存变量(时间(秒))</p>
+<p>获取全身装备的技能冷却时间<br>
+  GetAllItemSkillTime 技能ID 保存变量<br>
+</p>
+<p>[@main]<br>
+  #ACT<br>
+  SetItemSkillTime 0 26 - 10<br>
+  SENDMSG 6 设置衣服的烈火剑法的冷却时间-10秒</p>
+<p>GetItemSkillTime 0 N1 N2<br>
+  SENDMSG 6 获取衣服的冷却技能ID&lt;$STR(N1)&gt;，冷却时间&lt;$STR(N2)&gt;秒</p>
+</BODY>
+</html>

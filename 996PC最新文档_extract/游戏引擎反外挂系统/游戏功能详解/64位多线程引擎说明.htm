@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>64位多线程引擎说明</title>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<STYLE type=text/css>
+<!--
+.STYLE2 {color: #FF0000}
+-->
+</STYLE>
+
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY><FONT face=宋体>64位多线程引擎说明: </FONT>
+
+<p><FONT face=宋体>1.需要64位系统才可以运行<br>
+  2.不支持DBC2000的数据库，只支持Access数据</FONT>
+  </p>
+<p><FONT face=宋体>使用工具目录里“BDE数据库转换成Access数据库.exe”把怪物、技能、物品3个数据库都转成Access数据库</FONT></p>
+<p><FONT face=宋体>使用前必须先安装“AccessDatabaseEngine_X64.exe” 
+Access数据库64位系统驱动程序</FONT> </p>
+<p><FONT face=宋体>1.64位引擎比32位引擎占用内存高，64位引擎建议开大区使用<br>
+  2.建议使用物理机，不要使用虚拟机<br>
+  3.以前的引擎都是单线程的，无法发挥出好机器的性能，64位多线程引擎可以充分发挥出好机器的性能<br>
+  4.理论上CPU核心数越多越好<br>
+  5.尽量把人物分散在不同的地图，分散在不同的线程里</FONT>
+  </p>
+<p><FONT face=宋体>;64位多线程引擎地图传送时注意：<br>
+  [@传送] <br>
+  #IF<br>
+  #ACT<br>
+  mapmove 3 333 333</FONT>
+     </p>
+<p><FONT face=宋体>;如果下面增加检测是否传送到地图3的脚本，可能不能立即检测到已经传送到地图3，要稍微等一会<br>
+  #IF<br>
+  CHECKMAPNAME 3<br>
+  #ACT<br>
+  SENDMSG 6 已经传送到地图3<br>
+  #ELSEACT<br>
+  SENDMSG 6 
+还没有传送到地图3</FONT>
+    </p></BODY></HTML>

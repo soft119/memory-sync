@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>变量数据传递MOVEX</title>
+</HEAD>
+<BODY>
+<P><FONT face=宋体>MOVEX这个命令和MOV使用一样，不过在多级脚本使用中不一样</FONT></P>
+<p><FONT face=宋体>多级脚本触发，存在2个人物：</FONT></p>
+<p><FONT face=宋体>一个是执行脚本的人物，另外一个是触发这个脚本的人物，也就是说一个脚本是人物A执行的，但是这个脚本是由人物B触发后才开始运行的<br>
+  看下面的例子:</FONT>
+  </p>
+<P><FONT face=宋体>[@main]<br>
+  #ACT<br>
+  MOV S1 神话<br>
+  S1.MOVEX S2 &lt;$USERNAME&gt;<br>
+  SENDMSG 6 S2使用的是神话这个人物的，&lt;$USERNAME&gt;这个使用的是，谁点击这个脚本，就调用的谁的<br>
+SENDMSG 6 
+这个脚本存在2个人，执行脚本的人物S1和点击触发脚本的人物</FONT>
+  </P>
+</BODY>
+</HTML>
+
+ 

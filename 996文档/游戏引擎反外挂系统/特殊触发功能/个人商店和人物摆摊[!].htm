@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>个人商店和人物摆摊</title>
+<style type="text/css">
+<!--
+.STYLE1 {
+	color: #FF0000;
+	font-weight: bold;
+	font-size: large;
+}
+-->
+</style>
+</head>
+
+<body>
+<p class="STYLE1">该触发是引擎默认的个人商店摆摊触发，不是仿HeroM2摆摊触发。仿HeroM2摆摊相关触发完全兼容HeroM2,可以查看兼容HeroM2部分</p>
+<p>点击开始摆摊或停止摆摊将触发 QFunction-0 [@ShopStall] 地图参数 ALLOWUSEMYSHOP 允许摆摊(必需先设置摆摊限制在指定地图才会生效)</p>
+<p>[@ShopStall]<br />
+  #IF<br />
+  INSAFEZONE<br />
+  ;检测在安全区<br />
+  #ELSEACT<br />
+  MESSAGEBOX 需要在安全区才能摆摊<br />
+  BREAK</p>
+<p>#IF<br />
+  CHECKSHOPSTALLSTATUS<br />
+  ;检测是不是在摆摊<br />
+  #ACT<br />
+  MESSAGEBOX 你是否确认要停止摆摊 @停止摆摊<br />
+  #ELSEACT<br />
+  MESSAGEBOX 你是否确认要开始摆摊 @确定开始</p>
+<p>[@确定开始]<br>
+  #if<br>
+  ISDUPMODE<br>
+  #say<br>
+  请找一个空位置，不能与别人站在一起。<br>
+  #ACT <br>
+BREAK</p>
+<p>#if<br>
+  #ACT<br>
+  SHOPSTALL<br>
+  ;使用SHOPSTALL命令，如果正在摆摊就会停止摆摊，如果没有摆摊就会开始摆摊</p>
+<p>[@停止摆摊]<br>
+  #if<br>
+  #ACT<br>
+  SHOPSTALL<br>
+  ;使用SHOPSTALL命令，如果正在摆摊就会停止摆摊，如果没有摆摊就会开始摆摊</p>
+<p></p>
+<p>============================================================================================================</p>
+<p>点击我的商店，如果还没有创建将触发[@QueryMyShopFail]</p>
+<p>[@QueryMyShopFail]<br />
+  #ACT<br />
+  MESSAGEBOX 你还没有个人商店，是否创建你的个人商店？\\点击确定创建个人商店。  @创建个人商店   @取消</p>
+<p>[@创建个人商店]<br />
+  亲爱的玩家你好。这里可以申请开店。\<br />
+  你可以把你的物品放到你的店铺里出售，\<br />
+  游戏中的玩家可以查询到你要出售的物品。\<br />
+  也可以把不用的物品放到店铺的仓库里。\<br />
+  点击客户端中“店”就可以进入到你的店铺中,\<br />
+  也可以查询其他用户的店铺和物品，\<br />
+  可以很方便的把仓库物品和出售的物品相互转移。\<br />
+  还可以进行摆摊操作。\ </p>
+<p>&lt;我要开店(点击输入你喜欢的店铺名称)/@@InputString1&gt;\</p>
+<p>[@InputString1]<br />
+  #IF<br />
+  CHECKMYSHOP<br />
+  #ACT<br />
+  MESSAGEBOX 你已经有店铺了<br />
+  BREAK</p>
+<p>#IF<br />
+  CHECKSHOPNAME &lt;$STR(S1)&gt;<br />
+  #ACT<br />
+  MESSAGEBOX &lt;$STR(S1)&gt;店铺名称已经存在，请重新选择一个<br />
+  BREAK</p>
+<p>#IF<br />
+  #ACT<br />
+  CREATEMYSHOP &lt;$STR(S1)&gt;</p>
+<p>[@CreateMyShopOK]<br />
+  #SAY<br />
+  你的店铺创建成功</p>
+<p>[@CreateMyShopFail]<br />
+  #SAY<br />
+你的店铺创建失败</p>
+<p>&nbsp;</p>
+<p>============================================================================================================</p>
+<p>常量:<br>
+当前卖家名字 &lt;$USERSHOPSELLER&gt;<br>
+当前买家名字 &lt;$USERSHOPBUYER&gt;<br>
+当前购买或出售的物品常量和以前通用 &lt;$CURRTEMNAME&gt; &lt;$G_CURRTEMNAME&gt; &lt;$CURRTEMINDEX&gt; &lt;$CURRTEMMAKEINDEX&gt;<br>
+当前购买或出售的物品使用的货币类型名称 &lt;$BUYITEMMONEYTYPENAME&gt;<br>
+当前购买或出售的物品使用的货币类型值 &lt;$BUYITEMMONEYTYPE&gt;<br>
+当前购买或出售的物品的价格 &lt;$BUYITEPRICE&gt; </p>
+<p>;上架触发 QF脚本触发<br>
+  [@ConfirmShopItemUp]<br>
+  #IF<br>
+  #ACT<br>
+  ;ConfirmShopItemUp (0=允许上架 1=禁止上架)<br>
+  ConfirmShopItemUp 1 <br>
+  sendmsg 6 商铺名称:&lt;$USERSHOPSELLER&gt;上架物品:&lt;$G_CURRTEMNAME&gt;,ID:&lt;$CURRTEMINDEX&gt;,货币名称:&lt;$BUYITEMMONEYTYPENAME&gt;,货币类型:&lt;$BUYITEMMONEYTYPE&gt;,物品价格:&lt;$BUYITEPRICE&gt;</p>
+<p>;下架触发 QF脚本触发<br>
+  [@ConfirmShopItemDown]<br>
+  #IF<br>
+  #ACT<br>
+  ;ConfirmShopItemDown (0=允许下架 1=禁止下架)<br>
+  ConfirmShopItemDown 1 <br>
+  sendmsg 6 商铺名称:&lt;$USERSHOPSELLER&gt;下架物品:&lt;$G_CURRTEMNAME&gt;,ID:&lt;$CURRTEMINDEX&gt;,货币名称:&lt;$BUYITEMMONEYTYPENAME&gt;,货币类型:&lt;$BUYITEMMONEYTYPE&gt;,物品价格:&lt;$BUYITEPRICE&gt;</p>
+<p>;购买触发 买家触发 QF脚本触发<br>
+[@BuyUserShopItem]<br>
+#IF<br>
+#ACT<br>
+sendmsg 6 你购买了&lt;$USERSHOPSELLER&gt;出售的摆摊物品&lt;$G_CURRTEMNAME&gt;,ID:&lt;$CURRTEMINDEX&gt;,货币名称:&lt;$BUYITEMMONEYTYPENAME&gt;,货币类型:&lt;$BUYITEMMONEYTYPE&gt;,物品价格:&lt;$BUYITEPRICE&gt;</p>
+<p>;个人商店取款触发 QF脚本触发 <br>
+[@GetUserShopItemMoney]</p>
+</body>
+</html>

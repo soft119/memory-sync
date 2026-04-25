@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>检查装备绑定状态[!]</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+</head>
+
+<BODY>
+<P><FONT face=Arial size=2><FONT face=Fixedsys> 功能：检查装备绑定状态 <br>
+格式：CheckItemState 装备位置(</FONT><FONT face=Fixedsys size=2>-1~28或30~47</FONT><FONT face=Fixedsys>,-1时为OK框中物品) 项目(0-6) <br>
+项目: 0 禁止扔 1 禁止交易 2 禁止存 3 禁止修 4 禁止出售 5 禁止爆出<FONT face=Arial size=2><FONT face=Fixedsys><FONT 
+size=3> 6 丢弃消失</FONT></FONT></FONT><FONT 
+size=3><BR><BR><BR>
+</FONT></FONT></FONT>[@衣服禁止扔]<br>
+#IF<br>
+CheckItemBind 0<br>
+#ACT<br>
+GOTO @禁止扔<br>
+#ELSEACT<br>
+SENDMSG 6 请先绑定</P>
+<p>[@禁止扔]<br>
+  #IF<br>
+  CheckItemState 0 0<br>
+  #ACT<br>
+  SENDMSG 6 该装备已经设置过禁止扔<br>
+  #ELSEACT<br>
+  SetItemState 0 0 1<br>
+  SENDMSG 6 该装备禁止扔</p>
+<P><FONT 
+face=Fixedsys><BR><BR>
+</FONT>装备位置代码:</P>
+<p>0 盔甲 <br>
+  1 武器 <br>
+  2 照明物 <br>
+  3 项链 <br>
+  4 头盔 <br>
+  5 右手镯 <br>
+  6 左手镯 <br>
+  7 右戒指 <br>
+  8 左戒指 <br>
+  9 护身符 <br>
+  10 腰带 <br>
+  11 鞋子 <br>
+  12 宝石<br>
+  13 斗笠<br>
+  14 军鼓<br>
+  15 马牌<br>
+  16 盾牌<br>
+  17 时装衣服 时装12个<br>
+  18 时装武器<br>
+  19 时装项链<br>
+  20 时装头盔<br>
+  21 时装左手镯<br>
+  22 时装右手镯<br>
+  23 时装左戒指<br>
+  24 时装右戒指<br>
+  25 时装勋章<br>
+  26 时装腰带<br>
+  27 时装鞋子<br>
+  28 时装宝石</p>
+<p>30~41 十二个首饰盒装备</p>
+<p>42-47 六个首饰盒装备位置</p>
+<P><FONT 
+face=Fixedsys></FONT></P>
+</BODY>
+</html>

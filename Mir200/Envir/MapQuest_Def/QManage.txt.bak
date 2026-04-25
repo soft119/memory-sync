@@ -1,0 +1,240 @@
+[@Startup]
+
+[@Login]
+#IF
+#ACT
+ChangeBagCount = 126
+SetOnTimer 55 60 0
+
+;================================================
+; 新人检测 - 送初始装备（只送一次）
+;================================================
+#IF
+CHECKLEVELEX = 1
+#ACT
+VAR Integer HUMAN 新人礼包
+
+#IF
+CHECKLEVELEX = 1
+CHECKVAR HUMAN 新人礼包 < 1
+#ACT
+GIVE 木剑 1
+GIVE 蜡烛 1
+CALCVAR HUMAN 新人礼包 = 1
+SAVEVAR HUMAN 新人礼包
+
+#IF
+CHECKLEVELEX = 1
+GENDER MAN
+CHECKVAR HUMAN 新人礼包 = 1
+#ACT
+GIVE 布衣(男) 1
+SENDMSG 6 欢迎新人！系统赠送您：木剑、布衣(男)、蜡烛！
+SENDMSG 0 玩家「<$USERNAME>」进入了游戏，欢迎新朋友！
+
+#IF
+CHECKLEVELEX = 1
+GENDER WOMAN
+CHECKVAR HUMAN 新人礼包 = 1
+#ACT
+GIVE 布衣(女) 1
+SENDMSG 6 欢迎新人！系统赠送您：木剑、布衣(女)、蜡烛！
+SENDMSG 0 玩家「<$USERNAME>」进入了游戏，欢迎新朋友！
+
+;================================================
+; 点卡系统 - 登录检测
+; 15级以下新人不需要点卡
+;================================================
+#IF
+CHECKLEVELEX < 15
+#ACT
+SENDMSG 6 欢迎新人！15级以下免费游戏，祝您游戏愉快！
+BREAK
+
+; 15级及以上需要检测点卡
+#IF
+#ACT
+VAR Integer HUMAN 点卡时间
+LOADVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
+
+#IF
+CHECKVAR HUMAN 点卡时间 < 1
+#ACT
+MAPMOVE 600 20 20
+SENDMSG 5 您已达到15级，需要点卡才能继续游戏！
+SENDMSG 5 请使用7天点卡续费！
+BREAK
+
+; 有游戏时间，计算并显示剩余时间
+#IF
+#ACT
+DIV N2 <$HUMAN(点卡时间)> 86400
+MUL N3 <$STR(N2)> 86400
+MOV N4 <$HUMAN(点卡时间)>
+DEC N4 <$STR(N3)>
+DIV N5 <$STR(N4)> 3600
+MUL N6 <$STR(N5)> 3600
+MOV N7 <$STR(N4)>
+DEC N7 <$STR(N6)>
+DIV N8 <$STR(N7)> 60
+SENDMSG 6 您好！当前剩余游戏时间：<$STR(N2)>天<$STR(N5)>小时<$STR(N8)>分钟
+SETONTIMER 50 60
+
+;================================================
+[@OnTimer50]
+#IF
+#ACT
+VAR Integer HUMAN 点卡时间
+LOADVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
+
+#IF
+CHECKVAR HUMAN 点卡时间 > 60
+#ACT
+CALCVAR HUMAN 点卡时间 - 60
+SAVEVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
+SETONTIMER 50 60
+
+#ELSEACT
+CALCVAR HUMAN 点卡时间 = 0
+SAVEVAR HUMAN 点卡时间 ..\QuestDiary\系统功能\点卡时间.txt
+MAPMOVE 600 20 20
+SENDMSG 5 您的游戏时间已用完！
+
+;================================================
+; 在线礼包系统 - 每60秒触发
+;================================================
+[@OnTimer55]
+#IF
+#ACT
+RandomGoto 100 80:@基础礼包|20:@稀有礼包
+
+; 基础礼包 - 5选1
+[@基础礼包]
+#ACT
+RandomGoto 100 20:@给超级金创药|40:@给超级魔法药|60:@给强效太阳水|80:@给疗伤药|100:@给祝福油
+
+[@给超级金创药]
+#ACT
+GIVE 超级金创药 1
+SENDMSG 6 在线礼包：获得超级金创药 1个
+BREAK
+
+[@给超级魔法药]
+#ACT
+GIVE 超级魔法药 1
+SENDMSG 6 在线礼包：获得超级魔法药 1个
+BREAK
+
+[@给强效太阳水]
+#ACT
+GIVE 强效太阳水 1
+SENDMSG 6 在线礼包：获得强效太阳水 1个
+BREAK
+
+[@给疗伤药]
+#ACT
+GIVE 疗伤药 1
+SENDMSG 6 在线礼包：获得疗伤药 1个
+BREAK
+
+[@给祝福油]
+#ACT
+GIVE 祝福油 1
+SENDMSG 6 在线礼包：获得祝福油 1个
+BREAK
+
+; 稀有礼包 - 14选1
+[@稀有礼包]
+#ACT
+RandomGoto 100 7:@给修复神水|14:@给火把|21:@给比奇传送石|28:@给盟重传送石|35:@给千里传音|42:@给幻境凭证|49:@给骰子|56:@给双倍卷轴|63:@给个性发型|70:@给反璞归真|77:@给金条|84:@给1小时点卡|91:@给2小时点卡|98:@给5小时点卡|100:@给1天点卡
+
+[@给修复神水]
+#ACT
+GIVE 修复神水 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【修复神水】！
+BREAK
+
+[@给火把]
+#ACT
+GIVE 火把 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【火把】！
+BREAK
+
+[@给比奇传送石]
+#ACT
+GIVE 比奇传送石 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【比奇传送石】！
+BREAK
+
+[@给盟重传送石]
+#ACT
+GIVE 盟重传送石 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【盟重传送石】！
+BREAK
+
+[@给千里传音]
+#ACT
+GIVE 千里传音(大) 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【千里传音(大)】！
+BREAK
+
+[@给幻境凭证]
+#ACT
+GIVE 幻境凭证 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【幻境凭证】！
+BREAK
+
+[@给骰子]
+#ACT
+GIVE 骰子 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【骰子】！
+BREAK
+
+[@给双倍卷轴]
+#ACT
+GIVE 双倍卷轴 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【双倍卷轴】！
+BREAK
+
+[@给个性发型]
+#ACT
+GIVE 个性发型 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【个性发型】！
+BREAK
+
+[@给反璞归真]
+#ACT
+GIVE 反璞归真 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【反璞归真】！
+BREAK
+
+[@给金条]
+#ACT
+GIVE 金条 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【金条】！
+BREAK
+
+[@给1小时点卡]
+#ACT
+GIVE 1小时点卡 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【1小时点卡】！
+BREAK
+
+[@给2小时点卡]
+#ACT
+GIVE 2小时点卡 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【2小时点卡】！
+BREAK
+
+[@给5小时点卡]
+#ACT
+GIVE 5小时点卡 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【5小时点卡】！
+BREAK
+
+[@给1天点卡]
+#ACT
+GIVE 1天点卡 1
+SENDMSG 0 全服公告：玩家「<$USERNAME>」通过在线2小时奖励获得【1天点卡】！
+BREAK
+

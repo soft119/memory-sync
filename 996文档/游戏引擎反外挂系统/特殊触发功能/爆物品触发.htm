@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>爆物品触发</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+</head>
+
+<BODY><FONT face=宋体 size=2>
+<P dir=ltr style="MARGIN-RIGHT: 0px"><BR>
+<FONT face=Fixedsys>功能: <FONT color=#ff0000>杀死怪物或人物时爆物品触发</FONT> <BR>
+说明: 
+<span style="'FONT-SIZE: medium; FONT-FAMILY: "Microsoft YaHei"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,255); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'"    >需要在M2-查看-列表信息二-物品规则里添加允许爆物品触发</span><BR></FONT></P></FONT>
+<p class="style72" style="'FONT-SIZE: medium; FONT-FAMILY: "Microsoft YaHei"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'"    >[@ScatterBagItems]<br>
+  #IF<br>
+  CHECKCURRTARGETRACE = 0<br>
+  #ACT<br>
+  SENDMSG 6 你杀人了:【&lt;$CURRRTARGETNAME&gt;】，这个人包裹里爆出物品【&lt;$CURRTEMNAME&gt;】<br>
+  #ELSEACT<br>
+  SENDMSG 6 你杀怪了:【&lt;$CURRRTARGETNAME&gt;】，这个怪物爆出物品【&lt;$CURRTEMNAME&gt;】</p>
+<p style="'FONT-SIZE: medium; FONT-FAMILY: "Microsoft YaHei"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'"    >#IF<br>
+  #ACT<br>
+  LINKPICKUPITEM<br>
+  ;支持用命令链接命令，用脚本命令对当前爆出的物品操作或检测</p>
+<TABLE width="685" border=1 borderColor=#99ccff style="HEIGHT: 362px; WIDTH: 685px"><!--DWLayoutTable-->
+  <TR>
+    <TD width="143">&lt;$CURRTEMNAME&gt;</TD>
+    <TD width="452">当前物品名称 指人物掉落、捡取、杀死怪物爆出来</TD>
+  </TR>
+  <TR>
+    <TD>&lt;$G_CURRTEMNAME&gt;</TD>
+    <TD>当前物品改名名称 指人物掉落、捡取、杀死怪物爆出来</TD>
+  </TR>
+  <TR>
+    <TD>&lt;$CURRTEMSTDMODE&gt;</TD>
+    <TD>当前物品DB字段StdMode值 指人物掉落、捡取、杀死怪物爆出来</TD>
+  </TR>
+  <TR>
+    <TD>&lt;$CURRTEMSHAPE&gt;</TD>
+    <TD>当前物品DB字段Shape值 指人物掉落、捡取、杀死怪物爆出来</TD>
+  </TR>
+  <TR>
+    <TD>&lt;$CURRTEMANICOUNT&gt;</TD>
+    <TD>当前物品DB字段AniCount值 指人物掉落、捡取、杀死怪物爆出来</TD>
+  </TR>
+  <TR>
+    <TD>&lt;$CURRTEMLOOKS&gt;</TD>
+    <TD>当前物品DB字段Looks值 指人物掉落、捡取、杀死怪物爆出来</TD>
+  </TR>
+  <TR>
+    <TD>&lt;$CURRTEMDURA&gt;</TD>
+    <TD>当前物品当前持久值 指人物掉落、捡取、杀死怪物爆出来</TD>
+  </TR>
+  <TR>
+    <TD>&lt;$CURRTEMDURAMAX&gt;</TD>
+    <TD>当前物品最大值 指人物掉落、捡取、杀死怪物爆出来</TD>
+  </TR>
+  <TR>
+    <TD>&lt;$CURRTEMINDEX&gt;</TD>
+    <TD>当前物品DB字段Idx值 指人物掉落、捡取、杀死怪物爆出来</TD>
+  </TR>
+  <TR>
+    <TD>&lt;$CURRTEMCOLOR&gt;</TD>
+    <TD>当前物品DB字段Color值 指人物掉落、捡取、杀死怪物爆出来</TD>
+  </TR>
+</TABLE>
+<p style="'FONT-SIZE: medium; FONT-FAMILY: "Microsoft YaHei"; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FONT-WEIGHT: 400; COLOR: rgb(0,0,0); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'"    >&nbsp;</p>
+</BODY>
+</html>

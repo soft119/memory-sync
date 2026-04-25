@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML><HEAD><title>聊天框彩色字体设置[!]</title>
+<META http-equiv=Content-Language content=zh-cn>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<META content="MSHTML 6.00.2900.6148" name=GENERATOR>
+<style type="text/css">
+<!--
+.style1 {color: #FF0000}
+-->
+</style>
+</HEAD>
+<BODY>
+<p>聊天框彩色字体设置[!]</p>
+<p><br>
+  {信息|F:B:M:U:H:D}<br>
+  F=字体颜色 B=背景颜色 M=模式(0绘制背景色,1字体描边) U=0没有下划线 1有下划线 H=鼠标放上去的字体颜色  D=鼠标按下的字体颜色 </p>
+<p>例:<br>
+  [@main]<br>
+  #ACT<br>
+  SENDMSG 5 
+{&lt;$USERNAME&gt;|254:253}996引擎官方网站：<A 
+href="http://www.996m2.com">http://www.<FONT color=#000000>996m2</FONT>.com</A>
+    <br>
+  SENDMSG 5 
+{&lt;$USERNAME&gt;|250:0:1}996引擎官方网站：http://www.<U>996m2</U>
+    .com<br>
+  SENDTOPCHATBOARDMSG 0 149 235 30 
+{&lt;$USERNAME&gt;|250:0}996引擎官方网站：<A 
+href="http://www.996m2.com">http://www.<U>996m2</U>.com</A>
+       </p>
+<p>-----------------------------------------------------------------------------------------------<BR>
+  爆物品彩色字体设置<br>
+String.ini文件里</p>
+<p>DropItemHint=物品[{%Item|52:253:0}]从[{%name|180:253:0}]身上掉落在地图{%Map(%x,%y)|5:253:0}处。 </p>
+<p class="style1">------------------------------------------------------------------------------------------------------------------------------<br>
+下面这个支持，聊天框里查看物品属性，查看装备属性，%ShowItem标志只能用在String.ini文件里DropItemHint=后面</p>
+<p class="style1">DropItemHint={%ShowItem(点击查看属性)|252:255:0:1:0:249}从[%Name]身上掉落在地图%Map(%X,%Y)处</p>
+<p class="style1">支持点击查看物品的属性，属性框支持鼠标拖动，需要点击属性框里的关闭按钮才能关闭，关闭按钮的素材在必备补丁(NewopUI.Pak)的1621 1622 1623 需要修改素材的替换这三个</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</BODY>
+</HTML>

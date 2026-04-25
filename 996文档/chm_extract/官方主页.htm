@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=gb2312"/>
+<title>版本转换信息汇总</title>
+</HEAD>
+<BODY>
+<H1 align=center><FONT color=#ff0000 face=宋体>996官方群：1007963647</FONT></H1>
+<P align=left><FONT face=宋体>1、996引擎使用<FONT color=#ff0000>Excel表</FONT>来记录和编辑<FONT color=#ff0000>装备、怪物、技能</FONT>信息，所以其他版本转换到996PC端需要</FONT><FONT color=#0000ff face=宋体>将DB库进行转换<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT color=#ff00ff><FONT face=宋体>&nbsp; 
+</FONT> 
+<FONT color=#000000><FONT face=宋体>装备表转换成cfg_item.xls之后IDX序号会自动+10000，牵扯到的功能有:<FONT color=#ff0000>ItemShow、宝石镶嵌、QF捡取触发</FONT></FONT><FONT color=#000000 face=宋体>，<FONT color=#ff00ff>官方集成工具可以批量替换</FONT><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT></FONT></FONT><FONT color=#ff00ff> 
+<FONT color=#000000><FONT color=#000000 face=宋体><BR></FONT></FONT><BR></FONT><FONT face=宋体>2、996引擎数据库使用的是<FONT color=#ff0000>SQL数据库</FONT>，用于记录人物信息、角色信息、帐号密码、变量数据等<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT face=宋体><FONT color=#ff00ff>官方群有教程，请加官方群获取相关内容。热心玩家上传有简易版工具，一键搭建方便快捷。<BR></FONT><BR><BR>3、素材转换，996引擎使用了<FONT color=#ff0000>JPK文件</FONT>存储自定义素材。<FONT color=#ff00ff>官方集成工具可以一键将PAK素材转换成JPK</FONT><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT><FONT color=#ff00ff><FONT face=宋体><BR><BR></FONT><FONT face=宋体><FONT color=#000000>4、<FONT color=#ff0000>X\Mirserver\Mir200\Envir\EffectImageList.txt</FONT>，资源列表里的<FONT color=#ff0000>.</FONT><FONT color=#ff0000>WIL批量替换成.WZL</FONT>，<FONT color=#ff0000>.</FONT><FONT color=#ff0000>PAK批量替换成.JPK</FONT>。<FONT color=#ff00ff>官方集成工具可以批量替换</FONT><BR></FONT><BR><BR></FONT><FONT color=#000000><FONT face=宋体>5、光柱设置，查看-列表信息二-物品光柱&nbsp;&nbsp;&nbsp;&nbsp;</FONT><A 
+href="游戏引擎反外挂系统/新增功能/物品光柱.htm"><FONT face=宋体>物品光柱</FONT></A><BR><FONT face=宋体>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;光柱特效编号ID是从<FONT color=#ff0000>5</FONT><FONT color=#ff0000>0001</FONT>开始的，不要与特效编号重复，其他版本光柱设置需要按格式转换到996格式。<FONT color=#ff00ff>官方集成工具可以批量转换</FONT><BR></FONT> 
+</FONT></FONT><FONT color=#ff00ff><FONT face=宋体><BR><BR><FONT color=#000000>6、!Setup.txt&nbsp; 
+部分内容跟GOM有所不同，请仔细检查M2设置。</FONT><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT color=#000000>设置-物品装备-极品几率</FONT><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</FONT><FONT face=宋体> 
+<FONT color=#000000>1、武器攻速，取消了减攻速的极品，具体算法 <FONT color=#ff0000>(最高点数+1)/3结果取整数</FONT>&nbsp;&nbsp;&nbsp; 
+<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;比如设置 最高点数= 4&nbsp; 结果为(4+1)/3=1&nbsp; 最高点数= 1 
+结果为(1+1)/3=  0&nbsp; 最高点数= 14 
+结果为(14+1)/3=  
+  5极品范围就是1~5，以此类推&nbsp;   
+</FONT><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<FONT color=#000000>2、特殊项链手镯的魔法躲避、准确、敏捷可直接设置，由于采用了<FONT color=#ff0000>Excel表</FONT></FONT></FONT><FONT face=宋体><FONT color=#000000>来记录装备数据<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+这些属性大可不必使用AC2、MAC2来替代。同样也支持在xls表里自由配置这些属性。<BR> 
+</FONT><BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+</FONT> 
+<FONT color=#000000><FONT face=宋体>3、个人商店功能已取消，采用了更灵活方便的<FONT color=#0000ff>拍卖行+邮件</FONT><FONT color=#0000ff>收款</FONT>功能，</FONT><FONT face=宋体><FONT color=#ff0000>M2设置-功能设置-个人商店<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT>无需脚本代码，可在<FONT color=#ff0000>M2选项-参数设置-价格费用</FONT>里面设置拍卖行手续费。<BR><BR><BR>7、无限刀的设置同GOM一样，M2设置-参数设置-速度控制，将攻击速度调至最低，M2设置-客户端控制-内挂控制将<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;攻击速度-动作时间调至最低，再通过CHANGESPEED脚本调整即可。<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+<FONT color=#ff0000>996引擎的<FONT color=#ff0000>施法速度</FONT>算法略快，GOM和其他引擎转过来的版本，M2设置-参数设置-速度控制里面的施法速度在原基础上+(260~300)具体数值自行估测。<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;攻击速度相同无需调整。</FONT><BR></FONT></FONT><BR></FONT><FONT color=#ff00ff><FONT color=#000000><FONT face=宋体>8、</FONT><A 
+href="游戏引擎反外挂系统/DB数据库资料/cfg_item(装备表).htm"><FONT face=宋体>cfg_item.xls</FONT></A><FONT face=宋体>---------------装备属性表的详细说明，属性配置请参考<A 
+href="游戏引擎反外挂系统/DB数据库资料/属性对照表.htm#属性对照表">属性对照表</A><BR><BR></FONT> 
+ 
+</FONT><FONT color=#000000><FONT face=宋体>9、</FONT><A 
+href="游戏引擎反外挂系统/DB数据库资料/Monster详解.html"><FONT face=宋体>cfg_monster.xls</FONT></A><FONT face=宋体>----------怪物表的详细说明，属性配置请参考<A 
+href="游戏引擎反外挂系统/DB数据库资料/属性对照表.htm#属性对照表">属性对照表</A><BR><BR>10、</FONT><A 
+href="游戏引擎反外挂系统/DB数据库资料/Magic详解[!].htm"><FONT face=宋体>cfg_magic.xls</FONT></A><FONT face=宋体>------------技能表的详细说明</FONT></FONT></FONT></P>
+<P align=left><FONT color=#ff00ff><FONT color=#000000 face=宋体>11、所有NPC对话框的文字错位，可在<FONT color=#ff0000>M2选项-客户端控制-页面显示</FONT><FONT color=#000000>里面设置NPC对话框文字坐标微调。</FONT></FONT></FONT></P>
+<P align=left><FONT color=#ff00ff><FONT color=#000000 face=宋体>12、写法差别<BR>&nbsp;&nbsp;&nbsp;&nbsp;<FONT color=#ff0000>;注意：996的写法第四个参数(写入的变量)不要带&lt;$STR()&gt;</FONT>&nbsp;，读配置，写配置都不要带<FONT color=#ff0000>&lt;$STR()&gt;</FONT>&nbsp;<BR><FONT color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;ReadConfigFileItem</FONT> 
+..\QuestDiary\KEY.ini &lt;$USERNAME&gt; 内容 S$配置项内容<BR>&nbsp;&nbsp;&nbsp; <A 
+href="游戏引擎反外挂系统/游戏功能详解/自定义OK框[!].htm">自定义OK框</A>，放入物品之后GOM是可以用checkitem检测到物品在背包，这个逻辑会存在一些漏洞，<BR>&nbsp;&nbsp;&nbsp; 
+996的逻辑是放入OK的物品是用检测背包的命令是检测不到的，可以用<SPAN class=STYLE1><STRONG><FONT color=#ff0000>CheckBoxItemCount</FONT></STRONG></SPAN> 
+ 0 1 检测OK框是否存在物品</FONT></FONT></P>
+<P align=left><FONT face=宋体>13、怪物表的K列(速度/SPEED)实则是怪物躲避，<FONT color=#ff0000>GOM的躲避有效上限为255</FONT><FONT color=#ff0000>，996引擎上限65535</FONT>，如果你的版本怪物躲避超过了255那么请自行调整躲避数值。</FONT></P>
+<P align=left><FONT face=宋体>14、对于使用无效附加属性,例如:CHECKITEMADDVALUE 1 8 &gt; 0 
+这种方法来做拾取鉴定、首爆标识或者开光等功能的GM，建议使用<A 
+href="游戏引擎反外挂系统/新增功能/物品添加标记.htm">物品标记</A>来做，方法更简单方便，支持32个标记可以做更强大的功能。</FONT><FONT color=#ff00ff></P></FONT>
+</BODY>
+</HTML>

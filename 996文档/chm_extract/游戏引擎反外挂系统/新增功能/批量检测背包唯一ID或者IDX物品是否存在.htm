@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>批量检测背包唯一ID或者IDX物品是否存在</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT color=#000000><FONT face=宋体><STRONG><FONT color=#0000ff>批量检测背包唯一ID或者IDX物品是否存在<BR></FONT><BR></STRONG>格式:CheckBagItem 参数1 
+参数2 参数3<BR><BR>参数1:物品唯一ID或者IDX (多个物品请用逗号,分开)<BR>参数2:存入变量<BR>参数3:模式 
+(0或者空物品唯一IDX&nbsp; 
+1=物品的IDX)<BR><BR><BR>例子:<BR><BR>[@检测背包唯一ID物品]<BR>#IF<BR>CheckBagItem 
+3395,3393,3391,9920 S10<BR>#ACT<BR>SENDMSG 6 
+当前背包唯一ID物品有:&lt;$STR(S10)&gt;<BR>#ELSEACT<BR>SENDMSG 6 当前一个不存在</FONT>  </FONT><FONT color=#000000><BR><BR><BR><FONT face=宋体>[@检测背包IDX物品]<BR>#IF<BR> 
+CheckBagItem 
+30026,30027,30031,30042,30041 S10 1<BR>#ACT<BR>SENDMSG 6 
+当前背包存在的IDX物品有:&lt;$STR(S10)&gt;<BR>#ELSEACT<BR>SENDMSG 6 
+当前一个不存在<BR><BR></FONT></FONT></P></body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>发送屏幕滚动信息</title>
+</head>
+
+<body>
+<pre><font color="#0000ff" size="2" face=宋体><strong>功能:</strong></font><font color="#0000ff" size="2"><strong><br ></pre></STRONG></FONT><FONT face=宋体>发送屏幕滚动信息<br >
+<font color="#0000ff" size="2"><strong>格式:</strong></font><br ></FONT><FONT face=宋体> 
+<P>SENDMOVEMSG 信息类型代码(0全局发送，1发送给个人，2跨服发送给所有人) 字体颜色(0-255) 背景颜色(0-255) Y坐标 滚动次数 
+信息内容 滚动速度(为空的情况下默认是2，数字越大越快)</P></FONT><FONT face=宋体>%ServerName 区名称 </FONT> 
+       
+
+ 
+<p><FONT face=宋体>[@测试]<br >
+#if<br >
+#ACT<br>
+MOV S1 这个是屏幕滚动信息坐标在100<BR>
+  <br>
+SENDMOVEMSG1253255&nbsp;100&nbsp;3&nbsp;&lt;这个是屏幕滚动信息坐标在100/FCOLOR=250&gt;{&lt;$STR(S1)&gt;/FCOLOR=253}{&lt;$USERNAME&gt;/FCOLOR=254}&lt;这个是屏幕滚动信息坐标在100/FCOLOR=69&gt;<br ><BR>SENDMOVEMSG 1 253 255 350 1 
+这个是屏幕滚动信息坐标在350</FONT></FONT></p>
+<p><FONT face=宋体>[@跨服发送]<br >
+#if<br >
+#ACT<br>
+MOV S1 这个是屏幕滚动信息坐标在100<br>SENDMOVEMSG 
+2 253 2551003&lt;区名称：%ServerName，这个是屏幕滚动信息坐标在100/FCOLOR=250&gt;{&lt;$STR(S1)&gt;/FCOLOR=253}{&lt;$USERNAME&gt;/FCOLOR=254}&lt;这个是屏幕滚动信息坐标在100/FCOLOR=69&gt;</FONT></p>
+</body>
+</html>

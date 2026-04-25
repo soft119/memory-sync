@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>装备属性升级</title>
+</HEAD>
+<BODY>
+<P><FONT size=5 face=宋体><STRONG>装备升级</STRONG></FONT></P>
+<P><FONT size=5><FONT face=宋体><FONT size=3>装备升级功能可以指定升级物品及属性，按指定机率得到结果。<BR>需要升级的装备物品必须放在身上。<BR></FONT><BR><FONT size=4><STRONG>命令格式</STRONG></FONT></FONT></FONT></P>
+<P><FONT face=宋体>UPGRADEITEMEX 物品位置(0-47) 属性位置(0-14) 
+成功机率(0-100) 点数机率(0-255) 是否破碎(0,1)</FONT>     </P>
+<P><BR><FONT face=宋体>装备位置代码:</FONT>
+</P>
+<p><FONT face=宋体>0 盔甲 <br>
+  1 武器 <br>
+  2 照明物 <br>
+  3 项链 <br>
+  4 头盔 <br>
+  5 右手镯 <br>
+  6 左手镯 <br>
+  7 右戒指 <br>
+  8 左戒指 <br>
+  9 护身符 <br>
+  10 腰带 <br>
+  11 鞋子 <br>
+  12 宝石<br>
+  13 斗笠<br>
+  14 军鼓<br>
+  15 马牌<br>
+  16 盾牌<br>
+  17 时装衣服 时装12个<br>
+  18 时装武器<br>
+  19 时装项链<br>
+  20 时装头盔<br>
+  21 时装左手镯<br>
+  22 时装右手镯<br>
+  23 时装左戒指<br>
+  24 时装右戒指<br>
+  25 时装勋章<br>
+  26 时装腰带<br>
+  27 时装鞋子<br>
+  28 时装宝石</FONT>
+   </p>
+<p><FONT face=宋体>30~41 十二个首饰盒装备</FONT> </p>
+<p><FONT face=宋体>42-47 六个首饰盒装备位置</FONT> </p>
+<P><FONT face=宋体>属性位置:<BR>不同类型的物品属性位置不一样，以后补充这些资料，自行可以进行测试得到。</FONT></P>
+<P><FONT face=宋体>成功机率:<BR>升级成功机率，数字越大机率越小。</FONT></P>
+<P><BR><FONT face=宋体>点数机率:<BR>升级成功后得到的点数，数值在 0 -255之间。</FONT>  </P>
+<P><FONT face=宋体>是否破碎:<BR>升级失败后装备是否破碎，数值为0或1，1为失败后破碎。</FONT></P>
+<P><FONT face=宋体></FONT>&nbsp;</P>
+<P><STRONG><FONT size=5 face=宋体>属性位置详解</FONT></STRONG></P>
+<P><FONT face=宋体>重要注意事项，请在使用本功能前务必详细阅读，否则将有可能带来严重后果<BR> 当所需要升级的项链、手镯、戒指、在DB数据库中因 
+StdMode值的不同，而升级<BR>出来得到的结果也不同，所以使用者请按照以下属性变化列表进行详细设置！<BR>其中涉及的体力恢复、魔法恢复、毒物躲避、中毒恢复、如升级成功“1”点属性，则表示为 
+10%<BR></FONT></P>
+<P><FONT face=宋体>项链属性：<BR>当StdMode值为19时：属性位置“0”升级出来表现为“魔法躲避”、属性位置“1”升级出来属性表现为“幸运”<BR>当StdMode值为20时：属性位置“0”升级出来表现为“准确”、属性位置“1”升级出来属性表现为“敏捷”<BR>当StdMode值为21时：属性位置“0”升级出来表现为“体力恢复”、属性位置“1”升级出来属性表现为“魔法恢复”</FONT></P>
+<P><FONT face=宋体>手镯属性：<BR>当StdMode值为24时：属性位置“0”升级出来表现为“准确”、属性位置“1”升级出来属性表现为“敏捷”<BR>当StdMode值为26时：属性位置“0”升级出来表现为“防御上限”、属性位置“1”升级出来属性表现为“魔御上限”</FONT></P>
+<P><FONT face=宋体>戒指属性：<BR>当StdMode值为22时：属性位置“0”升级出来表现为“防御上限”、属性位置“1”升级出来属性表现为“魔御上限”<BR>当StdMode值为23时：属性位置“0”升级出来表现为“毒物躲避”、属性位置“1”升级出来属性表现为“中毒恢复”</FONT></P>
+<P><FONT face=宋体></FONT>&nbsp;</P>
+<P><FONT face=宋体></FONT>&nbsp;</P>
+<P><FONT face=宋体>盔甲<BR>0&nbsp;防御<BR>1&nbsp;魔御<BR>2&nbsp;攻击<BR>3&nbsp;魔法<BR>4&nbsp;道术<BR>5-13&nbsp;无效果<BR>14&nbsp;持久</FONT></P>
+<P><FONT face=宋体></FONT>&nbsp;</P>
+<P><FONT face=宋体></FONT>&nbsp;</P>
+<P><FONT face=宋体>武器<BR>0&nbsp;DC2<BR>1&nbsp;MC2<BR>2&nbsp;SC2<BR>3&nbsp;幸运<BR>4&nbsp;诅咒<BR>5&nbsp;准确<BR>6&nbsp;攻击速度<BR>7&nbsp;强度<BR>8-9&nbsp;暂不知道<BR>10&nbsp;需开封<BR>11-13&nbsp;暂不知道<BR>14&nbsp;持久</FONT></P>
+<P><FONT face=宋体>头盔<BR>0&nbsp;防御<BR>1&nbsp;魔御<BR>2&nbsp;攻击<BR>3&nbsp;魔法<BR>4&nbsp;道术<BR>5&nbsp;佩带需求<BR>6&nbsp;佩带级别<BR>7-13&nbsp;无效果<BR>14&nbsp;持久</FONT></P>
+<P><FONT face=宋体>项链<BR>0&nbsp;AC2<BR>1&nbsp;MAC2<BR>2&nbsp;DC2<BR>3&nbsp;MC2<BR>4&nbsp;SC2<BR>6&nbsp;佩带需求<BR>7&nbsp;佩带级别<BR>8&nbsp;reserved<BR>9-13&nbsp;暂不知道<BR>14&nbsp;持久</FONT></P>
+<P><BR><FONT face=宋体>手镯<BR>0&nbsp;AC2<BR>1&nbsp;MAC2<BR>2&nbsp;DC2<BR>3&nbsp;MC2<BR>4&nbsp;SC2<BR>6&nbsp;佩带需求<BR>7&nbsp;佩带级别<BR>8-13&nbsp;无效果<BR>14&nbsp;持久</FONT></P>
+<P><BR><FONT face=宋体>戒指<BR>0&nbsp;AC2<BR>1&nbsp;MAC2<BR>2&nbsp;DC2<BR>3&nbsp;MC2<BR>4&nbsp;SC2<BR>6&nbsp;佩带需求<BR>7&nbsp;佩带级别<BR>8-13&nbsp;无效果<BR>14&nbsp;持久</FONT></P>
+</BODY>
+</HTML>
+

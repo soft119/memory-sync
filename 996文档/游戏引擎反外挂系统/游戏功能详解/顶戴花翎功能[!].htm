@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>顶戴花翎功能</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+<style type="text/css">
+<!--
+.style1 {
+	font-size: large;
+	font-weight: bold;
+}
+.style2 {color: #FF0000}
+-->
+</style>
+</head>
+
+<body>
+<p class="style1">顶戴花翎功能</p>
+<p><span class="style2">功能：顶戴花翎功能</span><br>
+  格式：SetIcon 位置(0-9) WIL文件序号 图片序号(0-65535) X(为空时默认X=0) Y(为空时默认Y=0) 播放张数(为空时默认张数=1) 播放效果(0普通 1特效) 播放速度(毫秒，为空时速度为300毫秒) 是否只有自己看见（0=所有人都可以看见 1=仅仅自己可以看见） 播放次数(0或为空时表示无限次数)|播放顺序(0角色上面 1角色下面)<br>
+  说明：参数10是两个参数使用“|”隔开<br>
+  例：<br>
+</p>
+<p>--------------------------------------------------------------------------</p>
+<p><span class="style2">NPC顶戴花翎:</span><br>
+  MerChant.txt中的NPC<br>
+  盟重土城/流浪汉 3 346 334 流浪汉 0 3 0</p>
+<p>流浪汉的顶戴花翎会读取 Envir\NpcIcons\盟重土城\流浪汉-3.txt</p>
+<p>Envir\NpcIcons\盟重土城\流浪汉-3.txt 格式如下:<br>
+  ;WIL文件序号 图片序号(0-65535) 播放张数 X Y 播放效果(0普通 1特效) 播放速度(毫秒，为空时速度为300毫秒) 播放次数(0或为空时表示无限次数) 播放顺序(0角色上面 1角色下面)<br>
+  ;最多不超过十行<br>
+  3 1 5 0 -30</p>
+<p>--------------------------------------------------------------------------</p>
+<p><span class="style2">怪物顶戴花翎:</span><br>
+  白野猪的顶戴花翎会读取 Envir\MonIcons\白野猪.txt</p>
+<p>Envir\MonIcons\白野猪.txt 格式如下和NPC的顶戴花翎格式是一样的:<br>
+  ;WIL文件序号 图片序号(0-65535) 播放张数 X Y 播放效果(0普通 1特效) 播放速度(毫秒，为空时速度为300毫秒) 播放次数(0或为空时表示无限次数) 播放顺序(0角色上面 1角色下面)<br>
+  ;最多不超过十行<br>
+  3 1 5 0 -30</p>
+<p>--------------------------------------------------------------------------<br>
+  <span class="style2">人物顶戴花翎:</span><br>
+  [@main]<br>
+  #ACT<br>
+  SETICON 0 3 1 30 -30<br>
+  SETICON 1 3 2 -30 -30<br>
+  SETICON 2 3 3 -60 -30 3<br>
+  SETICON 3 3 7</p>
+<p>;如果要清除，WIL文件序号设置为-1即可<br>
+  [@main]<br>
+  SETICON 0 -1<br>
+  SETICON 1 -1<br>
+  SETICON 2 -1</p>
+<p></p>
+</body>
+</html>

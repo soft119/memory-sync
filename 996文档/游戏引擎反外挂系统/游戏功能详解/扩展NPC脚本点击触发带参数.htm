@@ -1,0 +1,68 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>扩展NPC脚本点击触发带参数</title>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<STYLE type=text/css>
+<!--
+.STYLE2 {color: #FF0000}
+-->
+</STYLE>
+
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<P><STRONG><FONT size=5>扩展NPC脚本点击触发带参数、参数回调</FONT></STRONG></P>
+<P>-----------------------------------扩展NPC脚本点击触发带参数------------------------------<BR>
+    <BR>
+    <BR>
+    ///////////////////////////////////////////////////////////新增触发带参数<BR>
+    <BR>
+    <BR>
+    <BR>
+  &lt;@测试1/@测试(1,2,3)&gt; &lt;@测试2/@测试(2,3,4)&gt;<BR>
+    <BR>
+    [@测试]<BR>
+    #IF<BR>
+  #ACT<BR>
+  SENDMSG 6 &lt;$SCRIPTPARAM1&gt;,&lt;$SCRIPTPARAM2&gt;,&lt;$SCRIPTPARAM3&gt;<BR>
+  break<BR>
+  <BR>
+  <BR>
+  <BR>
+  <BR>
+  [@main]<BR>
+  你想买点什么呢?\\<BR>
+&lt;麻痹戒指/@购物(20,麻痹戒指)&gt; &lt;重生戒指/@购物(20,重生戒指)&gt;\<BR>
+&lt;护体戒指/@购物(20,护体戒指)&gt; &lt;魔道麻痹/@购物(20,魔道麻痹戒)&gt;\<BR>
+  [@购物]<BR>
+  <BR>
+  #IF<BR>
+  CHECKGAMEGOLD &lt;$SCRIPTPARAM1&gt;<BR>
+  #ACT<BR>
+  GAMEGOLD - &lt;$SCRIPTPARAM1&gt;<BR>
+  GIVE &lt;$SCRIPTPARAM2&gt; 1<BR>
+  #ELSESAY<BR>
+  对不起!你的元宝不够!<BR>
+  <BR>
+  <BR>
+  <BR>
+  ####################################################2019-08-28进行补充说明，防止个别人运用错误！！！！！下面为解说！！！！#########################################<BR>
+  <BR>
+  <BR>
+  [@main]<BR>
+  亲爱的&lt;$USERNAME&gt;\<BR>
+  你想买点什么呢?\\<BR>
+&lt;麻痹戒指/@购物(20,麻痹戒指)&gt; &lt;重生戒指/@购物(20,重生戒指)&gt;\<BR>
+&lt;护体戒指/@购物(20,护体戒指)&gt; &lt;魔道麻痹/@购物(20,魔道麻痹戒)&gt;\<BR>
+  <BR>
+  [@购物]<BR>
+  #IF<BR>
+  CHECKGAMEGOLD &lt;$SCRIPTPARAM1&gt;<BR>
+  #ACT<BR>
+  GAMEGOLD - &lt;$SCRIPTPARAM1&gt;<BR>
+  GIVE &lt;$SCRIPTPARAM2&gt; 1<BR>
+  #ELSESAY<BR>
+  对不起!你的元宝不够!<BR><BR><BR><FONT color=#0000ff>新增NPC脚本点击触发带参数、参数回调,扩展新的传参方式</FONT><BR>[@main]<BR>&lt;传参测试/@传参测试#装备名=布衣(男)#参数2=2#参数3=300#参数4=
+  400&gt;</P>
+<P>[@传参测试]<BR>#ACT<BR>;前三个位置支持老模式传参，注意位置3个。<BR>;<FONT color=#ff0000>新老参数回调不可以混用</FONT><BR>;新的参数回调写法可以支持1~99，只支持S$扩展变量获取回调值。<BR>SENDMSG 
+6 
+&lt;$STR(S$装备名)&gt;,&lt;$STR(S$参数2)&gt;,&lt;$STR(S$参数3)&gt;,&lt;$STR(S$参数4)&gt;<BR><BR><BR><BR><BR><BR><BR><BR><BR>
+  </P></BODY></HTML>

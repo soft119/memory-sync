@@ -1,0 +1,18 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<TITLE>为什么物品不能重叠</TITLE>
+</HEAD>
+<BODY>
+<P>为什么物品不能重叠</P>
+<P>物品重叠功能不能使用在拥有持久、属性、品质、纯度等物品上。 StdMode等于 0, 2, 3, 40, 41, 42 ,31 </P>
+<P>打包物品<FONT style="BACKGROUND-COLOR: #0078d7" color=#ffffff>叠加</FONT> StdMode=31 Source=0 OverLap=1或2 需要设置正确的解包物品“UnbindList.txt”，否则不算叠加打包物品，双击还是会消失</P>
+<P>物品重叠功能，StdItem.DB 中OverLap=1或2 表示可以重叠 0不叠加<br />
+OverLap=1 重量=重叠数量*单物品重量/10<br />
+OverLap=2 重量=重叠数量*单物品重量</P>
+<P>DuraMax必须大于1</P>
+</BODY>
+</HTML>
+ 

@@ -1,0 +1,39 @@
+<title>自定义输入</title>
+<p>自定义输入</p>
+<p>@@InPutString 用法 @InPutInteger   类似</p>
+<p>22要和后面的变量一样&lt;$STR(S22)&gt;</p>
+<p>举例说明：</p>
+<p>[@main]<br />
+&lt;请输入充值卡卡号/@@InPutString22&gt;\</p>
+<p>[@InPutString22]<br />
+  #IF<br />
+  CHECKTEXTLIST ..\QuestDiary\元宝充值\50000.txt &lt;$STR(S22)&gt;<br />
+  ;这个命令是检测你输入的卡号和50000.txt这里面的某行卡号是否相同<br />
+  #ACT<br />
+  DELTEXTLIST ..\QuestDiary\元宝充值\50000.txt &lt;$STR(S22)&gt;<br />
+  ;这个命令是将你输入的那行卡号在50000.txt这个文档里删除掉<br />
+  GAMEGOLD + 50000<br />
+  SENDMSG 7 充值成功：增加[50000元宝]，你当前帐户里元宝数为：&lt;$GAMEGOLD&gt;<br />
+  SENDMOVEMSG 0 251 249 350 1 [『&lt;$USERNAME&gt;』使用在线充值卡--充值成功：增加[50000元宝]，感谢您的支持希望您玩的开心:-)]<br />
+  GOTO @充值元宝<br />
+  #ELSEACT<br />
+  SENDMSG 7 您输入的卡号不正确或已被他人使用，请重新输入！<br />
+  GOTO @充值元宝</p>
+<p>---------------------------------------------------------------------</p>
+<p>[@main]</p>
+<p>支持自定义对话框标题，弹出来的对话框上面显示的信息，括号里的信息就是对话框上显示的信息<br />
+  &lt;请输入充值卡卡号/@@InPutString22(请输入充值卡卡号：)&gt;\</p>
+<p>[@InPutString22]<br />
+#IF<br />
+CHECKTEXTLIST ..\QuestDiary\元宝充值\50000.txt &lt;$STR(S22)&gt;<br />
+;这个命令是检测你输入的卡号和50000.txt这里面的某行卡号是否相同<br />
+#ACT<br />
+DELTEXTLIST ..\QuestDiary\元宝充值\50000.txt &lt;$STR(S22)&gt;<br />
+;这个命令是将你输入的那行卡号在50000.txt这个文档里删除掉<br />
+GAMEGOLD + 50000<br />
+SENDMSG 7 充值成功：增加[50000元宝]，你当前帐户里元宝数为：&lt;$GAMEGOLD&gt;<br />
+SENDMOVEMSG 0 251 249 350 1 [『&lt;$USERNAME&gt;』使用在线充值卡--充值成功：增加[50000元宝]，感谢您的支持希望您玩的开心:-)]<br />
+GOTO @充值元宝<br />
+#ELSEACT<br />
+SENDMSG 7 您输入的卡号不正确或已被他人使用，请重新输入！<br />
+GOTO @充值元宝</p>

@@ -1,0 +1,79 @@
+[2026-04-09 01:07:36:077] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：47; NpcThreadId: 17428, CurPlayThreadId: 17428
+
+[2026-04-09 01:07:54:469] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：47; NpcThreadId: 17428, CurPlayThreadId: 17428
+
+[2026-04-09 01:08:28:911] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：31; NpcThreadId: 17428, CurPlayThreadId: 17428
+
+[2026-04-09 01:11:36:671] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：47; NpcThreadId: 17428, CurPlayThreadId: 17428
+
+[2026-04-09 20:14:21:722] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：31; NpcThreadId: 20244, CurPlayThreadId: 20244
+
+[2026-04-09 20:51:10:549] 脚本错误2: CheckMirRoleUseItem 1 第:45 行: D:\MirServer\Mir200\Envir\Market_Def\传送员\传送员-3.txt
+[2026-04-09 20:51:10:549] 脚本错误2: RANDOM 100 第:68 行: D:\MirServer\Mir200\Envir\Market_Def\传送员\传送员-3.txt
+[2026-04-09 20:51:10:549] 脚本错误2: TakeOffWeapon 1 第:88 行: D:\MirServer\Mir200\Envir\Market_Def\传送员\传送员-3.txt
+
+[2026-04-09 20:53:42:833] 脚本错误2: CheckMirRoleUseItem 1 第:45 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-09 20:53:42:833] 脚本错误2: RANDOM 100 第:68 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-09 20:53:42:833] 脚本错误2: TakeOffWeapon 1 第:88 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+
+[2026-04-09 21:07:04:824] 脚本错误2: RANDOM 100 第:56 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+
+[2026-04-09 21:10:34:791] 脚本错误2: RANDOM 100 第:58 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-09 21:10:34:791] 脚本错误3: TakeOffWeapon 1 第:69 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+
+[2026-04-09 21:13:53:194] 脚本错误2: RANDOM 100 第:57 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-09 21:13:53:195] 脚本错误3: TakeOffWeapon 1 第:68 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+
+[2026-04-09 21:17:02:819] 脚本错误2: RANDOM 100 第:64 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-09 21:17:02:819] 脚本错误2: RANDOM 100 第:75 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-09 21:17:02:819] 脚本错误3: RANDOM 100 第:82 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-09 21:17:02:819] 脚本错误2: TakeOffWeapon 1 第:98 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+
+[2026-04-09 21:18:16:895] 脚本错误2: TakeOffWeapon 1 第:86 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+
+[2026-04-09 21:18:40:836] 脚本错误2: TakeOffWeapon 1 第:86 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+
+[2026-04-09 21:19:52:832] 脚本错误3: TakeOffWeapon 1 第:62 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+
+[2026-04-09 21:26:16:915] 脚本错误2: RANDOM 100 第:57 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+
+[2026-04-09 21:34:54:804] 脚本错误2: SMALL N1 70 第:59 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+
+[2026-04-09 21:36:06:854] 脚本错误2: SMALL N1 70 第:57 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+
+[2026-04-09 21:37:02:804] 脚本错误1: MOVR N1 100 第:57 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+
+[2026-04-09 21:59:06:815] 脚本错误2: SMALL N1 70 第:57 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+
+[2026-04-09 22:01:12:598] 脚本错误1: MOVR N1 100 第:57 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+
+[2026-04-09 22:01:53:321] 脚本错误1: MOVR N1 100 第:57 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+
+[2026-04-10 00:22:43:635] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：63; NpcThreadId: 24008, CurPlayThreadId: 24008
+
+[2026-04-10 00:53:28:545] 脚本错误2: RANDOM 10 第:44 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-10 00:53:28:545] 脚本错误2: SMALL N94 5 第:45 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-10 00:53:28:545] 脚本错误2: RANDOM 10 第:55 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-10 00:53:28:545] 脚本错误2: SMALL N94 3 第:56 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-10 00:53:28:545] 脚本错误1: UPGRADEITEMEX 1 0 0 1 0 第:66 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-10 00:53:28:545] 脚本错误1: SENDMSG 6 成功！攻击+1 第:67 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-10 00:53:28:545] 脚本错误2: RANDOM 10 第:98 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-10 00:53:28:545] 脚本错误2: SMALL N94 5 第:99 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-10 00:53:28:545] 脚本错误2: RANDOM 10 第:109 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-10 00:53:28:545] 脚本错误2: SMALL N94 3 第:110 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-10 00:53:28:545] 脚本错误1: UPGRADEITEMEX 1 2 0 1 0 第:120 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-10 00:53:28:545] 脚本错误1: SENDMSG 6 成功！道术+1 第:121 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-10 00:53:28:545] 脚本错误2: RANDOM 10 第:152 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-10 00:53:28:545] 脚本错误2: SMALL N94 5 第:153 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-10 00:53:28:545] 脚本错误2: RANDOM 10 第:163 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-10 00:53:28:545] 脚本错误2: SMALL N94 3 第:164 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-10 00:53:28:545] 脚本错误1: UPGRADEITEMEX 1 1 0 1 0 第:174 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-10 00:53:28:545] 脚本错误1: SENDMSG 6 成功！魔法+1 第:175 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+
+[2026-04-10 00:55:21:349] 脚本错误2: RANDOM 10 第:40 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-10 00:55:21:349] 脚本错误2: SMALL N94 2 第:41 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-10 00:55:21:349] 脚本错误2: RANDOM 10 第:68 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-10 00:55:21:349] 脚本错误2: SMALL N94 2 第:69 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-10 00:55:21:349] 脚本错误2: RANDOM 10 第:96 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-10 00:55:21:349] 脚本错误2: SMALL N94 2 第:97 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+

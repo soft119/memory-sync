@@ -1,0 +1,15 @@
+<title>检测包含字符串取在列表中行数</title>
+<p>格式：该命令是检测命令 在#IF下使用 <br />
+  GetStringPosEx <FONT size=2><FONT size=2 face=Fixedsys>路径 包含的字符串</FONT></FONT> 保存变量(该字符串在列表里的行数) 保存变量(列表中的完整字符串)<br />
+</p>
+<p>;==========================================<br />
+  检查字符串是否包涵在另外一个字符串中<br />
+  [@Test]<br />
+  #IF<br />
+  GetStringPosEx <FONT size=2><FONT size=2 face=Fixedsys>..\QuestDiary\测试.txt</FONT></FONT> www.gameofmir.com N111 S111 <br />
+  #ACT<br />
+  SENDMSG 6 包含检测字符串所在行<FONT size=2><FONT size=2 face=Fixedsys>:&lt;$STR(N111)&gt;</FONT></FONT>,该行文本里的字符串:<FONT size=2><FONT size=2 face=Fixedsys>&lt;$STR(S111)&gt;</FONT></FONT><br />
+  #elsesay<br />
+  不包含<br />
+  ;==========================================</p>
+<p>&nbsp;</p>

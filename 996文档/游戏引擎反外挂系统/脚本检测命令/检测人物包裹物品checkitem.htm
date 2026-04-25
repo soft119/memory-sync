@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>检测人物包裹物品checkitem</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+</head>
+
+<BODY>
+<p>checkitem 物品名称 数量 是否部分匹配(0=名称必须完全一样,1=名称部分一样) 是否检测改名名称(0=不检测 1=检测)
+</p>
+<p>[@main]<br>
+  #if<br>
+  checkitem 木剑 1<br>
+  #ACT<br>
+sendmsg 6 检测到木剑</p>
+<p>[@main]<br>
+  #if<br>
+  checkitem 改名木剑 1 0 1<br>
+  #ACT<br>
+  sendmsg 6 检测到改名木剑</p>
+<p>[@main]<br>
+  #if<br>
+  checkitem 改名木剑 1 1 1<br>
+  #ACT<br>
+  sendmsg 6 检测到改名木剑<br>
+</p>
+</BODY>
+</html>

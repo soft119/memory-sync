@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>捡取精灵 捡物精灵</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+<style type="text/css">
+<!--
+.style1 {
+	color: #FF0000;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<BODY>
+<p class="style1"><FONT face=宋体>此宠物不占位置，无属性，不卡位，不被攻击，无敌模式，非对象，没有血条血值，不攻击人物怪物，就仅有捡取的功能<br>
+  主人切换地图宝宝也跟随一起换 不捡取别人打死的掉落物品 不捡取人物死亡掉落的物品 同步人物内挂设置勾选是否自动捡取，没勾选就过滤不捡取<br>
+捡取规则跟人物一样，会触发QF脚本等</FONT>
+</p>
+<p class="style1"><FONT face=宋体>(暂不支持)</FONT>
+</p>
+<p><strong><FONT face=宋体>CheckPickUpItemSpirit<br>
+  ;检测是否已经有了捡取精灵</FONT>
+  </strong></p>
+<p><strong><FONT face=宋体>ClearPickUPItemSpirit<br>
+;删除捡取精灵</FONT>
+</strong></p>
+<p><strong><FONT face=宋体>RecallPickUpItemSpirit 怪物名称 捡取速度(100-1000) 守护范围(最小20，超过范围会自动传输到主人身边) 
+有效时间(分钟,时间到了会自动消失)</FONT>    </strong></p>
+<p><strong><FONT face=宋体>[@召唤捡取精灵]<br>
+  #if<br>
+  CheckPickUpItemSpirit<br>
+  #act<br>
+  SENDMSG 6 你已经有了捡取精灵<br>
+  #elseact<br>
+  RecallPickUPItemSpirit 白野猪 600 20 5<br>
+SENDMSG 6 
+成功召唤捡取精灵，有效时间5分钟</FONT>
+  </strong></p>
+</BODY>
+</html>

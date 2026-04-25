@@ -1,0 +1,18 @@
+<title>检查字符串是否在指定文件中[!]</title>
+<p>检查字符串是否在指定文件中 </p>
+<p>[@旧格式_不区分大小写]<br />
+  #IF<br />
+  CHECKTEXTLIST ..\QuestDiary\充值系统\10元卡号.txt &lt;$STR(S$2)&gt;<br />
+#SAY<br />
+&lt;$STR(S$2)&gt;在列表中<br />
+#ELSESAY<br />
+&lt;$STR(S$2)&gt;不在列表中<br />
+</p>
+<p>[@新格式_区分大小写]<br />
+  #IF<br />
+  CHECKTEXTLIST ..\QuestDiary\充值系统\10元卡号.txt &lt;$STR(S$2)&gt; &lt;$STR(S$3)&gt;<br />
+  #SAY<br />
+  卡号密码正确<br />
+  #ELSESAY<br />
+  卡号密码错误</p>
+<p>S$2和S$3的值在“10元卡号.txt”文本中以空格分开</p>

@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>吸怪引怪嘲讽</title>
+</head>
+
+<body>
+<p><FONT face=宋体>吸怪引怪嘲讽</FONT></p>
+<p><FONT face=宋体>DoTaunt 范围 怪物最低等级 
+是否包含人物(0=不包含 1=  包含) 是否瞬移过来，对人物无效，只针对怪物(0= 走动 
+1=  瞬移人物坐标 2=   瞬移人物周围)是否检测怪物已经有攻击目标(0不检测 1不吸引已经有了攻击目标的怪物)  </p>
+<p><FONT face=宋体>[@main]<br>
+  #if<br>
+  #act<br>
+  DoTaunt 5 100<br>
+SENDMSG 自身坐标范围5，等级大于等于100级的怪物会吸引过来</FONT>
+ </p></FONT>
+</body>
+</html>

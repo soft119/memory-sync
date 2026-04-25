@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>装备回收系统</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT face=宋体><FONT color=#0000ff><STRONG>装备回收系统</STRONG></FONT><BR><BR><BR><FONT color=#0000ff>开启和关闭命令<BR></FONT><FONT color=#ff0000>BackpackRecovery 
+<FONT color=#000000>参数1</FONT> 
+</FONT><BR>参数1：1=开启回收、0=关闭回收<BR><BR><FONT color=#0000ff>序号开关命令</FONT><BR><FONT color=#ff0000>SetNumber </FONT><FONT color=#000000>参数1 参数2<BR>参数1：序号<BR>参数2：1=开启、0=关闭<BR><BR><BR><FONT color=#0000ff>单次回收命令<BR></FONT><SPAN 
+style='FONT-SIZE: 13px; FONT-FAMILY: "Lucida Grande", verdana, arial, helvetica, sans-serif; WHITE-SPACE: normal; WORD-SPACING: 0px; TEXT-TRANSFORM: none; FLOAT: none; FONT-WEIGHT: 400; COLOR: rgb(51,51,51); FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; DISPLAY: inline !important; LETTER-SPACING: normal; BACKGROUND-COLOR: rgb(255,255,255); TEXT-INDENT: 0px; font-variant-ligatures: normal; font-variant-caps: normal; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial'>RECOVERITEMBYLIST 
+1,2,3,4</SPAN><BR>参数1:可空，为空时回收所有组，多个组以英文逗号组合。只执行一次回收<BR><BR><BR>例子:<BR>&nbsp;<BR>#IF<BR>#ACT<BR>BackpackRecovery&nbsp;1<BR>;首先要用这个命令开启此用户允许使用自动回收装备，否则激活回收序号也是没用的，这是个总开关<BR><BR>SetNumber&nbsp;0&nbsp;1<BR>SetNumber&nbsp;9&nbsp;1<BR>;这两条命令是激活回收序号0和9，M2里面自己添加0和9的回收序号，系统就会按照0和9的序号自动回收装备<BR>&nbsp;<BR>；如果只想回收序号9的装备，不想回收0的序号那就这样写<BR>SetNumber&nbsp;0&nbsp;0<BR>SetNumber&nbsp;9&nbsp;1<BR>&nbsp;<BR>；如果都关闭回收序号，那就这样写<BR>SetNumber&nbsp;0&nbsp;0<BR>SetNumber&nbsp;9&nbsp;0<BR><BR><BR><BR><FONT color=#0000ff><STRONG>回收相关触发及常量</STRONG></FONT><BR><BR><FONT color=#0000ff>序号触发QF：</FONT><BR><FONT color=#ff0000>[@BackpackRecovery_1]</FONT><BR>#Act<BR>sendmsg&nbsp;6&nbsp;回收序号1数量为：&lt;$BACKRECOVERYNUM&gt;，元宝：&lt;$BACKRECOVERYYB&gt;，金币：&lt;$BACKRECOVERYJB&gt;，泡点：&lt;$BACKRECOVERYPD&gt;，灵符：&lt;$BACKRECOVERYLF&gt;，金刚石：&lt;$BACKRECOVERYJGS&gt;，荣誉值：&lt;$BACKRECOVERYRYZ&gt;，经验值：&lt;$BACKRECOVERYJYZ&gt;，游戏点：&lt;$BACKRECOVERYYXD&gt;<BR><BR><BR><BR><FONT color=#0000ff>单件装备触发QF：<BR></FONT>该触发为每回收一件就触发一次，慎用<BR><FONT color=#ff0000>[@BackpackRecoverySingle]</FONT><BR>#Act<BR>sendmsg&nbsp;6&nbsp;回收名字为：&lt;$BACKRECOVERYNAME&gt;<BR><BR><BR><FONT color=#ff0000>显示信息配置及格式<BR><BR></FONT>显示信息的文本名字叫 装备回收显示.txt<BR>放入 
+Mir200\Envir\装备回收显示.txt 
+并勾选M2显示回收数据即可<BR><BR><BR>&nbsp;&nbsp;&nbsp; 
+★★★已自动回收[%num]件装备★★★/FColor=249</FONT></FONT></P>
+<P><FONT face=宋体><FONT color=#000000>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+元&nbsp; 
+宝+%money_yb/FColor=223<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+金&nbsp; 
+币+%money_jb/FColor=225<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+泡&nbsp; 
+点+%money_pd/FColor=244<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+灵&nbsp; 
+符+%money_lf/FColor=246<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+金刚石+%money_jgs/FColor=249<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+荣誉值+%money_ryz/FColor=253<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+经验值+%money_jyz/FColor=251<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+游戏券+%money_yxd/FColor=252<BR><BR><IMG alt="" src= "hspz.png"><BR><BR><IMG alt="" src="hs.png"><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR></P></FONT></FONT></body>
+</html>

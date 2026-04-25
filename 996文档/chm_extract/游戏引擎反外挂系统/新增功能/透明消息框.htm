@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>透明消息框</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT face=宋体><FONT color=#0000ff><STRONG>SendMessage<BR></STRONG></FONT>&nbsp;<BR>参数1：计算模式(0:以参数2、3作为直接绘制点 
+| 1:以自身角色XY作为计算基础点，再加上参数2、3 | 
+2:以游戏鼠标XY作为计算基础点，再加上参数2、3)<BR>&nbsp;<BR>参数2：X,支持负数(<FONT color=#0000ff>值大于分辨率时则在边框绘制</FONT>)<BR>&nbsp;<BR>参数3：Y,支持负数(<FONT color=#0000ff>值大于分辨率时则在边框绘制</FONT>)<BR>&nbsp;<BR>参数4：显示毫秒，0代表不限时，以毫秒为单位，1000等于1秒<BR>&nbsp;<BR>参数5：是否可以ESC关闭，1可以，0不可以<BR>&nbsp;<BR>参数6：颜色值，0-255<BR>&nbsp;<BR>参数7：内容，支持变量，空格使用[#]代替<BR>&nbsp;<BR>例子参考:<BR>[@透明消息框]<BR>#IF<BR>#ACT<BR>;清除以往自定义透明消息<BR><FONT color=#0000ff><STRONG>ClearMessage</STRONG><BR></FONT>&nbsp;<BR>;以模式0<BR>SendMessage 
+0 0 200 0 1 255 自定义透明框<BR>SendMessage 0 0 300 0 1 253 支持多种计算方式<BR>SendMessage 0 
+0 400 0 1 146 支持各种颜色、定时显示、ESC键关闭<BR>SendMessage 0 450 100 0 1 255 
+自定义透明框\[#]\内容自定义填写、支持变量<BR>SendMessage 0 450 180 0 1 255 
+自定义透明框\[#]\内容自定义填写、支持变量<BR>SendMessage 0 450 260 0 1 267 
+自定义透明框\[#]\内容自定义填写、支持变量<BR>SendMessage 0 450 340 0 1 254 
+自定义透明框\[#]\内容自定义填写、支持变量<BR>SendMessage 0 450 420 0 1 266 
+自定义透明框\[#]\内容自定义填写、支持变量<BR>SendMessage 0 450 500 0 1 101 
+自定义透明框\[#]\内容自定义填写、支持变量<BR>SendMessage 0 3000 200 0 1 135 
+自定义透明框<BR>SendMessage 0 3000 300 0 1 167 支持多种计算方式<BR>SendMessage 0 3000 400 0 
+1 254 支持各种颜色、定时显示、ESC键关闭</FONT></P>
+<P><BR><FONT face=宋体>ClearMessage<BR>;可以清除以往自定义透明消息框</FONT></P></body>
+</html>

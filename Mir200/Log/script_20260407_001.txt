@@ -1,0 +1,48 @@
+[2026-04-07 15:25:47:379] 脚本错误3: ... 第:998 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-07 15:27:39:461] 脚本错误3: ... 第:998 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-07 21:37:02:443] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：32; NpcThreadId: 7488, CurPlayThreadId: 7488
+
+[2026-04-07 21:38:02:800] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：47; NpcThreadId: 7488, CurPlayThreadId: 7488
+
+[2026-04-07 21:38:06:412] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：47; NpcThreadId: 7488, CurPlayThreadId: 7488
+
+[2026-04-07 21:38:48:867] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：31; NpcThreadId: 7488, CurPlayThreadId: 7488
+
+[2026-04-07 21:38:52:069] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：47; NpcThreadId: 7488, CurPlayThreadId: 7488
+
+[2026-04-07 21:39:12:863] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：46; NpcThreadId: 7488, CurPlayThreadId: 7488
+
+[2026-04-07 21:39:20:651] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：62; NpcThreadId: 7488, CurPlayThreadId: 7488
+
+[2026-04-07 21:41:21:587] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：31; NpcThreadId: 7488, CurPlayThreadId: 7488
+
+[2026-04-07 21:45:31:443] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：32; NpcThreadId: 7488, CurPlayThreadId: 7488
+
+[2026-04-07 21:48:39:129] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：31; NpcThreadId: 7488, CurPlayThreadId: 7488
+
+[2026-04-07 21:49:07:406] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：47; NpcThreadId: 7488, CurPlayThreadId: 7488
+
+[2026-04-07 21:49:31:278] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：47; NpcThreadId: 7488, CurPlayThreadId: 7488
+
+[2026-04-07 21:49:44:972] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：31; NpcThreadId: 7488, CurPlayThreadId: 7488
+
+[2026-04-07 21:50:09:006] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：31; NpcThreadId: 7488, CurPlayThreadId: 7488
+
+[2026-04-07 21:50:21:806] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：47; NpcThreadId: 7488, CurPlayThreadId: 7488
+
+[2026-04-07 21:51:11:259] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：47; NpcThreadId: 7488, CurPlayThreadId: 7488
+
+[2026-04-07 21:53:54:478] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：62; NpcThreadId: 7488, CurPlayThreadId: 7488
+
+[2026-04-07 23:18:42:300] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：63; NpcThreadId: 24224, CurPlayThreadId: 24224
+
+[2026-04-07 23:27:34:902] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:沙发发生 耗时：47; NpcThreadId: 15776, CurPlayThreadId: 15776
+
+[2026-04-07 23:57:17:557] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:沙发发生 耗时：32; NpcThreadId: 7304, CurPlayThreadId: 7304
+
+[2026-04-07 23:59:19:357] 脚本错误2: checkitem 心灵启示 1 第:1126 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-07 23:59:47:391] 脚本错误2: checkitem 心灵启示 1 第:1126 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+

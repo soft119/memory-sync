@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>自动一键捡取物品</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+<style type="text/css">
+<!--
+.style1 {color: #FF0000}
+-->
+</style>
+</head>
+
+<BODY>
+<p><strong><FONT face=宋体>自动一键捡取物品 
+,引擎-查看-列表信息二-内挂捡取 物品的一键捡取勾选的该命令才可以捡取成功 玩家内挂里物品的自动捡取也要勾上才能捡取</FONT>   </strong></p>
+<p><strong><FONT face=宋体>如果是假人使用一键自动捡取，引擎-查看-列表信息一允许捡取列表里 加入的列表的物品才能一键自动捡取</FONT> </strong></p>
+<p class="style1"><strong><FONT face=宋体>引擎有两个自动捡取脚本“PICKUPITEMS”这个命令使用一下捡取一次</FONT></strong></p>
+<p class="style1"><FONT face=宋体><STRONG>“StartPickUp”这个命令使用后就开始自动捡取。除非使用“StopPickUp”才会停止自动捡取，以下两种方式任选一个就可以<BR><BR></STRONG><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-fareast-font-family: 宋体"><FONT face=宋体>自动拾取模式</FONT>:StartPickUp <FONT face=宋体>参数</FONT><FONT face=Arial>1 
+</FONT><FONT face=宋体>参数</FONT><FONT face=Arial>2 </FONT><FONT face=宋体>参数</FONT><FONT face=Arial>3</FONT></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-fareast-font-family: 宋体"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-fareast-font-family: 宋体"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-fareast-font-family: 宋体"><FONT face=宋体>参数</FONT>1;&nbsp;0=<FONT face=宋体>人物为中心捡取，</FONT><FONT color=#ff0000><FONT face=Arial color=#000000>1=</FONT><FONT face=宋体><FONT color=#000000>小精灵为中心捡取</FONT>(后续扩展保留参数，暂时不可用) <FONT color=#000000>可空，为空时默认人物为中心</FONT></FONT></FONT></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-fareast-font-family: 宋体"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-fareast-font-family: 宋体"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-fareast-font-family: 宋体"><FONT face=宋体>参数</FONT>2; <FONT face=宋体>拾取范围</FONT></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: 宋体; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-ascii-font-family: Arial; mso-hansi-font-family: Arial; mso-bidi-font-family: Arial">&nbsp;(<FONT face=宋体>最大：</FONT><FONT face=Arial>8</FONT><FONT face=宋体>格</FONT><FONT face=Arial>)&nbsp; 
+可空，为空时默认5格</FONT></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-fareast-font-family: 宋体"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-fareast-font-family: 宋体"><BR></SPAN><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-fareast-font-family: 宋体"><FONT face=宋体>参数</FONT>3; <FONT face=宋体>捡取毫秒间隔最小</FONT><FONT face=Arial>500</FONT><FONT face=宋体>毫秒&nbsp; <FONT face=Arial>可空，为空时默认1000毫秒，(建议间隔1000毫秒)</FONT></FONT></SPAN></FONT></p>
+<p class="style1"><FONT face=宋体><SPAN 
+style="FONT-SIZE: 11pt; FONT-FAMILY: Arial; COLOR: rgb(0,0,0); mso-font-kerning: 0.0000pt; mso-spacerun: 'yes'; mso-fareast-font-family: 宋体">注意:(自动捡取不捡自己丢出去的物品)</SPAN></FONT></p>
+<p><FONT face=宋体>--------------------------------------------------------------------------------------------------------------------- 
+</FONT> </p>
+<p><strong><FONT face=宋体>一键捡取脚本⑴:</FONT></strong></p>
+<p><FONT face=宋体>这一种性能更好点，使用简单，不容易造成服卡<br>
+  ;启动一键捡取<br>
+   StartPickUp<br>
+  ;停止一键捡取<br>
+StopPickUp</FONT>
+</p>
+<p><FONT face=宋体>需要到M2-查看-列表信息二-内挂捡取-勾选自动捡取</FONT></p>
+<p><FONT face=宋体>[@main]<br>
+  #ACT<br>
+  StartPickUp<br>
+  sendmsg 6 一键捡取开启成功，捡取人物为中心5格范围内的物品，间隔1000毫秒</FONT>
+    </p>
+<p><FONT face=宋体>[@main]<br>
+  #ACT<br>
+  StartPickUp 0
+  6 500<br>
+  sendmsg 6 
+一键捡取开启成功，捡取人物为中心6格范围内的物品，间隔500毫秒</FONT>
+    </p>
+<p><FONT face=宋体>[@停止一键捡取]<br>
+  #ACT<br>
+  StopPickUp<br>
+  sendmsg 6 
+一键捡取已经关闭</FONT>
+    </p><FONT face=宋体>--------------------------------------------------------------------------------------------------------------------- 
+</FONT>
+
+<p><strong><FONT face=宋体>一键捡取脚本⑵:</FONT></strong></p>
+<p><FONT face=宋体>PICKUPITEMS X Y 范围(不能超过20) 
+是否按照(M2-查看-列表信息二-内挂捡取) 设置的捡取(1按照设置的捡取 0捡取所有物品) 人物死亡爆的物品是否捡取(0捡取，1不捡取)</FONT>       </p>
+<p><FONT face=宋体>可以在杀怪触发里使用，或者做个自定义技能，使用该自定义技能来触发这个命令</FONT></p>
+<p><strong><FONT face=宋体>这个命令使用一下捡取一次，需要不停的触发该命令，或者在定时器里使用</FONT></strong></p>
+<p><FONT face=宋体>;杀怪触发里</FONT></p>
+<p><FONT face=宋体>[@KillMon] <br>
+  #ACT<br>
+  MOV N200 &lt;$KILLMONX&gt;<br>
+  MOV N201 &lt;$KILLMONY&gt;<br>
+  ;可以延时2秒在去捡取，让物品爆到地面上，如果不延时，会直接进包裹，地面上看不见<br>
+DELAYGOTO 2000 @自动捡取</FONT>
+  </p>
+<p><FONT face=宋体>[@自动捡取] <br>
+  #ACT<br>
+  PICKUPITEMS &lt;$STR(N200)&gt; &lt;$STR(N201)&gt; 3 1 
+1</FONT>
+       </p>
+</BODY>
+</html>

@@ -1,0 +1,39 @@
+;================================================
+; 照明物品持久消耗系统
+; 蜡烛/火把/火炬 佩戴后每秒减少1点持久
+; 持久为0时物品自动消失
+;================================================
+
+; 佩戴触发
+[@TakeOnEx]
+#IF
+#ACT
+; 脱下所有照明物品时关闭定时器
+SetOffTimer 58
+; 启动58号个人定时器，每秒检测一次
+SetOnTimer 58 1
+
+;================================================
+[@OnTimer_58]
+#IF
+#ACT
+; 检测蜡烛位置2是否有持久>0
+CheckItemDura 10207 0 0
+#ACT
+; 蜡烛持久-1
+SetUserItem -1 58
+SendMsg 6 蜡烛已消耗
+#ELSEACT
+; 检测火把位置
+CheckItemDura 10208 0 0
+#ACT
+SetUserItem -1 58
+SendMsg 6 火把已消耗
+#ELSEACT
+CheckItemDura 10209 0 0
+#ACT
+SetUserItem -1 58
+SendMsg 6 火炬已消耗
+#ELSEACT
+SetOffTimer 58
+# 无照明物品时关闭定时器

@@ -1,0 +1,59 @@
+[04:06-20:48:14] [N] [InitCSAuth3] -- Log start -- 
+[04:06-20:48:14] [N] [InitCSAuth3] Config path : .\GameGuard\csauth3.cfg
+[04:06-20:48:14] [N] [InitCSAuth3] Max Protocol : 5, Module : 56, ggsrv30 : 1
+[04:06-20:48:14] [N] [InitCSAuth3] CCSAuth_Data size : 1420
+[04:06-20:48:14] [N] 
+[04:06-20:48:14] [N] [CCSAuth3Info] ConfigAutoLoadPeriod : 30
+[04:06-20:48:14] [N] 
+[04:06-20:48:14] [N] [CCSAuth3Info] MinimumUserCountForActivation : 100
+[04:06-20:48:14] [N] [CCSAuth3Info] PeriodForStatisticsSurvey : 120
+[04:06-20:48:14] [N] [CCSAuth3Info] PercentageForUpdate : 80
+[04:06-20:48:14] [N] 
+[04:06-20:48:14] [N] [CCSAuth3Info] UseCurrentDirectory : 0
+[04:06-20:48:14] [N] [CCSAuth3Info] DataBase : .\GameGuard\DataBase
+[04:06-20:48:14] [N] 
+[04:06-20:48:14] [N] [CCSAuth3Info] NormalLog : .\GameGuard\Log/Normal
+[04:06-20:48:14] [N] [CCSAuth3Info] UpdateLog : .\GameGuard\Log/Update
+[04:06-20:48:14] [N] [CCSAuth3Info] DebugLog : .\GameGuard\Log/Debug
+[04:06-20:48:14] [N] 
+[04:06-20:48:14] [N] [CCSAuth3Info] UseNormalLog : 1
+[04:06-20:48:14] [N] [CCSAuth3Info] UseUpdateLog : 1
+[04:06-20:48:14] [N] [CCSAuth3Info] UseDebugLog : 0
+[04:06-20:48:14] [N] 
+[04:06-20:48:14] [N] [CCSAuth3Info] ErrorReportMinutePeriod : 120
+[04:06-20:48:14] [N] [CCSAuth3Info] ReportVersionCount : 1
+[04:06-20:48:14] [N] 
+[04:06-20:48:14] [N] [CCSAuth3Info] CloseAfterWriteNormalLog : 1
+[04:06-20:48:14] [N] [CCSAuth3Info] CloseAfterWriteUpdateLog : 1
+[04:06-20:48:14] [N] [CCSAuth3Info] CloseAfterWriteDebugLog : 0
+[04:06-20:48:14] [N] 
+[04:06-20:48:14] [N] [CCSAuth3Info] TurnOffCSAuth : 0
+[04:06-20:48:14] [N] [CCSAuth3Info] TurnOffSuspend : 0
+[04:06-20:48:14] [N] [CCSAuth3Info] TurnOffAlgorithm : 0
+[04:06-20:48:14] [N] [CCSAuth3Info] TurnOffUnique : 0
+[04:06-20:48:14] [N] [CCSAuth3Info] TurnOffCheckClient : 0
+[04:06-20:48:14] [N] 
+[04:06-20:48:14] [N] [CCSAuth3Info] CheckClientType : 0
+[04:06-20:48:14] [N] 
+[04:06-20:48:14] [N] [CCSAuth3Info] ClientReloadMinutePeriod : 1
+[04:06-20:48:14] [N] [CCSAuth3Info] ClientDirectory : .\GameGuard\Client
+[04:06-20:48:14] [N] [CCSAuth3Info] CodeSectionOnly : 1
+[04:06-20:48:14] [N] 
+[04:06-20:48:14] [N] [CCSAuth3Info] AllowClientCount : 1
+[04:06-20:48:14] [N] [CCSAuth3Info] WhitePercent : 80
+[04:06-20:48:14] [N] [CCSAuth3Info] BlackPercent : 3
+[04:06-20:48:14] [N] [CCSAuth3Info] ActivationUserNum : 100
+[04:06-20:48:14] [N] [CCSAuth3Info] ActivationMinutePeriod : 120
+[04:06-20:48:14] [N] [CCSAuth3Info] UpdateMinutePeriod : 5
+[04:06-20:48:14] [N] 
+[04:06-20:48:14] [N] [CCSAuth3Info] m_bAlwaysUpdate : 0
+[04:06-20:48:14] [N] [CCSAuth3Info] m_bTestProtocol : 0
+[04:06-20:48:14] [N] [CCSAuth3Info] m_bTestVersion : 0
+[04:06-20:48:14] [N] 
+[04:06-20:48:14] [N] [InitCSAuth3] Start Protocol : 0
+[04:06-20:48:14] [N] [InitCSAuth3] Last used Protocol : 1
+[04:06-20:48:14] [N] [InitCSAuth3] Decided Protocol : 1
+[04:06-20:48:14] [N] [CGGScanManager] Init path : .\GameGuard\GGScanDB
+[04:06-20:48:14] [N] [CGGScanManager] Detected DB Size : 0
+[04:06-20:48:14] [N] [CGGScanManager] Init success
+[04:06-20:48:14] [N] [InitCSAuth3] return : 0

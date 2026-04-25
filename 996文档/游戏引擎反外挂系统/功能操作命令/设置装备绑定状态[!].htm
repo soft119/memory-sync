@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>设置装备绑定状态[!]</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+</head>
+
+<BODY>
+<P><FONT size=2 ><FONT face=宋体> 功能：设置装备绑定状态。 <br>
+格式：SetItemState 装备位置(-1~18或30~41,-1时为OK框中物品) 项目(0-7) 属性(0为正常,1为绑定) <br>
+项目: 0 禁止扔 1 禁止交易 2 禁止存 3 禁止修 4 禁止出售 5 禁止爆出<FONT size=2 ><FONT size=3> 6 丢弃消失</FONT><FONT size=3> 7 死亡必爆(死亡爆出来后，该属性就会删除，在捡起来戴上，就没有死亡必爆了)</FONT></FONT></FONT><FONT size=3><BR><BR>
+</FONT></FONT><FONT face=宋体>[@衣服禁止扔]<br>
+#IF<br>
+CheckItemBind 0<br>
+#ACT<br>
+GOTO @禁止扔<br>
+#ELSEACT<br>
+SENDMSG 6 请先绑定</FONT>
+  </P>
+<p><FONT face=宋体>[@禁止扔]<br>
+  #IF<br>
+  CheckItemState 0 0<br>
+  #ACT<br>
+  SENDMSG 6 该装备已经设置过禁止扔<br>
+  #ELSEACT<br>
+  SetItemState 0 0 1<br>
+  SENDMSG 6 
+该装备禁止扔</FONT>
+    </p>
+<P><BR><BR><FONT face=宋体></FONT>
+</P>
+</BODY>
+</html>

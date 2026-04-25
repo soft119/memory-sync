@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>跨服变量传递</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT color=#0000ff size=4 face=宋体><STRONG>跨服变量传递</STRONG></FONT></P>
+<P><FONT face=宋体>格式:Synzvar 参数1 参数2 参数3 参数4<BR>参数1:变量类型&nbsp; 1=全局G变量&nbsp; 
+2=全局A变量&nbsp; 3=全局自定义变量&nbsp; 
+4=行会变量(行会名称/行会变量)<BR>参数2:跨服全局变量<BR>参数3:存入本服全局变量<BR>参数4:触发QF回调ID&nbsp; 
+ID随意</FONT></P>
+<P><FONT face=宋体>同步成功触发本服QFunction-0.txt&nbsp;&nbsp; [@KFSYNVARX] 
+X=回调ID<BR>设置跨服G15=996&nbsp;&nbsp; <BR><FONT color=#ff0000>注:(别用NPC去执行跨服的G15=996.因为NPC都是在本服的，执行了也是本服)</FONT></FONT></P>
+<P><FONT face=宋体>[@KFLOGIN]<BR>#IF<BR>#ACT<BR>MOV G15 996<BR>SENDMSG 6 
+当前跨服G15变量为:&lt;$STR(G15)&gt;<BR><FONT color=#808080>;然后在本服NPC同步跨服G15变量到G16上例子</FONT></FONT></P>
+<P><FONT face=宋体>[@同步跨服G15变量]<BR>#IF<BR>#ACT<BR>Synzvar 1 G15 G16 999<BR>SENDMSG 
+6 同步全局变量成功</FONT></P>
+<P><FONT face=宋体><FONT color=#808080>;同步成功触发本服QFunction-0.txt</FONT><BR>[@KFSYNVAR999]<BR>#IF<BR>#ACT<BR>SENDMSG 
+0 
+同步跨服G15到本服G16变量为:&lt;$STR(G16)&gt;<BR>----------------------------------------------<BR><FONT color=#808080>;如果同步跨服行会变量到本服,只能同步到本服的全局变量上</FONT><BR>[@同步行会变量到本服A10]<BR>#IF</FONT></P>
+<P><FONT face=宋体>#ACT<BR>Synzvar 4 天下会/变量 A10 888<BR>SENDMSG 6 
+同步行会变量成功</FONT></P>
+<P><BR><FONT face=宋体><FONT color=#808080>;同步成功触发本服QFunction-0.txt</FONT><BR>[@KFSYNVAR888]<BR>#IF<BR>#ACT<BR>SENDMSG 
+0 同步跨服:天下会的变量到本服A10上:&lt;$STR(A10)&gt;</FONT></P></body>
+</html>

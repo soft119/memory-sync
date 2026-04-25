@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<TITLE>为什么个人商店创建失败？</TITLE>
+</HEAD>
+<BODY>
+<P><STRONG><FONT 
+size=2>为什么个人商店创建失败？</FONT></STRONG></P>
+<P><FONT size=2>如果使用了你知道的所有方法都不能搞定。</FONT></P>
+<P><font size="2">请先关闭服务端，然后使用启动器的里的清除数据，清除个人商店的数据，一般都会正常。</font></P>
+<P>----------------------------------------------------------------------------</P>
+<P><font size="2">还有个错误就是变量用错了，看下面的脚本和你的脚本</font></P>
+<P>[@InputString1]<br />
+#IF<br />
+CHECKMYSHOP<br />
+#ACT<br />
+MESSAGEBOX 你已经有店铺了<br />
+BREAK</P>
+<p>#IF<br>
+  CHECKSHOPNAME &lt;$STR(S1)&gt;<br>
+  ;@@InputString1 对应的变量应该是S1，不是S$1，很多版本里使用了S$1，所以提示失败<br>
+  #ACT<br>
+  MESSAGEBOX &lt;$STR(S1)&gt;店铺名称已经存在，请重新选择一个<br>
+BREAK</p>
+<p>#IF<br>
+  #ACT<br>
+  CREATEMYSHOP &lt;$STR(S1)&gt;<br>
+  ;@@InputString1 对应的变量应该是S1，不是S$1，很多版本里使用了S$1，所以提示失败</p>
+</BODY>
+</HTML>
+ 

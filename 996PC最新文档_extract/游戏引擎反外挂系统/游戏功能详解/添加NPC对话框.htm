@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>添加NPC对话框</title>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<STYLE type=text/css>
+<!--
+.STYLE2 {color: #FF0000}
+-->
+</STYLE>
+
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<p>添加NPC对话框<FONT color=#ff0000>(暂不支持)</FONT></p>
+<p>格式: AddDlg 编号(1-50) 图片文件序号 图片编号 是否可移动(0:不能; 1:可以) 界面X:界面Y 文字偏移X:文字偏移Y 位置 QF触发字段</p>
+<p>位置:0屏幕上 1装备对话框上 2装备 3时装 4状态 5属性 6称号 7技能 8出战 9包裹 10聊天框左侧界面 11聊天框右侧界面 12商铺界面<font color="#ff0000"> 13查看对方装备对话框上 14查看对方装备 15查看对方时装 16查看对称号</font></p>
+<p>[@添加NPC对话框]<br>
+  #ACT<br>
+  AddDlg 1 1 440 1 10:20 30:40 0 @QF脚本字段<br>
+  ;会触发QF脚本的字段[@QF脚本字段]</p>
+<p>;-----------------QF脚本----------------------------<br>
+  [@QF脚本字段]<br>
+  写脚本的格式和普通脚本一样，不支持使用“@exit”关闭这个对话框，必须使用DelDlg脚本命令关闭\<br>
+  不支持放OK框 ITEMBOX\<br>
+&lt;GOM引擎官方网站|253#996引擎官方网站：^254#www.996m2.com&gt;\<br>
+&lt;当前时间：/SCOLOR=251&gt;&lt;$DATETIME&gt;\<br>
+&lt;下一页/@下一页&gt;\<br>
+&lt;关闭/@关闭&gt;\</p>
+<p>[@关闭]<br>
+  #ACT<br>
+  DelDlg 1</p>
+<p>[@下一页]<br>
+&lt;我要出售当前角色，需要设置委托人|254#委托人必须在线，并且同意委托请求/@@InPutString1(请输入委托人名称，委托人必须在线，并且同意委托请求：)&gt;\ \<br>
+&lt;上一页/@QF脚本字段&gt;\</p>
+<p>[@InPutString1]<br>
+  #if<br>
+  NOT S1.checkOnline<br>
+  #act<br>
+  SENDMSG 6 你输入的委托人不在线<br>
+  break</p>
+<p>#if<br>
+  NOT S1.INSAFEZONE<br>
+  ;检测一下委托人是否在安全区，防止玩家恶意输入委托人，弹窗委托人<br>
+  #act<br>
+  SENDMSG 6 委托人必须在安全区<br>
+  break</p>
+<p>#if<br>
+  #act<br>
+  ;SellChar 出售货币类型(0-5) 价格<br>
+  SellChar 0 100 S1<br>
+  SENDMSG 6 请通知你的委托人同意委托请求</p></BODY></HTML>

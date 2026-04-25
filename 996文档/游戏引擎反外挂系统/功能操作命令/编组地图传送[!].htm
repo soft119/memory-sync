@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>编组地图传送</title>
+</HEAD>
+<BODY>
+<P><FONT face=宋体 color=#ff0000>功能：编组地图传送</FONT></P>
+<P><FONT face=宋体>GROUPMAPMOVE 地图号 X Y 可以传送最低等级(可以为空，为空时不检测队员的等级直接传送) 触发字段(可以为空)<BR><BR>
+[@main]<BR>
+#IF<BR>
+#ACT<BR>
+GROUPMAPMOVE 3 333 333 1 
+@GROUPMAPMOVE</FONT>
+     </P>
+<p><FONT face=宋体>[@GROUPMAPMOVE]<BR>
+  #IF<BR>
+  #ACT<BR>
+  SENDMSG 6 组队传送   
+</FONT></p>
+    
+<P><FONT face=宋体><FONT color=#ff0000>功能：</FONT><FONT color=#ff0000>编组地图随机传送</FONT><BR><BR></FONT><FONT face=宋体>GROUPMOVE 地图号 
+可以传送最低等级(可以为空，为空时不检测队员的等级直接传送) 触发字段(可以为空)<BR><BR>[@main]<BR>#IF<BR>#ACT<BR>GROUPMOVE 3 1 
+@GROUPMOVE</FONT>   </P>
+<p><FONT face=宋体>[@GROUPMOVE]<BR>#IF<BR>#ACT<BR>SENDMSG 6 组队传送
+  <br>
+  
+  <BR>
+  相关命令：<BR>
+  检查是否为组长：</FONT>
+  <A 
+href="../脚本检测命令/检查是否为组长.htm"><FONT color=#000000 face=宋体>ISGROUPMASTER</FONT></A><FONT face=宋体> 
+</FONT>   
+</P>
+</BODY>
+</HTML>
+

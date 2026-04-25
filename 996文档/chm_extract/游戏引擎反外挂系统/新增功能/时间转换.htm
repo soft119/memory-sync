@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>时间转换</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+      <H2><FONT color=#0000ff>将秒数转换为X天X小时X分钟X秒<BR></FONT><BR></H2><FONT color=#0000ff>
+<P><SPAN style="FONT-SIZE: 12pt; FONT-WEIGHT: bold"><FONT color=#000000><FONT color=#ff0000>DecodeTime</FONT> 
+参数一(返回转换后的结果到字符变量) 参数二(需要转化的秒数 支持变量)&nbsp; 
+参数三(0~1可空)&nbsp;0或空时，时间格式为X天X时X分X秒，为1时格式为X时X分X秒&nbsp;</FONT></SPAN></P>
+<P><FONT color=#000000>例子1： </FONT></P>
+<P><FONT color=#000000>;秒数分钟数转为时间格式，方便玩家快速理解活动倒计时等<BR><BR>MOV G24 2880 <BR><FONT color=#ff0000>DecodeTime</FONT> 
+S50 &lt;$STR(G24)&gt; <BR>S50=0天0小时48分0秒</FONT></P></FONT></body>
+</html>

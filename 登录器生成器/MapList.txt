@@ -649,6 +649,7 @@ F:\热血传奇20周年客户端\高清复古XX\Map\GA2.map
 F:\热血传奇20周年客户端\高清复古XX\Map\GA3.map
 F:\热血传奇20周年客户端\高清复古XX\Map\GM.map
 F:\热血传奇20周年客户端\高清复古XX\Map\grly.map
+F:\热血传奇20周年客户端\高清复古XX\Map\guardian.map
 F:\热血传奇20周年客户端\高清复古XX\Map\gudong01.map
 F:\热血传奇20周年客户端\高清复古XX\Map\gudong02.map
 F:\热血传奇20周年客户端\高清复古XX\Map\gudong03.map

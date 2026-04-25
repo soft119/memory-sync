@@ -116,7 +116,7 @@ break
 checklevelex > 34
 #SAY
 这里是<险恶地区>服务，按照你的级别你可以前往以下地区:\
-当然你还得付给我300金币的报酬!\
+当然你还得付给我3000金币的报酬!\
 ┏━━━━┳━━━━┳━━━━┳━━━━┳━━━━┓\
 ┃<沃玛三层/@JM7>┃<猪洞七层/@JM8>┃<祖玛七层/@JM5>┃<死亡棺材/@JM6>┃<抉择之地/@S6>┃\
 ┣━━━━╋━━━━╋━━━━╋━━━━╋━━━━┫\
@@ -148,11 +148,12 @@ goto @1
 checklevelex > 6
 #SAY
 这里是<险恶地区>服务，按照你的级别22级前你只能前往以下地区:\ 
-当然你还得付给我300金币的报酬!\
+当然你还得付给我3000金币的报酬!\
 ┏━━━━┳━━━━┳━━━━┓\
-┃<比齐矿区/@JN1>┃<天然洞穴/@JM1>┃<封魔矿区/@FENGMOKOU>┃\
-┗━━━━┻━━━━┻━━━━┛\
-
+┃<比齐矿区/@JN1>┃<蜈蚣洞穴/@JN2>┃<天然洞穴/@JM1>┃\
+┣━━━━╋━━━━┻━━━━┛\
+┃<封魔矿区/@FENGMOKOU>┃\
+┗━━━━┛\
 #ELSESAY
 照你现在这个级别,我没什么能帮的上你!\
 请你练到7级再来找我吧，祝你好运!\
@@ -163,7 +164,7 @@ checklevelex > 6
 checkgold 3000
 #ACT
 take 金币 3000 
-give 回城卷 1
+
 mapmove D024
 BREAK
 #ELSESAY 
@@ -175,7 +176,7 @@ BREAK
 checkgold 3000
 #ACT
 take 金币 3000 
-give 回城卷 1
+
 mapmove D716
 BREAK
 #ELSESAY 
@@ -187,7 +188,7 @@ BREAK
 checkgold 3000
 #ACT
 take 金币 3000 
-give 回城卷 1
+
 mapmove D5071 8 10
 BREAK
 #ELSESAY 
@@ -199,7 +200,7 @@ BREAK
 checkgold 3000
 #ACT
 take 金币 3000 
-give 回城卷 1
+
 mapmove D606
 BREAK
 #ELSESAY 
@@ -211,7 +212,7 @@ BREAK
 checkgold 3000
 #ACT
 take 金币 3000 
-give 回城卷 1
+
 mapmove D1004
 BREAK
 #ELSESAY 
@@ -220,10 +221,10 @@ BREAK
 
 [@JN1]
 #IF
-checkgold 300
+checkgold 3000
 #ACT
-take 金币 300 
-give 回城卷 1
+take 金币 3000 
+
 mapmove D401
 BREAK
 #ELSESAY 
@@ -235,7 +236,7 @@ BREAK
 checkgold 3000
 #ACT
 take 金币 3000 
-give 回城卷 1
+
 mapmove D601
 BREAK
 #ELSESAY 
@@ -244,10 +245,10 @@ BREAK
 
 [@JM1]
 #IF
-checkgold 300
+checkgold 3000
 #ACT
-take 金币 300 
-give 回城卷 1
+take 金币 3000 
+
 mapmove E001
 BREAK
 #ELSESAY 
@@ -259,7 +260,7 @@ BREAK
 checkgold 3000
 #ACT
 take 金币 3000 
-give 回城卷 1
+
 mapmove D2075
 BREAK
 #ELSESAY 
@@ -271,7 +272,7 @@ BREAK
 checkgold 3000
 #ACT
 take 金币 3000 
-give 回城卷 1 
+ 
 mapmove 4 138 69
 break
 #ELSESAY 
@@ -283,7 +284,7 @@ break
 checkgold 3000
 #ACT
 take 金币 3000 
-give 回城卷 1
+
 mapmove M001
 BREAK
 #ELSESAY 
@@ -295,7 +296,7 @@ BREAK
 checkgold 3000
 #ACT
 take 金币 3000 
-give 回城卷 1
+
 mapmove D2051
 BREAK
 #ELSESAY 
@@ -307,7 +308,7 @@ BREAK
 checkgold 3000
 #ACT
 take 金币 3000 
-give 回城卷 1
+
 mapmove D2061
 BREAK
 #ELSESAY 
@@ -319,7 +320,7 @@ BREAK
 checkgold 3000
 #ACT
 take 金币 3000 
-give 回城卷 1 
+ 
 mapmove Q004
 break
 #ELSESAY 
@@ -331,7 +332,7 @@ break
 checkgold 3000
 #ACT
 take 金币 3000 
-give 回城卷 1
+
 mapmove 3 716 407
 BREAK
 #ELSESAY 
@@ -343,7 +344,7 @@ BREAK
 checkgold 3000
 #ACT
 take 金币 3000 
-give 回城卷 1
+
 mapmove D023
 BREAK
 #ELSESAY 
@@ -355,7 +356,7 @@ BREAK
 checkgold 3000
 #ACT
 take 金币 3000 
-give 回城卷 1
+
 mapmove D711
 BREAK
 #ELSESAY 
@@ -367,7 +368,7 @@ BREAK
 checkgold 3000
 #ACT
 take 金币 3000 
-give 回城卷 1
+
 mapmove D503
 BREAK
 #ELSESAY 
@@ -379,7 +380,7 @@ BREAK
 checkgold 3000
 #ACT
 take 金币 3000 
-give 回城卷 1
+
 mapmove D10011
 BREAK
 #ELSESAY 
@@ -391,7 +392,7 @@ BREAK
 checkgold 3000
 #ACT
 take 金币 3000 
-give 回城卷 1
+
 mapmove D2071
 BREAK
 #ELSESAY 
@@ -415,7 +416,7 @@ checkitem 幻境凭证 1
 #ACT 
 take 金币 300000
 take 幻境凭证 1
-give 回城卷 1
+
 mapmove H001 73 67 
 #ELSESAY 
 <$USERNAME> 你是否具备下列条件就想使用我们的服务!\ 

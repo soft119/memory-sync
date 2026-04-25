@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>动态调整特殊属性</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT face=宋体><FONT color=#0000ff><STRONG>ChangeSP</STRONG></FONT><BR>参数1：特殊属性编号 
+0=神秘人 1=传送 2=麻痹 3=防麻痹 4=复活 5=破复活 6=护身 7=防护身 8=技巧 9= 探测&lt; /FONT&gt; 
+</P>
+<P><FONT face=宋体>10= 复活成功率(默认100,复活成功率0~100)<BR>11= 麻痹几率(1~100,默认100,0也是100)<BR>12= 
+防麻痹几率(1~100,默认100,0也是100)<BR>13= 
+破复活几率(1~100,默认100,0也是100)<BR>14=破护身几率(1~100,默认100,0也是100)</FONT></P>
+<P><FONT face=宋体>所有带几率的属性，如想其发挥作用,前者必须带有此属性效果,如装备带有相同属性的效果,尽量避免使用。</FONT></P>
+<P><FONT face=宋体>参数20=对怪隐身</FONT></P>
+<P><FONT face=宋体>参数2: 0=关闭 1= 开启&lt; /FONT&gt;</P>
+<P><FONT face=宋体>参数3: 持续时间 单位秒 
+参数0或空=无限制，参数大于0为时长，(参数1是10、11、12、13、14时,此参数3变为几率控制)&lt;   /FONT&gt;</P>
+<P><FONT face=宋体>注意事项：此命令下线失效，有特殊属性的装备并不会冲突,也不会因为冲突导致失效,但应注意使用逻辑，不支持假人！！！！</FONT></P>
+<P><FONT face=宋体>场景1:带复活戒指的人物且开启了复活属性10秒，十秒复活到达后，带有复活戒指情况下，是会继续复活的，两者是不冲突</FONT></P>
+<P><FONT face=宋体>场景2:带复活戒指的人物且开启了复活属性10秒，十秒未到达前,卸掉了复活戒指，此时复活属性依然有效，除非你关闭了。</FONT></P>
+<P><FONT face=宋体>复活成功率:在原复活基础下进行判断，满足原基础复活条件下，进行几率判断，几率不满足的取消复活。</FONT></P>
+<P><FONT face=宋体>场景3:带麻痹戒指的人物且开启了麻痹属性，麻痹几率和麻痹时长取最大值。</FONT></P>
+<P><FONT face=宋体>注:关闭指定属性编号,效果会立即取消，如关闭神秘人属性就会立即取消神秘人效果。</FONT></P>
+<P><FONT face=宋体>多次调用同一个属性编号，参数取最后调用，如前者设置了1000秒防复活，后者设置了10秒防复活，最终生效时间取后者(10秒，持续时间设置为0时效率最优且一直生效)。</FONT></P>
+<P><FONT face=宋体>此命令充分分析了引擎运行机制，采用最优方案进行贴合设计，效率和设计快捷性达到最完美。</FONT></P>
+<P><FONT face=宋体>到时间后触发QFunction-0.txt 
+[@ChangeSPTimeOutX] X代表属性编号,不提供参数1的10、11、12、13、14模式的触发 
+================================================================================================= &lt; 
+/FONT 
+  &gt; 
+</P>
+<P><FONT face=宋体>赋予玩家复活成功几率(前者必须有复活属性,无时间控制,无时间到期反馈)<BR>#ACT<BR>ChangeSP 10 1 50<BR>sendmsg 6 您的复活成功率更改为百分之50</FONT>  
+</P>
+<P><FONT face=宋体>赋予玩家防复活属性<BR>#ACT<BR>ChangeSP 5 1 10<BR>sendmsg 6 
+防复活特殊属性生效，持续10秒。</FONT>  </P>
+<P><FONT face=宋体>QFunction-0.txt 任意位置添加<BR>[@ChangeSPTimeOut5]<BR>#act<BR>sendmsg 6 防复活属性失效！！！</FONT>  
+</P>
+<P><FONT face=宋体>对怪隐身<BR>#ACT<BR>ChangeSP 20 1 10<BR>sendmsg 6 
+对怪隐身生效，持续10秒。</FONT>  </P>
+<P><FONT face=宋体>QFunction-0.txt 任意位置添加<BR>[@ChangeSPTimeOut20]<BR>#act<BR>sendmsg 6 对怪隐身失效！！！</FONT>  
+</P></FONT></FONT></FONT></FONT></body>
+</html>

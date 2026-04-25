@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>设置地图的杀怪经验倍数</title>
+</HEAD>
+<BODY>
+<P><FONT size=2><FONT face=宋体><STRONG><FONT color=#0000ff>功能：</FONT></STRONG><BR><STRONG><FONT color=#0000ff>&nbsp;&nbsp;&nbsp; </FONT></STRONG>设置地图的杀怪经验倍数</FONT> 
+</FONT></P>
+<P><FONT size=2><FONT face=宋体><STRONG><FONT color=#0000ff>格式：</FONT><BR>
+</STRONG> 
+&nbsp;&nbsp;&nbsp; MAPKILLMONEXPRATE 地图文件名称(*号表示所有地图) 倍率<BR>
+&nbsp;&nbsp;&nbsp; 倍率 为杀怪经验倍数，倍数除以100为真正的倍率(200 
+为 2 倍经验，150 
+为1.5倍,0表示关闭地图的杀怪经验倍数)<BR>
+<BR>;==========================================<BR>
+[@MAPKILLMONEXPRATE]<BR>#IF<BR>#ACT<BR>
+&nbsp; 
+MAPKILLMONEXPRATE 0 1000<BR>#SAY<BR>
+&nbsp; 您在比奇的杀怪经验倍数为 10倍<BR>;==========================================<BR></FONT></FONT></P>
+<P><FONT face=宋体>[@MAPKILLMONEXPRATE]<br>
+  #IF<br>
+  #ACT<br>
+  MAPKILLMONEXPRATE * 1000<br>
+  #SAY<br>
+  所有地图杀怪经验倍数为 10倍<br>
+;==========================================
+
+</P></FONT>
+</BODY>
+</HTML>
+
+  

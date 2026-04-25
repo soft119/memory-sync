@@ -1,0 +1,1398 @@
+[2026-04-11 14:53:10:990] 脚本错误2: RANDOM 10 第:40 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-11 14:53:10:990] 脚本错误2: SMALL N94 2 第:41 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-11 14:53:10:990] 脚本错误2: RANDOM 10 第:68 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-11 14:53:10:990] 脚本错误2: SMALL N94 2 第:69 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-11 14:53:10:990] 脚本错误2: RANDOM 10 第:96 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+[2026-04-11 14:53:10:990] 脚本错误2: SMALL N94 2 第:97 行: D:\MirServer\Mir200\Envir\Market_Def\系统功能\武器强化系统-3.txt
+
+[2026-04-11 15:12:48:504] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：62; NpcThreadId: 13212, CurPlayThreadId: 13212
+
+[2026-04-11 15:14:40:207] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：47; NpcThreadId: 13212, CurPlayThreadId: 13212
+
+[2026-04-11 16:42:39:776] 脚本错误2: ADD N2 <$STR(N3)> 第:67 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:776] 脚本错误1: MOV N2 12 第:112 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:776] 脚本错误1: MOV N2 14 第:115 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:776] 脚本错误1: MOV N2 17 第:118 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:776] 脚本错误1: MOV N2 19 第:121 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:776] 脚本错误2: SUB N3 4 第:127 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:776] 脚本错误2: ADD N2 <$STR(N3)> 第:129 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:776] 脚本错误1: MOV N2 30 第:132 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:776] 脚本错误1: MOV N4 <$STR(N2)> 第:135 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:776] 脚本错误1: DIV N4 4 第:136 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:776] 脚本错误1: MonGenEx guardian 10 15 <$STR(N4)> 骷髅 0 0 255 第:137 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:776] 脚本错误1: MonGenEx guardian 90 15 <$STR(N4)> 骷髅 0 0 255 第:138 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:776] 脚本错误1: DelayCall 3000 @守护心脏_刷新第1波_2 第:139 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:776] 脚本错误1: SetOnTimer 61 120 第:141 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:776] 脚本错误1: BREAK 第:142 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:776] 脚本错误2: SUB N5 <$STR(N6)> 第:171 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:776] 脚本错误1: MOV G0 15000 第:246 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:776] 脚本错误1: ClearMapMonster guardian 第:248 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:776] 脚本错误1: INC N1 1 第:250 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:776] 脚本错误1: CALCVAR GLOBAL 守护活动_当前波次 = <$STR(N1)> 第:251 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:776] 脚本错误1: GOTO @守护心脏_刷新第2波 第:255 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:776] 脚本错误1: GOTO @守护心脏_刷新第3波 第:258 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: GOTO @守护心脏_刷新第4波 第:261 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: GOTO @守护心脏_刷新第5波 第:264 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: BREAK 第:265 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MOV N2 17 第:282 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MOV N2 22 第:285 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MOV N2 24 第:288 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误2: SUB N3 4 第:293 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误2: ADD N2 <$STR(N3)> 第:295 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MOV N2 38 第:298 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MOV N4 <$STR(N2)> 第:300 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: DIV N4 4 第:301 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MonGenEx guardian 10 15 <$STR(N4)> 僵尸 0 0 255 第:302 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MonGenEx guardian 90 15 <$STR(N4)> 僵尸 0 0 255 第:303 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MonGenEx guardian 50 15 <$STR(N4)> 僵尸 0 0 255 第:304 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: DelayCall 3000 @守护心脏_刷新第2波_2 第:305 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: BREAK 第:306 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误2: SUB N5 <$STR(N6)> 第:324 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MOV N2 20 第:348 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MOV N2 26 第:351 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MOV N2 28 第:354 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误2: SUB N3 4 第:359 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误2: ADD N2 <$STR(N3)> 第:361 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MOV N2 45 第:364 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MOV N4 <$STR(N2)> 第:365 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: DIV N4 4 第:366 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MonGenEx guardian 10 15 <$STR(N4)> 蜈蚣 0 0 255 第:367 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MonGenEx guardian 90 15 <$STR(N4)> 蜈蚣 0 0 255 第:368 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MonGenEx guardian 10 85 <$STR(N4)> 蜈蚣 0 0 255 第:369 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MonGenEx guardian 90 85 <$STR(N4)> 蜈蚣 0 0 255 第:370 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: DelayCall 3000 @守护心脏_刷新第3波_2 第:371 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: BREAK 第:372 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误2: SUB N5 <$STR(N6)> 第:380 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MOV N2 23 第:403 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MOV N2 30 第:406 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MOV N2 33 第:409 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误2: SUB N3 4 第:414 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误2: ADD N2 <$STR(N3)> 第:416 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MOV N2 53 第:419 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MOV N4 <$STR(N2)> 第:420 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: DIV N4 4 第:421 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MonGenEx guardian 10 15 <$STR(N4)> 白野猪 0 0 255 第:422 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MonGenEx guardian 90 15 <$STR(N4)> 白野猪 0 0 255 第:423 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MonGenEx guardian 50 15 <$STR(N4)> 白野猪 0 0 255 第:424 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MonGenEx guardian 10 85 <$STR(N4)> 白野猪 0 0 255 第:425 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: DelayCall 3000 @守护心脏_刷新第4波_2 第:426 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: BREAK 第:427 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MOV N2 26 第:457 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MOV N2 34 第:460 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MOV N2 38 第:463 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误2: SUB N3 4 第:468 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误2: ADD N2 <$STR(N3)> 第:470 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MOV N2 60 第:473 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MOV N4 <$STR(N2)> 第:474 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: DIV N4 4 第:475 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MonGenEx guardian 10 15 <$STR(N4)> 极品祖玛 0 0 255 第:476 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MonGenEx guardian 90 15 <$STR(N4)> 极品祖玛 0 0 255 第:477 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MonGenEx guardian 10 50 <$STR(N4)> 极品祖玛 0 0 255 第:478 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: MonGenEx guardian 90 50 <$STR(N4)> 极品祖玛 0 0 255 第:479 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: DelayCall 3000 @守护心脏_刷新第5波_2 第:480 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:777] 脚本错误1: BREAK 第:481 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:42:39:778] 脚本错误2: SUB N5 <$STR(N6)> 第:500 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+
+[2026-04-11 16:45:05:674] 脚本错误1: MOV N2 12 第:106 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:674] 脚本错误1: MOV N2 14 第:109 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:674] 脚本错误1: MOV N2 17 第:112 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:674] 脚本错误1: MOV N2 19 第:115 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:674] 脚本错误1: MOV N2 30 第:126 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:674] 脚本错误1: MOV N4 <$STR(N2)> 第:129 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:674] 脚本错误1: DIV N4 4 第:130 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:674] 脚本错误1: MonGenEx guardian 10 15 <$STR(N4)> 骷髅 0 0 255 第:131 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:674] 脚本错误1: MonGenEx guardian 90 15 <$STR(N4)> 骷髅 0 0 255 第:132 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:674] 脚本错误1: DelayCall 3000 @守护心脏_刷新第1波_2 第:133 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:674] 脚本错误1: SetOnTimer 61 120 第:135 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:674] 脚本错误1: BREAK 第:136 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MOV G0 15000 第:242 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: ClearMapMonster guardian 第:244 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: INC N1 1 第:246 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: CALCVAR GLOBAL 守护活动_当前波次 = <$STR(N1)> 第:247 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: GOTO @守护心脏_刷新第2波 第:251 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: GOTO @守护心脏_刷新第3波 第:254 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: GOTO @守护心脏_刷新第4波 第:257 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: GOTO @守护心脏_刷新第5波 第:260 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: BREAK 第:261 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MOV N2 17 第:278 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MOV N2 22 第:281 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MOV N2 24 第:284 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MOV N2 38 第:294 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MOV N4 <$STR(N2)> 第:296 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: DIV N4 4 第:297 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MonGenEx guardian 10 15 <$STR(N4)> 僵尸 0 0 255 第:298 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MonGenEx guardian 90 15 <$STR(N4)> 僵尸 0 0 255 第:299 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MonGenEx guardian 50 15 <$STR(N4)> 僵尸 0 0 255 第:300 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: DelayCall 3000 @守护心脏_刷新第2波_2 第:301 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: BREAK 第:302 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MOV N2 20 第:346 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MOV N2 26 第:349 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MOV N2 28 第:352 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MOV N2 45 第:362 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MOV N4 <$STR(N2)> 第:363 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: DIV N4 4 第:364 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MonGenEx guardian 10 15 <$STR(N4)> 蜈蚣 0 0 255 第:365 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MonGenEx guardian 90 15 <$STR(N4)> 蜈蚣 0 0 255 第:366 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MonGenEx guardian 10 85 <$STR(N4)> 蜈蚣 0 0 255 第:367 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MonGenEx guardian 90 85 <$STR(N4)> 蜈蚣 0 0 255 第:368 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: DelayCall 3000 @守护心脏_刷新第3波_2 第:369 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: BREAK 第:370 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MOV N2 23 第:402 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MOV N2 30 第:405 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MOV N2 33 第:408 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MOV N2 53 第:418 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MOV N4 <$STR(N2)> 第:419 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: DIV N4 4 第:420 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MonGenEx guardian 10 15 <$STR(N4)> 白野猪 0 0 255 第:421 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MonGenEx guardian 90 15 <$STR(N4)> 白野猪 0 0 255 第:422 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MonGenEx guardian 50 15 <$STR(N4)> 白野猪 0 0 255 第:423 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MonGenEx guardian 10 85 <$STR(N4)> 白野猪 0 0 255 第:424 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: DelayCall 3000 @守护心脏_刷新第4波_2 第:425 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: BREAK 第:426 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MOV N2 26 第:457 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MOV N2 34 第:460 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MOV N2 38 第:463 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MOV N2 60 第:473 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MOV N4 <$STR(N2)> 第:474 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: DIV N4 4 第:475 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MonGenEx guardian 10 15 <$STR(N4)> 极品祖玛 0 0 255 第:476 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MonGenEx guardian 90 15 <$STR(N4)> 极品祖玛 0 0 255 第:477 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MonGenEx guardian 10 50 <$STR(N4)> 极品祖玛 0 0 255 第:478 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: MonGenEx guardian 90 50 <$STR(N4)> 极品祖玛 0 0 255 第:479 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: DelayCall 3000 @守护心脏_刷新第5波_2 第:480 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:45:05:675] 脚本错误1: BREAK 第:481 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+
+[2026-04-11 16:48:11:647] 脚本错误1: CALCVAR GLOBAL 守护心脏_HP = 5000 第:57 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:647] 脚本错误1: CALCVAR GLOBAL 守护心脏_HP = 7400 第:60 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:647] 脚本错误1: CALCVAR GLOBAL 守护心脏_HP = 8600 第:63 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:647] 脚本错误1: CALCVAR GLOBAL 守护心脏_HP = 9800 第:66 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:647] 脚本错误1: CALCVAR GLOBAL 守护心脏_HP = 10000 第:69 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:647] 脚本错误1: CALCVAR GLOBAL 守护心脏_HP = 12000 第:72 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:647] 脚本错误1: CALCVAR GLOBAL 守护心脏_HP = 15000 第:75 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:647] 脚本错误1: SENDMSG 0 ╔══════════════════════════════════════╗ 第:76 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:647] 脚本错误1: SENDMSG 0 ║  <COLOR=clRed>【守护心脏】活动正式开始！</COLOR>           ║ 第:77 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:647] 脚本错误1: SENDMSG 0 ║  <COLOR=clWhite>请所有参与者保护好心脏！</COLOR>           ║ 第:78 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:647] 脚本错误1: SENDMSG 0 ║  <COLOR=clYellow>第1波怪物即将到来...</COLOR>              ║ 第:79 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:647] 脚本错误1: SENDMSG 0 ╚══════════════════════════════════════╝ 第:80 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:647] 脚本错误1: SetOnTimer 60 1 第:81 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:647] 脚本错误1: DelayCall 30000 @守护心脏_刷新第1波 第:82 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:647] 脚本错误1: BREAK 第:83 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:647] 脚本错误1: CALCVAR GLOBAL 守护_第1波数量 = 14 第:105 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:647] 脚本错误1: CALCVAR GLOBAL 守护_第1波数量 = 17 第:108 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:647] 脚本错误1: CALCVAR GLOBAL 守护_第1波数量 = 19 第:111 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:647] 脚本错误1: CALCVAR GLOBAL 守护_第1波数量 = <$STR(G4)> 第:121 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:647] 脚本错误1: CALCVAR GLOBAL 守护_第1波数量 = 30 第:124 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:647] 脚本错误1: MOV G5 <$GLOBAL(守护_第1波数量)> 第:127 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:647] 脚本错误1: DIV G5 4 第:128 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:647] 脚本错误1: MonGenEx guardian 10 15 <$STR(G5)> 骷髅 0 0 255 第:129 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:647] 脚本错误1: MonGenEx guardian 90 15 <$STR(G5)> 骷髅 0 0 255 第:130 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:647] 脚本错误1: DelayCall 3000 @守护心脏_刷新第1波_2 第:131 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:647] 脚本错误1: SetOnTimer 61 120 第:132 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:647] 脚本错误1: BREAK 第:133 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: MOV G20 15000 第:225 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: CALCVAR GLOBAL 守护心脏_HP = <$STR(G20)> 第:226 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: ClearMapMonster guardian 第:228 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: MOV G21 <$GLOBAL(守护活动_当前波次)> 第:230 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: INC G21 1 第:231 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: CALCVAR GLOBAL 守护活动_当前波次 = <$STR(G21)> 第:232 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: GOTO @守护心脏_刷新第2波 第:235 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: GOTO @守护心脏_刷新第3波 第:238 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: GOTO @守护心脏_刷新第4波 第:241 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: GOTO @守护心脏_刷新第5波 第:244 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: BREAK 第:245 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: CALCVAR GLOBAL 守护_第2波数量 = 17 第:260 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: CALCVAR GLOBAL 守护_第2波数量 = 22 第:263 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: CALCVAR GLOBAL 守护_第2波数量 = 24 第:266 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: CALCVAR GLOBAL 守护_第2波数量 = <$STR(G4)> 第:276 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: CALCVAR GLOBAL 守护_第2波数量 = 38 第:279 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: MOV G5 <$GLOBAL(守护_第2波数量)> 第:281 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: DIV G5 4 第:282 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: MonGenEx guardian 10 15 <$STR(G5)> 僵尸 0 0 255 第:283 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: MonGenEx guardian 90 15 <$STR(G5)> 僵尸 0 0 255 第:284 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: MonGenEx guardian 50 15 <$STR(G5)> 僵尸 0 0 255 第:285 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: DelayCall 3000 @守护心脏_刷新第2波_2 第:286 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: BREAK 第:287 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: CALCVAR GLOBAL 守护_第3波数量 = 20 第:332 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: CALCVAR GLOBAL 守护_第3波数量 = 26 第:335 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: CALCVAR GLOBAL 守护_第3波数量 = 28 第:338 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: CALCVAR GLOBAL 守护_第3波数量 = <$STR(G4)> 第:348 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: CALCVAR GLOBAL 守护_第3波数量 = 45 第:351 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: MOV G5 <$GLOBAL(守护_第3波数量)> 第:352 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: DIV G5 4 第:353 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: MonGenEx guardian 10 15 <$STR(G5)> 蜈蚣 0 0 255 第:354 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: MonGenEx guardian 90 15 <$STR(G5)> 蜈蚣 0 0 255 第:355 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: MonGenEx guardian 10 85 <$STR(G5)> 蜈蚣 0 0 255 第:356 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: MonGenEx guardian 90 85 <$STR(G5)> 蜈蚣 0 0 255 第:357 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: DelayCall 3000 @守护心脏_刷新第3波_2 第:358 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: BREAK 第:359 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: CALCVAR GLOBAL 守护_第4波数量 = 23 第:392 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: CALCVAR GLOBAL 守护_第4波数量 = 30 第:395 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: CALCVAR GLOBAL 守护_第4波数量 = 33 第:398 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: CALCVAR GLOBAL 守护_第4波数量 = <$STR(G4)> 第:408 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: CALCVAR GLOBAL 守护_第4波数量 = 53 第:411 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: MOV G5 <$GLOBAL(守护_第4波数量)> 第:412 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: DIV G5 4 第:413 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: MonGenEx guardian 10 15 <$STR(G5)> 白野猪 0 0 255 第:414 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: MonGenEx guardian 90 15 <$STR(G5)> 白野猪 0 0 255 第:415 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: MonGenEx guardian 50 15 <$STR(G5)> 白野猪 0 0 255 第:416 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: MonGenEx guardian 10 85 <$STR(G5)> 白野猪 0 0 255 第:417 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: DelayCall 3000 @守护心脏_刷新第4波_2 第:418 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: BREAK 第:419 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: CALCVAR GLOBAL 守护_第5波数量 = 26 第:449 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: CALCVAR GLOBAL 守护_第5波数量 = 34 第:452 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: CALCVAR GLOBAL 守护_第5波数量 = 38 第:455 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: CALCVAR GLOBAL 守护_第5波数量 = <$STR(G4)> 第:465 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: CALCVAR GLOBAL 守护_第5波数量 = 60 第:468 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: MOV G5 <$GLOBAL(守护_第5波数量)> 第:469 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: DIV G5 4 第:470 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:648] 脚本错误1: MonGenEx guardian 10 15 <$STR(G5)> 极品祖玛 0 0 255 第:471 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:649] 脚本错误1: MonGenEx guardian 90 15 <$STR(G5)> 极品祖玛 0 0 255 第:472 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:649] 脚本错误1: MonGenEx guardian 10 50 <$STR(G5)> 极品祖玛 0 0 255 第:473 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:649] 脚本错误1: MonGenEx guardian 90 50 <$STR(G5)> 极品祖玛 0 0 255 第:474 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:649] 脚本错误1: DelayCall 3000 @守护心脏_刷新第5波_2 第:475 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:48:11:649] 脚本错误1: BREAK 第:476 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+
+[2026-04-11 16:50:53:609] 脚本错误1: MOV G2 1 第:55 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MOV I10 5000 第:59 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MOV I10 7400 第:62 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MOV I10 8600 第:65 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MOV I10 9800 第:68 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MOV I10 10000 第:71 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MOV I10 12000 第:74 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MOV I10 15000 第:77 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: GMEXECUTE SENDMSG 0 ╔══════════════════════════════════════╗ 第:78 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: GMEXECUTE SENDMSG 0 ║  <COLOR=clRed>【守护心脏】活动正式开始！</COLOR>           ║ 第:79 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: GMEXECUTE SENDMSG 0 ║  <COLOR=clWhite>请所有参与者保护好心脏！</COLOR>           ║ 第:80 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: GMEXECUTE SENDMSG 0 ║  <COLOR=clYellow>第1波怪物即将到来...</COLOR>              ║ 第:81 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: GMEXECUTE SENDMSG 0 ╚══════════════════════════════════════╝ 第:82 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: SetOnTimer 60 1 第:83 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: DelayCall 30000 @守护心脏_刷新第1波 第:84 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: BREAK 第:85 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MOV I1 14 第:102 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MOV I1 17 第:105 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MOV I1 19 第:108 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MOV I2 G2 第:112 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: DEC I2 4 第:113 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MUL I2 2 第:114 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: INC I1 <$STR(I2)> 第:115 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MOV I1 30 第:118 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MOV G4 <$STR(I1)> 第:120 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MOV I3 <$STR(I1)> 第:123 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: DIV I3 4 第:124 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MonGenEx guardian 10 15 <$STR(I3)> 骷髅 0 0 255 第:125 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MonGenEx guardian 90 15 <$STR(I3)> 骷髅 0 0 255 第:126 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: DelayCall 3000 @守护心脏_刷新第1波_2 第:127 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: SetOnTimer 61 120 第:128 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: BREAK 第:129 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: GOTO @守护心脏_活动失败 第:178 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MOV I6 G3 第:183 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: GOTO @守护心脏_活动胜利 第:186 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: GOTO @守护心脏_切换波次 第:187 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: BREAK 第:188 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: GOTO @守护心脏_切换波次 第:198 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: BREAK 第:199 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MOV I10 15000 第:211 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: ClearMapMonster guardian 第:213 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: INC G3 1 第:215 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: GOTO @守护心脏_刷新第2波 第:218 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: GOTO @守护心脏_刷新第3波 第:221 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: GOTO @守护心脏_刷新第4波 第:224 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: GOTO @守护心脏_刷新第5波 第:227 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: BREAK 第:228 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MOV I1 22 第:243 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MOV I1 24 第:246 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MOV I1 26 第:249 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MOV I2 G2 第:252 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: DEC I2 4 第:253 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MUL I2 2 第:254 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: INC I1 <$STR(I2)> 第:255 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MOV I1 38 第:258 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MOV G4 <$STR(I1)> 第:260 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: INC G4 1 第:261 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MOV I3 <$STR(I1)> 第:263 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: DIV I3 4 第:264 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MonGenEx guardian 10 15 <$STR(I3)> 僵尸 0 0 255 第:265 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MonGenEx guardian 90 15 <$STR(I3)> 僵尸 0 0 255 第:266 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: MonGenEx guardian 50 15 <$STR(I3)> 僵尸 0 0 255 第:267 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: DelayCall 3000 @守护心脏_刷新第2波_2 第:268 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:609] 脚本错误1: BREAK 第:269 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MOV I1 26 第:308 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MOV I1 28 第:311 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MOV I1 30 第:314 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MOV I2 G2 第:317 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: DEC I2 4 第:318 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MUL I2 2 第:319 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: INC I1 <$STR(I2)> 第:320 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MOV I1 45 第:323 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MOV G4 <$STR(I1)> 第:325 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: INC G4 2 第:326 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MOV I3 <$STR(I1)> 第:327 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: DIV I3 4 第:328 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MonGenEx guardian 10 15 <$STR(I3)> 蜈蚣 0 0 255 第:329 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MonGenEx guardian 90 15 <$STR(I3)> 蜈蚣 0 0 255 第:330 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MonGenEx guardian 10 85 <$STR(I3)> 蜈蚣 0 0 255 第:331 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MonGenEx guardian 90 85 <$STR(I3)> 蜈蚣 0 0 255 第:332 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: DelayCall 3000 @守护心脏_刷新第3波_2 第:333 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: BREAK 第:334 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MOV I1 30 第:361 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MOV I1 33 第:364 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MOV I1 35 第:367 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MOV I2 G2 第:370 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: DEC I2 4 第:371 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MUL I2 2 第:372 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: INC I1 <$STR(I2)> 第:373 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MOV I1 53 第:376 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MOV G4 <$STR(I1)> 第:378 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: INC G4 1 第:379 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MOV I3 <$STR(I1)> 第:380 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: DIV I3 4 第:381 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MonGenEx guardian 10 15 <$STR(I3)> 白野猪 0 0 255 第:382 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MonGenEx guardian 90 15 <$STR(I3)> 白野猪 0 0 255 第:383 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MonGenEx guardian 50 15 <$STR(I3)> 白野猪 0 0 255 第:384 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MonGenEx guardian 10 85 <$STR(I3)> 白野猪 0 0 255 第:385 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: DelayCall 3000 @守护心脏_刷新第4波_2 第:386 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: BREAK 第:387 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MOV I1 34 第:413 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MOV I1 38 第:416 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MOV I1 40 第:419 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MOV I2 G2 第:422 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: DEC I2 4 第:423 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MUL I2 2 第:424 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: INC I1 <$STR(I2)> 第:425 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MOV I1 60 第:428 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MOV G4 <$STR(I1)> 第:430 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: INC G4 1 第:431 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MOV I3 <$STR(I1)> 第:432 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: DIV I3 4 第:433 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MonGenEx guardian 10 15 <$STR(I3)> 极品祖玛 0 0 255 第:434 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MonGenEx guardian 90 15 <$STR(I3)> 极品祖玛 0 0 255 第:435 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MonGenEx guardian 10 50 <$STR(I3)> 极品祖玛 0 0 255 第:436 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: MonGenEx guardian 90 50 <$STR(I3)> 极品祖玛 0 0 255 第:437 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: DelayCall 3000 @守护心脏_刷新第5波_2 第:438 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:50:53:610] 脚本错误1: BREAK 第:439 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+
+[2026-04-11 16:56:17:654] 脚本错误1: MOV I10 5000 第:47 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:654] 脚本错误1: MOV I10 7400 第:50 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:654] 脚本错误1: MOV I10 8600 第:53 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:654] 脚本错误1: MOV I10 9800 第:56 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:654] 脚本错误1: MOV I10 10000 第:59 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:654] 脚本错误1: MOV I10 12000 第:62 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:654] 脚本错误1: MOV I10 15000 第:65 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: GMEXECUTE SENDMSG 0 【守护心脏】活动正式开始！ 第:66 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: GMEXECUTE SENDMSG 0 请所有参与者保护好心脏！ 第:67 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: GMEXECUTE SENDMSG 0 第1波怪物即将到来... 第:68 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: SetOnTimer 60 1 第:69 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: DelayCall 30000 @守护心脏_刷新第1波 第:70 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: BREAK 第:71 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I1 14 第:85 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I1 17 第:88 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I1 19 第:91 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I1 20 第:94 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I1 22 第:97 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I1 24 第:100 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I1 26 第:103 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I1 28 第:106 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I1 30 第:109 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I13 <$STR(I1)> 第:111 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I3 <$STR(I1)> 第:114 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: DIV I3 4 第:115 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MonGenEx guardian 10 15 <$STR(I3)> 骷髅 0 0 255 第:116 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MonGenEx guardian 90 15 <$STR(I3)> 骷髅 0 0 255 第:117 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: DelayCall 3000 @守护心脏_刷新第1波_2 第:118 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: SetOnTimer 61 120 第:119 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: BREAK 第:120 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: GOTO @守护心脏_活动失败 第:167 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I6 <$STR(I12)> 第:171 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: GOTO @守护心脏_活动胜利 第:174 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: GOTO @守护心脏_切换波次 第:175 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: BREAK 第:176 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I10 15000 第:198 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: ClearMapMonster guardian 第:200 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: INC I12 1 第:202 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: GOTO @守护心脏_刷新第2波 第:205 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: GOTO @守护心脏_刷新第3波 第:208 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: GOTO @守护心脏_刷新第4波 第:211 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: GOTO @守护心脏_刷新第5波 第:214 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: BREAK 第:215 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I1 22 第:229 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I1 24 第:232 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I1 26 第:235 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I1 28 第:238 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I1 30 第:241 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I1 32 第:244 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I1 34 第:247 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I1 36 第:250 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I1 38 第:253 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I13 <$STR(I1)> 第:255 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: INC I13 1 第:256 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I3 <$STR(I1)> 第:257 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: DIV I3 4 第:258 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MonGenEx guardian 10 15 <$STR(I3)> 僵尸 0 0 255 第:259 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MonGenEx guardian 90 15 <$STR(I3)> 僵尸 0 0 255 第:260 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MonGenEx guardian 50 15 <$STR(I3)> 僵尸 0 0 255 第:261 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: DelayCall 3000 @守护心脏_刷新第2波_2 第:262 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: BREAK 第:263 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I1 26 第:301 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I1 28 第:304 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I1 30 第:307 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I1 32 第:310 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I1 35 第:313 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I1 38 第:316 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I1 41 第:319 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I1 43 第:322 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I1 45 第:325 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I13 <$STR(I1)> 第:326 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: INC I13 2 第:327 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MOV I3 <$STR(I1)> 第:328 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: DIV I3 4 第:329 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MonGenEx guardian 10 15 <$STR(I3)> 蜈蚣 0 0 255 第:330 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MonGenEx guardian 90 15 <$STR(I3)> 蜈蚣 0 0 255 第:331 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MonGenEx guardian 10 85 <$STR(I3)> 蜈蚣 0 0 255 第:332 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: MonGenEx guardian 90 85 <$STR(I3)> 蜈蚣 0 0 255 第:333 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: DelayCall 3000 @守护心脏_刷新第3波_2 第:334 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:655] 脚本错误1: BREAK 第:335 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MOV I1 30 第:361 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MOV I1 33 第:364 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MOV I1 35 第:367 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MOV I1 37 第:370 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MOV I1 41 第:373 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MOV I1 45 第:376 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MOV I1 49 第:379 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MOV I1 51 第:382 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MOV I1 53 第:385 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MOV I13 <$STR(I1)> 第:386 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: INC I13 1 第:387 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MOV I3 <$STR(I1)> 第:388 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: DIV I3 4 第:389 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MonGenEx guardian 10 15 <$STR(I3)> 白野猪 0 0 255 第:390 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MonGenEx guardian 90 15 <$STR(I3)> 白野猪 0 0 255 第:391 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MonGenEx guardian 50 15 <$STR(I3)> 白野猪 0 0 255 第:392 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MonGenEx guardian 10 85 <$STR(I3)> 白野猪 0 0 255 第:393 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: DelayCall 3000 @守护心脏_刷新第4波_2 第:394 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: BREAK 第:395 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MOV I1 34 第:420 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MOV I1 38 第:423 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MOV I1 40 第:426 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MOV I1 42 第:429 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MOV I1 46 第:432 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MOV I1 50 第:435 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MOV I1 54 第:438 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MOV I1 57 第:441 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MOV I1 60 第:444 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MOV I13 <$STR(I1)> 第:445 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: INC I13 1 第:446 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MOV I3 <$STR(I1)> 第:447 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: DIV I3 4 第:448 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MonGenEx guardian 10 15 <$STR(I3)> 极品祖玛 0 0 255 第:449 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MonGenEx guardian 90 15 <$STR(I3)> 极品祖玛 0 0 255 第:450 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MonGenEx guardian 10 50 <$STR(I3)> 极品祖玛 0 0 255 第:451 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: MonGenEx guardian 90 50 <$STR(I3)> 极品祖玛 0 0 255 第:452 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: DelayCall 3000 @守护心脏_刷新第5波_2 第:453 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 16:56:17:656] 脚本错误1: BREAK 第:454 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+
+[2026-04-11 17:17:35:693] 脚本错误1: GOTO @守护心脏_失败 第:124 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: GOTO @守护心脏_胜利 第:131 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: GOTO @守护心脏_切换波次 第:132 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: BREAK 第:133 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: GOTO @守护心脏_切换波次 第:143 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: BREAK 第:144 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MOV G54 15000 第:156 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: ClearMapMonster guardian 第:158 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: INC G57 1 第:160 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: GOTO @守护心脏_刷新波次2 第:164 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: GOTO @守护心脏_刷新波次3 第:167 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: GOTO @守护心脏_刷新波次4 第:170 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: GOTO @守护心脏_刷新波次5 第:173 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: BREAK 第:174 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MOV G52 22 第:235 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MOV G52 24 第:238 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MOV G52 26 第:241 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MOV G52 28 第:244 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MOV G52 30 第:247 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MOV G52 32 第:250 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MOV G52 34 第:253 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MOV G52 36 第:256 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MOV G52 38 第:259 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MOV G53 <$STR(G52)> 第:260 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: DIV G53 4 第:261 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MOV G58 <$STR(G52)> 第:262 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: INC G58 1 第:263 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MonGenEx guardian 10 15 <$STR(G53)> 僵尸 0 0 255 第:264 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MonGenEx guardian 90 15 <$STR(G53)> 僵尸 0 0 255 第:265 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MonGenEx guardian 50 15 <$STR(G53)> 僵尸 0 0 255 第:266 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: DelayCall 3000 @守护心脏_刷2波_2 第:267 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: BREAK 第:268 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MOV G52 26 第:305 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MOV G52 28 第:308 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MOV G52 30 第:311 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MOV G52 32 第:314 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MOV G52 35 第:317 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MOV G52 38 第:320 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MOV G52 41 第:323 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MOV G52 43 第:326 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MOV G52 45 第:329 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MOV G53 <$STR(G52)> 第:330 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: DIV G53 4 第:331 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MOV G58 <$STR(G52)> 第:332 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: INC G58 2 第:333 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MonGenEx guardian 10 15 <$STR(G53)> 蜈蚣 0 0 255 第:334 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MonGenEx guardian 90 15 <$STR(G53)> 蜈蚣 0 0 255 第:335 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MonGenEx guardian 10 85 <$STR(G53)> 蜈蚣 0 0 255 第:336 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: MonGenEx guardian 90 85 <$STR(G53)> 蜈蚣 0 0 255 第:337 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: DelayCall 3000 @守护心脏_刷3波_2 第:338 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:693] 脚本错误1: BREAK 第:339 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MOV G52 30 第:365 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MOV G52 33 第:368 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MOV G52 35 第:371 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MOV G52 37 第:374 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MOV G52 41 第:377 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MOV G52 45 第:380 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MOV G52 49 第:383 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MOV G52 51 第:386 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MOV G52 53 第:389 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MOV G53 <$STR(G52)> 第:390 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: DIV G53 4 第:391 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MOV G58 <$STR(G52)> 第:392 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: INC G58 1 第:393 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MonGenEx guardian 10 15 <$STR(G53)> 白野猪 0 0 255 第:394 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MonGenEx guardian 90 15 <$STR(G53)> 白野猪 0 0 255 第:395 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MonGenEx guardian 50 15 <$STR(G53)> 白野猪 0 0 255 第:396 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MonGenEx guardian 10 85 <$STR(G53)> 白野猪 0 0 255 第:397 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: DelayCall 3000 @守护心脏_刷4波_2 第:398 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: BREAK 第:399 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MOV G52 34 第:423 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MOV G52 38 第:426 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MOV G52 40 第:429 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MOV G52 42 第:432 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MOV G52 46 第:435 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MOV G52 50 第:438 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MOV G52 54 第:441 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MOV G52 57 第:444 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MOV G52 60 第:447 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MOV G53 <$STR(G52)> 第:448 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: DIV G53 4 第:449 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MOV G58 <$STR(G52)> 第:450 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: INC G58 1 第:451 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MonGenEx guardian 10 15 <$STR(G53)> 极品祖玛 0 0 255 第:452 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MonGenEx guardian 90 15 <$STR(G53)> 极品祖玛 0 0 255 第:453 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MonGenEx guardian 10 50 <$STR(G53)> 极品祖玛 0 0 255 第:454 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: MonGenEx guardian 90 50 <$STR(G53)> 极品祖玛 0 0 255 第:455 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: DelayCall 3000 @守护心脏_刷5波_2 第:456 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:694] 脚本错误1: BREAK 第:457 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:17:35:700] 脚本错误1: MOV G54 5000 第:43 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 17:17:35:700] 脚本错误1: MOV G54 7400 第:46 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 17:17:35:700] 脚本错误1: MOV G54 8600 第:49 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 17:17:35:700] 脚本错误1: MOV G54 9800 第:52 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 17:17:35:700] 脚本错误1: MOV G54 10000 第:55 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 17:17:35:700] 脚本错误1: MOV G54 12000 第:58 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 17:17:35:700] 脚本错误1: MOV G54 15000 第:61 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 17:17:35:700] 脚本错误1: DelayCall 30000 @刷新第1波 第:63 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 17:17:35:700] 脚本错误1: BREAK 第:64 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 17:17:35:700] 脚本错误1: MOV G52 14 第:77 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 17:17:35:700] 脚本错误1: MOV G52 17 第:80 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 17:17:35:700] 脚本错误1: MOV G52 19 第:83 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 17:17:35:700] 脚本错误1: MOV G52 20 第:86 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 17:17:35:700] 脚本错误1: MOV G52 22 第:89 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 17:17:35:700] 脚本错误1: MOV G52 24 第:92 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 17:17:35:700] 脚本错误1: MOV G52 26 第:95 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 17:17:35:700] 脚本错误1: MOV G52 28 第:98 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 17:17:35:700] 脚本错误1: MOV G52 30 第:101 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 17:17:35:700] 脚本错误1: MOV G58 <$STR(G52)> 第:102 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 17:17:35:700] 脚本错误1: MOV G53 <$STR(G52)> 第:103 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 17:17:35:700] 脚本错误1: DIV G53 4 第:104 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 17:17:35:701] 脚本错误1: MonGenEx guardian 10 15 <$STR(G53)> 骷髅 0 0 255 第:105 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 17:17:35:701] 脚本错误1: MonGenEx guardian 90 15 <$STR(G53)> 骷髅 0 0 255 第:106 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 17:17:35:701] 脚本错误1: DelayCall 3000 @刷新第1波_2 第:107 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 17:17:35:701] 脚本错误1: SetOnTimer 60 1 第:108 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 17:17:35:701] 脚本错误1: SetOnTimer 61 120 第:109 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+[2026-04-11 17:17:35:701] 脚本错误1: BREAK 第:110 行: D:\MirServer\Mir200\Envir\Robot_def\RobotManage.txt
+
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G54 5000 第:39 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G54 7400 第:42 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G54 8600 第:45 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G54 9800 第:48 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G54 10000 第:51 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G54 12000 第:54 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G54 15000 第:57 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: SetOnTimer 60 1 第:59 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: SetOnTimer 61 120 第:60 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: Gmexecute 开始提问 @守护心脏_活动开始 第:62 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: BREAK 第:63 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G52 14 第:75 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G52 17 第:78 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G52 19 第:81 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G52 20 第:84 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G52 22 第:87 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G52 24 第:90 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G52 26 第:93 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G52 28 第:96 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G52 30 第:99 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G58 <$STR(G52)> 第:101 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G53 <$STR(G52)> 第:103 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: DIV G53 4 第:104 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MonGenEx guardian 10 15 <$STR(G53)> 骷髅 0 0 255 第:105 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MonGenEx guardian 90 15 <$STR(G53)> 骷髅 0 0 255 第:106 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: DelayCall 3000 @守护心脏_刷1波_2 第:107 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: BREAK 第:108 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G52 22 第:153 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G52 24 第:156 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G52 26 第:159 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G52 28 第:162 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G52 30 第:165 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G52 32 第:168 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G52 34 第:171 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G52 36 第:174 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G52 38 第:177 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G58 <$STR(G52)> 第:178 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: INC G58 1 第:179 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MOV G53 <$STR(G52)> 第:180 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: DIV G53 4 第:181 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MonGenEx guardian 10 15 <$STR(G53)> 僵尸 0 0 255 第:182 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MonGenEx guardian 90 15 <$STR(G53)> 僵尸 0 0 255 第:183 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: MonGenEx guardian 50 15 <$STR(G53)> 僵尸 0 0 255 第:184 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: DelayCall 3000 @守护心脏_刷2波_2 第:185 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:645] 脚本错误1: BREAK 第:186 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G52 26 第:221 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G52 28 第:224 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G52 30 第:227 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G52 32 第:230 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G52 35 第:233 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G52 38 第:236 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G52 41 第:239 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G52 43 第:242 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G52 45 第:245 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G58 <$STR(G52)> 第:246 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: INC G58 2 第:247 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G53 <$STR(G52)> 第:248 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: DIV G53 4 第:249 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MonGenEx guardian 10 15 <$STR(G53)> 蜈蚣 0 0 255 第:250 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MonGenEx guardian 90 15 <$STR(G53)> 蜈蚣 0 0 255 第:251 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MonGenEx guardian 10 85 <$STR(G53)> 蜈蚣 0 0 255 第:252 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MonGenEx guardian 90 85 <$STR(G53)> 蜈蚣 0 0 255 第:253 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: DelayCall 3000 @守护心脏_刷3波_2 第:254 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: BREAK 第:255 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G52 30 第:279 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G52 33 第:282 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G52 35 第:285 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G52 37 第:288 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G52 41 第:291 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G52 45 第:294 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G52 49 第:297 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G52 51 第:300 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G52 53 第:303 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G58 <$STR(G52)> 第:304 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: INC G58 1 第:305 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G53 <$STR(G52)> 第:306 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: DIV G53 4 第:307 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MonGenEx guardian 10 15 <$STR(G53)> 白野猪 0 0 255 第:308 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MonGenEx guardian 90 15 <$STR(G53)> 白野猪 0 0 255 第:309 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MonGenEx guardian 50 15 <$STR(G53)> 白野猪 0 0 255 第:310 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MonGenEx guardian 10 85 <$STR(G53)> 白野猪 0 0 255 第:311 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: DelayCall 3000 @守护心脏_刷4波_2 第:312 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: BREAK 第:313 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G52 34 第:335 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G52 38 第:338 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G52 40 第:341 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G52 42 第:344 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G52 46 第:347 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G52 50 第:350 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G52 54 第:353 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G52 57 第:356 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G52 60 第:359 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G58 <$STR(G52)> 第:360 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: INC G58 1 第:361 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MOV G53 <$STR(G52)> 第:362 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: DIV G53 4 第:363 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MonGenEx guardian 10 15 <$STR(G53)> 极品祖玛 0 0 255 第:364 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MonGenEx guardian 90 15 <$STR(G53)> 极品祖玛 0 0 255 第:365 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MonGenEx guardian 10 50 <$STR(G53)> 极品祖玛 0 0 255 第:366 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: MonGenEx guardian 90 50 <$STR(G53)> 极品祖玛 0 0 255 第:367 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: DelayCall 3000 @守护心脏_刷5波_2 第:368 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:646] 脚本错误1: BREAK 第:369 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: GOTO @守护心脏_失败 第:503 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: GOTO @守护心脏_胜利 第:510 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: GOTO @守护心脏_切换波次 第:511 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: BREAK 第:512 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: GOTO @守护心脏_切换波次 第:522 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: BREAK 第:523 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G54 15000 第:535 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: ClearMapMonster guardian 第:537 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: INC G57 1 第:539 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: GOTO @守护心脏_刷新波次2 第:543 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: GOTO @守护心脏_刷新波次3 第:546 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: GOTO @守护心脏_刷新波次4 第:549 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: GOTO @守护心脏_刷新波次5 第:552 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: BREAK 第:553 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 22 第:614 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 24 第:617 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 26 第:620 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 28 第:623 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 30 第:626 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 32 第:629 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 34 第:632 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 36 第:635 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 38 第:638 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G53 <$STR(G52)> 第:639 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: DIV G53 4 第:640 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G58 <$STR(G52)> 第:641 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: INC G58 1 第:642 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MonGenEx guardian 10 15 <$STR(G53)> 僵尸 0 0 255 第:643 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MonGenEx guardian 90 15 <$STR(G53)> 僵尸 0 0 255 第:644 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MonGenEx guardian 50 15 <$STR(G53)> 僵尸 0 0 255 第:645 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: DelayCall 3000 @守护心脏_刷2波_2 第:646 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: BREAK 第:647 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 26 第:684 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 28 第:687 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 30 第:690 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 32 第:693 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 35 第:696 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 38 第:699 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 41 第:702 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 43 第:705 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 45 第:708 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G53 <$STR(G52)> 第:709 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: DIV G53 4 第:710 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G58 <$STR(G52)> 第:711 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: INC G58 2 第:712 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MonGenEx guardian 10 15 <$STR(G53)> 蜈蚣 0 0 255 第:713 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MonGenEx guardian 90 15 <$STR(G53)> 蜈蚣 0 0 255 第:714 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MonGenEx guardian 10 85 <$STR(G53)> 蜈蚣 0 0 255 第:715 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MonGenEx guardian 90 85 <$STR(G53)> 蜈蚣 0 0 255 第:716 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: DelayCall 3000 @守护心脏_刷3波_2 第:717 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: BREAK 第:718 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 30 第:744 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 33 第:747 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 35 第:750 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 37 第:753 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 41 第:756 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 45 第:759 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 49 第:762 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 51 第:765 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 53 第:768 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G53 <$STR(G52)> 第:769 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: DIV G53 4 第:770 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G58 <$STR(G52)> 第:771 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: INC G58 1 第:772 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MonGenEx guardian 10 15 <$STR(G53)> 白野猪 0 0 255 第:773 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MonGenEx guardian 90 15 <$STR(G53)> 白野猪 0 0 255 第:774 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MonGenEx guardian 50 15 <$STR(G53)> 白野猪 0 0 255 第:775 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MonGenEx guardian 10 85 <$STR(G53)> 白野猪 0 0 255 第:776 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: DelayCall 3000 @守护心脏_刷4波_2 第:777 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: BREAK 第:778 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 34 第:802 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 38 第:805 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 40 第:808 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 42 第:811 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:647] 脚本错误1: MOV G52 46 第:814 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:648] 脚本错误1: MOV G52 50 第:817 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:648] 脚本错误1: MOV G52 54 第:820 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:648] 脚本错误1: MOV G52 57 第:823 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:648] 脚本错误1: MOV G52 60 第:826 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:648] 脚本错误1: MOV G53 <$STR(G52)> 第:827 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:648] 脚本错误1: DIV G53 4 第:828 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:648] 脚本错误1: MOV G58 <$STR(G52)> 第:829 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:648] 脚本错误1: INC G58 1 第:830 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:648] 脚本错误1: MonGenEx guardian 10 15 <$STR(G53)> 极品祖玛 0 0 255 第:831 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:648] 脚本错误1: MonGenEx guardian 90 15 <$STR(G53)> 极品祖玛 0 0 255 第:832 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:648] 脚本错误1: MonGenEx guardian 10 50 <$STR(G53)> 极品祖玛 0 0 255 第:833 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:648] 脚本错误1: MonGenEx guardian 90 50 <$STR(G53)> 极品祖玛 0 0 255 第:834 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:648] 脚本错误1: DelayCall 3000 @守护心脏_刷5波_2 第:835 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+[2026-04-11 17:25:21:648] 脚本错误1: BREAK 第:836 行: D:\MirServer\Mir200\Envir\MapQuest_def\QManage.txt
+
+[2026-04-11 17:47:24:327] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 17:47:24:327] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 17:47:54:304] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 17:47:54:304] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 17:47:54:304] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 17:47:54:304] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 17:47:54:304] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 17:47:54:304] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 17:48:24:338] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 17:48:24:338] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 17:48:54:360] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 17:48:54:360] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 17:48:54:360] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 17:48:54:360] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 17:48:54:360] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 17:48:54:360] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 17:49:24:364] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 17:49:24:364] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 17:49:54:324] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 17:49:54:324] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 17:49:54:324] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 17:49:54:324] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 17:49:54:324] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 17:49:54:324] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 17:50:24:351] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 17:50:24:351] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 17:52:24:393] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 17:52:24:393] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 17:52:54:460] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 17:52:54:460] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 17:52:54:460] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 17:52:54:460] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 17:52:54:460] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 17:52:54:460] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 17:53:24:456] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 17:53:24:456] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 17:53:54:476] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 17:53:54:476] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 17:53:54:476] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 17:53:54:476] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 17:53:54:476] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 17:53:54:476] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 17:54:24:446] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 17:54:24:446] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 17:54:54:499] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 17:54:54:499] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 17:54:54:499] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 17:54:54:499] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 17:54:54:499] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 17:54:54:499] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 17:55:24:480] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 17:55:24:480] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:01:24:077] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:01:24:077] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:02:12:379] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:02:12:379] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:02:42:375] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:02:42:375] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:02:42:375] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:02:42:375] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:02:42:375] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:02:42:375] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:03:49:093] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:03:49:093] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:04:19:085] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:04:19:085] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:04:19:085] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:04:19:085] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:04:19:085] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:04:19:085] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:04:49:087] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:04:49:087] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:05:19:069] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:05:19:069] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:05:19:069] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:05:19:069] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:05:19:069] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:05:19:069] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:05:49:110] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:05:49:110] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:06:19:151] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:06:19:151] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:06:19:151] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:06:19:151] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:06:19:151] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:06:19:151] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:06:49:055] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:06:49:055] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:07:19:132] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:07:19:132] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:07:19:132] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:07:19:132] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:07:19:132] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:07:19:132] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:07:49:170] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:07:49:170] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:08:19:159] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:08:19:159] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:08:19:159] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:08:19:159] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:08:19:160] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:08:19:160] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:08:49:080] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:08:49:080] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:09:49:131] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:09:49:131] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:10:19:140] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:10:19:140] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:10:19:140] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:10:19:140] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:10:19:140] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:10:19:140] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:10:49:136] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:10:49:136] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:11:19:120] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:11:19:120] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:11:19:120] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:11:19:120] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:11:19:120] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:11:19:120] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:11:49:081] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:11:49:081] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:12:19:088] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:12:19:088] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:12:19:088] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:12:19:088] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:12:19:088] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:12:19:088] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:12:49:084] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:12:49:084] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:13:19:157] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:13:19:157] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:13:19:157] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:13:19:157] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:13:19:157] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:13:19:157] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:13:49:100] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:13:49:100] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:14:19:158] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:14:19:158] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:14:19:158] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:14:19:158] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:14:19:158] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:14:19:158] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:14:48:656] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:14:48:656] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:15:18:711] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:15:18:711] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:15:18:711] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:15:18:711] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:15:18:711] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:15:18:711] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:15:48:685] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:15:48:685] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:16:18:722] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:16:18:722] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:16:18:722] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:16:18:722] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:16:18:722] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:16:18:722] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:16:48:692] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:16:48:692] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:17:18:713] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:17:18:713] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:17:18:713] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:17:18:713] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:17:18:713] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:17:18:713] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:17:48:764] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:17:48:764] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:18:18:709] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:18:18:709] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:18:18:709] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:18:18:709] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:18:18:709] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:18:18:709] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:18:48:742] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:18:48:742] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:19:18:775] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:19:18:775] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:19:18:775] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:19:18:775] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:19:18:776] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:19:18:776] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:19:48:823] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:19:48:823] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:20:18:866] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:20:18:866] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:20:18:866] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:20:18:866] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:20:18:866] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:20:18:866] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:20:48:770] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:20:48:770] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:21:18:865] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:21:18:865] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:21:18:865] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:21:18:865] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:21:18:866] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:21:18:866] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:21:48:799] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:21:48:799] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:22:18:820] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:22:18:820] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:22:18:820] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:22:18:820] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:22:18:820] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:22:18:820] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:22:48:897] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:22:48:897] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:23:18:892] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:23:18:892] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:23:18:892] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:23:18:892] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:23:18:892] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:23:18:892] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:23:48:906] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:23:48:906] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:24:18:941] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:24:18:941] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:24:18:941] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:24:18:941] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:24:18:941] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:24:18:941] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:24:48:857] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:24:48:857] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:25:18:904] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:25:18:904] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:25:18:904] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:25:18:904] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:25:18:904] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:25:18:904] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:25:48:887] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:25:48:887] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:26:18:994] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:26:18:994] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:26:18:994] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:26:18:994] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:26:18:994] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:26:18:994] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:26:48:949] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:26:48:949] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:27:18:927] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:27:18:927] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:27:18:927] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:27:18:927] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:27:18:927] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:27:18:927] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:27:48:950] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:27:48:950] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:28:18:949] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:28:18:949] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:28:18:949] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:28:18:949] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:28:18:949] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:28:18:949] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:29:22:433] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:29:22:433] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:29:52:388] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:29:52:388] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:29:52:388] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:29:52:388] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:29:52:388] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:29:52:388] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:30:22:380] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:30:22:380] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:30:52:387] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:30:52:387] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:30:52:387] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:30:52:387] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:30:52:387] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:30:52:387] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:31:22:454] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:31:22:454] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:31:52:413] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:31:52:413] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:31:52:413] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:31:52:413] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:31:52:413] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:31:52:413] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:32:22:432] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:32:22:432] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:32:52:421] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:32:52:421] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:32:52:421] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:32:52:421] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:32:52:421] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:32:52:421] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:33:22:502] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:33:22:502] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:33:52:457] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:33:52:457] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:33:52:457] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:33:52:457] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:33:52:457] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:33:52:457] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:34:22:458] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:34:22:458] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:34:51:946] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:34:51:946] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:34:51:946] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:34:51:946] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:34:51:947] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:34:51:947] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:35:22:061] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:35:22:061] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:35:51:994] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:35:51:994] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:35:51:994] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:35:51:994] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:35:51:994] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:35:51:994] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:36:22:033] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:36:22:033] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:36:52:071] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:36:52:071] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:36:52:071] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:36:52:071] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:36:52:071] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:36:52:071] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:37:22:084] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:37:22:084] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:38:40:456] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:38:40:456] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:39:10:459] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:39:10:459] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:39:10:459] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:39:10:459] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:39:10:459] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:39:10:459] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:39:40:462] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:39:40:462] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:40:10:497] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:40:10:497] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:40:10:497] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:40:10:497] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:40:10:497] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:40:10:497] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:40:40:520] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:40:40:520] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:41:10:567] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:41:10:567] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:41:10:567] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:41:10:567] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:41:10:567] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:41:10:567] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:41:40:562] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:41:40:562] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:42:10:561] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:42:10:561] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:42:10:561] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:42:10:561] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:42:10:561] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:42:10:561] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:42:40:506] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:42:40:506] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:43:10:547] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:43:10:547] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:43:10:547] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:43:10:547] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:43:10:547] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:43:10:547] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:43:40:593] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:43:40:593] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:44:10:537] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:44:10:537] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:44:10:537] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:44:10:537] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:44:10:537] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:44:10:537] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:44:40:505] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:44:40:505] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:45:10:105] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:45:10:105] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:45:10:105] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:45:10:105] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:45:10:105] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:45:10:105] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:54:42:409] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:54:42:409] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:54:42:409] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:54:42:409] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:54:42:409] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:54:42:409] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:55:12:428] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:55:12:428] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:55:42:409] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:55:42:409] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:55:42:409] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:55:42:409] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:55:42:409] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:55:42:409] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:56:12:383] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:56:12:383] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:59:12:403] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:59:12:403] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 18:59:42:419] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:59:42:419] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:59:42:419] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 18:59:42:419] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:59:42:419] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 18:59:42:419] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 19:00:12:415] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:00:12:415] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 19:00:42:391] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:00:42:391] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 19:00:42:391] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 19:00:42:391] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:00:42:391] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:00:42:391] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 19:01:12:455] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:01:12:455] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 19:01:42:448] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:01:42:448] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 19:01:42:448] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 19:01:42:448] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:01:42:448] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:01:42:448] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 19:02:12:445] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:02:12:445] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 19:02:42:424] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:02:42:424] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 19:02:42:424] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 19:02:42:424] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:02:42:424] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:02:42:424] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 19:03:12:443] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:03:12:443] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 19:03:42:510] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:03:42:510] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 19:03:42:510] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 19:03:42:510] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:03:42:510] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:03:42:510] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 19:04:12:422] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:04:12:422] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 19:04:42:461] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:04:42:461] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 19:04:42:461] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 19:04:42:461] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:04:42:461] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:04:42:461] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 19:05:12:504] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:05:12:504] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 19:05:42:515] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:05:42:515] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 19:05:42:515] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 19:05:42:515] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:05:42:515] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:05:42:515] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 19:06:12:426] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:06:12:426] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 19:06:42:466] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:06:42:466] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 19:06:42:466] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 19:06:42:466] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:06:42:467] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:06:42:467] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 19:07:12:510] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:07:12:510] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 19:07:42:443] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:07:42:443] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 19:07:42:443] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 19:07:42:443] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:07:42:443] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:07:42:443] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 19:08:12:429] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:08:12:430] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 19:08:42:466] [脚本错误] 变量守护活动_状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:08:42:466] [脚本错误] 变量守护活动_总人数不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_总人数 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 19:08:42:466] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:0 参数5: 参数6:
+[2026-04-11 19:08:42:466] [脚本错误] 变量守护心脏_存活状态不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护心脏_存活状态 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:08:42:466] [脚本错误] 变量守护活动_当前波次不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_当前波次 参数3:= 参数4:1 参数5: 参数6:
+[2026-04-11 19:08:42:466] [脚本错误] 变量守护活动_剩余怪物不存在，变量类型:GLOBAL 脚本命令:SAVEVAR NPC名称:QManage 地图:0(0:0) 参数1:GLOBAL 参数2:守护活动_剩余怪物 参数3:= 参数4:20 参数5: 参数6:
+
+[2026-04-11 19:25:34:789] NPC:QFunction ID:999999999 脚本执行 @ITEMBAGBUTTONCLICK2 player:哈迪斯 耗时：31; NpcThreadId: 5168, CurPlayThreadId: 5168
+

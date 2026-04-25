@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>限时物品扩展及触发</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT face=宋体><FONT color=#0000ff>限时道具配置方式</FONT>(Item表根据下方字段进行配置)</FONT></P>
+<P><FONT face=宋体>Need=101、NeedLevel=时间(分钟)，计算时间方式为: 穿戴身上计算时间 
+其他都不计算时间<BR>Need=102、NeedLevel=时间(分钟)，计算时间方式为: 穿戴中、穿戴后脱下放入背包和仓库计算时间!(摆摊 
+拍卖行等不计算时间)<BR>Need=103、NeedLevel=时间(分钟)，计算时间方式为： 
+获得物品即刻计算时间，离线不计算时间、其他方式都计算<BR>Need=104、NeedLevel=时间(分钟)，计算时间方式为： 
+获得物品即刻计算时间，包含离线也计算时间<BR><BR><BR><BR><FONT color=#0000ff>限时物品到期QF触发</FONT></FONT></P>
+<P><FONT face=宋体>[@ItemExpired]<BR>#Act<BR> Sendmsg 7 
+你到期的装备为&lt;$ExpiredItemName&gt;<BR></FONT></P></body>
+</html>

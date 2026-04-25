@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>While条件循环</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT face=宋体>While条件循环</FONT></P>
+<P><FONT face=宋体>While 操作符说明: &gt;大于 &lt;小于 = 
+等于   !不等于  </P>
+<P><BR><FONT color=#808080 face=宋体>[@MAIN]<BR>&lt;</FONT><A href="mailto:111/@111"><FONT color=#808080 face=宋体>111/@111</FONT></A><FONT color=#808080 face=宋体>&gt; &lt;</FONT><A 
+href="mailto:222/@222"><FONT color=#808080 face=宋体>222/@222</FONT></A><FONT color=#808080 face=宋体>&gt; &lt;$STR(N1)&gt;</FONT></P>
+<P><FONT face=宋体><FONT color=#808080><FONT color=#ffff00><FONT color=#000000>; 
+******************************************尽可能不要用这种写法，递归调用容易产生栈溢出</FONT><BR></FONT>[@111]<BR>#IF<BR>SMALL 
+N1 2000<BR>#ACT<BR>Inc N1 1<BR>SendMsg 6 &gt; $STR(N1)&gt;<BR>GOTO 
+@111<BR>BREAK<BR></FONT><FONT color=#000000>;这种脚本递归调用产生的 Stack 
+overflow，堆栈溢出，递归层次多时有可能产生这样的问题。换成新的写法，用 while / endwhile</FONT></FONT></P>
+<P><FONT face=宋体></FONT>&nbsp;</P>
+<P><FONT face=宋体>; <FONT color=#ff0000>★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★推荐这种写法</FONT><BR>[@222]<BR>#IF<BR>#ACT<BR>;为方便测试每次执行脚本前将变量设置为1，本示例脚本可无视MOV<BR>;MOV 
+N1 1<BR>;循环开始，While 变量/值 比较符号(&gt; &lt; =) 变量/值；循环写在 #ACT中<BR><FONT color=#ff0000>While N1 &lt; 1000</FONT><BR>SendMsg 6 &lt;$STR(N1)&gt;<BR>Inc N1 
+1<BR></FONT><FONT face=宋体><FONT color=#ff0000>EndWhile<BR></FONT>;循环结束 EndWhile<BR>SendMsg 6 
+aaaaaa<BR></FONT></P></FONT></body>
+</html>

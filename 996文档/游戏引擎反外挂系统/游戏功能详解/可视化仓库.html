@@ -1,0 +1,85 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>可视化仓库</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+</head>
+
+<BODY>
+<p>============================================================================================<br>
+  =====================================可视化仓库=============================================<br>
+  ============================================================================================<br>
+  可视化仓库总共5个仓库，除了默认的一个仓库外，其他4个仓库，需要脚本命令开通</p>
+<p>openStorage&nbsp;&nbsp; 打开可视化仓库</p>
+<p>;SETSTORAGEOPEN 参数1(仓库序号(2,3,4,5)) 
+参数2(开启或关闭(1,0))<BR>;支持自由调整仓库坐标<BR>OpenStorageView 1 
+打开可视化仓库<BR>OpenStorageView 0 打开普通仓库<BR>支持坐标调整打开窗口的位置，格式为：OpenStorageView 
+0/1 坐标x 坐标 
+y<BR>;---------------------------------------------------------------------</p>
+<p>;仓库二未开启时，从该仓库取物品或存物品会失败，并且触发QF脚本字段<br>
+  [@StorageOpenFail2]<br>
+  #IF<br>
+  #ACT<br>
+  MESSAGEBOX 仓库二无法打开,单击确认后开启 @开启仓库二 @取消</p>
+<p>[@开启仓库二]<br>
+  #IF<br>
+  CHECKGAMEGOLD &gt; 99<br>
+  #ACT<br>
+  GAMEGOLD - 100<br>
+  SETSTORAGEOPEN 2 1<br>
+  ;开启仓库二命令<br>
+  MESSAGEBOX 仓库二已解锁<br>
+  #ELSEACT<br>
+  MESSAGEBOX 元宝不够</p>
+<p>;---------------------------------------------------------------------</p>
+<p>;仓库三未开启时，从该仓库取物品或存物品会失败，并且触发QF脚本字段<br>
+  [@StorageOpenFail3]<br>
+  #IF<br>
+  #ACT<br>
+  MESSAGEBOX 仓库三无法打开,单击确认后开启 @开启仓库三 @取消</p>
+<p>[@开启仓库三]<br>
+  #IF<br>
+  CHECKGAMEGOLD &gt; 99<br>
+  #ACT<br>
+  GAMEGOLD - 100<br>
+  SETSTORAGEOPEN 3 1<br>
+  ;开启仓库三命令<br>
+  MESSAGEBOX 仓库三已解锁<br>
+  #ELSEACT<br>
+  MESSAGEBOX 元宝不够</p>
+<p>;---------------------------------------------------------------------</p>
+<p>;仓库四未开启时，从该仓库取物品或存物品会失败，并且触发QF脚本字段<br>
+[@StorageOpenFail4]<br>
+#IF<br>
+#ACT<br>
+MESSAGEBOX 仓库四无法打开,单击确认后开启 @开启仓库四 @取消</p>
+<p>[@开启仓库四]<br>
+  #IF<br>
+  CHECKGAMEGOLD &gt; 99<br>
+  #ACT<br>
+  GAMEGOLD - 100<br>
+  SETSTORAGEOPEN 4 1<br>
+  ;开启仓库二命令<br>
+  MESSAGEBOX 仓库四已解锁<br>
+  #ELSEACT<br>
+  MESSAGEBOX 元宝不够</p>
+<p>;---------------------------------------------------------------------</p>
+<p>;仓库五未开启时，从该仓库取物品或存物品会失败，并且触发QF脚本字段<br>
+  [@StorageOpenFail5]<br>
+  #IF<br>
+  #ACT<br>
+  MESSAGEBOX 仓库五无法打开,单击确认后开启 @开启仓库五 @取消</p>
+<p>[@开启仓库五]<br>
+  #IF<br>
+  CHECKGAMEGOLD &gt; 99<br>
+  #ACT<br>
+  GAMEGOLD - 100<br>
+  SETSTORAGEOPEN 5 1<br>
+  ;开启仓库三命令<br>
+  MESSAGEBOX 仓库五已解锁<br>
+  #ELSEACT<br>
+  MESSAGEBOX 元宝不够</p>
+</BODY>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>循环脚本运行</title>
+</HEAD>
+<BODY>
+<P><FONT color=#000000 face=宋体>说明：循环脚本运行次数设置<BR>
+  <BR>
+  格式：<FONT color=#ff0000>Loopgoto</FONT>
+   @脚本 脚本运行次数（为空或0时，运行1次）</FONT>  </P>
+<P>  <BR>
+<BR><FONT color=#000000 face=宋体>
+示范脚本：<BR>
+[@循环]<BR>
+#ACT<BR>
+mov N1 0<BR>
+mov N2 1<BR>
+Loopgoto @运算 100<BR>
+sendmsg 6 1加到100的结果为：&lt;$STR(N1)&gt;<BR>
+<BR>
+[@运算]<BR>
+#ACT<BR>
+Inc N1 &lt;$STR(N2)&gt;<BR>
+Inc N2 1<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+增加NPC命令：endloop中止loopgoto<BR>
+<BR>
+[@随机取数]<BR>
+#act<BR>
+mov p1 0<BR>
+loopgoto @取数 100<BR>
+sendmsg 6 循环&lt;$str(p1)&gt;次，才取到&gt;=50的数：&lt;$str(p10)&gt;<BR>
+<BR>
+[@取数]<BR>
+#act<BR>
+inc p1 1<BR>
+;此例仅做说明，实际只用取一次，取50以内的取机数+49即可<BR>
+movr p10 100<BR>
+<BR>
+#if<BR>
+large p10 49<BR>
+#act<BR>
+endloop<BR></FONT></P>
+<FONT size=3>
+  </FONT>
+</BODY>
+</HTML>
+
+ 

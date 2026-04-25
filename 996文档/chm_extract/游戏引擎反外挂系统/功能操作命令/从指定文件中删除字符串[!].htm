@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>从指定文件中删除字符串[!]</title>
+</HEAD>
+<BODY>
+<P><FONT size=2><FONT face=宋体><FONT color=#0000ff><STRONG>功能：</STRONG></FONT><BR>
+&nbsp;&nbsp;&nbsp; <FONT size=2>从指定文件中删除字符串</FONT>和从指定文件中增加字符串。</FONT></FONT></P>
+<P><FONT size=2><FONT face=宋体><STRONG><FONT color=#0000ff>格式：</FONT><BR>
+</STRONG>&nbsp;&nbsp;&nbsp; AddTextList 文件位置 字符串<BR>
+&nbsp;&nbsp;&nbsp; DelTextList 文件位置 字符串<BR><BR>;==========================================<BR>
+;增加字符串<BR>
+[@Test老格式]<BR>#IF<BR>#ACT<BR>
+AddTextList ..\TestList.txt 您的名字</FONT>
+   </FONT></P>
+<P><FONT size=2 face=宋体>[@Test新格式]<BR>
+  #IF<BR>
+  #ACT<BR>
+AddTextList ..\TestList.txt  您的名字 您的性别<BR>
+  ;==========================================</FONT></P>
+<P><FONT size=2 face=宋体>;==========================================<BR>
+;删除字符串</FONT></P>
+<P><FONT size=2 face=宋体>  [@Test老格式]<BR>
+  #IF<BR>
+  #ACT<BR>
+  DelTextList ..\TestList.txt  您的名字</FONT></P>
+<P><FONT size=2 face=宋体>[@Test1新格式]<BR>
+#IF<BR>
+#ACT<BR>
+DelTextList ..\TestList.txt  您的名字 您的性别 <BR>
+  ;==========================================</FONT></P>
+<P><FONT face=宋体>新格式 老格式都可以使用</FONT> </P>
+</BODY>
+</HTML>
+
+ 

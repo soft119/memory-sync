@@ -1,0 +1,232 @@
+[2026-04-06 13:02:47:812] [脚本错误] 变量浠撳簱寮�鍚?..\QuestDiary\绯荤粺鍔熻兘\浠撳簱寮�鍚?txt不存在，变量类型:HUMAN 脚本命令:LOADVAR NPC名称:QManage 地图:0(0:0) 参数1:HUMAN 参数2:浠撳簱寮�鍚?..\QuestDiary\绯荤粺鍔熻兘\浠撳簱寮�鍚?txt 参数3: 参数4: 参数5: 参数6:
+[2026-04-06 13:02:47:812] [脚本参数不正确] Cmd:CHECKVAR NPC名称:QManage 地图:0 座标:0:0 参数1:HUMAN 参数2:浠撳簱寮�鍚?= 参数3:1 参数4: 参数5:
+
+[2026-04-06 14:53:15:501] 脚本错误2: CHECKITEM 火球术 1 第:138 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 14:53:15:501] 脚本错误2: CHECKITEM 治愈术 1 第:144 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 14:53:15:501] 脚本错误2: CHECKITEM 基本剑术 1 第:149 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 14:53:15:501] 脚本错误2: CHECKITEM 抗拒火环 1 第:154 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 14:53:15:501] 脚本错误2: CHECKITEM 施毒术 1 第:159 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 14:53:15:501] 脚本错误2: CHECKITEM 木剑 1 第:165 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 14:53:15:501] 脚本错误2: CHECKITEM 匕首 1 第:170 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 14:53:15:501] 脚本错误2: CHECKITEM 青铜剑 1 第:175 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-06 14:53:41:856] 脚本错误2: CHECKITEM 火球术 1 第:138 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 14:53:41:856] 脚本错误2: CHECKITEM 治愈术 1 第:144 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 14:53:41:856] 脚本错误2: CHECKITEM 基本剑术 1 第:149 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 14:53:41:856] 脚本错误2: CHECKITEM 抗拒火环 1 第:154 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 14:53:41:856] 脚本错误2: CHECKITEM 施毒术 1 第:159 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 14:53:41:856] 脚本错误2: CHECKITEM 木剑 1 第:165 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 14:53:41:856] 脚本错误2: CHECKITEM 匕首 1 第:170 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 14:53:41:856] 脚本错误2: CHECKITEM 青铜剑 1 第:175 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-06 15:43:09:774] 脚本错误, 加载失败: QuestDiary\自动回收\执行回收.txt  
+
+[2026-04-06 15:48:25:875] 脚本错误, 加载失败: \自动回收\\执行回收.txt  
+
+[2026-04-06 15:50:07:869] 脚本错误, 加载失败: \自动回收\\执行回收.txt  
+
+[2026-04-06 15:52:03:872] 脚本错误, 加载失败: QuestDiary\自动回收\执行回收.txt  
+
+[2026-04-06 15:59:57:826] 脚本错误, 加载失败: \自动回收\\执行回收.txt  
+
+[2026-04-06 16:02:05:930] 脚本错误, 加载失败: \自动回收\\执行回收.txt  
+
+[2026-04-06 16:03:53:898] 脚本错误, 加载失败: \自动回收\\执行回收.txt  
+
+[2026-04-06 16:05:55:866] 脚本错误, 加载失败: 自动回收/执行回收.txt  
+
+[2026-04-06 16:09:29:941] 脚本错误, 加载失败: 执行回收.txt  
+
+[2026-04-06 16:11:11:954] 脚本错误, 加载失败: 执行回收.txt  
+
+[2026-04-06 16:13:05:944] 脚本错误, 加载失败: 执行回收.txt  
+
+[2026-04-06 16:16:39:924] 脚本错误, 加载失败: 测试回收.txt  
+
+[2026-04-06 16:18:41:914] 脚本错误, 加载失败: 娴嬭瘯鍥炴敹.txt  
+
+[2026-04-06 16:20:13:899] 脚本错误, 加载失败: 测试回收.txt  
+
+[2026-04-06 16:21:57:916] 脚本错误, 加载失败: 测试回收.txt  
+
+[2026-04-06 16:23:47:975] 脚本错误, 加载失败: 测试回收.txt  
+
+[2026-04-06 16:25:13:935] 脚本错误, 加载失败: 测试回收.txt  
+
+[2026-04-06 16:26:33:928] 脚本错误, 加载失败: 测试回收.txt  
+
+[2026-04-06 16:28:11:934] 脚本错误, 加载失败: 测试回收.txt  
+
+[2026-04-06 16:29:43:938] 脚本错误, 加载失败: 测试回收.txt  
+
+[2026-04-06 16:31:22:834] 脚本错误, 加载失败: 测试回收.txt  
+
+[2026-04-06 16:32:48:835] 脚本错误, 加载失败: 测试回收.txt  
+
+[2026-04-06 16:35:30:837] 脚本错误, 加载失败: 自动回收\执行回收.txt  
+
+[2026-04-06 16:37:38:891] 脚本错误, 加载失败: 自动回收\执行回收.txt  
+
+[2026-04-06 16:42:08:890] 脚本错误, 加载失败: 自动回收\执行回收.txt  
+
+[2026-04-06 16:44:35:925] 脚本错误, 加载失败: 自动回收\执行回收.txt  
+
+[2026-04-06 16:47:57:838] 脚本错误, 加载失败: 鑷姩鍥炴敹\鎵ц鍥炴敹.txt  
+
+[2026-04-06 16:55:37:835] 脚本错误, 加载失败: 自动回收\执行回收.txt  
+
+[2026-04-06 16:58:13:856] 脚本错误, 加载失败: 自动回收\执行回收.txt  
+
+[2026-04-06 18:46:45:207] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+[2026-04-06 18:46:45:207] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 18:46:59:144] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+[2026-04-06 18:46:59:144] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 18:51:09:133] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+[2026-04-06 18:51:09:133] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 18:52:23:119] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+[2026-04-06 18:52:23:119] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 18:53:17:094] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+[2026-04-06 18:53:17:094] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 18:54:47:106] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+[2026-04-06 18:54:47:106] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 18:56:43:121] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+[2026-04-06 18:56:43:121] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 18:58:43:130] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+[2026-04-06 18:58:43:130] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 19:00:01:080] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+[2026-04-06 19:00:01:080] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 19:01:39:119] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+[2026-04-06 19:01:39:119] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 19:05:01:112] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 19:06:37:109] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 19:09:01:081] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 19:27:41:252] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 19:28:43:080] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 19:29:45:048] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 19:32:23:117] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 19:33:49:104] 脚本错误, 加载失败: 执行回收.txt  @main
+
+[2026-04-06 19:35:51:060] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+[2026-04-06 19:35:51:064] 脚本错误1: TRUE 第:894 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-06 19:37:05:066] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+[2026-04-06 19:37:05:069] 脚本错误1: TRUE 第:894 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-06 19:37:55:122] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+[2026-04-06 19:37:55:125] 脚本错误1: TRUE 第:894 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-06 19:40:01:217] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 19:42:13:111] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 19:43:43:126] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+[2026-04-06 19:43:43:128] 脚本错误1: TRUE 第:894 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-06 19:46:59:082] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 19:48:01:045] 脚本错误, 加载失败: QuestDiary\自动回收\执行回收.txt  @main
+
+[2026-04-06 19:48:49:070] 脚本错误, 加载失败: QuestDiary\自动回收\执行回收.txt  @main
+
+[2026-04-06 19:49:37:214] 脚本错误, 加载失败: QuestDiary\自动回收\执行回收.txt  @main
+
+[2026-04-06 19:49:51:666] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 19:50:33:104] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 19:51:05:045] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 19:51:55:143] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 19:54:03:075] 脚本错误, 加载失败: QuestDiary\自动回收\执行回收.txt  @main
+
+[2026-04-06 20:08:21:125] 脚本错误2: DELAY 200 第:92 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 20:08:21:125] 脚本错误2: TakeBagItemEx 治愈术 0 0 500 N1 0 1 第:95 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 20:08:21:125] 脚本错误2: TakeBagItemEx 基本剑术 0 0 500 N2 0 1 第:96 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 20:08:21:125] 脚本错误2: TakeBagItemEx 1003 0 0 500 N3 0 1 第:97 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 20:08:21:125] 脚本错误2: TakeBagItemEx 1004 0 0 500 N4 0 1 第:98 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 20:08:21:125] 脚本错误2: TakeBagItemEx 1005 0 0 500 N5 0 1 第:99 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 20:08:21:125] 脚本错误2: DELAY 300 第:102 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 20:08:21:125] 脚本错误2: ClosePanel 第:104 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-06 20:09:27:116] 脚本错误2: TakeBagItemEx 治愈术 0 0 500 0 0 1 第:92 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 20:09:27:116] 脚本错误2: TakeBagItemEx 基本剑术 0 0 500 0 0 1 第:93 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 20:09:27:116] 脚本错误2: TakeBagItemEx 火球术 0 0 500 0 0 1 第:94 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-06 20:10:27:118] 脚本错误2: TakeBagItemEx 治愈术 0 0 500 0 0 1 第:92 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 20:10:27:118] 脚本错误2: TakeBagItemEx 102 0 0 500 0 0 1 第:93 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 20:10:27:118] 脚本错误2: TakeBagItemEx 103 0 0 500 0 0 1 第:94 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-06 20:11:11:119] 脚本错误2: TAKEITEM 治愈术 0 0 500 第:92 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 20:11:11:119] 脚本错误2: TAKEITEM 基本剑术 0 0 500 第:93 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 20:11:11:119] 脚本错误2: TAKEITEM 火球术 0 0 500 第:94 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-06 20:11:49:080] 脚本错误2: TakeItem 治愈术 1 0 0 500 第:91 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 20:11:49:080] 脚本错误2: TakeItem 基本剑术 1 0 0 500 第:92 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 20:11:49:080] 脚本错误2: TakeItem 火球术 1 0 0 500 第:93 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-06 20:12:15:038] 脚本错误2: TakeItem 治愈术 1 0 0 500 第:91 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 20:12:15:038] 脚本错误2: TakeItem 基本剑术 1 0 0 500 第:92 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 20:12:15:038] 脚本错误2: TakeItem 火球术 1 0 0 500 第:93 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-06 20:12:51:064] 脚本错误2: AutoTakeItem 治愈术 第:92 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 20:12:51:064] 脚本错误2: AutoTakeItem 基本剑术 第:93 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 20:12:51:064] 脚本错误2: AutoTakeItem 火球术 第:94 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-06 20:12:57:321] 脚本错误2: AutoTakeItem 治愈术 第:92 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 20:12:57:321] 脚本错误2: AutoTakeItem 基本剑术 第:93 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 20:12:57:321] 脚本错误2: AutoTakeItem 火球术 第:94 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-06 20:19:01:268] 脚本错误2: RECYCLELIST ..\RecyclePrice.txt 第:93 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-06 20:40:34:266] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 20:41:22:147] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 20:41:43:418] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 20:42:12:121] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 20:43:33:219] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 20:45:27:232] 脚本错误, 加载失败: 自动回收\执行回收.txt  @main
+
+[2026-04-06 20:46:59:196] 脚本错误, 加载失败: QuestDiary\自动回收\执行回收.txt  @main
+
+[2026-04-06 20:48:13:155] 脚本错误, 加载失败: QuestDiary\测试.txt  @main
+
+[2026-04-06 20:58:21:217] 脚本错误, 加载失败: QuestDiary\自动回收\执行回收.txt  @自动回收装备执行
+
+[2026-04-06 21:31:13:296] 脚本错误, 加载失败: 装备回收\装备回收.txt  @main
+
+[2026-04-06 23:22:39:312] 脚本错误2: CHECKBAGGAGE 第:248 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-06 23:28:22:894] 脚本错误2: GOLD + 500 第:249 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 23:28:22:894] 脚本错误2: GOLD + 800 第:258 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 23:28:22:894] 脚本错误2: GOLD + 600 第:267 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 23:28:22:894] 脚本错误2: GOLD + 200 第:276 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 23:28:22:894] 脚本错误2: GOLD + 200 第:285 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 23:28:22:894] 脚本错误2: GOLD + 10 第:294 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+[2026-04-06 23:28:22:894] 脚本错误2: GOLD + 10 第:303 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-06 23:34:38:524] 脚本错误3: GETBAGITEM 0 S10 第:257 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+
+[2026-04-06 23:35:22:925] 脚本错误3: GETBAGITEM 0 S10 第:257 行: D:\MirServer\Mir200\Envir\Market_Def\QFunction-0.txt
+

@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>在地图上放物品[!]</title>
+<style type="text/css">
+<!--
+.style1 {	color: #0000FF;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body>
+<p><FONT face=宋体>格式: THROWITEM 地图名称 X坐标 Y坐标 范围 物品名称 
+数量|时间(秒) 是否掉落提示(0不提示,1提示) 是否可以立即捡取(0不能立即捡取,1可以立即捡取) 
+是否只有自己或自己的队友捡取其他人需要等待(1只有自己，0所有人)</FONT>          </p>
+<p><span class="style1"><FONT face=宋体>支持使用SetThrowItemLy设置来源</FONT></span></p>
+<p><FONT face=宋体>[@main]<br >
+  #IF<br>
+  Random 100<br>
+  #ACT<br>
+  ThrowItem 3 330 330 10 回城卷 5|60 1 1</FONT>
+          </p>
+<p><FONT face=宋体>[@main]<br >
+#ACT<br>
+SetThrowItemLy 5 &lt;$MAP&gt; 白野猪 &lt;$USERNAME&gt; &lt;$YEAR&gt;-&lt;$MONTH&gt;-&lt;$DAY&gt; &lt;$HOUR&gt;:&lt;$MINUTE&gt;:&lt;$SECOND&gt; <br>
+ThrowItem 
+3 330 330 10 回城卷 5|60 1 1</FONT>
+        </p>
+<p><FONT face=宋体></FONT>&nbsp;</p>
+<p><FONT face=宋体></FONT>&nbsp;</p>
+<p><FONT face=宋体></FONT>&nbsp;</p>
+<p><FONT face=宋体></FONT>&nbsp;</p>
+</body>
+</html>

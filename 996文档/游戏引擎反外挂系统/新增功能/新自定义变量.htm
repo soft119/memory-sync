@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>新自定义变量</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P>清理自定义私人变量格式：ClearHumCustVar 参数1 参数2<BR>参数1= 支持多个一起清理 |分割<BR>参数2= 0或者为空清理全服 
+1清理自己</P>
+<P>清理自定义全局变量格式:ClearGlobalCustVar 参数1 <BR>参数1=* 清理全部 支持多个一起清理 |分割</P>
+<P><BR>清理自定义行会变量格式:ClearGuildCustVar参数1 参数2<BR>格式：ClearGuildCustVar 行会名字 
+行会变量名<BR>参数1=* 清理全部 支持多个一起清理 |分割<BR>参数2=* 清理全部 支持多个一起清理 
+|分割<BR>注意：参数1、参数2，均为必填</P>
+<P>自定义保存变量</P>
+<P>功能说明：<BR>自定义变量功能，不再受固定几个变量限制</P>
+<P>使用方法：<BR>自定义个人变量 自定义全局变量 自定义行会变量<BR>变量使用前 需要 申明变量类型 <BR>自定义变量 数据 合区自动合并 
+避免合区需要合大量的文本操作</P>
+<P>自定义私人变量运用:<BR>申明整数型私人变量 VAR Integer HUMAN 变量名<BR>检测整数型私人变量 CHECKVAR HUMAN 变量名 
+? 大于等于<BR>检测整数型私人变量 CHECKVAR HUMAN 变量名 = 等于<BR>检测整数型私人变量 CHECKVAR HUMAN 变量名 &gt; 
+大于<BR>检测整数型私人变量 CHECKVAR HUMAN 变量名 &lt; 小于<BR>操作整数型私人变量 CALCVAR HUMAN 变量名 + - = 
+* /<BR>保存整数型私人变量 SAVEVAR HUMAN 变量名</P>
+<P>申明字符型私人变量 VAR String HUMAN 变量名<BR>检测字符型私人变量 CHECKVAR HUMAN 变量名 = 
+等于<BR>操作字符型私人变量 CALCVAR HUMAN 变量名 =<BR>保存字符型私人变量 SAVEVAR HUMAN 
+变量名<BR>-------------------------------------------------------------------------------------<BR>自定义全局变量运用:<BR>申明整数型全局变量 
+VAR Integer GLOBAL 变量名<BR>检测整数型全局变量 CHECKVAR GLOBAL 变量名 ? 大于等于<BR>检测整数型全局变量 
+CHECKVAR GLOBAL 变量名 = 等于<BR>检测整数型全局变量 CHECKVAR GLOBAL 变量名 &gt; 大于<BR>检测整数型全局变量 
+CHECKVAR GLOBAL 变量名 &lt; 小于<BR>操作整数型全局变量 CALCVAR GLOBAL 变量名 + - = * 
+/<BR>保存整数型全局变量 SAVEVAR GLOBAL 变量名</P>
+<P>申明字符型全局变量 VAR String GLOBAL 变量名<BR>检测字符型全局变量 CHECKVAR GLOBAL 变量名 = 
+等于<BR>操作字符型全局变量 CALCVAR GLOBAL 变量名 = <BR>保存字符型全局变量 SAVEVAR GLOBAL 
+变量名<BR>-------------------------------------------------------------------------------------<BR>申明字符型行会变量 
+VAR String GUILD 变量名<BR>申明整数型行会变量 VAR Integer GUILD 变量名 </P>
+<P>查看私人变量:&lt;$HUMAN(XXXX)&gt;<BR>查看全局变量:&lt;$GLOBAL(XXXX)&gt;<BR>查看行会变量:&lt;$GUILD(XXXX)&gt;<BR><BR>修改指定行会自定义变量格式：REVGuildVAR 
+行会名字 行会变量名 + - = * /</P>
+<P>保存指定行会自定义变量格式：SAVEGuildVAR 行会名字 行会变量名</P>
+<P>;声明全局变量<BR>[@Startup]<BR>#IF<BR>#ACT<BR>VAR Integer GLOBAL 奔跑次数</P>
+<P><BR>;申明行会变量(放置QM中)<BR>[@LoadGuild]<BR>#IF<BR>#ACT<BR>VAR Integer GUILD 行会等级</P>
+<P><BR>;声明个人变量<BR>QManage.txt<BR>[@Login]<BR>#If<BR>CHECKLEVELEX &gt; 
+0<BR>#Act<BR>VAR Integer HUMAN 押镖次数</P>
+<P><BR>自定义变量排序</P>
+<P>说明:排序自定义数字变量名<BR>格式:SortHumVar 参数1 
+参数2 参数3 参数4 参数5 参数6
+<HR>参数1:排序变量名<BR>参数2:写入到字符型变量<BR>参数3:写入到数字型变量<BR>参数4:0=所有玩家 
+1=在线玩家 2=行会变量<BR>参数5:0升序，1降序<BR>参数6:为空或0取所有，取前几名
+<P></P>
+<P>例子:<BR>[@排序变量N]<BR>#IF<BR>#act<BR>SortHumVar 变量数字 S$变量排序 N$变量排序 0 1 
+10<BR>SENDMSG 0 -&lt;$str(S$变量排序1)&gt;:&lt;$STR(N$变量排序1)&gt;<BR>SENDMSG 0 
+-&lt;$str(S$变量排序2)&gt;:&lt;$STR(N$变量排序2)&gt;<BR>SENDMSG 0 
+-&lt;$str(S$变量排序3)&gt;:&lt;$STR(N$变量排序3)&gt;</P>
+<P>&nbsp;</P>
+<P>说明:取自定义数字变量名位置<BR>格式:HumVarRank 参数1 参数2 参数3 
+参数4<BR></P>  
+    
+<HR>参数1:排序变量名<BR>参数2:写入变量名<BR>参数3:0=所有玩家 1=在线玩家 
+2=行会变量<BR>参数4:0升序，1降序
+<P>例子:<BR>[@最大排序10个]<BR>#IF<BR>#act<BR>SortHumVar 变量数字 S$排序写入变量 N$排序写入变量 0 1 
+10<BR>SENDMSG 0 -&lt;$str(S$排序写入变量1)&gt;:&lt;$STR(N$排序写入变量1)&gt;<BR>SENDMSG 0 
+-&lt;$str(S$排序写入变量2)&gt;:&lt;$STR(N$排序写入变量2)&gt;<BR>SENDMSG 0 
+-&lt;$str(S$排序写入变量3)&gt;:&lt;$STR(N$排序写入变量3)&gt;</P>
+<P>&nbsp;</P>
+<P>例子:<BR>[@获取变量位置N]<BR>#if<BR>#ACT<BR>HumVarRank 变量数字 N$变量位置 0 1<BR>SENDMSG 0 
+-&lt;$STR(N$变量位置)&gt;</P>
+<P>&nbsp;</P></body>
+</html>

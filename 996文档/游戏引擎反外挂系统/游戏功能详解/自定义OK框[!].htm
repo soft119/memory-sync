@@ -1,0 +1,259 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><title>自定义OK框[!]</title>
+<META content="text/html; charset=gb2312" http-equiv=Content-Type>
+<STYLE type=text/css>
+<!--
+.STYLE1 {
+	color: #FF0000;
+	font-weight: bold;
+}
+.style2 {
+	color: #0000FF;
+	font-weight: bold;
+}
+-->
+</STYLE>
+
+<META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+<BODY>
+<p>自定义OK框</p>
+<p>&lt;ITEMBOX:N:F:M:X:Y:W:H:S:T&gt;\<br >
+  N=编号(0~17)<br >
+  F=OK框的背景的WIL序号，-1时不绘制背景<br >
+  M=OK框的背景的图片序号<br >
+  X Y = 微调坐标<br >
+  W=宽度<br >
+  H=高度<br >
+  S=允许放入的物品类型。DB库的StdMode值，如果有多个使用“,”隔开，如果为“*”时，允许所有物品<br >
+T=未放入装备时，鼠标移动显示信息</p>
+<p>&lt;$BOXITEM[X].INDEX&gt; DB里的IDX字段值加1，例如DB里的IDX值是1，这个变量获取到的值就是2<br >&lt;$BOXITEM[X].NAME&gt; 
+当前自定义OK框中的物品名称<BR>
+  &lt;$BOXITEM[X].COUNT&gt; 当前自定义OK框中的物品数量<br >
+  &lt;$BOXITEM[X].NAME_G&gt; 当前自定义OK框中的物品改名名称<br >
+  &lt;$BOXITEM[X].DURA&gt; 当前自定义OK框中的物品持久<br >
+  &lt;$BOXITEM[X].DURAMAX&gt; 当前自定义OK框中的物品最大持久<br >
+  &lt;$BOXITEM[X].MAKEINDEX&gt; 当前自定义OK框中的物品序列号<br >
+  &lt;$BOXITEM[X].STDMODE&gt; 当前自定义OK框中的物品StdMode字段值<br >
+  &lt;$BOXITEM[X].SHAPE&gt; 当前自定义OK框中的物品Shape字段值<br >
+  &lt;$BOXITEM[X].LOOKS&gt; 当前自定义OK框中的物品Looks字段值<br >
+  &lt;$BOXITEM[X].COLOR&gt; 当前自定义OK框中的物品Color字段值<br >
+  &lt;$BOXITEM[X].UPGRADECOUNT&gt; 当前自定义OK框中的物品星星数<br >
+  &lt;$BOXITEM[X].HP&gt; 当前自定义OK框中的物品HP字段值<br >
+  &lt;$BOXITEM[X].MP&gt; 当前自定义OK框中的物品MP字段值<br >
+  &lt;$BOXITEM[X].LAC&gt; 当前自定义OK框中的物品的防御下限<br >
+  &lt;$BOXITEM[X].HAC&gt; 当前自定义OK框中的物品的防御上限<br >
+  &lt;$BOXITEM[X].LMAC&gt; 当前自定义OK框中的物品的魔防下限<br >
+  &lt;$BOXITEM[X].HMAC&gt; 当前自定义OK框中的物品的魔防上限<br >
+  &lt;$BOXITEM[X].LDC&gt; 当前自定义OK框中的物品的攻击下限<br >
+  &lt;$BOXITEM[X].HDC&gt; 当前自定义OK框中的物品的攻击上限<br >
+  &lt;$BOXITEM[X].LMC&gt; 当前自定义OK框中的物品的魔法下限<br >
+  &lt;$BOXITEM[X].HMC&gt; 当前自定义OK框中的物品的魔法上限<br >
+  &lt;$BOXITEM[X].LSC&gt; 当前自定义OK框中的物品的道术下限<br >
+&lt;$BOXITEM[X].HSC&gt; 当前自定义OK框中的物品的道术上限</p>
+<p>&lt;$BOXITEM[X].EFFECTINDEX&gt; 当前自定义OK框中的物品的自定义特效编号</p>
+<p>&lt;$BOXITEM[X].DRILL1&gt; 当前自定义OK框中的物品 镶嵌宝石的 第一个孔是否已经打孔(0=没有打孔 1=已打孔)<br >
+  &lt;$BOXITEM[X].DRILL2&gt; 当前自定义OK框中的物品 镶嵌宝石的 第二个孔是否已经打孔(0=没有打孔 1=已打孔)<br >
+  &lt;$BOXITEM[X].DRILL3&gt; 当前自定义OK框中的物品 镶嵌宝石的 第三个孔是否已经打孔(0=没有打孔 1=已打孔)<br >
+  &lt;$BOXITEM[X].DRILL4&gt; 当前自定义OK框中的物品 镶嵌宝石的 第四个孔是否已经打孔(0=没有打孔 1=已打孔)<br >
+&lt;$BOXITEM[X].DRILL5&gt; 当前自定义OK框中的物品 镶嵌宝石的 第五个孔是否已经打孔(0=没有打孔 1=已打孔)</p>
+<p>&lt;$BOXITEM[X].GINDEX1&gt; 当前自定义OK框中的物品 镶嵌是哪种宝石，该宝石物品在StdItems.DB里IDX字段值加1，例如镶嵌宝石DB里的IDX值是1，这个变量获取到的值就是2(0=没有镶嵌)<br >
+  &lt;$BOXITEM[X].GINDEX2&gt; 当前自定义OK框中的物品 镶嵌是哪种宝石，该宝石物品在StdItems.DB里IDX字段值加1，例如镶嵌宝石DB里的IDX值是1，这个变量获取到的值就是2(0=没有镶嵌)<br >
+  &lt;$BOXITEM[X].GINDEX3&gt; 当前自定义OK框中的物品 镶嵌是哪种宝石，该宝石物品在StdItems.DB里IDX字段值加1，例如镶嵌宝石DB里的IDX值是1，这个变量获取到的值就是2(0=没有镶嵌)<br >
+  &lt;$BOXITEM[X].GINDEX4&gt; 当前自定义OK框中的物品 镶嵌是哪种宝石，该宝石物品在StdItems.DB里IDX字段值加1，例如镶嵌宝石DB里的IDX值是1，这个变量获取到的值就是2(0=没有镶嵌)<br >
+  &lt;$BOXITEM[X].GINDEX5&gt; 当前自定义OK框中的物品 镶嵌是哪种宝石，该宝石物品在StdItems.DB里IDX字段值加1，例如镶嵌宝石DB里的IDX值是1，这个变量获取到的值就是2(0=没有镶嵌)</p>
+<p>&lt;$BOXITEM[X].GNAME1&gt; 当前自定义OK框中的物品 镶嵌宝石的名称<br >
+  &lt;$BOXITEM[X].GNAME2&gt; 当前自定义OK框中的物品 镶嵌宝石的名称<br >
+  &lt;$BOXITEM[X].GNAME3&gt; 当前自定义OK框中的物品 镶嵌宝石的名称<br >
+  &lt;$BOXITEM[X].GNAME4&gt; 当前自定义OK框中的物品 镶嵌宝石的名称<br >
+&lt;$BOXITEM[X].GNAME5&gt; 当前自定义OK框中的物品 镶嵌宝石的名称</p>
+<p>&lt;$BOXITEM[X].VALUE1&gt; 当前自定义OK框中的物品 元素属性值 <br >
+  &lt;$BOXITEM[X].VALUE2&gt; 当前自定义OK框中的物品 元素属性值<br >
+  &lt;$BOXITEM[X].VALUE3&gt; 当前自定义OK框中的物品 元素属性值<br >
+  &lt;$BOXITEM[X].VALUE4&gt; 当前自定义OK框中的物品 元素属性值<br >
+  &lt;$BOXITEM[X].VALUE5&gt; 当前自定义OK框中的物品 元素属性值<br >
+  &lt;$BOXITEM[X].VALUE6&gt; 当前自定义OK框中的物品 元素属性值<br >
+  &lt;$BOXITEM[X].VALUE7&gt; 当前自定义OK框中的物品 元素属性值<br >
+  &lt;$BOXITEM[X].VALUE8&gt; 当前自定义OK框中的物品 元素属性值<br >
+  &lt;$BOXITEM[X].VALUE9&gt; 当前自定义OK框中的物品 元素属性值<br >
+  &lt;$BOXITEM[X].VALUE10&gt; 当前自定义OK框中的物品 元素属性值<br >
+&lt;$BOXITEM[X].VALUE11&gt; 当前自定义OK框中的物品 元素属性值</p>
+<p>&lt;$BOXITEM[X].MAKEITEMTYPE&gt; 当前自定义OK框中的物品 物品来源类型(0没有物品来源 1GM创建 2NPC创建 3购买的商铺的 4购买的NPC商店里的 5怪物爆的 6系统刷的 7挖矿 8挖的 9宝箱)<br >
+&lt;$BOXITEM[X].MAKEITEMCUSTOMTYPE&gt; 当前自定义OK框中的物品 自定义物品来源<br >
+&lt;$BOXITEM[X].MAKEITEMDATETIME&gt; 当前自定义OK框中的物品<br >
+  &lt;$BOXITEM[X].MAKEITEMMAPFILENAME&gt; 当前自定义OK框中的物品 物品来源地图文件名称<br >
+  &lt;$BOXITEM[X].MAKEITEMMAPNAME&gt; 当前自定义OK框中的物品 物品来源地图名称<br >
+  &lt;$BOXITEM[X].MAKEITEMCHRNAME&gt; 当前自定义OK框中的物品 物品来源人物名称<br >
+&lt;$BOXITEM[X].MAKEITEMMONNAME&gt; 当前自定义OK框中的物品 物品来源怪物名称</p>
+<p class="STYLE1"><strong>&lt;$BOXITEM[X].CUSTOMTEXT&gt; 当前自定义OK框中的物品 自定义文本内容<br >
+&lt;$BOXITEM[X].CUSTOMTEXTCOLOR&gt; 当前自定义OK框中的物品 自定义文本显示的颜色</strong></p>
+<p class="STYLE1"><strong>&lt;$BOXITEM[X].CUSTOMVALUE.VALUE1&gt; 当前自定义OK框中的物品 自定义属性值<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.VALUE2&gt; 当前自定义OK框中的物品 自定义属性值<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.VALUE3&gt; 当前自定义OK框中的物品 自定义属性值<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.VALUE4&gt; 当前自定义OK框中的物品 自定义属性值<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.VALUE5&gt; 当前自定义OK框中的物品 自定义属性值<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.VALUE6&gt; 当前自定义OK框中的物品 自定义属性值<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.VALUE7&gt; 当前自定义OK框中的物品 自定义属性值<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.VALUE8&gt; 当前自定义OK框中的物品 自定义属性值<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.VALUE9&gt; 当前自定义OK框中的物品 自定义属性值<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.VALUE10&gt; 当前自定义OK框中的物品 自定义属性值</strong></p>
+<p class="STYLE1"><strong>&lt;$BOXITEM[X].CUSTOMVALUE.COLOR1&gt; 当前自定义OK框中的物品 自定义属性值显示的颜色<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.COLOR2&gt; 当前自定义OK框中的物品 自定义属性值显示的颜色<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.COLOR3&gt; 当前自定义OK框中的物品 自定义属性值显示的颜色<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.COLOR4&gt; 当前自定义OK框中的物品 自定义属性值显示的颜色<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.COLOR5&gt; 当前自定义OK框中的物品 自定义属性值显示的颜色<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.COLOR6&gt; 当前自定义OK框中的物品 自定义属性值显示的颜色<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.COLOR7&gt; 当前自定义OK框中的物品 自定义属性值显示的颜色<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.COLOR8&gt; 当前自定义OK框中的物品 自定义属性值显示的颜色<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.COLOR9&gt; 当前自定义OK框中的物品 自定义属性值显示的颜色<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.COLOR10&gt; 当前自定义OK框中的物品 自定义属性值显示的颜色</strong></p>
+<p class="STYLE1"><strong>&lt;$BOXITEM[X].CUSTOMVALUE.TYPE1&gt; 当前自定义OK框中的物品 自定义属性类型<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.TYPE2&gt; 当前自定义OK框中的物品 自定义属性类型<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.TYPE3&gt; 当前自定义OK框中的物品 自定义属性类型<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.TYPE4&gt; 当前自定义OK框中的物品 自定义属性类型<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.TYPE5&gt; 当前自定义OK框中的物品 自定义属性类型<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.TYPE6&gt; 当前自定义OK框中的物品 自定义属性类型<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.TYPE7&gt; 当前自定义OK框中的物品 自定义属性类型<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.TYPE8&gt; 当前自定义OK框中的物品 自定义属性类型<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.TYPE9&gt; 当前自定义OK框中的物品 自定义属性类型<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.TYPE10&gt; 当前自定义OK框中的物品 自定义属性类型</strong></p>
+<p class="STYLE1"><strong>&lt;$BOXITEM[X].CUSTOMVALUE.POS1&gt; 当前自定义OK框中的物品 自定义属性显示位置<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.POS2&gt; 当前自定义OK框中的物品 自定义属性显示位置<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.POS3&gt; 当前自定义OK框中的物品 自定义属性显示位置<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.POS4&gt; 当前自定义OK框中的物品 自定义属性显示位置<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.POS5&gt; 当前自定义OK框中的物品 自定义属性显示位置<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.POS6&gt; 当前自定义OK框中的物品 自定义属性显示位置<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.POS7&gt; 当前自定义OK框中的物品 自定义属性显示位置<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.POS8&gt; 当前自定义OK框中的物品 自定义属性显示位置<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.POS9&gt; 当前自定义OK框中的物品 自定义属性显示位置<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.POS10&gt; 当前自定义OK框中的物品 自定义属性显示位置</strong></p>
+<p class="STYLE1"><strong>&lt;$BOXITEM[X].CUSTOMVALUE.RATE1&gt; 当前自定义OK框中的物品 自定义属性是否是百分比类型<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.RATE2&gt; 当前自定义OK框中的物品 自定义属性是否是百分比类型<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.RATE3&gt; 当前自定义OK框中的物品 自定义属性是否是百分比类型<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.RATE4&gt; 当前自定义OK框中的物品 自定义属性是否是百分比类型<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.RATE5&gt; 当前自定义OK框中的物品 自定义属性是否是百分比类型<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.RATE6&gt; 当前自定义OK框中的物品 自定义属性是否是百分比类型<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.RATE7&gt; 当前自定义OK框中的物品 自定义属性是否是百分比类型<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.RATE8&gt; 当前自定义OK框中的物品 自定义属性是否是百分比类型<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.RATE9&gt; 当前自定义OK框中的物品 自定义属性是否是百分比类型<br >
+&lt;$BOXITEM[X].CUSTOMVALUE.RATE10&gt; 当前自定义OK框中的物品 自定义属性是否是百分比类型</strong></p>
+<p class="STYLE1">&lt;$BOXITEM[X].PROGRESSBAR1.OPEN&gt; 当前自定义OK框中的物品 第一个进度条是否开启 0没有开启 1开启<br >
+&lt;$BOXITEM[X].PROGRESSBAR1.NAME&gt; 当前自定义OK框中的物品 第一个进度条的名称<br >
+&lt;$BOXITEM[X].PROGRESSBAR1.COLOR&gt; 当前自定义OK框中的物品 第一个进度条的名称颜色<br >
+&lt;$BOXITEM[X].PROGRESSBAR1.POSITION&gt; 当前自定义OK框中的物品 第一个进度条的当前进度值<br >
+&lt;$BOXITEM[X].PROGRESSBAR1.MAX&gt; 当前自定义OK框中的物品 第一个进度条的最大值<br >
+&lt;$BOXITEM[X].PROGRESSBAR1.IMAGEINDEX&gt; 当前自定义OK框中的物品 第一个进度条的图片序号<br >
+&lt;$BOXITEM[X].PROGRESSBAR1.SHOWCAPTIONSTYLE&gt; 当前自定义OK框中的物品 第一个进度条百分比显示样式<br >
+&lt;$BOXITEM[X].PROGRESSBAR1.LEVEL&gt; 当前自定义OK框中的物品 第一个进度条等级</p>
+<p class="STYLE1">&lt;$BOXITEM[X].PROGRESSBAR2.OPEN&gt; 当前自定义OK框中的物品 第二个进度条是否开启 0没有开启 1开启<br >
+&lt;$BOXITEM[X].PROGRESSBAR2.NAME&gt; 当前自定义OK框中的物品 第二个进度条的名称<br >
+&lt;$BOXITEM[X].PROGRESSBAR2.COLOR&gt; 当前自定义OK框中的物品 第二个进度条的名称颜色<br >
+&lt;$BOXITEM[X].PROGRESSBAR2.POSITION&gt; 当前自定义OK框中的物品 第二个进度条的当前进度值<br >
+&lt;$BOXITEM[X].PROGRESSBAR2.MAX&gt; 当前自定义OK框中的物品 第二个进度条的最大值<br >
+&lt;$BOXITEM[X].PROGRESSBAR2.IMAGEINDEX&gt; 当前自定义OK框中的物品 第二个进度条的图片序号<br >
+&lt;$BOXITEM[X].PROGRESSBAR2.SHOWCAPTIONSTYLE&gt; 当前自定义OK框中的物品 第二个进度条百分比显示样式<br >
+&lt;$BOXITEM[X].PROGRESSBAR2.LEVEL&gt; 当前自定义OK框中的物品 第二个进度条等级</p>
+<p class="STYLE1">新版自定义属性的自定义OK框常量(X是OK框0-17 Y是自定义属性1-30)<BR>
+&lt;$BOXITEM[X].NEWCUSTOMABILS[Y].INDEX&gt;<br>
+&lt;$BOXITEM[X].NEWCUSTOMABILS[Y].VALUE1&gt;<br>
+&lt;$BOXITEM[X].NEWCUSTOMABILS[Y].VALUE2&gt;<br>
+&lt;$BOXITEM[X].NEWCUSTOMABILS[Y].VALUE3&gt;</p>
+<p>&nbsp;</p>
+<p>X范围=0~17<br >
+</p>
+<p>[@main]<br >
+  请放入需要升级的装备\<br >
+  &lt;ITEMBOX:0:2:117:20:10:76:76:10,11:254#只允许放入衣服^251#www.gameofmir.com&gt;\ \ \<br >
+  &lt;ITEMBOX:1:2:117:96:10:76:76:*:254#所有物品都允许放入^251#www.gameofmir.com&gt;\</p>
+<p class="STYLE1">BAGITEMINTOBOX 物品名称 OK框编号(0~17)<br >
+  把包裹中的物品放入OK框中</p>
+<p class="STYLE1">CHECKBAITEMCOUNTEX 物品名称 数量<br >
+检测包裹中物品的数量(排除已经放入自定义OK框的物品)</p>
+<p>UNALLOWITEMINTOBOX <br >
+  禁止放入命令，在OK框里放入物品时触发使用</p>
+<p class="STYLE1"><strong>CheckBoxItemCount OK框编号(0~17) 物品数量(该参数只有是叠加物品时才会有效)<br >
+检测OK框中是否有物品</strong></p>
+<p>ReturnBoxItem OK框编号(0~17)<br >
+  OK框物品返回到包裹</p>
+<p>DELBOXITEM OK框编号(0~17) 删除数量(该参数只有是叠加物品时才会有效，如果没有全部删除掉，需要使用UpDateBoxItem命令进行刷新，否则客户端不能立即显示删除掉的数量。如果该参数为空时，表示该OK框里的叠加物品不管有多少数量，都全部删除)<br >
+  删除OK框物品<br >
+</p>
+<p class="style2">不要使用take命令删除O框物品，删除不了的 </p>
+<p>自定义OK框放入物品后在当前NPC脚本中触发，X值为0~17<br >
+  [@ItemIntoBoxX]<br >
+  #ACT<br >
+  ;禁止放入命令，可以检测是否可以升级的物品，可以使用此命令禁止放入<br >
+  UNALLOWITEMINTOBOX</p>
+<p>把自定义OK框中的物品放入包裹后，在当前NPC脚本中触发，X值为0~17<br >
+[@ItemOutBoxX]</p>
+<p>--------------------------------------------------------------------------------------------------------------</p>
+<p>;有用户在放OK框物品的触发里检测，这里检测不行的，在开始加属性之前必须也检测一下OK框的物品<br>
+  [@ItemIntoBox5]<br>
+  #if<br>
+  EQUAL &lt;$BOXITEM[5].NAME&gt; 进击的巨人<br>
+  #ACT<br>
+  BREAK<br>
+  #ELSEACT<br>
+  ReturnBoxItem 5<br>
+MESSAGEBOX 只有进击的巨人可以吞噬!</p>
+<p>[@开始加属性]<br>
+  ;在开始加属性之前必须检测一下OK框的物品是否合法<br>
+  ;在开始加属性之前必须检测一下OK框的物品是否合法<br>
+  ;在开始加属性之前必须检测一下OK框的物品是否合法<br>
+  #if<br>
+  NOT EQUAL &lt;$BOXITEM[5].NAME&gt; 进击的巨人<br>
+  #ACT<br>
+  ReturnBoxItem 5<br>
+  MESSAGEBOX 只有进击的巨人可以吞噬!<br>
+  BREAK</p>
+<p>#IF<br>
+  #ACT<br>
+  ;关联到OK框物品 所有操作或检测自定义OK框的脚本命令才能正常使用<br>
+  SetUpgradeItem 5</p>
+<p>;修改该OK框物品的名称颜色 -1表示是OK框<br>
+  CHANGEITEMNAMECOLOR -1 253</p>
+<p>;修改OK框物品星星数量 -1表示是OK框<br>
+  CHANGEITEMUPGRADECOUNT -1 + 1</p>
+<p>;刷新到客户端,刷新后，就会解除关联，如果下面还有修改OK框物品的命令，需要重新"SetUpgradeItem 5",最新引擎使用BREAK也会解除关联<br>
+  UpDateBoxItem 5</p>
+<p>;物品返回到包裹<br>
+  ReturnBoxItem 5</p>
+<p>--------------------------------------------------------------------------------------------------------------</p>
+<p>&nbsp;</p>
+<p>例:<br >
+  [@main]<br >
+  请放入需要升级的装备\ \<br >
+  &lt;把包裹物品自动放OK框/@自动放物品&gt;\ \<br >
+  &lt;ITEMBOX:0:2:117:20:10:76:76&gt;\ \ \ \ <br >
+  &lt;ITEMBOX:1:2:117:20:10:76:76&gt;\ \ \ \ </p>
+<p>&lt;开始升级/@开始升级&gt;\</p>
+<p>[@自动放物品]<br >
+  #IF<br >
+  <span class="STYLE1">CHECKBAITEMCOUNTEX</span> 布衣(男)<br >
+  #ACT<br >
+  <span class="STYLE1">BAGITEMINTOBOX</span> 布衣(男) 0<br >
+;放到0号OK框</p>
+<p>#IF<br >
+  <span class="STYLE1">CHECKBAITEMCOUNTEX</span> 布衣(男)<br >
+  #ACT<br >
+  <span class="STYLE1">BAGITEMINTOBOX</span> 布衣(男) 1<br >
+  ;放到1号OK框</p>
+<p>[@开始升级]<br >
+  #IF<br >
+  #ACT<br >
+  ;关联到OK框物品 所有操作或检测自定义OK框的脚本命令才能正常使用<br >
+SetUpgradeItem 0</p>
+<p>#IF<br >
+  ;检测OK框中是否有物品<br >
+  <span class="STYLE1">CheckBoxItemCount</span> 0 1<br >
+  #ACT</p>
+<p>;修改该OK框物品的名称颜色 -1表示是OK框<br >
+  CHANGEITEMNAMECOLOR -1 253</p>
+<p>;修改OK框物品星星数量 -1表示是OK框<br >
+  CHANGEITEMUPGRADECOUNT -1 + 1</p>
+<p>;刷新到客户端，使用后关联自动解除，如果下面还有修改这个OK框物品的脚本命令，需要再次使用SetUpgradeItem进行关联<br >
+  UpDateBoxItem 0</p>
+<p>;物品返回到包裹<br >
+  ReturnBoxItem 0<br >
+  SENDMSG 6 装备升级成功<br >
+  #ELSEACT<br >
+  SENDMSG 6 请放入需要升级的装备</p></BODY></HTML>

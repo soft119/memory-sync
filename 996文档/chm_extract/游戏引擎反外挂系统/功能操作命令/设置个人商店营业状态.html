@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>设置个人商店营业状态 冻结个人商店</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+<style type="text/css">
+<!--
+.STYLE8 {color: #0000FF}
+-->
+</style>
+</head>
+
+<BODY>
+<P><FONT face=宋体><FONT size=2 >功能: <span class="STYLE8">设置个人商店营业状态 冻结个人商店</span><BR>
+    <BR>
+格式: <span class="STYLE8">SETUSERSHOPBUSINESS 角色名称 禁止或开启(0,1)</span><BR>
+<BR>
+</FONT>[@main]<br>
+#if<br>
+CHECKMYSHOP<br>
+#act<br>
+SETUSERSHOPBUSINESS &lt;$USERNAME&gt; 0<br>
+SENDMSG 6 你的个人商店已经禁止营业<br>
+SENDMSG 6 禁止营业后在个人商店里无法搜索到你的商店<br>
+SENDMSG 6 无法搜索到你出售的物品，无法在个人商店里摆摊<br>
+#elseact<br>
+SENDMSG 6 
+你还没有个人商店</FONT>
+  </P>
+</BODY>
+</html>

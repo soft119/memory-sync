@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>跨服与本服之间数据传递</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT color=#0000ff size=4 face=宋体><STRONG>跨服与本服之间数据传递</STRONG></FONT></P>
+<P><FONT face=宋体>本服通知触发跨服QF<BR>BFBACKCALL <FONT color=#ff0000>参数1 参数2 参数3 
+参数4</FONT><BR>参数1：IDX(QF触发标签编号)<BR>参数2：UID(某玩家UID，0 = 
+全部触发)<BR>参数3：传递的字符串1(字符串)<BR>参数4：传递的字符串2(字符串)</FONT></P>
+<P><FONT color=#ff0000 face=宋体>注:(进入跨服NPC是在本服，执行了也是本服,QF与QM才是跨服执行)</FONT></P>
+<P><FONT face=宋体><FONT color=#808080>;//QFunction-0.txt触发<BR></FONT>[@BFSYSCALLX]<BR>#IF<BR>#ACT<BR><FONT color=#808080>;传递的字符串1：&lt;$ 
+PARAM1&gt;，传递的字符串2：&lt;$PARAM2&gt;</FONT><BR>SendMsg 6 
+&lt;$PARAM1&gt;-----------&lt;$PARAM2&gt;</FONT></P>
+<P><BR><FONT face=宋体>跨服通知触发本服QF<BR>KFBACKCALL <FONT color=#ff0000>参数1 参数2 参数3 
+参数4</FONT><BR>参数1：IDX(QF触发标签编号)<BR>参数2：UID(某玩家UID，0 = 
+全部触发)<BR>参数3：传递的字符串1(字符串)<BR>参数4：传递的字符串2(字符串)</FONT></P>
+<P><FONT face=宋体><FONT color=#808080>;//QFunction-0.txt触发</FONT><BR>[@KFSYSCALLX]<BR>#IF<BR>#ACT<BR><FONT color=#808080>;传递的字符串1：&lt;$ 
+PARAM1&gt;，传递的字符串2：&lt;$PARAM2&gt;</FONT><BR>SendMsg 6 
+&lt;$PARAM1&gt;-----------&lt;$PARAM2&gt;</FONT></P>
+<P><FONT face=宋体></FONT>&nbsp;</P>
+<P><FONT face=宋体><FONT color=#808080>;//跨服至本服传递示例：<BR></FONT>[@只能跨服QF/Qm触发]<BR>#ACT<BR>KFBACKCALL 22 0 
+测试字符串1 测试字符串2</FONT></P>
+<P><FONT face=宋体><FONT color=#808080>;本服读取QFunction-0.txt触发@KFSYSCALL</FONT><BR>[@KFSYSCALL22]<BR>#ACT<BR>SendMsg 
+6 &lt;$PARAM1&gt;=测试字符串1----------- &lt;$PARAM2&gt;=测试字符串2</FONT></P>
+<P><FONT face=宋体><FONT color=#808080>;//本服至跨服传递示例：</FONT><BR>[@支持NPC、QF、QM触发]<BR>#ACT<BR>BFBACKCALL 33 
+0 测试字符串1 测试字符串2</FONT></P>
+<P><FONT face=宋体><FONT color=#808080>;跨服读取QFunction-0.txt触发@BFSYSCALL</FONT><BR>[@BFSYSCALL33]<BR>#ACT<BR>SendMsg 
+6 &lt;$PARAM1&gt;=测试字符串1----------- 
+&lt;$PARAM2&gt;=测试字符串2<BR></FONT></P></body>
+</html>

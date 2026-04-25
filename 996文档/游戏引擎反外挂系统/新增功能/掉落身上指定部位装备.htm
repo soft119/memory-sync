@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>掉落身上指定部位装备</title>
+<meta name="GENERATOR" content="WinCHM">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<style>
+html,body { 
+	/* Default Font */
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+}
+</style>
+
+</head>
+
+<body>
+<P><FONT face=宋体><FONT color=#0000ff><STRONG>HumanDropUseItem</STRONG></FONT> 参数1 参数2 </FONT>   </P>
+<P><FONT face=宋体>参数1：装备位置 (-1表示随机位置，0~30为指定装备位置 : 0~16 身上物品 17~18 时装 19~30 
+十二生肖)<BR>参数2：暴出物品后记录物品名字符串变量</FONT></P>
+<P><FONT face=宋体>注意：该位置没有穿装备则命令无效...</FONT></P>
+<P><BR><FONT face=宋体>例子：掉落身上装备命令 
+</FONT> </P>
+<P><FONT face=宋体>[@PlayDie]<BR>#IF<BR>#ACT<BR>HumanDropUseItem -1 S11 
+</FONT>   </P>
+<P><FONT face=宋体>#IF<BR>NOT EQUAL S11<BR>#ACT<BR>SENDMSG 0 
+客官，你的装备爆了：&lt;$STR(S11)&gt;</FONT>  
+</P></body>
+</html>

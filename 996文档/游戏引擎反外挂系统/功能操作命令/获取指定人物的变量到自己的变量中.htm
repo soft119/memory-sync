@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN">
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>获取指定人物的变量到自己的变量中</title>
+<style>
+<!--
+div{word-break:break-all;word-wrap:break-word}.t{border:1px solid #c7d6e1;margin:0px auto 8px;}.t2{border-top:#c7d6e1 1px solid;margin:0px auto 5px;}.t{padding:1px}.t {padding:0}th{word-break:break-all;word-wrap:break-word}.r_one{background:#f9f9f9;}.tr1 th{padding:5px 10px;text-align:left;vertical-align:top;font-weight:normal;}.tr1 th{border-right:1px solid #e6e6e6;}.tpc_content{font-size:14px;font-family:Arial;padding:0 2% 0 0.5%;margin:0 0 2%}-->
+</style>
+</head>
+
+<body>
+
+<p><FONT face=宋体>获取指定人物的变量 到 自己的变量中：<br>
+  GetHumVar 对方的名字 对方的变量 自己的变量<br>
+GetHumVar S3 &lt;$MAXAC&gt; S4</FONT>
+   </p>
+<p><FONT face=宋体>[@main]<br>
+  #act<br>
+  GetHumVar S3 &lt;$MAXAC&gt; S4<br>
+  SENDMSG 6 
+你已成功取得对方防御力为&lt;$STR(S4)&gt;</FONT>
+    </p>
+</body>
+
+</html>
